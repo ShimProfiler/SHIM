@@ -1,0 +1,27 @@
+How to load the module & create the device file
+
+Before you load the module, you need to patch your kernel with "callback.path".
+
+sudo insmod ./ppid_map.ko
+sudo ./create_ppid_device.sh
+
+/dev/ppid_map provides information about who is running on which processors
+by exposing a map to user level mmap requests. Start from the base address of
+the map, each processor has one cacheline size slot (64 bytes for intel x86).
+To get the base address of the processor N, base + N * 64. Start from each processors'
+base, the first "int" shows the pid of the thread running on that processor, the second
+"int" shows the tgid (the process id) of the thread running on that processor.
+
+code example to mmap the device
+
+if ((fd=open("/dev/ppid_map", O_RDWR|O_SYNC)) < 0) {
+   perror("open")
+   exit(-1);
+}
+kadr = mmap(0, len, PROT_READ|PROT_WRITE, MAP_SHARED| MAP_LOCKED,
+		    fd, 0);
+if (kadr == MAP_FAILED)	{
+   perror("mmap");
+   exit(-1);
+}
+pid_signal_buf = (char *)kadr;
