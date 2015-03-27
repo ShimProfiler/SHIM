@@ -1,0 +1,24 @@
+diff --git a/kernel/sched/core.c b/kernel/sched/core.c
+index 649c9f8..e5a02fd 100644
+--- a/kernel/sched/core.c
++++ b/kernel/sched/core.c
+@@ -3365,6 +3365,9 @@ pick_next_task(struct rq *rq)
+ 	BUG(); /* the idle class will always have a runnable task */
+ }
+ 
++void (*switchCallBack)(struct task_struct *prev,struct task_struct *next) = NULL;
++EXPORT_SYMBOL(switchCallBack);
++
+ /*
+  * __schedule() is the main scheduler function.
+  */
+@@ -3445,6 +3448,9 @@ need_resched:
+ 	sched_preempt_enable_no_resched();
+ 	if (need_resched())
+ 		goto need_resched;
++
++	if (switchCallBack)
++	  switchCallBack(prev,next);
+ }
+ 
+ static inline void sched_submit_work(struct task_struct *tsk)
