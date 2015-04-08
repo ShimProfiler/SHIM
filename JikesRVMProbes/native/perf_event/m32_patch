@@ -1,0 +1,29 @@
+diff --git a/config.mk b/config.mk
+index 522c585..646b73c 100644
+--- a/config.mk
++++ b/config.mk
+@@ -172,8 +172,8 @@ INSTALL=install
+ LN?=ln -sf
+ PFMINCDIR=$(TOPDIR)/include
+ PFMLIBDIR=$(TOPDIR)/lib
+-DBG?=-g -Wall -Werror
+-CFLAGS+=$(OPTIM) $(DBG) -I$(SYSINCDIR) -I$(PFMINCDIR)
++DBG?=-g -Wall
++CFLAGS+=$(OPTIM) $(DBG) -I$(SYSINCDIR) -I$(PFMINCDIR) -fPIC
+ MKDEP=makedepend
+ PFMLIB=$(PFMLIBDIR)/libpfm.a
+ 
+@@ -183,6 +183,13 @@ LDFLAGS+= -m64
+ LIBDIR=$(DESTDIR)/lib64
+ endif
+ 
++ifeq ($(CONFIG_PFMLIB_ARCH_X86),y)
++ifeq (-m32,$(findstring -m32,$(OPTION)))
++CFLAGS += -m32
++CONFIG_PFMLIB_NOPYTHON=y
++endif
++endif
++
+ ifeq ($(CONFIG_PFMLIB_DEBUG),y)
+ CFLAGS += -DCONFIG_PFMLIB_DEBUG
+ endif

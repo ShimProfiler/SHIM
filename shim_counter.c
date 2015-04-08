@@ -25,8 +25,5 @@ void shim_report_counters(void)
     val =  end - begin;
     printf("HW:%s, end:%lld, begin:%lld, val:%lld\n", my->hw_events[i].name, end, begin, val);
   }
-
-  printf("trustable :%d\n", shim_trustable_sample(my->begin_counters, my->end_counters, my));
-  
-  
+  printf("trustable :%d\n", shim_trustable_sample(my->begin_counters, my->end_counters, my));  
 }
