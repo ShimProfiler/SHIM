@@ -12,7 +12,7 @@ native-code:
 	cp -a native/perf_event/perf_event_launcher perf_event_launcher
 	cp -a native/perf_event/libperf_event_launcher.so libperf_event_launcher.so
 	cp -a native/perf_event/libperf_event_reader.so libperf_event_reader.so
-	cp -a native/perf_event/libperf_event_moma.so libperf_event_moma.so
+	cp -a native/perf_event/libperf_event_shim.so libperf_event_shim.so
 	cd native/ptlsim; $(MAKE) $(MFLAGS) all
 	cp -a native/ptlsim/libptlsim.so libptlsim.so
 
@@ -51,15 +51,15 @@ spec/%.class: spec/%.java
 	$(JAVAC) -implicit:none -cp .:/usr/share/benchmarks/SPECjvm98 -sourcepath . $<
 
 moma/%.class: moma/%.java
-	$(JAVAC) -cp .:/home/yangxi/code/jike/jikemoma/dist/production_momaIP_x86_64-linux/jksvm.jar -sourcepath . $<
+	$(JAVAC) -cp .:$(JIKESRVMJAR) -sourcepath . $<
 probe/ReplayProbe.class:probe/ReplayProbe.java
-	$(JAVAC) -cp .:/home/yangxi/code/jike/jikemoma/dist/production_momaIP_x86_64-linux/jksvm.jar -sourcepath . $<
+	$(JAVAC) -cp .:$(JIKESRVMJAR) -sourcepath . $<
 probe/MMTkProbe.class:probe/MMTkProbe.java
-	$(JAVAC) -cp .:/home/yangxi/code/jike/jikemoma/dist/production_momaIP_x86_64-linux/jksvm.jar -sourcepath . $<
+	$(JAVAC) -cp .:$(JIKESRVMJAR) -sourcepath . $<
 probe/MomaProbe.class: probe/MomaProbe.java
-	$(JAVAC) -cp .:/home/yangxi/code/jike/jikemoma/dist/production_momaIP_x86_64-linux/jksvm.jar -sourcepath . $<
+	$(JAVAC) -cp .:$(JIKESRVMJAR) -sourcepath . $<
 probe/ShellProbe.class: probe/ShellProbe.java
-	$(JAVAC) -cp .:/home/yangxi/code/jike/jikemoma/dist/production_momaIP_x86_64-linux/jksvm.jar -sourcepath . $<
+	$(JAVAC) -cp .:$(JIKESRVMJAR) -sourcepath . $<
  
 %.class: %.java
 	$(JAVAC) -cp . $<

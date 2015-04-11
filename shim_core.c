@@ -1,10 +1,7 @@
 #include "shim.h"
 
-//global ppid map, exposed by /dev/ppid_map
-char * pid_signal_map;
-//all shim threads, indexed with get_cpuid()
-shim * shims;
-
+#define PAGESIZE (4096)
+static void shim_create_hw_event(char *name, int id, shim *myshim);
 
 //help functions
 static char *copy_name(char *name)
@@ -14,7 +11,7 @@ static char *copy_name(char *name)
   return dst;
 }
 
-void bind_processor(int cpu)
+static void bind_processor(int cpu)
 {
   cpu_set_t cpuset;
   CPU_ZERO(&cpuset);
@@ -22,13 +19,10 @@ void bind_processor(int cpu)
   pthread_setaffinity_np(pthread_self(), sizeof(cpuset), &cpuset);
 }
 
-char *shim_init(int nr_cpu)
+char *ppid_init()
 {
-  int fd;
   char *kadr;
-
-  int ret = pfm_initialize();
-  assert(ret == PFM_SUCCESS);
+  int fd;
 
   if ((fd=open("/dev/ppid_map", O_RDWR|O_SYNC)) < 0) {
     err(1,"Can't open /dev/ppid_map");
@@ -36,57 +30,42 @@ char *shim_init(int nr_cpu)
   }
 
   kadr = mmap(0, PAGESIZE, PROT_READ|PROT_WRITE, MAP_SHARED| MAP_LOCKED, fd, 0);
-  if (kadr == MAP_FAILED)	{
+  if (kadr == MAP_FAILED) {
     perror("mmap");
     exit(-1);
   }
-
-  pid_signal_map = (char *)kadr;
-
-  shims = (shim *)calloc(nr_cpu,sizeof(shim));
-
-  debug_print("init: fd %d, ppid %p, shim %p\n", fd, kadr, shims);
-
-  return (char *)pid_signal_map;
+  return kadr;  
 }
 
-shim *shim_thread_init(int nr_hw_events, char **hw_event_names, int nr_sw_events, char **sw_event_names, uint64_t **sw_event_ptrs, void *sw_events_handler)
+void shim_init()
+{
+  //from libpfm library man page, http://perfmon2.sourceforge.net/manv4/pfm_initialize.html
+  //This is the first function that a program must call otherwise the library will not function at all. 
+  //This function probes the underlying hardware looking for valid PMUs event tables to activate. 
+  //Multiple distinct PMU tables may be activated at the same time.The function must be called only once.
+  int ret = pfm_initialize();
+  if (ret != PFM_SUCCESS) {
+    err(1,"pfm_initialize() is failed!");
+    exit(-1);
+  }
+}
+
+void shim_thread_init(shim *my, int cpuid, int nr_hw_events, const char **hw_event_names, int (*probe_sw_events)(uint64_t *buf, shim * myshim))
 {
   int i;
-  int cpuid = get_cpuid();
-  debug_print("shim thread %d init\n", cpuid);
-  shim *my = shims + cpuid;
+  debug_print("init shim thread at cpu %d\n", cpuid);
+  bind_processor(cpuid);  
   my->cpuid = cpuid;
-  my->flag = 0;
   my->nr_hw_events = nr_hw_events;
-  //hardware events first
   my->hw_events = (struct shim_hardware_event *)calloc(nr_hw_events, sizeof(struct shim_hardware_event));
   assert(my->hw_events != NULL);
   for (i=0; i<nr_hw_events; i++){
     shim_create_hw_event(hw_event_names[i], i, my);
   }
-
-  my->sw_events = (struct shim_software_event *)calloc(nr_sw_events, sizeof(struct shim_software_event));
-  assert(my->sw_events != NULL);
-  for (i=0; i<nr_sw_events; i++){
-    my->sw_events[i].source = sw_event_ptrs[i];
-    my->sw_events[i].name = copy_name(sw_event_names[i]);
-    debug_print("SHIM %d: create %d software event name:%s\n",
-		my->cpuid,
-		i,
-		my->sw_events[i].name);
-  }
-  my->probe_sw_events = sw_events_handler;   
-  
-  my->begin_counters = (uint64_t *)calloc(MAX_COUNTERS, sizeof(uint64_t));
-  assert(my->begin_counters != NULL);
-  my->end_counters = (uint64_t *)calloc(MAX_COUNTERS, sizeof(uint64_t));
-  assert(my->end_counters != NULL);
-
-  return my;
+  my->probe_sw_events = probe_sw_events;
 }
 
-void shim_create_hw_event(char *name, int id, shim *myshim)
+static void shim_create_hw_event(char *name, int id, shim *myshim)
 {
   struct shim_hardware_event * event = myshim->hw_events + id;
   struct perf_event_attr *pe = &(event->perf_attr);
@@ -116,31 +95,30 @@ void shim_create_hw_event(char *name, int id, shim *myshim)
 	      event->index);
 }
 
+
 int shim_read_counters(uint64_t *buf, shim *myshim)
 {
-  int index = 0;
+  //[0] and [1] are start timestamp and end timestamp
+  int index = 2;
   int i = 0;
-  //control sampling frequency
-  for (i=0;i<myshim->nr_loops;i++)
-    relax_cpu();    
   //start timestamp
-  buf[index++] = rdtsc();
+  buf[0] = rdtsc();
   //hardware counters
   for (i=0; i<myshim->nr_hw_events; i++){
     rdtsc();
     buf[index++] = __builtin_ia32_rdpmc(myshim->hw_events[i].index);
   }
   //end timestamp
-  buf[index++] = rdtsc();
+  buf[1] = rdtsc();
   if (myshim->probe_sw_events != NULL)
     index += myshim->probe_sw_events(buf + index, myshim); 
   return index;
 }
 
-int shim_trustable_sample(uint64_t *start, uint64_t *end, shim *who)
+int shim_trustable_sample(uint64_t *start, uint64_t *end)
 {  
   int cycle_begin_index = 0;
-  int cycle_end_index = who->nr_hw_events + 1;
+  int cycle_end_index = 1;
   uint64_t cycle_begin_diff = end[cycle_begin_index] - start[cycle_begin_index];
   uint64_t cycle_end_diff = end[cycle_end_index] - start[cycle_end_index];
   int cpc = (cycle_end_diff * 100 ) / cycle_begin_diff;
