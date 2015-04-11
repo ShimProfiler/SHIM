@@ -123,7 +123,7 @@ int shim_trustable_sample(uint64_t *start, uint64_t *end)
   uint64_t cycle_end_diff = end[cycle_end_index] - start[cycle_end_index];
   int cpc = (cycle_end_diff * 100 ) / cycle_begin_diff;
   if (cpc < 99 || cpc > 101){
-    printf("cpc is %d\n", cpc);
+    //    debug_print("cpc is %d\n", cpc);
     return 0;
   }
   return 1;

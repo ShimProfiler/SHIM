@@ -37,6 +37,7 @@ public class MomaThread extends Thread {
   private static native void initShimProfiler(int numberShims, int fpOffset, int execStatOffset, int cmidOffset);
   private static native int initShimThread(int cpuid, String[] events, int targetcpu);
   private static native void shimCounting();
+  private static native void shimEventHistogram(int samplingRate);
 
 
   //which CPU this shim thread is running on
@@ -86,6 +87,8 @@ public class MomaThread extends Thread {
         case COUNTING:
           shimCounting();
           break;
+        case EVENTHISTOGRAM:
+          shimEventHistogram(MomaProbe.samplingRate);
       }
       state = MOMA_STANDBY;
     }

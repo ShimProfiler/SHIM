@@ -13,7 +13,7 @@ public class MomaProbe implements Probe {
   //each core has one corresponding shim working thread
   public static MomaThread[] shims;
   public static MomaThread profiler;
-  public static int samplingRate = 0;
+  public static int samplingRate = 1;
   //which CPU JikesRVM process are bind on
   public static int runningCPU = 4;
   public static enum ProfilingApproach{
@@ -30,9 +30,9 @@ public class MomaProbe implements Probe {
     String[] ops = Options.MomaApproach.split(",");
     String cmd = ops[0];
     //where we do the measurement
-    if (cmd.equals("remoteCore")){
+    if (cmd.equals("remote")){
       shimWhere = ProfilingPosition.REMOTECORE;
-    }else if (cmd.equals("sameCore")){
+    }else if (cmd.equals("same")){
       shimWhere = ProfilingPosition.SAMECORE;
     }else{
       System.out.println("Unknown profiling position:" + Options.MomaApproach);
@@ -40,13 +40,13 @@ public class MomaProbe implements Probe {
 
     //what we are going to measure
     String n = ops[1];
-    if (n.equals("EVENTHISTOGRAM")){
+    if (n.equals("eventHistogram")){
       shimHow = ProfilingApproach.EVENTHISTOGRAM;
-    }else if (n.equals("CMIDHISTOGRAM")){
+    }else if (n.equals("cmidHistogram")){
       shimHow = ProfilingApproach.CMIDHISTOGRAM;
-    }else if (n.equals("COUNTING")){
+    }else if (n.equals("counting")){
       shimHow = ProfilingApproach.COUNTING;
-    }else if (n.equals("LOGGING")){
+    }else if (n.equals("logging")){
       shimHow = ProfilingApproach.LOGGING;
     }else{
       System.out.println("Unknown profiling approach:" + Options.MomaApproach);

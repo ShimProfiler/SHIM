@@ -22,6 +22,11 @@
 #define INDEX_HW_COUNTERS (2)
 #define CACHE_LINE_SIZE (64)
 
+#define EXEC_STAT_OFFSET (0)
+#define YP_OFFSET (1)
+#define CMID_OFFSET (2)
+#define PIDSIGNAL_OFFSET (3)
+
 #define ACCESS_ONCE(x) (*(volatile __typeof__(x) *)&(x))
 
 extern char *ttid_to_tr[];
@@ -80,10 +85,10 @@ static int probe_soft_signals(uint64_t *buf, shim *myshim)
 	cmidval = *(fp_ptr-1);
     }
   }
-  buf[index++] = pidsignal;  
   buf[index++] = status;
   buf[index++] = ypval;
   buf[index++] = cmidval;
+  buf[index++] = pidsignal;  
   return index;
 }
 
@@ -147,6 +152,79 @@ Java_moma_MomaThread_shimCounting(JNIEnv * env, jobject obj)
     shim_read_counters(myjshim->end, myshim);
   }
   
+  printf("============================ Tabulate Statistics ============================\n");
+  printf("SHIM.RDTSC\tSHIM.LOOP");
+  for (int i=0;i<myshim->nr_hw_events;i++){
+    printf("\tSHIM.%s",myshim->hw_events[i].name);
+  }
+  printf("\n");
+  printf("%lld\t%lld", myjshim->end[0] - myjshim->begin[0], myjshim->nr_samples);
+  for (int i=0;i<myshim->nr_hw_events;i++){
+    printf("\t%lld",myjshim->end[i+INDEX_HW_COUNTERS] - myjshim->begin[i+INDEX_HW_COUNTERS]);
+  }
+  printf("\n");
+  printf("---------------------------- End --------------------------------------------\n");  
+}
+
+//Building online event per cycle histogram
+//(Event2 * 100 / Event1)
+JNIEXPORT void JNICALL
+Java_moma_MomaThread_shimEventHistogram(JNIEnv * env, jobject obj, jint rate)
+{
+  int cpuid = get_cpuid();
+  jshim *myjshim = jshims + cpuid;
+  shim *myshim = (shim *)myjshim;
+  
+  myjshim->nr_samples = 0;
+  myjshim->nr_bad_samples = 0;
+
+  unsigned int  out_range_samples  = 0;
+  uint64_t taken_samples = 0;
+  
+
+  unsigned int *hist = calloc(1000, sizeof(unsigned int));
+  uint64_t vals[2][MAX_EVENTS];
+  int last_index = 0;
+  int now_index = 1;
+
+  int step = rate;
+
+  int soft_index_base = INDEX_HW_COUNTERS + myshim->nr_hw_events;
+  
+  shim_read_counters(myjshim->begin, myshim);
+
+  shim_read_counters(vals[last_index], myshim);
+  while (ACCESS_ONCE(myjshim->flag) != 0xdead){
+    myjshim->nr_samples++;
+    step--;
+    shim_read_counters(vals[now_index], myshim);
+          
+    //one trustable sample
+    unsigned int  nr_instructions = vals[now_index][INDEX_HW_COUNTERS+1]  - vals[last_index][INDEX_HW_COUNTERS+1];
+    unsigned int  nr_cycles = vals[now_index][INDEX_HW_COUNTERS]  - vals[last_index][INDEX_HW_COUNTERS];
+    int ipc = (nr_instructions * 100)/nr_cycles;
+    int interesting_sample = shim_trustable_sample(vals[last_index], vals[now_index]) &&
+      vals[now_index][soft_index_base + EXEC_STAT_OFFSET] == 1 && ipc <= 1000;
+
+    if (step <= 0){
+      step = rate;
+      taken_samples++;
+      last_index ^= 1;
+      now_index ^=1;
+      if (interesting_sample)
+	hist[ipc]++;
+    }
+  }
+
+  //report the histogram
+  printf("#rate %d, samples %lld, badsamples %lld, out range samples %lld, taken samples %lld\n", rate, (long long)(myjshim->nr_samples), (long long)(myjshim->nr_bad_samples), (long long)(out_range_samples), (long long)(taken_samples));
+  for (int i=0; i<1000; i++){
+    if (hist[i] != 0)
+      printf("IPC %d:%d %.3f\n", i, hist[i], hist[i]/(double)(taken_samples));
+  }
+  free(hist);
+
+  shim_read_counters(myjshim->end, myshim);
   printf("============================ Tabulate Statistics ============================\n");
   printf("SHIM.RDTSC\tSHIM.LOOP");
   for (int i=0;i<myshim->nr_hw_events;i++){
