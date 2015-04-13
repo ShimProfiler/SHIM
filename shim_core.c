@@ -58,7 +58,7 @@ void shim_thread_init(shim *my, int cpuid, int nr_hw_events, const char **hw_eve
   my->cpuid = cpuid;
   my->nr_hw_events = nr_hw_events;
   my->hw_events = (struct shim_hardware_event *)calloc(nr_hw_events, sizeof(struct shim_hardware_event));
-  assert(my->hw_events != NULL);
+  //  assert(my->hw_events != NULL);
   for (i=0; i<nr_hw_events; i++){
     shim_create_hw_event(hw_event_names[i], i, my);
   }
