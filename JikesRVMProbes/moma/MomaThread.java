@@ -11,7 +11,8 @@ import org.jikesrvm.runtime.Magic;
 import org.jikesrvm.scheduler.RVMThread;
 import org.vmmagic.unboxed.Address;
 import probe.MomaProbe;
-import static probe.MomaProbe.ProfilingApproach.*;
+import static moma.MomaCmd.ProfilingApproach.*;
+import static moma.MomaCmd.ProfilingPosition.*;
 
 /**
  * Created by xiyang on 3/09/2014.
@@ -35,6 +36,7 @@ public class MomaThread extends Thread {
   public int shimid;
   public int workingHWThread;
   public int targetHWThread;
+  public MomaCmd curCmd;
 
   //Address are used for asking shim thread to stop profiling
   public Address controlFlag;
@@ -97,26 +99,23 @@ public class MomaThread extends Thread {
       state = MOMA_RUNNING;
       //get some work to do
       System.out.println("Shim" + shimid + " start sampling");
-      switch (MomaProbe.shimHow) {
+      if (!curCmd.cpuFreq.equals("default")){
+        setCurFrequency(curCmd.cpuFreq);
+      }
+      switch (curCmd.shimHow) {
         case COUNTING:
           shimCounting();
           break;
         case EVENTHISTOGRAM:
-          shimEventHistogram(MomaProbe.samplingRate);
+          shimEventHistogram(curCmd.samplingRate);
           break;
         case CMIDHISTOGRAM:
           System.out.println("Current last CMID " + CompiledMethods.currentCompiledMethodId);
-//          if ((nr_iteration & 0x1) == 0) {
-//            System.out.println("Set CPU frequency to " + maxCPUFreq);
-//            setCurFrequency(maxCPUFreq);
-//          }else {
-//            System.out.println("Set CPU frequency to " + minCPUFreq);
-//            setCurFrequency(minCPUFreq);
-//          }
           nr_iteration += 1;
-          shimCMIDHistogram(MomaProbe.samplingRate, CompiledMethods.currentCompiledMethodId);
+          shimCMIDHistogram(curCmd.samplingRate, CompiledMethods.currentCompiledMethodId);
           break;
       }
+      setCurFrequency(maxCPUFreq);
       state = MOMA_STANDBY;
     }
   }
