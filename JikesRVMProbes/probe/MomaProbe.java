@@ -5,6 +5,8 @@ import moma.MomaThread;
 import org.jikesrvm.Options;
 import org.jikesrvm.VM;
 import org.jikesrvm.runtime.Magic;
+import org.jikesrvm.scheduler.RVMThread;
+
 import static org.jikesrvm.runtime.SysCall.sysCall;
 import static moma.MomaCmd.ProfilingApproach.*;
 import static moma.MomaCmd.ProfilingPosition.*;

@@ -6,9 +6,13 @@ import org.jikesrvm.Options;
 import static org.jikesrvm.runtime.SysCall.sysCall;
 
 import org.jikesrvm.compilers.common.CompiledMethods;
+import org.jikesrvm.mm.mminterface.Selected;
 import org.jikesrvm.runtime.Entrypoints;
 import org.jikesrvm.runtime.Magic;
+import org.jikesrvm.runtime.SysCall;
 import org.jikesrvm.scheduler.RVMThread;
+import org.mmtk.plan.CollectorContext;
+import org.mmtk.plan.ParallelCollector;
 import org.vmmagic.unboxed.Address;
 import probe.MomaProbe;
 import static moma.MomaCmd.ProfilingApproach.*;
@@ -22,7 +26,8 @@ public class MomaThread extends Thread {
   //shared by all shim threads
   public static final int fpOffset = Entrypoints.momaFramePointerField.getOffset().toInt();
   public static final int execStateOffset = Entrypoints.execStatusField.getOffset().toInt();
-  public static final int cmidOffset = Entrypoints.momaAppEventField.getOffset().toInt();
+  public static final int cmidOffset = RVMThread.momaOffset;
+  public static final int gcOffset = RVMThread.momaGCoffset;
 
   public static String maxCPUFreq;
   public static String minCPUFreq;
@@ -41,15 +46,17 @@ public class MomaThread extends Thread {
   //Address are used for asking shim thread to stop profiling
   public Address controlFlag;
 
-  private static native void initShimProfiler(int numberShims, int fpOffset, int execStatOffset, int cmidOffset);
+  private static native void initShimProfiler(int numberShims, int fpOffset, int execStatOffset, int cmidOffset, int gcOffset,int targetThread);
   private static native int initShimThread(int cpuid, String[] events, int targetcpu, String outputFileName);
   private static native void shimCounting();
   private static native void shimEventHistogram(int samplingRate);
   private static native void shimCMIDHistogram(int samplingRate, int maxCMID);
+  private static native void shimCMIDHistogramLog(int samplingRate, int maxCMID);
 
   private static native String getMaxFrequency();
   private static native String getMinFrequency();
   private static native void setCurFrequency(String newFreq);
+  private static native void setPrefetcher(int cpu, long newval);
 
 
 
@@ -57,7 +64,15 @@ public class MomaThread extends Thread {
 
   static {
     System.loadLibrary("perf_event_shim");
-    initShimProfiler(MomaProbe.maxCoreNumber, fpOffset, execStateOffset, cmidOffset);
+    int targetThread = -1;
+    for (int i=0; i<RVMThread.numThreads; i++){
+      RVMThread t = RVMThread.threads[i];
+      if (t !=null  && t.getName().contains("org.mmtk.plan.generational.immix.GenImmixCollector [0]")) {
+        System.out.println("First GenImmixCollector Thread " + t.getName() + " pthread id " + t.nativeTid);
+        targetThread = t.nativeTid;
+      }
+    }
+    initShimProfiler(MomaProbe.maxCoreNumber, fpOffset, execStateOffset, cmidOffset, gcOffset, targetThread);
     maxCPUFreq = getMaxFrequency();
     minCPUFreq = getMinFrequency();
   }
@@ -99,7 +114,13 @@ public class MomaThread extends Thread {
       state = MOMA_RUNNING;
       //get some work to do
       System.out.println("Shim" + shimid + " start sampling");
-      if (!curCmd.cpuFreq.equals("default")){
+      if (curCmd.cpuFreq.equals("default")){
+        System.out.println("default config");
+      }
+      else if (curCmd.cpuFreq.equals("turnOffPrefetcher")){
+        setPrefetcher(targetHWThread, (long)0xf);
+      }
+      else {
         setCurFrequency(curCmd.cpuFreq);
       }
       switch (curCmd.shimHow) {
@@ -114,8 +135,21 @@ public class MomaThread extends Thread {
           nr_iteration += 1;
           shimCMIDHistogram(curCmd.samplingRate, CompiledMethods.currentCompiledMethodId);
           break;
+        case CMIDHISTOGRAMLOG:
+          System.out.println("Current last CMID " + CompiledMethods.currentCompiledMethodId);
+          nr_iteration += 1;
+          shimCMIDHistogramLog(curCmd.samplingRate, CompiledMethods.currentCompiledMethodId);
+          break;
       }
-      setCurFrequency(maxCPUFreq);
+
+      if (curCmd.cpuFreq.equals("default")){
+        System.out.println("Finish profiling with default config");
+      } else if (curCmd.cpuFreq.equals("turnOffPrefetcher")){
+        setPrefetcher(targetHWThread, (long)0);
+      } else {
+        setCurFrequency(maxCPUFreq);
+      }
+
       state = MOMA_STANDBY;
     }
   }

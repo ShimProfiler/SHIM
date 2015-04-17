@@ -11,7 +11,7 @@ import static moma.MomaCmd.ProfilingPosition.SAMECORE;
  */
 public class MomaCmd {
   public static enum ProfilingApproach {
-    EVENTHISTOGRAM, CMIDHISTOGRAM, COUNTING, LOGGING
+    EVENTHISTOGRAM, CMIDHISTOGRAM, COUNTING, LOGGING, CMIDHISTOGRAMLOG
   }
 
   public static enum ProfilingPosition {
@@ -53,7 +53,9 @@ public class MomaCmd {
         how = ProfilingApproach.EVENTHISTOGRAM;
       } else if (n.equals("cmidHistogram")) {
         how = ProfilingApproach.CMIDHISTOGRAM;
-      } else if (n.equals("counting")) {
+      } else if (n.equals("cmidHistogramLog")) {
+        how = ProfilingApproach.CMIDHISTOGRAMLOG;
+      } if (n.equals("counting")) {
         how = ProfilingApproach.COUNTING;
       } else if (n.equals("logging")) {
         how = ProfilingApproach.LOGGING;
