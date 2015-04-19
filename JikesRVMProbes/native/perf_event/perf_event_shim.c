@@ -26,7 +26,7 @@
 #define YP_OFFSET (1)
 #define CMID_OFFSET (2)
 #define GC_OFFSET (3)
-#define PIDSIGNAL_OFFSET (3)
+#define PIDSIGNAL_OFFSET (4)
 
 #define ACCESS_ONCE(x) (*(volatile __typeof__(x) *)&(x))
 
@@ -157,7 +157,7 @@ static int probe_soft_signals(uint64_t *buf, shim *myshim)
   buf[index++] = ypval;
   buf[index++] = cmidval;
   buf[index++] = gcval;
-  buf[index++] = pidsignal;  
+  buf[index++] = tid;  
   return index;
 }
 
@@ -436,6 +436,144 @@ Java_moma_MomaThread_shimCMIDHistogram(JNIEnv * env, jobject obj, jint rate, jin
   free(hist);
 }
 
+
+JNIEXPORT void JNICALL
+Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint maxCMID)
+{
+  int cpuid = get_cpuid();
+  jshim *myjshim = jshims + cpuid;
+  shim *myshim = (shim *)myjshim;
+  FILE *dumpfd = myjshim->dumpfd;
+
+  
+  myjshim->nr_samples = 0;
+  myjshim->nr_bad_samples = 0;
+
+  unsigned int  out_range_samples  = 0;
+  uint64_t taken_samples = 0;
+  uint64_t nr_samples = 0;
+
+ 
+
+  struct cmid_tag *app_hist = calloc(maxCMID, sizeof(struct cmid_tag));
+
+  struct cmid_tag **gc_hist = calloc(100, sizeof(struct cmid_tag *));
+  for (int i=0; i<100; i++){
+    gc_hist[i] = calloc(10000, sizeof(struct cmid_tag));
+  }
+
+  uint64_t vals[2][MAX_EVENTS];
+  int last_index = 0;
+  int now_index = 1;
+
+  int step = rate;
+
+  int soft_index_base = INDEX_HW_COUNTERS + myshim->nr_hw_events;
+  
+  shim_read_counters(myjshim->begin, myshim);
+
+  shim_read_counters(vals[last_index], myshim);
+  while (ACCESS_ONCE(myjshim->flag) != 0xdead){
+    myjshim->nr_samples++;
+    step--;
+    shim_read_counters(vals[now_index], myshim);
+          
+    //one trustable sample
+    unsigned int  nr_instructions_core = vals[now_index][INDEX_HW_COUNTERS+1]  - vals[last_index][INDEX_HW_COUNTERS+1];
+    unsigned int  nr_instructions_self = vals[now_index][INDEX_HW_COUNTERS+2]  - vals[last_index][INDEX_HW_COUNTERS+2];
+   
+    unsigned int  nr_cycles = vals[now_index][INDEX_HW_COUNTERS]  - vals[last_index][INDEX_HW_COUNTERS];
+    double ipc_core = (double)nr_instructions_core / nr_cycles;
+    double ipc_self = (double)nr_instructions_self / nr_cycles;
+    double ipc_app = ipc_core - ipc_self;
+
+    int cmid = vals[now_index][soft_index_base + CMID_OFFSET];
+    int gcflag = vals[now_index][soft_index_base + GC_OFFSET];
+    int tid = vals[now_index][soft_index_base + PIDSIGNAL_OFFSET];
+    int interesting_sample = shim_trustable_sample(vals[last_index], vals[now_index]) &&
+      vals[now_index][soft_index_base + EXEC_STAT_OFFSET] == 1 &&
+      tid == sf_signals.targettid &&
+      ipc_core <= 10 &&
+      ipc_self <= ipc_core &&
+      cmid > 0 &&
+      cmid <= maxCMID;
+
+
+    if (step <= 0){
+      step = rate;
+      taken_samples++;
+      last_index ^= 1;
+      now_index ^=1;
+      if (interesting_sample){
+	//	hist[cmid].ipc += ipc_core;
+	//	self_hist[cmid].ipc += ipc_self;
+	app_hist[cmid].ipc += ipc_app;
+	app_hist[cmid].nr_sample += 1;
+	int gc_hist_index = (int)(ipc_app*100);
+	gc_hist[gcflag][gc_hist_index].ipc += ipc_app;
+	gc_hist[gcflag][gc_hist_index].nr_sample +=1;
+	nr_samples += 1;
+	//	printf("%f,%d\n", ipc, gcflag);
+      } else
+	myjshim->nr_bad_samples++;
+    }
+  }
+  shim_read_counters(myjshim->end, myshim);
+  uint64_t profiling_cycles = myjshim->end[0] - myjshim->begin[0];
+
+  //report the histogram
+  fprintf(dumpfd, "\n{\"cmidHistogram\":{\"rate\":%d, \"samples\":%lld, \"untrustableSamples\":%lld, \"outrangeSamples\":%lld, \"takenSamples\":%lld, \"interestingSamples\":%lld,\n", rate, (long long)(myjshim->nr_samples), (long long)(myjshim->nr_bad_samples), (long long)(out_range_samples), (long long)(taken_samples), (long long)nr_samples);
+  dump_global_counters(myjshim);
+  fprintf(dumpfd, "\"hist\":[\n");
+  int cmflag = 0;
+  for (int i=0; i<maxCMID; i++){
+    if (app_hist[i].ipc != 0 && app_hist[i].nr_sample/(double)(nr_samples) >= 0.0001){
+      char * cmstr = ",";
+      if (cmflag == 0){
+	cmstr = "";
+	cmflag = 1;
+      }
+      fprintf(dumpfd, "%s{\"cmid\":%d, \"ipc\":%.3f, \"samples\":%lld, \"percentage\":%.4f}\n", cmstr, i, app_hist[i].ipc/app_hist[i].nr_sample, app_hist[i].nr_sample, app_hist[i].nr_sample/(double)(nr_samples));
+    }
+  }
+  fprintf(dumpfd, "]\n");
+
+  for (int phase=0; phase<10; phase++){
+    struct cmid_tag *h = gc_hist[phase];
+    double sum_ipc = 0;
+    unsigned int total_samples = 0;
+    for (int i=0;i<10000;i++){
+      total_samples += h[i].nr_sample;
+      sum_ipc += h[i].ipc;
+    }
+    if (total_samples == 0)
+      continue;
+    fprintf(dumpfd, ",\"gcphase%d\":{\"samples\":%d, \"averageipc\":%.3f, \"hist\":[\n", phase, total_samples, sum_ipc/total_samples);
+
+    cmflag = 0;
+    for (int i=0; i<10000; i++){
+      if (h[i].ipc != 0){
+	char * cmstr = ",";
+	if (cmflag == 0){
+	  cmstr = "";
+	  cmflag = 1;
+	}
+	fprintf(dumpfd, "%s{\"gcflag\":%d, \"ipc\":%.3f, \"samples\":%lld, \"percentage\":%.4f}\n", cmstr, phase, (float)i/100, h[i].nr_sample, h[i].nr_sample/(double)(total_samples));
+      }
+    }
+    fprintf(dumpfd, "]}\n");
+  }
+  fprintf(dumpfd, "}}\nOBJECTEND\n");
+    
+    fflush(dumpfd);
+
+
+  free(app_hist);
+  for (int i=0; i<100; i++){
+    free(gc_hist[i]);
+  }
+  free(gc_hist);
+}
 JNIEXPORT void JNICALL
 Java_moma_MomaThread_shimEventHistogram(JNIEnv * env, jobject obj, jint rate)
 {
