@@ -9,7 +9,9 @@
 #include <sys/sysinfo.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/mman.h>
 #include <fcntl.h>
+#include <unistd.h>
 #include <sys/mman.h>
 #include <time.h>
 #include <assert.h>
@@ -27,6 +29,7 @@
 #define CMID_OFFSET (2)
 #define GC_OFFSET (3)
 #define PIDSIGNAL_OFFSET (4)
+#define MEMBAND_OFFSET (5)
 
 #define ACCESS_ONCE(x) (*(volatile __typeof__(x) *)&(x))
 
@@ -44,6 +47,7 @@ struct {
   int cmidOffset;
   int gcOffset;
   char *pid_signal_buf;
+  unsigned int *membandsource;
 }sf_signals;
 
 struct jikesShimThread {
@@ -67,6 +71,69 @@ JNIEXPORT void JNICALL Java_moma_MomaThread_initShimProfiler(JNIEnv * env, jobje
 JNIEXPORT int JNICALL Java_moma_MomaThread_initShimThread(JNIEnv * env, jobject obj, jint cpuid, jobjectArray event_strings, jint targetcpu, jstring dumpfilename);
 JNIEXPORT void JNICALL Java_moma_MomaThread_shimCounting(JNIEnv * env, jobject obj);
 
+
+/////////////counters count number of read/write transactions on memory controler///////////
+struct MCFGRecord
+{
+    unsigned long long baseAddress;
+    unsigned short PCISegmentGroupNumber;
+    unsigned char startBusNumber;
+    unsigned char endBusNumber;
+    char reserved[4];
+};
+
+struct MCFGHeader
+{
+    char signature[4];
+    unsigned length;
+    unsigned char revision;
+    unsigned char checksum;
+    char OEMID[6];
+    char OEMTableID[8];
+    unsigned OEMRevision;
+    unsigned creatorID;
+    unsigned creatorRevision;
+    char reserved[8];
+};
+
+
+
+static uint64_t read_memcontroller_addr()
+{
+  uint64_t addr;
+  struct MCFGRecord record;
+  int fd = open("/sys/firmware/acpi/tables/MCFG", O_RDONLY);
+  if (fd < 0)
+    perror("can't open MCFG\n");
+  int32_t result = pread(fd, (void *)&record, sizeof(struct MCFGRecord), sizeof(struct MCFGHeader));
+  printf("read base address at %llx\n", record.baseAddress);
+  return record.baseAddress;
+
+}
+
+unsigned int *get_memband_counter()
+{
+  int handle = open("/dev/mem", O_RDONLY);
+  if (handle < 0){
+    perror("can't open /dev/mem\n");
+  }
+
+  uint64_t offset = read_memcontroller_addr();
+  char * mmapAddr = (char*) mmap(NULL, 4096, PROT_READ, MAP_SHARED , handle, offset);
+  uint64_t imcbar = *((uint64_t *)(mmapAddr + 0x48));
+  imcbar &= (~(4096-1));
+  debug_print("imcbar offset is at %llx\n", (unsigned long long)imcbar);
+  char * counterAddr = (char*) mmap(NULL, 0x6000, PROT_READ, MAP_SHARED, handle, imcbar);
+  debug_print("mmap region at %p\n", counterAddr);
+  if (counterAddr == (char *)-1){
+    perror("can't mmap BAR\n");
+  }
+
+  unsigned int *imc_counters = (unsigned int *)(counterAddr + 0x5044);
+  return imc_counters;
+}
+
+////////////////////////////////
 static void dump_header_string(jshim *myjshim)
 {
   shim *myshim = (shim *)myjshim;
@@ -131,6 +198,7 @@ static int probe_soft_signals(uint64_t *buf, shim *myshim)
   uint64_t pidsignal = 0;
   int ypval = 0;
   int gcval = 0;
+  unsigned int memval = 0;
   int cmidval = 0;
   int status = -1;
   int index = 0;
@@ -151,6 +219,7 @@ static int probe_soft_signals(uint64_t *buf, shim *myshim)
       ypval = *((unsigned int *)(cr + sf_signals.cmidOffset));
       gcval = *((unsigned int *)(cr + sf_signals.gcOffset));
       status = *((unsigned int *)(cr + sf_signals.execStatOffset));
+      memval = *(sf_signals.membandsource);
     }
   }
   buf[index++] = status;
@@ -158,6 +227,7 @@ static int probe_soft_signals(uint64_t *buf, shim *myshim)
   buf[index++] = cmidval;
   buf[index++] = gcval;
   buf[index++] = tid;  
+  buf[index++] = memval;
   return index;
 }
 
@@ -179,6 +249,7 @@ Java_moma_MomaThread_initShimProfiler(JNIEnv * env, jobject obj, jint nr_shim, j
   sf_signals.gcOffset = gcOffset;
   sf_signals.targetpid = getpid();
   sf_signals.targettid = targetTid;
+  sf_signals.membandsource = get_memband_counter();
   debug_print("fpOffset:%d, execOffset:%d, cmidOffset:%d, gcOffset:%d, targetpid:%d, targettid:%d\n",
 	      fpOffset, execStatOffset, cmidOffset, gcOffset, sf_signals.targetpid, targetTid);
 }
@@ -234,6 +305,7 @@ Java_moma_MomaThread_shimCounting(JNIEnv * env, jobject obj)
 
 struct cmid_tag{
   double ipc;
+  double memband;
   uint64_t nr_sample;
 };
 
@@ -483,13 +555,16 @@ Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint 
     unsigned int  nr_instructions_self = vals[now_index][INDEX_HW_COUNTERS+2]  - vals[last_index][INDEX_HW_COUNTERS+2];
    
     unsigned int  nr_cycles = vals[now_index][INDEX_HW_COUNTERS]  - vals[last_index][INDEX_HW_COUNTERS];
+    unsigned int nr_memrequest = vals[now_index][soft_index_base + MEMBAND_OFFSET]  - vals[last_index][soft_index_base + MEMBAND_OFFSET];
     double ipc_core = (double)nr_instructions_core / nr_cycles;
     double ipc_self = (double)nr_instructions_self / nr_cycles;
     double ipc_app = ipc_core - ipc_self;
+    double mem_band = (double)nr_memrequest / nr_cycles;
 
     int cmid = vals[now_index][soft_index_base + CMID_OFFSET];
     int gcflag = vals[now_index][soft_index_base + GC_OFFSET];
     int tid = vals[now_index][soft_index_base + PIDSIGNAL_OFFSET];
+    
     int interesting_sample = shim_trustable_sample(vals[last_index], vals[now_index]) &&
       vals[now_index][soft_index_base + EXEC_STAT_OFFSET] == 1 &&
       tid == sf_signals.targettid &&
@@ -508,9 +583,11 @@ Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint 
 	//	hist[cmid].ipc += ipc_core;
 	//	self_hist[cmid].ipc += ipc_self;
 	app_hist[cmid].ipc += ipc_app;
+	app_hist[cmid].memband += mem_band;
 	app_hist[cmid].nr_sample += 1;
 	int gc_hist_index = (int)(ipc_app*100);
 	gc_hist[gcflag][gc_hist_index].ipc += ipc_app;
+	gc_hist[gcflag][gc_hist_index].memband += mem_band;
 	gc_hist[gcflag][gc_hist_index].nr_sample +=1;
 	nr_samples += 1;
 	//	printf("%f,%d\n", ipc, gcflag);
@@ -533,7 +610,7 @@ Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint 
 	cmstr = "";
 	cmflag = 1;
       }
-      fprintf(dumpfd, "%s{\"cmid\":%d, \"ipc\":%.3f, \"samples\":%lld, \"percentage\":%.4f}\n", cmstr, i, app_hist[i].ipc/app_hist[i].nr_sample, app_hist[i].nr_sample, app_hist[i].nr_sample/(double)(nr_samples));
+      fprintf(dumpfd, "%s{\"cmid\":%d, \"ipc\":%.3f, \"memband\":%.5f, \"samples\":%lld, \"percentage\":%.4f}\n", cmstr, i, app_hist[i].ipc/app_hist[i].nr_sample, app_hist[i].memband/app_hist[i].nr_sample,app_hist[i].nr_sample, app_hist[i].nr_sample/(double)(nr_samples));
     }
   }
   fprintf(dumpfd, "]\n");
@@ -541,14 +618,16 @@ Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint 
   for (int phase=0; phase<10; phase++){
     struct cmid_tag *h = gc_hist[phase];
     double sum_ipc = 0;
+    double sum_memband = 0;
     unsigned int total_samples = 0;
     for (int i=0;i<10000;i++){
       total_samples += h[i].nr_sample;
       sum_ipc += h[i].ipc;
+      sum_memband += h[i].memband;
     }
     if (total_samples == 0)
       continue;
-    fprintf(dumpfd, ",\"gcphase%d\":{\"samples\":%d, \"averageipc\":%.3f, \"hist\":[\n", phase, total_samples, sum_ipc/total_samples);
+    fprintf(dumpfd, ",\"gcphase%d\":{\"samples\":%d, \"averageipc\":%.3f, \"averagememband\":%.5f, \"hist\":[\n", phase, total_samples, sum_ipc/total_samples, sum_memband/total_samples);
 
     cmflag = 0;
     for (int i=0; i<10000; i++){
@@ -558,7 +637,7 @@ Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint 
 	  cmstr = "";
 	  cmflag = 1;
 	}
-	fprintf(dumpfd, "%s{\"gcflag\":%d, \"ipc\":%.3f, \"samples\":%lld, \"percentage\":%.4f}\n", cmstr, phase, (float)i/100, h[i].nr_sample, h[i].nr_sample/(double)(total_samples));
+	fprintf(dumpfd, "%s{\"gcflag\":%d, \"ipc\":%.3f, \"memband\":%.5f, \"samples\":%lld, \"percentage\":%.4f}\n", cmstr, phase, (float)i/100, h[i].memband/h[i].nr_sample, h[i].nr_sample, h[i].nr_sample/(double)(total_samples));
       }
     }
     fprintf(dumpfd, "]}\n");
