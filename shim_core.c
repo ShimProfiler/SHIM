@@ -50,7 +50,7 @@ void shim_init()
   }
 }
 
-void shim_thread_init(shim *my, int cpuid, int nr_hw_events, const char **hw_event_names, int (*probe_sw_events)(uint64_t *buf, shim * myshim))
+void shim_thread_init(shim *my, int cpuid, int nr_hw_events, const char **hw_event_names)
 {
   int i;
   debug_print("init shim thread at cpu %d\n", cpuid);
@@ -62,7 +62,8 @@ void shim_thread_init(shim *my, int cpuid, int nr_hw_events, const char **hw_eve
   for (i=0; i<nr_hw_events; i++){
     shim_create_hw_event(hw_event_names[i], i, my);
   }
-  my->probe_sw_events = probe_sw_events;
+  my->probe_other_events = NULL;
+  my->probe_tags = NULL;
 }
 
 static void shim_create_hw_event(char *name, int id, shim *myshim)
@@ -108,21 +109,26 @@ int shim_read_counters(uint64_t *buf, shim *myshim)
     rdtsc();
     buf[index++] = __builtin_ia32_rdpmc(myshim->hw_events[i].index);
   }
+  //call back probe_other_events is happened between getting two timestamps
+  if (myshim->probe_other_events != NULL)
+    index += myshim->probe_other_events(buf + index, myshim); 
   //end timestamp
   buf[1] = rdtsc();
-  if (myshim->probe_sw_events != NULL)
-    index += myshim->probe_sw_events(buf + index, myshim); 
+  //call back probe_other_tags is happend after reading two timestamps
+  if (myshim->probe_tags != NULL)
+    index += myshim->probe_tags(buf + index, myshim); 
   return index;
 }
 
-int shim_trustable_sample(uint64_t *start, uint64_t *end)
+//test whether the error is in [lowpass, highpass], for example [99,101] means acceptiong +-%1 error
+int shim_trustable_sample(uint64_t *start, uint64_t *end, int lowpass, int highpass)
 {  
   int cycle_begin_index = 0;
   int cycle_end_index = 1;
   uint64_t cycle_begin_diff = end[cycle_begin_index] - start[cycle_begin_index];
   uint64_t cycle_end_diff = end[cycle_end_index] - start[cycle_end_index];
   int cpc = (cycle_end_diff * 100 ) / cycle_begin_diff;
-  if (cpc < 99 || cpc > 101){
+  if (cpc < lowpass || cpc > highpass){
     //    debug_print("cpc is %d\n", cpc);
     return 0;
   }

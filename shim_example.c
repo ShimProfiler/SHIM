@@ -9,7 +9,7 @@ main(int argc, char **argv)
 
   shim_init();
   shim * my = (shim *)calloc(1, sizeof(shim));
-  shim_thread_init(my, 0, argc-1, argv+1, NULL);
+  shim_thread_init(my, 0, argc-1, argv+1);
   
   uint64_t begin[MAX_HW_COUNTERS];
   uint64_t end[MAX_HW_COUNTERS];
@@ -18,7 +18,7 @@ main(int argc, char **argv)
   printf("hello world\n");
   shim_read_counters(end, my);
  
-  trustable = shim_trustable_sample(begin, end);
+  trustable = shim_trustable_sample(begin, end, 99, 101);
   
   printf("Trustable samples:\n");
   for (i=0; i<my->nr_hw_events; i++){

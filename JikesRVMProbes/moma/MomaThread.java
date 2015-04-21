@@ -52,7 +52,7 @@ public class MomaThread extends Thread {
   private static native void shimEventHistogram(int samplingRate);
   private static native void shimCMIDHistogram(int samplingRate, int maxCMID);
   private static native void shimGCHistogram(int samplingRate, int maxCMID);
-  private static native void shimCMIDHistogramLog(int samplingRate, int maxCMID);
+
 
   private static native String getMaxFrequency();
   private static native String getMinFrequency();
@@ -141,11 +141,8 @@ public class MomaThread extends Thread {
           nr_iteration += 1;
           shimGCHistogram(curCmd.samplingRate, CompiledMethods.currentCompiledMethodId);
           break;
-        case CMIDHISTOGRAMLOG:
-          System.out.println("Current last CMID " + CompiledMethods.currentCompiledMethodId);
-          nr_iteration += 1;
-          shimCMIDHistogramLog(curCmd.samplingRate, CompiledMethods.currentCompiledMethodId);
-          break;
+        default:
+          System.out.println("Error, Unknown CMD " + curCmd.shimHow);
       }
 
       if (curCmd.cpuFreq.equals("default")){

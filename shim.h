@@ -31,7 +31,8 @@ struct shim_worker_struct{
   int cpuid;
   int nr_hw_events;
   struct shim_hardware_event *hw_events;
-  int (*probe_sw_events)(uint64_t *buf, shim * myshim);  
+  int (*probe_other_events)(uint64_t *buf, shim *myshim);
+  int (*probe_tags)(uint64_t *buf, shim * myshim);  
 };
 
 #define DEBUG 1
@@ -74,6 +75,6 @@ static shim __inline__ *get_myshim(shim *shims)
 
 void shim_init();
 char *ppid_init();
-void shim_thread_init(shim *myshim, int cpuid, int nr_hw_events, const char **hw_event_names, int (*probe_sw_events)(uint64_t *buf, shim * myshim));
+void shim_thread_init(shim *myshim, int cpuid, int nr_hw_events, const char **hw_event_names);
 int shim_read_counters(uint64_t *buf, shim *myshim);
-int shim_trustable_sample(uint64_t *start, uint64_t *end);
+int shim_trustable_sample(uint64_t *start, uint64_t *end, int lowpass, int highpass);
