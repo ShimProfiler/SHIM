@@ -50,7 +50,7 @@ public class MomaThread extends Thread {
   private static native int initShimThread(int cpuid, String[] events, int targetcpu, String outputFileName);
   private static native void shimCounting();
   private static native void shimEventHistogram(int samplingRate);
-  private static native void shimFidelityHistogram(int samplingRate, int lowpass, int highpass);
+  private static native void shimFidelityHistogram(int samplingRate);
   private static native void shimCMIDHistogram(int samplingRate, int maxCMID);
   private static native void shimGCHistogram(int samplingRate, int maxCMID);
 
@@ -133,7 +133,7 @@ public class MomaThread extends Thread {
           shimEventHistogram(curCmd.samplingRate);
           break;
         case FIDELITYHISTOGRAM:
-          shimFidelityHistogram(curCmd.samplingRate, 99, 101);
+          shimFidelityHistogram(curCmd.samplingRate);
           break;
         case CMIDHISTOGRAM:
           System.out.println("Current last CMID " + CompiledMethods.currentCompiledMethodId);

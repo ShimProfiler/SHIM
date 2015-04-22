@@ -632,8 +632,10 @@ static inline int cpc_val(uint64_t *start, uint64_t *end)
   return cpc;
 }
 
+#define MAX_FIDELITY_HIST (50000)
+
 JNIEXPORT void JNICALL
-Java_moma_MomaThread_shimFidelityHistogram(JNIEnv * env, jobject obj, jint rate, jint lowpass, jint highpass)
+Java_moma_MomaThread_shimFidelityHistogram(JNIEnv * env, jobject obj, jint rate)
 {
   int cpuid = get_cpuid();
   jshim *myjshim = jshims + cpuid;
@@ -642,57 +644,68 @@ Java_moma_MomaThread_shimFidelityHistogram(JNIEnv * env, jobject obj, jint rate,
 
   int max_prefilter_ipc = 0;
   int max_prefilter_cpc = 0;
+  unsigned int max_gap = 0;
+  unsigned int max_period = 0;
+  uint64_t last_taken_timestamp = 0;
   
   reset_sample_counters(myjshim);
   myshim->probe_other_events = NULL;
   myshim->probe_tags = probe_sf_signals;
  
-  unsigned int *hist = calloc(1000, sizeof(unsigned int));
-  unsigned int *hist_self = calloc(1000, sizeof(unsigned int));
-  unsigned int *hist_app = calloc(1000, sizeof(unsigned int));
+  unsigned int *prefilter_cpc_hist = calloc(MAX_FIDELITY_HIST, sizeof(unsigned int));
+  unsigned int *prefilter_ipc_hist = calloc(MAX_FIDELITY_HIST, sizeof(unsigned int));
+  unsigned int *afterfilter_cpc_hist = calloc(MAX_FIDELITY_HIST, sizeof(unsigned int));
+  unsigned int *afterfilter_ipc_hist = calloc(MAX_FIDELITY_HIST, sizeof(unsigned int));
+  unsigned int *fidelity_gap_hist = calloc(MAX_FIDELITY_HIST, sizeof(unsigned int));
+  unsigned int *fidelity_period_hist = calloc(MAX_FIDELITY_HIST, sizeof(unsigned int));
 
   uint64_t vals[2][MAX_EVENTS];
   int last_index = 0;
   int now_index = 1;
 
   int step = rate;
-
   int soft_index_base = INDEX_HW_COUNTERS + myshim->nr_hw_events;
   
   shim_read_counters(myjshim->begin, myshim);
-
   shim_read_counters(vals[last_index], myshim);
+  last_taken_timestamp = vals[last_index][INDEX_HW_COUNTERS];
   while (ACCESS_ONCE(myjshim->flag) != 0xdead){
     myjshim->nr_samples++;
     step--;
     shim_read_counters(vals[now_index], myshim);
           
     //one trustable sample
+    unsigned int  nr_cycles = vals[now_index][INDEX_HW_COUNTERS]  - vals[last_index][INDEX_HW_COUNTERS];
     unsigned int  nr_instructions_core = vals[now_index][INDEX_HW_COUNTERS+1]  - vals[last_index][INDEX_HW_COUNTERS+1];
     unsigned int  nr_instructions_self = vals[now_index][INDEX_HW_COUNTERS+2]  - vals[last_index][INDEX_HW_COUNTERS+2];
-    unsigned int  nr_cycles = vals[now_index][INDEX_HW_COUNTERS]  - vals[last_index][INDEX_HW_COUNTERS];
-    int ipc = (nr_instructions_core * 100)/nr_cycles;
-    int cpc = cpc_val(vals[last_index], vals[now_index]);
-    
-    if (ipc > max_prefilter_ipc)
-      max_prefilter_ipc = ipc;
-    if (cpc > max_prefilter_cpc)
-      max_prefilter_cpc = cpc;
 
-    int ipc_self = (nr_instructions_self * 100)/nr_cycles;
+    int cpc = cpc_val(vals[last_index], vals[now_index]);   
     int ipc_app = ((nr_instructions_core - nr_instructions_self)*100)/nr_cycles;
+    if (ipc_app < 0)
+      printf("ipc_app is %d\n", ipc_app);
+
+    prefilter_cpc_hist[cpc]++;    
+    prefilter_ipc_hist[ipc_app]++;
     
-    int interesting_sample = cpc >= lowpass && cpc<= highpass;
-    If (step <= 0){
+    int interesting_sample = 1;
+    if (cpc < 99 || cpc > 101)
+      interesting_sample = 0;    
+
+    if (step <= 0){
       step = rate;
       myjshim->nr_taken_samples++;
+
       last_index ^= 1;
       now_index ^=1;
+
       if (interesting_sample){
 	//	printf("%d,%d,%d\n", ipc, ipc_app, ipc_self);
-	hist[ipc]++;
-	hist_app[ipc_app]++;
-	hist_self[ipc_self]++;
+	unsigned int sample_gap = vals[last_index][INDEX_HW_COUNTERS] - last_taken_timestamp;
+	last_taken_timestamp = vals[last_index][INDEX_HW_COUNTERS];
+	fidelity_gap_hist[sample_gap]++;
+	fidelity_period_hist[nr_cycles]++;
+	afterfilter_cpc_hist[cpc]++;
+	afterfilter_ipc_hist[ipc_app]++;
 	myjshim->nr_interesting_samples++;
       } else
 	myjshim->nr_bad_samples++;
@@ -702,25 +715,44 @@ Java_moma_MomaThread_shimFidelityHistogram(JNIEnv * env, jobject obj, jint rate,
   uint64_t profiling_cycles = myjshim->end[0] - myjshim->begin[0];
 
   //report the histogram
-  fprintf(dumpfd, "{\"eventHistogram\":{\"rate\":%d, \"samples\":%lld, \"untrustableSamples\":%lld, \"takenSamples\":%lld, \"interestingSamples\":%lld,\n", rate, (long long)(myjshim->nr_samples), (long long)(myjshim->nr_bad_samples), (long long)(myjshim->nr_taken_samples), (long long)(myjshim->nr_interesting_samples));
+  fprintf(dumpfd, "{\"fidelityHistogram\":{\"rate\":%d, \"samples\":%lld, \"untrustableSamples\":%lld, \"takenSamples\":%lld, \"interestingSamples\":%lld,\n", rate, (long long)(myjshim->nr_samples), (long long)(myjshim->nr_bad_samples), (long long)(myjshim->nr_taken_samples), (long long)(myjshim->nr_interesting_samples));
   dump_global_counters(myjshim); 
-  fprintf(dumpfd, "\"hist\":[\n");
+  fprintf(dumpfd, "\"ipchist\":[\n");
   int cmflag = 0;
-  for (int i=0; i<1000; i++){
-    if (hist[i] != 0 || hist_app[i] != 0 || hist_self[i] != 0){
+  for (int i=0; i<MAX_FIDELITY_HIST; i++){
+    if (prefilter_ipc_hist[i] != 0 || prefilter_cpc_hist[i] != 0 || afterfilter_ipc_hist[i] !=0 || afterfilter_cpc_hist[i] != 0){
       char * cmstr = ",";
       if (cmflag == 0){
 	cmstr = "";
 	cmflag = 1;
       }
-      fprintf(dumpfd, "%s{\"ipc\":%d, \"samples\":%d, \"percentage\":%.3f, \"samples_app\":%d, \"percentage_app\":%.3f, \"samples_self\":%d, \"percentage_self\":%.3f}\n", cmstr, i, hist[i], hist[i]/(double)(myjshim->nr_interesting_samples),hist_app[i], hist_app[i]/(double)(myjshim->nr_interesting_samples),hist_self[i], hist_self[i]/(double)(myjshim->nr_interesting_samples));
+      fprintf(dumpfd, "%s{\"preipc\":%d, \"preipc_samples\":%d, \"preipc_percentage\":%.3f, \"precpc\":%d, \"precpc_samples\":%d, \"precpc_percentage\":%.3f,\"afteripc\":%d, \"afteripc_samples\":%d, \"afteripc_percentage\":%.3f, \"aftercpc\":%d, \"aftercpc_samples\":%d, \"aftercpc_percentage\":%.3f}\n", 
+	      cmstr, 
+	      i, prefilter_ipc_hist[i], prefilter_ipc_hist[i]/(double)(myjshim->nr_samples),
+	      i, prefilter_cpc_hist[i], prefilter_cpc_hist[i]/(double)(myjshim->nr_samples),
+	      i, afterfilter_ipc_hist[i], afterfilter_ipc_hist[i]/(double)(myjshim->nr_interesting_samples),
+	      i, afterfilter_cpc_hist[i], afterfilter_cpc_hist[i]/(double)(myjshim->nr_interesting_samples));
+    }
+  }
+
+  fprintf(dumpfd, "],\"fidelityhist\":[\n");
+  cmflag = 0;
+  for (int i=0; i<MAX_FIDELITY_HIST; i++){
+    if (fidelity_gap_hist[i] || fidelity_period_hist[i]){
+      char * cmstr = ",";
+      if (cmflag == 0){
+	cmstr = "";
+	cmflag = 1;
+      }
+      fprintf(dumpfd, "%s{\"gap\":%d, \"gap_samples\":%d, \"gap_percentage\":%.3f,\"period\":%d, \"period_samples\":%d, \"period_percentage\":%.3f }\n", 
+	      cmstr, 
+	      i, fidelity_gap_hist[i], fidelity_gap_hist[i]/(double)(myjshim->nr_interesting_samples),
+	      i, fidelity_period_hist[i], fidelity_period_hist[i]/(double)(myjshim->nr_interesting_samples));
     }
   }
   fprintf(dumpfd, "]}}\nOBJECTEND\n");
 
-  printf("max prefilter ipc: %d, maxprefilter cpc: %d\n", max_prefilter_ipc, max_prefilter_cpc);
-
-  free(hist);
+  //  printf("max prefilter ipc: %d, maxprefilter cpc: %d, maxgap: %d, maxperiod: %d\n", max_prefilter_ipc, max_prefilter_cpc, max_gap, max_period);
 }
 
 
