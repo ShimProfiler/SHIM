@@ -621,6 +621,17 @@ Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint 
   free(gc_hist);
 }
 
+
+static inline int cpc_val(uint64_t *start, uint64_t *end)
+{  
+  int cycle_begin_index = 0;
+  int cycle_end_index = 1;
+  uint64_t cycle_begin_diff = end[cycle_begin_index] - start[cycle_begin_index];
+  uint64_t cycle_end_diff = end[cycle_end_index] - start[cycle_end_index];
+  int cpc = (cycle_end_diff * 100 ) / cycle_begin_diff;
+  return cpc;
+}
+
 JNIEXPORT void JNICALL
 Java_moma_MomaThread_shimFidelityHistogram(JNIEnv * env, jobject obj, jint rate, jint lowpass, jint highpass)
 {
@@ -628,6 +639,9 @@ Java_moma_MomaThread_shimFidelityHistogram(JNIEnv * env, jobject obj, jint rate,
   jshim *myjshim = jshims + cpuid;
   shim *myshim = (shim *)myjshim;
   FILE *dumpfd = myjshim->dumpfd;
+
+  int max_prefilter_ipc = 0;
+  int max_prefilter_cpc = 0;
   
   reset_sample_counters(myjshim);
   myshim->probe_other_events = NULL;
@@ -658,11 +672,18 @@ Java_moma_MomaThread_shimFidelityHistogram(JNIEnv * env, jobject obj, jint rate,
     unsigned int  nr_instructions_self = vals[now_index][INDEX_HW_COUNTERS+2]  - vals[last_index][INDEX_HW_COUNTERS+2];
     unsigned int  nr_cycles = vals[now_index][INDEX_HW_COUNTERS]  - vals[last_index][INDEX_HW_COUNTERS];
     int ipc = (nr_instructions_core * 100)/nr_cycles;
+    int cpc = cpc_val(vals[last_index], vals[now_index]);
+    
+    if (ipc > max_prefilter_ipc)
+      max_prefilter_ipc = ipc;
+    if (cpc > max_prefilter_cpc)
+      max_prefilter_cpc = cpc;
+
     int ipc_self = (nr_instructions_self * 100)/nr_cycles;
     int ipc_app = ((nr_instructions_core - nr_instructions_self)*100)/nr_cycles;
     
-    int interesting_sample = shim_trustable_sample(vals[last_index], vals[now_index], 99, 101);
-    if (step <= 0){
+    int interesting_sample = cpc >= lowpass && cpc<= highpass;
+    If (step <= 0){
       step = rate;
       myjshim->nr_taken_samples++;
       last_index ^= 1;
@@ -696,6 +717,8 @@ Java_moma_MomaThread_shimFidelityHistogram(JNIEnv * env, jobject obj, jint rate,
     }
   }
   fprintf(dumpfd, "]}}\nOBJECTEND\n");
+
+  printf("max prefilter ipc: %d, maxprefilter cpc: %d\n", max_prefilter_ipc, max_prefilter_cpc);
 
   free(hist);
 }
