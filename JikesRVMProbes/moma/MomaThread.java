@@ -53,6 +53,11 @@ public class MomaThread extends Thread {
   private static native void shimFidelityHistogram(int samplingRate);
   private static native void shimCMIDHistogram(int samplingRate, int maxCMID);
   private static native void shimGCHistogram(int samplingRate, int maxCMID);
+  private static native void shimOverheadSoftSampling(int samplingRate);
+  private static native void shimOverheadSoftHistogram(int samplingRate, int maxCMID);
+  private static native void shimOverheadIPCHistogram(int samplingRate);
+  private static native void shimOverheadHistogram(int samplingRate, int maxCMID);
+
 
 
   private static native String getMaxFrequency();
@@ -115,16 +120,18 @@ public class MomaThread extends Thread {
       }
       state = MOMA_RUNNING;
       //get some work to do
-      System.out.println("Shim" + shimid + " start sampling");
+      //System.out.println("Shim" + shimid + " start sampling");
       if (curCmd.cpuFreq.equals("default")){
-        System.out.println("default config");
-      }
-      else if (curCmd.cpuFreq.equals("turnOffPrefetcher")){
+        //setPrefetcher(targetHWThread, (long)0xf);
+        //System.out.println("default config");
+        ;
+      } else if (curCmd.cpuFreq.equals("turnOffPrefetcher")){
         setPrefetcher(targetHWThread, (long)0xf);
-      }
-      else {
+      } else {
+        //setPrefetcher(targetHWThread, (long)0xf);
         setCurFrequency(curCmd.cpuFreq);
       }
+
       switch (curCmd.shimHow) {
         case COUNTING:
           shimCounting();
@@ -134,6 +141,18 @@ public class MomaThread extends Thread {
           break;
         case FIDELITYHISTOGRAM:
           shimFidelityHistogram(curCmd.samplingRate);
+          break;
+        case OVERHEADHISTOGRAM:
+          shimOverheadHistogram(curCmd.samplingRate,CompiledMethods.currentCompiledMethodId);
+          break;
+        case OVERHEADSOFTSAMPLING:
+          shimOverheadSoftSampling(curCmd.samplingRate);
+          break;
+        case OVERHEADIPCHISTOGRAM:
+          shimOverheadIPCHistogram(curCmd.samplingRate);
+          break;
+        case OVERHEADSOFTHISTOGRAM:
+          shimOverheadSoftHistogram(curCmd.samplingRate, CompiledMethods.currentCompiledMethodId);
           break;
         case CMIDHISTOGRAM:
           System.out.println("Current last CMID " + CompiledMethods.currentCompiledMethodId);
@@ -146,14 +165,17 @@ public class MomaThread extends Thread {
           shimGCHistogram(curCmd.samplingRate, CompiledMethods.currentCompiledMethodId);
           break;
         default:
-          System.out.println("Error, Unknown CMD " + curCmd.shimHow);
+          //do nothing
+          ;
       }
 
       if (curCmd.cpuFreq.equals("default")){
-        System.out.println("Finish profiling with default config");
+        //setPrefetcher(targetHWThread, (long)0);
+       // System.out.println("Finish profiling with default config");
       } else if (curCmd.cpuFreq.equals("turnOffPrefetcher")){
         setPrefetcher(targetHWThread, (long)0);
       } else {
+        //setPrefetcher(targetHWThread, (long)0);
         setCurFrequency(maxCPUFreq);
       }
 

@@ -12,6 +12,8 @@ import static moma.MomaCmd.ProfilingPosition.SAMECORE;
 public class MomaCmd {
   public static enum ProfilingApproach {
     EVENTHISTOGRAM, CMIDHISTOGRAM, COUNTING, LOGGING,  GCHISTOGRAM, FIDELITYHISTOGRAM,
+    OVERHEADSOFTSAMPLING,OVERHEADSOFTHISTOGRAM,OVERHEADIPCHISTOGRAM,OVERHEADHISTOGRAM,
+    NOTHING,
   }
 
   public static enum ProfilingPosition {
@@ -60,12 +62,21 @@ public class MomaCmd {
         how = ProfilingApproach.GCHISTOGRAM;
       } else if (n.equals("gcHistogram")){
         how = ProfilingApproach.GCHISTOGRAM;
-      } if (n.equals("counting")) {
+      } else if (n.equals("counting")) {
         how = ProfilingApproach.COUNTING;
       } else if (n.equals("logging")) {
         how = ProfilingApproach.LOGGING;
+      } else if (n.equals("overheadSoftSampling")) {
+        how = ProfilingApproach.OVERHEADSOFTSAMPLING;
+      } else if (n.equals("overheadSoftHistogram")) {
+        how = ProfilingApproach.OVERHEADSOFTHISTOGRAM;
+      } else if (n.equals("overheadIPCHistogram")) {
+        how = ProfilingApproach.OVERHEADIPCHISTOGRAM;
+      } else if (n.equals("overheadHistogram")) {
+        how = ProfilingApproach.OVERHEADHISTOGRAM;
       } else {
         System.out.println("Unknown profiling approach:" + Options.MomaApproach);
+        how = ProfilingApproach.NOTHING;
       }
 
       int rate = Integer.parseInt(cmds[2]);

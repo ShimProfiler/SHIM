@@ -62,6 +62,12 @@ void shim_thread_init(shim *my, int cpuid, int nr_hw_events, const char **hw_eve
   for (i=0; i<nr_hw_events; i++){
     shim_create_hw_event(hw_event_names[i], i, my);
   }
+  for (i=0;i <nr_hw_events; i++){
+    struct shim_hardware_event *e = my->hw_events + i;
+    debug_print("updateindex event %s, fd %d, index %x\n", e->name, e->fd, e->buf->index - 1);
+    e->index = e->buf->index - 1;
+
+  }
   my->probe_other_events = NULL;
   my->probe_tags = NULL;
 }
