@@ -6,13 +6,13 @@ sudo insmod ./ppid_map.ko
 sudo ./create_ppid_device.sh
 
 /dev/ppid_map provides information about who is running on which processors
-by exposing a map to user level mmap requests. Start from the base address of
-the map, each processor has one cacheline size slot (64 bytes for intel x86).
-To get the base address of the processor N, base + N * 64. Start from each processors'
-base, the first "int" shows the pid of the thread running on that processor, the second
-"int" shows the tgid (the process id) of the thread running on that processor.
+by exposing a map to user level mmap requests.
 
-code example to mmap the device
+Start from the base address of the map, each processor has one cacheline size slot (64 bytes for intel x86).
+For each slot, the first 32bit shows the pid of the thread running on that processor, the second 32bit shows
+the the tgid (process id) of the thread.
+
+Here is an example to get the map:
 
 if ((fd=open("/dev/ppid_map", O_RDWR|O_SYNC)) < 0) {
    perror("open")
