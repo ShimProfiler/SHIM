@@ -188,6 +188,6 @@ static void __exit ppid_map_exit(void)
 module_init(ppid_map_init);
 module_exit(ppid_map_exit);
 MODULE_DESCRIPTION("ppid_map driver");
-MODULE_AUTHOR("Claudio Scordino and Bruno Morelli");
+MODULE_AUTHOR("Xi Yang");
 MODULE_LICENSE("GPL");
 
