@@ -442,6 +442,8 @@ Java_moma_MomaThread_shimOverheadSoftSampling(JNIEnv * env, jobject obj, jint ra
   print_freq(myjshim);
 }
 
+#define DUMP_IPC_TIMELINE
+
 JNIEXPORT void JNICALL
 Java_moma_MomaThread_shimOverheadIPCHistogram(JNIEnv * env, jobject obj, jint rate)
 {
@@ -659,6 +661,12 @@ Java_moma_MomaThread_shimCMIDHistogram(JNIEnv * env, jobject obj, jint rate, jin
   shim *myshim = (shim *)myjshim;
   FILE *dumpfd = myjshim->dumpfd;
 
+#ifdef DUMP_IPC_TIMELINE
+  unsigned int *dumpbuf = NULL;
+  int dumpbuf_index = 0;
+  dumpbuf = calloc(DUMP_BUFFER_SIZE, sizeof(uint64_t));
+#endif
+
   reset_sample_counters(myjshim);
   myshim->probe_other_events = NULL;
   myshim->probe_tags = probe_sf_signals;
@@ -710,6 +718,13 @@ Java_moma_MomaThread_shimCMIDHistogram(JNIEnv * env, jobject obj, jint rate, jin
 	app_hist[cmid].nr_sample++;
 	myjshim->nr_interesting_samples++;
 	//	printf("%f,%d\n", ipc, gcflag);
+#ifdef DUMP_IPC_TIMELINE
+	if (dumpbuf_index + 4 < DUMP_BUFFER_SIZE){
+	  dumpbuf[dumpbuf_index++] = vals[now_index][0];
+	  dumpbuf[dumpbuf_index++] = (int)(ipc_app*1000);
+	  dumpbuf[dumpbuf_index++] = cmid;
+	}
+#endif
       } else
 	myjshim->nr_bad_samples++;
     }
@@ -734,6 +749,15 @@ Java_moma_MomaThread_shimCMIDHistogram(JNIEnv * env, jobject obj, jint rate, jin
   }
   fprintf(dumpfd, "]}}\nOBJECTEND\n");
 
+#ifdef DUMP_IPC_TIMELINE
+  fprintf(dumpfd, "#id, timestamp, ipc, cmid\n");
+  for (int i=0; i<DUMP_BUFFER_SIZE; i+=3){
+    if (dumpbuf[i] != 0)
+      fprintf(dumpfd, "%d, %d, %.3f, %d\n", i/3, dumpbuf[i], (float)dumpbuf[i+1]/1000, dumpbuf[i+2]);
+  }
+  free(dumpbuf);
+#endif
+
   fflush(dumpfd);
 
   free(app_hist);
@@ -745,7 +769,7 @@ struct gc_tag{
   uint64_t nr_sample;
 };
 
-#define DUMP_GC_TIMELINE
+//#define DUMP_GC_TIMELINE
 
 JNIEXPORT void JNICALL
 Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint maxCMID)
@@ -763,7 +787,8 @@ Java_moma_MomaThread_shimGCHistogram(JNIEnv * env, jobject obj, jint rate, jint 
 #endif
 
   reset_sample_counters(myjshim);
-  myshim->probe_other_events = probe_memcontroller;
+  //  myshim->probe_other_events = probe_memcontroller;
+  myshim->probe_other_events = NULL;
   myshim->probe_tags = gc_probe_sf_signals;
 
   struct gc_tag *app_hist = calloc(maxCMID, sizeof(struct gc_tag));
