@@ -1,0 +1,3048 @@
+M 2 < BootstrapCL, Ljava/util/Formatter;, toString, ()Ljava/lang/String; >
+	4	forwbranch < 691, 0 > 100.0% taken
+M 80 < BootstrapCL, Lorg/jikesrvm/Options;, process, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 0, 0 > Never Executed
+	571	forwbranch < 0, 0 > Never Executed
+	589	forwbranch < 0, 0 > Never Executed
+	607	forwbranch < 0, 0 > Never Executed
+	622	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, ()V >
+	9	forwbranch < 0, 5229 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, unlock, ()V >
+	11	forwbranch < 665421, 644574 > 50.79569% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, (Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;)V >
+	5	forwbranch < 741, 1147 > 39.247883% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockNoHandshake, ()V >
+	9	forwbranch < 658526, 638947 > 50.754505% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/RVMThread;, transferExecutionToNewStack, ([BLorg/jikesrvm/ArchitectureSpecific$Registers;)V >
+	61	forwbranch < 0, 0 > Never Executed
+M 20 < BootstrapCL, Ljava/lang/reflect/Array;, getLength, (Ljava/lang/Object;)I >
+	4	forwbranch < 6, 6 > 50.0% taken
+	17	forwbranch < 6, 0 > 100.0% taken
+	30	forwbranch < 6, 0 > 100.0% taken
+	43	forwbranch < 6, 0 > 100.0% taken
+	56	forwbranch < 6, 0 > 100.0% taken
+	69	forwbranch < 0, 6 > 0.0% taken
+	82	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/lang/VMClassLoader;, <clinit>, ()V >
+	45	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 1, 0 > 100.0% taken
+M 54 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 2, 0 > 100.0% taken
+	34	forwbranch < 2, 0 > 100.0% taken
+	50	forwbranch < 0, 2 > 0.0% taken
+	60	forwbranch < 0, 2 > 0.0% taken
+	70	forwbranch < 2, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 2, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 1, 1 > 50.0% taken
+	194	forwbranch < 0, 1 > 0.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1, 0 > 100.0% taken
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 1, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 1, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 1 > 0.0% taken
+	386	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Lorg/jikesrvm/jni/ia32/JNIHelpers;, packageAndInvoke, (Ljava/lang/Object;ILorg/vmmagic/unboxed/Address;Lorg/jikesrvm/classloader/TypeReference;ZZ)Ljava/lang/Object; >
+	22	forwbranch < 576, 0 > 100.0% taken
+	85	forwbranch < 363, 213 > 63.020832% taken
+	93	forwbranch < 213, 0 > 100.0% taken
+	130	forwbranch < 363, 0 > 100.0% taken
+	172	forwbranch < 0, 576 > 0.0% taken
+M 632 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 0, 0 > Never Executed
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 0, 0 > Never Executed
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+	901	forwbranch < 0, 0 > Never Executed
+	920	forwbranch < 0, 0 > Never Executed
+	930	forwbranch < 0, 0 > Never Executed
+	947	forwbranch < 0, 0 > Never Executed
+	966	forwbranch < 0, 0 > Never Executed
+	976	forwbranch < 0, 0 > Never Executed
+	993	forwbranch < 0, 0 > Never Executed
+	1012	forwbranch < 0, 0 > Never Executed
+	1022	forwbranch < 0, 0 > Never Executed
+	1039	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1068	forwbranch < 0, 0 > Never Executed
+	1085	forwbranch < 0, 0 > Never Executed
+	1104	forwbranch < 0, 0 > Never Executed
+	1114	forwbranch < 0, 0 > Never Executed
+	1131	forwbranch < 0, 0 > Never Executed
+	1150	forwbranch < 0, 0 > Never Executed
+	1160	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 0 > Never Executed
+	1196	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 0, 0 > Never Executed
+	1223	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1252	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1288	forwbranch < 0, 0 > Never Executed
+	1298	forwbranch < 0, 0 > Never Executed
+	1315	forwbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+	1361	forwbranch < 0, 0 > Never Executed
+	1380	forwbranch < 0, 0 > Never Executed
+	1390	forwbranch < 0, 0 > Never Executed
+	1407	forwbranch < 0, 0 > Never Executed
+	1426	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1453	forwbranch < 0, 0 > Never Executed
+	1472	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 0, 0 > Never Executed
+	1499	forwbranch < 0, 0 > Never Executed
+	1518	forwbranch < 0, 0 > Never Executed
+	1528	forwbranch < 0, 0 > Never Executed
+	1545	forwbranch < 0, 0 > Never Executed
+	1564	forwbranch < 0, 0 > Never Executed
+	1574	forwbranch < 0, 0 > Never Executed
+	1591	forwbranch < 0, 0 > Never Executed
+	1610	forwbranch < 0, 0 > Never Executed
+	1620	forwbranch < 0, 0 > Never Executed
+	1637	forwbranch < 0, 0 > Never Executed
+	1656	forwbranch < 0, 0 > Never Executed
+	1666	forwbranch < 0, 0 > Never Executed
+	1683	forwbranch < 0, 0 > Never Executed
+	1702	forwbranch < 0, 0 > Never Executed
+	1712	forwbranch < 0, 0 > Never Executed
+	1729	forwbranch < 0, 0 > Never Executed
+	1748	forwbranch < 0, 0 > Never Executed
+	1758	forwbranch < 0, 0 > Never Executed
+	1775	forwbranch < 0, 0 > Never Executed
+	1794	forwbranch < 0, 0 > Never Executed
+	1804	forwbranch < 0, 0 > Never Executed
+	1821	forwbranch < 0, 0 > Never Executed
+	1840	forwbranch < 0, 0 > Never Executed
+	1850	forwbranch < 0, 0 > Never Executed
+	1867	forwbranch < 0, 0 > Never Executed
+	1886	forwbranch < 0, 0 > Never Executed
+	1896	forwbranch < 0, 0 > Never Executed
+	1913	forwbranch < 0, 0 > Never Executed
+	1932	forwbranch < 0, 0 > Never Executed
+	1942	forwbranch < 0, 0 > Never Executed
+	1959	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	1988	forwbranch < 0, 0 > Never Executed
+	2005	forwbranch < 0, 0 > Never Executed
+	2024	forwbranch < 0, 0 > Never Executed
+	2034	forwbranch < 0, 0 > Never Executed
+	2051	forwbranch < 0, 0 > Never Executed
+	2070	forwbranch < 0, 0 > Never Executed
+	2080	forwbranch < 0, 0 > Never Executed
+	2097	forwbranch < 0, 0 > Never Executed
+	2116	forwbranch < 0, 0 > Never Executed
+	2126	forwbranch < 0, 0 > Never Executed
+	2143	forwbranch < 0, 0 > Never Executed
+	2162	forwbranch < 0, 0 > Never Executed
+	2172	forwbranch < 0, 0 > Never Executed
+	2189	forwbranch < 0, 0 > Never Executed
+	2208	forwbranch < 0, 0 > Never Executed
+	2218	forwbranch < 0, 0 > Never Executed
+	2235	forwbranch < 0, 0 > Never Executed
+	2254	forwbranch < 0, 0 > Never Executed
+	2264	forwbranch < 0, 0 > Never Executed
+	2281	forwbranch < 0, 0 > Never Executed
+	2300	forwbranch < 0, 0 > Never Executed
+	2310	forwbranch < 0, 0 > Never Executed
+	2327	forwbranch < 0, 0 > Never Executed
+	2346	forwbranch < 0, 0 > Never Executed
+	2356	forwbranch < 0, 0 > Never Executed
+	2373	forwbranch < 0, 0 > Never Executed
+	2392	forwbranch < 0, 0 > Never Executed
+	2402	forwbranch < 0, 0 > Never Executed
+	2419	forwbranch < 0, 0 > Never Executed
+	2438	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2465	forwbranch < 0, 0 > Never Executed
+	2484	forwbranch < 0, 0 > Never Executed
+	2494	forwbranch < 0, 0 > Never Executed
+	2511	forwbranch < 0, 0 > Never Executed
+	2530	forwbranch < 0, 0 > Never Executed
+	2540	forwbranch < 0, 0 > Never Executed
+	2557	forwbranch < 0, 0 > Never Executed
+	2576	forwbranch < 0, 0 > Never Executed
+	2586	forwbranch < 0, 0 > Never Executed
+	2603	forwbranch < 0, 0 > Never Executed
+	2622	forwbranch < 0, 0 > Never Executed
+	2632	forwbranch < 0, 0 > Never Executed
+	2649	forwbranch < 0, 0 > Never Executed
+	2668	forwbranch < 0, 0 > Never Executed
+	2678	forwbranch < 0, 0 > Never Executed
+	2695	forwbranch < 0, 0 > Never Executed
+	2714	forwbranch < 0, 0 > Never Executed
+	2724	forwbranch < 0, 0 > Never Executed
+	2741	forwbranch < 0, 0 > Never Executed
+	2760	forwbranch < 0, 0 > Never Executed
+	2770	forwbranch < 0, 0 > Never Executed
+	2787	forwbranch < 0, 0 > Never Executed
+	2806	forwbranch < 0, 0 > Never Executed
+	2816	forwbranch < 0, 0 > Never Executed
+	2833	forwbranch < 0, 0 > Never Executed
+	2852	forwbranch < 0, 0 > Never Executed
+	2862	forwbranch < 0, 0 > Never Executed
+	2879	forwbranch < 0, 0 > Never Executed
+	2898	forwbranch < 0, 0 > Never Executed
+	2908	forwbranch < 0, 0 > Never Executed
+	2925	forwbranch < 0, 0 > Never Executed
+	2944	forwbranch < 0, 0 > Never Executed
+	2954	forwbranch < 0, 0 > Never Executed
+	2971	forwbranch < 0, 0 > Never Executed
+	2990	forwbranch < 0, 0 > Never Executed
+	3000	forwbranch < 0, 0 > Never Executed
+	3017	forwbranch < 0, 0 > Never Executed
+	3036	forwbranch < 0, 0 > Never Executed
+	3046	forwbranch < 0, 0 > Never Executed
+	3063	forwbranch < 0, 0 > Never Executed
+	3082	forwbranch < 0, 0 > Never Executed
+	3092	forwbranch < 0, 0 > Never Executed
+	3109	forwbranch < 0, 0 > Never Executed
+	3128	forwbranch < 0, 0 > Never Executed
+	3138	forwbranch < 0, 0 > Never Executed
+	3155	forwbranch < 0, 0 > Never Executed
+	3174	forwbranch < 0, 0 > Never Executed
+	3184	forwbranch < 0, 0 > Never Executed
+	3201	forwbranch < 0, 0 > Never Executed
+	3220	forwbranch < 0, 0 > Never Executed
+	3230	forwbranch < 0, 0 > Never Executed
+	3247	forwbranch < 0, 0 > Never Executed
+	3266	forwbranch < 0, 0 > Never Executed
+	3276	forwbranch < 0, 0 > Never Executed
+	3293	forwbranch < 0, 0 > Never Executed
+	3312	forwbranch < 0, 0 > Never Executed
+	3322	forwbranch < 0, 0 > Never Executed
+	3339	forwbranch < 0, 0 > Never Executed
+	3359	forwbranch < 0, 0 > Never Executed
+	3369	forwbranch < 0, 0 > Never Executed
+	3386	forwbranch < 0, 0 > Never Executed
+	3406	forwbranch < 0, 0 > Never Executed
+	3416	forwbranch < 0, 0 > Never Executed
+	3433	forwbranch < 0, 0 > Never Executed
+	3453	forwbranch < 0, 0 > Never Executed
+	3463	forwbranch < 0, 0 > Never Executed
+	3480	forwbranch < 0, 0 > Never Executed
+	3500	forwbranch < 0, 0 > Never Executed
+	3510	forwbranch < 0, 0 > Never Executed
+	3527	forwbranch < 0, 0 > Never Executed
+	3547	forwbranch < 0, 0 > Never Executed
+	3557	forwbranch < 0, 0 > Never Executed
+	3574	forwbranch < 0, 0 > Never Executed
+	3594	forwbranch < 0, 0 > Never Executed
+	3604	forwbranch < 0, 0 > Never Executed
+	3621	forwbranch < 0, 0 > Never Executed
+	3641	forwbranch < 0, 0 > Never Executed
+	3651	forwbranch < 0, 0 > Never Executed
+	3668	forwbranch < 0, 0 > Never Executed
+	3688	forwbranch < 0, 0 > Never Executed
+	3698	forwbranch < 0, 0 > Never Executed
+	3715	forwbranch < 0, 0 > Never Executed
+	3735	forwbranch < 0, 0 > Never Executed
+	3745	forwbranch < 0, 0 > Never Executed
+	3762	forwbranch < 0, 0 > Never Executed
+	3782	forwbranch < 0, 0 > Never Executed
+	3792	forwbranch < 0, 0 > Never Executed
+	3809	forwbranch < 0, 0 > Never Executed
+	3829	forwbranch < 0, 0 > Never Executed
+	3839	forwbranch < 0, 0 > Never Executed
+	3856	forwbranch < 0, 0 > Never Executed
+	3876	forwbranch < 0, 0 > Never Executed
+	3886	forwbranch < 0, 0 > Never Executed
+	3903	forwbranch < 0, 0 > Never Executed
+	3923	forwbranch < 0, 0 > Never Executed
+	3933	forwbranch < 0, 0 > Never Executed
+	3950	forwbranch < 0, 0 > Never Executed
+	3970	forwbranch < 0, 0 > Never Executed
+	3980	forwbranch < 0, 0 > Never Executed
+	3997	forwbranch < 0, 0 > Never Executed
+	4017	forwbranch < 0, 0 > Never Executed
+	4027	forwbranch < 0, 0 > Never Executed
+	4044	forwbranch < 0, 0 > Never Executed
+	4064	forwbranch < 0, 0 > Never Executed
+	4074	forwbranch < 0, 0 > Never Executed
+	4091	forwbranch < 0, 0 > Never Executed
+	4111	forwbranch < 0, 0 > Never Executed
+	4121	forwbranch < 0, 0 > Never Executed
+	4138	forwbranch < 0, 0 > Never Executed
+	4158	forwbranch < 0, 0 > Never Executed
+	4165	forwbranch < 0, 0 > Never Executed
+	4199	forwbranch < 0, 0 > Never Executed
+	4221	forwbranch < 0, 0 > Never Executed
+	4240	forwbranch < 0, 0 > Never Executed
+	4251	forwbranch < 0, 0 > Never Executed
+	4269	forwbranch < 0, 0 > Never Executed
+	4287	forwbranch < 0, 0 > Never Executed
+	4305	forwbranch < 0, 0 > Never Executed
+	4325	forwbranch < 0, 0 > Never Executed
+	4347	forwbranch < 0, 0 > Never Executed
+	4370	forwbranch < 0, 0 > Never Executed
+	4392	forwbranch < 0, 0 > Never Executed
+	4414	forwbranch < 0, 0 > Never Executed
+	4436	forwbranch < 0, 0 > Never Executed
+	4447	forwbranch < 0, 0 > Never Executed
+	4465	forwbranch < 0, 0 > Never Executed
+	4483	forwbranch < 0, 0 > Never Executed
+	4503	forwbranch < 0, 0 > Never Executed
+	4526	forwbranch < 0, 0 > Never Executed
+	4549	forwbranch < 0, 0 > Never Executed
+	4571	forwbranch < 0, 0 > Never Executed
+	4593	forwbranch < 0, 0 > Never Executed
+	4615	forwbranch < 0, 0 > Never Executed
+	4637	forwbranch < 0, 0 > Never Executed
+	4660	forwbranch < 0, 0 > Never Executed
+	4682	forwbranch < 0, 0 > Never Executed
+	4704	forwbranch < 0, 0 > Never Executed
+	4726	forwbranch < 0, 0 > Never Executed
+	4748	forwbranch < 0, 0 > Never Executed
+	4771	forwbranch < 0, 0 > Never Executed
+	4794	forwbranch < 0, 0 > Never Executed
+	4817	forwbranch < 0, 0 > Never Executed
+	4840	forwbranch < 0, 0 > Never Executed
+	4863	forwbranch < 0, 0 > Never Executed
+	4886	forwbranch < 0, 0 > Never Executed
+	4909	forwbranch < 0, 0 > Never Executed
+	4932	forwbranch < 0, 0 > Never Executed
+	4955	forwbranch < 0, 0 > Never Executed
+	4977	forwbranch < 0, 0 > Never Executed
+	5000	forwbranch < 0, 0 > Never Executed
+	5011	forwbranch < 0, 0 > Never Executed
+	5029	forwbranch < 0, 0 > Never Executed
+	5047	forwbranch < 0, 0 > Never Executed
+	5067	forwbranch < 0, 0 > Never Executed
+	5074	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, printOptions, ()V >
+	332	forwbranch < 0, 0 > Never Executed
+	345	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	407	forwbranch < 0, 0 > Never Executed
+	420	forwbranch < 0, 0 > Never Executed
+M 180 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 4, 0 > 100.0% taken
+	21	forwbranch < 4, 0 > 100.0% taken
+	34	forwbranch < 4, 0 > 100.0% taken
+	50	forwbranch < 0, 4 > 0.0% taken
+	60	forwbranch < 0, 4 > 0.0% taken
+	70	forwbranch < 4, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 4, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 4, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 3, 1 > 75.0% taken
+	240	forwbranch < 0, 1 > 0.0% taken
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 3, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 3, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 3, 0 > 100.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 3, 0 > 100.0% taken
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 3, 0 > 100.0% taken
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 3, 0 > 100.0% taken
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 3, 0 > 100.0% taken
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 3, 0 > 100.0% taken
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 3, 0 > 100.0% taken
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 3, 0 > 100.0% taken
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 3, 0 > 100.0% taken
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 3, 0 > 100.0% taken
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 3, 0 > 100.0% taken
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 3, 0 > 100.0% taken
+	895	forwbranch < 3, 0 > 100.0% taken
+	905	forwbranch < 0, 0 > Never Executed
+	922	forwbranch < 0, 0 > Never Executed
+	941	forwbranch < 3, 0 > 100.0% taken
+	951	forwbranch < 0, 0 > Never Executed
+	968	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 3, 0 > 100.0% taken
+	997	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1033	forwbranch < 3, 0 > 100.0% taken
+	1043	forwbranch < 0, 0 > Never Executed
+	1060	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 3, 0 > 100.0% taken
+	1097	forwbranch < 2, 1 > 66.666664% taken
+	1115	forwbranch < 1, 1 > 50.0% taken
+	1133	forwbranch < 1, 0 > 100.0% taken
+	1151	forwbranch < 1, 0 > 100.0% taken
+	1169	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1208	forwbranch < 1, 0 > 100.0% taken
+	1229	forwbranch < 0, 1 > 0.0% taken
+	1250	forwbranch < 0, 0 > Never Executed
+	1271	forwbranch < 0, 0 > Never Executed
+	1293	forwbranch < 0, 0 > Never Executed
+	1314	forwbranch < 0, 0 > Never Executed
+	1336	forwbranch < 0, 0 > Never Executed
+	1358	forwbranch < 0, 0 > Never Executed
+	1376	forwbranch < 0, 0 > Never Executed
+	1397	forwbranch < 0, 0 > Never Executed
+	1418	forwbranch < 0, 0 > Never Executed
+	1439	forwbranch < 0, 0 > Never Executed
+	1460	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, toString, ()Ljava/lang/String; >
+	696	forwbranch < 0, 0 > Never Executed
+	716	forwbranch < 0, 0 > Never Executed
+	735	forwbranch < 0, 0 > Never Executed
+	755	forwbranch < 0, 0 > Never Executed
+	774	forwbranch < 0, 0 > Never Executed
+	794	forwbranch < 0, 0 > Never Executed
+	813	forwbranch < 0, 0 > Never Executed
+	833	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/java/net/loader/Resource;, getCodeSource, ()Ljava/security/CodeSource; >
+	6	forwbranch < 0, 133 > 0.0% taken
+M 18 < BootstrapCL, Ljava/lang/reflect/Array;, newInstance, (Ljava/lang/Class;I)Ljava/lang/Object; >
+	4	forwbranch < 0, 14 > 0.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, printOptions, ()V >
+	53	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, toString, ()Ljava/lang/String; >
+	107	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, printOptions, ()V >
+	1159	forwbranch < 0, 0 > Never Executed
+	1173	forwbranch < 0, 0 > Never Executed
+	1187	forwbranch < 0, 0 > Never Executed
+	1201	forwbranch < 0, 0 > Never Executed
+	1214	forwbranch < 0, 0 > Never Executed
+	1228	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1255	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1283	forwbranch < 0, 0 > Never Executed
+	1296	forwbranch < 0, 0 > Never Executed
+	1324	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, toString, ()Ljava/lang/String; >
+	2427	forwbranch < 0, 0 > Never Executed
+	2449	forwbranch < 0, 0 > Never Executed
+	2471	forwbranch < 0, 0 > Never Executed
+	2493	forwbranch < 0, 0 > Never Executed
+	2514	forwbranch < 0, 0 > Never Executed
+	2536	forwbranch < 0, 0 > Never Executed
+	2558	forwbranch < 0, 0 > Never Executed
+	2579	forwbranch < 0, 0 > Never Executed
+	2601	forwbranch < 0, 0 > Never Executed
+	2623	forwbranch < 0, 0 > Never Executed
+	2644	forwbranch < 0, 0 > Never Executed
+	2683	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/runtime/FileSystem;, sync, (I)Z >
+	13	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Lorg/jikesrvm/runtime/ReflectionBase;, invoke, (Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 87, 0 > 100.0% taken
+	19	forwbranch < 87, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshakeNoRecImpl, ()V >
+	16	forwbranch < 32, 5292 > 0.60105187% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, relockWithHandshakeImpl, (I)V >
+	16	forwbranch < 9, 6651 > 0.13513513% taken
+M 16 < BootstrapCL, Lgnu/classpath/SystemProperties;, <clinit>, ()V >
+	46	forwbranch < 1, 0 > 100.0% taken
+	68	forwbranch < 1, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 1 > 0.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	250	forwbranch < 0, 1 > 0.0% taken
+	266	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isPublic, (I)Z >
+	3	forwbranch < 0, 9 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/Character;, <clinit>, ()V >
+	43	backbranch < 128, 1 > 99.22481% taken
+M 8 < BootstrapCL, Ljava/lang/ClassLoader$StaticData;, <clinit>, ()V >
+	13	forwbranch < 1, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/net/URL;, <clinit>, ()V >
+	17	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/nio/ByteBufferHelper;, putShort, (Ljava/nio/ByteBuffer;ISLjava/nio/ByteOrder;)V >
+	4	forwbranch < 3150, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/nio/ByteBufferHelper;, getInt, (Ljava/nio/ByteBuffer;ILjava/nio/ByteOrder;)I >
+	4	forwbranch < 16, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/nio/ByteBufferHelper;, putInt, (Ljava/nio/ByteBuffer;IILjava/nio/ByteOrder;)V >
+	4	forwbranch < 78, 0 > 100.0% taken
+M 10 < BootstrapCL, Ljava/util/zip/InflaterHuffmanTree;, <clinit>, ()V >
+	23	backbranch < 144, 1 > 99.31035% taken
+	41	backbranch < 112, 1 > 99.11504% taken
+	59	backbranch < 24, 1 > 96.0% taken
+	77	backbranch < 8, 1 > 88.888885% taken
+	111	backbranch < 32, 1 > 96.969696% taken
+M 10 < BootstrapCL, Ljava/util/zip/DeflaterHuffman;, <clinit>, ()V >
+	155	backbranch < 144, 1 > 99.31035% taken
+	191	backbranch < 112, 1 > 99.11504% taken
+	227	backbranch < 24, 1 > 96.0% taken
+	262	backbranch < 6, 1 > 85.71429% taken
+	308	backbranch < 30, 1 > 96.77419% taken
+M 2 < BootstrapCL, Ljava/util/Locale;, <clinit>, ()V >
+	233	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/Formatter;, <init>, (Ljava/lang/Appendable;Ljava/util/Locale;)V >
+	6	forwbranch < 0, 691 > 0.0% taken
+M 42 < BootstrapCL, Lgnu/java/security/hash/HashFactory;, getInstance, (Ljava/lang/String;)Lgnu/java/security/hash/IMessageDigest; >
+	1	forwbranch < 20, 0 > 100.0% taken
+	19	forwbranch < 20, 0 > 100.0% taken
+	39	forwbranch < 0, 20 > 0.0% taken
+	48	forwbranch < 20, 0 > 100.0% taken
+	68	forwbranch < 0, 20 > 0.0% taken
+	77	forwbranch < 20, 0 > 100.0% taken
+	97	forwbranch < 20, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 20 > 0.0% taken
+	325	forwbranch < 20, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/util/logging/StreamHandler;, <init>, (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/logging/Level;Ljava/util/logging/Formatter;Ljava/lang/Class;)V >
+	70	forwbranch < 1, 0 > 100.0% taken
+	144	forwbranch < 1, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 0, 1 > 0.0% taken
+M 6 < BootstrapCL, Ljava/util/logging/StreamHandler;, changeWriter, (Ljava/io/OutputStream;Ljava/lang/String;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/EventObject;, <init>, (Ljava/lang/Object;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 18 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, initialize, ()V >
+	43	forwbranch < 4, 0 > 100.0% taken
+	117	forwbranch < 0, 0 > Never Executed
+	173	backbranch < 0, 0 > Never Executed
+	185	forwbranch < 1, 3 > 25.0% taken
+	194	forwbranch < 0, 3 > 0.0% taken
+	207	forwbranch < 3, 0 > 100.0% taken
+	268	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	340	backbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/IndexListParser;, <init>, (Ljava/util/jar/JarFile;Ljava/net/URL;Ljava/net/URL;)V >
+	21	forwbranch < 4, 0 > 100.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+	147	forwbranch < 0, 0 > Never Executed
+	172	backbranch < 0, 0 > Never Executed
+	189	forwbranch < 0, 0 > Never Executed
+	203	backbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getResource, (Ljava/lang/String;)Lgnu/java/net/loader/Resource; >
+	6	forwbranch < 239, 0 > 100.0% taken
+	19	forwbranch < 239, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 239, 0 > 100.0% taken
+	73	forwbranch < 239, 0 > 100.0% taken
+	88	forwbranch < 92, 147 > 38.493725% taken
+M 2 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getManifest, ()Ljava/util/jar/Manifest; >
+	4	forwbranch < 21, 0 > 100.0% taken
+M 30 < SystemAppCL, Lorg/dacapo/harness/TestHarness;, main, ([Ljava/lang/String;)V >
+	91	forwbranch < 1, 1 > 50.0% taken
+	113	forwbranch < 0, 1 > 0.0% taken
+	157	forwbranch < 1, 0 > 100.0% taken
+	301	forwbranch < 1, 0 > 100.0% taken
+	315	forwbranch < 0, 0 > Never Executed
+	342	forwbranch < 1, 0 > 100.0% taken
+	390	forwbranch < 1, 0 > 100.0% taken
+	404	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 1, 0 > 100.0% taken
+	437	forwbranch < 0, 0 > Never Executed
+	442	forwbranch < 0, 0 > Never Executed
+	480	forwbranch < 0, 0 > Never Executed
+	531	forwbranch < 1, 0 > 100.0% taken
+	551	forwbranch < 1, 0 > 100.0% taken
+	589	forwbranch < 0, 0 > Never Executed
+M 34 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, <init>, ([Ljava/lang/String;)V >
+	11	forwbranch < 1, 23 > 4.1666665% taken
+	34	forwbranch < 1, 22 > 4.347826% taken
+	98	forwbranch < 1, 0 > 100.0% taken
+	115	forwbranch < 1, 0 > 100.0% taken
+	132	forwbranch < 1, 0 > 100.0% taken
+	149	forwbranch < 1, 0 > 100.0% taken
+	161	forwbranch < 0, 0 > Never Executed
+	175	forwbranch < 1, 0 > 100.0% taken
+	270	forwbranch < 1, 0 > 100.0% taken
+	282	forwbranch < 0, 0 > Never Executed
+	305	forwbranch < 1, 0 > 100.0% taken
+	320	forwbranch < 0, 0 > Never Executed
+	351	forwbranch < 0, 1 > 0.0% taken
+	373	forwbranch < 1, 1 > 50.0% taken
+	392	forwbranch < 0, 1 > 0.0% taken
+	471	forwbranch < 0, 0 > Never Executed
+	524	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, setCommandLineOptions, (Lorg/dacapo/harness/CommandLineArgs;)V >
+	39	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/TestHarness;, <init>, (Ljava/io/InputStream;)V >
+	119	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config;, getThreadModel, ()Lorg/dacapo/parser/Config$ThreadModel; >
+	4	forwbranch < 24, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/dacapo/harness/TestHarness;, isValidSize, (Ljava/lang/String;)Z >
+	1	forwbranch < 0, 1 > 0.0% taken
+	17	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lorg/dacapo/harness/TestHarness;, isValidThreadCount, (Ljava/lang/String;)Z >
+	8	forwbranch < 0, 2 > 0.0% taken
+	27	forwbranch < 0, 2 > 0.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/parser/Config;, getThreadCount, (Ljava/lang/String;)I >
+	11	switch     < 0, 0, 23, 0 >
+	47	forwbranch < 23, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/TestHarness;, dump, (Z)V >
+	1	forwbranch < 1, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/dacapo/harness/TestHarness;, runBenchmark, (Ljava/io/File;Ljava/lang/String;Lorg/dacapo/harness/TestHarness;)V >
+	103	forwbranch < 0, 10 > 0.0% taken
+	108	forwbranch < 0, 10 > 0.0% taken
+	123	backbranch < 9, 1 > 90.0% taken
+	133	forwbranch < 1, 0 > 100.0% taken
+	181	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/dacapo/harness/TestHarness;, rmdir, (Ljava/io/File;)V >
+	6	forwbranch < 0, 2 > 0.0% taken
+	14	forwbranch < 2, 3 > 40.0% taken
+	33	forwbranch < 2, 1 > 66.666664% taken
+	44	forwbranch < 3, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/dacapo/parser/Config;, printThreadModel, (Ljava/io/PrintStream;Ljava/lang/String;Z)V >
+	7	forwbranch < 0, 1 > 0.0% taken
+	55	forwbranch < 1, 0 > 100.0% taken
+	104	forwbranch < 0, 0 > Never Executed
+	114	forwbranch < 0, 0 > Never Executed
+	159	forwbranch < 0, 0 > Never Executed
+M 13 < SystemAppCL, Lorg/dacapo/harness/Callback;, init, (Lorg/dacapo/parser/Config;)V >
+	4	forwbranch < 1, 0 > 100.0% taken
+	34	switch     < 1, 0, 0 >
+	68	forwbranch < 1, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+	122	forwbranch < 1, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, run, (Lorg/dacapo/harness/Callback;Ljava/lang/String;)Z >
+	15	forwbranch < 9, 1 > 90.0% taken
+	55	forwbranch < 0, 10 > 0.0% taken
+M 25 < SystemAppCL, Lorg/dacapo/harness/Callback;, runAgain, ()Z >
+	4	forwbranch < 10, 0 > 100.0% taken
+	19	forwbranch < 9, 1 > 90.0% taken
+	38	forwbranch < 9, 0 > 100.0% taken
+	83	switch     < 9, 0, 0 >
+	121	forwbranch < 8, 1 > 88.888885% taken
+	135	forwbranch < 9, 0 > 100.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	242	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	327	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, cleanup, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMaximumFractionDigits, (I)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMinimumFractionDigits, (I)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, <init>, (Ljava/util/Locale;)V >
+	52	forwbranch < 0, 342 > 0.0% taken
+M 24 < BootstrapCL, Ljava/text/DecimalFormat;, applyPatternWithSymbols, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V >
+	10	forwbranch < 1, 0 > 100.0% taken
+	71	forwbranch < 0, 1 > 0.0% taken
+	87	forwbranch < 0, 1 > 0.0% taken
+	116	forwbranch < 1, 0 > 100.0% taken
+	132	forwbranch < 1, 0 > 100.0% taken
+	149	forwbranch < 1, 0 > 100.0% taken
+	164	forwbranch < 1, 0 > 100.0% taken
+	175	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 1, 0 > 100.0% taken
+	218	forwbranch < 1, 0 > 100.0% taken
+	225	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMaximumFractionDigits, (I)V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMinimumFractionDigits, (I)V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 48 < BootstrapCL, Ljava/text/DecimalFormat;, scanFix, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;IZ)I >
+	80	forwbranch < 1, 0 > 100.0% taken
+	115	forwbranch < 0, 1 > 0.0% taken
+	122	forwbranch < 1, 0 > 100.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 1 > 0.0% taken
+	177	forwbranch < 0, 1 > 0.0% taken
+	184	forwbranch < 1, 0 > 100.0% taken
+	191	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	213	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	233	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	317	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	383	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 0, 0 > Never Executed
+	446	backbranch < 1, 0 > 100.0% taken
+	451	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Ljava/text/DecimalFormat;, scanNumberInteger, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	74	forwbranch < 1, 5 > 16.666666% taken
+	81	forwbranch < 5, 0 > 100.0% taken
+	91	forwbranch < 5, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+	130	forwbranch < 2, 3 > 40.0% taken
+	135	forwbranch < 3, 0 > 100.0% taken
+	187	forwbranch < 1, 1 > 50.0% taken
+	213	forwbranch < 0, 1 > 0.0% taken
+	242	backbranch < 6, 0 > 100.0% taken
+	249	forwbranch < 0, 1 > 0.0% taken
+	267	forwbranch < 0, 1 > 0.0% taken
+	274	forwbranch < 0, 1 > 0.0% taken
+	281	forwbranch < 1, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/text/DecimalFormat;, scanFractionalPortion, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	47	forwbranch < 1, 0 > 100.0% taken
+	102	forwbranch < 0, 3 > 0.0% taken
+	109	forwbranch < 3, 0 > 100.0% taken
+	119	forwbranch < 0, 3 > 0.0% taken
+	126	forwbranch < 3, 0 > 100.0% taken
+	176	forwbranch < 0, 3 > 0.0% taken
+	189	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	246	backbranch < 3, 1 > 75.0% taken
+	252	forwbranch < 1, 0 > 100.0% taken
+M 12 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/lang/String;)Ljava/util/Currency; >
+	1	forwbranch < 342, 0 > 100.0% taken
+	20	forwbranch < 0, 342 > 0.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+	97	backbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/util/Locale;)Ljava/util/Currency; >
+	6	forwbranch < 0, 342 > 0.0% taken
+	10	forwbranch < 342, 0 > 100.0% taken
+	28	forwbranch < 342, 0 > 100.0% taken
+	53	forwbranch < 340, 2 > 99.41521% taken
+	71	forwbranch < 2, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetChar, (Ljava/util/ResourceBundle;Ljava/lang/String;C)C >
+	4	forwbranch < 0, 3420 > 0.0% taken
+	20	forwbranch < 684, 2736 > 20.0% taken
+	29	forwbranch < 2736, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetString, (Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 0, 684 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/Currency;, getSymbol, (Ljava/util/Locale;)Ljava/lang/String; >
+	86	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	118	backbranch < 0, 0 > Never Executed
+	128	backbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/util/Currency;, <init>, (Ljava/util/Locale;)V >
+	15	forwbranch < 2, 0 > 100.0% taken
+	98	forwbranch < 2, 0 > 100.0% taken
+	116	forwbranch < 2, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/commons/cli/Options;, addOption, (Lorg/apache/commons/cli/Option;)Lorg/apache/commons/cli/Options; >
+	9	forwbranch < 0, 45 > 0.0% taken
+	31	forwbranch < 45, 0 > 100.0% taken
+	44	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, defineCallback, ()V >
+	9	forwbranch < 0, 1 > 0.0% taken
+	82	forwbranch < 1, 0 > 100.0% taken
+	163	forwbranch < 1, 0 > 100.0% taken
+M 12 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, extractBenchmarkSet, ()Ljava/util/List; >
+	31	forwbranch < 0, 1 > 0.0% taken
+	58	forwbranch < 1, 180 > 0.5524862% taken
+	83	forwbranch < 166, 14 > 92.22222% taken
+	125	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/commons/cli/CommandLine;, getOptionValue, (Ljava/lang/String;)Ljava/lang/String; >
+	7	forwbranch < 11, 17 > 39.285713% taken
+M 2 < SystemAppCL, Lorg/apache/commons/cli/CommandLine;, getOptionValue, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	7	forwbranch < 17, 10 > 62.962963% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Callback;, <init>, (Lorg/dacapo/harness/CommandLineArgs;)V >
+	21	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/apache/commons/cli/Option;, <init>, (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V >
+	41	forwbranch < 12, 11 > 52.173912% taken
+M 8 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, makeOption, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/commons/cli/Option; >
+	3	forwbranch < 23, 0 > 100.0% taken
+	7	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 12, 11 > 52.173912% taken
+	40	forwbranch < 12, 11 > 52.173912% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, getMethodology, ()Lorg/dacapo/harness/CommandLineArgs$Methodology; >
+	9	forwbranch < 11, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, getSilent, ()Z >
+	4	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, getValidateOutput, ()Z >
+	9	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, getValidate, ()Z >
+	9	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, getPreIterationGC, ()Z >
+	9	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/CommandLineArgs;, <clinit>, ()V >
+	6	forwbranch < 0, 1 > 0.0% taken
+M 10 < SystemAppCL, Lorg/apache/commons/cli/OptionValidator;, validateOption, (Ljava/lang/String;)V >
+	1	forwbranch < 12, 11 > 52.173912% taken
+	10	forwbranch < 0, 12 > 0.0% taken
+	23	forwbranch < 12, 0 > 100.0% taken
+	71	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/commons/cli/Option;, getKey, ()Ljava/lang/String; >
+	4	forwbranch < 26, 21 > 55.31915% taken
+M 6 < SystemAppCL, Lorg/apache/commons/cli/Option;, processValue, (Ljava/lang/String;)V >
+	4	forwbranch < 0, 3 > 0.0% taken
+	20	forwbranch < 3, 0 > 100.0% taken
+	38	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/commons/cli/Option;, hasValueSeparator, ()Z >
+	4	forwbranch < 0, 3 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/commons/cli/Option;, add, (Ljava/lang/String;)V >
+	4	forwbranch < 0, 3 > 0.0% taken
+	22	forwbranch < 2, 1 > 66.666664% taken
+M 4 < SystemAppCL, Lorg/apache/commons/cli/Option;, hasArg, ()Z >
+	4	forwbranch < 2, 0 > 100.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/commons/cli/Option;, hasLongOpt, ()Z >
+	4	forwbranch < 0, 45 > 0.0% taken
+M 2 < SystemAppCL, Lorg/apache/commons/cli/Option;, addValueForProcessing, (Ljava/lang/String;)V >
+	4	switch     < 0, 3 >
+M 2 < SystemAppCL, Lorg/apache/commons/cli/Option;, getValues, ()[Ljava/lang/String; >
+	4	forwbranch < 2, 0 > 100.0% taken
+M 18 < SystemAppCL, Lorg/apache/commons/cli/Option;, equals, (Ljava/lang/Object;)Z >
+	2	forwbranch < 0, 1 > 0.0% taken
+	8	forwbranch < 0, 0 > Never Executed
+	19	forwbranch < 0, 0 > Never Executed
+	33	forwbranch < 0, 0 > Never Executed
+	47	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lorg/apache/commons/cli/OptionValidator;, isValidOpt, (C)Z >
+	4	forwbranch < 12, 0 > 100.0% taken
+	10	forwbranch < 0, 0 > Never Executed
+	16	forwbranch < 0, 0 > Never Executed
+	22	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/apache/commons/cli/Options;, hasOption, (Ljava/lang/String;)Z >
+	15	forwbranch < 5, 3 > 62.5% taken
+	28	forwbranch < 3, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/apache/commons/cli/PosixParser;, processNonOptionToken, (Ljava/lang/String;Z)V >
+	1	forwbranch < 3, 0 > 100.0% taken
+	8	forwbranch < 0, 0 > Never Executed
+	18	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/commons/cli/Options;, getOption, (Ljava/lang/String;)Lorg/apache/commons/cli/Option; >
+	15	forwbranch < 0, 4 > 0.0% taken
+M 6 < SystemAppCL, Lorg/apache/commons/cli/PosixParser;, processOptionToken, (Ljava/lang/String;Z)V >
+	1	forwbranch < 2, 0 > 100.0% taken
+	12	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 2 > 0.0% taken
+M 4 < SystemAppCL, Lorg/apache/commons/cli/PosixParser;, gobble, (Ljava/util/Iterator;)V >
+	4	forwbranch < 5, 0 > 100.0% taken
+	13	forwbranch < 0, 0 > Never Executed
+M 26 < SystemAppCL, Lorg/apache/commons/cli/Parser;, parse, (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Ljava/util/Properties;Z)Lorg/apache/commons/cli/CommandLine; >
+	18	forwbranch < 1, 23 > 4.1666665% taken
+	61	forwbranch < 1, 0 > 100.0% taken
+	101	forwbranch < 1, 3 > 25.0% taken
+	123	forwbranch < 3, 0 > 100.0% taken
+	139	forwbranch < 3, 0 > 100.0% taken
+	144	forwbranch < 0, 0 > Never Executed
+	172	forwbranch < 1, 2 > 33.333332% taken
+	177	forwbranch < 2, 0 > 100.0% taken
+	189	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 1, 0 > 100.0% taken
+	237	forwbranch < 3, 0 > 100.0% taken
+	247	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lorg/apache/commons/cli/Parser;, processOption, (Ljava/lang/String;Ljava/util/ListIterator;)V >
+	10	forwbranch < 2, 0 > 100.0% taken
+	62	forwbranch < 2, 0 > 100.0% taken
+	89	forwbranch < 2, 0 > 100.0% taken
+	108	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 2 > 0.0% taken
+M 18 < SystemAppCL, Lorg/apache/commons/cli/Parser;, processProperties, (Ljava/util/Properties;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+	114	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/apache/commons/cli/Parser;, checkRequiredOptions, ()V >
+	9	forwbranch < 1, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/apache/commons/cli/Util;, stripLeadingAndTrailingQuotes, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 3, 0 > 100.0% taken
+	25	forwbranch < 3, 0 > 100.0% taken
+M 10 < SystemAppCL, Lorg/apache/commons/cli/Parser;, processArgs, (Lorg/apache/commons/cli/Option;Ljava/util/ListIterator;)V >
+	6	forwbranch < 0, 4 > 0.0% taken
+	27	forwbranch < 3, 1 > 75.0% taken
+	36	forwbranch < 0, 1 > 0.0% taken
+	79	forwbranch < 2, 0 > 100.0% taken
+	86	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lorg/apache/commons/cli/PosixParser;, flatten, (Lorg/apache/commons/cli/Options;[Ljava/lang/String;Z)[Ljava/lang/String; >
+	27	forwbranch < 1, 5 > 16.666666% taken
+	49	forwbranch < 5, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 5, 0 > 100.0% taken
+	183	forwbranch < 3, 2 > 60.0% taken
+	192	forwbranch < 2, 0 > 100.0% taken
+	201	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lorg/apache/commons/cli/Util;, stripLeadingHyphens, (Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 38, 0 > 100.0% taken
+	12	forwbranch < 38, 0 > 100.0% taken
+	31	forwbranch < 29, 9 > 76.31579% taken
+M 6 < SystemAppCL, Lorg/apache/commons/cli/CommandLine;, resolveOption, (Ljava/lang/String;)Lorg/apache/commons/cli/Option; >
+	21	forwbranch < 25, 51 > 32.894737% taken
+	42	forwbranch < 51, 0 > 100.0% taken
+	55	forwbranch < 50, 1 > 98.039215% taken
+M 8 < SystemAppCL, Lorg/apache/commons/cli/CommandLine;, getOptionValues, (Ljava/lang/String;)[Ljava/lang/String; >
+	24	forwbranch < 28, 56 > 33.333332% taken
+	47	forwbranch < 0, 56 > 0.0% taken
+	59	forwbranch < 45, 11 > 80.35714% taken
+	83	forwbranch < 11, 17 > 39.285713% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Callback;, isWarmup, ()Z >
+	7	forwbranch < 4, 36 > 10.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Callback;, start, (Ljava/lang/String;Z)V >
+	59	forwbranch < 1, 9 > 10.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/harness/Callback;, complete, (Ljava/lang/String;ZZ)V >
+	37	forwbranch < 0, 10 > 0.0% taken
+	44	forwbranch < 1, 9 > 10.0% taken
+	136	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/dacapo/harness/Callback;, start, (Ljava/lang/String;)V >
+	9	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Callback;, stop, ()V >
+	8	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Callback;, complete, (Ljava/lang/String;Z)V >
+	10	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Callback;, <clinit>, ()V >
+	6	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lprobe/ProbeMux;, init, ()V >
+	7	forwbranch < 1, 0 > 100.0% taken
+	56	forwbranch < 1, 1 > 50.0% taken
+	214	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Lprobe/ProbeMux;, begin, (Ljava/lang/String;Z)V >
+	19	forwbranch < 10, 10 > 50.0% taken
+M 4 < SystemAppCL, Lprobe/ProbeMux;, end, (Z)V >
+	8	forwbranch < 10, 10 > 50.0% taken
+	42	forwbranch < 10, 10 > 50.0% taken
+M 2 < SystemAppCL, Lprobe/ProbeMux;, cleanup, ()V >
+	7	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Lprobe/DacapoBachCallback;, stop, ()V >
+	15	forwbranch < 9, 1 > 90.0% taken
+M 2 < SystemAppCL, Lprobe/MMTkProbe;, begin, (Ljava/lang/String;IZ)V >
+	1	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Lprobe/MMTkProbe;, end, (Ljava/lang/String;IZ)V >
+	1	forwbranch < 1, 9 > 10.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, startIteration, ()V >
+	3	forwbranch < 10, 0 > 100.0% taken
+	17	forwbranch < 0, 10 > 0.0% taken
+	37	forwbranch < 1, 9 > 10.0% taken
+M 4 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, stopIteration, ()V >
+	7	forwbranch < 0, 10 > 0.0% taken
+	37	forwbranch < 10, 0 > 100.0% taken
+M 46 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, validate, (Ljava/lang/String;)Z >
+	3	forwbranch < 10, 0 > 100.0% taken
+	41	forwbranch < 10, 0 > 100.0% taken
+	49	forwbranch < 10, 0 > 100.0% taken
+	114	forwbranch < 10, 20 > 33.333332% taken
+	138	forwbranch < 0, 20 > 0.0% taken
+	217	forwbranch < 20, 0 > 100.0% taken
+	264	forwbranch < 20, 0 > 100.0% taken
+	274	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	297	forwbranch < 20, 0 > 100.0% taken
+	354	forwbranch < 20, 0 > 100.0% taken
+	393	forwbranch < 20, 0 > 100.0% taken
+	476	forwbranch < 0, 0 > Never Executed
+	524	forwbranch < 0, 0 > Never Executed
+	581	forwbranch < 0, 0 > Never Executed
+	620	forwbranch < 20, 0 > 100.0% taken
+	707	forwbranch < 0, 0 > Never Executed
+	756	forwbranch < 0, 0 > Never Executed
+	813	forwbranch < 0, 0 > Never Executed
+	852	forwbranch < 20, 0 > 100.0% taken
+	871	forwbranch < 0, 0 > Never Executed
+	913	forwbranch < 0, 0 > Never Executed
+	948	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, postIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 0, 10 > 0.0% taken
+M 8 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, initialize, ()V >
+	47	forwbranch < 0, 1 > 0.0% taken
+	82	forwbranch < 0, 1 > 0.0% taken
+	112	forwbranch < 0, 1 > 0.0% taken
+	147	forwbranch < 0, 1 > 0.0% taken
+M 8 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, prepareJars, ()V >
+	34	forwbranch < 0, 1 > 0.0% taken
+	49	forwbranch < 0, 1 > 0.0% taken
+	91	forwbranch < 0, 1 > 0.0% taken
+	105	forwbranch < 1, 1 > 50.0% taken
+M 4 < SystemAppCL, Lorg/dacapo/harness/DacapoClassLoader;, create, (Lorg/dacapo/parser/Config;Ljava/io/File;)Lorg/dacapo/harness/DacapoClassLoader; >
+	11	forwbranch < 1, 0 > 100.0% taken
+	37	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, extractFileResource, (Ljava/lang/String;Ljava/io/File;)V >
+	3	forwbranch < 2, 0 > 100.0% taken
+	49	forwbranch < 2, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config;, preprocessArgs, (Ljava/lang/String;Ljava/io/File;)[Ljava/lang/String; >
+	20	forwbranch < 10, 10 > 50.0% taken
+M 8 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, postIterationCleanup, (Ljava/lang/String;)V >
+	20	forwbranch < 10, 20 > 33.333332% taken
+	39	forwbranch < 0, 20 > 0.0% taken
+	48	forwbranch < 20, 0 > 100.0% taken
+	63	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, useBenchmarkClassLoader, ()V >
+	4	forwbranch < 0, 30 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, revertClassLoader, ()V >
+	4	forwbranch < 0, 30 > 0.0% taken
+M 4 < SystemAppCL, Lorg/dacapo/harness/FileDigest;, get, (Ljava/lang/String;ZZLjava/io/File;)[B >
+	1	forwbranch < 0, 20 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lorg/dacapo/harness/Digest;, toString, ([B)Ljava/lang/String; >
+	17	forwbranch < 20, 400 > 4.7619047% taken
+	36	forwbranch < 340, 60 > 85.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, deleteFile, (Ljava/io/File;)V >
+	3	forwbranch < 20, 0 > 100.0% taken
+	38	forwbranch < 0, 20 > 0.0% taken
+	45	forwbranch < 0, 20 > 0.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, deleteTree, (Ljava/io/File;)V >
+	3	forwbranch < 1, 0 > 100.0% taken
+	38	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, getURL, (Ljava/lang/String;)Ljava/net/URL; >
+	16	forwbranch < 2, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/Benchmark;, fileFromInputStream, (Ljava/io/InputStream;Ljava/io/File;)V >
+	42	forwbranch < 2, 724 > 0.2754821% taken
+M 10 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, configFile, ()Lorg/dacapo/parser/Config; >
+	10	forwbranch < 3, 1 > 75.0% taken
+	24	switch     < 1, 3, 0 >
+	97	forwbranch < 0, 4 > 0.0% taken
+	111	switch     < 1, 2, 1 >
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config;, getSize, (Ljava/lang/String;)Lorg/dacapo/parser/Config$Size; >
+	13	forwbranch < 247, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config$OutputFile;, hasDigest, ()Z >
+	4	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config$OutputFile;, hasBytes, ()Z >
+	8	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config$OutputFile;, hasLines, ()Z >
+	5	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config;, setJar, (Ljava/lang/String;)V >
+	4	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config;, setLibs, ([Ljava/lang/String;)V >
+	4	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config;, setClass, (Ljava/lang/String;)V >
+	4	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/Config;, setThreadModel, (Lorg/dacapo/parser/Config$ThreadModel;)V >
+	4	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/parser/Config;, setThreadLimit, (Ljava/lang/String;I)V >
+	7	forwbranch < 0, 3 > 0.0% taken
+	17	forwbranch < 3, 0 > 100.0% taken
+	31	forwbranch < 3, 0 > 100.0% taken
+M 4 < SystemAppCL, Lorg/dacapo/parser/Config;, addOutputFile, (Ljava/lang/String;Ljava/lang/String;)V >
+	15	forwbranch < 3, 3 > 50.0% taken
+	24	forwbranch < 0, 3 > 0.0% taken
+M 7 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, config, ()Lorg/dacapo/parser/Config; >
+	31	forwbranch < 1, 4 > 20.0% taken
+	45	switch     < 1, 1, 1, 1, 1 >
+M 2 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, jj_ntk, ()I >
+	12	forwbranch < 0, 65 > 0.0% taken
+M 8 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, sizeSpec, (Lorg/dacapo/parser/Config;)V >
+	28	forwbranch < 6, 3 > 66.666664% taken
+	42	switch     < 0, 0, 3, 0, 3, 3 >
+M 4 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, description, (Lorg/dacapo/parser/Config;)V >
+	17	forwbranch < 0, 9 > 0.0% taken
+	31	switch     < 8, 1 >
+M 4 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, jj_consume_token, (I)Lorg/dacapo/parser/Token; >
+	9	forwbranch < 20, 64 > 23.809525% taken
+	58	forwbranch < 0, 84 > 0.0% taken
+M 7 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, configOption, (Lorg/dacapo/parser/Config;)V >
+	5	forwbranch < 4, 0 > 100.0% taken
+	19	switch     < 1, 1, 1, 1, 0 >
+M 6 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, threadModel, ()Lorg/dacapo/parser/Config$ThreadModel; >
+	5	forwbranch < 0, 1 > 0.0% taken
+	19	switch     < 0, 1, 0, 0 >
+M 4 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, libraries, (Lorg/dacapo/parser/Config;)V >
+	24	forwbranch < 0, 1 > 0.0% taken
+	38	switch     < 0, 1 >
+M 20 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, sizeClause, (Lorg/dacapo/parser/Config;Ljava/lang/String;)V >
+	13	forwbranch < 6, 3 > 66.666664% taken
+	27	switch     < 3, 0, 3, 0, 3, 0 >
+	88	forwbranch < 0, 3 > 0.0% taken
+	102	switch     < 3, 0 >
+	138	forwbranch < 0, 3 > 0.0% taken
+	152	switch     < 0, 3 >
+	319	forwbranch < 6, 0 > 100.0% taken
+	333	switch     < 3, 3 >
+M 22 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, outputFile, (Lorg/dacapo/parser/Config;Ljava/lang/String;)V >
+	5	forwbranch < 0, 6 > 0.0% taken
+	19	switch     < 3, 3, 0, 0 >
+	122	forwbranch < 0, 12 > 0.0% taken
+	136	switch     < 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 6 >
+M 24 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, outputClause, (Lorg/dacapo/parser/Config;Ljava/lang/String;Ljava/lang/String;)V >
+	5	forwbranch < 6, 0 > 100.0% taken
+	19	switch     < 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	96	forwbranch < 0, 6 > 0.0% taken
+	110	switch     < 0, 6 >
+	147	forwbranch < 0, 0 > Never Executed
+	161	switch     < 0, 0 >
+M 36 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, descId, ()Ljava/lang/String; >
+	5	forwbranch < 0, 9 > 0.0% taken
+	19	switch     < 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0 >
+M 2 < SystemAppCL, Lorg/dacapo/parser/ConfigFile;, <init>, (Ljava/io/InputStream;Ljava/lang/String;)V >
+	97	forwbranch < 1, 19 > 5.0% taken
+M 49 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, getNextToken, ()Lorg/dacapo/parser/Token; >
+	62	switch     < 85, 0, 0, 0, 0 >
+	106	forwbranch < 84, 140 > 37.5% taken
+	121	forwbranch < 0, 140 > 0.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	235	forwbranch < 0, 0 > Never Executed
+	267	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	291	forwbranch < 0, 84 > 0.0% taken
+	301	forwbranch < 30, 54 > 35.714287% taken
+	342	forwbranch < 0, 84 > 0.0% taken
+	364	forwbranch < 84, 0 > 100.0% taken
+	404	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	439	forwbranch < 0, 0 > Never Executed
+	481	backbranch < 0, 0 > Never Executed
+	512	forwbranch < 0, 0 > Never Executed
+	601	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	634	forwbranch < 0, 0 > Never Executed
+	651	forwbranch < 0, 0 > Never Executed
+	664	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lorg/dacapo/parser/SimpleCharStream;, backup, (I)V >
+	21	forwbranch < 141, 0 > 100.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/parser/SimpleCharStream;, readChar, ()C >
+	4	forwbranch < 1245, 54 > 95.84296% taken
+	32	forwbranch < 54, 0 > 100.0% taken
+	65	forwbranch < 1242, 3 > 99.75903% taken
+M 16 < SystemAppCL, Lorg/dacapo/parser/SimpleCharStream;, FillBuff, ()V >
+	8	forwbranch < 3, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	29	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 1, 1 > 50.0% taken
+	211	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Lorg/dacapo/parser/SimpleCharStream;, UpdateLineColumn, (C)V >
+	14	forwbranch < 1213, 30 > 97.58649% taken
+	44	forwbranch < 1213, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	82	switch     < 12, 31, 0, 0, 0, 1200 >
+M 2 < SystemAppCL, Lorg/dacapo/parser/SimpleCharStream;, <init>, (Ljava/io/InputStream;Ljava/lang/String;III)V >
+	2	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/SimpleCharStream;, GetImage, ()Ljava/lang/String; >
+	8	forwbranch < 0, 28 > 0.0% taken
+M 52 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjStopStringLiteralDfa_0, (IJ)I >
+	1	switch     < 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	67	forwbranch < 4, 0 > 100.0% taken
+	79	forwbranch < 0, 4 > 0.0% taken
+	99	forwbranch < 1, 0 > 100.0% taken
+	111	forwbranch < 0, 1 > 0.0% taken
+	136	forwbranch < 0, 0 > Never Executed
+	159	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	308	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	386	forwbranch < 0, 0 > Never Executed
+	412	forwbranch < 0, 0 > Never Executed
+	436	forwbranch < 0, 0 > Never Executed
+M 136 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveNfa_0, (II)I >
+	35	forwbranch < 879, 0 > 100.0% taken
+	48	forwbranch < 535, 344 > 60.86462% taken
+	69	switch     < 0, 0, 0, 23, 0, 48, 0, 0, 150, 0, 115, 115, 0, 115, 0, 0, 0, 0, 8, 0 >
+	168	forwbranch < 14, 9 > 60.869564% taken
+	175	forwbranch < 0, 9 > 0.0% taken
+	197	forwbranch < 0, 14 > 0.0% taken
+	215	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 17, 6 > 73.91304% taken
+	299	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 3, 45 > 6.25% taken
+	425	forwbranch < 0, 3 > 0.0% taken
+	446	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 144, 6 > 96.0% taken
+	488	forwbranch < 0, 144 > 0.0% taken
+	522	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 14, 101 > 12.173913% taken
+	562	forwbranch < 0, 0 > Never Executed
+	580	forwbranch < 101, 14 > 87.82609% taken
+	587	forwbranch < 0, 14 > 0.0% taken
+	605	forwbranch < 0, 0 > Never Executed
+	626	forwbranch < 0, 0 > Never Executed
+	646	forwbranch < 0, 0 > Never Executed
+	678	forwbranch < 0, 0 > Never Executed
+	698	forwbranch < 5, 3 > 62.5% taken
+	708	forwbranch < 0, 5 > 0.0% taken
+	727	backbranch < 230, 344 > 40.069687% taken
+	740	forwbranch < 0, 535 > 0.0% taken
+	764	switch     < 0, 0, 0, 0, 41, 0, 6, 96, 0, 392, 392, 0, 398 >
+	836	forwbranch < 41, 0 > 100.0% taken
+	846	forwbranch < 0, 41 > 0.0% taken
+	865	forwbranch < 0, 0 > Never Executed
+	883	forwbranch < 6, 0 > 100.0% taken
+	893	forwbranch < 0, 6 > 0.0% taken
+	917	forwbranch < 96, 0 > 100.0% taken
+	927	forwbranch < 0, 96 > 0.0% taken
+	951	forwbranch < 0, 392 > 0.0% taken
+	969	forwbranch < 392, 0 > 100.0% taken
+	991	forwbranch < 0, 0 > Never Executed
+	1006	backbranch < 790, 535 > 59.622643% taken
+	1046	switch     < 0, 0, 0 >
+	1083	forwbranch < 0, 0 > Never Executed
+	1090	forwbranch < 0, 0 > Never Executed
+	1111	forwbranch < 0, 0 > Never Executed
+	1126	backbranch < 0, 0 > Never Executed
+	1133	forwbranch < 561, 318 > 63.822525% taken
+	1172	forwbranch < 811, 68 > 92.26394% taken
+M 18 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa1_0, (J)I >
+	28	switch     < 0, 0, 2, 6, 6, 11, 1, 2, 5, 6, 5, 0, 0, 1 >
+	151	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+M 35 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa2_0, (JJ)I >
+	7	forwbranch < 41, 3 > 93.181816% taken
+	46	switch     < 1, 1, 1, 6, 0, 1, 9, 0, 0, 0, 0, 1, 0, 2, 1, 2, 0, 8, 1, 4, 0, 0, 0, 0, 0, 3, 0 >
+	234	forwbranch < 0, 1 > 0.0% taken
+	289	forwbranch < 7, 1 > 87.5% taken
+	335	forwbranch < 0, 0 > Never Executed
+M 42 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa3_0, (JJ)I >
+	7	forwbranch < 38, 0 > 100.0% taken
+	46	switch     < 1, 0, 0, 0, 2, 0, 19, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 3, 0, 1, 6, 0, 0, 0, 0, 0, 1, 0 >
+	202	forwbranch < 16, 3 > 84.210526% taken
+	230	forwbranch < 0, 1 > 0.0% taken
+	276	forwbranch < 3, 0 > 100.0% taken
+	313	forwbranch < 3, 3 > 50.0% taken
+	332	forwbranch < 2, 1 > 66.666664% taken
+	360	forwbranch < 0, 0 > Never Executed
+M 34 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa4_0, (JJ)I >
+	7	forwbranch < 30, 0 > 100.0% taken
+	46	switch     < 6, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 5, 7, 1, 6, 0 >
+	169	forwbranch < 0, 0 > Never Executed
+	251	forwbranch < 7, 0 > 100.0% taken
+	270	forwbranch < 6, 1 > 85.71429% taken
+	289	forwbranch < 6, 0 > 100.0% taken
+	317	forwbranch < 0, 1 > 0.0% taken
+M 45 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa5_0, (JJ)I >
+	7	forwbranch < 28, 0 > 100.0% taken
+	46	switch     < 5, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 1, 0, 4, 1, 13, 0, 0, 0, 0, 0, 0 >
+	155	forwbranch < 5, 0 > 100.0% taken
+	183	forwbranch < 0, 0 > Never Executed
+	238	forwbranch < 3, 1 > 75.0% taken
+	257	forwbranch < 3, 0 > 100.0% taken
+	276	forwbranch < 0, 3 > 0.0% taken
+	295	forwbranch < 1, 0 > 100.0% taken
+	323	forwbranch < 7, 6 > 53.846153% taken
+	342	forwbranch < 4, 3 > 57.142857% taken
+	361	forwbranch < 1, 3 > 25.0% taken
+	389	forwbranch < 0, 0 > Never Executed
+M 21 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa6_0, (JJ)I >
+	7	forwbranch < 12, 0 > 100.0% taken
+	47	switch     < 4, 1, 1, 1, 1, 1, 2, 1, 0 >
+	145	forwbranch < 0, 1 > 0.0% taken
+	174	forwbranch < 0, 1 > 0.0% taken
+	203	forwbranch < 1, 1 > 50.0% taken
+	223	forwbranch < 0, 1 > 0.0% taken
+	243	forwbranch < 0, 1 > 0.0% taken
+M 16 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa7_0, (JJ)I >
+	7	forwbranch < 7, 0 > 100.0% taken
+	48	switch     < 1, 0, 0, 0, 3, 1, 0, 0, 0, 0, 1, 0, 1, 0 >
+M 11 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa8_0, (JJ)I >
+	7	forwbranch < 7, 0 > 100.0% taken
+	49	switch     < 4, 1, 1, 1, 0 >
+	108	forwbranch < 0, 1 > 0.0% taken
+	137	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa9_0, (JJ)I >
+	7	forwbranch < 5, 0 > 100.0% taken
+	49	switch     < 1, 3, 1, 0 >
+M 8 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa10_0, (JJ)I >
+	7	forwbranch < 5, 0 > 100.0% taken
+	49	switch     < 1, 3, 1, 0 >
+	109	forwbranch < 0, 1 > 0.0% taken
+M 9 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa11_0, (JJ)I >
+	7	forwbranch < 4, 0 > 100.0% taken
+	49	switch     < 1, 3, 0 >
+	83	forwbranch < 0, 1 > 0.0% taken
+	103	forwbranch < 0, 3 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjCheckNAdd, (I)V >
+	10	forwbranch < 0, 1681 > 0.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjCheckNAddStates, (II)V >
+	14	backbranch < 1014, 507 > 66.666664% taken
+M 1 < SystemAppCL, Lorg/dacapo/parser/Token;, newToken, (ILjava/lang/String;)Lorg/dacapo/parser/Token; >
+	1	switch     < 85 >
+M 2 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjFillToken, ()Lorg/dacapo/parser/Token; >
+	12	forwbranch < 57, 28 > 67.05882% taken
+M 80 < SystemAppCL, Lorg/dacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa0_0, ()I >
+	4	switch     < 0, 0, 0, 0, 11, 0, 0, 0, 6, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 2, 8, 0, 0, 0, 0, 0, 1, 0, 4, 0, 0, 4, 1, 0, 1, 12, 5, 1, 1, 14 >
+M 2 < SystemAppCL, Lorg/dacapo/harness/Sunflow;, validate, (Ljava/lang/String;)Z >
+	3	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/TeeOutputStream;, version, ()V >
+	54	forwbranch < 18, 0 > 100.0% taken
+M 2 < SystemAppCL, Lorg/dacapo/harness/TeeOutputStream;, flush, ()V >
+	8	forwbranch < 0, 20 > 0.0% taken
+M 6 < SystemAppCL, Lorg/dacapo/harness/DacapoClassLoader;, getJars, (Lorg/dacapo/parser/Config;Ljava/io/File;)[Ljava/net/URL; >
+	23	forwbranch < 0, 1 > 0.0% taken
+	56	forwbranch < 0, 1 > 0.0% taken
+	69	forwbranch < 1, 1 > 50.0% taken
+M 4 < SystemAppCL, Lorg/dacapo/harness/DacapoClassLoader;, loadClass, (Ljava/lang/String;Z)Ljava/lang/Class; >
+	7	forwbranch < 0, 96 > 0.0% taken
+	29	forwbranch < 96, 0 > 100.0% taken
+M 12 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/Benchmark;, <init>, (IZZZI)V >
+	43	forwbranch < 3, 0 > 100.0% taken
+	73	forwbranch < 3, 0 > 100.0% taken
+	118	forwbranch < 0, 3 > 0.0% taken
+	127	forwbranch < 3, 0 > 100.0% taken
+	196	forwbranch < 3, 768 > 0.38910505% taken
+	205	forwbranch < 768, 196608 > 0.38910505% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/Benchmark;, kernelEnd, ()V >
+	6	forwbranch < 0, 1 > 0.0% taken
+	19	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 1, 65536 > 0.0015258556% taken
+	137	forwbranch < 1, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/system/UI;, set, (Lorg/sunflow/system/UserInterface;)V >
+	1	forwbranch < 10, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/system/UI;, printInfo, (Lorg/sunflow/system/UI$Module;Ljava/lang/String;[Ljava/lang/Object;)V >
+	4	forwbranch < 0, 491 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/Benchmark$BenchmarkScene;, <init>, (Lorg/sunflow/Benchmark;)V >
+	20	forwbranch < 10, 0 > 100.0% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/Benchmark;, print, (Lorg/sunflow/system/UI$Module;Lorg/sunflow/system/UI$PrintLevel;Ljava/lang/String;)V >
+	4	forwbranch < 0, 491 > 0.0% taken
+	11	forwbranch < 491, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 491, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/Benchmark;, imageUpdate, (IIII[Lorg/sunflow/image/Color;)V >
+	10	forwbranch < 98, 3136 > 3.030303% taken
+	36	forwbranch < 3136, 100249 > 3.033322% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/system/UI;, printDetailed, (Lorg/sunflow/system/UI$Module;Ljava/lang/String;[Ljava/lang/Object;)V >
+	4	forwbranch < 1050, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/system/UI;, taskCanceled, ()Z >
+	3	forwbranch < 1550, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/Formatter;, checkFlags, (IIC)V >
+	7	forwbranch < 980, 0 > 100.0% taken
+M 26 < BootstrapCL, Ljava/util/Formatter;, genericFormat, (Ljava/lang/String;III)V >
+	3	forwbranch < 630, 0 > 100.0% taken
+	10	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 630, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 630, 0 > 100.0% taken
+	67	forwbranch < 630, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	87	forwbranch < 0, 630 > 0.0% taken
+	95	forwbranch < 630, 0 > 100.0% taken
+	126	backbranch < 0, 0 > Never Executed
+	142	forwbranch < 630, 0 > 100.0% taken
+	150	forwbranch < 0, 0 > Never Executed
+	181	backbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/util/Formatter;, noPrecision, (I)V >
+	2	forwbranch < 350, 0 > 100.0% taken
+M 30 < BootstrapCL, Ljava/util/Formatter;, basicIntegralConversion, (Ljava/lang/Object;IIIIC)Lgnu/java/lang/CPStringBuilder; >
+	3	forwbranch < 350, 0 > 100.0% taken
+	10	forwbranch < 0, 0 > Never Executed
+	17	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	45	forwbranch < 350, 0 > 100.0% taken
+	52	forwbranch < 0, 0 > Never Executed
+	71	forwbranch < 350, 0 > 100.0% taken
+	76	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 10, 340 > 2.857143% taken
+	121	forwbranch < 350, 0 > 100.0% taken
+	165	forwbranch < 0, 350 > 0.0% taken
+	172	forwbranch < 0, 350 > 0.0% taken
+	179	forwbranch < 0, 350 > 0.0% taken
+	204	forwbranch < 350, 0 > 100.0% taken
+	221	forwbranch < 340, 10 > 97.14286% taken
+M 34 < BootstrapCL, Ljava/util/Formatter;, applyLocalization, (Lgnu/java/lang/CPStringBuilder;IIZ)V >
+	4	forwbranch < 340, 0 > 100.0% taken
+	65	forwbranch < 0, 570 > 0.0% taken
+	72	forwbranch < 0, 570 > 0.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+	103	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 0, 0 > Never Executed
+	129	backbranch < 570, 340 > 62.637363% taken
+	135	forwbranch < 340, 0 > 100.0% taken
+	161	forwbranch < 340, 0 > 100.0% taken
+	177	forwbranch < 0, 0 > Never Executed
+	219	backbranch < 0, 0 > Never Executed
+	226	forwbranch < 340, 0 > 100.0% taken
+	253	backbranch < 0, 0 > Never Executed
+	258	forwbranch < 340, 0 > 100.0% taken
+	266	forwbranch < 0, 0 > Never Executed
+	302	forwbranch < 340, 0 > 100.0% taken
+	320	forwbranch < 340, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/Formatter;, advance, ()V >
+	18	forwbranch < 1050, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/util/Formatter;, parseInt, ()I >
+	26	backbranch < 150, 900 > 14.285714% taken
+	34	forwbranch < 140, 760 > 15.555555% taken
+M 6 < BootstrapCL, Ljava/util/Formatter;, parseArgumentIndex, ()I >
+	20	forwbranch < 770, 0 > 100.0% taken
+	46	forwbranch < 760, 10 > 98.7013% taken
+	67	forwbranch < 10, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/util/Formatter;, parseFlags, ()I >
+	26	forwbranch < 10, 770 > 1.2820513% taken
+	41	forwbranch < 10, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/util/Formatter;, parsePrecision, ()I >
+	13	forwbranch < 120, 650 > 15.584415% taken
+	29	forwbranch < 120, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/util/Formatter;, booleanFormat, (Ljava/lang/Object;IIIC)V >
+	12	forwbranch < 10, 10 > 50.0% taken
+	28	forwbranch < 0, 10 > 0.0% taken
+M 4 < BootstrapCL, Ljava/util/Formatter;, stringFormat, (Ljava/lang/Object;IIIC)V >
+	4	forwbranch < 270, 0 > 100.0% taken
+	47	forwbranch < 270, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/Formatter;, decimalConversion, (Ljava/lang/Object;IIIC)V >
+	26	forwbranch < 340, 0 > 100.0% taken
+M 32 < BootstrapCL, Ljava/util/Formatter;, hexOrOctalConversion, (Ljava/lang/Object;IIIIC)V >
+	3	forwbranch < 10, 0 > 100.0% taken
+	10	forwbranch < 0, 0 > Never Executed
+	17	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 10, 0 > 100.0% taken
+	67	forwbranch < 10, 0 > 100.0% taken
+	90	forwbranch < 10, 0 > 100.0% taken
+	109	forwbranch < 10, 0 > 100.0% taken
+	120	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 0, 10 > 0.0% taken
+	170	forwbranch < 0, 10 > 0.0% taken
+	185	forwbranch < 10, 0 > 100.0% taken
+	192	forwbranch < 0, 0 > Never Executed
+	227	backbranch < 10, 10 > 50.0% taken
+	240	forwbranch < 0, 10 > 0.0% taken
+	247	forwbranch < 10, 0 > 100.0% taken
+M 37 < BootstrapCL, Ljava/util/Formatter;, format, (Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/util/Formatter; >
+	4	forwbranch < 691, 0 > 100.0% taken
+	67	forwbranch < 770, 13430 > 5.4225354% taken
+	141	forwbranch < 760, 10 > 98.7013% taken
+	164	forwbranch < 0, 770 > 0.0% taken
+	171	forwbranch < 770, 0 > 100.0% taken
+	177	forwbranch < 0, 0 > Never Executed
+	197	forwbranch < 0, 770 > 0.0% taken
+	212	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 770 > 0.0% taken
+	231	forwbranch < 770, 0 > 100.0% taken
+	263	switch     < 0, 0, 20, 0, 340, 0, 130, 0, 0, 0, 0, 270, 0, 10, 0 >
+	631	backbranch < 14200, 691 > 95.35961% taken
+M 2 < BootstrapCL, Ljava/util/Formatter;, <clinit>, ()V >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/spi/IIORegistry;, getDefaultInstance, ()Ljavax/imageio/spi/IIORegistry; >
+	19	forwbranch < 9, 1 > 90.0% taken
+M 4 < BootstrapCL, Ljavax/imageio/spi/IIORegistry;, registerApplicationClasspathSpis, ()V >
+	59	backbranch < 0, 5 > 0.0% taken
+	68	backbranch < 5, 1 > 83.333336% taken
+M 2 < BootstrapCL, Ljavax/imageio/ImageIO;, read, (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage; >
+	1	forwbranch < 10, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljavax/imageio/ImageIO;, read, (Ljavax/imageio/stream/ImageInputStream;)Ljava/awt/image/BufferedImage; >
+	1	forwbranch < 10, 0 > 100.0% taken
+	42	forwbranch < 0, 10 > 0.0% taken
+	68	backbranch < 10, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/ImageIO;, read, (Ljava/net/URL;)Ljava/awt/image/BufferedImage; >
+	1	forwbranch < 10, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/stream/ImageInputStreamImpl;, seek, (J)V >
+	10	forwbranch < 10, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/stream/ImageInputStreamImpl;, checkClosed, ()V >
+	4	forwbranch < 330, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/stream/ImageInputStreamImpl;, finalize, ()V >
+	4	forwbranch < 0, 10 > 0.0% taken
+M 4 < BootstrapCL, Ljavax/imageio/stream/ImageInputStreamImpl;, setBitOffset, (I)V >
+	5	forwbranch < 0, 290 > 0.0% taken
+	11	forwbranch < 290, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/stream/MemoryCacheImageInputStream;, read, ()I >
+	15	forwbranch < 0, 80 > 0.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/stream/MemoryCacheImageInputStream;, read, ([BII)I >
+	20	forwbranch < 0, 210 > 0.0% taken
+M 6 < BootstrapCL, Ljavax/imageio/spi/ImageReaderWriterSpi;, <init>, (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V >
+	7	forwbranch < 0, 4 > 0.0% taken
+	12	forwbranch < 0, 4 > 0.0% taken
+	17	forwbranch < 4, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljavax/imageio/spi/IIOServiceProvider;, <init>, (Ljava/lang/String;Ljava/lang/String;)V >
+	5	forwbranch < 0, 4 > 0.0% taken
+	9	forwbranch < 4, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljavax/imageio/spi/ImageReaderSpi;, <init>, (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V >
+	35	forwbranch < 0, 3 > 0.0% taken
+	41	forwbranch < 3, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/spi/IIORegistry;, <init>, ()V >
+	62	forwbranch < 0, 1 > 0.0% taken
+M 6 < BootstrapCL, Ljavax/imageio/spi/ServiceRegistry;, <init>, (Ljava/util/Iterator;)V >
+	15	forwbranch < 1, 0 > 100.0% taken
+	40	forwbranch < 5, 0 > 100.0% taken
+	63	backbranch < 5, 1 > 83.333336% taken
+M 8 < BootstrapCL, Ljava/awt/Toolkit;, getDefaultToolkit, ()Ljava/awt/Toolkit; >
+	3	forwbranch < 1, 0 > 100.0% taken
+	13	forwbranch < 0, 1 > 0.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+M 8 < BootstrapCL, Ljavax/imageio/spi/ServiceRegistry;, registerServiceProvider, (Ljava/lang/Object;I)Z >
+	1	forwbranch < 4, 0 > 100.0% taken
+	26	forwbranch < 4, 0 > 100.0% taken
+	50	forwbranch < 2, 2 > 50.0% taken
+	87	forwbranch < 0, 4 > 0.0% taken
+M 8 < BootstrapCL, Ljavax/imageio/spi/ServiceRegistry;, registerServiceProvider, (Ljava/lang/Object;)V >
+	3	forwbranch < 4, 0 > 100.0% taken
+	29	forwbranch < 16, 4 > 80.0% taken
+	50	backbranch < 20, 4 > 83.333336% taken
+	54	forwbranch < 4, 0 > 100.0% taken
+M 14 < BootstrapCL, Ljavax/imageio/spi/ServiceRegistry;, getServiceProviders, (Ljava/lang/Class;Ljavax/imageio/spi/ServiceRegistry$Filter;Z)Ljava/util/Iterator; >
+	18	forwbranch < 10, 0 > 100.0% taken
+	64	forwbranch < 30, 0 > 100.0% taken
+	75	forwbranch < 0, 0 > Never Executed
+	93	backbranch < 30, 10 > 75.0% taken
+	97	forwbranch < 0, 10 > 0.0% taken
+	104	forwbranch < 10, 0 > 100.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljavax/imageio/spi/ServiceRegistry;, getCategoryID, (Ljava/lang/Class;)I >
+	12	forwbranch < 10, 10 > 50.0% taken
+	26	backbranch < 20, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljavax/imageio/spi/ImageWriterSpi;, <init>, (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V >
+	35	forwbranch < 1, 0 > 100.0% taken
+	50	forwbranch < 0, 1 > 0.0% taken
+	56	forwbranch < 1, 0 > 100.0% taken
+M 8 < BootstrapCL, Lgnu/javax/imageio/png/PNGImageReaderSpi;, canDecodeInput, (Ljava/lang/Object;)Z >
+	6	forwbranch < 0, 10 > 0.0% taken
+	45	forwbranch < 80, 0 > 100.0% taken
+	59	forwbranch < 10, 80 > 11.111111% taken
+	63	backbranch < 80, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljavax/imageio/spi/ServiceRegistry$1;, hasNext, ()Z >
+	14	forwbranch < 1, 10 > 9.090909% taken
+M 2 < BootstrapCL, Ljavax/imageio/spi/ServiceRegistry$1;, next, ()Ljava/lang/Object; >
+	4	forwbranch < 5, 0 > 100.0% taken
+M 6 < BootstrapCL, Lgnu/classpath/ServiceFactory;, lookupProviders, (Ljava/lang/Class;Ljava/lang/ClassLoader;Z)Ljava/util/Iterator; >
+	1	forwbranch < 5, 0 > 100.0% taken
+	13	forwbranch < 5, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+M 18 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, loadNextServiceProvider, ()Ljava/lang/Object; >
+	4	forwbranch < 0, 5 > 0.0% taken
+	15	forwbranch < 0, 5 > 0.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	187	forwbranch < 0, 0 > Never Executed
+	197	forwbranch < 0, 0 > Never Executed
+	240	backbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, hasNext, ()Z >
+	4	forwbranch < 5, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, advanceReader, ()V >
+	4	forwbranch < 5, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 5 > 0.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	214	backbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/javax/imageio/png/PNGImageReader;, checkIndex, (I)V >
+	1	forwbranch < 10, 0 > 100.0% taken
+M 12 < BootstrapCL, Lgnu/javax/imageio/png/PNGImageReader;, readImage, ()V >
+	4	forwbranch < 0, 10 > 0.0% taken
+	14	forwbranch < 10, 0 > 100.0% taken
+	45	forwbranch < 0, 10 > 0.0% taken
+	79	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 10 > 0.0% taken
+	103	forwbranch < 0, 10 > 0.0% taken
+M 10 < BootstrapCL, Ljavax/imageio/ImageReader;, setInput, (Ljava/lang/Object;ZZ)V >
+	11	forwbranch < 10, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 10, 10 > 50.0% taken
+	64	backbranch < 20, 10 > 66.666664% taken
+	69	forwbranch < 10, 0 > 100.0% taken
+M 20 < BootstrapCL, Lgnu/javax/imageio/png/PNGFile;, <init>, (Ljava/io/InputStream;)V >
+	32	forwbranch < 10, 0 > 100.0% taken
+	50	forwbranch < 10, 0 > 100.0% taken
+	73	forwbranch < 10, 0 > 100.0% taken
+	101	forwbranch < 10, 0 > 100.0% taken
+	149	forwbranch < 0, 40 > 0.0% taken
+	156	forwbranch < 10, 30 > 25.0% taken
+	179	forwbranch < 10, 0 > 100.0% taken
+	221	backbranch < 30, 10 > 75.0% taken
+	231	forwbranch < 10, 0 > 100.0% taken
+	238	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Lgnu/javax/imageio/png/PNGFile;, getBufferedImage, ()Ljava/awt/image/BufferedImage; >
+	4	forwbranch < 10, 0 > 100.0% taken
+	31	forwbranch < 10, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/javax/imageio/png/PNGImageReader;, <clinit>, ()V >
+	5	forwbranch < 0, 1 > 0.0% taken
+M 4 < BootstrapCL, Lgnu/javax/imageio/png/PNGImageReader;, setInput, (Ljava/lang/Object;ZZ)V >
+	11	forwbranch < 0, 10 > 0.0% taken
+	18	forwbranch < 10, 0 > 100.0% taken
+M 6 < BootstrapCL, Lgnu/javax/imageio/png/PNGFile;, validateHeader, ([B)Z >
+	4	forwbranch < 10, 0 > 100.0% taken
+	22	forwbranch < 80, 0 > 100.0% taken
+	33	backbranch < 80, 10 > 88.888885% taken
+M 12 < BootstrapCL, Lgnu/javax/imageio/png/PNGChunk;, readChunk, (Ljava/io/InputStream;Z)Lgnu/javax/imageio/png/PNGChunk; >
+	10	forwbranch < 50, 0 > 100.0% taken
+	70	forwbranch < 50, 0 > 100.0% taken
+	137	forwbranch < 50, 0 > 100.0% taken
+	156	forwbranch < 50, 0 > 100.0% taken
+	212	forwbranch < 50, 0 > 100.0% taken
+	242	forwbranch < 0, 0 > Never Executed
+M 40 < BootstrapCL, Lgnu/javax/imageio/png/PNGHeader;, isValidChunk, ()Z >
+	4	forwbranch < 10, 0 > 100.0% taken
+	13	forwbranch < 0, 10 > 0.0% taken
+	20	forwbranch < 10, 0 > 100.0% taken
+	32	forwbranch < 0, 10 > 0.0% taken
+	40	forwbranch < 0, 10 > 0.0% taken
+	48	forwbranch < 10, 0 > 100.0% taken
+	58	forwbranch < 0, 10 > 0.0% taken
+	66	forwbranch < 0, 10 > 0.0% taken
+	74	forwbranch < 0, 10 > 0.0% taken
+	83	forwbranch < 10, 0 > 100.0% taken
+	92	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 10, 0 > 100.0% taken
+	111	forwbranch < 0, 0 > Never Executed
+	121	forwbranch < 10, 0 > 100.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+	147	forwbranch < 10, 0 > 100.0% taken
+	156	forwbranch < 0, 10 > 0.0% taken
+	163	forwbranch < 10, 0 > 100.0% taken
+	175	forwbranch < 10, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/javax/imageio/png/PNGChunk;, isValidChunk, ()Z >
+	8	forwbranch < 0, 50 > 0.0% taken
+M 12 < BootstrapCL, Lgnu/javax/imageio/png/PNGDecoder;, addData, (Lgnu/javax/imageio/png/PNGData;)V >
+	6	forwbranch < 30, 0 > 100.0% taken
+	22	forwbranch < 40, 2560 > 1.5384616% taken
+	35	forwbranch < 2560, 0 > 100.0% taken
+	62	forwbranch < 2560, 40 > 98.46154% taken
+	173	forwbranch < 20, 2580 > 0.7692308% taken
+	187	backbranch < 2570, 10 > 99.612404% taken
+M 2 < BootstrapCL, Lgnu/javax/imageio/png/PNGHeader;, isIndexed, ()Z >
+	5	forwbranch < 20, 0 > 100.0% taken
+M 19 < BootstrapCL, Lgnu/javax/imageio/png/PNGDecoder;, getRaster, (Lgnu/javax/imageio/png/PNGHeader;)Ljava/awt/image/WritableRaster; >
+	26	switch     < 0, 0, 10, 0, 0, 0, 0, 0 >
+	72	forwbranch < 0, 0 > Never Executed
+	125	switch     < 0, 0, 0 >
+	233	forwbranch < 0, 10 > 0.0% taken
+	292	forwbranch < 0, 0 > Never Executed
+	355	forwbranch < 0, 0 > Never Executed
+M 8 < BootstrapCL, Lgnu/javax/imageio/png/PNGFile;, getColorSpace, ()Ljava/awt/color/ColorSpace; >
+	20	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	75	backbranch < 0, 10 > 0.0% taken
+	79	forwbranch < 10, 0 > 100.0% taken
+M 20 < BootstrapCL, Lgnu/javax/imageio/png/PNGDecoder;, getColorModel, (Ljava/awt/color/ColorSpace;II)Ljava/awt/image/ColorModel; >
+	4	switch     < 0, 0, 10, 0, 0, 0, 0, 0 >
+	49	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 0, 10 > 0.0% taken
+	185	forwbranch < 10, 0 > 100.0% taken
+	196	forwbranch < 10, 0 > 100.0% taken
+M 8 < BootstrapCL, Lgnu/javax/imageio/png/PNGChunk;, getChunk, (I[BI)Lgnu/javax/imageio/png/PNGChunk; >
+	1	switch     < 30, 10, 0, 0, 0, 0, 0, 10 >
+M 2 < BootstrapCL, Lgnu/javax/imageio/png/PNGHeader;, <init>, (I[BI)V >
+	11	forwbranch < 10, 0 > 100.0% taken
+M 4 < BootstrapCL, Lgnu/javax/imageio/png/PNGChunk;, calcCRC, ()I >
+	46	backbranch < 60, 15 > 80.0% taken
+	90	backbranch < 254685, 15 > 99.99411% taken
+M 6 < BootstrapCL, Lgnu/javax/imageio/png/PNGChunk;, <clinit>, ()V >
+	26	forwbranch < 1024, 1024 > 50.0% taken
+	50	backbranch < 2048, 256 > 88.888885% taken
+	66	backbranch < 256, 1 > 99.61089% taken
+M 10 < BootstrapCL, Lgnu/javax/imageio/png/PNGHeader;, bytesPerPixel, ()I >
+	4	switch     < 0, 0, 10, 0, 0, 0, 0, 0 >
+	83	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Lgnu/javax/imageio/png/PNGHeader;, getScanlineStride, ()I >
+	6	switch     < 0, 0, 10, 0, 0, 0, 0, 0 >
+	128	forwbranch < 10, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/javax/imageio/png/PNGDecoder;, isFinished, ()Z >
+	11	forwbranch < 30, 0 > 100.0% taken
+M 32 < BootstrapCL, Lgnu/javax/imageio/png/PNGFilter;, unFilterScanline, (I[B[BI)[B >
+	11	switch     < 2560, 0, 0, 0, 0, 0 >
+	78	backbranch < 0, 0 > Never Executed
+	112	backbranch < 0, 0 > Never Executed
+	146	backbranch < 0, 0 > Never Executed
+	189	backbranch < 0, 0 > Never Executed
+	242	backbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	340	forwbranch < 0, 0 > Never Executed
+	362	forwbranch < 0, 0 > Never Executed
+	384	forwbranch < 0, 0 > Never Executed
+	391	forwbranch < 0, 0 > Never Executed
+	405	forwbranch < 0, 0 > Never Executed
+	439	backbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/awt/color/ColorSpace;, getInstance, (I)Ljava/awt/color/ColorSpace; >
+	4	forwbranch < 0, 11 > 0.0% taken
+	11	forwbranch < 0, 11 > 0.0% taken
+	25	forwbranch < 10, 1 > 90.90909% taken
+M 2 < BootstrapCL, Ljava/awt/image/DataBuffer;, <init>, (IIII)V >
+	58	backbranch < 62613, 62613 > 50.0% taken
+M 12 < BootstrapCL, Ljava/awt/image/ComponentSampleModel;, <init>, (IIIII[I[I)V >
+	13	forwbranch < 10, 0 > 100.0% taken
+	28	forwbranch < 0, 10 > 0.0% taken
+	33	forwbranch < 0, 10 > 0.0% taken
+	40	forwbranch < 0, 10 > 0.0% taken
+	49	forwbranch < 10, 0 > 100.0% taken
+	128	backbranch < 30, 10 > 75.0% taken
+M 18 < BootstrapCL, Ljava/awt/image/SampleModel;, <init>, (IIII)V >
+	7	forwbranch < 0, 10 > 0.0% taken
+	11	forwbranch < 0, 10 > 0.0% taken
+	16	forwbranch < 10, 0 > 100.0% taken
+	30	forwbranch < 0, 10 > 0.0% taken
+	34	forwbranch < 10, 0 > 100.0% taken
+	46	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 10, 0 > 100.0% taken
+	111	forwbranch < 10, 0 > 100.0% taken
+M 27 < BootstrapCL, Ljava/awt/image/ComponentSampleModel;, getDataElements, (IILjava/lang/Object;Ljava/awt/image/DataBuffer;)Ljava/lang/Object; >
+	29	switch     < 393216, 0, 0, 0, 0, 0, 0 >
+	69	forwbranch < 0, 393216 > 0.0% taken
+	128	backbranch < 1179648, 393216 > 75.0% taken
+	138	forwbranch < 0, 0 > Never Executed
+	197	backbranch < 0, 0 > Never Executed
+	207	forwbranch < 0, 0 > Never Executed
+	265	backbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	333	backbranch < 0, 0 > Never Executed
+	343	forwbranch < 0, 0 > Never Executed
+	401	backbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/awt/image/Raster;, <init>, (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Rectangle;Ljava/awt/Point;Ljava/awt/image/Raster;)V >
+	48	forwbranch < 10, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/awt/image/WritableRaster;, <init>, (Ljava/awt/image/SampleModel;Ljava/awt/image/DataBuffer;Ljava/awt/Point;)V >
+	8	forwbranch < 10, 0 > 100.0% taken
+	20	forwbranch < 10, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/awt/color/ICC_Profile;, createProfile, (I)V >
+	28	switch     < 1, 0, 0, 0, 1, 0 >
+M 4 < BootstrapCL, Ljava/awt/color/ICC_Profile;, getData, (I)[B >
+	3	forwbranch < 4, 0 > 100.0% taken
+	34	forwbranch < 4, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/awt/color/ICC_Profile;, createRGBProfile, ()V >
+	194	backbranch < 1024, 1 > 99.902435% taken
+M 6 < BootstrapCL, Ljava/awt/color/ICC_Profile;, getInstance, (I)Ljava/awt/color/ICC_Profile; >
+	4	forwbranch < 0, 1 > 0.0% taken
+	11	forwbranch < 0, 1 > 0.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/awt/color/ICC_Profile;, setData, (I[B)V >
+	8	forwbranch < 20, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/awt/color/ICC_Profile;, makeTRC, ([F)[B >
+	67	backbranch < 3072, 3 > 99.902435% taken
+M 2 < BootstrapCL, Ljava/awt/color/ICC_Profile;, makeTextTag, (Ljava/lang/String;)[B >
+	76	backbranch < 54, 2 > 96.42857% taken
+M 4 < BootstrapCL, Ljava/awt/color/ICC_Profile;, makeDescTag, (Ljava/lang/String;)[B >
+	85	backbranch < 22, 2 > 91.666664% taken
+	126	backbranch < 78, 2 > 97.5% taken
+M 4 < BootstrapCL, Ljava/awt/color/ICC_Profile;, getNumComponents, ()I >
+	288	forwbranch < 0, 8 > 0.0% taken
+	303	backbranch < 8, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/awt/color/ICC_Profile;, getXYZData, (I)[F >
+	7	forwbranch < 4, 0 > 100.0% taken
+	24	forwbranch < 4, 0 > 100.0% taken
+M 10 < BootstrapCL, Ljava/awt/color/ICC_ColorSpace;, getConverter, (Ljava/awt/color/ICC_Profile;)Lgnu/java/awt/color/ColorSpaceConverter; >
+	4	switch     < 2, 0, 0, 0, 2, 0 >
+	99	forwbranch < 0, 0 > Never Executed
+	121	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/awt/color/ICC_ColorSpace;, makeArrays, ()V >
+	65	backbranch < 12, 4 > 75.0% taken
+M 10 < BootstrapCL, Ljava/awt/color/ICC_ColorSpace;, getMinValue, (I)F >
+	5	forwbranch < 12, 0 > 100.0% taken
+	10	forwbranch < 0, 0 > Never Executed
+	15	forwbranch < 0, 0 > Never Executed
+	22	forwbranch < 0, 12 > 0.0% taken
+	30	forwbranch < 12, 0 > 100.0% taken
+M 18 < BootstrapCL, Ljava/awt/color/ICC_ColorSpace;, getMaxValue, (I)F >
+	4	forwbranch < 12, 0 > 100.0% taken
+	8	forwbranch < 0, 0 > Never Executed
+	13	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 12, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 0 > Never Executed
+	41	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 0, 12 > 0.0% taken
+	56	forwbranch < 12, 0 > 100.0% taken
+M 4 < BootstrapCL, Lgnu/java/awt/color/SrgbConverter;, RGBtoXYZ, ([F)[F >
+	19	forwbranch < 3, 6 > 33.333332% taken
+	65	backbranch < 9, 3 > 75.0% taken
+M 8 < BootstrapCL, Ljava/awt/color/ICC_ProfileRGB;, createMatrix, ()[[F >
+	30	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	39	forwbranch < 1, 0 > 100.0% taken
+	95	backbranch < 3, 1 > 75.0% taken
+M 8 < BootstrapCL, Lgnu/java/awt/color/LinearRGBConverter;, fromRGB, ([F)[F >
+	18	forwbranch < 3072, 0 > 100.0% taken
+	28	forwbranch < 3072, 0 > 100.0% taken
+	39	forwbranch < 2949, 123 > 95.99609% taken
+	86	backbranch < 3072, 1024 > 75.0% taken
+M 2 < BootstrapCL, Ljava/awt/image/ComponentColorModel;, sum, ([I)I >
+	19	backbranch < 30, 10 > 75.0% taken
+M 8 < BootstrapCL, Ljava/awt/image/ColorModel;, <init>, (I[ILjava/awt/color/ColorSpace;ZZII)V >
+	17	forwbranch < 34, 0 > 100.0% taken
+	44	backbranch < 34, 11 > 75.55556% taken
+	53	forwbranch < 0, 11 > 0.0% taken
+	59	forwbranch < 11, 0 > 100.0% taken
+M 7 < BootstrapCL, Lgnu/java/awt/Buffers;, createBufferFromData, (ILjava/lang/Object;I)Ljava/awt/image/DataBuffer; >
+	1	switch     < 262144, 0, 0, 0, 0, 0, 0 >
+M 2 < BootstrapCL, Ljava/awt/image/ComponentColorModel;, getRGBFloat, (Ljava/lang/Object;)[F >
+	62	backbranch < 191139, 63713 > 75.0% taken
+M 6 < BootstrapCL, Lgnu/java/awt/Buffers;, smallestAppropriateTransferType, (I)I >
+	3	forwbranch < 1, 0 > 100.0% taken
+	11	forwbranch < 1, 0 > 100.0% taken
+	19	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/awt/image/ColorModel;, getNumComponents, ()I >
+	8	forwbranch < 262144, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/awt/image/ComponentColorModel;, getRGB, (Ljava/lang/Object;)I >
+	16	forwbranch < 655360, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/awt/image/DirectColorModel;, <init>, (Ljava/awt/color/ColorSpace;IIIIIZI)V >
+	14	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/awt/image/PackedColorModel;, calcBitsPerComponent, ([II)[I >
+	4	forwbranch < 0, 1 > 0.0% taken
+	55	backbranch < 3, 1 > 75.0% taken
+	59	forwbranch < 0, 1 > 0.0% taken
+M 4 < BootstrapCL, Ljava/awt/image/PackedColorModel;, initMasks, ([II)V >
+	4	forwbranch < 1, 0 > 100.0% taken
+	98	backbranch < 4, 1 > 80.0% taken
+M 8 < BootstrapCL, Lgnu/java/awt/BitMaskExtent;, setMask, (J)V >
+	13	forwbranch < 8, 0 > 100.0% taken
+	42	backbranch < 96, 8 > 92.30769% taken
+	68	backbranch < 128, 8 > 94.117645% taken
+	74	forwbranch < 8, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/awt/image/PackedColorModel;, <init>, (Ljava/awt/color/ColorSpace;I[IIZII)V >
+	11	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 0, 1 > 0.0% taken
+	43	forwbranch < 1, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/light/TriangleMeshLight;, init, (Ljava/lang/String;Lorg/sunflow/SunflowAPI;)V >
+	90	forwbranch < 10, 20 > 33.333332% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, addColor, (Ljava/lang/String;Lorg/sunflow/image/Color;)V >
+	1	forwbranch < 50, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, addPoints, (Ljava/lang/String;Lorg/sunflow/core/ParameterList$InterpolationType;[F)V >
+	1	forwbranch < 0, 50 > 0.0% taken
+	8	forwbranch < 50, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, addVectors, (Ljava/lang/String;Lorg/sunflow/core/ParameterList$InterpolationType;[F)V >
+	1	forwbranch < 0, 20 > 0.0% taken
+	8	forwbranch < 20, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, addMatrices, (Ljava/lang/String;Lorg/sunflow/core/ParameterList$InterpolationType;[F)V >
+	1	forwbranch < 0, 40 > 0.0% taken
+	9	forwbranch < 40, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, addIntegerArray, (Ljava/lang/String;[I)V >
+	1	forwbranch < 40, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, addStringArray, (Ljava/lang/String;[Ljava/lang/String;)V >
+	1	forwbranch < 10, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, addTexCoords, (Ljava/lang/String;Lorg/sunflow/core/ParameterList$InterpolationType;[F)V >
+	1	forwbranch < 0, 10 > 0.0% taken
+	8	forwbranch < 10, 0 > 100.0% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap;, update, (Ljava/lang/String;Lorg/sunflow/core/ParameterList;Lorg/sunflow/SunflowAPI;)Z >
+	15	forwbranch < 220, 0 > 100.0% taken
+	75	forwbranch < 220, 0 > 100.0% taken
+	114	switch     < 50, 60, 20, 90 >
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, clear, (Z)V >
+	1	forwbranch < 0, 230 > 0.0% taken
+	18	forwbranch < 230, 520 > 30.666666% taken
+	41	forwbranch < 520, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap;, lookupGeometry, (Ljava/lang/String;)Lorg/sunflow/core/Geometry; >
+	1	forwbranch < 22, 0 > 100.0% taken
+	19	forwbranch < 22, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap;, lookupInstance, (Ljava/lang/String;)Lorg/sunflow/core/Instance; >
+	1	forwbranch < 60, 0 > 100.0% taken
+	19	forwbranch < 60, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap;, lookupCamera, (Ljava/lang/String;)Lorg/sunflow/core/Camera; >
+	1	forwbranch < 20, 0 > 100.0% taken
+	19	forwbranch < 20, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap;, lookupOptions, (Ljava/lang/String;)Lorg/sunflow/core/Options; >
+	1	forwbranch < 30, 0 > 100.0% taken
+	19	forwbranch < 20, 10 > 66.666664% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap;, lookupShader, (Ljava/lang/String;)Lorg/sunflow/core/Shader; >
+	1	forwbranch < 140, 0 > 100.0% taken
+	19	forwbranch < 140, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap;, lookupLight, (Ljava/lang/String;)Lorg/sunflow/core/LightSource; >
+	1	forwbranch < 20, 0 > 100.0% taken
+	19	forwbranch < 20, 0 > 100.0% taken
+M 20 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap;, updateScene, (Lorg/sunflow/core/Scene;)V >
+	4	forwbranch < 0, 10 > 0.0% taken
+	39	forwbranch < 10, 210 > 4.5454545% taken
+	69	forwbranch < 150, 60 > 71.42857% taken
+	82	forwbranch < 60, 0 > 100.0% taken
+	129	forwbranch < 10, 210 > 4.5454545% taken
+	159	forwbranch < 150, 60 > 71.42857% taken
+	167	forwbranch < 60, 0 > 100.0% taken
+	211	forwbranch < 0, 10 > 0.0% taken
+	248	forwbranch < 10, 210 > 4.5454545% taken
+	277	forwbranch < 190, 20 > 90.47619% taken
+M 34 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Scene;, render, (Lorg/sunflow/core/Options;Lorg/sunflow/core/ImageSampler;Lorg/sunflow/core/Display;)V >
+	1	forwbranch < 10, 0 > 100.0% taken
+	16	forwbranch < 10, 0 > 100.0% taken
+	46	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 10, 0 > 100.0% taken
+	156	forwbranch < 0, 0 > Never Executed
+	163	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 10 > 0.0% taken
+	177	forwbranch < 10, 0 > 100.0% taken
+	286	forwbranch < 10, 60 > 14.285714% taken
+	403	forwbranch < 10, 0 > 100.0% taken
+	411	forwbranch < 0, 0 > Never Executed
+	423	forwbranch < 0, 0 > Never Executed
+	463	forwbranch < 0, 10 > 0.0% taken
+	587	forwbranch < 10, 0 > 100.0% taken
+	594	forwbranch < 0, 0 > Never Executed
+	614	forwbranch < 10, 0 > 100.0% taken
+	626	forwbranch < 10, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/system/Timer;, toString, ()Ljava/lang/String; >
+	14	forwbranch < 0, 30 > 0.0% taken
+M 10 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, parameter, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[F)V >
+	41	forwbranch < 20, 0 > 100.0% taken
+	65	forwbranch < 0, 20 > 0.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+	137	forwbranch < 0, 0 > Never Executed
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, shader, (Ljava/lang/String;Lorg/sunflow/core/Shader;)V >
+	1	forwbranch < 0, 60 > 0.0% taken
+	12	forwbranch < 60, 0 > 100.0% taken
+	54	forwbranch < 0, 60 > 0.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, geometry, (Ljava/lang/String;Lorg/sunflow/core/PrimitiveList;)V >
+	1	forwbranch < 0, 40 > 0.0% taken
+	12	forwbranch < 40, 0 > 100.0% taken
+	54	forwbranch < 0, 40 > 0.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, geometry, (Ljava/lang/String;Lorg/sunflow/core/Tesselatable;)V >
+	1	forwbranch < 0, 10 > 0.0% taken
+	12	forwbranch < 10, 0 > 100.0% taken
+	54	forwbranch < 0, 10 > 0.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, instance, (Ljava/lang/String;Ljava/lang/String;)V >
+	1	forwbranch < 0, 60 > 0.0% taken
+	12	forwbranch < 60, 0 > 100.0% taken
+	67	forwbranch < 0, 60 > 0.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, light, (Ljava/lang/String;Lorg/sunflow/core/LightSource;)V >
+	1	forwbranch < 0, 20 > 0.0% taken
+	12	forwbranch < 20, 0 > 100.0% taken
+	54	forwbranch < 0, 20 > 0.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, camera, (Ljava/lang/String;Lorg/sunflow/core/CameraLens;)V >
+	1	forwbranch < 0, 10 > 0.0% taken
+	12	forwbranch < 10, 0 > 100.0% taken
+	61	forwbranch < 0, 10 > 0.0% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, options, (Ljava/lang/String;)V >
+	5	forwbranch < 10, 10 > 50.0% taken
+	16	forwbranch < 10, 0 > 100.0% taken
+	62	forwbranch < 20, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+M 16 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, render, (Ljava/lang/String;Lorg/sunflow/core/Display;)V >
+	18	forwbranch < 10, 0 > 100.0% taken
+	58	forwbranch < 10, 0 > 100.0% taken
+	71	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 10 > 0.0% taken
+	142	forwbranch < 10, 0 > 100.0% taken
+	158	forwbranch < 0, 10 > 0.0% taken
+	177	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 0, 0 > Never Executed
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/SunflowAPI;, <clinit>, ()V >
+	6	forwbranch < 0, 1 > 0.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Camera;, getRay, (FFIIDDD)Lorg/sunflow/core/Ray; >
+	24	forwbranch < 0, 89735 > 0.0% taken
+	33	forwbranch < 0, 89739 > 0.0% taken
+M 10 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, getRadiance, (FFILorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;)Lorg/sunflow/core/ShadingState; >
+	16	forwbranch < 0, 3050 > 0.0% taken
+	52	forwbranch < 3042, 0 > 100.0% taken
+	70	forwbranch < 3042, 0 > 100.0% taken
+	85	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 3052, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/IntersectionState;, hit, ()Z >
+	4	forwbranch < 83179, 34967 > 70.40357% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/InstanceList;, getWorldBounds, (Lorg/sunflow/math/Matrix4;)Lorg/sunflow/math/BoundingBox; >
+	24	forwbranch < 50, 300 > 14.285714% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Scene;, trace, (Lorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;)V >
+	20	forwbranch < 83716, 0 > 100.0% taken
+M 22 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/AccelerationStructureFactory;, create, (Ljava/lang/String;IZ)Lorg/sunflow/core/AccelerationStructure; >
+	1	forwbranch < 50, 10 > 83.333336% taken
+	10	forwbranch < 0, 10 > 0.0% taken
+	14	forwbranch < 10, 50 > 16.666666% taken
+	20	forwbranch < 50, 0 > 100.0% taken
+	34	forwbranch < 50, 0 > 100.0% taken
+	47	forwbranch < 30, 20 > 60.0% taken
+	68	forwbranch < 0, 10 > 0.0% taken
+	93	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	127	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/MathUtils;, clamp, (III)I >
+	2	forwbranch < 161733, 0 > 100.0% taken
+	9	forwbranch < 1378, 160357 > 0.852011% taken
+M 24 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, build, (Lorg/sunflow/core/Options;)Z >
+	59	forwbranch < 10, 0 > 100.0% taken
+	68	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	189	forwbranch < 10, 20 > 33.333332% taken
+	219	forwbranch < 0, 10 > 0.0% taken
+	235	forwbranch < 10, 0 > 100.0% taken
+	251	forwbranch < 10, 0 > 100.0% taken
+	289	forwbranch < 10, 0 > 100.0% taken
+	302	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 10 > 0.0% taken
+	556	forwbranch < 0, 10 > 0.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, showStats, ()V >
+	4	forwbranch < 0, 10 > 0.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 0 > Never Executed
+M 18 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, calculatePhotons, (Lorg/sunflow/core/PhotonStore;Ljava/lang/String;I)Z >
+	1	forwbranch < 10, 10 > 50.0% taken
+	11	forwbranch < 10, 0 > 100.0% taken
+	66	forwbranch < 10, 10 > 50.0% taken
+	126	forwbranch < 0, 10 > 0.0% taken
+	139	forwbranch < 10, 0 > 100.0% taken
+	257	forwbranch < 10, 80 > 11.111111% taken
+	278	forwbranch < 70, 10 > 87.5% taken
+	362	forwbranch < 10, 80 > 11.111111% taken
+	420	forwbranch < 10, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Scene;, getThreads, ()I >
+	4	forwbranch < 20, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Scene;, getThreadPriority, ()I >
+	4	forwbranch < 160, 0 > 100.0% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Scene;, getRadiance, (Lorg/sunflow/core/IntersectionState;FFDDDI)Lorg/sunflow/core/ShadingState; >
+	4	forwbranch < 0, 23075 > 0.0% taken
+	34	forwbranch < 0, 23094 > 0.0% taken
+	95	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Scene;, traceShadow, (Lorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;)Lorg/sunflow/image/Color; >
+	10	forwbranch < 82212, 19018 > 81.21308% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, shadingCache, (F)V >
+	4	forwbranch < 10, 0 > 100.0% taken
+M 16 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/gi/GIEngineFactory;, create, (Lorg/sunflow/core/Options;)Lorg/sunflow/core/GIEngine; >
+	9	forwbranch < 0, 10 > 0.0% taken
+	18	forwbranch < 0, 10 > 0.0% taken
+	27	forwbranch < 10, 0 > 100.0% taken
+	38	forwbranch < 10, 0 > 100.0% taken
+	56	forwbranch < 10, 0 > 100.0% taken
+	74	forwbranch < 0, 10 > 0.0% taken
+	92	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Instance;, prepareShadingState, (Lorg/sunflow/core/ShadingState;)V >
+	12	forwbranch < 0, 128906 > 0.0% taken
+	19	forwbranch < 0, 129150 > 0.0% taken
+	30	forwbranch < 129182, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, getPhotonShader, (Lorg/sunflow/core/ShadingState;)Lorg/sunflow/core/Shader; >
+	4	forwbranch < 1370, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, shadePhoton, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/image/Color;)V >
+	15	forwbranch < 0, 1368 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, getShader, (Lorg/sunflow/core/ShadingState;)Lorg/sunflow/core/Shader; >
+	4	forwbranch < 37440, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, shadeHit, (Lorg/sunflow/core/ShadingState;)Lorg/sunflow/image/Color; >
+	15	forwbranch < 0, 34397 > 0.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, traceDiffusePhoton, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V >
+	8	forwbranch < 608, 120 > 83.51649% taken
+	35	forwbranch < 20, 589 > 3.2840722% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, traceReflectionPhoton, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V >
+	8	forwbranch < 10, 0 > 100.0% taken
+	35	forwbranch < 0, 10 > 0.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, traceRefractionPhoton, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V >
+	8	forwbranch < 20, 0 > 100.0% taken
+	35	forwbranch < 0, 20 > 0.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, traceReflection, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;I)Lorg/sunflow/image/Color; >
+	8	forwbranch < 25, 95979 > 0.026040582% taken
+	15	forwbranch < 95975, 0 > 100.0% taken
+	43	forwbranch < 20195, 75801 > 21.037334% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, traceRefraction, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/Ray;I)Lorg/sunflow/image/Color; >
+	8	forwbranch < 0, 18151 > 0.0% taken
+	15	forwbranch < 18150, 0 > 100.0% taken
+	43	forwbranch < 8, 18146 > 0.044067424% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, getIrradiance, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/image/Color;)Lorg/sunflow/image/Color; >
+	4	forwbranch < 0, 23450 > 0.0% taken
+	15	forwbranch < 23456, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, initLightSamples, (Lorg/sunflow/core/ShadingState;)V >
+	14	forwbranch < 25614, 51153 > 33.3659% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer;, initCausticSamples, (Lorg/sunflow/core/ShadingState;)V >
+	4	forwbranch < 26553, 0 > 100.0% taken
+M 7 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/BoundingBox;, getBound, (I)F >
+	1	switch     < 60, 60, 0, 0, 60, 60, 0 >
+M 14 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/BoundingBox;, include, (Lorg/sunflow/math/BoundingBox;)V >
+	1	forwbranch < 0, 300 > 0.0% taken
+	19	forwbranch < 150, 150 > 50.0% taken
+	51	forwbranch < 100, 200 > 33.333332% taken
+	83	forwbranch < 200, 100 > 66.666664% taken
+	115	forwbranch < 50, 250 > 16.666666% taken
+	147	forwbranch < 200, 100 > 66.666664% taken
+	179	forwbranch < 100, 200 > 33.333332% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getString, (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	25	forwbranch < 90, 110 > 45.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getStringArray, (Ljava/lang/String;[Ljava/lang/String;)[Ljava/lang/String; >
+	25	forwbranch < 60, 60 > 50.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getMatrix, (Ljava/lang/String;Lorg/sunflow/math/Matrix4;)Lorg/sunflow/math/Matrix4; >
+	25	forwbranch < 30, 40 > 42.857143% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/Matrix4;, inverse, ()Lorg/sunflow/math/Matrix4; >
+	291	forwbranch < 50, 0 > 100.0% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Geometry;, getWorldBounds, (Lorg/sunflow/math/Matrix4;)Lorg/sunflow/math/BoundingBox; >
+	4	forwbranch < 40, 20 > 66.666664% taken
+	19	forwbranch < 0, 20 > 0.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Geometry;, getNumPrimitives, ()I >
+	4	forwbranch < 40, 20 > 66.666664% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Ray;, transform, (Lorg/sunflow/math/Matrix4;)Lorg/sunflow/core/Ray; >
+	1	forwbranch < 181198, 85039 > 68.05891% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Geometry;, intersect, (Lorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;)V >
+	4	forwbranch < 115565, 8 > 99.99308% taken
+	15	forwbranch < 116101, 12 > 99.98966% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState;, correctShadingNormal, ()V >
+	13	forwbranch < 49982, 0 > 100.0% taken
+M 26 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Instance;, update, (Lorg/sunflow/core/ParameterList;Lorg/sunflow/SunflowAPI;)Z >
+	12	forwbranch < 60, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 60, 0 > 100.0% taken
+	50	forwbranch < 60, 0 > 100.0% taken
+	82	forwbranch < 0, 60 > 0.0% taken
+	105	forwbranch < 60, 80 > 42.857143% taken
+	131	forwbranch < 80, 0 > 100.0% taken
+	171	forwbranch < 60, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	220	forwbranch < 0, 0 > Never Executed
+	267	forwbranch < 20, 40 > 33.333332% taken
+	280	forwbranch < 0, 40 > 0.0% taken
+	298	forwbranch < 40, 0 > 100.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Instance;, getShader, (I)Lorg/sunflow/core/Shader; >
+	4	forwbranch < 0, 193893 > 0.0% taken
+	8	forwbranch < 0, 193925 > 0.0% taken
+	17	forwbranch < 193978, 0 > 100.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Instance;, getModifier, (I)Lorg/sunflow/core/Modifier; >
+	4	forwbranch < 172175, 0 > 100.0% taken
+	8	forwbranch < 0, 0 > Never Executed
+	17	forwbranch < 0, 0 > Never Executed
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Instance;, transformWorldToObject, (Lorg/sunflow/math/Point3;)Lorg/sunflow/math/Point3; >
+	4	forwbranch < 50668, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Instance;, transformNormalObjectToWorld, (Lorg/sunflow/math/Vector3;)Lorg/sunflow/math/Vector3; >
+	4	forwbranch < 52945, 41577 > 56.013416% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Instance;, transformVectorObjectToWorld, (Lorg/sunflow/math/Vector3;)Lorg/sunflow/math/Vector3; >
+	4	forwbranch < 84846, 0 > 100.0% taken
+M 44 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer;, renderBucket, (Lorg/sunflow/core/Display;IIILorg/sunflow/core/IntersectionState;)V >
+	179	forwbranch < 0, 8 > 0.0% taken
+	217	forwbranch < 8, 546 > 1.4440433% taken
+	227	forwbranch < 544, 18127 > 2.9136093% taken
+	290	forwbranch < 18329, 0 > 100.0% taken
+	319	forwbranch < 18266, 0 > 100.0% taken
+	420	forwbranch < 8, 136 > 5.5555553% taken
+	432	forwbranch < 136, 2312 > 5.5555553% taken
+	485	forwbranch < 8, 0 > 100.0% taken
+	539	forwbranch < 0, 0 > Never Executed
+	549	forwbranch < 0, 0 > Never Executed
+	622	forwbranch < 8, 0 > 100.0% taken
+	642	forwbranch < 0, 0 > Never Executed
+	652	forwbranch < 0, 0 > Never Executed
+	667	forwbranch < 0, 0 > Never Executed
+	679	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	821	forwbranch < 8, 256 > 3.030303% taken
+	839	forwbranch < 256, 8192 > 3.030303% taken
+	872	forwbranch < 8192, 24576 > 25.0% taken
+	907	forwbranch < 24576, 73728 > 25.0% taken
+	933	forwbranch < 73728, 0 > 100.0% taken
+	962	forwbranch < 73728, 0 > 100.0% taken
+M 24 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/bucket/BucketOrderFactory;, create, (Ljava/lang/String;)Lorg/sunflow/core/BucketOrder; >
+	8	forwbranch < 0, 10 > 0.0% taken
+	17	forwbranch < 0, 10 > 0.0% taken
+	26	forwbranch < 10, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	56	forwbranch < 10, 0 > 100.0% taken
+	76	forwbranch < 10, 0 > 100.0% taken
+	96	forwbranch < 10, 0 > 100.0% taken
+	116	forwbranch < 10, 0 > 100.0% taken
+	136	forwbranch < 0, 10 > 0.0% taken
+	156	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 10, 0 > 100.0% taken
+	196	forwbranch < 10, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/MathUtils;, clamp, (FFF)F >
+	3	forwbranch < 19171, 0 > 100.0% taken
+	11	forwbranch < 2, 19173 > 0.0104302475% taken
+M 16 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/filter/FilterFactory;, get, (Ljava/lang/String;)Lorg/sunflow/core/Filter; >
+	6	forwbranch < 10, 0 > 100.0% taken
+	24	forwbranch < 10, 0 > 100.0% taken
+	43	forwbranch < 10, 0 > 100.0% taken
+	60	forwbranch < 10, 0 > 100.0% taken
+	77	forwbranch < 10, 0 > 100.0% taken
+	96	forwbranch < 10, 0 > 100.0% taken
+	115	forwbranch < 10, 0 > 100.0% taken
+	132	forwbranch < 0, 10 > 0.0% taken
+M 10 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/QMC;, generateSigmaTable, (I)[I >
+	3	forwbranch < 9, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	30	forwbranch < 9, 2304 > 0.38910505% taken
+	44	forwbranch < 2304, 16137 > 12.493899% taken
+	55	forwbranch < 6921, 9216 > 42.88901% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer;, aaDepthToString, (I)Ljava/lang/String; >
+	1	forwbranch < 10, 10 > 50.0% taken
+	25	forwbranch < 10, 10 > 50.0% taken
+	48	forwbranch < 20, 0 > 100.0% taken
+M 28 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer;, refineSamples, ([Lorg/sunflow/core/renderer/BucketRenderer$ImageSample;IIIIFLorg/sunflow/core/IntersectionState;)V >
+	59	forwbranch < 15721, 18 > 99.885635% taken
+	75	forwbranch < 14931, 807 > 94.872284% taken
+	91	forwbranch < 14861, 878 > 94.4215% taken
+	107	forwbranch < 2892, 12851 > 18.37007% taken
+	124	forwbranch < 5193, 10545 > 32.99657% taken
+	136	forwbranch < 1607, 8944 > 15.230783% taken
+	148	forwbranch < 541, 8406 > 6.0467196% taken
+	160	forwbranch < 306, 8098 > 3.6411233% taken
+	172	forwbranch < 26, 8073 > 0.32102728% taken
+	184	forwbranch < 34, 8038 > 0.42120913% taken
+	196	forwbranch < 7648, 391 > 95.13621% taken
+	298	forwbranch < 12838, 38389 > 25.061003% taken
+	308	forwbranch < 38401, 129785 > 22.832458% taken
+	328	forwbranch < 75325, 54855 > 57.86219% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer$ImageSample;, sampled, ()Z >
+	4	forwbranch < 14551, 48376 > 23.12362% taken
+M 7 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/QMC;, halton, (II)D >
+	1	switch     < 55710, 5130, 20570 >
+	124	forwbranch < 5130, 48818 > 9.509157% taken
+	186	forwbranch < 20579, 110333 > 15.71972% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer$ImageSample;, set, (Lorg/sunflow/core/ShadingState;)V >
+	1	forwbranch < 4043, 0 > 100.0% taken
+	46	forwbranch < 0, 4043 > 0.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer;, computeSubPixel, (Lorg/sunflow/core/renderer/BucketRenderer$ImageSample;Lorg/sunflow/core/IntersectionState;)V >
+	46	forwbranch < 19186, 0 > 100.0% taken
+	83	forwbranch < 0, 0 > Never Executed
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer$ImageSample;, isDifferent, (Lorg/sunflow/core/renderer/BucketRenderer$ImageSample;F)Z >
+	8	forwbranch < 17038, 77 > 99.5501% taken
+	21	forwbranch < 17044, 20 > 99.8828% taken
+	38	forwbranch < 16462, 582 > 96.58531% taken
+	77	forwbranch < 16457, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer$ImageSample;, processed, ()Z >
+	4	forwbranch < 54855, 75342 > 42.13231% taken
+M 20 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer;, prepare, (Lorg/sunflow/core/Options;Lorg/sunflow/core/Scene;II)Z >
+	269	forwbranch < 0, 10 > 0.0% taken
+	290	forwbranch < 0, 10 > 0.0% taken
+	315	forwbranch < 10, 0 > 100.0% taken
+	334	forwbranch < 10, 0 > 100.0% taken
+	364	forwbranch < 10, 0 > 100.0% taken
+	371	forwbranch < 0, 0 > Never Executed
+	445	forwbranch < 10, 0 > 100.0% taken
+	639	forwbranch < 0, 10 > 0.0% taken
+	739	forwbranch < 10, 0 > 100.0% taken
+	751	forwbranch < 10, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer;, render, (Lorg/sunflow/core/Display;)V >
+	69	forwbranch < 10, 80 > 11.111111% taken
+	120	forwbranch < 10, 80 > 11.111111% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, add, (Ljava/lang/String;Lorg/sunflow/core/ParameterList$Parameter;)V >
+	1	forwbranch < 520, 0 > 100.0% taken
+	28	forwbranch < 520, 0 > 100.0% taken
+M 12 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap;, put, (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; >
+	31	forwbranch < 470, 890 > 34.558823% taken
+	46	forwbranch < 470, 0 > 100.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 470, 0 > 100.0% taken
+	124	forwbranch < 890, 0 > 100.0% taken
+	167	forwbranch < 710, 180 > 79.77528% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap;, get, (Ljava/lang/Object;)Ljava/lang/Object; >
+	23	forwbranch < 1830, 520 > 77.87234% taken
+	37	forwbranch < 0, 1830 > 0.0% taken
+	53	forwbranch < 710, 1120 > 38.797813% taken
+M 12 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, isValidParameter, (Ljava/lang/String;Lorg/sunflow/core/ParameterList$ParameterType;Lorg/sunflow/core/ParameterList$InterpolationType;ILorg/sunflow/core/ParameterList$Parameter;)Z >
+	2	forwbranch < 530, 430 > 55.208332% taken
+	13	forwbranch < 530, 0 > 100.0% taken
+	64	forwbranch < 530, 0 > 100.0% taken
+	111	forwbranch < 130, 400 > 24.528301% taken
+	121	forwbranch < 400, 0 > 100.0% taken
+	150	forwbranch < 0, 0 > Never Executed
+M 15 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getFloatParameter, (Ljava/lang/String;Lorg/sunflow/core/ParameterList$ParameterType;Lorg/sunflow/core/ParameterList$Parameter;)Lorg/sunflow/core/ParameterList$FloatParameter; >
+	1	forwbranch < 50, 80 > 38.46154% taken
+	17	switch     < 0, 50, 0, 0, 0 >
+	60	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 50, 0 > 100.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	120	forwbranch < 0, 0 > Never Executed
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getInt, (Ljava/lang/String;I)I >
+	25	forwbranch < 80, 110 > 42.105263% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getIntArray, (Ljava/lang/String;)[I >
+	25	forwbranch < 40, 40 > 50.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getBoolean, (Ljava/lang/String;Z)Z >
+	25	forwbranch < 70, 10 > 87.5% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getFloat, (Ljava/lang/String;F)F >
+	25	forwbranch < 30, 30 > 50.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getColor, (Ljava/lang/String;Lorg/sunflow/image/Color;)Lorg/sunflow/image/Color; >
+	25	forwbranch < 30, 50 > 37.5% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getPoint, (Ljava/lang/String;Lorg/sunflow/math/Point3;)Lorg/sunflow/math/Point3; >
+	25	forwbranch < 0, 20 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList;, getVector, (Ljava/lang/String;Lorg/sunflow/math/Vector3;)Lorg/sunflow/math/Vector3; >
+	25	forwbranch < 0, 10 > 0.0% taken
+M 20 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap;, resize, (I)V >
+	3	forwbranch < 180, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 180, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 180, 1480 > 10.843373% taken
+	74	forwbranch < 560, 920 > 37.837837% taken
+	82	forwbranch < 920, 0 > 100.0% taken
+	114	forwbranch < 200, 920 > 17.857143% taken
+	123	forwbranch < 200, 0 > 100.0% taken
+	141	forwbranch < 0, 0 > Never Executed
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap;, containsKey, (Ljava/lang/Object;)Z >
+	23	forwbranch < 180, 210 > 46.153847% taken
+	37	forwbranch < 0, 180 > 0.0% taken
+	53	forwbranch < 180, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap;, <clinit>, ()V >
+	6	forwbranch < 0, 1 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap$Entry;, isRemoved, ()Z >
+	4	forwbranch < 4710, 0 > 100.0% taken
+M 10 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ParameterList$Parameter;, size, ()I >
+	11	switch     < 110, 110, 10, 30, 20, 20, 10, 40, 50, 0 >
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/Matrix4;, <init>, ([FZ)V >
+	5	forwbranch < 0, 40 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Options;, update, (Lorg/sunflow/core/ParameterList;Lorg/sunflow/SunflowAPI;)Z >
+	14	forwbranch < 20, 160 > 11.111111% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap$RenderObjectHandle;, getOptions, ()Lorg/sunflow/core/Options; >
+	7	forwbranch < 0, 20 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap$RenderObjectHandle;, getCamera, ()Lorg/sunflow/core/Camera; >
+	7	forwbranch < 0, 20 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap$RenderObjectHandle;, getLight, ()Lorg/sunflow/core/LightSource; >
+	7	forwbranch < 190, 40 > 82.608696% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap$RenderObjectHandle;, getGeometry, ()Lorg/sunflow/core/Geometry; >
+	7	forwbranch < 0, 22 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap$RenderObjectHandle;, getInstance, ()Lorg/sunflow/core/Instance; >
+	7	forwbranch < 300, 180 > 62.5% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/RenderObjectMap$RenderObjectHandle;, getShader, ()Lorg/sunflow/core/Shader; >
+	7	forwbranch < 0, 140 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap$EntryIterator;, <init>, (Lorg/sunflow/util/FastHashMap;)V >
+	18	forwbranch < 0, 280 > 0.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap$EntryIterator;, readable, ()Z >
+	12	forwbranch < 2490, 1310 > 65.52631% taken
+	30	forwbranch < 0, 1310 > 0.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap$EntryIterator;, inc, ()V >
+	14	forwbranch < 280, 3520 > 7.368421% taken
+	21	backbranch < 2210, 1310 > 62.784092% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/FastHashMap$EntryIterator;, hasNext, ()Z >
+	12	forwbranch < 560, 4830 > 10.38961% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/Vector3;, <clinit>, ()V >
+	38	forwbranch < 1, 256 > 0.38910505% taken
+M 14 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Camera;, updateCameraMatrix, (ILorg/sunflow/core/ParameterList;)Z >
+	1	forwbranch < 0, 10 > 0.0% taken
+	27	forwbranch < 0, 10 > 0.0% taken
+	54	forwbranch < 0, 10 > 0.0% taken
+	119	forwbranch < 0, 10 > 0.0% taken
+	124	forwbranch < 0, 10 > 0.0% taken
+	129	forwbranch < 0, 10 > 0.0% taken
+	200	forwbranch < 0, 0 > Never Executed
+M 12 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Camera;, update, (Lorg/sunflow/core/ParameterList;Lorg/sunflow/SunflowAPI;)Z >
+	9	forwbranch < 0, 10 > 0.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+	46	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 10, 10 > 50.0% taken
+	111	forwbranch < 0, 10 > 0.0% taken
+	138	forwbranch < 10, 0 > 100.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/BoundingBox;, isEmpty, ()Z >
+	15	forwbranch < 0, 20 > 0.0% taken
+	33	forwbranch < 0, 20 > 0.0% taken
+	51	forwbranch < 20, 0 > 100.0% taken
+M 14 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/BoundingBox;, include, (Lorg/sunflow/math/Point3;)V >
+	1	forwbranch < 0, 140 > 0.0% taken
+	16	forwbranch < 140, 0 > 100.0% taken
+	42	forwbranch < 120, 20 > 85.71429% taken
+	68	forwbranch < 140, 0 > 100.0% taken
+	94	forwbranch < 120, 20 > 85.71429% taken
+	120	forwbranch < 140, 0 > 100.0% taken
+	146	forwbranch < 120, 20 > 85.71429% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/BoundingBox;, getCorner, (I)Lorg/sunflow/math/Point3; >
+	3	forwbranch < 60, 60 > 50.0% taken
+	27	forwbranch < 60, 60 > 50.0% taken
+	51	forwbranch < 60, 60 > 50.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/Matrix4;, transform, (Lorg/sunflow/math/BoundingBox;)Lorg/sunflow/math/BoundingBox; >
+	4	forwbranch < 20, 0 > 100.0% taken
+	48	forwbranch < 20, 120 > 14.285714% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/OrthoNormalBasis;, makeFromW, (Lorg/sunflow/math/Vector3;)Lorg/sunflow/math/OrthoNormalBasis; >
+	38	forwbranch < 14732, 4884 > 75.10196% taken
+	62	forwbranch < 4884, 0 > 100.0% taken
+	126	forwbranch < 15296, 4328 > 77.94537% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/image/RGBSpace;, gammaCorrect, (F)F >
+	3	forwbranch < 11766, 10 > 99.915085% taken
+	11	forwbranch < 10586, 1180 > 89.9711% taken
+	22	forwbranch < 10566, 20 > 99.81107% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/image/RGBSpace;, ungammaCorrect, (F)F >
+	3	forwbranch < 2550, 10 > 99.609375% taken
+	11	forwbranch < 2540, 10 > 99.60784% taken
+	27	forwbranch < 2430, 110 > 95.66929% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/MathUtils;, min, (FFF)F >
+	3	forwbranch < 6853, 5465 > 55.634033% taken
+	11	forwbranch < 7850, 4468 > 63.72788% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/MathUtils;, max, (FFF)F >
+	3	forwbranch < 8290, 4449 > 65.07575% taken
+	11	forwbranch < 9252, 3487 > 72.627365% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/image/Color;, isBlack, ()Z >
+	6	forwbranch < 2440, 0 > 100.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/image/Color;, isNan, ()Z >
+	7	forwbranch < 0, 113014 > 0.0% taken
+	17	forwbranch < 0, 113030 > 0.0% taken
+	27	forwbranch < 113074, 0 > 100.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/image/Color;, isInf, ()Z >
+	7	forwbranch < 0, 1855 > 0.0% taken
+	17	forwbranch < 0, 1856 > 0.0% taken
+	27	forwbranch < 1858, 0 > 100.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/image/Color;, hasContrast, (Lorg/sunflow/image/Color;Lorg/sunflow/image/Color;F)Z >
+	24	forwbranch < 37331, 1774 > 95.46349% taken
+	53	forwbranch < 37198, 139 > 99.627716% taken
+	82	forwbranch < 37173, 21 > 99.94354% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/image/Color;, <clinit>, ()V >
+	140	forwbranch < 1, 255 > 0.390625% taken
+	152	forwbranch < 136, 119 > 53.333332% taken
+	159	forwbranch < 119, 7140 > 1.6393442% taken
+	180	forwbranch < 136, 9180 > 1.459854% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState;, faceforward, ()V >
+	13	forwbranch < 115955, 61158 > 65.469505% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState;, diffuse, (Lorg/sunflow/image/Color;)Lorg/sunflow/image/Color; >
+	8	forwbranch < 2443, 0 > 100.0% taken
+	24	forwbranch < 2448, 24916 > 8.94606% taken
+M 3 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState;, getRandom, (III)D >
+	1	switch     < 9057, 9907, 0 >
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState;, traceDiffusePhoton, (Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V >
+	9	forwbranch < 0, 728 > 0.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/shader/DiffuseShader;, scatterPhoton, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/image/Color;)V >
+	17	forwbranch < 50, 211 > 19.157087% taken
+	76	forwbranch < 118, 146 > 44.696968% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/TriangleMesh;, init, ()V >
+	13	forwbranch < 0, 18 > 0.0% taken
+	19	forwbranch < 18, 0 > 100.0% taken
+	47	forwbranch < 18, 24648 > 0.07297494% taken
+M 12 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/BoundingBox;, include, (FFF)V >
+	9	forwbranch < 36050, 310 > 99.147415% taken
+	29	forwbranch < 35360, 1000 > 97.249725% taken
+	49	forwbranch < 36100, 260 > 99.28493% taken
+	69	forwbranch < 36070, 290 > 99.20242% taken
+	89	forwbranch < 36000, 360 > 99.0099% taken
+	109	forwbranch < 36160, 200 > 99.44994% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Ray;, isInside, (F)Z >
+	6	forwbranch < 108379, 195408 > 35.675983% taken
+	15	forwbranch < 118532, 87460 > 57.54204% taken
+M 28 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/TriangleMesh$WaldTriangle;, intersect, (Lorg/sunflow/core/Ray;ILorg/sunflow/core/IntersectionState;)V >
+	4	switch     < 102061, 118010, 86174, 0 >
+	100	forwbranch < 21603, 83241 > 20.604898% taken
+	158	forwbranch < 13642, 8164 > 62.560764% taken
+	188	forwbranch < 7017, 6651 > 51.338894% taken
+	199	forwbranch < 584, 6451 > 8.301351% taken
+	287	forwbranch < 33122, 89417 > 27.029762% taken
+	345	forwbranch < 18102, 15509 > 53.85737% taken
+	375	forwbranch < 10343, 7851 > 56.84841% taken
+	386	forwbranch < 504, 9881 > 4.8531537% taken
+	474	forwbranch < 35130, 54202 > 39.325214% taken
+	532	forwbranch < 23266, 12292 > 65.43113% taken
+	562	forwbranch < 13914, 9450 > 59.553158% taken
+	573	forwbranch < 1995, 11958 > 14.298% taken
+M 26 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/TriangleMesh;, update, (Lorg/sunflow/core/ParameterList;Lorg/sunflow/SunflowAPI;)Z >
+	12	forwbranch < 10, 30 > 25.0% taken
+	27	forwbranch < 40, 0 > 100.0% taken
+	51	forwbranch < 40, 0 > 100.0% taken
+	87	forwbranch < 10, 30 > 25.0% taken
+	98	forwbranch < 30, 0 > 100.0% taken
+	145	forwbranch < 40, 0 > 100.0% taken
+	196	forwbranch < 30, 10 > 75.0% taken
+	215	forwbranch < 30, 10 > 75.0% taken
+	234	forwbranch < 30, 10 > 75.0% taken
+	247	forwbranch < 0, 10 > 0.0% taken
+	267	forwbranch < 10, 100 > 9.090909% taken
+	282	forwbranch < 100, 0 > 100.0% taken
+	326	forwbranch < 10, 30 > 25.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/TriangleMesh;, getPrimitiveBound, (II)F >
+	48	forwbranch < 12318, 12318 > 50.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/TriangleMesh;, getWorldBounds, (Lorg/sunflow/math/Matrix4;)Lorg/sunflow/math/BoundingBox; >
+	9	forwbranch < 0, 40 > 0.0% taken
+	20	forwbranch < 40, 26120 > 0.1529052% taken
+	66	forwbranch < 0, 0 > Never Executed
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/TriangleMesh;, intersectPrimitive, (Lorg/sunflow/core/Ray;ILorg/sunflow/core/IntersectionState;)V >
+	4	forwbranch < 0, 282181 > 0.0% taken
+M 16 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/TriangleMesh;, prepareShadingState, (Lorg/sunflow/core/ShadingState;)V >
+	158	switch     < 8446, 0, 1819, 0, 0 >
+	566	switch     < 8463, 0, 1820, 0, 0 >
+	781	forwbranch < 8458, 1820 > 82.292274% taken
+	909	forwbranch < 1819, 0 > 100.0% taken
+	1058	forwbranch < 8216, 2075 > 79.836754% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Geometry;, tesselate, ()V >
+	4	forwbranch < 10, 70 > 12.5% taken
+	12	forwbranch < 0, 10 > 0.0% taken
+	19	forwbranch < 0, 10 > 0.0% taken
+	51	forwbranch < 10, 0 > 100.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Geometry;, build, ()V >
+	4	forwbranch < 50, 9 > 84.745766% taken
+	12	forwbranch < 0, 50 > 0.0% taken
+	29	forwbranch < 40, 10 > 80.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/Geometry;, update, (Lorg/sunflow/core/ParameterList;Lorg/sunflow/SunflowAPI;)Z >
+	18	forwbranch < 40, 10 > 80.0% taken
+	45	forwbranch < 40, 10 > 80.0% taken
+M 10 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/TriangleMesh$WaldTriangle;, <init>, (Lorg/sunflow/core/primitive/TriangleMesh;I)V >
+	93	forwbranch < 24670, 16410 > 60.053555% taken
+	113	forwbranch < 6930, 9480 > 42.230347% taken
+	141	forwbranch < 19940, 11660 > 63.101265% taken
+	161	switch     < 9480, 11660, 19940, 0 >
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/light/TriangleMeshLight;, getRadiance, (Lorg/sunflow/core/ShadingState;)Lorg/sunflow/image/Color; >
+	4	forwbranch < 6120, 0 > 100.0% taken
+	19	forwbranch < 6120, 0 > 100.0% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/light/TriangleMeshLight$TriangleLight;, intersectTriangleKensler, (Lorg/sunflow/core/Ray;)Z >
+	346	forwbranch < 30283, 0 > 100.0% taken
+	432	forwbranch < 30240, 0 > 100.0% taken
+	470	forwbranch < 30221, 29 > 99.90413% taken
+	486	forwbranch < 30205, 33 > 99.89087% taken
+M 34 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/light/TriangleMeshLight$TriangleLight;, getSamples, (Lorg/sunflow/core/ShadingState;)V >
+	7	forwbranch < 7472, 0 > 100.0% taken
+	66	forwbranch < 4791, 2692 > 64.02512% taken
+	146	forwbranch < 4793, 2 > 99.95829% taken
+	157	forwbranch < 2, 0 > 100.0% taken
+	168	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 4797 > 0.0% taken
+	320	forwbranch < 0, 4797 > 0.0% taken
+	363	forwbranch < 0, 4796 > 0.0% taken
+	406	forwbranch < 0, 4798 > 0.0% taken
+	544	forwbranch < 4787, 0 > 100.0% taken
+	585	forwbranch < 4789, 38155 > 11.151732% taken
+	706	forwbranch < 38103, 193 > 99.49603% taken
+	816	forwbranch < 38296, 9 > 99.9765% taken
+	977	forwbranch < 20, 38282 > 0.052216593% taken
+	991	forwbranch < 0, 38271 > 0.0% taken
+	1005	forwbranch < 1, 38251 > 0.0026142425% taken
+	1029	forwbranch < 38082, 85 > 99.7773% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState;, traceReflectionPhoton, (Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V >
+	9	forwbranch < 0, 10 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState;, traceRefractionPhoton, (Lorg/sunflow/core/Ray;Lorg/sunflow/image/Color;)V >
+	9	forwbranch < 0, 20 > 0.0% taken
+M 22 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/shader/GlassShader;, getRadiance, (Lorg/sunflow/core/ShadingState;)Lorg/sunflow/image/Color; >
+	4	forwbranch < 1730, 0 > 100.0% taken
+	45	forwbranch < 865, 865 > 50.0% taken
+	165	forwbranch < 1732, 0 > 100.0% taken
+	177	forwbranch < 1732, 0 > 100.0% taken
+	382	forwbranch < 866, 866 > 50.0% taken
+	391	forwbranch < 866, 0 > 100.0% taken
+	430	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 1732 > 0.0% taken
+	481	forwbranch < 866, 866 > 50.0% taken
+	486	forwbranch < 866, 0 > 100.0% taken
+	526	forwbranch < 1732, 0 > 100.0% taken
+M 14 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/shader/GlassShader;, scatterPhoton, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/image/Color;)V >
+	55	forwbranch < 20, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	213	forwbranch < 0, 20 > 0.0% taken
+	230	forwbranch < 10, 10 > 50.0% taken
+	296	forwbranch < 10, 10 > 50.0% taken
+	305	forwbranch < 10, 0 > 100.0% taken
+	346	forwbranch < 20, 0 > 100.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/Solvers;, solveQuadric, (DDD)[D >
+	18	forwbranch < 4353, 262879 > 1.6289216% taken
+	33	forwbranch < 3, 4353 > 0.06887052% taken
+	75	forwbranch < 3, 4360 > 0.06876003% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/Sphere;, getWorldBounds, (Lorg/sunflow/math/Matrix4;)Lorg/sunflow/math/BoundingBox; >
+	10	forwbranch < 0, 20 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/Sphere;, prepareShadingState, (Lorg/sunflow/core/ShadingState;)V >
+	84	forwbranch < 513, 402 > 56.065575% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/primitive/Sphere;, intersectPrimitive, (Lorg/sunflow/core/Ray;ILorg/sunflow/core/IntersectionState;)V >
+	113	forwbranch < 115678, 1783 > 98.48205% taken
+	126	forwbranch < 253, 1530 > 14.1895685% taken
+	139	forwbranch < 1525, 3 > 99.803665% taken
+	153	forwbranch < 1, 1523 > 0.0656168% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/shader/MirrorShader;, getRadiance, (Lorg/sunflow/core/ShadingState;)Lorg/sunflow/image/Color; >
+	4	forwbranch < 3342, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/shader/MirrorShader;, scatterPhoton, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/image/Color;)V >
+	22	forwbranch < 10, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/tesselatable/BezierMesh;, bernsteinDeriv, (F)[F >
+	4	forwbranch < 28800, 0 > 100.0% taken
+M 10 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/tesselatable/BezierMesh;, getPatchPoint, (FF[F[F[F[F[FLorg/sunflow/math/Point3;Lorg/sunflow/math/Vector3;)V >
+	18	forwbranch < 2592, 10368 > 20.0% taken
+	27	forwbranch < 10368, 41472 > 20.0% taken
+	123	forwbranch < 0, 2592 > 0.0% taken
+	153	forwbranch < 2592, 10368 > 20.0% taken
+	162	forwbranch < 10368, 41472 > 20.0% taken
+M 10 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/tesselatable/BezierMesh;, getWorldBounds, (Lorg/sunflow/math/Matrix4;)Lorg/sunflow/math/BoundingBox; >
+	9	forwbranch < 20, 0 > 100.0% taken
+	20	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 20, 640 > 3.030303% taken
+	107	forwbranch < 640, 10240 > 5.882353% taken
+M 26 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/tesselatable/BezierMesh;, tesselate, ()Lorg/sunflow/core/PrimitiveList; >
+	28	forwbranch < 0, 10 > 0.0% taken
+	102	forwbranch < 10, 0 > 100.0% taken
+	152	forwbranch < 0, 10 > 0.0% taken
+	186	forwbranch < 10, 320 > 3.030303% taken
+	208	forwbranch < 320, 2880 > 10.0% taken
+	244	forwbranch < 2880, 25920 > 10.0% taken
+	339	forwbranch < 0, 25920 > 0.0% taken
+	444	forwbranch < 320, 2560 > 11.111111% taken
+	456	forwbranch < 2560, 20480 > 11.111111% taken
+	519	forwbranch < 20480, 0 > 100.0% taken
+	705	forwbranch < 10, 0 > 100.0% taken
+	744	forwbranch < 0, 10 > 0.0% taken
+	762	forwbranch < 10, 0 > 100.0% taken
+M 24 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/tesselatable/BezierMesh;, update, (Lorg/sunflow/core/ParameterList;Lorg/sunflow/SunflowAPI;)Z >
+	95	forwbranch < 10, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	253	forwbranch < 0, 0 > Never Executed
+	400	forwbranch < 10, 0 > 100.0% taken
+	421	forwbranch < 10, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/BoundingIntervalHierarchy;, buildHierarchy, (Lorg/sunflow/util/IntArray;[ILorg/sunflow/core/accel/BoundingIntervalHierarchy$BuildStats;)V >
+	21	forwbranch < 10, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/IntArray;, trim, ()[I >
+	9	forwbranch < 10, 40 > 20.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/system/Memory;, sizeof, ([I)Ljava/lang/String; >
+	1	forwbranch < 60, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/util/IntArray;, add, (I)V >
+	9	forwbranch < 249400, 360 > 99.85586% taken
+M 72 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/BoundingIntervalHierarchy;, subdivide, (IILorg/sunflow/util/IntArray;[I[F[FIILorg/sunflow/core/accel/BoundingIntervalHierarchy$BuildStats;)V >
+	9	forwbranch < 40, 30 > 57.142857% taken
+	16	forwbranch < 30, 0 > 100.0% taken
+	118	forwbranch < 0, 30 > 0.0% taken
+	127	forwbranch < 0, 30 > 0.0% taken
+	136	forwbranch < 30, 0 > 100.0% taken
+	155	forwbranch < 30, 90 > 25.0% taken
+	175	forwbranch < 0, 90 > 0.0% taken
+	195	forwbranch < 90, 0 > 100.0% taken
+	246	forwbranch < 0, 30 > 0.0% taken
+	258	forwbranch < 10, 20 > 33.333332% taken
+	276	forwbranch < 10, 0 > 100.0% taken
+	335	forwbranch < 30, 120 > 20.0% taken
+	398	forwbranch < 50, 70 > 41.666668% taken
+	409	forwbranch < 20, 50 > 28.571428% taken
+	449	forwbranch < 20, 30 > 40.0% taken
+	461	forwbranch < 60, 60 > 50.0% taken
+	473	forwbranch < 50, 70 > 41.666668% taken
+	495	forwbranch < 20, 10 > 66.666664% taken
+	510	forwbranch < 10, 0 > 100.0% taken
+	549	forwbranch < 0, 0 > Never Executed
+	676	forwbranch < 30, 0 > 100.0% taken
+	684	forwbranch < 0, 0 > Never Executed
+	712	forwbranch < 0, 0 > Never Executed
+	720	forwbranch < 0, 0 > Never Executed
+	765	forwbranch < 30, 0 > 100.0% taken
+	776	forwbranch < 0, 0 > Never Executed
+	804	forwbranch < 0, 0 > Never Executed
+	812	forwbranch < 0, 0 > Never Executed
+	858	forwbranch < 30, 0 > 100.0% taken
+	866	forwbranch < 0, 0 > Never Executed
+	892	forwbranch < 0, 0 > Never Executed
+	1040	forwbranch < 0, 30 > 0.0% taken
+	1066	forwbranch < 0, 30 > 0.0% taken
+	1162	forwbranch < 30, 180 > 14.285714% taken
+	1252	forwbranch < 0, 30 > 0.0% taken
+	1291	forwbranch < 0, 30 > 0.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/BoundingIntervalHierarchy$BuildStats;, updateLeaf, (II)V >
+	79	switch     < 0, 20, 20, 0, 0, 0 >
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/IntersectionState;, getStackTop, ()I >
+	4	forwbranch < 31554, 35965 > 46.733513% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/BoundingIntervalHierarchy;, build, (Lorg/sunflow/core/PrimitiveList;)V >
+	46	forwbranch < 10, 60 > 14.285714% taken
+M 116 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/BoundingIntervalHierarchy;, intersect, (Lorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;)V >
+	69	forwbranch < 30436, 5416 > 84.89345% taken
+	76	forwbranch < 5425, 0 > 100.0% taken
+	87	forwbranch < 5068, 370 > 93.19603% taken
+	101	forwbranch < 30529, 0 > 100.0% taken
+	112	forwbranch < 30631, 80 > 99.73951% taken
+	123	forwbranch < 36109, 0 > 100.0% taken
+	185	forwbranch < 32231, 3862 > 89.299866% taken
+	192	forwbranch < 3863, 0 > 100.0% taken
+	203	forwbranch < 3667, 193 > 95.0% taken
+	217	forwbranch < 32249, 0 > 100.0% taken
+	228	forwbranch < 32188, 71 > 99.77991% taken
+	239	forwbranch < 36024, 0 > 100.0% taken
+	301	forwbranch < 19566, 16744 > 53.885983% taken
+	308	forwbranch < 16474, 299 > 98.21738% taken
+	319	forwbranch < 16699, 62 > 99.6301% taken
+	333	forwbranch < 19610, 0 > 100.0% taken
+	344	forwbranch < 19551, 18 > 99.90802% taken
+	355	forwbranch < 35998, 0 > 100.0% taken
+	505	switch     < 35814, 0, 122347, 68166, 0, 0, 0, 0 >
+	618	forwbranch < 63343, 5609 > 91.86536% taken
+	626	forwbranch < 5613, 0 > 100.0% taken
+	647	forwbranch < 63335, 5614 > 91.85775% taken
+	654	forwbranch < 5619, 0 > 100.0% taken
+	679	forwbranch < 58035, 5680 > 91.085304% taken
+	687	forwbranch < 5679, 0 > 100.0% taken
+	721	forwbranch < 36214, 22589 > 61.585293% taken
+	751	forwbranch < 16581, 42202 > 28.207134% taken
+	812	forwbranch < 0, 0 > Never Executed
+	820	forwbranch < 0, 0 > Never Executed
+	841	forwbranch < 0, 0 > Never Executed
+	848	forwbranch < 0, 0 > Never Executed
+	873	forwbranch < 0, 0 > Never Executed
+	881	forwbranch < 0, 0 > Never Executed
+	915	forwbranch < 0, 0 > Never Executed
+	945	forwbranch < 0, 0 > Never Executed
+	1006	forwbranch < 34090, 1858 > 94.83142% taken
+	1014	forwbranch < 1858, 0 > 100.0% taken
+	1035	forwbranch < 34018, 1858 > 94.82105% taken
+	1042	forwbranch < 1858, 0 > 100.0% taken
+	1067	forwbranch < 33674, 390 > 98.855095% taken
+	1075	forwbranch < 390, 0 > 100.0% taken
+	1109	forwbranch < 25938, 8043 > 76.330894% taken
+	1139	forwbranch < 27828, 6076 > 82.07881% taken
+	1167	forwbranch < 118413, 168286 > 41.3022% taken
+	1247	forwbranch < 0, 0 > Never Executed
+	1262	forwbranch < 0, 0 > Never Executed
+	1278	backbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1349	forwbranch < 0, 0 > Never Executed
+	1365	backbranch < 0, 0 > Never Executed
+	1421	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1452	backbranch < 0, 0 > Never Executed
+	1463	forwbranch < 87951, 35603 > 71.18426% taken
+	1485	forwbranch < 88619, 1464 > 98.37483% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/system/Memory;, bytesToString, (J)Ljava/lang/String; >
+	5	forwbranch < 20, 40 > 33.333332% taken
+	30	forwbranch < 0, 20 > 0.0% taken
+M 10 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/gi/InstantGI;, init, (Lorg/sunflow/core/Scene;)Z >
+	5	forwbranch < 10, 0 > 100.0% taken
+	128	forwbranch < 0, 10 > 0.0% taken
+	141	forwbranch < 10, 10 > 50.0% taken
+	164	forwbranch < 10, 0 > 100.0% taken
+	265	forwbranch < 0, 0 > Never Executed
+M 22 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/gi/InstantGI;, getIrradiance, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/image/Color;)Lorg/sunflow/image/Color; >
+	67	forwbranch < 423, 54454 > 0.7708147% taken
+	181	forwbranch < 6354, 48601 > 11.562187% taken
+	188	forwbranch < 1235, 47528 > 2.5326579% taken
+	264	forwbranch < 423, 0 > 100.0% taken
+	271	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 423 > 0.0% taken
+	322	forwbranch < 0, 0 > Never Executed
+	475	forwbranch < 0, 0 > Never Executed
+	493	forwbranch < 0, 0 > Never Executed
+	530	forwbranch < 0, 0 > Never Executed
+	547	forwbranch < 0, 0 > Never Executed
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/IntersectionState;, <init>, ()V >
+	22	forwbranch < 96, 11757 > 0.80992156% taken
+M 14 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/LightServer$1;, run, ()V >
+	18	forwbranch < 80, 899 > 8.171603% taken
+	49	forwbranch < 900, 0 > 100.0% taken
+	109	forwbranch < 899, 450 > 66.64196% taken
+	119	forwbranch < 0, 450 > 0.0% taken
+	135	forwbranch < 900, 0 > 100.0% taken
+	143	forwbranch < 450, 450 > 50.0% taken
+	308	forwbranch < 140, 758 > 15.5902% taken
+M 8 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/QMC;, nextPrime, (I)I >
+	13	forwbranch < 232, 1626 > 12.486545% taken
+	20	forwbranch < 127, 1499 > 7.810578% taken
+	26	forwbranch < 232, 1267 > 15.476985% taken
+	42	forwbranch < 232, 127 > 64.623955% taken
+M 22 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/math/QMC;, <clinit>, ()V >
+	6	forwbranch < 0, 1 > 0.0% taken
+	59	forwbranch < 1, 127 > 0.78125% taken
+	130	forwbranch < 1, 717 > 0.13927576% taken
+	142	forwbranch < 359, 358 > 50.069736% taken
+	156	forwbranch < 358, 64619 > 0.5509642% taken
+	180	forwbranch < 358, 64619 > 0.5509642% taken
+	225	forwbranch < 359, 64620 > 0.5524862% taken
+	242	forwbranch < 32400, 32220 > 50.139275% taken
+	270	forwbranch < 359, 64620 > 0.5524862% taken
+	295	forwbranch < 32220, 32400 > 49.860725% taken
+	324	forwbranch < 1, 128 > 0.7751938% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/NullAccelerator;, intersect, (Lorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;)V >
+	7	forwbranch < 141560, 175024 > 44.714832% taken
+M 12 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/KDTree;, radix12, ([JI)V >
+	16	forwbranch < 8, 96440 > 0.008294625% taken
+	125	forwbranch < 8, 4096 > 0.19493178% taken
+	252	forwbranch < 8, 96440 > 0.008294625% taken
+	300	forwbranch < 8, 96440 > 0.008294625% taken
+	350	forwbranch < 8, 96440 > 0.008294625% taken
+	400	forwbranch < 8, 96440 > 0.008294625% taken
+M 88 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/KDTree;, buildTree, (FFFFFFLorg/sunflow/core/accel/KDTree$BuildTask;ILorg/sunflow/util/IntArray;ILorg/sunflow/util/IntArray;Lorg/sunflow/core/accel/KDTree$BuildStats;)V >
+	9	forwbranch < 754, 3959 > 15.998302% taken
+	16	forwbranch < 0, 3959 > 0.0% taken
+	264	forwbranch < 3959, 145238 > 2.6535387% taken
+	335	forwbranch < 3231, 364906 > 0.8776624% taken
+	350	forwbranch < 142007, 222899 > 38.91605% taken
+	384	forwbranch < 3959, 157333 > 2.4545546% taken
+	399	forwbranch < 141279, 16054 > 89.796165% taken
+	433	forwbranch < 3959, 364178 > 1.0754149% taken
+	448	forwbranch < 141279, 222899 > 38.79394% taken
+	499	forwbranch < 18296, 126942 > 12.597254% taken
+	510	forwbranch < 18460, 108482 > 14.542074% taken
+	570	forwbranch < 55152, 53330 > 50.83977% taken
+	587	forwbranch < 55152, 53330 > 50.83977% taken
+	606	forwbranch < 55152, 53330 > 50.83977% taken
+	620	forwbranch < 102593, 5889 > 94.57145% taken
+	627	forwbranch < 1146, 4743 > 19.46001% taken
+	632	forwbranch < 101936, 5400 > 94.96907% taken
+	639	forwbranch < 4248, 1152 > 78.666664% taken
+	680	forwbranch < 94946, 13536 > 87.522354% taken
+	737	forwbranch < 3959, 11877 > 25.0% taken
+	761	forwbranch < 0, 11877 > 0.0% taken
+	766	forwbranch < 11877, 0 > 100.0% taken
+	822	forwbranch < 1600, 2359 > 40.414246% taken
+	864	forwbranch < 2359, 201156 > 1.1591283% taken
+	881	forwbranch < 140388, 60768 > 69.79061% taken
+	891	forwbranch < 23678, 37090 > 38.96459% taken
+	937	forwbranch < 2359, 12746 > 15.617345% taken
+	950	forwbranch < 12746, 0 > 100.0% taken
+	960	forwbranch < 0, 0 > Never Executed
+	980	forwbranch < 11222, 1524 > 88.043304% taken
+	985	forwbranch < 545, 979 > 35.761154% taken
+	1063	forwbranch < 2359, 195620 > 1.1915405% taken
+	1080	forwbranch < 131667, 63953 > 67.30753% taken
+	1092	forwbranch < 25961, 37992 > 40.593872% taken
+	1157	forwbranch < 2359, 409522 > 0.57273823% taken
+	1198	forwbranch < 189662, 219860 > 46.31302% taken
+	1221	forwbranch < 185403, 224119 > 45.273026% taken
+	1341	switch     < 753, 805, 801, 0 >
+	1563	forwbranch < 0, 0 > Never Executed
+	1594	forwbranch < 2354, 52330 > 4.304733% taken
+	1612	forwbranch < 33991, 18339 > 64.95509% taken
+	1622	forwbranch < 9165, 9174 > 49.975464% taken
+	1660	forwbranch < 2354, 0 > 100.0% taken
+M 6 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/KDTree$BuildStats;, updateLeaf, (II)V >
+	79	switch     < 2008, 126, 104, 352, 886, 2806 >
+M 18 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/KDTree;, build, (Lorg/sunflow/core/PrimitiveList;)V >
+	127	forwbranch < 20, 0 > 100.0% taken
+	212	forwbranch < 20, 41060 > 0.04868549% taken
+	221	forwbranch < 41060, 123180 > 25.0% taken
+	267	forwbranch < 117920, 5260 > 95.72983% taken
+	679	forwbranch < 20, 0 > 100.0% taken
+	744	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	792	forwbranch < 0, 0 > Never Executed
+	824	forwbranch < 0, 0 > Never Executed
+M 72 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/KDTree;, intersect, (Lorg/sunflow/core/Ray;Lorg/sunflow/core/IntersectionState;)V >
+	69	forwbranch < 37401, 10952 > 77.34991% taken
+	76	forwbranch < 9416, 1557 > 85.81062% taken
+	87	forwbranch < 9572, 1423 > 87.057755% taken
+	101	forwbranch < 30932, 6763 > 82.05863% taken
+	112	forwbranch < 32532, 5384 > 85.800186% taken
+	123	forwbranch < 48271, 413 > 99.15167% taken
+	185	forwbranch < 20097, 28256 > 41.563087% taken
+	192	forwbranch < 14016, 14466 > 49.210026% taken
+	203	forwbranch < 18196, 10178 > 64.129135% taken
+	217	forwbranch < 19924, 120 > 99.40131% taken
+	228	forwbranch < 18177, 1918 > 90.45534% taken
+	239	forwbranch < 45030, 2773 > 94.19911% taken
+	301	forwbranch < 32654, 12897 > 71.68668% taken
+	308	forwbranch < 12739, 162 > 98.744286% taken
+	319	forwbranch < 9718, 3213 > 75.15273% taken
+	333	forwbranch < 10676, 22179 > 32.494293% taken
+	344	forwbranch < 32135, 446 > 98.6311% taken
+	355	forwbranch < 31513, 13932 > 69.34316% taken
+	460	switch     < 76894, 78510, 71329, 76020 >
+	531	forwbranch < 43448, 38385 > 53.093494% taken
+	549	forwbranch < 11244, 32534 > 25.684134% taken
+	574	forwbranch < 0, 11236 > 0.0% taken
+	604	forwbranch < 0, 11236 > 0.0% taken
+	654	forwbranch < 36927, 37109 > 49.877087% taken
+	672	forwbranch < 15053, 22175 > 40.43462% taken
+	697	forwbranch < 0, 15019 > 0.0% taken
+	727	forwbranch < 0, 15039 > 0.0% taken
+	777	forwbranch < 71914, 7137 > 90.97165% taken
+	795	forwbranch < 30255, 42937 > 41.336483% taken
+	820	forwbranch < 0, 30155 > 0.0% taken
+	850	forwbranch < 0, 30240 > 0.0% taken
+	878	forwbranch < 73913, 214161 > 25.657644% taken
+	915	forwbranch < 73013, 2531 > 96.649635% taken
+	923	forwbranch < 47220, 28705 > 62.192955% taken
+	945	forwbranch < 47059, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/accel/KDTree;, <clinit>, ()V >
+	6	forwbranch < 0, 1 > 0.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState;, <init>, (Lorg/sunflow/core/ShadingState;Lorg/sunflow/core/IntersectionState;Lorg/sunflow/core/Ray;II)V >
+	59	forwbranch < 62, 16852 > 0.36656025% taken
+M 18 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/bucket/HilbertBucketOrder;, getBucketSequence, (II)[I >
+	10	forwbranch < 30, 10 > 75.0% taken
+	18	forwbranch < 10, 0 > 100.0% taken
+	25	forwbranch < 0, 30 > 0.0% taken
+	62	forwbranch < 10, 640 > 1.5384616% taken
+	312	forwbranch < 0, 640 > 0.0% taken
+	318	forwbranch < 0, 640 > 0.0% taken
+	323	forwbranch < 0, 640 > 0.0% taken
+	328	forwbranch < 640, 0 > 100.0% taken
+	334	backbranch < 0, 0 > Never Executed
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer$BucketThread;, run, ()V >
+	31	forwbranch < 384, 48 > 88.888885% taken
+	131	forwbranch < 384, 0 > 100.0% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/renderer/BucketRenderer$ImageSample;, checkNanInf, ()V >
+	7	forwbranch < 37535, 0 > 100.0% taken
+	32	forwbranch < 37543, 0 > 100.0% taken
+M 2 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/core/ShadingState$LightSampleIterator;, hasNext, ()Z >
+	4	forwbranch < 2446, 24916 > 8.939405% taken
+M 4 < org.dacapo.harness.DacapoClassLoader{urls=[file:/tmp/runbms-yangxi/./scratch/jar/sunflow-0.07.2.jar,file:/tmp/runbms-yangxi/./scratch/jar/janino-2.5.12.jar], parent=SystemAppCL}, Lorg/sunflow/image/RGBSpace;, <init>, (FFFFFFFFFF)V >
+	20	forwbranch < 4, 6 > 40.0% taken
+	154	forwbranch < 10, 2560 > 0.38910505% taken
+M 8 < SystemAppCL, Lorg/dacapo/harness/FileDigest;, getText, (Ljava/io/File;ZLjava/io/File;)[B >
+	32	forwbranch < 20, 0 > 100.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+	46	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+M 8 < BootstrapCL, Ljava/security/Security;, loadProviders, (Ljava/lang/String;Ljava/lang/String;)Z >
+	1	forwbranch < 0, 2 > 0.0% taken
+	5	forwbranch < 2, 0 > 100.0% taken
+	122	forwbranch < 0, 0 > Never Executed
+	189	backbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/security/Security;, <clinit>, ()V >
+	44	forwbranch < 0, 1 > 0.0% taken
+	48	forwbranch < 0, 1 > 0.0% taken
+	57	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Lgnu/java/security/Engine;, getInstance, (Ljava/lang/String;Ljava/lang/String;Ljava/security/Provider;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 20, 0 > 100.0% taken
+	23	forwbranch < 20, 0 > 100.0% taken
+	37	forwbranch < 20, 0 > 100.0% taken
+	59	forwbranch < 20, 0 > 100.0% taken
+	73	forwbranch < 20, 0 > 100.0% taken
+	87	forwbranch < 20, 0 > 100.0% taken
+	167	forwbranch < 3160, 20 > 99.37107% taken
+	218	forwbranch < 3140, 20 > 99.36709% taken
+	235	forwbranch < 0, 20 > 0.0% taken
+	247	forwbranch < 20, 0 > 100.0% taken
+	311	backbranch < 3180, 0 > 100.0% taken
+	316	forwbranch < 20, 0 > 100.0% taken
+	440	forwbranch < 20, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/java/security/Engine;, getCompatibleConstructor, (Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/reflect/Constructor; >
+	23	forwbranch < 20, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	71	backbranch < 0, 20 > 0.0% taken
+	84	backbranch < 20, 0 > 100.0% taken
+M 12 < BootstrapCL, Lgnu/java/security/hash/Sha160;, sha, (IIIII[BI)[I >
+	91	backbranch < 336, 21 > 94.117645% taken
+	164	backbranch < 1344, 21 > 98.46154% taken
+	247	backbranch < 420, 21 > 95.2381% taken
+	326	backbranch < 420, 21 > 95.2381% taken
+	414	backbranch < 420, 21 > 95.2381% taken
+	493	backbranch < 420, 21 > 95.2381% taken
+M 6 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, ([BII)V >
+	39	forwbranch < 0, 21 > 0.0% taken
+	99	backbranch < 0, 21 > 0.0% taken
+	108	forwbranch < 21, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, reset, ()V >
+	25	backbranch < 1344, 21 > 98.46154% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, (B)V >
+	36	forwbranch < 3, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, padBuffer, ()[B >
+	13	forwbranch < 0, 21 > 0.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, selfTest, ()Z >
+	3	forwbranch < 19, 1 > 95.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/util/Util;, toString, ([BII)Ljava/lang/String; >
+	63	backbranch < 20, 1 > 95.2381% taken

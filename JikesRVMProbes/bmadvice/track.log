@@ -1,0 +1,85 @@
+['./pickadvice.py', './bestadvice.log', '/home/yangxi/plotty/ftlb/log/rat-advicefile/']
+invocation 19 is best for _201_compress
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_201_compress.6000.114.production.fn-32M.p-all.19.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_201_compress.6000.114.production.fn-32M.p-all.19.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_201_compress.6000.114.production.fn-32M.p-all.19.ec to current directory
+invocation 9 is best for _202_jess
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_202_jess.6000.114.production.fn-32M.p-all.9.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_202_jess.6000.114.production.fn-32M.p-all.9.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_202_jess.6000.114.production.fn-32M.p-all.9.ec to current directory
+invocation 3 is best for _209_db
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_209_db.6000.114.production.fn-32M.p-all.3.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_209_db.6000.114.production.fn-32M.p-all.3.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_209_db.6000.114.production.fn-32M.p-all.3.ec to current directory
+invocation 9 is best for _213_javac
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_213_javac.6000.198.production.fn-32M.p-all.9.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_213_javac.6000.198.production.fn-32M.p-all.9.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_213_javac.6000.198.production.fn-32M.p-all.9.ec to current directory
+invocation 19 is best for _222_mpegaudio
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_222_mpegaudio.6000.78.production.fn-32M.p-all.19.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_222_mpegaudio.6000.78.production.fn-32M.p-all.19.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_222_mpegaudio.6000.78.production.fn-32M.p-all.19.ec to current directory
+invocation 8 is best for _227_mtrt
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_227_mtrt.6000.120.production.fn-32M.p-all.8.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_227_mtrt.6000.120.production.fn-32M.p-all.8.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_227_mtrt.6000.120.production.fn-32M.p-all.8.ec to current directory
+invocation 16 is best for _228_jack
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_228_jack.6000.102.production.fn-32M.p-all.16.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_228_jack.6000.102.production.fn-32M.p-all.16.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/_228_jack.6000.102.production.fn-32M.p-all.16.ec to current directory
+invocation 18 is best for antlr
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/antlr.6000.144.production.fn-32M.p-all.18.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/antlr.6000.144.production.fn-32M.p-all.18.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/antlr.6000.144.production.fn-32M.p-all.18.ec to current directory
+invocation 5 is best for avrora
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/avrora.6000.300.production.fn-32M.p-all.5.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/avrora.6000.300.production.fn-32M.p-all.5.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/avrora.6000.300.production.fn-32M.p-all.5.ec to current directory
+invocation 15 is best for bloat
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/bloat.6000.198.production.fn-32M.p-all.15.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/bloat.6000.198.production.fn-32M.p-all.15.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/bloat.6000.198.production.fn-32M.p-all.15.ec to current directory
+invocation 2 is best for eclipse
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/eclipse.6000.480.production.fn-32M.p-all.2.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/eclipse.6000.480.production.fn-32M.p-all.2.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/eclipse.6000.480.production.fn-32M.p-all.2.ec to current directory
+invocation 14 is best for fop
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/fop.6000.240.production.fn-32M.p-all.14.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/fop.6000.240.production.fn-32M.p-all.14.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/fop.6000.240.production.fn-32M.p-all.14.ec to current directory
+invocation 3 is best for hsqldb
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/hsqldb.6000.762.production.fn-32M.p-all.3.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/hsqldb.6000.762.production.fn-32M.p-all.3.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/hsqldb.6000.762.production.fn-32M.p-all.3.ec to current directory
+invocation 13 is best for jython
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/jython.6000.240.production.fn-32M.p-all.13.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/jython.6000.240.production.fn-32M.p-all.13.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/jython.6000.240.production.fn-32M.p-all.13.ec to current directory
+invocation 17 is best for luindex
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/luindex.6000.132.production.fn-32M.p-all.17.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/luindex.6000.132.production.fn-32M.p-all.17.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/luindex.6000.132.production.fn-32M.p-all.17.ec to current directory
+invocation 12 is best for lusearch
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/lusearch.6000.204.production.fn-32M.p-all.12.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/lusearch.6000.204.production.fn-32M.p-all.12.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/lusearch.6000.204.production.fn-32M.p-all.12.ec to current directory
+invocation 11 is best for lusearch_fix
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/lusearch_fix.6000.204.production.fn-32M.p-all.11.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/lusearch_fix.6000.204.production.fn-32M.p-all.11.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/lusearch_fix.6000.204.production.fn-32M.p-all.11.ec to current directory
+invocation 10 is best for pjbb2005
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/pjbb2005.6000.1200.production.fn-32M.p-all.10.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/pjbb2005.6000.1200.production.fn-32M.p-all.10.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/pjbb2005.6000.1200.production.fn-32M.p-all.10.ec to current directory
+invocation 4 is best for pmd
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/pmd.6000.294.production.fn-32M.p-all.4.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/pmd.6000.294.production.fn-32M.p-all.4.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/pmd.6000.294.production.fn-32M.p-all.4.ec to current directory
+invocation 4 is best for sunflow
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/sunflow.6000.324.production.fn-32M.p-all.4.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/sunflow.6000.324.production.fn-32M.p-all.4.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/sunflow.6000.324.production.fn-32M.p-all.4.ec to current directory
+invocation 14 is best for xalan
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/xalan.6000.324.production.fn-32M.p-all.14.ca to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/xalan.6000.324.production.fn-32M.p-all.14.dc to current directory
+copy /home/yangxi/plotty/ftlb/log/rat-advicefile/xalan.6000.324.production.fn-32M.p-all.14.ec to current directory

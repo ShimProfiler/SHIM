@@ -1,0 +1,1457 @@
+M 80 < BootstrapCL, Lorg/jikesrvm/Options;, process, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 0, 0 > Never Executed
+	571	forwbranch < 0, 0 > Never Executed
+	589	forwbranch < 0, 0 > Never Executed
+	607	forwbranch < 0, 0 > Never Executed
+	622	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, ()V >
+	9	forwbranch < 0, 851 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, unlock, ()V >
+	11	forwbranch < 31212, 47019 > 39.89723% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, (Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;)V >
+	5	forwbranch < 193, 200 > 49.109413% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockNoHandshake, ()V >
+	9	forwbranch < 31242, 46152 > 40.36747% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/RVMThread;, transferExecutionToNewStack, ([BLorg/jikesrvm/ArchitectureSpecific$Registers;)V >
+	61	forwbranch < 0, 0 > Never Executed
+M 20 < BootstrapCL, Ljava/lang/reflect/Array;, getLength, (Ljava/lang/Object;)I >
+	4	forwbranch < 4, 0 > 100.0% taken
+	17	forwbranch < 4, 0 > 100.0% taken
+	30	forwbranch < 4, 0 > 100.0% taken
+	43	forwbranch < 0, 4 > 0.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/lang/VMClassLoader;, <clinit>, ()V >
+	45	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 1, 0 > 100.0% taken
+M 54 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 2, 0 > 100.0% taken
+	34	forwbranch < 2, 0 > 100.0% taken
+	50	forwbranch < 0, 2 > 0.0% taken
+	60	forwbranch < 0, 2 > 0.0% taken
+	70	forwbranch < 2, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 2, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 1, 1 > 50.0% taken
+	194	forwbranch < 0, 1 > 0.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1, 0 > 100.0% taken
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 1, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 1, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 1 > 0.0% taken
+	386	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Lorg/jikesrvm/jni/ia32/JNIHelpers;, packageAndInvoke, (Ljava/lang/Object;ILorg/vmmagic/unboxed/Address;Lorg/jikesrvm/classloader/TypeReference;ZZ)Ljava/lang/Object; >
+	22	forwbranch < 8848, 0 > 100.0% taken
+	85	forwbranch < 5473, 3375 > 61.855785% taken
+	93	forwbranch < 3375, 0 > 100.0% taken
+	130	forwbranch < 5473, 0 > 100.0% taken
+	172	forwbranch < 0, 8848 > 0.0% taken
+M 632 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 0, 0 > Never Executed
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 0, 0 > Never Executed
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+	901	forwbranch < 0, 0 > Never Executed
+	920	forwbranch < 0, 0 > Never Executed
+	930	forwbranch < 0, 0 > Never Executed
+	947	forwbranch < 0, 0 > Never Executed
+	966	forwbranch < 0, 0 > Never Executed
+	976	forwbranch < 0, 0 > Never Executed
+	993	forwbranch < 0, 0 > Never Executed
+	1012	forwbranch < 0, 0 > Never Executed
+	1022	forwbranch < 0, 0 > Never Executed
+	1039	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1068	forwbranch < 0, 0 > Never Executed
+	1085	forwbranch < 0, 0 > Never Executed
+	1104	forwbranch < 0, 0 > Never Executed
+	1114	forwbranch < 0, 0 > Never Executed
+	1131	forwbranch < 0, 0 > Never Executed
+	1150	forwbranch < 0, 0 > Never Executed
+	1160	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 0 > Never Executed
+	1196	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 0, 0 > Never Executed
+	1223	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1252	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1288	forwbranch < 0, 0 > Never Executed
+	1298	forwbranch < 0, 0 > Never Executed
+	1315	forwbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+	1361	forwbranch < 0, 0 > Never Executed
+	1380	forwbranch < 0, 0 > Never Executed
+	1390	forwbranch < 0, 0 > Never Executed
+	1407	forwbranch < 0, 0 > Never Executed
+	1426	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1453	forwbranch < 0, 0 > Never Executed
+	1472	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 0, 0 > Never Executed
+	1499	forwbranch < 0, 0 > Never Executed
+	1518	forwbranch < 0, 0 > Never Executed
+	1528	forwbranch < 0, 0 > Never Executed
+	1545	forwbranch < 0, 0 > Never Executed
+	1564	forwbranch < 0, 0 > Never Executed
+	1574	forwbranch < 0, 0 > Never Executed
+	1591	forwbranch < 0, 0 > Never Executed
+	1610	forwbranch < 0, 0 > Never Executed
+	1620	forwbranch < 0, 0 > Never Executed
+	1637	forwbranch < 0, 0 > Never Executed
+	1656	forwbranch < 0, 0 > Never Executed
+	1666	forwbranch < 0, 0 > Never Executed
+	1683	forwbranch < 0, 0 > Never Executed
+	1702	forwbranch < 0, 0 > Never Executed
+	1712	forwbranch < 0, 0 > Never Executed
+	1729	forwbranch < 0, 0 > Never Executed
+	1748	forwbranch < 0, 0 > Never Executed
+	1758	forwbranch < 0, 0 > Never Executed
+	1775	forwbranch < 0, 0 > Never Executed
+	1794	forwbranch < 0, 0 > Never Executed
+	1804	forwbranch < 0, 0 > Never Executed
+	1821	forwbranch < 0, 0 > Never Executed
+	1840	forwbranch < 0, 0 > Never Executed
+	1850	forwbranch < 0, 0 > Never Executed
+	1867	forwbranch < 0, 0 > Never Executed
+	1886	forwbranch < 0, 0 > Never Executed
+	1896	forwbranch < 0, 0 > Never Executed
+	1913	forwbranch < 0, 0 > Never Executed
+	1932	forwbranch < 0, 0 > Never Executed
+	1942	forwbranch < 0, 0 > Never Executed
+	1959	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	1988	forwbranch < 0, 0 > Never Executed
+	2005	forwbranch < 0, 0 > Never Executed
+	2024	forwbranch < 0, 0 > Never Executed
+	2034	forwbranch < 0, 0 > Never Executed
+	2051	forwbranch < 0, 0 > Never Executed
+	2070	forwbranch < 0, 0 > Never Executed
+	2080	forwbranch < 0, 0 > Never Executed
+	2097	forwbranch < 0, 0 > Never Executed
+	2116	forwbranch < 0, 0 > Never Executed
+	2126	forwbranch < 0, 0 > Never Executed
+	2143	forwbranch < 0, 0 > Never Executed
+	2162	forwbranch < 0, 0 > Never Executed
+	2172	forwbranch < 0, 0 > Never Executed
+	2189	forwbranch < 0, 0 > Never Executed
+	2208	forwbranch < 0, 0 > Never Executed
+	2218	forwbranch < 0, 0 > Never Executed
+	2235	forwbranch < 0, 0 > Never Executed
+	2254	forwbranch < 0, 0 > Never Executed
+	2264	forwbranch < 0, 0 > Never Executed
+	2281	forwbranch < 0, 0 > Never Executed
+	2300	forwbranch < 0, 0 > Never Executed
+	2310	forwbranch < 0, 0 > Never Executed
+	2327	forwbranch < 0, 0 > Never Executed
+	2346	forwbranch < 0, 0 > Never Executed
+	2356	forwbranch < 0, 0 > Never Executed
+	2373	forwbranch < 0, 0 > Never Executed
+	2392	forwbranch < 0, 0 > Never Executed
+	2402	forwbranch < 0, 0 > Never Executed
+	2419	forwbranch < 0, 0 > Never Executed
+	2438	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2465	forwbranch < 0, 0 > Never Executed
+	2484	forwbranch < 0, 0 > Never Executed
+	2494	forwbranch < 0, 0 > Never Executed
+	2511	forwbranch < 0, 0 > Never Executed
+	2530	forwbranch < 0, 0 > Never Executed
+	2540	forwbranch < 0, 0 > Never Executed
+	2557	forwbranch < 0, 0 > Never Executed
+	2576	forwbranch < 0, 0 > Never Executed
+	2586	forwbranch < 0, 0 > Never Executed
+	2603	forwbranch < 0, 0 > Never Executed
+	2622	forwbranch < 0, 0 > Never Executed
+	2632	forwbranch < 0, 0 > Never Executed
+	2649	forwbranch < 0, 0 > Never Executed
+	2668	forwbranch < 0, 0 > Never Executed
+	2678	forwbranch < 0, 0 > Never Executed
+	2695	forwbranch < 0, 0 > Never Executed
+	2714	forwbranch < 0, 0 > Never Executed
+	2724	forwbranch < 0, 0 > Never Executed
+	2741	forwbranch < 0, 0 > Never Executed
+	2760	forwbranch < 0, 0 > Never Executed
+	2770	forwbranch < 0, 0 > Never Executed
+	2787	forwbranch < 0, 0 > Never Executed
+	2806	forwbranch < 0, 0 > Never Executed
+	2816	forwbranch < 0, 0 > Never Executed
+	2833	forwbranch < 0, 0 > Never Executed
+	2852	forwbranch < 0, 0 > Never Executed
+	2862	forwbranch < 0, 0 > Never Executed
+	2879	forwbranch < 0, 0 > Never Executed
+	2898	forwbranch < 0, 0 > Never Executed
+	2908	forwbranch < 0, 0 > Never Executed
+	2925	forwbranch < 0, 0 > Never Executed
+	2944	forwbranch < 0, 0 > Never Executed
+	2954	forwbranch < 0, 0 > Never Executed
+	2971	forwbranch < 0, 0 > Never Executed
+	2990	forwbranch < 0, 0 > Never Executed
+	3000	forwbranch < 0, 0 > Never Executed
+	3017	forwbranch < 0, 0 > Never Executed
+	3036	forwbranch < 0, 0 > Never Executed
+	3046	forwbranch < 0, 0 > Never Executed
+	3063	forwbranch < 0, 0 > Never Executed
+	3082	forwbranch < 0, 0 > Never Executed
+	3092	forwbranch < 0, 0 > Never Executed
+	3109	forwbranch < 0, 0 > Never Executed
+	3128	forwbranch < 0, 0 > Never Executed
+	3138	forwbranch < 0, 0 > Never Executed
+	3155	forwbranch < 0, 0 > Never Executed
+	3174	forwbranch < 0, 0 > Never Executed
+	3184	forwbranch < 0, 0 > Never Executed
+	3201	forwbranch < 0, 0 > Never Executed
+	3220	forwbranch < 0, 0 > Never Executed
+	3230	forwbranch < 0, 0 > Never Executed
+	3247	forwbranch < 0, 0 > Never Executed
+	3266	forwbranch < 0, 0 > Never Executed
+	3276	forwbranch < 0, 0 > Never Executed
+	3293	forwbranch < 0, 0 > Never Executed
+	3312	forwbranch < 0, 0 > Never Executed
+	3322	forwbranch < 0, 0 > Never Executed
+	3339	forwbranch < 0, 0 > Never Executed
+	3359	forwbranch < 0, 0 > Never Executed
+	3369	forwbranch < 0, 0 > Never Executed
+	3386	forwbranch < 0, 0 > Never Executed
+	3406	forwbranch < 0, 0 > Never Executed
+	3416	forwbranch < 0, 0 > Never Executed
+	3433	forwbranch < 0, 0 > Never Executed
+	3453	forwbranch < 0, 0 > Never Executed
+	3463	forwbranch < 0, 0 > Never Executed
+	3480	forwbranch < 0, 0 > Never Executed
+	3500	forwbranch < 0, 0 > Never Executed
+	3510	forwbranch < 0, 0 > Never Executed
+	3527	forwbranch < 0, 0 > Never Executed
+	3547	forwbranch < 0, 0 > Never Executed
+	3557	forwbranch < 0, 0 > Never Executed
+	3574	forwbranch < 0, 0 > Never Executed
+	3594	forwbranch < 0, 0 > Never Executed
+	3604	forwbranch < 0, 0 > Never Executed
+	3621	forwbranch < 0, 0 > Never Executed
+	3641	forwbranch < 0, 0 > Never Executed
+	3651	forwbranch < 0, 0 > Never Executed
+	3668	forwbranch < 0, 0 > Never Executed
+	3688	forwbranch < 0, 0 > Never Executed
+	3698	forwbranch < 0, 0 > Never Executed
+	3715	forwbranch < 0, 0 > Never Executed
+	3735	forwbranch < 0, 0 > Never Executed
+	3745	forwbranch < 0, 0 > Never Executed
+	3762	forwbranch < 0, 0 > Never Executed
+	3782	forwbranch < 0, 0 > Never Executed
+	3792	forwbranch < 0, 0 > Never Executed
+	3809	forwbranch < 0, 0 > Never Executed
+	3829	forwbranch < 0, 0 > Never Executed
+	3839	forwbranch < 0, 0 > Never Executed
+	3856	forwbranch < 0, 0 > Never Executed
+	3876	forwbranch < 0, 0 > Never Executed
+	3886	forwbranch < 0, 0 > Never Executed
+	3903	forwbranch < 0, 0 > Never Executed
+	3923	forwbranch < 0, 0 > Never Executed
+	3933	forwbranch < 0, 0 > Never Executed
+	3950	forwbranch < 0, 0 > Never Executed
+	3970	forwbranch < 0, 0 > Never Executed
+	3980	forwbranch < 0, 0 > Never Executed
+	3997	forwbranch < 0, 0 > Never Executed
+	4017	forwbranch < 0, 0 > Never Executed
+	4027	forwbranch < 0, 0 > Never Executed
+	4044	forwbranch < 0, 0 > Never Executed
+	4064	forwbranch < 0, 0 > Never Executed
+	4074	forwbranch < 0, 0 > Never Executed
+	4091	forwbranch < 0, 0 > Never Executed
+	4111	forwbranch < 0, 0 > Never Executed
+	4121	forwbranch < 0, 0 > Never Executed
+	4138	forwbranch < 0, 0 > Never Executed
+	4158	forwbranch < 0, 0 > Never Executed
+	4165	forwbranch < 0, 0 > Never Executed
+	4199	forwbranch < 0, 0 > Never Executed
+	4221	forwbranch < 0, 0 > Never Executed
+	4240	forwbranch < 0, 0 > Never Executed
+	4251	forwbranch < 0, 0 > Never Executed
+	4269	forwbranch < 0, 0 > Never Executed
+	4287	forwbranch < 0, 0 > Never Executed
+	4305	forwbranch < 0, 0 > Never Executed
+	4325	forwbranch < 0, 0 > Never Executed
+	4347	forwbranch < 0, 0 > Never Executed
+	4370	forwbranch < 0, 0 > Never Executed
+	4392	forwbranch < 0, 0 > Never Executed
+	4414	forwbranch < 0, 0 > Never Executed
+	4436	forwbranch < 0, 0 > Never Executed
+	4447	forwbranch < 0, 0 > Never Executed
+	4465	forwbranch < 0, 0 > Never Executed
+	4483	forwbranch < 0, 0 > Never Executed
+	4503	forwbranch < 0, 0 > Never Executed
+	4526	forwbranch < 0, 0 > Never Executed
+	4549	forwbranch < 0, 0 > Never Executed
+	4571	forwbranch < 0, 0 > Never Executed
+	4593	forwbranch < 0, 0 > Never Executed
+	4615	forwbranch < 0, 0 > Never Executed
+	4637	forwbranch < 0, 0 > Never Executed
+	4660	forwbranch < 0, 0 > Never Executed
+	4682	forwbranch < 0, 0 > Never Executed
+	4704	forwbranch < 0, 0 > Never Executed
+	4726	forwbranch < 0, 0 > Never Executed
+	4748	forwbranch < 0, 0 > Never Executed
+	4771	forwbranch < 0, 0 > Never Executed
+	4794	forwbranch < 0, 0 > Never Executed
+	4817	forwbranch < 0, 0 > Never Executed
+	4840	forwbranch < 0, 0 > Never Executed
+	4863	forwbranch < 0, 0 > Never Executed
+	4886	forwbranch < 0, 0 > Never Executed
+	4909	forwbranch < 0, 0 > Never Executed
+	4932	forwbranch < 0, 0 > Never Executed
+	4955	forwbranch < 0, 0 > Never Executed
+	4977	forwbranch < 0, 0 > Never Executed
+	5000	forwbranch < 0, 0 > Never Executed
+	5011	forwbranch < 0, 0 > Never Executed
+	5029	forwbranch < 0, 0 > Never Executed
+	5047	forwbranch < 0, 0 > Never Executed
+	5067	forwbranch < 0, 0 > Never Executed
+	5074	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, printOptions, ()V >
+	332	forwbranch < 0, 0 > Never Executed
+	345	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	407	forwbranch < 0, 0 > Never Executed
+	420	forwbranch < 0, 0 > Never Executed
+M 180 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 4, 0 > 100.0% taken
+	21	forwbranch < 4, 0 > 100.0% taken
+	34	forwbranch < 4, 0 > 100.0% taken
+	50	forwbranch < 0, 4 > 0.0% taken
+	60	forwbranch < 0, 4 > 0.0% taken
+	70	forwbranch < 4, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 4, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 4, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 3, 1 > 75.0% taken
+	240	forwbranch < 0, 1 > 0.0% taken
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 3, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 3, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 3, 0 > 100.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 3, 0 > 100.0% taken
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 3, 0 > 100.0% taken
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 3, 0 > 100.0% taken
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 3, 0 > 100.0% taken
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 3, 0 > 100.0% taken
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 3, 0 > 100.0% taken
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 3, 0 > 100.0% taken
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 3, 0 > 100.0% taken
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 3, 0 > 100.0% taken
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 3, 0 > 100.0% taken
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 3, 0 > 100.0% taken
+	895	forwbranch < 3, 0 > 100.0% taken
+	905	forwbranch < 0, 0 > Never Executed
+	922	forwbranch < 0, 0 > Never Executed
+	941	forwbranch < 3, 0 > 100.0% taken
+	951	forwbranch < 0, 0 > Never Executed
+	968	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 3, 0 > 100.0% taken
+	997	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1033	forwbranch < 3, 0 > 100.0% taken
+	1043	forwbranch < 0, 0 > Never Executed
+	1060	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 3, 0 > 100.0% taken
+	1097	forwbranch < 2, 1 > 66.666664% taken
+	1115	forwbranch < 1, 1 > 50.0% taken
+	1133	forwbranch < 1, 0 > 100.0% taken
+	1151	forwbranch < 1, 0 > 100.0% taken
+	1169	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1208	forwbranch < 1, 0 > 100.0% taken
+	1229	forwbranch < 0, 1 > 0.0% taken
+	1250	forwbranch < 0, 0 > Never Executed
+	1271	forwbranch < 0, 0 > Never Executed
+	1293	forwbranch < 0, 0 > Never Executed
+	1314	forwbranch < 0, 0 > Never Executed
+	1336	forwbranch < 0, 0 > Never Executed
+	1358	forwbranch < 0, 0 > Never Executed
+	1376	forwbranch < 0, 0 > Never Executed
+	1397	forwbranch < 0, 0 > Never Executed
+	1418	forwbranch < 0, 0 > Never Executed
+	1439	forwbranch < 0, 0 > Never Executed
+	1460	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, toString, ()Ljava/lang/String; >
+	696	forwbranch < 0, 0 > Never Executed
+	716	forwbranch < 0, 0 > Never Executed
+	735	forwbranch < 0, 0 > Never Executed
+	755	forwbranch < 0, 0 > Never Executed
+	774	forwbranch < 0, 0 > Never Executed
+	794	forwbranch < 0, 0 > Never Executed
+	813	forwbranch < 0, 0 > Never Executed
+	833	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/java/net/loader/Resource;, getCodeSource, ()Ljava/security/CodeSource; >
+	6	forwbranch < 0, 157 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, printOptions, ()V >
+	53	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, toString, ()Ljava/lang/String; >
+	107	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, printOptions, ()V >
+	1159	forwbranch < 0, 0 > Never Executed
+	1173	forwbranch < 0, 0 > Never Executed
+	1187	forwbranch < 0, 0 > Never Executed
+	1201	forwbranch < 0, 0 > Never Executed
+	1214	forwbranch < 0, 0 > Never Executed
+	1228	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1255	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1283	forwbranch < 0, 0 > Never Executed
+	1296	forwbranch < 0, 0 > Never Executed
+	1324	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, toString, ()Ljava/lang/String; >
+	2427	forwbranch < 0, 0 > Never Executed
+	2449	forwbranch < 0, 0 > Never Executed
+	2471	forwbranch < 0, 0 > Never Executed
+	2493	forwbranch < 0, 0 > Never Executed
+	2514	forwbranch < 0, 0 > Never Executed
+	2536	forwbranch < 0, 0 > Never Executed
+	2558	forwbranch < 0, 0 > Never Executed
+	2579	forwbranch < 0, 0 > Never Executed
+	2601	forwbranch < 0, 0 > Never Executed
+	2623	forwbranch < 0, 0 > Never Executed
+	2644	forwbranch < 0, 0 > Never Executed
+	2683	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/runtime/FileSystem;, sync, (I)Z >
+	13	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Lorg/jikesrvm/runtime/ReflectionBase;, invoke, (Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 26, 0 > 100.0% taken
+	19	forwbranch < 26, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshakeNoRecImpl, ()V >
+	16	forwbranch < 0, 851 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, relockWithHandshakeImpl, (I)V >
+	16	forwbranch < 2, 400 > 0.49751243% taken
+M 16 < BootstrapCL, Lgnu/classpath/SystemProperties;, <clinit>, ()V >
+	46	forwbranch < 1, 0 > 100.0% taken
+	68	forwbranch < 1, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 1 > 0.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	250	forwbranch < 0, 1 > 0.0% taken
+	266	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isPublic, (I)Z >
+	3	forwbranch < 0, 10 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/Character;, <clinit>, ()V >
+	43	backbranch < 128, 1 > 99.22481% taken
+M 8 < BootstrapCL, Ljava/lang/ClassLoader$StaticData;, <clinit>, ()V >
+	13	forwbranch < 1, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/net/URL;, <clinit>, ()V >
+	17	forwbranch < 0, 1 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/zip/InflaterHuffmanTree;, <clinit>, ()V >
+	23	backbranch < 144, 1 > 99.31035% taken
+	41	backbranch < 112, 1 > 99.11504% taken
+	59	backbranch < 24, 1 > 96.0% taken
+	77	backbranch < 8, 1 > 88.888885% taken
+	111	backbranch < 32, 1 > 96.969696% taken
+M 10 < BootstrapCL, Ljava/util/zip/DeflaterHuffman;, <clinit>, ()V >
+	155	backbranch < 144, 1 > 99.31035% taken
+	191	backbranch < 112, 1 > 99.11504% taken
+	227	backbranch < 24, 1 > 96.0% taken
+	262	backbranch < 6, 1 > 85.71429% taken
+	308	backbranch < 30, 1 > 96.77419% taken
+M 2 < BootstrapCL, Ljava/util/Locale;, <clinit>, ()V >
+	233	forwbranch < 1, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/util/logging/StreamHandler;, <init>, (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/logging/Level;Ljava/util/logging/Formatter;Ljava/lang/Class;)V >
+	70	forwbranch < 1, 0 > 100.0% taken
+	144	forwbranch < 1, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 0, 1 > 0.0% taken
+M 6 < BootstrapCL, Ljava/util/logging/StreamHandler;, changeWriter, (Ljava/io/OutputStream;Ljava/lang/String;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/EventObject;, <init>, (Ljava/lang/Object;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 18 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, initialize, ()V >
+	43	forwbranch < 1, 0 > 100.0% taken
+	117	forwbranch < 0, 0 > Never Executed
+	173	backbranch < 0, 0 > Never Executed
+	185	forwbranch < 1, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	207	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	340	backbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/IndexListParser;, <init>, (Ljava/util/jar/JarFile;Ljava/net/URL;Ljava/net/URL;)V >
+	21	forwbranch < 1, 0 > 100.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+	147	forwbranch < 0, 0 > Never Executed
+	172	backbranch < 0, 0 > Never Executed
+	189	forwbranch < 0, 0 > Never Executed
+	203	backbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getResource, (Ljava/lang/String;)Lgnu/java/net/loader/Resource; >
+	6	forwbranch < 157, 0 > 100.0% taken
+	19	forwbranch < 157, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 157, 0 > 100.0% taken
+	73	forwbranch < 157, 0 > 100.0% taken
+	88	forwbranch < 149, 8 > 94.90446% taken
+M 2 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getManifest, ()Ljava/util/jar/Manifest; >
+	4	forwbranch < 2, 0 > 100.0% taken
+M 18 < BootstrapCL, Lgnu/java/net/loader/FileURLLoader;, walkPathComponents, (Ljava/lang/String;)Ljava/io/File; >
+	42	forwbranch < 573, 0 > 100.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 0, 573 > 0.0% taken
+	80	forwbranch < 573, 0 > 100.0% taken
+	94	backbranch < 573, 149 > 79.362885% taken
+	99	forwbranch < 0, 149 > 0.0% taken
+	115	forwbranch < 149, 0 > 100.0% taken
+	126	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 149, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/net/loader/FileURLLoader;, getResource, (Ljava/lang/String;)Lgnu/java/net/loader/Resource; >
+	7	forwbranch < 149, 0 > 100.0% taken
+M 4 < SystemAppCL, LSpecApplication;, getarg, (Ljava/lang/String;I)I >
+	1	forwbranch < 0, 1 > 0.0% taken
+	9	forwbranch < 0, 1 > 0.0% taken
+M 8 < SystemAppCL, Lspec/harness/RunProgram;, run, (Ljava/lang/String;ZILjava/util/Properties;Lspec/harness/BenchmarkDone;)V >
+	3	forwbranch < 1, 0 > 100.0% taken
+	85	forwbranch < 0, 1 > 0.0% taken
+	138	forwbranch < 1, 0 > 100.0% taken
+	226	forwbranch < 0, 1 > 0.0% taken
+M 54 < SystemAppCL, LSpecApplication;, main, ([Ljava/lang/String;)V >
+	13	forwbranch < 1, 2 > 33.333332% taken
+	29	forwbranch < 1, 1 > 50.0% taken
+	38	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	601	forwbranch < 0, 0 > Never Executed
+	755	forwbranch < 1, 0 > 100.0% taken
+	762	forwbranch < 0, 1 > 0.0% taken
+	768	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Lspec/harness/Context;, appendWindow, (Ljava/lang/String;)V >
+	3	forwbranch < 0, 1920 > 0.0% taken
+M 6 < SystemAppCL, LSpecApplicationRunner;, benchmarkDone, (Ljava/lang/String;Ljava/util/Properties;)V >
+	15	forwbranch < 1, 180 > 0.5524862% taken
+	38	forwbranch < 180, 0 > 100.0% taken
+	42	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lspec/harness/RunProgram;, getIntProp, (Ljava/util/Properties;Ljava/lang/String;I)I >
+	1	forwbranch < 0, 5 > 0.0% taken
+	14	forwbranch < 4, 1 > 80.0% taken
+M 8 < SystemAppCL, Lspec/harness/RunProgram;, getBoolProp, (Ljava/util/Properties;Ljava/lang/String;Z)Z >
+	1	forwbranch < 0, 2 > 0.0% taken
+	14	forwbranch < 2, 0 > 100.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lspec/harness/ProgramRunner;, runBenchmark, ()V >
+	6	forwbranch < 1, 0 > 100.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	58	forwbranch < 0, 1 > 0.0% taken
+M 42 < SystemAppCL, Lspec/harness/ProgramRunner;, runBenchmark2, ()Ljava/util/Properties; >
+	52	forwbranch < 0, 1 > 0.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 1, 0 > 100.0% taken
+	146	forwbranch < 1, 0 > 100.0% taken
+	195	forwbranch < 1, 0 > 100.0% taken
+	244	forwbranch < 1, 0 > 100.0% taken
+	259	forwbranch < 0, 1 > 0.0% taken
+	361	forwbranch < 0, 10 > 0.0% taken
+	634	forwbranch < 0, 10 > 0.0% taken
+	649	forwbranch < 1, 9 > 10.0% taken
+	679	forwbranch < 0, 10 > 0.0% taken
+	690	forwbranch < 1, 9 > 10.0% taken
+	870	forwbranch < 0, 10 > 0.0% taken
+	881	forwbranch < 9, 1 > 90.0% taken
+	891	forwbranch < 0, 0 > Never Executed
+	905	forwbranch < 0, 0 > Never Executed
+	928	forwbranch < 0, 0 > Never Executed
+	942	forwbranch < 0, 0 > Never Executed
+	950	forwbranch < 0, 0 > Never Executed
+	1032	forwbranch < 0, 1 > 0.0% taken
+	1045	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Lspec/io/FileInputStream;, closeAll, ()V >
+	10	forwbranch < 1, 0 > 100.0% taken
+	59	backbranch < 20, 1 > 95.2381% taken
+M 6 < SystemAppCL, Lprobe/ProbeMux;, init, ()V >
+	7	forwbranch < 1, 0 > 100.0% taken
+	56	forwbranch < 1, 1 > 50.0% taken
+	214	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Lprobe/ProbeMux;, begin, (Ljava/lang/String;Z)V >
+	19	forwbranch < 10, 10 > 50.0% taken
+M 6 < SystemAppCL, Lspec/harness/ProgramRunner;, runOnce, (Ljava/lang/Object;IJILjava/util/Properties;)Lspec/harness/BenchmarkTime; >
+	200	forwbranch < 10, 0 > 100.0% taken
+	214	forwbranch < 0, 10 > 0.0% taken
+	225	forwbranch < 10, 0 > 100.0% taken
+M 4 < SystemAppCL, Lprobe/ProbeMux;, end, (Z)V >
+	8	forwbranch < 10, 10 > 50.0% taken
+	42	forwbranch < 10, 10 > 50.0% taken
+M 2 < SystemAppCL, Lspec/harness/BenchmarkTime;, toLongString, ()Ljava/lang/String; >
+	23	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Lspec/harness/ProgramRunner;, saveResults, (Ljava/lang/String;Ljava/util/Properties;)V >
+	119	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/harness/ProgramRunner;, tellParent, (Ljava/lang/String;)V >
+	4	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lprobe/ProbeMux;, cleanup, ()V >
+	7	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Lspec/harness/ProgramRunner;, pause, (J)V >
+	3	forwbranch < 1, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/io/FileOutputStream;, printCount, (Z)V >
+	8	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Lspec/harness/BenchmarkTime;, <init>, (J)V >
+	12	forwbranch < 10, 0 > 100.0% taken
+M 4 < SystemAppCL, Lspec/io/ValidityCheckOutputStream;, validityCheck, (Ljava/util/Properties;I)Z >
+	144	forwbranch < 0, 10 > 0.0% taken
+	162	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/io/FileInputStream;, <init>, (Ljava/lang/String;)V >
+	133	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lspec/io/FileInputStream;, close, ()V >
+	4	forwbranch < 0, 19 > 0.0% taken
+	33	forwbranch < 0, 19 > 0.0% taken
+	39	forwbranch < 19, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lspec/io/FileInputStream;, collectReadStats, (I)V >
+	1	forwbranch < 149510, 10 > 99.99331% taken
+	9	forwbranch < 149510, 0 > 100.0% taken
+	25	forwbranch < 149510, 0 > 100.0% taken
+M 8 < SystemAppCL, Lspec/io/FileInputStream;, construct, (Ljava/lang/String;)V >
+	57	forwbranch < 20, 0 > 100.0% taken
+	86	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 20, 0 > 100.0% taken
+	213	forwbranch < 20, 0 > 100.0% taken
+M 16 < SystemAppCL, Lspec/io/FileInputStream;, makeGoodUrl, (Ljava/lang/String;)Ljava/lang/String; >
+	17	forwbranch < 20, 0 > 100.0% taken
+	31	forwbranch < 20, 0 > 100.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	88	backbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+	131	backbranch < 0, 0 > Never Executed
+	165	backbranch < 0, 0 > Never Executed
+M 28 < SystemAppCL, Lspec/io/FileInputStream;, openStream, ()V >
+	3	forwbranch < 20, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	151	backbranch < 0, 0 > Never Executed
+	157	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	181	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	262	forwbranch < 0, 0 > Never Executed
+	270	forwbranch < 0, 0 > Never Executed
+	274	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 20, 0 > 100.0% taken
+M 4 < SystemAppCL, Lspec/io/FileInputStream;, read, ()I >
+	16	forwbranch < 24130, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lspec/io/FileInputStream;, read, ([B)I >
+	18	forwbranch < 25076, 0 > 100.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 25076, 0 > 100.0% taken
+M 6 < SystemAppCL, Lspec/io/FileInputStream;, finalize, ()V >
+	4	forwbranch < 0, 19 > 0.0% taken
+	10	forwbranch < 0, 19 > 0.0% taken
+	16	forwbranch < 19, 0 > 100.0% taken
+M 6 < SystemAppCL, Lspec/io/ValidityCheckOutputStream;, getLineStartChar, (Ljava/io/InputStream;)I >
+	15	forwbranch < 0, 0 > Never Executed
+	23	backbranch < 0, 0 > Never Executed
+	34	backbranch < 0, 2120 > 0.0% taken
+M 6 < SystemAppCL, Lspec/io/ValidityCheckOutputStream;, strip, (ILjava/io/InputStream;)Ljava/lang/String; >
+	12	switch     < 0, 2100, 0, 0, 0, 0 >
+M 4 < SystemAppCL, Lspec/io/ValidityCheckOutputStream;, strip1, (Ljava/lang/StringBuffer;Ljava/io/InputStream;)V >
+	18	forwbranch < 2100, 44040 > 4.5513654% taken
+	23	backbranch < 44040, 0 > 100.0% taken
+M 10 < SystemAppCL, Lspec/io/ValidityCheckOutputStream;, validityCheck2, (Ljava/util/Properties;I)V >
+	64	forwbranch < 1060, 0 > 100.0% taken
+	158	forwbranch < 1050, 10 > 99.0566% taken
+	164	forwbranch < 0, 10 > 0.0% taken
+	194	forwbranch < 1050, 0 > 100.0% taken
+	288	backbranch < 1060, 0 > 100.0% taken
+M 10 < SystemAppCL, Lspec/io/ConsoleOutputStream;, write, (I)V >
+	3	forwbranch < 1050, 22020 > 4.5513654% taken
+	9	forwbranch < 22020, 0 > 100.0% taken
+	15	forwbranch < 0, 1050 > 0.0% taken
+	21	forwbranch < 0, 1050 > 0.0% taken
+	37	forwbranch < 22020, 1050 > 95.44863% taken
+M 2 < SystemAppCL, Lspec/io/ConsoleOutputStream;, write, ([BII)V >
+	22	backbranch < 23070, 7650 > 75.09766% taken
+M 12 < SystemAppCL, Lspec/io/ValidityCheckOutputStream;, write, (I)V >
+	3	forwbranch < 1050, 22020 > 4.5513654% taken
+	9	forwbranch < 22020, 0 > 100.0% taken
+	15	forwbranch < 0, 1050 > 0.0% taken
+	21	forwbranch < 0, 1050 > 0.0% taken
+	28	forwbranch < 22020, 1050 > 95.44863% taken
+	63	forwbranch < 22020, 1050 > 95.44863% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/Jess;, inst_main, ([Ljava/lang/String;)J >
+	9	forwbranch < 10, 0 > 100.0% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/Main;, runBenchmark, ([Ljava/lang/String;)J >
+	7	forwbranch < 0, 10 > 0.0% taken
+	23	forwbranch < 10, 0 > 100.0% taken
+	38	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Lprobe/MMTkProbe;, begin, (Ljava/lang/String;IZ)V >
+	1	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Lprobe/MMTkProbe;, end, (Ljava/lang/String;IZ)V >
+	1	forwbranch < 1, 9 > 10.0% taken
+M 8 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Jesp;, parse, (Z)Lspec/benchmarks/_202_jess/jess/Value; >
+	5	forwbranch < 20, 0 > 100.0% taken
+	49	forwbranch < 130, 0 > 100.0% taken
+	107	forwbranch < 20, 130 > 13.333333% taken
+	111	backbranch < 130, 0 > 100.0% taken
+M 10 < SystemAppCL, Lspec/benchmarks/_202_jess/Jess;, run_jess, ([Ljava/lang/String;)Z >
+	111	forwbranch < 10, 0 > 100.0% taken
+	125	forwbranch < 0, 10 > 0.0% taken
+	158	forwbranch < 0, 10 > 0.0% taken
+	180	forwbranch < 0, 10 > 0.0% taken
+	237	backbranch < 0, 10 > 0.0% taken
+M 4 < BootstrapCL, Ljava/util/Observable;, notifyObservers, (Ljava/lang/Object;)V >
+	4	forwbranch < 80, 0 > 100.0% taken
+	70	backbranch < 0, 80 > 0.0% taken
+M 11 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, <init>, (II)V >
+	44	switch     < 12, 1167, 264, 230965, 684, 10597, 40, 0, 0, 0, 0 >
+M 126 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ReteCompiler;, AddRule, (Lspec/benchmarks/_202_jess/jess/Defrule;)V >
+	7	forwbranch < 80, 0 > 100.0% taken
+	137	forwbranch < 0, 1910 > 0.0% taken
+	176	forwbranch < 3060, 0 > 100.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	249	backbranch < 3060, 1910 > 61.569416% taken
+	263	backbranch < 1910, 720 > 72.62357% taken
+	300	forwbranch < 0, 1910 > 0.0% taken
+	308	forwbranch < 1160, 750 > 60.732983% taken
+	319	forwbranch < 750, 0 > 100.0% taken
+	362	backbranch < 1910, 720 > 72.62357% taken
+	379	forwbranch < 0, 1910 > 0.0% taken
+	413	forwbranch < 0, 3060 > 0.0% taken
+	430	forwbranch < 2110, 950 > 68.95425% taken
+	439	forwbranch < 0, 950 > 0.0% taken
+	460	forwbranch < 1810, 1250 > 59.150326% taken
+	474	forwbranch < 0, 1250 > 0.0% taken
+	487	forwbranch < 1150, 100 > 92.0% taken
+	510	forwbranch < 100, 0 > 100.0% taken
+	583	backbranch < 3060, 1910 > 61.569416% taken
+	597	backbranch < 1910, 720 > 72.62357% taken
+	618	backbranch < 720, 80 > 90.0% taken
+	665	forwbranch < 0, 1910 > 0.0% taken
+	695	forwbranch < 1250, 1810 > 40.849674% taken
+	726	forwbranch < 3410, 0 > 100.0% taken
+	739	backbranch < 3410, 1810 > 65.32567% taken
+	759	forwbranch < 0, 460 > 0.0% taken
+	789	forwbranch < 400, 560 > 41.666668% taken
+	826	forwbranch < 560, 0 > 100.0% taken
+	855	forwbranch < 0, 0 > Never Executed
+	872	forwbranch < 0, 0 > Never Executed
+	997	forwbranch < 0, 0 > Never Executed
+	1065	backbranch < 960, 460 > 67.60564% taken
+	1079	backbranch < 460, 1810 > 20.264317% taken
+	1121	backbranch < 3060, 1910 > 61.569416% taken
+	1135	backbranch < 1910, 720 > 72.62357% taken
+	1150	backbranch < 720, 80 > 90.0% taken
+	1178	forwbranch < 640, 0 > 100.0% taken
+	1224	forwbranch < 0, 1800 > 0.0% taken
+	1254	forwbranch < 1190, 1760 > 40.33898% taken
+	1289	backbranch < 17650, 1760 > 90.93251% taken
+	1300	forwbranch < 1760, 0 > 100.0% taken
+	1322	forwbranch < 1130, 630 > 64.204544% taken
+	1342	forwbranch < 950, 180 > 84.07079% taken
+	1454	forwbranch < 1090, 100 > 91.59664% taken
+	1486	forwbranch < 0, 100 > 0.0% taken
+	1503	forwbranch < 0, 100 > 0.0% taken
+	1575	backbranch < 2950, 1800 > 62.105263% taken
+	1589	backbranch < 1800, 640 > 73.77049% taken
+	1606	forwbranch < 0, 640 > 0.0% taken
+	1645	forwbranch < 0, 20 > 0.0% taken
+	1653	forwbranch < 20, 0 > 100.0% taken
+	1688	forwbranch < 0, 10 > 0.0% taken
+	1738	forwbranch < 0, 10 > 0.0% taken
+	1747	forwbranch < 0, 10 > 0.0% taken
+	1760	forwbranch < 0, 10 > 0.0% taken
+	1787	backbranch < 10, 10 > 50.0% taken
+	1810	backbranch < 20, 630 > 3.0769231% taken
+	1815	forwbranch < 10, 630 > 1.5625% taken
+	1886	forwbranch < 630, 0 > 100.0% taken
+	1916	forwbranch < 10, 0 > 100.0% taken
+	1962	backbranch < 640, 80 > 88.888885% taken
+	2026	forwbranch < 80, 0 > 100.0% taken
+	2091	backbranch < 540, 80 > 87.09677% taken
+M 26 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, Assert, (Lspec/benchmarks/_202_jess/jess/ValueVector;)I >
+	11	forwbranch < 500, 4651 > 9.706853% taken
+	30	forwbranch < 27336, 0 > 100.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+	113	backbranch < 0, 0 > Never Executed
+	125	backbranch < 0, 0 > Never Executed
+	141	backbranch < 27336, 4651 > 85.45972% taken
+	151	forwbranch < 5151, 0 > 100.0% taken
+	192	forwbranch < 4651, 500 > 90.293144% taken
+	212	forwbranch < 1500, 0 > 100.0% taken
+	216	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	289	backbranch < 1500, 500 > 75.0% taken
+	306	forwbranch < 5151, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, AtomValue, ()I >
+	7	forwbranch < 0, 102720 > 0.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, DescriptorValue, ()I >
+	7	forwbranch < 0, 51200 > 0.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, FactIDValue, ()I >
+	7	forwbranch < 0, 28634 > 0.0% taken
+M 46 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Jesp;, ParseFact, ()Lspec/benchmarks/_202_jess/jess/Fact; >
+	15	forwbranch < 0, 820 > 0.0% taken
+	32	forwbranch < 820, 0 > 100.0% taken
+	61	forwbranch < 760, 60 > 92.68293% taken
+	88	forwbranch < 770, 50 > 93.902435% taken
+	127	forwbranch < 150, 0 > 100.0% taken
+	152	forwbranch < 150, 0 > 100.0% taken
+	177	switch     < 150, 0, 0 >
+	217	switch     < 0, 0, 100, 50, 0, 0, 0 >
+	365	forwbranch < 150, 0 > 100.0% taken
+	405	switch     < 0, 0, 0, 0, 0, 0, 0 >
+	572	backbranch < 0, 0 > Never Executed
+	620	backbranch < 150, 50 > 75.0% taken
+	660	switch     < 1130, 0, 280, 120, 10, 0, 0 >
+	807	backbranch < 1540, 770 > 66.666664% taken
+	817	forwbranch < 820, 0 > 100.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, ProcessToken, (Lspec/benchmarks/_202_jess/jess/Token;)I >
+	51	forwbranch < 81040, 16150 > 83.383064% taken
+	62	backbranch < 97190, 0 > 100.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, ProcessTokenOneNode, (Lspec/benchmarks/_202_jess/jess/Token;Lspec/benchmarks/_202_jess/jess/Node;)I >
+	12	forwbranch < 97180, 10 > 99.98971% taken
+	48	forwbranch < 81040, 16150 > 83.383064% taken
+M 15 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, SortCode, ()I >
+	4	switch     < 18890, 0, 0, 0, 0, 78290, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, StringValue, ()Ljava/lang/String; >
+	7	forwbranch < 0, 2165402 > 0.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ValueVector;, add, (Lspec/benchmarks/_202_jess/jess/Value;)V >
+	9	forwbranch < 7060, 190 > 97.37931% taken
+M 12 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, equals, (Lspec/benchmarks/_202_jess/jess/Value;)Z >
+	2	forwbranch < 552289, 1040684 > 34.67033% taken
+	17	forwbranch < 552289, 0 > 100.0% taken
+	26	forwbranch < 27875, 524414 > 5.0471764% taken
+	37	forwbranch < 1594, 522820 > 0.30395833% taken
+	47	forwbranch < 0, 27875 > 0.0% taken
+	59	forwbranch < 45, 27830 > 0.16143498% taken
+M 10 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, findFact, (Lspec/benchmarks/_202_jess/jess/ValueVector;)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	48	forwbranch < 28278, 298139 > 8.663152% taken
+	65	forwbranch < 83938, 214201 > 28.153982% taken
+	90	forwbranch < 33634, 214201 > 13.571126% taken
+	102	backbranch < 247835, 0 > 100.0% taken
+	114	backbranch < 326417, 861 > 99.73692% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, findFactByID, (I)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	36	forwbranch < 333690, 920 > 99.72505% taken
+	47	backbranch < 334610, 0 > 100.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ReteCompiler;, freeze, ()V >
+	4	forwbranch < 16140, 10 > 99.93808% taken
+	40	backbranch < 100, 10 > 90.90909% taken
+M 10 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, Reset, ()V >
+	41	backbranch < 0, 10 > 0.0% taken
+	128	backbranch < 0, 0 > Never Executed
+	137	backbranch < 0, 10 > 0.0% taken
+	243	backbranch < 30, 10 > 75.0% taken
+	252	backbranch < 10, 10 > 50.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, Retract, (I)V >
+	7	forwbranch < 0, 920 > 0.0% taken
+	14	forwbranch < 920, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, UpdateNode, (Lspec/benchmarks/_202_jess/jess/Node;)V >
+	42	backbranch < 0, 540 > 0.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, AddDeftemplate, (Lspec/benchmarks/_202_jess/jess/Deftemplate;)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	22	forwbranch < 0, 100 > 0.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, AddDeffacts, (Lspec/benchmarks/_202_jess/jess/Deffacts;)Lspec/benchmarks/_202_jess/jess/Deffacts; >
+	23	forwbranch < 0, 0 > Never Executed
+	56	backbranch < 0, 10 > 0.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, AddDefrule, (Lspec/benchmarks/_202_jess/jess/Defrule;)Lspec/benchmarks/_202_jess/jess/Defrule; >
+	25	forwbranch < 280, 0 > 100.0% taken
+	55	backbranch < 280, 80 > 77.77778% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, AddActivation, (Lspec/benchmarks/_202_jess/jess/Activation;)V >
+	25	forwbranch < 14700, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, standDown, (Lspec/benchmarks/_202_jess/jess/Activation;)V >
+	9	forwbranch < 1850, 0 > 100.0% taken
+M 8 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Rete;, Run, ()I >
+	45	forwbranch < 0, 706190 > 0.0% taken
+	66	backbranch < 706190, 13390 > 98.13919% taken
+	98	forwbranch < 10, 13390 > 0.07462686% taken
+	105	backbranch < 13390, 0 > 100.0% taken
+M 8 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, <init>, (Lspec/benchmarks/_202_jess/jess/ValueVector;I)V >
+	38	forwbranch < 204010, 657 > 99.67899% taken
+	45	forwbranch < 527, 130 > 80.21309% taken
+	52	forwbranch < 130, 0 > 100.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, <init>, ([II)V >
+	39	forwbranch < 1280, 0 > 100.0% taken
+M 10 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ReteCompiler;, CheckForMultiPattern, (Lspec/benchmarks/_202_jess/jess/Value;I)Z >
+	23	forwbranch < 760, 240 > 76.0% taken
+	38	forwbranch < 40, 200 > 16.666666% taken
+	54	forwbranch < 520, 280 > 65.0% taken
+	68	forwbranch < 0, 280 > 0.0% taken
+	82	backbranch < 1000, 0 > 100.0% taken
+M 18 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ReteCompiler;, CreateSuccessor, (Ljava/util/Vector;IIIII)Lspec/benchmarks/_202_jess/jess/Successor; >
+	25	forwbranch < 0, 5320 > 0.0% taken
+	44	forwbranch < 0, 5320 > 0.0% taken
+	53	forwbranch < 4080, 1240 > 76.69173% taken
+	63	forwbranch < 0, 1240 > 0.0% taken
+	73	forwbranch < 0, 1240 > 0.0% taken
+	83	forwbranch < 0, 1240 > 0.0% taken
+	93	forwbranch < 1240, 0 > 100.0% taken
+	125	backbranch < 5320, 200 > 96.37681% taken
+	170	forwbranch < 200, 0 > 100.0% taken
+M 20 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ReteCompiler;, CreateSuccessor, (Ljava/util/Vector;ILspec/benchmarks/_202_jess/jess/Value;II)Lspec/benchmarks/_202_jess/jess/Successor; >
+	6	forwbranch < 1150, 0 > 100.0% taken
+	24	forwbranch < 1150, 0 > 100.0% taken
+	59	forwbranch < 0, 2870 > 0.0% taken
+	78	forwbranch < 0, 2870 > 0.0% taken
+	90	forwbranch < 2460, 410 > 85.71429% taken
+	100	forwbranch < 0, 410 > 0.0% taken
+	110	forwbranch < 0, 410 > 0.0% taken
+	120	forwbranch < 410, 0 > 100.0% taken
+	152	backbranch < 2870, 740 > 79.50139% taken
+	195	forwbranch < 740, 0 > 100.0% taken
+M 10 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ReteCompiler;, Eval, ([[ILspec/benchmarks/_202_jess/jess/Value;)Lspec/benchmarks/_202_jess/jess/Value; >
+	30	forwbranch < 3440, 1280 > 72.881355% taken
+	63	forwbranch < 13160, 1280 > 91.135735% taken
+	108	backbranch < 14440, 0 > 100.0% taken
+	143	forwbranch < 2260, 1180 > 65.69768% taken
+	172	backbranch < 4720, 1380 > 77.37705% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, FuncallValue, ()Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	6	forwbranch < 0, 1712999 > 0.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, IntArrayValue, ()[I >
+	7	forwbranch < 0, 641442 > 0.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, VariableValue, ()I >
+	6	forwbranch < 19508, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node2;, complete, ()V >
+	44	backbranch < 1230, 630 > 66.129036% taken
+M 14 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node2;, equals, (Lspec/benchmarks/_202_jess/jess/Node2;)Z >
+	4	forwbranch < 0, 10 > 0.0% taken
+	11	forwbranch < 0, 10 > 0.0% taken
+	28	forwbranch < 10, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	85	forwbranch < 0, 0 > Never Executed
+	103	backbranch < 0, 0 > Never Executed
+	119	backbranch < 0, 10 > 0.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ReteCompiler;, findIntInArray, ([III)I >
+	14	forwbranch < 17660, 1130 > 93.98616% taken
+	30	backbranch < 18790, 680 > 96.50745% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Defrule;, freeze, ()V >
+	4	forwbranch < 80, 0 > 100.0% taken
+	58	backbranch < 330, 80 > 80.48781% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node;, freeze, ()V >
+	59	backbranch < 8930, 9030 > 49.721603% taken
+M 18 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ReteCompiler;, makeVarTable, (Lspec/benchmarks/_202_jess/jess/Defrule;)[[I >
+	45	forwbranch < 0, 1910 > 0.0% taken
+	75	forwbranch < 1250, 1810 > 40.849674% taken
+	104	forwbranch < 1130, 680 > 62.43094% taken
+	122	forwbranch < 680, 0 > 100.0% taken
+	196	forwbranch < 950, 860 > 52.486187% taken
+	273	backbranch < 3060, 1910 > 61.569416% taken
+	287	backbranch < 1910, 720 > 72.62357% taken
+	302	backbranch < 720, 80 > 90.0% taken
+	340	backbranch < 320, 80 > 80.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/GlobalContext;, findGlobalBinding, (I)Lspec/benchmarks/_202_jess/jess/Binding; >
+	22	forwbranch < 0, 0 > Never Executed
+	38	backbranch < 0, 680 > 0.0% taken
+M 26 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Funcall;, Execute, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	20	forwbranch < 0, 111343 > 0.0% taken
+	29	forwbranch < 0, 111343 > 0.0% taken
+	38	forwbranch < 0, 111343 > 0.0% taken
+	47	forwbranch < 1168, 110175 > 1.0490108% taken
+	71	forwbranch < 181602, 98120 > 64.92232% taken
+	109	forwbranch < 125, 181477 > 0.06883184% taken
+	117	forwbranch < 181220, 257 > 99.85838% taken
+	149	forwbranch < 1071, 0 > 100.0% taken
+	191	backbranch < 1071, 382 > 73.709564% taken
+	202	forwbranch < 181220, 0 > 100.0% taken
+	234	forwbranch < 0, 0 > Never Executed
+	276	backbranch < 0, 0 > Never Executed
+	306	backbranch < 279722, 110175 > 71.74254% taken
+M 18 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Context;, ExpandAction, (Lspec/benchmarks/_202_jess/jess/ValueVector;)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	41	forwbranch < 100463, 0 > 100.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+	90	forwbranch < 100463, 0 > 100.0% taken
+	96	forwbranch < 0, 0 > Never Executed
+	106	forwbranch < 0, 100463 > 0.0% taken
+	116	forwbranch < 0, 100463 > 0.0% taken
+	126	forwbranch < 100463, 0 > 100.0% taken
+	153	backbranch < 100463, 52613 > 65.62949% taken
+M 7 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Context;, ExpandFact, (Lspec/benchmarks/_202_jess/jess/ValueVector;)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	21	switch     < 41210, 140, 0, 0, 2730 >
+	176	backbranch < 44080, 15190 > 74.37152% taken
+M 11 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Context;, ExpandValue, (Lspec/benchmarks/_202_jess/jess/Value;)Lspec/benchmarks/_202_jess/jess/Value; >
+	4	switch     < 411, 2219, 1205, 125, 0, 0, 6997 >
+	74	forwbranch < 411, 0 > 100.0% taken
+	94	forwbranch < 0, 411 > 0.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, FactValue, ()Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	7	forwbranch < 41820, 3750 > 91.770905% taken
+	17	forwbranch < 0, 3750 > 0.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Context;, findBinding, (I)Lspec/benchmarks/_202_jess/jess/Binding; >
+	22	forwbranch < 28207, 14158 > 66.5809% taken
+	38	backbranch < 42365, 218 > 99.48806% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Context;, Push, ()V >
+	72	backbranch < 42200, 13420 > 75.87199% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, <init>, (Ljava/lang/String;I)V >
+	39	forwbranch < 2830, 0 > 100.0% taken
+M 8 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/RU;, putAtom, (Ljava/lang/String;)I >
+	34	forwbranch < 258, 12788 > 1.9776176% taken
+	42	forwbranch < 0, 12788 > 0.0% taken
+	48	forwbranch < 0, 258 > 0.0% taken
+	77	backbranch < 13046, 0 > 100.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, NumericValue, ()D >
+	6	forwbranch < 19552, 552769 > 3.4162645% taken
+	19	forwbranch < 0, 19552 > 0.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Value;, <init>, (DI)V >
+	38	forwbranch < 986933, 0 > 99.99999% taken
+	44	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/io/StringBufferInputStream;, read, ([BII)I >
+	1	forwbranch < 0, 450 > 0.0% taken
+	5	forwbranch < 0, 450 > 0.0% taken
+	13	forwbranch < 450, 0 > 100.0% taken
+	32	forwbranch < 440, 10 > 97.77778% taken
+	54	forwbranch < 440, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Pattern;, <init>, (Ljava/lang/String;ILspec/benchmarks/_202_jess/jess/Rete;)V >
+	49	forwbranch < 250, 470 > 34.72222% taken
+M 14 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Defrule;, AddPattern, (Lspec/benchmarks/_202_jess/jess/Pattern;)V >
+	23	forwbranch < 0, 1910 > 0.0% taken
+	47	forwbranch < 1810, 1250 > 59.150326% taken
+	67	forwbranch < 1250, 0 > 100.0% taken
+	88	forwbranch < 1130, 680 > 62.43094% taken
+	102	forwbranch < 0, 680 > 0.0% taken
+	187	backbranch < 3060, 1910 > 61.569416% taken
+	199	backbranch < 1910, 720 > 72.62357% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Deftemplate;, AddSlot, (Ljava/lang/String;Lspec/benchmarks/_202_jess/jess/Value;)V >
+	7	forwbranch < 30, 0 > 100.0% taken
+M 10 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Pattern;, AddTest, (Lspec/benchmarks/_202_jess/jess/Value;Z)V >
+	7	forwbranch < 1670, 0 > 100.0% taken
+	39	forwbranch < 0, 1670 > 0.0% taken
+	51	forwbranch < 510, 1160 > 30.538921% taken
+	89	backbranch < 1960, 1670 > 53.99449% taken
+	93	forwbranch < 1220, 450 > 73.053894% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Fact;, AddValue, (DI)V >
+	7	forwbranch < 120, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Fact;, AddValue, (Lspec/benchmarks/_202_jess/jess/Funcall;I)V >
+	7	forwbranch < 10, 0 > 100.0% taken
+M 55 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Jesp;, DoParseDefrule, ()Lspec/benchmarks/_202_jess/jess/Value; >
+	12	forwbranch < 0, 80 > 0.0% taken
+	30	forwbranch < 80, 0 > 100.0% taken
+	54	forwbranch < 80, 0 > 100.0% taken
+	94	forwbranch < 80, 0 > 100.0% taken
+	122	forwbranch < 50, 30 > 62.5% taken
+	138	forwbranch < 0, 30 > 0.0% taken
+	150	forwbranch < 30, 0 > 100.0% taken
+	167	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 0, 0 > Never Executed
+	220	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	267	forwbranch < 0, 0 > Never Executed
+	304	switch     < 290, 410, 0 >
+	348	forwbranch < 380, 30 > 92.68293% taken
+	356	forwbranch < 30, 0 > 100.0% taken
+	364	forwbranch < 0, 0 > Never Executed
+	442	forwbranch < 0, 290 > 0.0% taken
+	454	forwbranch < 290, 0 > 100.0% taken
+	476	forwbranch < 290, 0 > 100.0% taken
+	513	backbranch < 410, 370 > 52.564102% taken
+	522	backbranch < 290, 80 > 78.37838% taken
+	527	forwbranch < 60, 20 > 75.0% taken
+	559	forwbranch < 0, 80 > 0.0% taken
+	571	forwbranch < 80, 0 > 100.0% taken
+	627	backbranch < 330, 80 > 80.48781% taken
+	636	forwbranch < 80, 0 > 100.0% taken
+M 14 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Jesp;, ParseDeffacts, ()Lspec/benchmarks/_202_jess/jess/Value; >
+	16	forwbranch < 0, 10 > 0.0% taken
+	32	forwbranch < 0, 10 > 0.0% taken
+	44	forwbranch < 10, 0 > 100.0% taken
+	68	forwbranch < 10, 0 > 100.0% taken
+	104	forwbranch < 10, 0 > 100.0% taken
+	158	backbranch < 30, 10 > 75.0% taken
+	167	forwbranch < 10, 0 > 100.0% taken
+M 40 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Jesp;, ParseDeftemplate, ()Lspec/benchmarks/_202_jess/jess/Value; >
+	19	forwbranch < 0, 10 > 0.0% taken
+	37	forwbranch < 10, 0 > 100.0% taken
+	62	forwbranch < 10, 0 > 100.0% taken
+	109	forwbranch < 10, 0 > 100.0% taken
+	147	forwbranch < 0, 30 > 0.0% taken
+	160	forwbranch < 30, 0 > 100.0% taken
+	173	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 30 > 0.0% taken
+	220	forwbranch < 30, 0 > 100.0% taken
+	274	forwbranch < 0, 0 > Never Executed
+	295	forwbranch < 0, 0 > Never Executed
+	312	switch     < 0, 0, 0, 0 >
+	413	forwbranch < 0, 0 > Never Executed
+	451	forwbranch < 0, 0 > Never Executed
+	478	backbranch < 0, 30 > 0.0% taken
+	488	forwbranch < 30, 0 > 100.0% taken
+	503	forwbranch < 0, 30 > 0.0% taken
+	554	backbranch < 30, 10 > 75.0% taken
+	564	forwbranch < 10, 0 > 100.0% taken
+M 20 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Jesp;, ParseFuncall, ()Lspec/benchmarks/_202_jess/jess/Funcall; >
+	14	forwbranch < 1110, 0 > 100.0% taken
+	37	switch     < 970, 30, 0, 110, 0 >
+	136	switch     < 570, 660, 1430, 450, 1430, 0, 0 >
+	240	forwbranch < 640, 790 > 44.755245% taken
+	264	forwbranch < 640, 0 > 100.0% taken
+	322	backbranch < 4540, 1110 > 80.35398% taken
+M 54 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Jesp;, ParsePattern, ()Lspec/benchmarks/_202_jess/jess/Pattern; >
+	15	forwbranch < 0, 700 > 0.0% taken
+	32	forwbranch < 700, 0 > 100.0% taken
+	55	forwbranch < 700, 0 > 100.0% taken
+	79	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 680, 20 > 97.14286% taken
+	129	forwbranch < 450, 250 > 64.28571% taken
+	174	forwbranch < 750, 0 > 100.0% taken
+	199	forwbranch < 0, 750 > 0.0% taken
+	220	forwbranch < 750, 0 > 100.0% taken
+	243	forwbranch < 890, 500 > 64.02878% taken
+	263	switch     < 500, 0, 830, 20, 40, 0, 0 >
+	436	forwbranch < 750, 640 > 53.956833% taken
+	453	forwbranch < 0, 750 > 0.0% taken
+	463	forwbranch < 750, 0 > 100.0% taken
+	504	backbranch < 1390, 750 > 64.95327% taken
+	509	forwbranch < 750, 0 > 100.0% taken
+	535	backbranch < 750, 250 > 75.0% taken
+	578	forwbranch < 1160, 510 > 69.461075% taken
+	597	forwbranch < 1220, 450 > 73.053894% taken
+	617	switch     < 380, 0, 980, 250, 60, 0, 0 >
+	783	backbranch < 510, 1160 > 30.538921% taken
+	797	backbranch < 1160, 450 > 72.04969% taken
+M 12 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Jesp;, ParseSexp, ()Lspec/benchmarks/_202_jess/jess/Value; >
+	9	forwbranch < 130, 0 > 100.0% taken
+	22	forwbranch < 50, 80 > 38.46154% taken
+	36	forwbranch < 40, 10 > 80.0% taken
+	50	forwbranch < 30, 10 > 75.0% taken
+	64	forwbranch < 30, 0 > 100.0% taken
+	78	forwbranch < 30, 0 > 100.0% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Deftemplate;, SlotType, (Lspec/benchmarks/_202_jess/jess/ValueVector;Ljava/lang/String;)I >
+	11	forwbranch < 900, 0 > 100.0% taken
+	35	forwbranch < 900, 900 > 50.0% taken
+	55	backbranch < 1800, 0 > 100.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/JessTokenStream;, eof, ()Z >
+	7	forwbranch < 0, 150 > 0.0% taken
+	14	forwbranch < 130, 20 > 86.666664% taken
+M 10 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/JessTokenStream;, head, ()Ljava/lang/String; >
+	7	forwbranch < 130, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 130, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/JessTokenStream;, nextToken, ()Lspec/benchmarks/_202_jess/jess/JessToken; >
+	7	forwbranch < 23960, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/JessTokenStream;, PrepareSexp, ()Z >
+	38	forwbranch < 130, 20 > 86.666664% taken
+	62	forwbranch < 21590, 0 > 100.0% taken
+	73	forwbranch < 17930, 3660 > 83.04771% taken
+	88	forwbranch < 14400, 3530 > 80.312325% taken
+	95	backbranch < 21590, 130 > 99.401474% taken
+	117	backbranch < 21720, 130 > 99.40504% taken
+M 18 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/JessToken;, create, (Ljava/io/StreamTokenizer;)Lspec/benchmarks/_202_jess/jess/JessToken; >
+	23	switch     < 10620, 890, 660, 9570 >
+	118	forwbranch < 11120, 10620 > 51.149956% taken
+	131	forwbranch < 6710, 3910 > 63.182674% taken
+	148	forwbranch < 0, 3910 > 0.0% taken
+	191	forwbranch < 6710, 0 > 100.0% taken
+	204	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 6600, 110 > 98.36066% taken
+M 10 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/JessToken;, toString, ()Ljava/lang/String; >
+	6	forwbranch < 22290, 3910 > 85.07633% taken
+	36	forwbranch < 22290, 0 > 100.0% taken
+	64	forwbranch < 21630, 660 > 97.03903% taken
+	96	forwbranch < 14860, 6770 > 68.70088% taken
+	110	forwbranch < 13970, 890 > 94.010765% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Funcall;, SimpleExecute, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	23	forwbranch < 108402, 0 > 100.0% taken
+	43	forwbranch < 108402, 0 > 100.0% taken
+	70	forwbranch < 0, 108402 > 0.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ValueVector;, set_length, (I)V >
+	6	forwbranch < 930, 0 > 100.0% taken
+M 8 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/ValueVector;, equals, (Ljava/lang/Object;)Z >
+	2	forwbranch < 504249, 600783 > 45.632072% taken
+	20	forwbranch < 504147, 102 > 99.979774% taken
+	45	forwbranch < 1008292, 504147 > 66.666626% taken
+	58	backbranch < 1512439, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Funcall;, <clinit>, ()V >
+	402	backbranch < 43, 1 > 97.72727% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_assert;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	38	backbranch < 15190, 13520 > 52.908394% taken
+	43	forwbranch < 0, 13520 > 0.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_retract;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	28	backbranch < 920, 680 > 57.5% taken
+M 15 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_printout;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	13	forwbranch < 860, 0 > 100.0% taken
+	64	switch     < 1260, 3530, 0, 0, 2800, 0, 0 >
+	138	forwbranch < 250, 1010 > 19.84127% taken
+	210	forwbranch < 0, 2800 > 0.0% taken
+	350	backbranch < 7590, 860 > 89.82249% taken
+M 8 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Fact;, FindSlot, (I)I >
+	7	forwbranch < 150, 0 > 100.0% taken
+	41	forwbranch < 150, 150 > 50.0% taken
+	58	backbranch < 300, 0 > 100.0% taken
+	69	forwbranch < 150, 0 > 100.0% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_or;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	27	forwbranch < 18370, 3330 > 84.65438% taken
+	42	backbranch < 21700, 8350 > 72.21298% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_eq;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	18	forwbranch < 480, 1920 > 20.0% taken
+	33	backbranch < 2400, 480 > 83.333336% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_equals;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	22	forwbranch < 11660, 97865 > 10.645971% taken
+	37	backbranch < 109525, 11660 > 90.37835% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_lt;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	32	forwbranch < 540, 30 > 94.73684% taken
+	49	backbranch < 570, 540 > 51.351353% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_plus;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	29	backbranch < 312158, 64023 > 82.9808% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_times;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	29	backbranch < 130914, 65457 > 66.666664% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/_minus;, Call, (Lspec/benchmarks/_202_jess/jess/ValueVector;Lspec/benchmarks/_202_jess/jess/Context;)Lspec/benchmarks/_202_jess/jess/Value; >
+	36	backbranch < 11680, 11680 > 50.0% taken
+M 8 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Defrule;, Ready, ([Lspec/benchmarks/_202_jess/jess/ValueVector;)[Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	38	forwbranch < 0, 42200 > 0.0% taken
+	55	forwbranch < 41280, 920 > 97.81991% taken
+	77	forwbranch < 0, 41280 > 0.0% taken
+	140	backbranch < 42200, 13390 > 75.91293% taken
+M 14 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Pattern;, compact, ()V >
+	7	forwbranch < 250, 470 > 34.72222% taken
+	41	backbranch < 1160, 470 > 71.16564% taken
+	66	forwbranch < 0, 1910 > 0.0% taken
+	85	backbranch < 3060, 1910 > 61.569416% taken
+	89	forwbranch < 0, 1910 > 0.0% taken
+	124	backbranch < 3060, 1910 > 61.569416% taken
+	150	backbranch < 1910, 720 > 72.62357% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Defrule;, Fire, ([Lspec/benchmarks/_202_jess/jess/ValueVector;)V >
+	7	forwbranch < 13390, 0 > 100.0% taken
+	67	forwbranch < 15050, 0 > 100.0% taken
+	84	backbranch < 15050, 13390 > 52.918427% taken
+M 14 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Pattern;, AddTest, (ILspec/benchmarks/_202_jess/jess/Value;IZ)V >
+	7	forwbranch < 1390, 0 > 100.0% taken
+	43	forwbranch < 2030, 1390 > 59.356724% taken
+	61	backbranch < 3420, 0 > 100.0% taken
+	73	forwbranch < 1390, 0 > 100.0% taken
+	111	forwbranch < 640, 750 > 46.043167% taken
+	145	backbranch < 1420, 1390 > 50.53381% taken
+	150	forwbranch < 890, 500 > 64.02878% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Pattern;, FindDeftemplate, (Ljava/lang/String;Lspec/benchmarks/_202_jess/jess/Rete;)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	13	forwbranch < 30, 690 > 4.1666665% taken
+	31	forwbranch < 690, 0 > 100.0% taken
+	66	forwbranch < 30, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Fact;, AddValue, (II)V >
+	7	forwbranch < 1410, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Fact;, CreateNewFact, (Lspec/benchmarks/_202_jess/jess/ValueVector;)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	84	backbranch < 150, 830 > 15.306123% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Fact;, FindDeftemplate, (Ljava/lang/String;ILspec/benchmarks/_202_jess/jess/Rete;)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	9	forwbranch < 60, 770 > 7.2289157% taken
+	22	forwbranch < 770, 0 > 100.0% taken
+	42	forwbranch < 60, 0 > 100.0% taken
+M 12 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node1;, create, (IIIIILspec/benchmarks/_202_jess/jess/Value;Lspec/benchmarks/_202_jess/jess/Rete;)Lspec/benchmarks/_202_jess/jess/Node1; >
+	1	switch     < 740, 100, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0 >
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node;, Eval, (Lspec/benchmarks/_202_jess/jess/Value;Lspec/benchmarks/_202_jess/jess/Token;)Lspec/benchmarks/_202_jess/jess/ValueVector; >
+	29	forwbranch < 12998, 4858 > 72.79346% taken
+	79	forwbranch < 8377, 4621 > 64.44838% taken
+	117	backbranch < 17856, 5952 > 75.0% taken
+M 8 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node1TECT;, CallNode, (Lspec/benchmarks/_202_jess/jess/Token;I)Z >
+	19	forwbranch < 81040, 16150 > 83.383064% taken
+	34	forwbranch < 16150, 0 > 100.0% taken
+	46	forwbranch < 81040, 16150 > 83.383064% taken
+	89	backbranch < 16150, 16150 > 50.0% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node1TELN;, CallNode, (Lspec/benchmarks/_202_jess/jess/Token;I)Z >
+	15	forwbranch < 644, 0 > 100.0% taken
+	27	forwbranch < 0, 644 > 0.0% taken
+	70	backbranch < 4718, 644 > 87.989555% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Token;, data_equals, (Lspec/benchmarks/_202_jess/jess/Token;)Z >
+	22	forwbranch < 598307, 497199 > 54.61467% taken
+	35	backbranch < 1095506, 31 > 99.99717% taken
+M 12 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/NodeTerm;, CallNode, (Lspec/benchmarks/_202_jess/jess/Token;I)Z >
+	4	forwbranch < 29370, 0 > 100.0% taken
+	13	switch     < 14700, 14670, 0, 0 >
+	44	forwbranch < 0, 0 > Never Executed
+	100	forwbranch < 3000, 1850 > 61.85567% taken
+	117	backbranch < 4850, 12820 > 27.44765% taken
+M 14 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node1TEQ;, CallNode, (Lspec/benchmarks/_202_jess/jess/Token;I)Z >
+	19	forwbranch < 1259, 0 > 100.0% taken
+	31	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 0, 1259 > 0.0% taken
+	95	forwbranch < 1004, 255 > 79.74583% taken
+	101	forwbranch < 1004, 255 > 79.74583% taken
+	144	backbranch < 755, 255 > 74.75247% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Token;, AddFact, (Lspec/benchmarks/_202_jess/jess/ValueVector;)V >
+	9	forwbranch < 58937, 0 > 100.0% taken
+M 2 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/TokenVector;, addElement, (Lspec/benchmarks/_202_jess/jess/Token;)V >
+	9	forwbranch < 152157, 5230 > 96.67698% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node2;, findInMemory, (Lspec/benchmarks/_202_jess/jess/TokenVector;Lspec/benchmarks/_202_jess/jess/Token;)Lspec/benchmarks/_202_jess/jess/Token; >
+	27	forwbranch < 0, 492515 > 0.0% taken
+	35	forwbranch < 492511, 4 > 99.99919% taken
+	47	backbranch < 492515, 3379 > 99.3186% taken
+M 4 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/TokenVector;, removeElement, (Lspec/benchmarks/_202_jess/jess/Token;)V >
+	15	forwbranch < 290294, 4041 > 98.627075% taken
+	61	backbranch < 294335, 0 > 100.0% taken
+M 28 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node2;, runTests, (Lspec/benchmarks/_202_jess/jess/Token;Lspec/benchmarks/_202_jess/jess/Token;Lspec/benchmarks/_202_jess/jess/Token;)Z >
+	31	forwbranch < 10184, 238208 > 4.099971% taken
+	60	forwbranch < 0, 238208 > 0.0% taken
+	96	switch     < 40109, 198099, 0 >
+	123	forwbranch < 238208, 0 > 100.0% taken
+	158	forwbranch < 238208, 0 > 100.0% taken
+	204	forwbranch < 198099, 40109 > 83.16219% taken
+	209	forwbranch < 35893, 4216 > 89.48864% taken
+	220	forwbranch < 35893, 198099 > 15.339414% taken
+	225	forwbranch < 165549, 32550 > 83.568825% taken
+	274	switch     < 10184, 0, 0 >
+	319	forwbranch < 1190, 8994 > 11.684996% taken
+	347	forwbranch < 0, 0 > Never Executed
+	379	backbranch < 248392, 7737 > 96.979256% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node2;, runTestsVaryLeft, (Lspec/benchmarks/_202_jess/jess/Token;)V >
+	41	forwbranch < 68769, 9654 > 87.689835% taken
+	98	backbranch < 9654, 9654 > 50.0% taken
+	106	backbranch < 78423, 6580 > 92.259094% taken
+M 6 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node2;, runTestsVaryRight, (Lspec/benchmarks/_202_jess/jess/Token;)V >
+	41	forwbranch < 422261, 17888 > 95.93592% taken
+	89	backbranch < 17901, 17888 > 50.01816% taken
+	97	backbranch < 440149, 17839 > 96.10492% taken
+M 19 < SystemAppCL, Lspec/benchmarks/_202_jess/jess/Node2;, CallNode, (Lspec/benchmarks/_202_jess/jess/Token;I)Z >
+	1	switch     < 111862, 5225, 0 >
+	28	switch     < 63489, 48373, 0, 0 >
+	67	forwbranch < 0, 63489 > 0.0% taken
+	97	forwbranch < 0, 48373 > 0.0% taken
+	139	switch     < 4991, 234, 0, 0 >
+	175	forwbranch < 0, 4991 > 0.0% taken
+	205	forwbranch < 0, 234 > 0.0% taken
+M 6 < BootstrapCL, Ljava/io/LineNumberInputStream;, read, ()I >
+	11	forwbranch < 46160, 2100 > 95.64857% taken
+	18	forwbranch < 2100, 0 > 100.0% taken
+	53	forwbranch < 46160, 0 > 100.0% taken

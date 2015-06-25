@@ -1,0 +1,5453 @@
+M 80 < BootstrapCL, Lorg/jikesrvm/Options;, process, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 0, 0 > Never Executed
+	571	forwbranch < 0, 0 > Never Executed
+	589	forwbranch < 0, 0 > Never Executed
+	607	forwbranch < 0, 0 > Never Executed
+	622	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, ()V >
+	9	forwbranch < 0, 2185 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, unlock, ()V >
+	11	forwbranch < 173374, 245164 > 41.423717% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, (Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;)V >
+	5	forwbranch < 659, 298 > 68.86102% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockNoHandshake, ()V >
+	9	forwbranch < 173764, 242933 > 41.700325% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/RVMThread;, transferExecutionToNewStack, ([BLorg/jikesrvm/ArchitectureSpecific$Registers;)V >
+	61	forwbranch < 0, 0 > Never Executed
+M 20 < BootstrapCL, Ljava/lang/reflect/Array;, getLength, (Ljava/lang/Object;)I >
+	4	forwbranch < 195, 6 > 97.01492% taken
+	17	forwbranch < 195, 0 > 100.0% taken
+	30	forwbranch < 195, 0 > 100.0% taken
+	43	forwbranch < 2, 193 > 1.0256411% taken
+	56	forwbranch < 2, 0 > 100.0% taken
+	69	forwbranch < 0, 2 > 0.0% taken
+	82	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/lang/VMClassLoader;, <clinit>, ()V >
+	45	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 1, 0 > 100.0% taken
+M 54 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 2, 0 > 100.0% taken
+	34	forwbranch < 2, 0 > 100.0% taken
+	50	forwbranch < 0, 2 > 0.0% taken
+	60	forwbranch < 0, 2 > 0.0% taken
+	70	forwbranch < 2, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 2, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 1, 1 > 50.0% taken
+	194	forwbranch < 0, 1 > 0.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1, 0 > 100.0% taken
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 1, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 1, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 1 > 0.0% taken
+	386	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Lorg/jikesrvm/jni/ia32/JNIHelpers;, packageAndInvoke, (Ljava/lang/Object;ILorg/vmmagic/unboxed/Address;Lorg/jikesrvm/classloader/TypeReference;ZZ)Ljava/lang/Object; >
+	22	forwbranch < 2249778, 0 > 100.0% taken
+	85	forwbranch < 2249358, 420 > 99.98134% taken
+	93	forwbranch < 420, 0 > 100.0% taken
+	130	forwbranch < 2249358, 0 > 100.0% taken
+	172	forwbranch < 0, 2249778 > 0.0% taken
+M 632 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 0, 0 > Never Executed
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 0, 0 > Never Executed
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+	901	forwbranch < 0, 0 > Never Executed
+	920	forwbranch < 0, 0 > Never Executed
+	930	forwbranch < 0, 0 > Never Executed
+	947	forwbranch < 0, 0 > Never Executed
+	966	forwbranch < 0, 0 > Never Executed
+	976	forwbranch < 0, 0 > Never Executed
+	993	forwbranch < 0, 0 > Never Executed
+	1012	forwbranch < 0, 0 > Never Executed
+	1022	forwbranch < 0, 0 > Never Executed
+	1039	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1068	forwbranch < 0, 0 > Never Executed
+	1085	forwbranch < 0, 0 > Never Executed
+	1104	forwbranch < 0, 0 > Never Executed
+	1114	forwbranch < 0, 0 > Never Executed
+	1131	forwbranch < 0, 0 > Never Executed
+	1150	forwbranch < 0, 0 > Never Executed
+	1160	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 0 > Never Executed
+	1196	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 0, 0 > Never Executed
+	1223	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1252	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1288	forwbranch < 0, 0 > Never Executed
+	1298	forwbranch < 0, 0 > Never Executed
+	1315	forwbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+	1361	forwbranch < 0, 0 > Never Executed
+	1380	forwbranch < 0, 0 > Never Executed
+	1390	forwbranch < 0, 0 > Never Executed
+	1407	forwbranch < 0, 0 > Never Executed
+	1426	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1453	forwbranch < 0, 0 > Never Executed
+	1472	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 0, 0 > Never Executed
+	1499	forwbranch < 0, 0 > Never Executed
+	1518	forwbranch < 0, 0 > Never Executed
+	1528	forwbranch < 0, 0 > Never Executed
+	1545	forwbranch < 0, 0 > Never Executed
+	1564	forwbranch < 0, 0 > Never Executed
+	1574	forwbranch < 0, 0 > Never Executed
+	1591	forwbranch < 0, 0 > Never Executed
+	1610	forwbranch < 0, 0 > Never Executed
+	1620	forwbranch < 0, 0 > Never Executed
+	1637	forwbranch < 0, 0 > Never Executed
+	1656	forwbranch < 0, 0 > Never Executed
+	1666	forwbranch < 0, 0 > Never Executed
+	1683	forwbranch < 0, 0 > Never Executed
+	1702	forwbranch < 0, 0 > Never Executed
+	1712	forwbranch < 0, 0 > Never Executed
+	1729	forwbranch < 0, 0 > Never Executed
+	1748	forwbranch < 0, 0 > Never Executed
+	1758	forwbranch < 0, 0 > Never Executed
+	1775	forwbranch < 0, 0 > Never Executed
+	1794	forwbranch < 0, 0 > Never Executed
+	1804	forwbranch < 0, 0 > Never Executed
+	1821	forwbranch < 0, 0 > Never Executed
+	1840	forwbranch < 0, 0 > Never Executed
+	1850	forwbranch < 0, 0 > Never Executed
+	1867	forwbranch < 0, 0 > Never Executed
+	1886	forwbranch < 0, 0 > Never Executed
+	1896	forwbranch < 0, 0 > Never Executed
+	1913	forwbranch < 0, 0 > Never Executed
+	1932	forwbranch < 0, 0 > Never Executed
+	1942	forwbranch < 0, 0 > Never Executed
+	1959	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	1988	forwbranch < 0, 0 > Never Executed
+	2005	forwbranch < 0, 0 > Never Executed
+	2024	forwbranch < 0, 0 > Never Executed
+	2034	forwbranch < 0, 0 > Never Executed
+	2051	forwbranch < 0, 0 > Never Executed
+	2070	forwbranch < 0, 0 > Never Executed
+	2080	forwbranch < 0, 0 > Never Executed
+	2097	forwbranch < 0, 0 > Never Executed
+	2116	forwbranch < 0, 0 > Never Executed
+	2126	forwbranch < 0, 0 > Never Executed
+	2143	forwbranch < 0, 0 > Never Executed
+	2162	forwbranch < 0, 0 > Never Executed
+	2172	forwbranch < 0, 0 > Never Executed
+	2189	forwbranch < 0, 0 > Never Executed
+	2208	forwbranch < 0, 0 > Never Executed
+	2218	forwbranch < 0, 0 > Never Executed
+	2235	forwbranch < 0, 0 > Never Executed
+	2254	forwbranch < 0, 0 > Never Executed
+	2264	forwbranch < 0, 0 > Never Executed
+	2281	forwbranch < 0, 0 > Never Executed
+	2300	forwbranch < 0, 0 > Never Executed
+	2310	forwbranch < 0, 0 > Never Executed
+	2327	forwbranch < 0, 0 > Never Executed
+	2346	forwbranch < 0, 0 > Never Executed
+	2356	forwbranch < 0, 0 > Never Executed
+	2373	forwbranch < 0, 0 > Never Executed
+	2392	forwbranch < 0, 0 > Never Executed
+	2402	forwbranch < 0, 0 > Never Executed
+	2419	forwbranch < 0, 0 > Never Executed
+	2438	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2465	forwbranch < 0, 0 > Never Executed
+	2484	forwbranch < 0, 0 > Never Executed
+	2494	forwbranch < 0, 0 > Never Executed
+	2511	forwbranch < 0, 0 > Never Executed
+	2530	forwbranch < 0, 0 > Never Executed
+	2540	forwbranch < 0, 0 > Never Executed
+	2557	forwbranch < 0, 0 > Never Executed
+	2576	forwbranch < 0, 0 > Never Executed
+	2586	forwbranch < 0, 0 > Never Executed
+	2603	forwbranch < 0, 0 > Never Executed
+	2622	forwbranch < 0, 0 > Never Executed
+	2632	forwbranch < 0, 0 > Never Executed
+	2649	forwbranch < 0, 0 > Never Executed
+	2668	forwbranch < 0, 0 > Never Executed
+	2678	forwbranch < 0, 0 > Never Executed
+	2695	forwbranch < 0, 0 > Never Executed
+	2714	forwbranch < 0, 0 > Never Executed
+	2724	forwbranch < 0, 0 > Never Executed
+	2741	forwbranch < 0, 0 > Never Executed
+	2760	forwbranch < 0, 0 > Never Executed
+	2770	forwbranch < 0, 0 > Never Executed
+	2787	forwbranch < 0, 0 > Never Executed
+	2806	forwbranch < 0, 0 > Never Executed
+	2816	forwbranch < 0, 0 > Never Executed
+	2833	forwbranch < 0, 0 > Never Executed
+	2852	forwbranch < 0, 0 > Never Executed
+	2862	forwbranch < 0, 0 > Never Executed
+	2879	forwbranch < 0, 0 > Never Executed
+	2898	forwbranch < 0, 0 > Never Executed
+	2908	forwbranch < 0, 0 > Never Executed
+	2925	forwbranch < 0, 0 > Never Executed
+	2944	forwbranch < 0, 0 > Never Executed
+	2954	forwbranch < 0, 0 > Never Executed
+	2971	forwbranch < 0, 0 > Never Executed
+	2990	forwbranch < 0, 0 > Never Executed
+	3000	forwbranch < 0, 0 > Never Executed
+	3017	forwbranch < 0, 0 > Never Executed
+	3036	forwbranch < 0, 0 > Never Executed
+	3046	forwbranch < 0, 0 > Never Executed
+	3063	forwbranch < 0, 0 > Never Executed
+	3082	forwbranch < 0, 0 > Never Executed
+	3092	forwbranch < 0, 0 > Never Executed
+	3109	forwbranch < 0, 0 > Never Executed
+	3128	forwbranch < 0, 0 > Never Executed
+	3138	forwbranch < 0, 0 > Never Executed
+	3155	forwbranch < 0, 0 > Never Executed
+	3174	forwbranch < 0, 0 > Never Executed
+	3184	forwbranch < 0, 0 > Never Executed
+	3201	forwbranch < 0, 0 > Never Executed
+	3220	forwbranch < 0, 0 > Never Executed
+	3230	forwbranch < 0, 0 > Never Executed
+	3247	forwbranch < 0, 0 > Never Executed
+	3266	forwbranch < 0, 0 > Never Executed
+	3276	forwbranch < 0, 0 > Never Executed
+	3293	forwbranch < 0, 0 > Never Executed
+	3312	forwbranch < 0, 0 > Never Executed
+	3322	forwbranch < 0, 0 > Never Executed
+	3339	forwbranch < 0, 0 > Never Executed
+	3359	forwbranch < 0, 0 > Never Executed
+	3369	forwbranch < 0, 0 > Never Executed
+	3386	forwbranch < 0, 0 > Never Executed
+	3406	forwbranch < 0, 0 > Never Executed
+	3416	forwbranch < 0, 0 > Never Executed
+	3433	forwbranch < 0, 0 > Never Executed
+	3453	forwbranch < 0, 0 > Never Executed
+	3463	forwbranch < 0, 0 > Never Executed
+	3480	forwbranch < 0, 0 > Never Executed
+	3500	forwbranch < 0, 0 > Never Executed
+	3510	forwbranch < 0, 0 > Never Executed
+	3527	forwbranch < 0, 0 > Never Executed
+	3547	forwbranch < 0, 0 > Never Executed
+	3557	forwbranch < 0, 0 > Never Executed
+	3574	forwbranch < 0, 0 > Never Executed
+	3594	forwbranch < 0, 0 > Never Executed
+	3604	forwbranch < 0, 0 > Never Executed
+	3621	forwbranch < 0, 0 > Never Executed
+	3641	forwbranch < 0, 0 > Never Executed
+	3651	forwbranch < 0, 0 > Never Executed
+	3668	forwbranch < 0, 0 > Never Executed
+	3688	forwbranch < 0, 0 > Never Executed
+	3698	forwbranch < 0, 0 > Never Executed
+	3715	forwbranch < 0, 0 > Never Executed
+	3735	forwbranch < 0, 0 > Never Executed
+	3745	forwbranch < 0, 0 > Never Executed
+	3762	forwbranch < 0, 0 > Never Executed
+	3782	forwbranch < 0, 0 > Never Executed
+	3792	forwbranch < 0, 0 > Never Executed
+	3809	forwbranch < 0, 0 > Never Executed
+	3829	forwbranch < 0, 0 > Never Executed
+	3839	forwbranch < 0, 0 > Never Executed
+	3856	forwbranch < 0, 0 > Never Executed
+	3876	forwbranch < 0, 0 > Never Executed
+	3886	forwbranch < 0, 0 > Never Executed
+	3903	forwbranch < 0, 0 > Never Executed
+	3923	forwbranch < 0, 0 > Never Executed
+	3933	forwbranch < 0, 0 > Never Executed
+	3950	forwbranch < 0, 0 > Never Executed
+	3970	forwbranch < 0, 0 > Never Executed
+	3980	forwbranch < 0, 0 > Never Executed
+	3997	forwbranch < 0, 0 > Never Executed
+	4017	forwbranch < 0, 0 > Never Executed
+	4027	forwbranch < 0, 0 > Never Executed
+	4044	forwbranch < 0, 0 > Never Executed
+	4064	forwbranch < 0, 0 > Never Executed
+	4074	forwbranch < 0, 0 > Never Executed
+	4091	forwbranch < 0, 0 > Never Executed
+	4111	forwbranch < 0, 0 > Never Executed
+	4121	forwbranch < 0, 0 > Never Executed
+	4138	forwbranch < 0, 0 > Never Executed
+	4158	forwbranch < 0, 0 > Never Executed
+	4165	forwbranch < 0, 0 > Never Executed
+	4199	forwbranch < 0, 0 > Never Executed
+	4221	forwbranch < 0, 0 > Never Executed
+	4240	forwbranch < 0, 0 > Never Executed
+	4251	forwbranch < 0, 0 > Never Executed
+	4269	forwbranch < 0, 0 > Never Executed
+	4287	forwbranch < 0, 0 > Never Executed
+	4305	forwbranch < 0, 0 > Never Executed
+	4325	forwbranch < 0, 0 > Never Executed
+	4347	forwbranch < 0, 0 > Never Executed
+	4370	forwbranch < 0, 0 > Never Executed
+	4392	forwbranch < 0, 0 > Never Executed
+	4414	forwbranch < 0, 0 > Never Executed
+	4436	forwbranch < 0, 0 > Never Executed
+	4447	forwbranch < 0, 0 > Never Executed
+	4465	forwbranch < 0, 0 > Never Executed
+	4483	forwbranch < 0, 0 > Never Executed
+	4503	forwbranch < 0, 0 > Never Executed
+	4526	forwbranch < 0, 0 > Never Executed
+	4549	forwbranch < 0, 0 > Never Executed
+	4571	forwbranch < 0, 0 > Never Executed
+	4593	forwbranch < 0, 0 > Never Executed
+	4615	forwbranch < 0, 0 > Never Executed
+	4637	forwbranch < 0, 0 > Never Executed
+	4660	forwbranch < 0, 0 > Never Executed
+	4682	forwbranch < 0, 0 > Never Executed
+	4704	forwbranch < 0, 0 > Never Executed
+	4726	forwbranch < 0, 0 > Never Executed
+	4748	forwbranch < 0, 0 > Never Executed
+	4771	forwbranch < 0, 0 > Never Executed
+	4794	forwbranch < 0, 0 > Never Executed
+	4817	forwbranch < 0, 0 > Never Executed
+	4840	forwbranch < 0, 0 > Never Executed
+	4863	forwbranch < 0, 0 > Never Executed
+	4886	forwbranch < 0, 0 > Never Executed
+	4909	forwbranch < 0, 0 > Never Executed
+	4932	forwbranch < 0, 0 > Never Executed
+	4955	forwbranch < 0, 0 > Never Executed
+	4977	forwbranch < 0, 0 > Never Executed
+	5000	forwbranch < 0, 0 > Never Executed
+	5011	forwbranch < 0, 0 > Never Executed
+	5029	forwbranch < 0, 0 > Never Executed
+	5047	forwbranch < 0, 0 > Never Executed
+	5067	forwbranch < 0, 0 > Never Executed
+	5074	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, printOptions, ()V >
+	332	forwbranch < 0, 0 > Never Executed
+	345	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	407	forwbranch < 0, 0 > Never Executed
+	420	forwbranch < 0, 0 > Never Executed
+M 180 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 4, 0 > 100.0% taken
+	21	forwbranch < 4, 0 > 100.0% taken
+	34	forwbranch < 4, 0 > 100.0% taken
+	50	forwbranch < 0, 4 > 0.0% taken
+	60	forwbranch < 0, 4 > 0.0% taken
+	70	forwbranch < 4, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 4, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 4, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 3, 1 > 75.0% taken
+	240	forwbranch < 0, 1 > 0.0% taken
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 3, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 3, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 3, 0 > 100.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 3, 0 > 100.0% taken
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 3, 0 > 100.0% taken
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 3, 0 > 100.0% taken
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 3, 0 > 100.0% taken
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 3, 0 > 100.0% taken
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 3, 0 > 100.0% taken
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 3, 0 > 100.0% taken
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 3, 0 > 100.0% taken
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 3, 0 > 100.0% taken
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 3, 0 > 100.0% taken
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 3, 0 > 100.0% taken
+	895	forwbranch < 3, 0 > 100.0% taken
+	905	forwbranch < 0, 0 > Never Executed
+	922	forwbranch < 0, 0 > Never Executed
+	941	forwbranch < 3, 0 > 100.0% taken
+	951	forwbranch < 0, 0 > Never Executed
+	968	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 3, 0 > 100.0% taken
+	997	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1033	forwbranch < 3, 0 > 100.0% taken
+	1043	forwbranch < 0, 0 > Never Executed
+	1060	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 3, 0 > 100.0% taken
+	1097	forwbranch < 2, 1 > 66.666664% taken
+	1115	forwbranch < 1, 1 > 50.0% taken
+	1133	forwbranch < 1, 0 > 100.0% taken
+	1151	forwbranch < 1, 0 > 100.0% taken
+	1169	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1208	forwbranch < 1, 0 > 100.0% taken
+	1229	forwbranch < 0, 1 > 0.0% taken
+	1250	forwbranch < 0, 0 > Never Executed
+	1271	forwbranch < 0, 0 > Never Executed
+	1293	forwbranch < 0, 0 > Never Executed
+	1314	forwbranch < 0, 0 > Never Executed
+	1336	forwbranch < 0, 0 > Never Executed
+	1358	forwbranch < 0, 0 > Never Executed
+	1376	forwbranch < 0, 0 > Never Executed
+	1397	forwbranch < 0, 0 > Never Executed
+	1418	forwbranch < 0, 0 > Never Executed
+	1439	forwbranch < 0, 0 > Never Executed
+	1460	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, toString, ()Ljava/lang/String; >
+	696	forwbranch < 0, 0 > Never Executed
+	716	forwbranch < 0, 0 > Never Executed
+	735	forwbranch < 0, 0 > Never Executed
+	755	forwbranch < 0, 0 > Never Executed
+	774	forwbranch < 0, 0 > Never Executed
+	794	forwbranch < 0, 0 > Never Executed
+	813	forwbranch < 0, 0 > Never Executed
+	833	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/java/net/loader/Resource;, getCodeSource, ()Ljava/security/CodeSource; >
+	6	forwbranch < 0, 251 > 0.0% taken
+M 18 < BootstrapCL, Ljava/lang/reflect/Array;, newInstance, (Ljava/lang/Class;I)Ljava/lang/Object; >
+	4	forwbranch < 0, 7396 > 0.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, printOptions, ()V >
+	53	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, toString, ()Ljava/lang/String; >
+	107	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, printOptions, ()V >
+	1159	forwbranch < 0, 0 > Never Executed
+	1173	forwbranch < 0, 0 > Never Executed
+	1187	forwbranch < 0, 0 > Never Executed
+	1201	forwbranch < 0, 0 > Never Executed
+	1214	forwbranch < 0, 0 > Never Executed
+	1228	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1255	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1283	forwbranch < 0, 0 > Never Executed
+	1296	forwbranch < 0, 0 > Never Executed
+	1324	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, toString, ()Ljava/lang/String; >
+	2427	forwbranch < 0, 0 > Never Executed
+	2449	forwbranch < 0, 0 > Never Executed
+	2471	forwbranch < 0, 0 > Never Executed
+	2493	forwbranch < 0, 0 > Never Executed
+	2514	forwbranch < 0, 0 > Never Executed
+	2536	forwbranch < 0, 0 > Never Executed
+	2558	forwbranch < 0, 0 > Never Executed
+	2579	forwbranch < 0, 0 > Never Executed
+	2601	forwbranch < 0, 0 > Never Executed
+	2623	forwbranch < 0, 0 > Never Executed
+	2644	forwbranch < 0, 0 > Never Executed
+	2683	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/runtime/FileSystem;, sync, (I)Z >
+	13	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Lorg/jikesrvm/runtime/ReflectionBase;, invoke, (Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 49, 0 > 100.0% taken
+	19	forwbranch < 49, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshakeNoRecImpl, ()V >
+	16	forwbranch < 0, 2185 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, relockWithHandshakeImpl, (I)V >
+	16	forwbranch < 0, 1860 > 0.0% taken
+M 16 < BootstrapCL, Lgnu/classpath/SystemProperties;, <clinit>, ()V >
+	46	forwbranch < 1, 0 > 100.0% taken
+	68	forwbranch < 1, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 1 > 0.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	250	forwbranch < 0, 1 > 0.0% taken
+	266	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isPublic, (I)Z >
+	3	forwbranch < 0, 10 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/Character;, <clinit>, ()V >
+	43	backbranch < 128, 1 > 99.22481% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, getTime, ()Ljava/util/Date; >
+	4	forwbranch < 0, 1 > 0.0% taken
+M 8 < BootstrapCL, Ljava/lang/ClassLoader$StaticData;, <clinit>, ()V >
+	13	forwbranch < 1, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/net/URL;, <clinit>, ()V >
+	17	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, get, (I)I >
+	6	forwbranch < 2, 0 > 100.0% taken
+M 10 < BootstrapCL, Ljava/util/zip/InflaterHuffmanTree;, <clinit>, ()V >
+	23	backbranch < 144, 1 > 99.31035% taken
+	41	backbranch < 112, 1 > 99.11504% taken
+	59	backbranch < 24, 1 > 96.0% taken
+	77	backbranch < 8, 1 > 88.888885% taken
+	111	backbranch < 32, 1 > 96.969696% taken
+M 10 < BootstrapCL, Ljava/util/zip/DeflaterHuffman;, <clinit>, ()V >
+	155	backbranch < 144, 1 > 99.31035% taken
+	191	backbranch < 112, 1 > 99.11504% taken
+	227	backbranch < 24, 1 > 96.0% taken
+	262	backbranch < 6, 1 > 85.71429% taken
+	308	backbranch < 30, 1 > 96.77419% taken
+M 2 < BootstrapCL, Ljava/util/Locale;, <clinit>, ()V >
+	233	forwbranch < 1, 0 > 100.0% taken
+M 42 < BootstrapCL, Lgnu/java/security/hash/HashFactory;, getInstance, (Ljava/lang/String;)Lgnu/java/security/hash/IMessageDigest; >
+	1	forwbranch < 20, 0 > 100.0% taken
+	19	forwbranch < 20, 0 > 100.0% taken
+	39	forwbranch < 0, 20 > 0.0% taken
+	48	forwbranch < 20, 0 > 100.0% taken
+	68	forwbranch < 0, 20 > 0.0% taken
+	77	forwbranch < 20, 0 > 100.0% taken
+	97	forwbranch < 20, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 20 > 0.0% taken
+	325	forwbranch < 20, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/util/logging/StreamHandler;, <init>, (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/logging/Level;Ljava/util/logging/Formatter;Ljava/lang/Class;)V >
+	70	forwbranch < 1, 0 > 100.0% taken
+	144	forwbranch < 1, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 0, 1 > 0.0% taken
+M 6 < BootstrapCL, Ljava/util/logging/StreamHandler;, changeWriter, (Ljava/io/OutputStream;Ljava/lang/String;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/EventObject;, <init>, (Ljava/lang/Object;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 18 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, initialize, ()V >
+	43	forwbranch < 1, 1 > 50.0% taken
+	117	forwbranch < 1, 0 > 100.0% taken
+	173	backbranch < 1, 1 > 50.0% taken
+	185	forwbranch < 1, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	207	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	340	backbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/IndexListParser;, <init>, (Ljava/util/jar/JarFile;Ljava/net/URL;Ljava/net/URL;)V >
+	21	forwbranch < 1, 1 > 50.0% taken
+	67	forwbranch < 1, 0 > 100.0% taken
+	105	forwbranch < 1, 0 > 100.0% taken
+	147	forwbranch < 518, 1 > 99.80732% taken
+	172	backbranch < 519, 0 > 100.0% taken
+	189	forwbranch < 1, 0 > 100.0% taken
+	203	backbranch < 1, 1 > 50.0% taken
+M 14 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getResource, (Ljava/lang/String;)Lgnu/java/net/loader/Resource; >
+	6	forwbranch < 512, 0 > 100.0% taken
+	19	forwbranch < 508, 4 > 99.21875% taken
+	33	forwbranch < 0, 4 > 0.0% taken
+	53	forwbranch < 0, 4 > 0.0% taken
+	62	forwbranch < 508, 0 > 100.0% taken
+	73	forwbranch < 508, 0 > 100.0% taken
+	88	forwbranch < 256, 252 > 50.3937% taken
+M 2 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getManifest, ()Ljava/util/jar/Manifest; >
+	4	forwbranch < 18, 0 > 100.0% taken
+M 74 < SystemAppCL, Ldacapo/TestHarness;, main, ([Ljava/lang/String;)V >
+	2	forwbranch < 1, 0 > 100.0% taken
+	14	forwbranch < 0, 3 > 0.0% taken
+	26	forwbranch < 1, 2 > 33.333332% taken
+	37	forwbranch < 2, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 2, 0 > 100.0% taken
+	99	forwbranch < 2, 0 > 100.0% taken
+	116	forwbranch < 2, 0 > 100.0% taken
+	134	forwbranch < 1, 1 > 50.0% taken
+	142	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	281	forwbranch < 0, 1 > 0.0% taken
+	289	forwbranch < 1, 0 > 100.0% taken
+	328	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	401	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 0 > Never Executed
+	452	forwbranch < 0, 0 > Never Executed
+	491	forwbranch < 0, 0 > Never Executed
+	509	forwbranch < 0, 0 > Never Executed
+	527	forwbranch < 0, 0 > Never Executed
+	545	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 0, 0 > Never Executed
+	581	forwbranch < 0, 0 > Never Executed
+	604	forwbranch < 0, 0 > Never Executed
+	612	forwbranch < 0, 0 > Never Executed
+	728	forwbranch < 1, 0 > 100.0% taken
+	747	forwbranch < 1, 0 > 100.0% taken
+	783	forwbranch < 1, 1 > 50.0% taken
+	819	forwbranch < 0, 1 > 0.0% taken
+	849	forwbranch < 1, 0 > 100.0% taken
+	898	forwbranch < 1, 0 > 100.0% taken
+	912	forwbranch < 1, 0 > 100.0% taken
+	923	forwbranch < 0, 1 > 0.0% taken
+	949	forwbranch < 0, 1 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/TestHarness;, rmdir, (Ljava/io/File;)V >
+	6	forwbranch < 0, 7 > 0.0% taken
+	14	forwbranch < 7, 7 > 50.0% taken
+	33	forwbranch < 1, 6 > 14.285714% taken
+	44	forwbranch < 7, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TestHarness;, <init>, (Ljava/io/InputStream;)V >
+	16	forwbranch < 1, 0 > 100.0% taken
+M 40 < SystemAppCL, Ldacapo/TestHarness;, runBenchmark, (Ljava/io/File;Ljava/lang/String;Ldacapo/TestHarness;)V >
+	13	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 0, 1 > 0.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	108	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	148	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 0 > Never Executed
+	311	forwbranch < 1, 9 > 10.0% taken
+	326	forwbranch < 0, 9 > 0.0% taken
+	331	forwbranch < 0, 9 > 0.0% taken
+	359	forwbranch < 0, 1 > 0.0% taken
+	364	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+	423	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Ldacapo/Benchmark;, run, (Ldacapo/Callback;Ljava/lang/String;Z)Z >
+	16	forwbranch < 9, 1 > 90.0% taken
+	58	forwbranch < 9, 1 > 90.0% taken
+	80	forwbranch < 9, 1 > 90.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMaximumFractionDigits, (I)V >
+	1	forwbranch < 1, 1 > 50.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMinimumFractionDigits, (I)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, <init>, (Ljava/util/Locale;)V >
+	52	forwbranch < 0, 3 > 0.0% taken
+M 24 < BootstrapCL, Ljava/text/DecimalFormat;, applyPatternWithSymbols, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V >
+	10	forwbranch < 2, 0 > 100.0% taken
+	71	forwbranch < 0, 2 > 0.0% taken
+	87	forwbranch < 0, 2 > 0.0% taken
+	116	forwbranch < 2, 0 > 100.0% taken
+	132	forwbranch < 2, 0 > 100.0% taken
+	149	forwbranch < 2, 0 > 100.0% taken
+	164	forwbranch < 2, 0 > 100.0% taken
+	175	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 2, 0 > 100.0% taken
+	218	forwbranch < 2, 0 > 100.0% taken
+	225	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMaximumFractionDigits, (I)V >
+	13	forwbranch < 2, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMinimumFractionDigits, (I)V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 48 < BootstrapCL, Ljava/text/DecimalFormat;, scanFix, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;IZ)I >
+	80	forwbranch < 2, 0 > 100.0% taken
+	115	forwbranch < 0, 2 > 0.0% taken
+	122	forwbranch < 2, 0 > 100.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 2 > 0.0% taken
+	177	forwbranch < 0, 2 > 0.0% taken
+	184	forwbranch < 2, 0 > 100.0% taken
+	191	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	213	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	233	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	317	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	383	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 0, 0 > Never Executed
+	446	backbranch < 2, 0 > 100.0% taken
+	451	forwbranch < 0, 2 > 0.0% taken
+M 26 < BootstrapCL, Ljava/text/DecimalFormat;, scanNumberInteger, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	74	forwbranch < 2, 10 > 16.666666% taken
+	81	forwbranch < 10, 0 > 100.0% taken
+	91	forwbranch < 10, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+	130	forwbranch < 4, 6 > 40.0% taken
+	135	forwbranch < 6, 0 > 100.0% taken
+	187	forwbranch < 2, 2 > 50.0% taken
+	213	forwbranch < 0, 2 > 0.0% taken
+	242	backbranch < 12, 0 > 100.0% taken
+	249	forwbranch < 0, 2 > 0.0% taken
+	267	forwbranch < 0, 2 > 0.0% taken
+	274	forwbranch < 0, 2 > 0.0% taken
+	281	forwbranch < 2, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/text/DecimalFormat;, scanFractionalPortion, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	47	forwbranch < 2, 0 > 100.0% taken
+	102	forwbranch < 0, 6 > 0.0% taken
+	109	forwbranch < 6, 0 > 100.0% taken
+	119	forwbranch < 0, 6 > 0.0% taken
+	126	forwbranch < 6, 0 > 100.0% taken
+	176	forwbranch < 0, 6 > 0.0% taken
+	189	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	246	backbranch < 6, 2 > 75.0% taken
+	252	forwbranch < 2, 0 > 100.0% taken
+M 10 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, getInstance, (Ljava/util/Locale;)Ljava/text/DecimalFormatSymbols; >
+	7	forwbranch < 0, 1 > 0.0% taken
+	80	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	108	backbranch < 0, 0 > Never Executed
+	117	backbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/text/NumberFormat;, computeInstance, (Ljava/util/Locale;Ljava/lang/String;Ljava/lang/String;)Ljava/text/NumberFormat; >
+	7	forwbranch < 1, 0 > 100.0% taken
+	34	forwbranch < 1, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/text/NumberFormat;, getNumberInstance, (Ljava/util/Locale;)Ljava/text/NumberFormat; >
+	60	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	88	backbranch < 0, 0 > Never Executed
+	97	backbranch < 0, 0 > Never Executed
+M 12 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/lang/String;)Ljava/util/Currency; >
+	1	forwbranch < 3, 0 > 100.0% taken
+	20	forwbranch < 0, 3 > 0.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+	97	backbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/util/Locale;)Ljava/util/Currency; >
+	6	forwbranch < 0, 3 > 0.0% taken
+	10	forwbranch < 3, 0 > 100.0% taken
+	28	forwbranch < 3, 0 > 100.0% taken
+	53	forwbranch < 2, 1 > 66.666664% taken
+	71	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetChar, (Ljava/util/ResourceBundle;Ljava/lang/String;C)C >
+	4	forwbranch < 0, 30 > 0.0% taken
+	20	forwbranch < 6, 24 > 20.0% taken
+	29	forwbranch < 24, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetString, (Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 0, 6 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/Currency;, getSymbol, (Ljava/util/Locale;)Ljava/lang/String; >
+	86	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	118	backbranch < 0, 0 > Never Executed
+	128	backbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/util/Currency;, <init>, (Ljava/util/Locale;)V >
+	15	forwbranch < 1, 0 > 100.0% taken
+	98	forwbranch < 1, 0 > 100.0% taken
+	116	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lprobe/ProbeMux;, init, ()V >
+	7	forwbranch < 1, 0 > 100.0% taken
+	56	forwbranch < 1, 1 > 50.0% taken
+	214	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Lprobe/ProbeMux;, begin, (Ljava/lang/String;Z)V >
+	19	forwbranch < 10, 10 > 50.0% taken
+M 4 < SystemAppCL, Lprobe/ProbeMux;, end, (Z)V >
+	8	forwbranch < 10, 10 > 50.0% taken
+	42	forwbranch < 10, 10 > 50.0% taken
+M 2 < SystemAppCL, Lprobe/ProbeMux;, cleanup, ()V >
+	7	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Ldacapo/Callback;, start, (Ljava/lang/String;Z)V >
+	48	forwbranch < 1, 9 > 10.0% taken
+M 6 < SystemAppCL, Ldacapo/Callback;, complete, (Ljava/lang/String;ZZ)V >
+	26	forwbranch < 0, 10 > 0.0% taken
+	33	forwbranch < 1, 9 > 10.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lprobe/MMTkProbe;, begin, (Ljava/lang/String;IZ)V >
+	1	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Lprobe/MMTkProbe;, end, (Ljava/lang/String;IZ)V >
+	1	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config;, getSize, (Ljava/lang/String;)Ldacapo/parser/Config$Size; >
+	13	forwbranch < 222, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, <init>, (Ljava/io/InputStream;)V >
+	83	forwbranch < 1, 17 > 5.5555553% taken
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFile;, configFile, ()Ldacapo/parser/Config; >
+	10	forwbranch < 4, 1 > 80.0% taken
+	24	switch     < 1, 4, 0 >
+	97	forwbranch < 0, 5 > 0.0% taken
+	111	switch     < 1, 3, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasDigest, ()Z >
+	4	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasBytes, ()Z >
+	8	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasLines, ()Z >
+	5	forwbranch < 20, 0 > 100.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/Config;, addOutputFile, (Ljava/lang/String;Ljava/lang/String;)V >
+	15	forwbranch < 4, 4 > 50.0% taken
+	24	forwbranch < 0, 4 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/parser/ConfigFile;, config, ()Ldacapo/parser/Config; >
+	31	forwbranch < 0, 1 > 0.0% taken
+	45	switch     < 1, 0 >
+	91	forwbranch < 0, 1 > 0.0% taken
+	105	switch     < 0, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_ntk, ()I >
+	12	forwbranch < 0, 117 > 0.0% taken
+M 5 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeSpec, (Ldacapo/parser/Config;)V >
+	28	forwbranch < 8, 0 > 100.0% taken
+	42	switch     < 0, 4, 4 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, description, (Ldacapo/parser/Config;)V >
+	17	forwbranch < 0, 9 > 0.0% taken
+	31	switch     < 8, 1 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_consume_token, (I)Ldacapo/parser/Token; >
+	9	forwbranch < 63, 116 > 35.19553% taken
+	58	forwbranch < 0, 179 > 0.0% taken
+M 17 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeClause, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	13	forwbranch < 4, 4 > 50.0% taken
+	27	switch     < 4, 4, 0 >
+	64	forwbranch < 0, 4 > 0.0% taken
+	78	switch     < 4, 0 >
+	114	forwbranch < 0, 51 > 0.0% taken
+	128	switch     < 47, 4 >
+	225	forwbranch < 8, 0 > 100.0% taken
+	239	switch     < 4, 4 >
+M 19 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputFile, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	5	forwbranch < 0, 8 > 0.0% taken
+	19	switch     < 4, 4, 0, 0 >
+	122	forwbranch < 0, 16 > 0.0% taken
+	136	switch     < 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 8 >
+M 21 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputClause, (Ldacapo/parser/Config;Ljava/lang/String;Ljava/lang/String;)V >
+	5	forwbranch < 8, 0 > 100.0% taken
+	19	switch     < 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0 >
+	84	forwbranch < 0, 8 > 0.0% taken
+	98	switch     < 0, 8 >
+	135	forwbranch < 0, 0 > Never Executed
+	149	switch     < 0, 0 >
+M 29 < SystemAppCL, Ldacapo/parser/ConfigFile;, descId, ()Ljava/lang/String; >
+	5	forwbranch < 0, 9 > 0.0% taken
+	19	switch     < 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0 >
+M 49 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, getNextToken, ()Ldacapo/parser/Token; >
+	52	switch     < 180, 0, 0, 0, 0 >
+	98	forwbranch < 179, 243 > 42.41706% taken
+	113	forwbranch < 0, 243 > 0.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 0, 0 > Never Executed
+	221	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 179 > 0.0% taken
+	298	forwbranch < 125, 54 > 69.832405% taken
+	340	forwbranch < 0, 179 > 0.0% taken
+	362	forwbranch < 179, 0 > 100.0% taken
+	402	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 0, 0 > Never Executed
+	437	forwbranch < 0, 0 > Never Executed
+	479	backbranch < 0, 0 > Never Executed
+	510	forwbranch < 0, 0 > Never Executed
+	601	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	634	forwbranch < 0, 0 > Never Executed
+	651	forwbranch < 0, 0 > Never Executed
+	665	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, backup, (I)V >
+	21	forwbranch < 236, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, readChar, ()C >
+	4	forwbranch < 2061, 54 > 97.44681% taken
+	32	forwbranch < 54, 0 > 100.0% taken
+	65	forwbranch < 2058, 3 > 99.85444% taken
+M 16 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, FillBuff, ()V >
+	8	forwbranch < 3, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	29	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 1, 1 > 50.0% taken
+	211	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, UpdateLineColumn, (C)V >
+	14	forwbranch < 2015, 44 > 97.86304% taken
+	44	forwbranch < 2015, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	82	switch     < 23, 45, 0, 0, 0, 1991 >
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, GetImage, ()Ljava/lang/String; >
+	8	forwbranch < 0, 74 > 0.0% taken
+M 47 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjStopStringLiteralDfa_0, (IJ)I >
+	1	switch     < 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	63	forwbranch < 4, 0 > 100.0% taken
+	75	forwbranch < 0, 4 > 0.0% taken
+	95	forwbranch < 1, 0 > 100.0% taken
+	107	forwbranch < 0, 1 > 0.0% taken
+	132	forwbranch < 0, 0 > Never Executed
+	155	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+M 136 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveNfa_0, (II)I >
+	36	forwbranch < 1567, 0 > 100.0% taken
+	49	forwbranch < 1040, 527 > 66.36886% taken
+	70	switch     < 0, 0, 0, 68, 0, 48, 0, 0, 193, 0, 218, 218, 0, 218, 0, 0, 0, 0, 0, 0 >
+	168	forwbranch < 60, 8 > 88.23529% taken
+	175	forwbranch < 0, 8 > 0.0% taken
+	197	forwbranch < 0, 60 > 0.0% taken
+	215	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 60, 8 > 88.23529% taken
+	299	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 2, 46 > 4.1666665% taken
+	425	forwbranch < 0, 2 > 0.0% taken
+	446	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 185, 8 > 95.85492% taken
+	488	forwbranch < 0, 185 > 0.0% taken
+	522	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 60, 158 > 27.522936% taken
+	562	forwbranch < 0, 0 > Never Executed
+	580	forwbranch < 158, 60 > 72.477066% taken
+	587	forwbranch < 0, 60 > 0.0% taken
+	605	forwbranch < 0, 0 > Never Executed
+	626	forwbranch < 0, 0 > Never Executed
+	646	forwbranch < 0, 0 > Never Executed
+	678	forwbranch < 0, 0 > Never Executed
+	698	forwbranch < 0, 0 > Never Executed
+	708	forwbranch < 0, 0 > Never Executed
+	728	backbranch < 436, 527 > 45.27518% taken
+	741	forwbranch < 0, 1040 > 0.0% taken
+	765	switch     < 0, 0, 1, 0, 42, 0, 8, 135, 0, 854, 854, 0, 862 >
+	836	forwbranch < 43, 0 > 100.0% taken
+	846	forwbranch < 0, 43 > 0.0% taken
+	865	forwbranch < 0, 0 > Never Executed
+	883	forwbranch < 8, 0 > 100.0% taken
+	893	forwbranch < 0, 8 > 0.0% taken
+	917	forwbranch < 135, 0 > 100.0% taken
+	927	forwbranch < 0, 135 > 0.0% taken
+	951	forwbranch < 0, 854 > 0.0% taken
+	969	forwbranch < 854, 0 > 100.0% taken
+	991	forwbranch < 0, 0 > Never Executed
+	1007	backbranch < 1716, 1040 > 62.264153% taken
+	1047	switch     < 0, 0, 0 >
+	1083	forwbranch < 0, 0 > Never Executed
+	1090	forwbranch < 0, 0 > Never Executed
+	1111	forwbranch < 0, 0 > Never Executed
+	1127	backbranch < 0, 0 > Never Executed
+	1134	forwbranch < 1126, 441 > 71.85705% taken
+	1175	forwbranch < 1453, 114 > 92.72495% taken
+M 18 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa1_0, (J)I >
+	28	switch     < 0, 0, 2, 5, 2, 13, 2, 2, 5, 8, 5, 0, 0, 1 >
+	151	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+M 33 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa2_0, (JJ)I >
+	7	forwbranch < 41, 3 > 93.181816% taken
+	46	switch     < 1, 0, 1, 8, 0, 1, 12, 0, 0, 0, 0, 1, 0, 2, 1, 2, 0, 2, 1, 5, 0, 0, 0, 0, 0, 4, 0 >
+	225	forwbranch < 0, 1 > 0.0% taken
+	307	forwbranch < 0, 0 > Never Executed
+M 38 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa3_0, (JJ)I >
+	7	forwbranch < 39, 0 > 100.0% taken
+	46	switch     < 0, 0, 2, 0, 19, 0, 1, 1, 0, 0, 0, 0, 0, 0, 4, 4, 0, 1, 6, 0, 0, 0, 0, 0, 1, 0 >
+	185	forwbranch < 15, 4 > 78.947365% taken
+	213	forwbranch < 0, 1 > 0.0% taken
+	250	forwbranch < 4, 0 > 100.0% taken
+	287	forwbranch < 2, 4 > 33.333332% taken
+	315	forwbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa4_0, (JJ)I >
+	7	forwbranch < 30, 0 > 100.0% taken
+	46	switch     < 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 6, 9, 1, 8, 0 >
+	214	forwbranch < 9, 0 > 100.0% taken
+	233	forwbranch < 8, 1 > 88.888885% taken
+	252	forwbranch < 8, 0 > 100.0% taken
+	280	forwbranch < 0, 1 > 0.0% taken
+M 43 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa5_0, (JJ)I >
+	7	forwbranch < 28, 0 > 100.0% taken
+	46	switch     < 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0, 0, 5, 1, 17, 0, 0, 0, 0, 0, 0 >
+	155	forwbranch < 1, 0 > 100.0% taken
+	210	forwbranch < 4, 1 > 80.0% taken
+	229	forwbranch < 4, 0 > 100.0% taken
+	248	forwbranch < 0, 4 > 0.0% taken
+	267	forwbranch < 1, 0 > 100.0% taken
+	295	forwbranch < 9, 8 > 52.941177% taken
+	314	forwbranch < 5, 4 > 55.555557% taken
+	333	forwbranch < 1, 4 > 20.0% taken
+	361	forwbranch < 0, 0 > Never Executed
+M 30 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa6_0, (JJ)I >
+	7	forwbranch < 7, 0 > 100.0% taken
+	47	switch     < 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0 >
+	152	forwbranch < 0, 1 > 0.0% taken
+	181	forwbranch < 0, 1 > 0.0% taken
+	210	forwbranch < 1, 1 > 50.0% taken
+	230	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa7_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	48	switch     < 1, 1, 1, 0 >
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa8_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	49	switch     < 1, 1, 1, 0 >
+	100	forwbranch < 0, 1 > 0.0% taken
+	120	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa9_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa10_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+	75	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAdd, (I)V >
+	10	forwbranch < 0, 3412 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAddStates, (II)V >
+	14	backbranch < 2144, 1072 > 66.666664% taken
+M 1 < SystemAppCL, Ldacapo/parser/Token;, newToken, (I)Ldacapo/parser/Token; >
+	1	switch     < 180 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjFillToken, ()Ldacapo/parser/Token; >
+	27	forwbranch < 106, 74 > 58.88889% taken
+M 80 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa0_0, ()I >
+	4	switch     < 0, 0, 0, 0, 59, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 2, 2, 11, 0, 0, 0, 1, 0, 0, 0, 3, 0, 0, 4, 0, 0, 1, 14, 1, 1, 1, 60 >
+M 8 < SystemAppCL, Ldacapo/Benchmark;, preIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 10, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 10, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Benchmark;, startIteration, ()V >
+	3	forwbranch < 0, 10 > 0.0% taken
+	23	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, stopIteration, ()V >
+	3	forwbranch < 0, 10 > 0.0% taken
+M 44 < SystemAppCL, Ldacapo/Benchmark;, validate, (Ljava/lang/String;)Z >
+	3	forwbranch < 10, 0 > 100.0% taken
+	11	forwbranch < 10, 0 > 100.0% taken
+	76	forwbranch < 10, 20 > 33.333332% taken
+	100	forwbranch < 0, 20 > 0.0% taken
+	179	forwbranch < 20, 0 > 100.0% taken
+	226	forwbranch < 20, 0 > 100.0% taken
+	236	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 20, 0 > 100.0% taken
+	316	forwbranch < 20, 0 > 100.0% taken
+	355	forwbranch < 20, 0 > 100.0% taken
+	438	forwbranch < 0, 0 > Never Executed
+	486	forwbranch < 0, 0 > Never Executed
+	543	forwbranch < 0, 0 > Never Executed
+	582	forwbranch < 20, 0 > 100.0% taken
+	669	forwbranch < 0, 0 > Never Executed
+	718	forwbranch < 0, 0 > Never Executed
+	775	forwbranch < 0, 0 > Never Executed
+	814	forwbranch < 20, 0 > 100.0% taken
+	833	forwbranch < 0, 0 > Never Executed
+	875	forwbranch < 0, 0 > Never Executed
+	910	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, postIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 0, 10 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/Benchmark;, postIterationCleanup, (Ljava/lang/String;)V >
+	20	forwbranch < 10, 20 > 33.333332% taken
+	39	forwbranch < 0, 20 > 0.0% taken
+	48	forwbranch < 20, 0 > 100.0% taken
+	63	forwbranch < 0, 20 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/FileDigest;, get, (Ljava/lang/String;ZZLjava/io/File;)[B >
+	1	forwbranch < 0, 20 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Digest;, toString, ([B)Ljava/lang/String; >
+	17	forwbranch < 20, 400 > 4.7619047% taken
+	36	forwbranch < 350, 50 > 87.5% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteFile, (Ljava/io/File;)V >
+	3	forwbranch < 20, 0 > 100.0% taken
+	38	forwbranch < 0, 20 > 0.0% taken
+	45	forwbranch < 0, 20 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, <init>, (Ldacapo/parser/Config;Ljava/io/File;)V >
+	22	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 0, 1 > 0.0% taken
+M 154 < SystemAppCL, LEDU/purdue/cs/bloat/optimize/Main;, main, ([Ljava/lang/String;)V >
+	31	forwbranch < 10, 100 > 9.090909% taken
+	42	forwbranch < 0, 100 > 0.0% taken
+	53	forwbranch < 100, 0 > 100.0% taken
+	78	forwbranch < 100, 0 > 100.0% taken
+	183	forwbranch < 100, 0 > 100.0% taken
+	201	forwbranch < 100, 0 > 100.0% taken
+	210	forwbranch < 0, 0 > Never Executed
+	232	forwbranch < 0, 0 > Never Executed
+	250	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	308	forwbranch < 0, 0 > Never Executed
+	358	forwbranch < 100, 0 > 100.0% taken
+	376	forwbranch < 100, 0 > 100.0% taken
+	394	forwbranch < 100, 0 > 100.0% taken
+	411	forwbranch < 100, 0 > 100.0% taken
+	429	forwbranch < 100, 0 > 100.0% taken
+	447	forwbranch < 100, 0 > 100.0% taken
+	465	forwbranch < 100, 0 > 100.0% taken
+	483	forwbranch < 100, 0 > 100.0% taken
+	501	forwbranch < 100, 0 > 100.0% taken
+	519	forwbranch < 100, 0 > 100.0% taken
+	537	forwbranch < 100, 0 > 100.0% taken
+	555	forwbranch < 100, 0 > 100.0% taken
+	573	forwbranch < 100, 0 > 100.0% taken
+	591	forwbranch < 90, 10 > 90.0% taken
+	609	forwbranch < 90, 0 > 100.0% taken
+	627	forwbranch < 80, 10 > 88.888885% taken
+	636	forwbranch < 10, 0 > 100.0% taken
+	654	forwbranch < 0, 10 > 0.0% taken
+	675	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 80, 0 > 100.0% taken
+	718	forwbranch < 80, 0 > 100.0% taken
+	736	forwbranch < 80, 0 > 100.0% taken
+	745	forwbranch < 0, 0 > Never Executed
+	768	forwbranch < 80, 0 > 100.0% taken
+	777	forwbranch < 0, 0 > Never Executed
+	807	forwbranch < 80, 0 > 100.0% taken
+	816	forwbranch < 0, 0 > Never Executed
+	846	forwbranch < 80, 0 > 100.0% taken
+	855	forwbranch < 0, 0 > Never Executed
+	873	forwbranch < 0, 0 > Never Executed
+	920	forwbranch < 70, 10 > 87.5% taken
+	929	forwbranch < 10, 0 > 100.0% taken
+	947	forwbranch < 10, 0 > 100.0% taken
+	994	forwbranch < 70, 0 > 100.0% taken
+	1012	forwbranch < 70, 0 > 100.0% taken
+	1030	forwbranch < 70, 0 > 100.0% taken
+	1048	forwbranch < 70, 0 > 100.0% taken
+	1066	forwbranch < 60, 10 > 85.71429% taken
+	1084	forwbranch < 50, 10 > 83.333336% taken
+	1102	forwbranch < 50, 0 > 100.0% taken
+	1120	forwbranch < 40, 10 > 80.0% taken
+	1138	forwbranch < 40, 0 > 100.0% taken
+	1156	forwbranch < 40, 0 > 100.0% taken
+	1178	forwbranch < 40, 0 > 100.0% taken
+	1200	forwbranch < 30, 10 > 75.0% taken
+	1218	forwbranch < 30, 0 > 100.0% taken
+	1236	forwbranch < 30, 0 > 100.0% taken
+	1254	forwbranch < 30, 0 > 100.0% taken
+	1272	forwbranch < 10, 20 > 33.333332% taken
+	1283	forwbranch < 20, 0 > 100.0% taken
+	1301	forwbranch < 20, 0 > 100.0% taken
+	1342	forwbranch < 10, 10 > 50.0% taken
+	1362	forwbranch < 1, 9 > 10.0% taken
+	1370	forwbranch < 9, 0 > 100.0% taken
+	1411	forwbranch < 9, 1 > 90.0% taken
+	1425	forwbranch < 10, 0 > 100.0% taken
+	1491	forwbranch < 10, 0 > 100.0% taken
+	1511	forwbranch < 10, 0 > 100.0% taken
+	1559	forwbranch < 10, 10 > 50.0% taken
+	1623	forwbranch < 10, 0 > 100.0% taken
+	1633	forwbranch < 0, 10 > 0.0% taken
+	1651	forwbranch < 10, 10 > 50.0% taken
+	1682	forwbranch < 0, 0 > Never Executed
+	1745	forwbranch < 0, 0 > Never Executed
+	1765	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, version, ()V >
+	54	forwbranch < 18, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, flush, ()V >
+	8	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, write, (I)V >
+	9	forwbranch < 0, 2100 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFileLoader;, <init>, ()V >
+	64	forwbranch < 0, 10 > 0.0% taken
+M 74 < SystemAppCL, LEDU/purdue/cs/bloat/optimize/Main;, editClass, (Ljava/lang/String;)V >
+	47	forwbranch < 10, 0 > 100.0% taken
+	61	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 10, 0 > 100.0% taken
+	178	forwbranch < 0, 10 > 0.0% taken
+	196	forwbranch < 0, 10 > 0.0% taken
+	221	forwbranch < 0, 10 > 0.0% taken
+	231	forwbranch < 0, 10 > 0.0% taken
+	246	forwbranch < 0, 10 > 0.0% taken
+	262	forwbranch < 10, 0 > 100.0% taken
+	287	forwbranch < 0, 0 > Never Executed
+	297	forwbranch < 0, 0 > Never Executed
+	312	forwbranch < 10, 0 > 100.0% taken
+	318	forwbranch < 0, 0 > Never Executed
+	379	forwbranch < 1, 9 > 10.0% taken
+	413	forwbranch < 10, 0 > 100.0% taken
+	496	forwbranch < 10, 0 > 100.0% taken
+	554	forwbranch < 10, 40 > 20.0% taken
+	592	forwbranch < 40, 0 > 100.0% taken
+	665	forwbranch < 40, 0 > 100.0% taken
+	707	forwbranch < 0, 0 > Never Executed
+	728	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	756	forwbranch < 40, 0 > 100.0% taken
+	772	forwbranch < 0, 40 > 0.0% taken
+	780	forwbranch < 40, 0 > 100.0% taken
+	814	forwbranch < 0, 10 > 0.0% taken
+	830	forwbranch < 10, 120 > 7.6923075% taken
+	844	forwbranch < 0, 120 > 0.0% taken
+	858	forwbranch < 0, 120 > 0.0% taken
+	872	forwbranch < 0, 120 > 0.0% taken
+	886	forwbranch < 120, 0 > 100.0% taken
+	990	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, isObject, ()Z >
+	10	forwbranch < 0, 130 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, className, ()Ljava/lang/String; >
+	10	forwbranch < 0, 14000 > 0.0% taken
+	17	forwbranch < 14000, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, name, ()Ljava/lang/String; >
+	29	forwbranch < 0, 4076 > 0.0% taken
+	41	forwbranch < 0, 4076 > 0.0% taken
+	66	forwbranch < 0, 4076 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, qualifier, ()Ljava/lang/String; >
+	10	forwbranch < 0, 10 > 0.0% taken
+	54	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, isNative, ()Z >
+	13	forwbranch < 120, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, isAbstract, ()Z >
+	13	forwbranch < 120, 0 > 100.0% taken
+M 136 < SystemAppCL, LEDU/purdue/cs/bloat/optimize/Main;, bloatMethod, (LEDU/purdue/cs/bloat/editor/MethodEditor;LEDU/purdue/cs/bloat/context/BloatContext;)V >
+	3	forwbranch < 0, 40 > 0.0% taken
+	9	forwbranch < 40, 0 > 100.0% taken
+	57	forwbranch < 40, 0 > 100.0% taken
+	86	forwbranch < 40, 0 > 100.0% taken
+	165	forwbranch < 40, 0 > 100.0% taken
+	212	forwbranch < 40, 0 > 100.0% taken
+	241	forwbranch < 40, 0 > 100.0% taken
+	259	forwbranch < 40, 0 > 100.0% taken
+	265	forwbranch < 0, 0 > Never Executed
+	271	forwbranch < 0, 0 > Never Executed
+	285	forwbranch < 0, 0 > Never Executed
+	341	forwbranch < 0, 0 > Never Executed
+	359	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 40 > 0.0% taken
+	388	forwbranch < 40, 0 > 100.0% taken
+	431	forwbranch < 40, 0 > 100.0% taken
+	458	forwbranch < 40, 0 > 100.0% taken
+	476	forwbranch < 40, 0 > 100.0% taken
+	498	forwbranch < 0, 40 > 0.0% taken
+	504	forwbranch < 40, 0 > 100.0% taken
+	519	forwbranch < 40, 0 > 100.0% taken
+	579	forwbranch < 0, 40 > 0.0% taken
+	585	forwbranch < 40, 0 > 100.0% taken
+	629	forwbranch < 40, 0 > 100.0% taken
+	655	forwbranch < 0, 40 > 0.0% taken
+	661	forwbranch < 40, 0 > 100.0% taken
+	676	forwbranch < 40, 0 > 100.0% taken
+	731	forwbranch < 40, 0 > 100.0% taken
+	748	forwbranch < 40, 0 > 100.0% taken
+	770	forwbranch < 0, 40 > 0.0% taken
+	776	forwbranch < 40, 0 > 100.0% taken
+	791	forwbranch < 40, 0 > 100.0% taken
+	851	forwbranch < 40, 0 > 100.0% taken
+	868	forwbranch < 40, 0 > 100.0% taken
+	890	forwbranch < 0, 40 > 0.0% taken
+	896	forwbranch < 40, 0 > 100.0% taken
+	911	forwbranch < 40, 0 > 100.0% taken
+	966	forwbranch < 40, 0 > 100.0% taken
+	983	forwbranch < 40, 0 > 100.0% taken
+	1005	forwbranch < 0, 40 > 0.0% taken
+	1011	forwbranch < 40, 0 > 100.0% taken
+	1026	forwbranch < 40, 0 > 100.0% taken
+	1085	forwbranch < 40, 0 > 100.0% taken
+	1102	forwbranch < 40, 0 > 100.0% taken
+	1124	forwbranch < 0, 40 > 0.0% taken
+	1130	forwbranch < 40, 0 > 100.0% taken
+	1136	forwbranch < 0, 0 > Never Executed
+	1142	forwbranch < 0, 0 > Never Executed
+	1148	forwbranch < 0, 0 > Never Executed
+	1154	forwbranch < 0, 0 > Never Executed
+	1160	forwbranch < 40, 0 > 100.0% taken
+	1175	forwbranch < 40, 0 > 100.0% taken
+	1231	forwbranch < 40, 0 > 100.0% taken
+	1248	forwbranch < 40, 0 > 100.0% taken
+	1270	forwbranch < 40, 0 > 100.0% taken
+	1287	forwbranch < 0, 40 > 0.0% taken
+	1293	forwbranch < 40, 0 > 100.0% taken
+	1308	forwbranch < 40, 0 > 100.0% taken
+	1363	forwbranch < 40, 0 > 100.0% taken
+	1385	forwbranch < 40, 0 > 100.0% taken
+	1391	forwbranch < 0, 0 > Never Executed
+	1506	forwbranch < 40, 0 > 100.0% taken
+	1550	forwbranch < 0, 40 > 0.0% taken
+	1634	forwbranch < 40, 0 > 100.0% taken
+	1640	forwbranch < 0, 0 > Never Executed
+	1688	forwbranch < 40, 0 > 100.0% taken
+	1748	forwbranch < 40, 0 > 100.0% taken
+	1793	forwbranch < 40, 0 > 100.0% taken
+M 119 < SystemAppCL, LEDU/purdue/cs/bloat/trans/CompactArrayInitializer;, transform, (LEDU/purdue/cs/bloat/editor/MethodEditor;)Z >
+	3	forwbranch < 40, 0 > 100.0% taken
+	85	forwbranch < 40, 20310 > 0.19656019% taken
+	100	forwbranch < 20310, 0 > 100.0% taken
+	163	forwbranch < 3560, 16750 > 17.52831% taken
+	174	switch     < 14890, 1860, 0, 0, 0, 0, 0, 0 >
+	221	switch     < 2020, 12870 >
+	248	forwbranch < 0, 2020 > 0.0% taken
+	259	forwbranch < 0, 2020 > 0.0% taken
+	270	forwbranch < 160, 1860 > 7.920792% taken
+	300	switch     < 70, 10, 1780 >
+	343	forwbranch < 10, 0 > 100.0% taken
+	369	forwbranch < 0, 70 > 0.0% taken
+	380	forwbranch < 0, 70 > 0.0% taken
+	391	forwbranch < 70, 0 > 100.0% taken
+	426	switch     < 0, 0, 0 >
+	465	forwbranch < 0, 0 > Never Executed
+	476	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	522	switch     < 0, 0 >
+	548	forwbranch < 0, 0 > Never Executed
+	559	forwbranch < 0, 0 > Never Executed
+	570	forwbranch < 0, 0 > Never Executed
+	591	forwbranch < 0, 0 > Never Executed
+	622	switch     < 0, 0, 0 >
+	656	forwbranch < 0, 0 > Never Executed
+	667	forwbranch < 0, 0 > Never Executed
+	678	forwbranch < 0, 0 > Never Executed
+	707	forwbranch < 0, 0 > Never Executed
+	755	forwbranch < 0, 0 > Never Executed
+	783	switch     < 0, 0, 0, 0, 0, 0, 0 >
+	848	forwbranch < 0, 0 > Never Executed
+	859	forwbranch < 0, 0 > Never Executed
+	883	forwbranch < 0, 0 > Never Executed
+	907	forwbranch < 0, 0 > Never Executed
+	931	forwbranch < 0, 0 > Never Executed
+	955	forwbranch < 0, 0 > Never Executed
+	966	forwbranch < 0, 0 > Never Executed
+	977	forwbranch < 0, 0 > Never Executed
+	1020	forwbranch < 0, 0 > Never Executed
+	1048	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1137	forwbranch < 0, 0 > Never Executed
+	1148	forwbranch < 0, 0 > Never Executed
+	1159	forwbranch < 0, 0 > Never Executed
+	1189	forwbranch < 0, 0 > Never Executed
+	1226	forwbranch < 1840, 1720 > 51.685394% taken
+	1234	forwbranch < 20310, 0 > 100.0% taken
+	1278	forwbranch < 40, 0 > 100.0% taken
+	1305	forwbranch < 0, 0 > Never Executed
+	1322	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, <init>, (LEDU/purdue/cs/bloat/editor/MethodEditor;)V >
+	132	forwbranch < 40, 0 > 100.0% taken
+	202	forwbranch < 0, 40 > 0.0% taken
+	208	forwbranch < 40, 0 > 100.0% taken
+M 32 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, initialize, ()V >
+	7	forwbranch < 40, 0 > 100.0% taken
+	26	forwbranch < 0, 40 > 0.0% taken
+	32	forwbranch < 40, 0 > 100.0% taken
+	61	forwbranch < 0, 40 > 0.0% taken
+	67	forwbranch < 40, 0 > 100.0% taken
+	96	forwbranch < 0, 40 > 0.0% taken
+	102	forwbranch < 40, 0 > 100.0% taken
+	131	forwbranch < 0, 40 > 0.0% taken
+	137	forwbranch < 40, 0 > 100.0% taken
+	166	forwbranch < 0, 40 > 0.0% taken
+	172	forwbranch < 40, 0 > 100.0% taken
+	201	forwbranch < 0, 40 > 0.0% taken
+	207	forwbranch < 40, 0 > 100.0% taken
+	236	forwbranch < 0, 40 > 0.0% taken
+	242	forwbranch < 40, 0 > 100.0% taken
+	294	forwbranch < 40, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA;, transform, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	11	forwbranch < 40, 1600 > 2.4390244% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ExprPropagation;, transform, ()V >
+	9	forwbranch < 40, 45 > 47.058823% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination;, transform, ()V >
+	48	forwbranch < 80, 44480 > 0.17953321% taken
+	68	forwbranch < 0, 44480 > 0.0% taken
+	74	forwbranch < 44480, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInference;, transform, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/editor/ClassHierarchy;)V >
+	56	forwbranch < 40, 0 > 100.0% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueNumbering;, transform, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	4	forwbranch < 0, 40 > 0.0% taken
+	10	forwbranch < 40, 0 > 100.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	298	forwbranch < 0, 40 > 0.0% taken
+	305	forwbranch < 40, 0 > 100.0% taken
+	337	forwbranch < 40, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolding;, transform, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	24	forwbranch < 80, 0 > 100.0% taken
+	136	forwbranch < 80, 0 > 100.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, transform, ()V >
+	50	forwbranch < 40, 3340 > 1.183432% taken
+	113	forwbranch < 40, 705 > 5.3691278% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/diva/InductionVarAnalyzer;, transform, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	47	forwbranch < 40, 0 > 100.0% taken
+	83	forwbranch < 40, 0 > 100.0% taken
+	105	forwbranch < 40, 0 > 100.0% taken
+	123	forwbranch < 40, 0 > 100.0% taken
+M 78 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator;, <init>, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/codegen/Liveness;)V >
+	56	forwbranch < 31, 1336 > 2.2677395% taken
+	76	forwbranch < 1336, 0 > 100.0% taken
+	95	forwbranch < 1234, 102 > 92.36527% taken
+	136	forwbranch < 1336, 29488 > 4.334285% taken
+	155	forwbranch < 29488, 0 > 100.0% taken
+	166	forwbranch < 0, 29488 > 0.0% taken
+	182	forwbranch < 28254, 1234 > 95.81525% taken
+	270	forwbranch < 31, 678 > 4.3723555% taken
+	363	forwbranch < 678, 19929 > 3.2901442% taken
+	444	forwbranch < 17678, 2251 > 88.7049% taken
+	518	forwbranch < 27, 651 > 3.982301% taken
+	524	forwbranch < 651, 0 > 100.0% taken
+	689	forwbranch < 651, 0 > 100.0% taken
+	777	forwbranch < 651, 18840 > 3.340003% taken
+	800	forwbranch < 268, 18572 > 1.4225053% taken
+	811	forwbranch < 18510, 62 > 99.66616% taken
+	854	forwbranch < 31, 685 > 4.329609% taken
+	897	forwbranch < 637, 48 > 92.9927% taken
+	920	forwbranch < 48, 0 > 100.0% taken
+	970	forwbranch < 0, 637 > 0.0% taken
+	1049	forwbranch < 31, 637 > 4.6407185% taken
+	1067	forwbranch < 637, 0 > 100.0% taken
+	1132	forwbranch < 0, 637 > 0.0% taken
+	1172	forwbranch < 637, 11794 > 5.124286% taken
+	1193	forwbranch < 5155, 6639 > 43.708664% taken
+	1211	forwbranch < 6639, 0 > 100.0% taken
+	1238	forwbranch < 637, 5577 > 10.251046% taken
+	1248	forwbranch < 4940, 637 > 88.57809% taken
+	1256	forwbranch < 637, 0 > 100.0% taken
+	1268	forwbranch < 0, 0 > Never Executed
+	1281	forwbranch < 0, 0 > Never Executed
+	1328	forwbranch < 0, 0 > Never Executed
+	1352	forwbranch < 637, 0 > 100.0% taken
+	1397	forwbranch < 325, 312 > 51.02041% taken
+	1435	forwbranch < 31, 685 > 4.329609% taken
+	1456	forwbranch < 0, 685 > 0.0% taken
+	1506	forwbranch < 685, 1336 > 33.89411% taken
+	1550	forwbranch < 1336, 6224 > 17.671957% taken
+	1587	forwbranch < 31, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, allocReturnAddresses, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/codegen/RegisterAllocator;)V >
+	16	forwbranch < 40, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, clearCode, ()V >
+	4	forwbranch < 40, 0 > 100.0% taken
+	22	forwbranch < 40, 0 > 100.0% taken
+M 70 < SystemAppCL, LEDU/purdue/cs/bloat/trans/Peephole;, transform, (LEDU/purdue/cs/bloat/editor/MethodEditor;)V >
+	3	forwbranch < 40, 0 > 100.0% taken
+	71	forwbranch < 40, 26389 > 0.1513489% taken
+	90	forwbranch < 20012, 6377 > 75.834625% taken
+	95	forwbranch < 0, 6377 > 0.0% taken
+	119	forwbranch < 0, 20012 > 0.0% taken
+	140	forwbranch < 19164, 848 > 95.76254% taken
+	168	forwbranch < 0, 1846 > 0.0% taken
+	187	forwbranch < 831, 1015 > 45.01625% taken
+	198	forwbranch < 150, 865 > 14.778325% taken
+	211	forwbranch < 998, 17 > 98.32513% taken
+	237	forwbranch < 0, 831 > 0.0% taken
+	242	forwbranch < 0, 831 > 0.0% taken
+	272	forwbranch < 831, 19164 > 4.156039% taken
+	280	forwbranch < 19074, 90 > 99.53037% taken
+	291	forwbranch < 3777, 16218 > 18.889723% taken
+	304	forwbranch < 19955, 40 > 99.79995% taken
+	310	forwbranch < 40, 0 > 100.0% taken
+	319	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	523	forwbranch < 40, 80 > 33.333332% taken
+	558	forwbranch < 0, 40 > 0.0% taken
+	573	forwbranch < 0, 40 > 0.0% taken
+	613	forwbranch < 40, 921 > 4.162331% taken
+	630	forwbranch < 90, 831 > 9.771987% taken
+	651	forwbranch < 0, 831 > 0.0% taken
+	659	forwbranch < 831, 0 > 100.0% taken
+	675	forwbranch < 0, 0 > Never Executed
+	681	forwbranch < 0, 0 > Never Executed
+	723	forwbranch < 0, 0 > Never Executed
+	767	forwbranch < 0, 831 > 0.0% taken
+	775	forwbranch < 0, 831 > 0.0% taken
+	783	forwbranch < 831, 0 > 100.0% taken
+	789	forwbranch < 0, 0 > Never Executed
+	841	forwbranch < 0, 0 > Never Executed
+	882	forwbranch < 40, 0 > 100.0% taken
+M 22 < BootstrapCL, Ljava/text/DateFormat;, computeInstance, (IILjava/util/Locale;ZZ)Ljava/text/DateFormat; >
+	7	forwbranch < 1, 0 > 100.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	38	switch     < 0, 0, 0, 1, 0 >
+	122	forwbranch < 1, 0 > 100.0% taken
+	149	forwbranch < 0, 1 > 0.0% taken
+	154	forwbranch < 1, 0 > 100.0% taken
+	187	switch     < 0, 1, 0, 0, 0 >
+	270	forwbranch < 1, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/text/DateFormat;, getDateTimeInstance, (IILjava/util/Locale;)Ljava/text/DateFormat; >
+	65	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	95	backbranch < 0, 0 > Never Executed
+	105	backbranch < 0, 0 > Never Executed
+M 26 < BootstrapCL, Ljava/text/SimpleDateFormat;, compileFormat, (Ljava/lang/String;)V >
+	27	forwbranch < 11, 7 > 61.11111% taken
+	36	forwbranch < 7, 0 > 100.0% taken
+	42	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 7, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 7, 0 > 100.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 8, 3 > 72.72727% taken
+	294	forwbranch < 0, 3 > 0.0% taken
+	344	backbranch < 18, 1 > 94.73684% taken
+M 2 < BootstrapCL, Ljava/util/Calendar;, clear, ()V >
+	88	backbranch < 68, 4 > 94.44444% taken
+M 32 < BootstrapCL, Ljava/util/Calendar;, set, (II)V >
+	4	forwbranch < 0, 1 > 0.0% taken
+	25	backbranch < 17, 1 > 94.44444% taken
+	48	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 >
+	204	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	409	forwbranch < 0, 0 > Never Executed
+	544	forwbranch < 0, 1 > 0.0% taken
+	550	forwbranch < 0, 1 > 0.0% taken
+	556	forwbranch < 0, 1 > 0.0% taken
+M 8 < BootstrapCL, Ljava/util/Calendar;, <init>, (Ljava/util/TimeZone;Ljava/util/Locale;)V >
+	120	forwbranch < 0, 1 > 0.0% taken
+	148	forwbranch < 0, 1 > 0.0% taken
+	166	forwbranch < 7, 1 > 87.5% taken
+	182	backbranch < 8, 1 > 88.888885% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, isGregorian, (II)Z >
+	72	forwbranch < 0, 2 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, getLinearDay, (IIZ)J >
+	27	forwbranch < 0, 4 > 0.0% taken
+M 8 < BootstrapCL, Ljava/util/GregorianCalendar;, isLeapYear, (I)Z >
+	3	forwbranch < 0, 4 > 0.0% taken
+	15	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Ljava/util/GregorianCalendar;, calculateDay, ([IJZ)V >
+	13	forwbranch < 1, 1 > 50.0% taken
+	30	forwbranch < 0, 2 > 0.0% taken
+	69	forwbranch < 1, 1 > 50.0% taken
+	90	forwbranch < 2, 0 > 100.0% taken
+	122	forwbranch < 2, 0 > 100.0% taken
+	154	forwbranch < 2, 0 > 100.0% taken
+	172	forwbranch < 0, 2 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/GregorianCalendar;, getWeekDay, (II)I >
+	28	forwbranch < 1, 1 > 50.0% taken
+M 74 < BootstrapCL, Ljava/util/GregorianCalendar;, computeTime, ()V >
+	212	forwbranch < 1, 0 > 100.0% taken
+	225	forwbranch < 0, 1 > 0.0% taken
+	235	forwbranch < 1, 0 > 100.0% taken
+	244	forwbranch < 0, 0 > Never Executed
+	253	forwbranch < 1, 0 > 100.0% taken
+	278	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	386	forwbranch < 0, 0 > Never Executed
+	405	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 0, 0 > Never Executed
+	477	forwbranch < 0, 0 > Never Executed
+	507	forwbranch < 0, 0 > Never Executed
+	519	forwbranch < 0, 0 > Never Executed
+	574	forwbranch < 0, 0 > Never Executed
+	588	forwbranch < 1, 0 > 100.0% taken
+	592	forwbranch < 0, 0 > Never Executed
+	606	forwbranch < 1, 0 > 100.0% taken
+	626	forwbranch < 0, 0 > Never Executed
+	696	forwbranch < 1, 0 > 100.0% taken
+	716	forwbranch < 0, 0 > Never Executed
+	729	forwbranch < 1, 0 > 100.0% taken
+	755	forwbranch < 1, 0 > 100.0% taken
+	771	forwbranch < 0, 0 > Never Executed
+	785	forwbranch < 0, 0 > Never Executed
+	818	backbranch < 0, 1 > 0.0% taken
+	845	forwbranch < 0, 0 > Never Executed
+	859	forwbranch < 0, 0 > Never Executed
+	877	backbranch < 0, 1 > 0.0% taken
+	897	forwbranch < 1, 0 > 100.0% taken
+	903	forwbranch < 0, 0 > Never Executed
+	984	forwbranch < 0, 1 > 0.0% taken
+	1025	forwbranch < 0, 1 > 0.0% taken
+	1053	forwbranch < 1, 0 > 100.0% taken
+	1080	forwbranch < 1, 0 > 100.0% taken
+	1096	forwbranch < 1, 0 > 100.0% taken
+	1105	forwbranch < 1, 0 > 100.0% taken
+M 4 < BootstrapCL, Ljava/util/Calendar;, complete, ()V >
+	4	forwbranch < 2, 0 > 100.0% taken
+	15	forwbranch < 2, 0 > 100.0% taken
+M 12 < BootstrapCL, Ljava/util/GregorianCalendar;, computeFields, ()V >
+	9	forwbranch < 0, 2 > 0.0% taken
+	65	forwbranch < 1, 1 > 50.0% taken
+	160	forwbranch < 2, 0 > 100.0% taken
+	257	forwbranch < 0, 2 > 0.0% taken
+	339	forwbranch < 0, 2 > 0.0% taken
+	370	forwbranch < 0, 2 > 0.0% taken
+M 2 < BootstrapCL, Ljava/util/SimpleTimeZone;, <init>, (ILjava/lang/String;IIIIIIII)V >
+	73	forwbranch < 55, 0 > 100.0% taken
+M 16 < BootstrapCL, Ljava/util/TimeZone;, getTimeZoneInternal, (Ljava/lang/String;)Ljava/util/TimeZone; >
+	27	forwbranch < 0, 1 > 0.0% taken
+	38	forwbranch < 0, 1 > 0.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 0 > Never Executed
+	162	forwbranch < 0, 0 > Never Executed
+	172	backbranch < 1, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/util/TimeZone;, timezones, ()Ljava/util/HashMap; >
+	3	forwbranch < 1, 1 > 50.0% taken
+	29	forwbranch < 1, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	55	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/TimeZone;, setID, (Ljava/lang/String;)V >
+	1	forwbranch < 91, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/TimeZone;, defaultZone, ()Ljava/util/TimeZone; >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 108 < BootstrapCL, Ljava/util/TimeZone;, getDefaultTimeZone, (Ljava/lang/String;)Ljava/util/TimeZone; >
+	23	forwbranch < 0, 3 > 0.0% taken
+	30	forwbranch < 0, 3 > 0.0% taken
+	37	forwbranch < 0, 3 > 0.0% taken
+	44	forwbranch < 0, 3 > 0.0% taken
+	52	forwbranch < 0, 3 > 0.0% taken
+	57	forwbranch < 0, 3 > 0.0% taken
+	67	backbranch < 2, 1 > 66.666664% taken
+	74	forwbranch < 0, 1 > 0.0% taken
+	109	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	138	backbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	214	forwbranch < 0, 0 > Never Executed
+	227	forwbranch < 0, 0 > Never Executed
+	238	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	289	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	309	forwbranch < 0, 0 > Never Executed
+	319	backbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 0, 0 > Never Executed
+	403	forwbranch < 0, 0 > Never Executed
+	411	forwbranch < 0, 0 > Never Executed
+	418	backbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	435	forwbranch < 0, 0 > Never Executed
+	442	forwbranch < 0, 0 > Never Executed
+	449	forwbranch < 0, 0 > Never Executed
+	483	forwbranch < 0, 0 > Never Executed
+	494	forwbranch < 0, 0 > Never Executed
+	524	forwbranch < 0, 0 > Never Executed
+	537	forwbranch < 0, 0 > Never Executed
+	548	forwbranch < 0, 0 > Never Executed
+	557	forwbranch < 0, 0 > Never Executed
+	565	forwbranch < 0, 0 > Never Executed
+	576	forwbranch < 0, 0 > Never Executed
+	600	forwbranch < 0, 0 > Never Executed
+	611	forwbranch < 0, 0 > Never Executed
+	635	forwbranch < 0, 0 > Never Executed
+	646	backbranch < 0, 0 > Never Executed
+	682	forwbranch < 0, 0 > Never Executed
+	732	forwbranch < 0, 0 > Never Executed
+M 8 < BootstrapCL, Ljava/util/TimeZone$1;, run, ()Ljava/lang/Object; >
+	9	forwbranch < 0, 1 > 0.0% taken
+	18	forwbranch < 0, 1 > 0.0% taken
+	27	forwbranch < 1, 0 > 100.0% taken
+	35	forwbranch < 1, 0 > 100.0% taken
+M 10 < BootstrapCL, Ljava/util/SimpleTimeZone;, getDaysInMonth, (II)I >
+	2	forwbranch < 111, 2 > 98.23009% taken
+	8	forwbranch < 0, 2 > 0.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	36	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Ljava/util/SimpleTimeZone;, checkRule, (III)I >
+	1	forwbranch < 0, 110 > 0.0% taken
+	7	forwbranch < 110, 0 > 100.0% taken
+	29	forwbranch < 105, 5 > 95.454544% taken
+	33	forwbranch < 0, 5 > 0.0% taken
+	39	forwbranch < 5, 0 > 100.0% taken
+	55	forwbranch < 4, 101 > 3.8095238% taken
+	70	forwbranch < 101, 0 > 100.0% taken
+	86	forwbranch < 101, 0 > 100.0% taken
+	102	forwbranch < 0, 4 > 0.0% taken
+	111	forwbranch < 4, 0 > 100.0% taken
+	127	forwbranch < 4, 0 > 100.0% taken
+	141	forwbranch < 4, 0 > 100.0% taken
+M 44 < BootstrapCL, Ljava/util/SimpleTimeZone;, getOffset, (IIIIII)I >
+	11	forwbranch < 0, 3 > 0.0% taken
+	18	forwbranch < 3, 0 > 100.0% taken
+	34	forwbranch < 0, 3 > 0.0% taken
+	41	forwbranch < 3, 0 > 100.0% taken
+	55	forwbranch < 0, 3 > 0.0% taken
+	61	forwbranch < 3, 0 > 100.0% taken
+	95	forwbranch < 3, 0 > 100.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 0, 0 > Never Executed
+	216	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 0 > Never Executed
+	245	forwbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 0 > Never Executed
+	310	forwbranch < 0, 0 > Never Executed
+	324	forwbranch < 0, 0 > Never Executed
+	329	forwbranch < 0, 0 > Never Executed
+	334	forwbranch < 0, 0 > Never Executed
+	352	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/text/DateFormatSymbols;, getZoneStrings, (Ljava/util/ResourceBundle;Ljava/util/Locale;)[[Ljava/lang/String; >
+	56	backbranch < 20, 1 > 95.2381% taken
+	119	forwbranch < 0, 0 > Never Executed
+	229	backbranch < 0, 0 > Never Executed
+	242	backbranch < 0, 0 > Never Executed
+	252	backbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DateFormatSymbols;, formatsForKey, (Ljava/util/ResourceBundle;Ljava/lang/String;)[Ljava/lang/String; >
+	54	backbranch < 8, 2 > 80.0% taken
+M 2 < BootstrapCL, Ljava/util/ServiceLoader;, load, (Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader; >
+	1	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Lgnu/classpath/ServiceFactory;, lookupProviders, (Ljava/lang/Class;Ljava/lang/ClassLoader;Z)Ljava/util/Iterator; >
+	1	forwbranch < 1, 0 > 100.0% taken
+	13	forwbranch < 1, 0 > 100.0% taken
+	64	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/util/ServiceLoader$1;, hasNext, ()Z >
+	9	forwbranch < 1, 0 > 100.0% taken
+	21	forwbranch < 0, 1 > 0.0% taken
+M 18 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, loadNextServiceProvider, ()Ljava/lang/Object; >
+	4	forwbranch < 0, 1 > 0.0% taken
+	15	forwbranch < 0, 1 > 0.0% taken
+	51	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	187	forwbranch < 0, 0 > Never Executed
+	197	forwbranch < 0, 0 > Never Executed
+	240	backbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, hasNext, ()Z >
+	4	forwbranch < 1, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/classpath/ServiceFactory$ServiceIterator;, advanceReader, ()V >
+	4	forwbranch < 1, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 1 > 0.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	214	backbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, <init>, (Ljava/io/File;LEDU/purdue/cs/bloat/reflect/ClassInfoLoader;Ljava/io/DataInputStream;)V >
+	17	forwbranch < 50, 0 > 100.0% taken
+	36	forwbranch < 50, 0 > 100.0% taken
+	55	forwbranch < 50, 0 > 100.0% taken
+	74	forwbranch < 50, 0 > 100.0% taken
+	93	forwbranch < 50, 0 > 100.0% taken
+	112	forwbranch < 50, 0 > 100.0% taken
+	131	forwbranch < 50, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFileLoader;, outputStreamFor, (Ljava/lang/String;)Ljava/io/OutputStream; >
+	27	forwbranch < 0, 10 > 0.0% taken
+	56	forwbranch < 10, 0 > 100.0% taken
+M 42 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFileLoader;, loadClass, (Ljava/lang/String;)LEDU/purdue/cs/bloat/reflect/ClassInfo; >
+	8	forwbranch < 1270, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	54	forwbranch < 1270, 0 > 100.0% taken
+	108	forwbranch < 50, 1506 > 3.2133677% taken
+	131	backbranch < 286, 1220 > 18.990704% taken
+	137	forwbranch < 1220, 0 > 100.0% taken
+	250	forwbranch < 50, 0 > 100.0% taken
+	296	forwbranch < 0, 140 > 0.0% taken
+	326	forwbranch < 140, 0 > 100.0% taken
+	347	forwbranch < 0, 0 > Never Executed
+	365	forwbranch < 0, 0 > Never Executed
+	445	forwbranch < 0, 140 > 0.0% taken
+	455	forwbranch < 0, 140 > 0.0% taken
+	476	forwbranch < 100, 40 > 71.42857% taken
+	527	forwbranch < 90, 50 > 64.28571% taken
+	534	forwbranch < 50, 0 > 100.0% taken
+	643	forwbranch < 50, 0 > 100.0% taken
+	662	forwbranch < 0, 0 > Never Executed
+	678	forwbranch < 0, 0 > Never Executed
+	769	forwbranch < 50, 0 > 100.0% taken
+	790	forwbranch < 50, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, addEdge, (LEDU/purdue/cs/bloat/util/GraphNode;LEDU/purdue/cs/bloat/util/GraphNode;)V >
+	3	forwbranch < 9404, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, buildSpecialTrees, (Ljava/util/Map;Ljava/util/Map;)V >
+	88	forwbranch < 0, 40 > 0.0% taken
+	125	forwbranch < 0, 40 > 0.0% taken
+M 24 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, buildBlocks, (Ljava/util/Map;)V >
+	25	forwbranch < 23, 12136 > 0.18916029% taken
+	39	forwbranch < 10005, 2131 > 82.440674% taken
+	53	forwbranch < 1101, 1030 > 51.665886% taken
+	108	forwbranch < 23, 12136 > 0.18916029% taken
+	124	forwbranch < 10005, 2131 > 82.440674% taken
+	139	forwbranch < 1101, 1030 > 51.665886% taken
+	172	forwbranch < 23, 1007 > 2.2330098% taken
+	179	forwbranch < 1007, 0 > 100.0% taken
+	226	forwbranch < 1007, 23 > 97.76699% taken
+	241	forwbranch < 0, 10005 > 0.0% taken
+	259	forwbranch < 10005, 0 > 100.0% taken
+	294	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, saveLabels, ()V >
+	21	forwbranch < 40, 20310 > 0.19656019% taken
+	35	forwbranch < 16750, 3560 > 82.47169% taken
+	49	forwbranch < 1840, 1720 > 51.685394% taken
+	58	forwbranch < 1680, 40 > 97.674416% taken
+	69	forwbranch < 3520, 40 > 98.8764% taken
+M 20 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, buildLoopTree, ()V >
+	76	forwbranch < 60, 5060 > 1.171875% taken
+	97	forwbranch < 60, 5000 > 1.1857708% taken
+	116	forwbranch < 4790, 210 > 95.8% taken
+	158	forwbranch < 4780, 220 > 95.6% taken
+	176	forwbranch < 210, 10 > 95.454544% taken
+	233	forwbranch < 60, 280 > 17.647058% taken
+	271	forwbranch < 280, 220 > 56.0% taken
+	293	forwbranch < 180, 40 > 81.818184% taken
+	336	forwbranch < 60, 280 > 17.647058% taken
+	371	forwbranch < 60, 220 > 21.428572% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, db, (Ljava/lang/String;)V >
+	3	forwbranch < 0, 433 > 0.0% taken
+	9	forwbranch < 433, 0 > 100.0% taken
+M 20 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, splitPhiBlocks, ()V >
+	21	forwbranch < 40, 0 > 100.0% taken
+	68	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	151	forwbranch < 0, 0 > Never Executed
+	160	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	538	forwbranch < 0, 0 > Never Executed
+	564	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, splitIrreducibleLoops, ()V >
+	31	forwbranch < 40, 1800 > 2.173913% taken
+	75	forwbranch < 1800, 2760 > 39.473682% taken
+	96	forwbranch < 2650, 110 > 96.014496% taken
+	120	forwbranch < 1690, 110 > 93.888885% taken
+	131	forwbranch < 110, 0 > 100.0% taken
+	150	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 40, 0 > 100.0% taken
+M 30 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, splitReducibleLoops, ()V >
+	39	forwbranch < 40, 1800 > 2.173913% taken
+	82	forwbranch < 1800, 2760 > 39.473682% taken
+	104	forwbranch < 2650, 110 > 96.014496% taken
+	128	forwbranch < 1800, 0 > 100.0% taken
+	142	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 40, 0 > 100.0% taken
+	214	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	250	forwbranch < 0, 0 > Never Executed
+	262	forwbranch < 0, 0 > Never Executed
+	408	forwbranch < 0, 0 > Never Executed
+	435	forwbranch < 0, 0 > Never Executed
+	522	forwbranch < 0, 0 > Never Executed
+	541	forwbranch < 0, 0 > Never Executed
+	605	forwbranch < 0, 0 > Never Executed
+M 120 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, peelLoops, (I)V >
+	3	forwbranch < 40, 0 > 100.0% taken
+	140	forwbranch < 40, 150 > 21.052631% taken
+	171	forwbranch < 40, 110 > 26.666666% taken
+	183	forwbranch < 0, 110 > 0.0% taken
+	263	forwbranch < 0, 110 > 0.0% taken
+	288	forwbranch < 0, 110 > 0.0% taken
+	345	forwbranch < 40, 150 > 21.052631% taken
+	404	forwbranch < 90, 60 > 60.0% taken
+	439	forwbranch < 40, 110 > 26.666666% taken
+	532	forwbranch < 110, 0 > 100.0% taken
+	596	forwbranch < 0, 110 > 0.0% taken
+	601	forwbranch < 110, 0 > 100.0% taken
+	613	forwbranch < 0, 0 > Never Executed
+	632	forwbranch < 50, 344 > 12.690355% taken
+	655	forwbranch < 284, 60 > 82.558136% taken
+	669	forwbranch < 60, 50 > 54.545456% taken
+	698	forwbranch < 50, 100 > 33.333332% taken
+	722	forwbranch < 50, 50 > 50.0% taken
+	735	forwbranch < 0, 50 > 0.0% taken
+	746	forwbranch < 0, 50 > 0.0% taken
+	751	forwbranch < 0, 50 > 0.0% taken
+	772	forwbranch < 50, 60 > 45.454544% taken
+	819	forwbranch < 60, 1050 > 5.4054055% taken
+	854	forwbranch < 990, 1712 > 36.639526% taken
+	878	forwbranch < 1652, 60 > 96.49533% taken
+	927	forwbranch < 60, 190 > 24.0% taken
+	968	forwbranch < 60, 1834 > 3.1678987% taken
+	1008	forwbranch < 1834, 2691 > 40.530388% taken
+	1032	forwbranch < 1237, 1454 > 45.96804% taken
+	1064	forwbranch < 0, 50 > 0.0% taken
+	1082	forwbranch < 0, 0 > Never Executed
+	1123	forwbranch < 110, 1694 > 6.097561% taken
+	1141	forwbranch < 1694, 0 > 100.0% taken
+	1159	forwbranch < 0, 0 > Never Executed
+	1211	forwbranch < 594, 1100 > 35.064934% taken
+	1230	forwbranch < 0, 1100 > 0.0% taken
+	1261	forwbranch < 920, 180 > 83.63636% taken
+	1279	forwbranch < 110, 0 > 100.0% taken
+	1332	forwbranch < 110, 220 > 33.333332% taken
+	1354	forwbranch < 110, 110 > 50.0% taken
+	1374	forwbranch < 0, 110 > 0.0% taken
+	1388	forwbranch < 110, 0 > 100.0% taken
+	1438	forwbranch < 110, 9675 > 1.1241696% taken
+	1469	forwbranch < 8575, 1100 > 88.63049% taken
+	1538	forwbranch < 110, 1100 > 9.090909% taken
+	1600	forwbranch < 1100, 0 > 100.0% taken
+	1627	forwbranch < 0, 0 > Never Executed
+	1666	forwbranch < 1100, 1850 > 37.288136% taken
+	1699	forwbranch < 60, 1790 > 3.2432432% taken
+	1704	forwbranch < 160, 1630 > 8.938547% taken
+	1797	forwbranch < 110, 1100 > 9.090909% taken
+	1856	forwbranch < 1100, 1850 > 37.288136% taken
+	1880	forwbranch < 1740, 110 > 94.054054% taken
+	1965	forwbranch < 110, 1960 > 5.3140097% taken
+	2011	forwbranch < 110, 110 > 50.0% taken
+	2044	forwbranch < 0, 110 > 0.0% taken
+	2053	forwbranch < 0, 110 > 0.0% taken
+	2064	forwbranch < 0, 110 > 0.0% taken
+	2080	forwbranch < 0, 110 > 0.0% taken
+	2117	forwbranch < 40, 0 > 100.0% taken
+M 20 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, removeCriticalEdges, ()V >
+	24	forwbranch < 40, 2900 > 1.3605442% taken
+	47	forwbranch < 2900, 0 > 100.0% taken
+	63	forwbranch < 2900, 0 > 100.0% taken
+	80	forwbranch < 660, 2240 > 22.758621% taken
+	91	forwbranch < 620, 40 > 93.93939% taken
+	116	forwbranch < 620, 2310 > 21.16041% taken
+	143	forwbranch < 1140, 1170 > 49.35065% taken
+	188	forwbranch < 40, 1140 > 3.3898306% taken
+	222	forwbranch < 0, 1140 > 0.0% taken
+	228	forwbranch < 1140, 0 > 100.0% taken
+M 62 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, insertConditionalStores, ()V >
+	24	forwbranch < 40, 4040 > 0.98039216% taken
+	49	forwbranch < 3730, 310 > 92.32674% taken
+	71	forwbranch < 310, 0 > 100.0% taken
+	82	forwbranch < 300, 10 > 96.77419% taken
+	101	forwbranch < 280, 20 > 93.333336% taken
+	113	forwbranch < 280, 30 > 90.32258% taken
+	138	forwbranch < 0, 30 > 0.0% taken
+	149	forwbranch < 0, 30 > 0.0% taken
+	157	forwbranch < 20, 10 > 66.666664% taken
+	239	forwbranch < 20, 10 > 66.666664% taken
+	321	forwbranch < 0, 30 > 0.0% taken
+	399	forwbranch < 0, 0 > Never Executed
+	477	forwbranch < 0, 0 > Never Executed
+	485	forwbranch < 0, 0 > Never Executed
+	503	forwbranch < 2810, 920 > 75.33512% taken
+	525	forwbranch < 920, 0 > 100.0% taken
+	536	forwbranch < 380, 540 > 41.304348% taken
+	555	forwbranch < 30, 350 > 7.894737% taken
+	567	forwbranch < 30, 890 > 3.2608695% taken
+	585	forwbranch < 0, 890 > 0.0% taken
+	593	forwbranch < 30, 860 > 3.3707864% taken
+	688	forwbranch < 0, 890 > 0.0% taken
+	720	forwbranch < 0, 890 > 0.0% taken
+	801	forwbranch < 2650, 160 > 94.30605% taken
+	822	forwbranch < 20, 140 > 12.5% taken
+	904	forwbranch < 0, 160 > 0.0% taken
+	947	forwbranch < 160, 580 > 21.621622% taken
+	960	forwbranch < 480, 100 > 82.75862% taken
+	1002	forwbranch < 160, 580 > 21.621622% taken
+	1019	forwbranch < 460, 120 > 79.31035% taken
+	1042	forwbranch < 0, 460 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, insertProtectedRegionStores, ()V >
+	30	forwbranch < 40, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 0, 0 > Never Executed
+M 44 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, setBlockTypes, ()V >
+	46	forwbranch < 60, 5060 > 1.171875% taken
+	134	forwbranch < 5060, 7210 > 41.238792% taken
+	157	forwbranch < 6990, 220 > 96.948685% taken
+	233	forwbranch < 60, 5060 > 1.171875% taken
+	293	forwbranch < 5060, 220 > 95.833336% taken
+	312	forwbranch < 0, 220 > 0.0% taken
+	370	forwbranch < 220, 4840 > 4.347826% taken
+	398	forwbranch < 220, 2940 > 6.962025% taken
+	437	forwbranch < 2940, 4320 > 40.49587% taken
+	486	forwbranch < 4320, 0 > 100.0% taken
+	517	forwbranch < 1370, 2950 > 31.712963% taken
+	524	forwbranch < 230, 2720 > 7.7966104% taken
+	567	forwbranch < 220, 2940 > 6.962025% taken
+	635	forwbranch < 60, 0 > 100.0% taken
+	669	forwbranch < 0, 0 > Never Executed
+	691	forwbranch < 0, 0 > Never Executed
+	709	forwbranch < 0, 0 > Never Executed
+	731	forwbranch < 0, 0 > Never Executed
+	751	forwbranch < 0, 0 > Never Executed
+	784	forwbranch < 60, 0 > 100.0% taken
+	804	forwbranch < 0, 0 > Never Executed
+	822	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, addNode, (Ljava/lang/Object;LEDU/purdue/cs/bloat/util/GraphNode;)V >
+	8	forwbranch < 0, 8230 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, postOrder, ()Ljava/util/List; >
+	4	forwbranch < 60, 1234 > 4.636785% taken
+	18	forwbranch < 1234, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, preOrder, ()Ljava/util/List; >
+	4	forwbranch < 10, 22147 > 0.045132462% taken
+	18	forwbranch < 22147, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, newBlock, (LEDU/purdue/cs/bloat/editor/Label;)LEDU/purdue/cs/bloat/cfg/Block; >
+	19	forwbranch < 4540, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, isJsr, ()Z >
+	7	forwbranch < 241484, 0 > 100.0% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, buildTrees, (LEDU/purdue/cs/bloat/cfg/Block;Ljava/util/Map;)V >
+	68	forwbranch < 40, 0 > 100.0% taken
+	181	forwbranch < 0, 0 > Never Executed
+	374	forwbranch < 0, 0 > Never Executed
+	407	forwbranch < 0, 0 > Never Executed
+	423	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, <init>, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/tree/OperandStack;)V >
+	22	forwbranch < 4500, 0 > 100.0% taken
+	95	forwbranch < 4500, 0 > 100.0% taken
+M 56 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, buildTreeForBlock, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/tree/OperandStack;LEDU/purdue/cs/bloat/cfg/Subroutine;Ljava/util/Map;Ljava/util/Map;)V >
+	4	forwbranch < 1680, 990 > 62.92135% taken
+	69	forwbranch < 0, 18830 > 0.0% taken
+	86	forwbranch < 2080, 16750 > 11.046203% taken
+	104	forwbranch < 0, 16750 > 0.0% taken
+	112	forwbranch < 16030, 720 > 95.70149% taken
+	125	forwbranch < 0, 720 > 0.0% taken
+	145	forwbranch < 0, 720 > 0.0% taken
+	156	forwbranch < 0, 720 > 0.0% taken
+	177	forwbranch < 720, 720 > 50.0% taken
+	255	forwbranch < 16360, 390 > 97.67164% taken
+	274	forwbranch < 16360, 0 > 100.0% taken
+	308	forwbranch < 0, 0 > Never Executed
+	340	forwbranch < 0, 16360 > 0.0% taken
+	348	forwbranch < 16300, 60 > 99.633255% taken
+	375	forwbranch < 16300, 0 > 100.0% taken
+	380	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 0 > Never Executed
+	521	forwbranch < 0, 0 > Never Executed
+	565	forwbranch < 15720, 580 > 96.44172% taken
+	598	forwbranch < 0, 580 > 0.0% taken
+	661	forwbranch < 15000, 720 > 95.419846% taken
+	666	forwbranch < 0, 720 > 0.0% taken
+	730	forwbranch < 0, 720 > 0.0% taken
+	816	forwbranch < 14920, 80 > 99.46667% taken
+	884	forwbranch < 80, 290 > 21.621622% taken
+	968	forwbranch < 0, 2080 > 0.0% taken
+	983	forwbranch < 1840, 240 > 88.46154% taken
+	1016	forwbranch < 0, 240 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, lastStmt, ()LEDU/purdue/cs/bloat/tree/Stmt; >
+	21	forwbranch < 724, 23428 > 2.9976814% taken
+	38	forwbranch < 20028, 3400 > 85.48745% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, isReference, ()Z >
+	10	forwbranch < 26357, 113519 > 18.843119% taken
+	23	forwbranch < 7315, 106204 > 6.4438553% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Expr;, setDef, (LEDU/purdue/cs/bloat/tree/DefExpr;)V >
+	5	forwbranch < 31060, 127614 > 19.574726% taken
+	13	forwbranch < 19717, 11343 > 63.480362% taken
+	28	forwbranch < 31060, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 11343, 19717 > 36.519638% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, prependStmt, (LEDU/purdue/cs/bloat/tree/Stmt;)V >
+	3	forwbranch < 2820, 0 > 100.0% taken
+	57	forwbranch < 0, 5640 > 0.0% taken
+	74	forwbranch < 2820, 2820 > 50.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Assert;, isTrue, (Z)V >
+	1	forwbranch < 736020, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, isIntegral, ()Z >
+	10	forwbranch < 0, 178364 > 0.0% taken
+	23	forwbranch < 0, 178364 > 0.0% taken
+	36	forwbranch < 96290, 82074 > 53.985107% taken
+	49	forwbranch < 1011, 81063 > 1.2318152% taken
+	62	forwbranch < 80240, 823 > 98.98474% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, splitEdge, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/cfg/Block;)V >
+	5	forwbranch < 0, 1600 > 0.0% taken
+	13	forwbranch < 1600, 0 > 100.0% taken
+	37	forwbranch < 1600, 0 > 100.0% taken
+	43	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 1600, 0 > 100.0% taken
+	353	forwbranch < 1600, 0 > 100.0% taken
+	379	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, insertProtStores, (LEDU/purdue/cs/bloat/cfg/Block;Ljava/util/HashSet;LEDU/purdue/cs/bloat/util/ResizeableArrayList;)V >
+	25	forwbranch < 3010, 0 > 100.0% taken
+	37	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 3010, 2984 > 50.216885% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, domChildren, (LEDU/purdue/cs/bloat/cfg/Block;)Ljava/util/Collection; >
+	8	forwbranch < 464454, 20 > 99.9957% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, removeEdge, (LEDU/purdue/cs/bloat/util/GraphNode;LEDU/purdue/cs/bloat/util/GraphNode;)V >
+	77	forwbranch < 24184, 2698 > 89.96355% taken
+	100	forwbranch < 24184, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, newLabel, ()LEDU/purdue/cs/bloat/editor/Label; >
+	4	forwbranch < 2820, 0 > 100.0% taken
+M 74 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/DominatorTree;, buildTree, (LEDU/purdue/cs/bloat/cfg/FlowGraph;Z)V >
+	20	forwbranch < 16, 16 > 50.0% taken
+	47	forwbranch < 0, 32 > 0.0% taken
+	53	forwbranch < 0, 32 > 0.0% taken
+	86	forwbranch < 32, 3962 > 0.8012018% taken
+	108	forwbranch < 32, 3962 > 0.8012018% taken
+	132	forwbranch < 32, 3930 > 0.8076729% taken
+	163	forwbranch < 32, 77 > 29.357798% taken
+	170	forwbranch < 45, 32 > 58.44156% taken
+	203	forwbranch < 77, 9893 > 0.77231693% taken
+	229	forwbranch < 0, 9893 > 0.0% taken
+	235	forwbranch < 0, 9893 > 0.0% taken
+	270	forwbranch < 9816, 77 > 99.22167% taken
+	301	forwbranch < 5886, 3930 > 59.963326% taken
+	337	forwbranch < 9816, 14283 > 40.73198% taken
+	362	forwbranch < 0, 14283 > 0.0% taken
+	421	forwbranch < 9655, 161 > 98.35982% taken
+	440	forwbranch < 161, 305 > 34.549355% taken
+	465	forwbranch < 0, 305 > 0.0% taken
+	523	forwbranch < 4292, 5524 > 43.724533% taken
+	560	forwbranch < 32, 3962 > 0.8012018% taken
+	576	forwbranch < 1981, 1981 > 50.0% taken
+	635	forwbranch < 32, 3962 > 0.8012018% taken
+	661	forwbranch < 0, 3962 > 0.0% taken
+	667	forwbranch < 0, 3962 > 0.0% taken
+	702	forwbranch < 3930, 32 > 99.19233% taken
+	706	forwbranch < 16, 16 > 50.0% taken
+	764	forwbranch < 3930, 736796 > 0.53056055% taken
+	771	forwbranch < 3930, 732866 > 0.5333905% taken
+	781	forwbranch < 703085, 29781 > 95.93636% taken
+	844	forwbranch < 3930, 736796 > 0.53056055% taken
+	854	forwbranch < 732866, 3930 > 99.466606% taken
+	875	forwbranch < 0, 3930 > 0.0% taken
+	933	forwbranch < 0, 3930 > 0.0% taken
+	959	forwbranch < 1965, 1965 > 50.0% taken
+	979	forwbranch < 1965, 1965 > 50.0% taken
+	985	forwbranch < 1965, 0 > 100.0% taken
+	1032	forwbranch < 1965, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/DominanceFrontier;, buildFrontier, (LEDU/purdue/cs/bloat/cfg/FlowGraph;Z)V >
+	1	forwbranch < 90, 90 > 50.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, setHeader, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	8	forwbranch < 8060, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, setBlockType, (I)V >
+	8	forwbranch < 5280, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/util/UnionFind;, union, (II)V >
+	16	forwbranch < 2940, 0 > 100.0% taken
+	29	forwbranch < 2940, 0 > 100.0% taken
+	79	forwbranch < 2720, 220 > 92.517006% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, dominates, (LEDU/purdue/cs/bloat/cfg/Block;)Z >
+	3	forwbranch < 5807, 64269 > 8.286717% taken
+	8	forwbranch < 61784, 2485 > 96.13344% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Assert;, isFalse, (Z)V >
+	1	forwbranch < 4019, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, <init>, (ILjava/lang/Object;)V >
+	30	forwbranch < 0, 21932 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addInstruction, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 0, 12218 > 0.0% taken
+	11	forwbranch < 0, 12218 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, removeEdge, (LEDU/purdue/cs/bloat/util/GraphNode;LEDU/purdue/cs/bloat/util/GraphNode;)V >
+	14	forwbranch < 8961, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, copyBlock, (LEDU/purdue/cs/bloat/cfg/Block;)LEDU/purdue/cs/bloat/cfg/Block; >
+	47	forwbranch < 1100, 4020 > 21.484375% taken
+	67	forwbranch < 2330, 1690 > 57.960197% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/TreeVisitor;, reverse, ()Z >
+	5	forwbranch < 651656, 8976 > 98.641304% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Assert;, isFalse, (ZLjava/lang/String;)V >
+	1	forwbranch < 2020, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, methodParams, (LEDU/purdue/cs/bloat/editor/MethodEditor;)Ljava/util/ArrayList; >
+	14	forwbranch < 30, 10 > 75.0% taken
+	72	forwbranch < 40, 50 > 44.444443% taken
+	80	forwbranch < 0, 50 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, initLocals, (Ljava/util/Collection;)V >
+	12	forwbranch < 30, 10 > 75.0% taken
+	32	forwbranch < 30, 60 > 33.333332% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, firstBlock, ()LEDU/purdue/cs/bloat/editor/Label; >
+	14	forwbranch < 0, 40 > 0.0% taken
+	28	forwbranch < 0, 40 > 0.0% taken
+	40	forwbranch < 0, 40 > 0.0% taken
+M 16 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, addHandlerEdges, (LEDU/purdue/cs/bloat/cfg/Block;Ljava/util/Map;Ljava/util/Map;LEDU/purdue/cs/bloat/cfg/Subroutine;)V >
+	8	forwbranch < 0, 1720 > 0.0% taken
+	42	forwbranch < 1720, 0 > 100.0% taken
+	71	forwbranch < 0, 0 > Never Executed
+	99	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	140	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+M 48 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, isConditionalJump, ()Z >
+	4	switch     < 3744, 1878, 160, 0, 0, 228, 105, 240, 90, 1610, 0, 190, 0, 0, 10012, 0, 0, 872, 0, 49, 0, 0, 0, 0, 244, 4028, 264, 0, 0, 26282, 12891, 177, 1108, 0, 12802, 741, 0, 1081, 0, 2290, 2327, 0, 0, 0, 0, 0, 0, 111519 >
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addInstruction, (LEDU/purdue/cs/bloat/editor/Instruction;LEDU/purdue/cs/bloat/cfg/Subroutine;)V >
+	4	forwbranch < 0, 390 > 0.0% taken
+	13	forwbranch < 0, 390 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, isRet, ()Z >
+	7	forwbranch < 149206, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, isThrow, ()Z >
+	7	forwbranch < 156760, 0 > 100.0% taken
+M 7 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, isReturn, ()Z >
+	4	switch     < 100, 0, 0, 0, 0, 380, 156640 >
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Assert;, isTrue, (ZLjava/lang/String;)V >
+	1	forwbranch < 4583104, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addInstruction, (LEDU/purdue/cs/bloat/editor/Instruction;LEDU/purdue/cs/bloat/cfg/Block;)V >
+	4	forwbranch < 0, 720 > 0.0% taken
+	11	forwbranch < 0, 720 > 0.0% taken
+	42	forwbranch < 0, 720 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, isGoto, ()Z >
+	7	forwbranch < 187685, 10309 > 94.793274% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, isSwitch, ()Z >
+	7	forwbranch < 166781, 810 > 99.51668% taken
+M 9 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addLabel, (LEDU/purdue/cs/bloat/editor/Label;)V >
+	4	forwbranch < 0, 1840 > 0.0% taken
+	14	switch     < 0, 0, 0, 0, 0, 0, 1840 >
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, isStatic, ()Z >
+	12	forwbranch < 100, 360 > 21.73913% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, paramAt, (I)LEDU/purdue/cs/bloat/editor/LocalVariable; >
+	6	forwbranch < 0, 60 > 0.0% taken
+	15	forwbranch < 60, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, indexedParamTypes, ()[LEDU/purdue/cs/bloat/editor/Type; >
+	4	forwbranch < 170, 0 > 100.0% taken
+	32	forwbranch < 170, 320 > 34.69388% taken
+	55	forwbranch < 320, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, addLabel, (LEDU/purdue/cs/bloat/editor/Label;)V >
+	4	forwbranch < 6377, 0 > 100.0% taken
+	22	forwbranch < 6377, 0 > 100.0% taken
+	85	forwbranch < 6377, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, trace, ()Ljava/util/List; >
+	15	forwbranch < 0, 160 > 0.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, idf, (Ljava/util/Collection;Z)Ljava/util/Collection; >
+	8	forwbranch < 413, 10 > 97.63593% taken
+	49	forwbranch < 423, 9436 > 4.290496% taken
+	63	forwbranch < 1707, 7729 > 18.090292% taken
+	99	forwbranch < 9436, 11227 > 45.66617% taken
+	128	forwbranch < 9050, 2177 > 80.609245% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, domFrontier, ()Ljava/util/Collection; >
+	4	forwbranch < 0, 45507 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, pdomFrontier, ()Ljava/util/Collection; >
+	4	forwbranch < 0, 28714 > 0.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, removeBlock, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	111	forwbranch < 639, 0 > 100.0% taken
+	159	forwbranch < 639, 0 > 100.0% taken
+	182	forwbranch < 0, 0 > Never Executed
+	197	forwbranch < 14, 625 > 2.1909232% taken
+	219	forwbranch < 625, 1424 > 30.502684% taken
+	236	forwbranch < 799, 625 > 56.10955% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, setDomParent, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	4	forwbranch < 15047, 7990 > 65.316666% taken
+	30	forwbranch < 12670, 10367 > 54.99848% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, setPdomParent, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	4	forwbranch < 15047, 7990 > 65.316666% taken
+	30	forwbranch < 12670, 10367 > 54.99848% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, removeNode, (Ljava/lang/Object;)V >
+	7	forwbranch < 0, 2936 > 0.0% taken
+	61	forwbranch < 2123, 813 > 72.309265% taken
+	80	forwbranch < 2123, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, preOrderIndex, (LEDU/purdue/cs/bloat/util/GraphNode;)I >
+	4	forwbranch < 0, 243652 > 0.0% taken
+	18	forwbranch < 243652, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, postOrderIndex, (LEDU/purdue/cs/bloat/util/GraphNode;)I >
+	4	forwbranch < 0, 12810 > 0.0% taken
+	18	forwbranch < 12810, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, buildLists, ()V >
+	48	forwbranch < 230, 230 > 50.0% taken
+	119	forwbranch < 230, 21497 > 1.0585907% taken
+	139	forwbranch < 19374, 2123 > 90.12421% taken
+	159	forwbranch < 0, 19374 > 0.0% taken
+	174	forwbranch < 0, 19374 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, number, (LEDU/purdue/cs/bloat/util/GraphNode;Ljava/util/Set;)V >
+	45	forwbranch < 19374, 28094 > 40.814865% taken
+	67	forwbranch < 8950, 19144 > 31.857336% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, isAncestorToDescendent, (LEDU/purdue/cs/bloat/util/GraphNode;LEDU/purdue/cs/bloat/util/GraphNode;)Z >
+	10	forwbranch < 5125, 6405 > 44.449265% taken
+	23	forwbranch < 1865, 4540 > 29.117876% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph;, removeUnreachable, ()V >
+	4	forwbranch < 130, 320 > 28.88889% taken
+	18	forwbranch < 290, 30 > 90.625% taken
+	44	forwbranch < 450, 37897 > 1.1734947% taken
+	72	forwbranch < 35774, 2123 > 94.39797% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, visitChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	9	forwbranch < 0, 1045 > 0.0% taken
+	25	forwbranch < 1045, 98977 > 1.0447701% taken
+	70	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, blockType, (LEDU/purdue/cs/bloat/cfg/Block;)I >
+	8	forwbranch < 640, 20 > 96.969696% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph;, loopDepth, (LEDU/purdue/cs/bloat/cfg/Block;)I >
+	8	forwbranch < 9450, 0 > 100.0% taken
+	20	forwbranch < 0, 9450 > 0.0% taken
+	27	forwbranch < 8600, 850 > 91.005295% taken
+	43	forwbranch < 0, 850 > 0.0% taken
+	83	forwbranch < 0, 8600 > 0.0% taken
+	102	forwbranch < 0, 8600 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassEditor;, <init>, (LEDU/purdue/cs/bloat/editor/EditorContext;LEDU/purdue/cs/bloat/reflect/ClassInfo;)V >
+	106	forwbranch < 1270, 20 > 98.449615% taken
+	140	forwbranch < 1270, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/context/CachingBloatContext;, editMethod, (LEDU/purdue/cs/bloat/reflect/MethodInfo;)LEDU/purdue/cs/bloat/editor/MethodEditor; >
+	15	forwbranch < 40, 80 > 33.333332% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, equals, (Ljava/lang/Object;)Z >
+	1	forwbranch < 0, 416568 > 0.0% taken
+	8	forwbranch < 0, 416568 > 0.0% taken
+	25	forwbranch < 54459, 362109 > 13.073256% taken
+M 18 < SystemAppCL, LEDU/purdue/cs/bloat/context/CachingBloatContext;, release, (LEDU/purdue/cs/bloat/reflect/ClassInfo;)V >
+	15	forwbranch < 10, 31460 > 0.031776294% taken
+	23	forwbranch < 1260, 30200 > 4.005086% taken
+	66	forwbranch < 10, 1260 > 0.78740156% taken
+	73	forwbranch < 1260, 0 > 100.0% taken
+	136	forwbranch < 0, 2510 > 0.0% taken
+	170	forwbranch < 1240, 1270 > 49.40239% taken
+	225	forwbranch < 10, 1260 > 0.78740156% taken
+	242	forwbranch < 1260, 47180 > 2.601156% taken
+	274	forwbranch < 1260, 45410 > 2.6998072% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MemberRef;, toString, ()Ljava/lang/String; >
+	27	forwbranch < 1600, 15620 > 9.291521% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/context/CachingBloatContext;, editClass, (LEDU/purdue/cs/bloat/reflect/ClassInfo;)LEDU/purdue/cs/bloat/editor/ClassEditor; >
+	15	forwbranch < 30200, 1270 > 95.96441% taken
+	69	forwbranch < 1270, 0 > 100.0% taken
+M 68 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, <init>, (LEDU/purdue/cs/bloat/editor/ClassEditor;LEDU/purdue/cs/bloat/reflect/MethodInfo;)V >
+	151	forwbranch < 60, 20 > 75.0% taken
+	212	forwbranch < 60, 20 > 75.0% taken
+	238	forwbranch < 20, 0 > 100.0% taken
+	274	forwbranch < 60, 100 > 37.5% taken
+	305	forwbranch < 80, 120 > 40.0% taken
+	348	forwbranch < 0, 80 > 0.0% taken
+	354	forwbranch < 80, 0 > 100.0% taken
+	394	forwbranch < 0, 80 > 0.0% taken
+	402	forwbranch < 0, 80 > 0.0% taken
+	424	forwbranch < 80, 590 > 11.940298% taken
+	437	forwbranch < 480, 110 > 81.355934% taken
+	477	forwbranch < 80, 590 > 11.940298% taken
+	569	forwbranch < 590, 530800 > 0.111029565% taken
+	577	forwbranch < 210, 530590 > 0.039562926% taken
+	604	forwbranch < 530, 60 > 89.830505% taken
+	620	forwbranch < 0, 60 > 0.0% taken
+	660	forwbranch < 80, 6380 > 1.2383901% taken
+	678	forwbranch < 370, 6010 > 5.799373% taken
+	756	forwbranch < 80, 36745 > 0.21724372% taken
+	784	forwbranch < 33504, 3241 > 91.17975% taken
+	798	forwbranch < 3241, 3831 > 45.82862% taken
+	812	forwbranch < 0, 3831 > 0.0% taken
+	874	forwbranch < 80, 0 > 100.0% taken
+	1011	forwbranch < 80, 36745 > 0.21724372% taken
+	1048	forwbranch < 29488, 7257 > 80.250374% taken
+	1079	forwbranch < 3071, 33674 > 8.357599% taken
+	1087	forwbranch < 120, 33554 > 0.35635802% taken
+	1095	forwbranch < 0, 33554 > 0.0% taken
+	1103	forwbranch < 0, 33554 > 0.0% taken
+	1111	forwbranch < 0, 33554 > 0.0% taken
+	1119	forwbranch < 33384, 170 > 99.493355% taken
+	1130	forwbranch < 80, 3281 > 2.380244% taken
+	1207	forwbranch < 80, 0 > 100.0% taken
+	1253	forwbranch < 80, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/context/CachingBloatContext;, editField, (LEDU/purdue/cs/bloat/reflect/FieldInfo;)LEDU/purdue/cs/bloat/editor/FieldEditor; >
+	37	forwbranch < 0, 11703 > 0.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/context/CachingBloatContext;, release, (LEDU/purdue/cs/bloat/reflect/FieldInfo;)V >
+	37	forwbranch < 27903, 17964 > 60.834587% taken
+	45	forwbranch < 17964, 0 > 100.0% taken
+	88	forwbranch < 27903, 17964 > 60.834587% taken
+	95	forwbranch < 17964, 0 > 100.0% taken
+	144	forwbranch < 44831, 17032 > 72.46819% taken
+	178	forwbranch < 15996, 1036 > 93.917336% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/context/CachingBloatContext;, release, (LEDU/purdue/cs/bloat/reflect/MethodInfo;)V >
+	15	forwbranch < 13545, 0 > 100.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 13527, 18 > 99.86711% taken
+	73	forwbranch < 18, 0 > 100.0% taken
+	122	forwbranch < 13545, 0 > 100.0% taken
+	156	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/context/PersistentBloatContext;, commit, (LEDU/purdue/cs/bloat/reflect/ClassInfo;)V >
+	38	forwbranch < 10, 0 > 100.0% taken
+	62	forwbranch < 10, 40 > 20.0% taken
+	94	forwbranch < 10, 110 > 8.333333% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, <init>, (LEDU/purdue/cs/bloat/editor/EditorContext;Ljava/util/Collection;Z)V >
+	100	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/context/PersistentBloatContext;, loadClass, (Ljava/lang/String;)LEDU/purdue/cs/bloat/reflect/ClassInfo; >
+	27	forwbranch < 10, 1270 > 0.78125% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/context/PersistentBloatContext;, editClass, (Ljava/lang/String;)LEDU/purdue/cs/bloat/editor/ClassEditor; >
+	20	forwbranch < 490, 1260 > 28.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, getType, (Ljava/lang/String;)LEDU/purdue/cs/bloat/editor/Type; >
+	14	forwbranch < 37833, 67 > 99.82322% taken
+M 64 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, commit, ()V >
+	3	forwbranch < 80, 0 > 100.0% taken
+	100	forwbranch < 80, 0 > 100.0% taken
+	181	forwbranch < 0, 80 > 0.0% taken
+	188	forwbranch < 80, 0 > 100.0% taken
+	224	forwbranch < 80, 50144 > 0.1592864% taken
+	241	forwbranch < 39990, 10154 > 79.75032% taken
+	274	forwbranch < 27902, 12088 > 69.772446% taken
+	298	forwbranch < 27642, 260 > 99.06817% taken
+	316	forwbranch < 27642, 12348 > 69.122284% taken
+	324	forwbranch < 12348, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	359	forwbranch < 0, 0 > Never Executed
+	385	forwbranch < 0, 0 > Never Executed
+	434	forwbranch < 0, 0 > Never Executed
+	543	forwbranch < 80, 0 > 100.0% taken
+	568	forwbranch < 0, 0 > Never Executed
+	574	forwbranch < 0, 0 > Never Executed
+	623	forwbranch < 0, 0 > Never Executed
+	676	forwbranch < 80, 0 > 100.0% taken
+	694	forwbranch < 0, 0 > Never Executed
+	711	forwbranch < 0, 0 > Never Executed
+	728	forwbranch < 0, 0 > Never Executed
+	753	forwbranch < 0, 0 > Never Executed
+	873	forwbranch < 0, 0 > Never Executed
+	1061	forwbranch < 0, 80 > 0.0% taken
+	1069	forwbranch < 0, 80 > 0.0% taken
+	1094	forwbranch < 80, 0 > 100.0% taken
+	1138	forwbranch < 0, 0 > Never Executed
+	1245	forwbranch < 80, 6380 > 1.2383901% taken
+	1352	forwbranch < 80, 0 > 100.0% taken
+	1395	forwbranch < 0, 0 > Never Executed
+	1484	forwbranch < 80, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, setDirty, (Z)V >
+	13	forwbranch < 37443, 0 > 100.0% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/editor/FieldEditor;, commit, ()V >
+	4	forwbranch < 110, 0 > 100.0% taken
+	91	forwbranch < 30, 80 > 27.272728% taken
+	101	forwbranch < 80, 0 > 100.0% taken
+	132	forwbranch < 80, 0 > 100.0% taken
+	163	forwbranch < 80, 0 > 100.0% taken
+	195	forwbranch < 0, 80 > 0.0% taken
+	226	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/FieldEditor;, setDirty, (Z)V >
+	4	forwbranch < 110, 0 > 100.0% taken
+	26	forwbranch < 110, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, isPrimitive, ()Z >
+	4	forwbranch < 14010, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	18	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/context/BloatContext;, ignoreClass, (LEDU/purdue/cs/bloat/editor/Type;)Z >
+	10	forwbranch < 10, 0 > 100.0% taken
+	19	forwbranch < 10, 0 > 100.0% taken
+	33	forwbranch < 10, 0 > 100.0% taken
+	40	forwbranch < 0, 0 > Never Executed
+	64	forwbranch < 10, 0 > 100.0% taken
+	94	forwbranch < 10, 0 > 100.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/context/BloatContext;, db, (Ljava/lang/String;)V >
+	3	forwbranch < 73173, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/context/PersistentBloatContext;, addClasses, (Ljava/util/Collection;)V >
+	13	forwbranch < 10, 10 > 50.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/context/CachingBloatContext;, editField, (LEDU/purdue/cs/bloat/editor/MemberRef;)LEDU/purdue/cs/bloat/editor/FieldEditor; >
+	15	forwbranch < 0, 1620 > 0.0% taken
+	60	forwbranch < 0, 28049 > 0.0% taken
+	84	forwbranch < 26429, 1620 > 94.224396% taken
+	97	forwbranch < 0, 1620 > 0.0% taken
+M 60 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, addClass, (Ljava/lang/String;)V >
+	18	forwbranch < 50, 1310 > 3.6764705% taken
+	32	forwbranch < 50, 0 > 100.0% taken
+	91	forwbranch < 50, 50 > 50.0% taken
+	126	forwbranch < 50, 0 > 100.0% taken
+	150	forwbranch < 0, 50 > 0.0% taken
+	195	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 10, 40 > 20.0% taken
+	252	forwbranch < 30, 10 > 75.0% taken
+	258	forwbranch < 0, 10 > 0.0% taken
+	274	forwbranch < 40, 0 > 100.0% taken
+	316	forwbranch < 0, 40 > 0.0% taken
+	339	forwbranch < 10, 0 > 100.0% taken
+	345	forwbranch < 0, 0 > Never Executed
+	380	forwbranch < 40, 10 > 80.0% taken
+	391	forwbranch < 10, 0 > 100.0% taken
+	411	forwbranch < 0, 0 > Never Executed
+	462	forwbranch < 30, 10 > 75.0% taken
+	474	forwbranch < 0, 10 > 0.0% taken
+	506	forwbranch < 40, 10 > 80.0% taken
+	526	forwbranch < 0, 10 > 0.0% taken
+	574	forwbranch < 10, 40 > 20.0% taken
+	597	forwbranch < 50, 10 > 83.333336% taken
+	622	forwbranch < 0, 50 > 0.0% taken
+	653	forwbranch < 0, 0 > Never Executed
+	720	forwbranch < 0, 0 > Never Executed
+	789	forwbranch < 0, 0 > Never Executed
+	807	forwbranch < 0, 0 > Never Executed
+	814	forwbranch < 0, 0 > Never Executed
+	827	forwbranch < 0, 0 > Never Executed
+	858	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, getExtendsNode, (LEDU/purdue/cs/bloat/editor/Type;)LEDU/purdue/cs/bloat/editor/ClassHierarchy$TypeNode; >
+	10	forwbranch < 30, 60 > 33.333332% taken
+	17	forwbranch < 0, 60 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, getImplementsNode, (LEDU/purdue/cs/bloat/editor/Type;)LEDU/purdue/cs/bloat/editor/ClassHierarchy$TypeNode; >
+	10	forwbranch < 0, 20 > 0.0% taken
+	17	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, isArray, ()Z >
+	10	forwbranch < 50, 3312 > 1.48721% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, classDescriptor, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 4110, 0 > 100.0% taken
+	37	forwbranch < 4110, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, db, (Ljava/lang/String;)V >
+	3	forwbranch < 50, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassEditor;, isInterface, ()Z >
+	13	forwbranch < 70, 20 > 77.77778% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, addType, (LEDU/purdue/cs/bloat/editor/Type;)V >
+	4	forwbranch < 50, 0 > 100.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	48	forwbranch < 50, 0 > 100.0% taken
+	64	forwbranch < 50, 0 > 100.0% taken
+	78	forwbranch < 0, 50 > 0.0% taken
+	92	forwbranch < 0, 0 > Never Executed
+M 27 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ConstantPool;, constantAt, (I)Ljava/lang/Object; >
+	1	forwbranch < 15121, 1582 > 90.52865% taken
+	16	forwbranch < 8710, 6411 > 57.60201% taken
+	34	forwbranch < 8710, 0 > 100.0% taken
+	51	forwbranch < 8710, 0 > 100.0% taken
+	60	switch     < 434, 29, 21, 75, 14, 90, 8047 >
+	142	forwbranch < 0, 434 > 0.0% taken
+	237	forwbranch < 0, 29 > 0.0% taken
+	319	forwbranch < 0, 110 > 0.0% taken
+	359	forwbranch < 0, 110 > 0.0% taken
+	471	forwbranch < 0, 90 > 0.0% taken
+	510	forwbranch < 0, 90 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ConstantPool;, constantTag, (I)I >
+	2	forwbranch < 0, 5020 > 0.0% taken
+	13	forwbranch < 0, 5020 > 0.0% taken
+	29	forwbranch < 0, 5020 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, isMethod, ()Z >
+	4	forwbranch < 1650, 15660 > 9.532063% taken
+M 38 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, intersectType, (LEDU/purdue/cs/bloat/editor/Type;LEDU/purdue/cs/bloat/editor/Type;)LEDU/purdue/cs/bloat/editor/Type; >
+	4	forwbranch < 0, 803 > 0.0% taken
+	11	forwbranch < 0, 803 > 0.0% taken
+	55	forwbranch < 683, 120 > 85.05604% taken
+	64	forwbranch < 0, 683 > 0.0% taken
+	71	forwbranch < 683, 0 > 100.0% taken
+	85	forwbranch < 683, 0 > 100.0% taken
+	97	forwbranch < 683, 0 > 100.0% taken
+	106	forwbranch < 0, 683 > 0.0% taken
+	113	forwbranch < 0, 683 > 0.0% taken
+	123	forwbranch < 683, 0 > 100.0% taken
+	133	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	172	forwbranch < 0, 683 > 0.0% taken
+	182	forwbranch < 663, 20 > 97.07174% taken
+	201	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	236	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+M 50 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, unionType, (LEDU/purdue/cs/bloat/editor/Type;LEDU/purdue/cs/bloat/editor/Type;)LEDU/purdue/cs/bloat/editor/Type; >
+	5	forwbranch < 1419, 47291 > 2.9131596% taken
+	17	forwbranch < 0, 1419 > 0.0% taken
+	27	forwbranch < 1419, 0 > 100.0% taken
+	38	forwbranch < 41, 1378 > 2.8893588% taken
+	47	forwbranch < 0, 41 > 0.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	76	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 0 > Never Executed
+	103	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	182	forwbranch < 0, 0 > Never Executed
+	189	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	237	forwbranch < 0, 0 > Never Executed
+	247	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	295	forwbranch < 0, 0 > Never Executed
+	323	forwbranch < 0, 0 > Never Executed
+	334	forwbranch < 0, 0 > Never Executed
+	366	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, typeToSet, (LEDU/purdue/cs/bloat/editor/Type;)Ljava/util/BitSet; >
+	17	forwbranch < 4101, 45271 > 8.306328% taken
+	35	forwbranch < 2696, 1405 > 65.74007% taken
+	53	forwbranch < 2696, 0 > 100.0% taken
+	71	forwbranch < 2696, 0 > 100.0% taken
+	89	forwbranch < 2696, 0 > 100.0% taken
+	106	forwbranch < 2696, 0 > 100.0% taken
+	123	forwbranch < 0, 2696 > 0.0% taken
+	147	forwbranch < 49372, 418451 > 10.553564% taken
+M 40 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassHierarchy;, setToType, (Ljava/util/BitSet;)LEDU/purdue/cs/bloat/editor/Type; >
+	6	forwbranch < 3869, 39731 > 8.873854% taken
+	19	forwbranch < 2580, 1289 > 66.6839% taken
+	27	forwbranch < 0, 1289 > 0.0% taken
+	35	forwbranch < 0, 1289 > 0.0% taken
+	43	forwbranch < 1289, 0 > 100.0% taken
+	60	forwbranch < 2580, 0 > 100.0% taken
+	68	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	88	forwbranch < 0, 0 > Never Executed
+	104	forwbranch < 2580, 0 > 100.0% taken
+	112	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	136	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 2580 > 0.0% taken
+	160	forwbranch < 2580, 0 > 100.0% taken
+	172	forwbranch < 2580, 0 > 100.0% taken
+	184	forwbranch < 2580, 0 > 100.0% taken
+	200	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/NameAndType;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 331 > 0.0% taken
+	21	forwbranch < 11, 320 > 3.323263% taken
+	38	forwbranch < 0, 320 > 0.0% taken
+M 32 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, <init>, (Ljava/lang/String;)V >
+	40	forwbranch < 38, 29 > 56.71642% taken
+	55	forwbranch < 67, 1717 > 3.7556055% taken
+	60	switch     < 133, 1584, 0 >
+	94	switch     < 29, 0, 4, 0, 0, 13, 0, 65, 0, 11, 5, 6, 0 >
+	293	forwbranch < 29, 0 > 100.0% taken
+	400	forwbranch < 1519, 65 > 95.89646% taken
+	423	forwbranch < 38, 29 > 56.71642% taken
+	466	forwbranch < 29, 31 > 48.333332% taken
+	482	forwbranch < 0, 31 > 0.0% taken
+	511	forwbranch < 38, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, elementType, (I)LEDU/purdue/cs/bloat/editor/Type; >
+	4	forwbranch < 2389, 2389 > 50.0% taken
+	17	forwbranch < 2389, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, isWide, ()Z >
+	10	forwbranch < 0, 78513 > 0.0% taken
+	23	forwbranch < 78513, 0 > 100.0% taken
+M 29 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, getType, (C)LEDU/purdue/cs/bloat/editor/Type; >
+	3	switch     < 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0 >
+	189	forwbranch < 0, 10 > 0.0% taken
+M 11 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, getType, (I)LEDU/purdue/cs/bloat/editor/Type; >
+	3	switch     < 0, 80, 0, 0, 0, 0, 60, 0, 0 >
+	137	forwbranch < 140, 0 > 100.0% taken
+M 28 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, typeCode, ()I >
+	8	forwbranch < 0, 360 > 0.0% taken
+	19	switch     < 0, 190, 0, 0, 0, 0, 0, 170, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, shortName, ()Ljava/lang/String; >
+	4	forwbranch < 36639, 50133 > 42.22445% taken
+	14	forwbranch < 0, 36639 > 0.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, simple, ()LEDU/purdue/cs/bloat/editor/Type; >
+	4	forwbranch < 39920, 11278 > 77.971794% taken
+	15	forwbranch < 1204, 38716 > 3.016032% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, isAddress, ()Z >
+	10	forwbranch < 12917, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, stackHeight, ()I >
+	4	forwbranch < 55759, 2780 > 95.25103% taken
+	13	forwbranch < 55759, 0 > 100.0% taken
+	22	forwbranch < 47439, 8320 > 85.07864% taken
+	35	forwbranch < 8320, 7020 > 54.23729% taken
+	47	forwbranch < 7020, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Type;, toString, ()Ljava/lang/String; >
+	3	forwbranch < 164720, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$2;, hasNext, ()Z >
+	17	forwbranch < 244783, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$2;, next, ()Ljava/lang/Object; >
+	17	forwbranch < 1257240, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$2;, remove, ()V >
+	17	forwbranch < 2123, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Assert;, isNotNull, (Ljava/lang/Object;Ljava/lang/String;)V >
+	1	forwbranch < 4076, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, readHeader, (Ljava/io/DataInputStream;)V >
+	8	forwbranch < 50, 0 > 100.0% taken
+M 5 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, readConstantPool, (Ljava/io/DataInputStream;)V >
+	32	forwbranch < 50, 22940 > 0.21748586% taken
+	66	switch     < 0, 0, 22940 >
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, readClassInfo, (Ljava/io/DataInputStream;)V >
+	34	forwbranch < 50, 10 > 83.333336% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, readFields, (Ljava/io/DataInputStream;)V >
+	17	forwbranch < 50, 4170 > 1.1848341% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, readMethods, (Ljava/io/DataInputStream;)V >
+	17	forwbranch < 50, 860 > 5.4945054% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, readAttributes, (Ljava/io/DataInputStream;)V >
+	17	forwbranch < 50, 70 > 41.666668% taken
+M 5 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, writeConstantPool, (Ljava/io/DataOutputStream;)V >
+	25	forwbranch < 10, 3320 > 0.3003003% taken
+	62	switch     < 0, 0, 3320 >
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, writeClassInfo, (Ljava/io/DataOutputStream;)V >
+	33	forwbranch < 10, 10 > 50.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, writeFields, (Ljava/io/DataOutputStream;Ljava/util/Set;)V >
+	17	forwbranch < 10, 110 > 8.333333% taken
+	21	forwbranch < 110, 0 > 100.0% taken
+	36	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, writeMethods, (Ljava/io/DataOutputStream;Ljava/util/Set;)V >
+	1	forwbranch < 10, 0 > 100.0% taken
+	20	forwbranch < 10, 0 > 100.0% taken
+	74	forwbranch < 10, 40 > 20.0% taken
+	78	forwbranch < 40, 0 > 100.0% taken
+	93	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, writeAttributes, (Ljava/io/DataOutputStream;)V >
+	17	forwbranch < 10, 10 > 50.0% taken
+M 13 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, writeConstant, (Ljava/io/DataOutputStream;LEDU/purdue/cs/bloat/reflect/Constant;)V >
+	17	switch     < 1760, 0, 100, 0, 0, 0, 230, 190, 110, 390, 70, 470, 0 >
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Field;, write, (Ljava/io/DataOutputStream;)V >
+	41	forwbranch < 110, 80 > 57.894737% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, write, (Ljava/io/DataOutputStream;)V >
+	3	forwbranch < 40, 0 > 100.0% taken
+	103	forwbranch < 40, 40 > 50.0% taken
+	109	forwbranch < 40, 0 > 100.0% taken
+M 13 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, readConstant, (Ljava/io/DataInputStream;)LEDU/purdue/cs/bloat/reflect/Constant; >
+	6	switch     < 9840, 0, 1944, 0, 0, 0, 696, 2568, 424, 1264, 104, 1512, 0 >
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/file/Field;, <init>, (Ljava/io/DataInputStream;LEDU/purdue/cs/bloat/reflect/ClassInfo;)V >
+	52	forwbranch < 3753, 3456 > 52.059925% taken
+	80	forwbranch < 0, 3456 > 0.0% taken
+	93	forwbranch < 9, 3447 > 0.26041666% taken
+	130	forwbranch < 3447, 9 > 99.739586% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, <init>, (Ljava/io/DataInputStream;LEDU/purdue/cs/bloat/reflect/ClassInfo;)V >
+	52	forwbranch < 860, 1000 > 46.23656% taken
+	80	forwbranch < 0, 1000 > 0.0% taken
+	93	forwbranch < 140, 860 > 14.0% taken
+	137	forwbranch < 60, 80 > 42.857143% taken
+	175	forwbranch < 940, 60 > 94.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/GenericAttribute;, <init>, (Ljava/io/DataInputStream;II)V >
+	19	forwbranch < 140, 130 > 51.851852% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/ClassFile;, setConstants, ([LEDU/purdue/cs/bloat/reflect/Constant;)V >
+	18	forwbranch < 10, 3330 > 0.2994012% taken
+M 13 < SystemAppCL, LEDU/purdue/cs/bloat/reflect/Constant;, hashCode, ()I >
+	4	switch     < 276294, 0, 25468, 0, 0, 0, 43520, 80536, 90253, 134398, 8831, 62900, 0 >
+M 21 < SystemAppCL, LEDU/purdue/cs/bloat/reflect/Constant;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 658990, 0 > 100.0% taken
+	22	forwbranch < 429270, 229720 > 65.140594% taken
+	31	switch     < 100010, 0, 290, 0, 0, 0, 12150, 2340, 9980, 33320, 590, 270590, 0 >
+	122	forwbranch < 296160, 18320 > 94.17451% taken
+	143	forwbranch < 920, 17400 > 5.021834% taken
+M 23 < SystemAppCL, LEDU/purdue/cs/bloat/reflect/Constant;, toString, ()Ljava/lang/String; >
+	4	switch     < 0, 0, 0, 0, 0, 0, 5500, 380, 330, 1170, 210, 1410, 0 >
+	247	forwbranch < 0, 0 > Never Executed
+	262	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	312	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Field;, constantValue, ()I >
+	4	forwbranch < 10300, 19320 > 34.7738% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Field;, setConstantValue, (I)V >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 24 < SystemAppCL, LEDU/purdue/cs/bloat/file/Field;, toString, ()Ljava/lang/String; >
+	29	forwbranch < 6765, 71863 > 8.603806% taken
+	58	forwbranch < 73927, 4701 > 94.02122% taken
+	87	forwbranch < 78628, 0 > 100.0% taken
+	117	forwbranch < 2064, 76564 > 2.625019% taken
+	147	forwbranch < 5815, 72813 > 7.395584% taken
+	177	forwbranch < 78628, 0 > 100.0% taken
+	207	forwbranch < 78628, 0 > 100.0% taken
+	238	forwbranch < 78628, 0 > 100.0% taken
+	269	forwbranch < 78628, 0 > 100.0% taken
+	300	forwbranch < 78628, 0 > 100.0% taken
+	331	forwbranch < 78628, 0 > 100.0% taken
+	378	forwbranch < 33036, 45592 > 42.015568% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/file/Code;, <init>, (LEDU/purdue/cs/bloat/reflect/ClassInfo;Ljava/io/DataInputStream;II)V >
+	49	forwbranch < 860, 860 > 50.0% taken
+	97	forwbranch < 860, 10 > 98.85058% taken
+	140	forwbranch < 860, 1280 > 40.186916% taken
+	168	forwbranch < 0, 1280 > 0.0% taken
+	181	forwbranch < 420, 860 > 32.8125% taken
+	224	forwbranch < 0, 420 > 0.0% taken
+	261	forwbranch < 1280, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Exceptions;, <init>, (LEDU/purdue/cs/bloat/reflect/ClassInfo;Ljava/io/DataInputStream;II)V >
+	33	forwbranch < 80, 130 > 38.095238% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/file/Code;, setLineNumbers, ([LEDU/purdue/cs/bloat/reflect/LineNumberDebugInfo;)V >
+	1	forwbranch < 80, 0 > 100.0% taken
+	12	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 80 > 0.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/file/Code;, setLocals, ([LEDU/purdue/cs/bloat/reflect/LocalDebugInfo;)V >
+	1	forwbranch < 80, 0 > 100.0% taken
+	12	forwbranch < 0, 0 > Never Executed
+	25	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 20, 60 > 25.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Code;, lineNumbers, ()[LEDU/purdue/cs/bloat/reflect/LineNumberDebugInfo; >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Code;, locals, ()[LEDU/purdue/cs/bloat/reflect/LocalDebugInfo; >
+	4	forwbranch < 20, 60 > 25.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, maxStack, ()I >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, setMaxStack, (I)V >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, maxLocals, ()I >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, setMaxLocals, (I)V >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, code, ()[B >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, setCode, ([B)V >
+	4	forwbranch < 0, 80 > 0.0% taken
+	18	forwbranch < 80, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, setLineNumbers, ([LEDU/purdue/cs/bloat/reflect/LineNumberDebugInfo;)V >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, setLocals, ([LEDU/purdue/cs/bloat/reflect/LocalDebugInfo;)V >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, lineNumbers, ()[LEDU/purdue/cs/bloat/reflect/LineNumberDebugInfo; >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, locals, ()[LEDU/purdue/cs/bloat/reflect/LocalDebugInfo; >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, exceptionHandlers, ()[LEDU/purdue/cs/bloat/reflect/Catch; >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Method;, setExceptionHandlers, ([LEDU/purdue/cs/bloat/reflect/Catch;)V >
+	4	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/LineNumberTable;, <init>, (Ljava/io/DataInputStream;II)V >
+	31	forwbranch < 860, 7460 > 10.336538% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/LocalVariableTable;, <init>, (Ljava/io/DataInputStream;II)V >
+	31	forwbranch < 420, 1480 > 22.105263% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/file/Code;, writeData, (Ljava/io/DataOutputStream;)V >
+	56	forwbranch < 40, 0 > 100.0% taken
+	93	forwbranch < 40, 70 > 36.363636% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/Code;, length, ()I >
+	30	forwbranch < 40, 70 > 36.363636% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/LineNumberTable;, writeData, (Ljava/io/DataOutputStream;)V >
+	17	forwbranch < 40, 3190 > 1.2383901% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/file/LocalVariableTable;, writeData, (Ljava/io/DataOutputStream;)V >
+	17	forwbranch < 30, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ConstantPool;, <init>, ([LEDU/purdue/cs/bloat/reflect/Constant;)V >
+	46	forwbranch < 70, 29068 > 0.24023612% taken
+	72	forwbranch < 70, 28998 > 0.24081464% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ClassEditor;, commitOnly, (Ljava/util/Set;Ljava/util/Set;)V >
+	59	forwbranch < 10, 10 > 50.0% taken
+M 21 < SystemAppCL, LEDU/purdue/cs/bloat/editor/ConstantPool;, addConstant, (ILjava/lang/Object;)I >
+	1	forwbranch < 60660, 0 > 100.0% taken
+	7	switch     < 30390, 0, 260, 0, 0, 0, 12150, 460, 760, 7720, 220, 8700, 0 >
+	395	forwbranch < 60660, 0 > 100.0% taken
+	447	forwbranch < 0, 0 > Never Executed
+	453	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/ResizeableArrayList;, ensureSize, (I)V >
+	10	forwbranch < 95928, 38229 > 71.50428% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$EdgeSet;, size, ()I >
+	11	forwbranch < 47770, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$EdgeSet;, add, (Ljava/lang/Object;)Z >
+	11	forwbranch < 194509, 0 > 100.0% taken
+	68	forwbranch < 129406, 65103 > 66.52957% taken
+	95	forwbranch < 1265, 63838 > 1.9430748% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$EdgeSet;, remove, (Ljava/lang/Object;)Z >
+	11	forwbranch < 3214, 0 > 100.0% taken
+	37	forwbranch < 0, 3214 > 0.0% taken
+	64	forwbranch < 0, 3214 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$EdgeSet;, contains, (Ljava/lang/Object;)Z >
+	11	forwbranch < 100693, 0 > 100.0% taken
+	57	forwbranch < 0, 100693 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$EdgeSet;, clear, ()V >
+	11	forwbranch < 5872, 0 > 100.0% taken
+	38	forwbranch < 5872, 26325 > 18.237724% taken
+	62	forwbranch < 12583, 13742 > 47.79867% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$EdgeSet;, iterator, ()Ljava/util/Iterator; >
+	11	forwbranch < 51076, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, addLineNumberEntry, (LEDU/purdue/cs/bloat/editor/Label;I)V >
+	4	forwbranch < 6380, 0 > 100.0% taken
+M 60 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, munchCode, ([BI[[I[[I)I >
+	20	switch     < 740, 410, 30, 0, 0, 50, 20, 40, 20, 320, 0, 30, 0, 0, 1411, 0, 0, 50, 120, 20, 0, 0, 0, 0, 100, 780, 60, 0, 0, 4970, 2360, 40, 190, 0, 2340, 140, 20, 220, 0, 430, 500, 0, 0, 0, 0, 0, 0, 0, 0, 21334 >
+	353	forwbranch < 50, 70 > 41.666668% taken
+	521	forwbranch < 50, 170 > 22.727272% taken
+	579	forwbranch < 120, 210 > 36.363636% taken
+	695	forwbranch < 120, 420 > 22.222221% taken
+	792	forwbranch < 0, 0 > Never Executed
+M 317 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, <init>, ([BI[I[I[LEDU/purdue/cs/bloat/editor/LocalVariable;LEDU/purdue/cs/bloat/editor/ConstantPool;)V >
+	19	switch     < 60, 50, 1055, 630, 200, 90, 40, 100, 0, 0, 0, 0, 0, 0, 0, 1400, 470, 570, 0, 0, 1313, 0, 0, 0, 3150, 80, 60, 80, 104, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 350, 1810, 310, 510, 170, 0, 0, 0, 60, 0, 30, 0, 1083, 0, 0, 0, 890, 20, 80, 490, 204, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 20, 70, 80, 0, 0, 0, 140, 0, 170, 0, 1800, 0, 2650, 0, 0, 0, 0, 0, 0, 135, 0, 0, 0, 60, 0, 0, 0, 20, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 0, 0, 0, 40, 0, 90, 0, 30, 0, 0, 0, 270, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 170, 0, 0, 0, 0, 0, 0, 740, 410, 30, 0, 0, 50, 20, 40, 20, 320, 0, 30, 0, 0, 1411, 0, 0, 50, 120, 20, 0, 0, 0, 0, 100, 780, 60, 0, 0, 4970, 2360, 40, 190, 0, 2340, 140, 20, 220, 0, 430, 500, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1321	forwbranch < 2343, 2120 > 52.498318% taken
+	1329	forwbranch < 20, 2100 > 0.9433962% taken
+	1360	forwbranch < 260, 170 > 60.465115% taken
+	1367	forwbranch < 0, 170 > 0.0% taken
+	1396	forwbranch < 1020, 850 > 54.545456% taken
+	1403	forwbranch < 0, 850 > 0.0% taken
+	1432	forwbranch < 240, 150 > 61.53846% taken
+	1439	forwbranch < 0, 150 > 0.0% taken
+	1468	forwbranch < 424, 190 > 69.055374% taken
+	1475	forwbranch < 0, 190 > 0.0% taken
+	1515	forwbranch < 1293, 680 > 65.53472% taken
+	1523	forwbranch < 500, 180 > 73.52941% taken
+	1554	forwbranch < 20, 0 > 100.0% taken
+	1561	forwbranch < 0, 0 > Never Executed
+	1590	forwbranch < 120, 20 > 85.71429% taken
+	1597	forwbranch < 10, 10 > 50.0% taken
+	1626	forwbranch < 140, 370 > 27.450981% taken
+	1633	forwbranch < 10, 360 > 2.7027028% taken
+	1662	forwbranch < 184, 90 > 67.15328% taken
+	1669	forwbranch < 10, 80 > 11.111111% taken
+	1720	forwbranch < 130, 140 > 48.148148% taken
+	1728	forwbranch < 0, 140 > 0.0% taken
+	1762	forwbranch < 0, 1660 > 0.0% taken
+	1817	forwbranch < 0, 1411 > 0.0% taken
+	1885	forwbranch < 0, 0 > Never Executed
+	1893	forwbranch < 0, 0 > Never Executed
+	1949	forwbranch < 50, 170 > 22.727272% taken
+	2040	forwbranch < 120, 420 > 22.222221% taken
+	2169	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	2297	forwbranch < 0, 0 > Never Executed
+	2305	forwbranch < 0, 0 > Never Executed
+	2371	forwbranch < 0, 0 > Never Executed
+	2379	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, isJump, ()Z >
+	4	forwbranch < 2380, 52995 > 4.2979684% taken
+	11	forwbranch < 49124, 3871 > 92.69553% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, toUByte, (B)I >
+	1	forwbranch < 83206, 33622 > 71.22094% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Label;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 1440113 > 0.0% taken
+	18	forwbranch < 1427629, 12484 > 99.13312% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MethodEditor;, addInstruction, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 20012, 0 > 100.0% taken
+	22	forwbranch < 20012, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/LocalVariable;, equals, (Ljava/lang/Object;)Z >
+	1	forwbranch < 0, 532 > 0.0% taken
+	8	forwbranch < 0, 532 > 0.0% taken
+	22	forwbranch < 492, 40 > 92.4812% taken
+M 18 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, array, ()[B >
+	9	forwbranch < 40, 40 > 50.0% taken
+	16	forwbranch < 0, 40 > 0.0% taken
+	25	forwbranch < 40, 0 > 100.0% taken
+	55	forwbranch < 80, 88826 > 0.08998268% taken
+	97	forwbranch < 80, 3542 > 2.2087245% taken
+	175	forwbranch < 0, 3542 > 0.0% taken
+	226	forwbranch < 0, 3542 > 0.0% taken
+	233	forwbranch < 0, 3542 > 0.0% taken
+	315	forwbranch < 80, 780 > 9.302325% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, labelIndex, (LEDU/purdue/cs/bloat/editor/Label;)I >
+	15	forwbranch < 0, 6380 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/LocalVariable;, toString, ()Ljava/lang/String; >
+	4	forwbranch < 4230, 6764 > 38.475533% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Label;, toString, ()Ljava/lang/String; >
+	4	forwbranch < 128563, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, toUShort, (BB)I >
+	15	forwbranch < 11690, 0 > 100.0% taken
+M 20 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, toString, ()Ljava/lang/String; >
+	4	forwbranch < 40737, 6115 > 86.948265% taken
+	13	forwbranch < 60, 6055 > 0.9811938% taken
+	32	forwbranch < 40797, 0 > 100.0% taken
+	81	forwbranch < 40797, 0 > 100.0% taken
+	130	forwbranch < 40367, 430 > 98.946% taken
+	156	forwbranch < 430, 4660 > 8.447937% taken
+	171	forwbranch < 490, 4170 > 10.515021% taken
+	178	forwbranch < 0, 4170 > 0.0% taken
+	185	forwbranch < 0, 4170 > 0.0% taken
+	221	forwbranch < 4660, 0 > 100.0% taken
+M 243 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Instruction;, visit, (LEDU/purdue/cs/bloat/editor/InstructionVisitor;)V >
+	4	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7240, 0, 0, 2574, 0, 0, 0, 9480, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 280, 0, 0, 0, 100, 0, 50, 0, 2984, 0, 0, 0, 1690, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 0, 0, 0, 210, 0, 280, 0, 2730, 0, 4090, 0, 0, 0, 0, 0, 0, 200, 0, 0, 0, 90, 0, 0, 0, 30, 0, 0, 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 0, 60, 0, 150, 0, 50, 0, 0, 0, 400, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 280, 0, 0, 0, 0, 0, 0, 1140, 630, 50, 0, 0, 90, 30, 60, 30, 520, 0, 50, 0, 0, 4122, 0, 0, 260, 0, 30, 0, 0, 0, 0, 150, 1130, 90, 0, 0, 7600, 3570, 60, 300, 0, 3540, 240, 0, 300, 0, 660, 770, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/MemberRef;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 331 > 0.0% taken
+	21	forwbranch < 0, 331 > 0.0% taken
+	38	forwbranch < 11, 320 > 3.323263% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, visitChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 0, 12163 > 0.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/Block;, toString, ()Ljava/lang/String; >
+	32	forwbranch < 12423, 5492 > 69.344124% taken
+	87	switch     < 17775, 0, 140, 0 >
+	166	forwbranch < 17750, 165 > 99.07899% taken
+	197	forwbranch < 17579, 171 > 99.03662% taken
+	228	forwbranch < 17423, 156 > 99.11258% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Node;, parent, ()LEDU/purdue/cs/bloat/tree/Node; >
+	4	forwbranch < 0, 7744 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, appendStmt, (LEDU/purdue/cs/bloat/tree/Stmt;)V >
+	3	forwbranch < 21323, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/InitStmt;, <init>, ([LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	18	forwbranch < 30, 60 > 33.333332% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree$StmtList;, remove, (Ljava/lang/Object;)Z >
+	5	forwbranch < 0, 105 > 0.0% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, saveStack, ()V >
+	12	forwbranch < 14523, 5820 > 71.39065% taken
+	27	forwbranch < 0, 5820 > 0.0% taken
+	34	forwbranch < 2300, 3520 > 39.5189% taken
+	45	forwbranch < 3520, 0 > 100.0% taken
+	124	forwbranch < 0, 0 > Never Executed
+	134	forwbranch < 0, 0 > Never Executed
+	145	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addStmtBefore, (LEDU/purdue/cs/bloat/tree/Stmt;LEDU/purdue/cs/bloat/tree/Stmt;)V >
+	3	forwbranch < 1057, 0 > 100.0% taken
+	54	forwbranch < 0, 4156 > 0.0% taken
+	71	forwbranch < 3099, 1057 > 74.566895% taken
+M 54 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addInst, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 13470, 5160 > 72.302734% taken
+	22	switch     < 1210, 0, 0, 0, 0, 0, 12260 >
+	64	switch     < 0, 0, 0, 0, 1210 >
+	126	switch     < 0, 0, 0, 0 >
+	178	switch     < 0, 0, 0 >
+	222	switch     < 0, 0, 0 >
+	266	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	330	switch     < 0, 0, 0 >
+	371	forwbranch < 0, 13470 > 0.0% taken
+	392	forwbranch < 0, 18630 > 0.0% taken
+	400	forwbranch < 0, 18630 > 0.0% taken
+	415	forwbranch < 3180, 15450 > 17.069242% taken
+	422	forwbranch < 80, 15370 > 0.5177994% taken
+	429	forwbranch < 0, 15370 > 0.0% taken
+	436	forwbranch < 60, 15310 > 0.39037085% taken
+	443	forwbranch < 0, 15310 > 0.0% taken
+	450	forwbranch < 15310, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addInst, (LEDU/purdue/cs/bloat/editor/Instruction;Z)V >
+	3	forwbranch < 18630, 0 > 100.0% taken
+	16	forwbranch < 0, 0 > Never Executed
+	40	forwbranch < 0, 0 > Never Executed
+	112	forwbranch < 18630, 0 > 100.0% taken
+	157	forwbranch < 18630, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, db, (Ljava/lang/String;)V >
+	3	forwbranch < 5130, 0 > 100.0% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/tree/OperandStack;, pop, (LEDU/purdue/cs/bloat/editor/Type;)LEDU/purdue/cs/bloat/tree/Expr; >
+	42	forwbranch < 10770, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 3820, 6950 > 35.468895% taken
+	102	forwbranch < 6950, 0 > 100.0% taken
+	148	forwbranch < 0, 3820 > 0.0% taken
+	155	forwbranch < 3820, 0 > 100.0% taken
+	202	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addStore, (LEDU/purdue/cs/bloat/tree/MemExpr;LEDU/purdue/cs/bloat/tree/Expr;)V >
+	9	forwbranch < 1360, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/OperandStack;, pop1, ()LEDU/purdue/cs/bloat/tree/Expr; >
+	29	forwbranch < 2080, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, manip, ([LEDU/purdue/cs/bloat/tree/StackExpr;[II)V >
+	21	forwbranch < 1210, 1660 > 42.16028% taken
+	68	forwbranch < 1210, 2420 > 33.333332% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/tree/LocalExpr;, equalsExpr, (LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	4	forwbranch < 1201, 10809 > 10.0% taken
+	27	forwbranch < 2101, 8708 > 19.437506% taken
+	41	forwbranch < 0, 8708 > 0.0% taken
+	55	forwbranch < 452, 8256 > 5.1906295% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/StackManipStmt;, <init>, ([LEDU/purdue/cs/bloat/tree/StackExpr;[LEDU/purdue/cs/bloat/tree/StackExpr;I)V >
+	21	forwbranch < 1270, 2540 > 33.333332% taken
+	53	forwbranch < 1270, 1270 > 50.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/FieldEditor;, isFinal, ()Z >
+	12	forwbranch < 90, 550 > 14.0625% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, addCall, (LEDU/purdue/cs/bloat/editor/Instruction;I)V >
+	41	forwbranch < 3590, 3230 > 52.639297% taken
+	74	forwbranch < 20, 3570 > 0.55710304% taken
+	140	forwbranch < 2290, 1300 > 63.7883% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Node;, replaceWith, (LEDU/purdue/cs/bloat/tree/Node;Z)V >
+	4	forwbranch < 0, 7956 > 0.0% taken
+	38	forwbranch < 0, 7956 > 0.0% taken
+	77	forwbranch < 7916, 40 > 99.49724% taken
+	119	forwbranch < 40, 7916 > 0.50276524% taken
+	268	forwbranch < 0, 7956 > 0.0% taken
+	315	forwbranch < 1135, 6821 > 14.265963% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, <init>, (LEDU/purdue/cs/bloat/tree/Node;LEDU/purdue/cs/bloat/tree/Node;)V >
+	17	forwbranch < 8106, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Node;, visitChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 7139, 636002 > 1.110021% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Node;, block, ()LEDU/purdue/cs/bloat/cfg/Block; >
+	3	forwbranch < 0, 21158 > 0.0% taken
+	10	forwbranch < 14345, 6813 > 67.799416% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Node;, hasParent, ()Z >
+	4	forwbranch < 2087, 143013 > 1.4383184% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, toString, ()Ljava/lang/String; >
+	38	forwbranch < 41680, 0 > 100.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_ldc, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	6	forwbranch < 2060, 30 > 98.56459% taken
+	20	forwbranch < 200, 1860 > 9.708738% taken
+	34	forwbranch < 200, 0 > 100.0% taken
+	48	forwbranch < 200, 0 > 100.0% taken
+	62	forwbranch < 200, 0 > 100.0% taken
+	76	forwbranch < 0, 200 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_astore, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	23	forwbranch < 390, 0 > 100.0% taken
+	30	forwbranch < 0, 0 > Never Executed
+	45	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_dup, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	9	forwbranch < 0, 1210 > 0.0% taken
+	131	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_iinc, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	14	forwbranch < 130, 10 > 92.85714% taken
+	122	forwbranch < 0, 130 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_ifeq, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	30	forwbranch < 0, 340 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_ifne, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	30	forwbranch < 0, 190 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_iflt, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	30	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_ifle, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	30	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_if_icmpeq, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	43	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_if_icmpne, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	43	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_if_icmplt, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	43	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_if_icmpge, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	43	forwbranch < 0, 120 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_if_icmple, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	43	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_goto, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	19	forwbranch < 0, 2460 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_switch, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	40	forwbranch < 0, 80 > 0.0% taken
+	88	forwbranch < 80, 290 > 21.621622% taken
+	121	forwbranch < 0, 290 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visit_getstatic, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	49	forwbranch < 60, 370 > 13.953488% taken
+	57	forwbranch < 370, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	16	forwbranch < 27505, 1300 > 95.48689% taken
+	37	forwbranch < 1300, 6886 > 15.880772% taken
+	74	forwbranch < 27505, 135526 > 16.871025% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Expr;, setType, (LEDU/purdue/cs/bloat/editor/Type;)Z >
+	8	forwbranch < 1015565, 54898 > 94.87156% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Expr;, stmt, ()LEDU/purdue/cs/bloat/tree/Stmt; >
+	9	forwbranch < 20550, 21830 > 48.489853% taken
+	16	forwbranch < 0, 21830 > 0.0% taken
+	47	forwbranch < 0, 21830 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Expr;, copyInto, (LEDU/purdue/cs/bloat/tree/Expr;)LEDU/purdue/cs/bloat/tree/Expr; >
+	18	forwbranch < 20491, 16230 > 55.801857% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/DefExpr;, cleanupOnly, ()V >
+	38	forwbranch < 28725, 4071 > 87.5869% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/tree/DefExpr;, isDef, ()Z >
+	7	forwbranch < 58676, 187387 > 23.845926% taken
+	24	forwbranch < 0, 187387 > 0.0% taken
+	32	forwbranch < 104123, 205079 > 33.67475% taken
+	39	forwbranch < 121815, 83264 > 59.39906% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/VarExpr;, def, ()LEDU/purdue/cs/bloat/tree/DefExpr; >
+	4	forwbranch < 211160, 116889 > 64.36843% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/LocalExpr;, exprHashCode, ()I >
+	6	forwbranch < 12887, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Expr$ExprComparator;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 29985 > 0.0% taken
+	23	forwbranch < 11895, 18090 > 39.669834% taken
+	46	forwbranch < 0, 18090 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/InitStmt;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	8	forwbranch < 3835, 12550 > 23.405554% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PhiJoinStmt;, operands, ()Ljava/util/Collection; >
+	4	forwbranch < 0, 68040 > 0.0% taken
+M 9 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitIfZeroStmt, (LEDU/purdue/cs/bloat/tree/IfZeroStmt;)V >
+	24	switch     < 5870, 3450, 0, 0, 200, 450, 0 >
+	125	forwbranch < 9970, 0 > 100.0% taken
+M 9 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitIfCmpStmt, (LEDU/purdue/cs/bloat/tree/IfCmpStmt;)V >
+	24	switch     < 190, 290, 0, 3130, 150, 270, 0 >
+	125	forwbranch < 0, 4030 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitInitStmt, (LEDU/purdue/cs/bloat/tree/InitStmt;)V >
+	12	forwbranch < 0, 210 > 0.0% taken
+	20	forwbranch < 210, 540 > 28.0% taken
+	26	forwbranch < 0, 540 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitLabelStmt, (LEDU/purdue/cs/bloat/tree/LabelStmt;)V >
+	4	forwbranch < 0, 19140 > 0.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitStackManipStmt, (LEDU/purdue/cs/bloat/tree/StackManipStmt;)V >
+	12	forwbranch < 0, 19050 > 0.0% taken
+	20	forwbranch < 19050, 38100 > 33.333332% taken
+	35	forwbranch < 19050, 19050 > 50.0% taken
+	133	forwbranch < 0, 19050 > 0.0% taken
+	144	forwbranch < 19050, 19050 > 50.0% taken
+	163	forwbranch < 19050, 0 > 100.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitPhiJoinStmt, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;)V >
+	4	forwbranch < 0, 9544 > 0.0% taken
+	25	forwbranch < 0, 9544 > 0.0% taken
+	63	forwbranch < 9544, 275938 > 3.343118% taken
+	126	forwbranch < 9544, 266394 > 3.4587479% taken
+	157	forwbranch < 0, 0 > Never Executed
+	181	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitReturnExprStmt, (LEDU/purdue/cs/bloat/tree/ReturnExprStmt;)V >
+	10	forwbranch < 0, 48 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	10	forwbranch < 0, 62908 > 0.0% taken
+	31	forwbranch < 0, 62908 > 0.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitSwitchStmt, (LEDU/purdue/cs/bloat/tree/SwitchStmt;)V >
+	10	forwbranch < 0, 1560 > 0.0% taken
+	57	forwbranch < 0, 1560 > 0.0% taken
+	64	forwbranch < 0, 1560 > 0.0% taken
+	75	forwbranch < 1560, 5730 > 21.399178% taken
+M 16 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	10	forwbranch < 0, 9335 > 0.0% taken
+	31	switch     < 0, 1660, 270, 5605, 1060, 260, 0, 0, 0, 0, 480, 0 >
+	234	forwbranch < 0, 9335 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitArrayLengthExpr, (LEDU/purdue/cs/bloat/tree/ArrayLengthExpr;)V >
+	4	forwbranch < 0, 3850 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	4	forwbranch < 0, 14001 > 0.0% taken
+	25	forwbranch < 0, 14001 > 0.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitCallMethodExpr, (LEDU/purdue/cs/bloat/tree/CallMethodExpr;)V >
+	4	forwbranch < 0, 41575 > 0.0% taken
+	25	forwbranch < 0, 41575 > 0.0% taken
+	52	forwbranch < 0, 41575 > 0.0% taken
+	63	forwbranch < 41575, 28142 > 59.63395% taken
+	84	forwbranch < 23355, 4787 > 82.98984% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitCallStaticExpr, (LEDU/purdue/cs/bloat/tree/CallStaticExpr;)V >
+	4	forwbranch < 0, 180 > 0.0% taken
+	28	forwbranch < 0, 180 > 0.0% taken
+	55	forwbranch < 0, 180 > 0.0% taken
+	66	forwbranch < 180, 492 > 26.785715% taken
+	87	forwbranch < 180, 312 > 36.585365% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitCastExpr, (LEDU/purdue/cs/bloat/tree/CastExpr;)V >
+	35	forwbranch < 0, 6700 > 0.0% taken
+M 16 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitConstantExpr, (LEDU/purdue/cs/bloat/tree/ConstantExpr;)V >
+	7	forwbranch < 151709, 3992 > 97.43611% taken
+	35	forwbranch < 3992, 37672 > 9.581413% taken
+	51	forwbranch < 6120, 31552 > 16.245487% taken
+	58	forwbranch < 0, 31552 > 0.0% taken
+	65	forwbranch < 0, 31552 > 0.0% taken
+	101	forwbranch < 37672, 0 > 100.0% taken
+	161	forwbranch < 151709, 0 > 100.0% taken
+	200	forwbranch < 151709, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitInstanceOfExpr, (LEDU/purdue/cs/bloat/tree/InstanceOfExpr;)V >
+	4	forwbranch < 0, 12480 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	4	forwbranch < 14460, 0 > 100.0% taken
+	53	forwbranch < 2037, 12423 > 14.087137% taken
+	61	forwbranch < 12423, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitNewArrayExpr, (LEDU/purdue/cs/bloat/tree/NewArrayExpr;)V >
+	35	forwbranch < 0, 291 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitZeroCheckExpr, (LEDU/purdue/cs/bloat/tree/ZeroCheckExpr;)V >
+	10	forwbranch < 80, 0 > 100.0% taken
+	32	forwbranch < 0, 80 > 0.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitShiftExpr, (LEDU/purdue/cs/bloat/tree/ShiftExpr;)V >
+	10	forwbranch < 0, 1680 > 0.0% taken
+	25	forwbranch < 820, 860 > 48.809525% taken
+	42	forwbranch < 820, 0 > 100.0% taken
+	59	forwbranch < 0, 820 > 0.0% taken
+	72	forwbranch < 0, 1680 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitStackExpr, (LEDU/purdue/cs/bloat/tree/StackExpr;)V >
+	45	forwbranch < 13020, 137811 > 8.632177% taken
+	53	forwbranch < 137811, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PrintVisitor;, visitStaticFieldExpr, (LEDU/purdue/cs/bloat/tree/StaticFieldExpr;)V >
+	4	forwbranch < 0, 8623 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/CallExpr;, <init>, ([LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/editor/MemberRef;LEDU/purdue/cs/bloat/editor/Type;)V >
+	22	forwbranch < 5390, 3700 > 59.29593% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/CallMethodExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 37711, 788 > 97.95319% taken
+	16	forwbranch < 788, 664 > 54.269974% taken
+	62	forwbranch < 37711, 25388 > 59.764812% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/CallMethodExpr;, clone, ()Ljava/lang/Object; >
+	17	forwbranch < 1790, 430 > 80.63063% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph$8;, hasNext, ()Z >
+	4	forwbranch < 170, 170 > 50.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$NodeList;, iterator, ()Ljava/util/Iterator; >
+	11	forwbranch < 598, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$4;, hasNext, ()Z >
+	14	forwbranch < 163578, 0 > 100.0% taken
+	39	forwbranch < 163578, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$4;, next, ()Ljava/lang/Object; >
+	14	forwbranch < 52933, 0 > 100.0% taken
+	39	forwbranch < 52933, 0 > 100.0% taken
+M 18 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/DominatorTree;, insertEdgesToSinkDFS, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/cfg/Block;Ljava/util/BitSet;Ljava/util/BitSet;Ljava/util/Map;Z)V >
+	22	forwbranch < 2092, 3014 > 40.971405% taken
+	47	forwbranch < 0, 3014 > 0.0% taken
+	84	forwbranch < 940, 2074 > 31.18779% taken
+	123	forwbranch < 70, 870 > 7.4468083% taken
+	134	forwbranch < 2004, 88 > 95.7935% taken
+	142	forwbranch < 18, 70 > 20.454546% taken
+	147	forwbranch < 35, 35 > 50.0% taken
+	168	forwbranch < 28, 7 > 80.0% taken
+	221	forwbranch < 0, 35 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$3;, hasNext, ()Z >
+	14	forwbranch < 54323, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/Graph$3;, next, ()Ljava/lang/Object; >
+	14	forwbranch < 53915, 0 > 100.0% taken
+M 28 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/DominanceFrontier;, calcFrontier, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/cfg/FlowGraph;Z)Ljava/util/LinkedList; >
+	9	forwbranch < 1148, 1454 > 44.119907% taken
+	44	forwbranch < 2602, 2579 > 50.221966% taken
+	82	forwbranch < 2579, 2996 > 46.26009% taken
+	98	forwbranch < 1363, 1633 > 45.49399% taken
+	107	forwbranch < 402, 1231 > 24.61727% taken
+	129	forwbranch < 968, 395 > 71.019806% taken
+	149	forwbranch < 1454, 1148 > 55.880093% taken
+	184	forwbranch < 2602, 3781 > 40.76453% taken
+	200	forwbranch < 1674, 2107 > 44.274002% taken
+	209	forwbranch < 1315, 792 > 62.41101% taken
+	231	forwbranch < 706, 968 > 42.17443% taken
+	263	forwbranch < 2602, 494720 > 0.5232023% taken
+	270	forwbranch < 491724, 2996 > 99.3944% taken
+	290	forwbranch < 1148, 1454 > 44.119907% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/util/UnionFind;, findNode, (LEDU/purdue/cs/bloat/util/UnionFind$Node;)LEDU/purdue/cs/bloat/util/UnionFind$Node; >
+	15	forwbranch < 7260, 0 > 100.0% taken
+	38	forwbranch < 7260, 0 > 100.0% taken
+	64	forwbranch < 0, 7260 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/util/UnionFind;, findNode, (I)LEDU/purdue/cs/bloat/util/UnionFind$Node; >
+	23	forwbranch < 7260, 3160 > 69.673706% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph$5;, visitNode, (LEDU/purdue/cs/bloat/tree/Node;)V >
+	13	forwbranch < 1070, 38950 > 2.6736631% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph$5;, visitCastExpr, (LEDU/purdue/cs/bloat/tree/CastExpr;)V >
+	7	forwbranch < 40, 200 > 16.666666% taken
+	17	forwbranch < 180, 20 > 90.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph$5;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	6	forwbranch < 10, 200 > 4.7619047% taken
+	15	forwbranch < 200, 0 > 100.0% taken
+	25	forwbranch < 0, 10 > 0.0% taken
+	35	forwbranch < 10, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph$5;, visitArrayLengthExpr, (LEDU/purdue/cs/bloat/tree/ArrayLengthExpr;)V >
+	7	forwbranch < 0, 140 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph$5;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	7	forwbranch < 110, 120 > 47.826088% taken
+	17	forwbranch < 10, 110 > 8.333333% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree$1;, set, (Ljava/lang/Object;)V >
+	4	forwbranch < 40, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree$1;, remove, ()V >
+	4	forwbranch < 3505, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/Tree$2;, remove, ()V >
+	4	forwbranch < 3505, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/IfCmpStmt;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 10010, 260 > 97.46835% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph$2;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	4	forwbranch < 5150, 4520 > 53.257496% taken
+	19	forwbranch < 4520, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA;, transform, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	3	forwbranch < 2234, 0 > 100.0% taken
+M 20 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA;, placePhiFunctions, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	3	forwbranch < 2234, 0 > 100.0% taken
+	63	forwbranch < 1654, 13554 > 10.8758545% taken
+	90	forwbranch < 5771, 7783 > 42.577835% taken
+	116	forwbranch < 5191, 580 > 89.949745% taken
+	128	forwbranch < 580, 1654 > 25.962399% taken
+	150	forwbranch < 580, 0 > 100.0% taken
+	198	forwbranch < 580, 0 > 100.0% taken
+	238	forwbranch < 0, 0 > Never Executed
+	289	forwbranch < 580, 2020 > 22.307692% taken
+	310	forwbranch < 580, 1440 > 28.712872% taken
+M 22 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA;, rename, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	13	forwbranch < 2234, 2234 > 50.0% taken
+	34	forwbranch < 2234, 0 > 100.0% taken
+	76	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 2234, 0 > 100.0% taken
+	277	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	342	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA;, insertCode, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	16	forwbranch < 911, 196716 > 0.4609694% taken
+	38	forwbranch < 196140, 576 > 99.70719% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;, addPhi, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	13	forwbranch < 1440, 0 > 100.0% taken
+	55	forwbranch < 1440, 0 > 100.0% taken
+M 34 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA;, search, (LEDU/purdue/cs/bloat/cfg/FlowGraph;LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;LEDU/purdue/cs/bloat/tree/VarExpr;LEDU/purdue/cs/bloat/cfg/Block;)V >
+	3	forwbranch < 79544, 0 > 100.0% taken
+	47	forwbranch < 63754, 15790 > 80.14935% taken
+	68	forwbranch < 79347, 197 > 99.752335% taken
+	81	forwbranch < 0, 197 > 0.0% taken
+	103	forwbranch < 79544, 0 > 100.0% taken
+	113	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 79544, 2634 > 96.79476% taken
+	188	forwbranch < 1282, 1352 > 48.671223% taken
+	204	forwbranch < 536, 816 > 39.64497% taken
+	219	forwbranch < 1352, 0 > 100.0% taken
+	251	forwbranch < 0, 1282 > 0.0% taken
+	310	forwbranch < 79544, 111280 > 41.684483% taken
+	338	forwbranch < 109711, 1569 > 98.59004% taken
+	373	forwbranch < 109711, 0 > 100.0% taken
+	403	forwbranch < 88731, 22549 > 79.7367% taken
+	438	forwbranch < 79544, 79216 > 50.103302% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA;, addCatchPhiOperands, (LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	19	forwbranch < 14460, 0 > 100.0% taken
+	44	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;, realsAtBlock, (LEDU/purdue/cs/bloat/cfg/Block;)Ljava/util/Collection; >
+	15	forwbranch < 45802, 107901 > 29.799028% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;, addReal, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	7	forwbranch < 20410, 0 > 100.0% taken
+	20	forwbranch < 10580, 9830 > 51.837334% taken
+	35	forwbranch < 0, 20410 > 0.0% taken
+	84	forwbranch < 11070, 9340 > 54.238117% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA$1;, visitTree, (LEDU/purdue/cs/bloat/tree/Tree;)V >
+	16	forwbranch < 4500, 20620 > 17.914013% taken
+	33	forwbranch < 20620, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSA$1;, visitVarExpr, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	30	forwbranch < 18090, 1600 > 91.87405% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PhiJoinStmt;, <init>, (LEDU/purdue/cs/bloat/tree/VarExpr;LEDU/purdue/cs/bloat/cfg/Block;)V >
+	41	forwbranch < 1440, 8970 > 13.832853% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PhiJoinStmt;, setOperandAt, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/tree/Expr;)V >
+	15	forwbranch < 0, 6320 > 0.0% taken
+	23	forwbranch < 2680, 3640 > 42.405064% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/PhiJoinStmt;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 13941, 0 > 100.0% taken
+	31	forwbranch < 13941, 90105 > 13.398881% taken
+	56	forwbranch < 0, 13941 > 0.0% taken
+M 22 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination;, makeLive, (LEDU/purdue/cs/bloat/tree/Node;)V >
+	4	forwbranch < 37830, 28260 > 57.240128% taken
+	16	forwbranch < 19690, 8570 > 69.67445% taken
+	22	forwbranch < 8570, 0 > 100.0% taken
+	74	forwbranch < 19680, 8580 > 69.63907% taken
+	80	forwbranch < 8580, 0 > 100.0% taken
+	135	forwbranch < 540, 8040 > 6.2937064% taken
+	157	forwbranch < 20990, 7270 > 74.27459% taken
+	163	forwbranch < 7270, 0 > 100.0% taken
+	218	forwbranch < 4995, 2275 > 68.707016% taken
+	237	forwbranch < 31980, 34110 > 48.38856% taken
+	252	forwbranch < 1600, 32510 > 4.6907067% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitInitStmt, (LEDU/purdue/cs/bloat/tree/InitStmt;)V >
+	3	forwbranch < 60, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitNewArrayExpr, (LEDU/purdue/cs/bloat/tree/NewArrayExpr;)V >
+	3	forwbranch < 170, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitStackExpr, (LEDU/purdue/cs/bloat/tree/StackExpr;)V >
+	7	forwbranch < 140, 0 > 100.0% taken
+	14	forwbranch < 140, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitCastExpr, (LEDU/purdue/cs/bloat/tree/CastExpr;)V >
+	7	forwbranch < 0, 340 > 0.0% taken
+	13	forwbranch < 340, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	6	forwbranch < 0, 395 > 0.0% taken
+	15	forwbranch < 395, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	31	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	3	forwbranch < 80, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitCallStaticExpr, (LEDU/purdue/cs/bloat/tree/CallStaticExpr;)V >
+	3	forwbranch < 30, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitCallMethodExpr, (LEDU/purdue/cs/bloat/tree/CallMethodExpr;)V >
+	3	forwbranch < 5090, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitStackManipStmt, (LEDU/purdue/cs/bloat/tree/StackManipStmt;)V >
+	3	forwbranch < 2540, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitSwitchStmt, (LEDU/purdue/cs/bloat/tree/SwitchStmt;)V >
+	3	forwbranch < 250, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitIfStmt, (LEDU/purdue/cs/bloat/tree/IfStmt;)V >
+	3	forwbranch < 2170, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitGotoStmt, (LEDU/purdue/cs/bloat/tree/GotoStmt;)V >
+	3	forwbranch < 5140, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitReturnStmt, (LEDU/purdue/cs/bloat/tree/ReturnStmt;)V >
+	3	forwbranch < 100, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitReturnExprStmt, (LEDU/purdue/cs/bloat/tree/ReturnExprStmt;)V >
+	3	forwbranch < 20, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$2;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	7	forwbranch < 4320, 5480 > 44.081635% taken
+	13	forwbranch < 5480, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/StoreExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 147598, 3730 > 97.53516% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$6;, visitExpr, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	4	forwbranch < 44835, 15655 > 74.11969% taken
+	10	forwbranch < 15655, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$6;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	7	forwbranch < 15360, 14410 > 51.595566% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$6;, visitVarExpr, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	4	forwbranch < 97565, 34165 > 74.06438% taken
+	10	forwbranch < 34165, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$6;, visitStmt, (LEDU/purdue/cs/bloat/tree/Stmt;)V >
+	4	forwbranch < 39860, 24630 > 61.808033% taken
+	10	forwbranch < 24630, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$3;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	14	forwbranch < 8580, 2390 > 78.21331% taken
+	22	forwbranch < 1340, 1050 > 56.066944% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$4;, visitStmt, (LEDU/purdue/cs/bloat/tree/Stmt;)V >
+	4	forwbranch < 24630, 15670 > 61.116627% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$4;, visitExpr, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	4	forwbranch < 10, 7370 > 0.13550135% taken
+	23	forwbranch < 10, 0 > 100.0% taken
+	31	forwbranch < 0, 10 > 0.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/trans/DeadCodeElimination$5;, visitTree, (LEDU/purdue/cs/bloat/tree/Tree;)V >
+	16	forwbranch < 7840, 40300 > 16.285833% taken
+	33	forwbranch < 24640, 15660 > 61.141438% taken
+	40	forwbranch < 2900, 12760 > 18.518518% taken
+	50	forwbranch < 2900, 0 > 100.0% taken
+	59	forwbranch < 2900, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph;, visitComponents, (LEDU/purdue/cs/bloat/ssa/ComponentVisitor;)V >
+	38	forwbranch < 200, 20180 > 0.9813543% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInference$1;, visitInitStmt, (LEDU/purdue/cs/bloat/tree/InitStmt;)V >
+	23	forwbranch < 30, 60 > 33.333332% taken
+	43	forwbranch < 50, 10 > 83.333336% taken
+	52	forwbranch < 50, 10 > 83.333336% taken
+	106	forwbranch < 60, 1400 > 4.109589% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph;, equivalent, (LEDU/purdue/cs/bloat/tree/Node;)Ljava/util/Set; >
+	13	forwbranch < 133895, 57029 > 70.13% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph;, makeEquiv, (LEDU/purdue/cs/bloat/tree/Node;LEDU/purdue/cs/bloat/tree/Node;)V >
+	16	forwbranch < 0, 3692 > 0.0% taken
+	44	forwbranch < 3692, 49568 > 6.9320316% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph;, children, (LEDU/purdue/cs/bloat/tree/Node;)Ljava/util/List; >
+	12	forwbranch < 52719, 7739 > 87.19938% taken
+	43	forwbranch < 6167, 1572 > 79.6873% taken
+	62	forwbranch < 51079, 1640 > 96.88917% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph$1;, manip, ([LEDU/purdue/cs/bloat/tree/StackExpr;[LEDU/purdue/cs/bloat/tree/StackExpr;[I)V >
+	7	forwbranch < 6350, 12700 > 33.333332% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph$1;, visitVarExpr, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	4	forwbranch < 3662, 7662 > 32.338398% taken
+	16	forwbranch < 23, 7639 > 0.30018273% taken
+M 60 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph$1;, visitStackManipStmt, (LEDU/purdue/cs/bloat/tree/StackManipStmt;)V >
+	14	switch     < 0, 6350, 0, 0, 0, 0, 0, 0 >
+	59	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 6350 > 0.0% taken
+	124	forwbranch < 0, 6350 > 0.0% taken
+	177	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	319	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	443	forwbranch < 0, 0 > Never Executed
+	449	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	508	forwbranch < 0, 0 > Never Executed
+	573	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	636	forwbranch < 0, 0 > Never Executed
+	643	forwbranch < 0, 0 > Never Executed
+	713	forwbranch < 0, 0 > Never Executed
+	719	forwbranch < 0, 0 > Never Executed
+	757	forwbranch < 0, 0 > Never Executed
+	818	forwbranch < 0, 0 > Never Executed
+	824	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph$1;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	24	forwbranch < 909, 14841 > 5.7714286% taken
+M 24 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, start, (LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/editor/Type;)V >
+	3	forwbranch < 4917, 0 > 100.0% taken
+	47	forwbranch < 4901, 16 > 99.6746% taken
+	61	forwbranch < 453, 4448 > 9.243011% taken
+	67	forwbranch < 4448, 0 > 100.0% taken
+	111	forwbranch < 2886, 1562 > 64.883095% taken
+	121	forwbranch < 0, 1562 > 0.0% taken
+	131	forwbranch < 0, 1562 > 0.0% taken
+	155	forwbranch < 42, 1520 > 2.6888604% taken
+	202	forwbranch < 4448, 0 > 100.0% taken
+	250	forwbranch < 4901, 78351 > 5.8869457% taken
+	269	forwbranch < 1916, 76435 > 2.445406% taken
+	285	forwbranch < 74786, 1649 > 97.84261% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, prop, (LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/tree/Expr;)V >
+	3	forwbranch < 81730, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, manip, ([LEDU/purdue/cs/bloat/tree/StackExpr;[LEDU/purdue/cs/bloat/tree/StackExpr;[I)V >
+	7	forwbranch < 1270, 2540 > 33.333332% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitShiftExpr, (LEDU/purdue/cs/bloat/tree/ShiftExpr;)V >
+	10	forwbranch < 140, 0 > 100.0% taken
+	26	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	10	forwbranch < 960, 0 > 100.0% taken
+	26	forwbranch < 0, 0 > Never Executed
+	42	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+	141	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 0, 0 > Never Executed
+	237	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	255	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitVarExpr, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	4	forwbranch < 18240, 35970 > 33.646927% taken
+	11	forwbranch < 0, 35970 > 0.0% taken
+M 60 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitStackManipStmt, (LEDU/purdue/cs/bloat/tree/StackManipStmt;)V >
+	14	switch     < 0, 1270, 0, 0, 0, 0, 0, 0 >
+	59	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 1270 > 0.0% taken
+	124	forwbranch < 0, 1270 > 0.0% taken
+	177	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	319	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	443	forwbranch < 0, 0 > Never Executed
+	449	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	508	forwbranch < 0, 0 > Never Executed
+	573	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	636	forwbranch < 0, 0 > Never Executed
+	643	forwbranch < 0, 0 > Never Executed
+	713	forwbranch < 0, 0 > Never Executed
+	719	forwbranch < 0, 0 > Never Executed
+	757	forwbranch < 0, 0 > Never Executed
+	818	forwbranch < 0, 0 > Never Executed
+	824	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitPhiStmt, (LEDU/purdue/cs/bloat/tree/PhiStmt;)V >
+	33	forwbranch < 1320, 14100 > 8.560311% taken
+	52	forwbranch < 0, 14100 > 0.0% taken
+	60	forwbranch < 14100, 0 > 100.0% taken
+	101	forwbranch < 1320, 0 > 100.0% taken
+	120	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	14	forwbranch < 300, 340 > 46.875% taken
+	27	forwbranch < 0, 340 > 0.0% taken
+	40	forwbranch < 0, 340 > 0.0% taken
+	53	forwbranch < 0, 340 > 0.0% taken
+	66	forwbranch < 0, 340 > 0.0% taken
+	76	forwbranch < 0, 340 > 0.0% taken
+M 34 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitConstantExpr, (LEDU/purdue/cs/bloat/tree/ConstantExpr;)V >
+	6	forwbranch < 5920, 60 > 98.99666% taken
+	22	forwbranch < 5460, 460 > 92.22973% taken
+	38	forwbranch < 5460, 0 > 100.0% taken
+	54	forwbranch < 0, 5460 > 0.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+	86	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+	136	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 0, 0 > Never Executed
+	182	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	217	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	262	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitNewArrayExpr, (LEDU/purdue/cs/bloat/tree/NewArrayExpr;)V >
+	10	forwbranch < 0, 220 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInferenceVisitor;, visitStaticFieldExpr, (LEDU/purdue/cs/bloat/tree/StaticFieldExpr;)V >
+	9	forwbranch < 30, 1180 > 2.479339% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInference$2;, visitComponent, (Ljava/util/List;)V >
+	15	forwbranch < 30990, 42450 > 42.197712% taken
+	39	forwbranch < 42450, 102850 > 29.215416% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph$5;, visitFlowGraph, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	25	forwbranch < 186, 18488 > 0.99603724% taken
+M 26 < SystemAppCL, LEDU/purdue/cs/bloat/ssa/SSAGraph$5;, visitNode, (LEDU/purdue/cs/bloat/tree/Node;)V >
+	11	forwbranch < 28662, 45022 > 38.89854% taken
+	70	forwbranch < 45022, 85985 > 34.366104% taken
+	129	forwbranch < 45022, 85985 > 34.366104% taken
+	166	forwbranch < 85985, 45096 > 65.59685% taken
+	206	forwbranch < 585, 44437 > 1.2993648% taken
+	225	forwbranch < 0, 45022 > 0.0% taken
+	284	forwbranch < 585, 44437 > 1.2993648% taken
+	309	forwbranch < 44437, 0 > 100.0% taken
+	334	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 28267, 16755 > 62.784863% taken
+	462	forwbranch < 321, 28341 > 1.1199498% taken
+	480	forwbranch < 1250, 27091 > 4.410571% taken
+	491	forwbranch < 23038, 4053 > 85.039314% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TypeInference$3;, visitExpr, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	15	forwbranch < 8157, 0 > 100.0% taken
+	39	forwbranch < 8157, 0 > 100.0% taken
+M 34 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueNumbering;, valnum, (LEDU/purdue/cs/bloat/tree/Node;Ljava/util/HashMap;)Z >
+	17	forwbranch < 6520, 5718 > 53.27668% taken
+	53	forwbranch < 0, 5718 > 0.0% taken
+	60	forwbranch < 5718, 0 > 100.0% taken
+	97	forwbranch < 6520, 0 > 100.0% taken
+	150	forwbranch < 0, 12238 > 0.0% taken
+	157	forwbranch < 12238, 0 > 100.0% taken
+	220	forwbranch < 0, 0 > Never Executed
+	270	forwbranch < 3430, 8808 > 28.027456% taken
+	279	forwbranch < 0, 8808 > 0.0% taken
+	295	forwbranch < 0, 3430 > 0.0% taken
+	302	forwbranch < 3430, 0 > 100.0% taken
+	350	forwbranch < 0, 12238 > 0.0% taken
+	383	forwbranch < 12238, 431770 > 2.7562566% taken
+	414	forwbranch < 361848, 69922 > 83.80573% taken
+	427	forwbranch < 339048, 22800 > 93.69901% taken
+	449	forwbranch < 0, 22800 > 0.0% taken
+	456	forwbranch < 22800, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, cleanup, ()V >
+	14	forwbranch < 40, 0 > 100.0% taken
+M 20 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueNumbering;, simplify, (LEDU/purdue/cs/bloat/tree/Node;)LEDU/purdue/cs/bloat/tree/Node; >
+	3	forwbranch < 0, 61190 > 0.0% taken
+	10	forwbranch < 61190, 0 > 100.0% taken
+	58	forwbranch < 0, 61190 > 0.0% taken
+	67	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	159	forwbranch < 0, 0 > Never Executed
+	210	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ConstantExpr;, equalsExpr, (LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	4	forwbranch < 10310, 201 > 98.087715% taken
+	13	forwbranch < 9090, 1220 > 88.16683% taken
+	23	forwbranch < 0, 1220 > 0.0% taken
+	39	forwbranch < 9090, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SideEffectChecker;, hasSideEffects, ()Z >
+	4	forwbranch < 13787, 8380 > 62.196056% taken
+M 42 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolding;, fold, (Ljava/util/Map;LEDU/purdue/cs/bloat/tree/Node;)Z >
+	14	forwbranch < 124496, 0 > 100.0% taken
+	53	forwbranch < 4939, 119557 > 3.9671957% taken
+	62	forwbranch < 122409, 2087 > 98.32364% taken
+	70	forwbranch < 122409, 0 > 100.0% taken
+	113	forwbranch < 122409, 0 > 100.0% taken
+	180	forwbranch < 120849, 1560 > 98.725586% taken
+	222	forwbranch < 120849, 0 > 100.0% taken
+	265	forwbranch < 108700, 12149 > 89.94696% taken
+	276	forwbranch < 1908, 10241 > 15.704996% taken
+	286	forwbranch < 10241, 0 > 100.0% taken
+	292	forwbranch < 1908, 0 > 100.0% taken
+	334	forwbranch < 1908, 0 > 100.0% taken
+	397	forwbranch < 36975, 71725 > 34.01564% taken
+	402	forwbranch < 61312, 10413 > 85.48205% taken
+	412	forwbranch < 10413, 0 > 100.0% taken
+	439	forwbranch < 6170, 4243 > 59.252857% taken
+	472	forwbranch < 0, 104457 > 0.0% taken
+	494	forwbranch < 104457, 0 > 100.0% taken
+	540	forwbranch < 104457, 0 > 100.0% taken
+	600	forwbranch < 103184, 1273 > 98.78132% taken
+	628	forwbranch < 103269, 1188 > 98.862686% taken
+M 102 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, foldArithInteger, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	61	forwbranch < 0, 777 > 0.0% taken
+	66	forwbranch < 0, 777 > 0.0% taken
+	77	forwbranch < 0, 777 > 0.0% taken
+	96	forwbranch < 0, 777 > 0.0% taken
+	102	forwbranch < 0, 777 > 0.0% taken
+	114	forwbranch < 0, 777 > 0.0% taken
+	141	forwbranch < 0, 777 > 0.0% taken
+	200	forwbranch < 670, 107 > 86.22909% taken
+	205	forwbranch < 25, 82 > 23.364487% taken
+	210	forwbranch < 0, 82 > 0.0% taken
+	215	forwbranch < 0, 82 > 0.0% taken
+	251	switch     < 0, 0, 0, 82, 0, 0, 0, 0, 0 >
+	360	forwbranch < 0, 0 > Never Executed
+	416	forwbranch < 0, 0 > Never Executed
+	472	forwbranch < 0, 82 > 0.0% taken
+	517	forwbranch < 0, 82 > 0.0% taken
+	533	forwbranch < 25, 670 > 3.5971222% taken
+	538	forwbranch < 80, 590 > 11.940298% taken
+	543	forwbranch < 0, 590 > 0.0% taken
+	561	switch     < 0, 0, 370, 220 >
+	592	switch     < 0, 0, 0, 0, 0, 0 >
+	656	forwbranch < 0, 0 > Never Executed
+	738	forwbranch < 0, 0 > Never Executed
+	756	switch     < 0, 0, 0, 370 >
+	804	forwbranch < 0, 0 > Never Executed
+	886	forwbranch < 0, 0 > Never Executed
+	904	switch     < 0, 0, 0 >
+	936	forwbranch < 0, 0 > Never Executed
+	1047	forwbranch < 80, 25 > 76.190475% taken
+	1052	forwbranch < 0, 25 > 0.0% taken
+	1057	forwbranch < 0, 25 > 0.0% taken
+	1075	switch     < 0, 25, 0, 0 >
+	1104	switch     < 0, 0, 25, 0, 0, 0 >
+	1168	forwbranch < 0, 25 > 0.0% taken
+	1206	forwbranch < 0, 0 > Never Executed
+	1363	forwbranch < 0, 0 > Never Executed
+	1381	switch     < 0, 0 >
+	1412	forwbranch < 0, 0 > Never Executed
+	1450	switch     < 0, 0 >
+	1472	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	4	forwbranch < 22066, 20 > 99.90945% taken
+	15	forwbranch < 21946, 120 > 99.45618% taken
+	41	forwbranch < 100, 20 > 83.333336% taken
+	49	forwbranch < 0, 20 > 0.0% taken
+	67	forwbranch < 0, 20 > 0.0% taken
+	78	forwbranch < 20, 0 > 100.0% taken
+M 24 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitPhiJoinStmt, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;)V >
+	7	forwbranch < 1305, 0 > 100.0% taken
+	36	forwbranch < 105, 4399 > 2.3312612% taken
+	55	forwbranch < 0, 4399 > 0.0% taken
+	81	forwbranch < 4399, 0 > 100.0% taken
+	91	forwbranch < 4399, 0 > 100.0% taken
+	99	forwbranch < 1305, 3094 > 29.665833% taken
+	108	forwbranch < 1894, 1200 > 61.215256% taken
+	123	forwbranch < 105, 0 > 100.0% taken
+	130	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 105 > 0.0% taken
+	208	forwbranch < 0, 105 > 0.0% taken
+M 16 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	7	forwbranch < 9777, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 5666, 4111 > 57.952335% taken
+	159	forwbranch < 0, 4111 > 0.0% taken
+	205	forwbranch < 1910, 2201 > 46.460716% taken
+	212	forwbranch < 2201, 0 > 100.0% taken
+	239	forwbranch < 0, 2201 > 0.0% taken
+	254	forwbranch < 1210, 991 > 54.97501% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitNewArrayExpr, (LEDU/purdue/cs/bloat/tree/NewArrayExpr;)V >
+	5	forwbranch < 0, 190 > 0.0% taken
+	11	forwbranch < 190, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitNewExpr, (LEDU/purdue/cs/bloat/tree/NewExpr;)V >
+	5	forwbranch < 0, 2400 > 0.0% taken
+	11	forwbranch < 2400, 0 > 100.0% taken
+M 40 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitZeroCheckExpr, (LEDU/purdue/cs/bloat/tree/ZeroCheckExpr;)V >
+	17	forwbranch < 10, 0 > 100.0% taken
+	25	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 0, 10 > 0.0% taken
+	65	forwbranch < 10, 0 > 100.0% taken
+	76	forwbranch < 0, 0 > Never Executed
+	84	forwbranch < 0, 0 > Never Executed
+	123	forwbranch < 10, 0 > 100.0% taken
+	131	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 0, 10 > 0.0% taken
+	191	forwbranch < 0, 10 > 0.0% taken
+	206	forwbranch < 10, 0 > 100.0% taken
+	219	forwbranch < 0, 0 > Never Executed
+	232	forwbranch < 0, 10 > 0.0% taken
+	240	forwbranch < 0, 10 > 0.0% taken
+	248	forwbranch < 0, 10 > 0.0% taken
+	259	forwbranch < 0, 10 > 0.0% taken
+	272	forwbranch < 0, 0 > Never Executed
+	283	forwbranch < 0, 0 > Never Executed
+	289	forwbranch < 0, 10 > 0.0% taken
+	304	forwbranch < 0, 10 > 0.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	10	forwbranch < 0, 777 > 0.0% taken
+	34	forwbranch < 0, 0 > Never Executed
+	58	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 0, 0 > Never Executed
+M 24 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitCastExpr, (LEDU/purdue/cs/bloat/tree/CastExpr;)V >
+	32	forwbranch < 0, 780 > 0.0% taken
+	43	forwbranch < 0, 780 > 0.0% taken
+	61	forwbranch < 0, 780 > 0.0% taken
+	69	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 0 > Never Executed
+	130	forwbranch < 0, 0 > Never Executed
+	175	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	253	forwbranch < 0, 0 > Never Executed
+M 60 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitShiftExpr, (LEDU/purdue/cs/bloat/tree/ShiftExpr;)V >
+	61	forwbranch < 0, 120 > 0.0% taken
+	72	forwbranch < 0, 120 > 0.0% taken
+	91	forwbranch < 0, 120 > 0.0% taken
+	103	forwbranch < 0, 120 > 0.0% taken
+	134	forwbranch < 120, 0 > 100.0% taken
+	146	forwbranch < 0, 120 > 0.0% taken
+	160	forwbranch < 0, 120 > 0.0% taken
+	219	forwbranch < 0, 120 > 0.0% taken
+	224	forwbranch < 0, 120 > 0.0% taken
+	240	forwbranch < 20, 100 > 16.666666% taken
+	256	forwbranch < 100, 0 > 100.0% taken
+	261	forwbranch < 0, 20 > 0.0% taken
+	276	forwbranch < 0, 20 > 0.0% taken
+	310	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	352	forwbranch < 0, 0 > Never Executed
+	359	forwbranch < 0, 0 > Never Executed
+	364	forwbranch < 0, 0 > Never Executed
+	382	switch     < 0, 0, 0, 0 >
+	464	forwbranch < 0, 0 > Never Executed
+	481	forwbranch < 0, 0 > Never Executed
+	496	forwbranch < 0, 0 > Never Executed
+	503	forwbranch < 0, 0 > Never Executed
+	508	forwbranch < 0, 0 > Never Executed
+	526	switch     < 0, 0, 0, 0 >
+	602	forwbranch < 0, 0 > Never Executed
+	647	forwbranch < 0, 0 > Never Executed
+M 46 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitIfZeroStmt, (LEDU/purdue/cs/bloat/tree/IfZeroStmt;)V >
+	47	forwbranch < 0, 1570 > 0.0% taken
+	59	forwbranch < 0, 1570 > 0.0% taken
+	78	forwbranch < 0, 1570 > 0.0% taken
+	96	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	137	forwbranch < 0, 0 > Never Executed
+	154	switch     < 0, 0, 0, 0, 0, 0, 0 >
+	194	forwbranch < 0, 0 > Never Executed
+	209	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 0, 0 > Never Executed
+	254	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	342	forwbranch < 0, 0 > Never Executed
+	412	forwbranch < 0, 0 > Never Executed
+	437	forwbranch < 0, 0 > Never Executed
+	444	switch     < 0, 0, 0 >
+	519	forwbranch < 0, 0 > Never Executed
+	589	forwbranch < 0, 0 > Never Executed
+M 121 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitIfCmpStmt, (LEDU/purdue/cs/bloat/tree/IfCmpStmt;)V >
+	76	forwbranch < 0, 600 > 0.0% taken
+	88	forwbranch < 0, 600 > 0.0% taken
+	108	forwbranch < 0, 600 > 0.0% taken
+	120	forwbranch < 0, 600 > 0.0% taken
+	145	forwbranch < 440, 160 > 73.333336% taken
+	157	forwbranch < 410, 190 > 68.333336% taken
+	177	forwbranch < 0, 600 > 0.0% taken
+	239	forwbranch < 440, 160 > 73.333336% taken
+	244	forwbranch < 0, 160 > 0.0% taken
+	259	forwbranch < 20, 140 > 12.5% taken
+	267	forwbranch < 0, 140 > 0.0% taken
+	272	forwbranch < 110, 30 > 78.57143% taken
+	279	switch     < 0, 0, 0, 30, 0, 0, 0 >
+	364	forwbranch < 0, 30 > 0.0% taken
+	448	forwbranch < 380, 190 > 66.666664% taken
+	453	forwbranch < 0, 190 > 0.0% taken
+	468	forwbranch < 190, 0 > 100.0% taken
+	476	forwbranch < 0, 0 > Never Executed
+	481	forwbranch < 0, 0 > Never Executed
+	494	forwbranch < 0, 0 > Never Executed
+	575	forwbranch < 440, 130 > 77.192986% taken
+	580	forwbranch < 130, 0 > 100.0% taken
+	585	forwbranch < 0, 0 > Never Executed
+	590	forwbranch < 0, 0 > Never Executed
+	595	forwbranch < 0, 0 > Never Executed
+	600	forwbranch < 0, 0 > Never Executed
+	613	forwbranch < 0, 0 > Never Executed
+	694	forwbranch < 380, 190 > 66.666664% taken
+	699	forwbranch < 190, 0 > 100.0% taken
+	704	forwbranch < 0, 0 > Never Executed
+	709	forwbranch < 0, 0 > Never Executed
+	714	forwbranch < 0, 0 > Never Executed
+	719	forwbranch < 0, 0 > Never Executed
+	732	forwbranch < 0, 0 > Never Executed
+	813	forwbranch < 70, 500 > 12.280702% taken
+	818	forwbranch < 180, 320 > 36.0% taken
+	824	forwbranch < 170, 10 > 94.44444% taken
+	829	forwbranch < 0, 10 > 0.0% taken
+	838	forwbranch < 0, 0 > Never Executed
+	846	forwbranch < 0, 0 > Never Executed
+	873	switch     < 0, 0, 0, 0, 0, 0, 0 >
+	916	forwbranch < 0, 0 > Never Executed
+	933	forwbranch < 0, 0 > Never Executed
+	950	forwbranch < 0, 0 > Never Executed
+	967	forwbranch < 0, 0 > Never Executed
+	984	forwbranch < 0, 0 > Never Executed
+	1001	forwbranch < 0, 0 > Never Executed
+	1024	forwbranch < 0, 0 > Never Executed
+	1074	forwbranch < 0, 0 > Never Executed
+	1144	forwbranch < 0, 0 > Never Executed
+	1169	forwbranch < 0, 0 > Never Executed
+	1174	forwbranch < 0, 0 > Never Executed
+	1181	switch     < 0, 0, 0 >
+	1255	forwbranch < 0, 0 > Never Executed
+	1325	forwbranch < 0, 0 > Never Executed
+M 26 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolder;, visitSwitchStmt, (LEDU/purdue/cs/bloat/tree/SwitchStmt;)V >
+	47	forwbranch < 0, 250 > 0.0% taken
+	59	forwbranch < 0, 250 > 0.0% taken
+	83	forwbranch < 0, 250 > 0.0% taken
+	115	forwbranch < 30, 220 > 12.0% taken
+	121	forwbranch < 10, 20 > 33.333332% taken
+	133	forwbranch < 10, 0 > 100.0% taken
+	167	forwbranch < 10, 70 > 12.5% taken
+	179	forwbranch < 60, 10 > 85.71429% taken
+	232	forwbranch < 0, 10 > 0.0% taken
+	253	forwbranch < 0, 60 > 0.0% taken
+	276	forwbranch < 10, 0 > 100.0% taken
+	326	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/FieldEditor;, isVolatile, ()Z >
+	12	forwbranch < 1060, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SideEffectChecker;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	4	forwbranch < 11416, 4532 > 71.58264% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SideEffectChecker;, visitStackExpr, (LEDU/purdue/cs/bloat/tree/StackExpr;)V >
+	14	forwbranch < 886, 932 > 48.734875% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SideEffectChecker;, visitCastExpr, (LEDU/purdue/cs/bloat/tree/CastExpr;)V >
+	7	forwbranch < 0, 580 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SideEffectChecker;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	14	forwbranch < 470, 320 > 59.49367% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SideEffectChecker;, visitStaticFieldExpr, (LEDU/purdue/cs/bloat/tree/StaticFieldExpr;)V >
+	4	forwbranch < 490, 40 > 92.45283% taken
+	39	forwbranch < 530, 0 > 100.0% taken
+M 24 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueNumbering$1;, visitComponent, (Ljava/util/List;)V >
+	3	forwbranch < 0, 600 > 0.0% taken
+	13	forwbranch < 600, 0 > 100.0% taken
+	58	forwbranch < 600, 1196 > 33.407574% taken
+	86	forwbranch < 519, 81 > 86.5% taken
+	92	forwbranch < 0, 81 > 0.0% taken
+	102	forwbranch < 81, 0 > 100.0% taken
+	120	forwbranch < 81, 162 > 33.333332% taken
+	140	forwbranch < 162, 1354 > 10.686016% taken
+	168	forwbranch < 677, 677 > 50.0% taken
+	182	forwbranch < 0, 600 > 0.0% taken
+	192	forwbranch < 600, 0 > 100.0% taken
+	220	forwbranch < 600, 1196 > 33.407574% taken
+M 42 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueNumbering$Tuple;, equals, (Ljava/lang/Object;)Z >
+	2	forwbranch < 218514, 0 > 100.0% taken
+	11	forwbranch < 0, 218514 > 0.0% taken
+	27	forwbranch < 218514, 0 > 100.0% taken
+	39	forwbranch < 1041, 217473 > 0.4763997% taken
+	49	forwbranch < 217280, 193 > 99.911255% taken
+	65	forwbranch < 205459, 11821 > 94.559555% taken
+	114	forwbranch < 205459, 0 > 100.0% taken
+	126	forwbranch < 204169, 1290 > 99.37214% taken
+	158	forwbranch < 1290, 13651 > 8.63396% taken
+	183	forwbranch < 0, 13651 > 0.0% taken
+	220	forwbranch < 1290, 13651 > 8.63396% taken
+	245	forwbranch < 0, 13651 > 0.0% taken
+	253	forwbranch < 12968, 683 > 94.996704% taken
+	282	forwbranch < 5, 1285 > 0.3875969% taken
+	313	forwbranch < 21016, 183804 > 10.260716% taken
+	323	forwbranch < 0, 183804 > 0.0% taken
+	367	forwbranch < 0, 183804 > 0.0% taken
+	373	forwbranch < 0, 183804 > 0.0% taken
+	380	forwbranch < 651, 183153 > 0.35418162% taken
+	395	forwbranch < 0, 21016 > 0.0% taken
+	405	forwbranch < 21016, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$2;, visitConstantExpr, (LEDU/purdue/cs/bloat/tree/ConstantExpr;)V >
+	4	forwbranch < 2910, 30 > 98.97959% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$2;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	4	forwbranch < 0, 14990 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$2;, visitStackExpr, (LEDU/purdue/cs/bloat/tree/StackExpr;)V >
+	4	forwbranch < 0, 10020 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitExprStmt, (LEDU/purdue/cs/bloat/tree/ExprStmt;)V >
+	7	forwbranch < 8670, 398074 > 2.1315618% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitIfCmpStmt, (LEDU/purdue/cs/bloat/tree/IfCmpStmt;)V >
+	7	forwbranch < 346, 2 > 99.425285% taken
+	30	forwbranch < 2, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	52	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitIfZeroStmt, (LEDU/purdue/cs/bloat/tree/IfZeroStmt;)V >
+	7	forwbranch < 864, 38 > 95.78714% taken
+	30	forwbranch < 38, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	52	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitInitStmt, (LEDU/purdue/cs/bloat/tree/InitStmt;)V >
+	7	forwbranch < 8, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitGotoStmt, (LEDU/purdue/cs/bloat/tree/GotoStmt;)V >
+	7	forwbranch < 1468, 3434 > 29.94696% taken
+	30	forwbranch < 54, 3380 > 1.5725102% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitLabelStmt, (LEDU/purdue/cs/bloat/tree/LabelStmt;)V >
+	7	forwbranch < 5208, 412 > 92.66904% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitPhiJoinStmt, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;)V >
+	7	forwbranch < 1672, 13725 > 10.859259% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitStackManipStmt, (LEDU/purdue/cs/bloat/tree/StackManipStmt;)V >
+	7	forwbranch < 3802, 47430 > 7.421143% taken
+	30	forwbranch < 0, 47430 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitReturnExprStmt, (LEDU/purdue/cs/bloat/tree/ReturnExprStmt;)V >
+	7	forwbranch < 26, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitReturnStmt, (LEDU/purdue/cs/bloat/tree/ReturnStmt;)V >
+	7	forwbranch < 148, 40 > 78.723404% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	7	forwbranch < 6596, 104240 > 5.951135% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitSwitchStmt, (LEDU/purdue/cs/bloat/tree/SwitchStmt;)V >
+	7	forwbranch < 278, 2400 > 10.380881% taken
+	19	forwbranch < 2400, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	7	forwbranch < 858, 11927 > 6.7109895% taken
+	30	forwbranch < 0, 11927 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitArrayLengthExpr, (LEDU/purdue/cs/bloat/tree/ArrayLengthExpr;)V >
+	7	forwbranch < 96, 752 > 11.320755% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	7	forwbranch < 0, 1219 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitCastExpr, (LEDU/purdue/cs/bloat/tree/CastExpr;)V >
+	7	forwbranch < 492, 5020 > 8.92598% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitConstantExpr, (LEDU/purdue/cs/bloat/tree/ConstantExpr;)V >
+	7	forwbranch < 12392, 12557 > 49.669327% taken
+	22	forwbranch < 10541, 2016 > 83.94521% taken
+	33	forwbranch < 1946, 70 > 96.52778% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitInstanceOfExpr, (LEDU/purdue/cs/bloat/tree/InstanceOfExpr;)V >
+	7	forwbranch < 370, 5520 > 6.2818336% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	7	forwbranch < 10798, 76865 > 12.317625% taken
+	30	forwbranch < 1971, 74894 > 2.564236% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitZeroCheckExpr, (LEDU/purdue/cs/bloat/tree/ZeroCheckExpr;)V >
+	7	forwbranch < 18, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitShiftExpr, (LEDU/purdue/cs/bloat/tree/ShiftExpr;)V >
+	7	forwbranch < 2164, 204 > 91.38513% taken
+	30	forwbranch < 0, 204 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitStackExpr, (LEDU/purdue/cs/bloat/tree/StackExpr;)V >
+	7	forwbranch < 3139, 42749 > 6.8405685% taken
+	30	forwbranch < 9542, 33207 > 22.32099% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/NodeComparator$1;, visitStaticFieldExpr, (LEDU/purdue/cs/bloat/tree/StaticFieldExpr;)V >
+	7	forwbranch < 0, 331 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueNumbering$2;, visitNode, (LEDU/purdue/cs/bloat/tree/Node;)V >
+	10	forwbranch < 0, 20906 > 0.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ValueFolding$1;, visitComponent, (Ljava/util/List;)V >
+	21	forwbranch < 3845, 30894 > 11.068252% taken
+	44	forwbranch < 30894, 61976 > 33.265854% taken
+	62	forwbranch < 61976, 0 > 100.0% taken
+	137	forwbranch < 60458, 1518 > 97.55067% taken
+	148	forwbranch < 30894, 0 > 100.0% taken
+	170	forwbranch < 4687, 26207 > 15.17123% taken
+M 22 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, transform, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;)V >
+	3	forwbranch < 705, 0 > 100.0% taken
+	43	forwbranch < 634, 71 > 89.92908% taken
+	49	forwbranch < 71, 0 > 100.0% taken
+	68	forwbranch < 634, 0 > 100.0% taken
+	112	forwbranch < 634, 0 > 100.0% taken
+	160	forwbranch < 634, 0 > 100.0% taken
+	208	forwbranch < 634, 0 > 100.0% taken
+	252	forwbranch < 634, 0 > 100.0% taken
+	296	forwbranch < 634, 0 > 100.0% taken
+	393	forwbranch < 634, 0 > 100.0% taken
+	453	forwbranch < 634, 0 > 100.0% taken
+M 22 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, placePhis, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;)V >
+	34	forwbranch < 253, 37900 > 0.66311955% taken
+	59	forwbranch < 32523, 5377 > 85.81267% taken
+	126	forwbranch < 253, 37900 > 0.66311955% taken
+	160	forwbranch < 37900, 469 > 98.77766% taken
+	203	forwbranch < 253, 148 > 63.09227% taken
+	255	forwbranch < 148, 668 > 18.137255% taken
+	275	forwbranch < 300, 368 > 44.91018% taken
+	294	forwbranch < 368, 0 > 100.0% taken
+	312	forwbranch < 164, 204 > 44.565216% taken
+	324	forwbranch < 180, 24 > 88.23529% taken
+	367	forwbranch < 253, 3131 > 7.4763594% taken
+M 42 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, rename, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;)V >
+	53	forwbranch < 634, 745 > 45.975346% taken
+	126	forwbranch < 634, 2095 > 23.231953% taken
+	178	forwbranch < 2095, 7490 > 21.857069% taken
+	207	forwbranch < 7100, 390 > 94.79306% taken
+	271	forwbranch < 0, 390 > 0.0% taken
+	281	forwbranch < 390, 0 > 100.0% taken
+	308	forwbranch < 1510, 5590 > 21.267605% taken
+	350	forwbranch < 5160, 2270 > 69.44818% taken
+	370	forwbranch < 0, 2270 > 0.0% taken
+	392	forwbranch < 720, 1550 > 31.718061% taken
+	415	forwbranch < 690, 860 > 44.51613% taken
+	432	forwbranch < 120, 2150 > 5.2863436% taken
+	452	forwbranch < 1730, 420 > 80.46512% taken
+	463	forwbranch < 50, 370 > 11.904762% taken
+	490	forwbranch < 260, 1470 > 15.028902% taken
+	535	forwbranch < 0, 5160 > 0.0% taken
+	566	forwbranch < 3810, 1350 > 73.83721% taken
+	618	forwbranch < 634, 94624 > 0.6655609% taken
+	643	forwbranch < 86824, 7800 > 91.75685% taken
+	651	forwbranch < 1335, 6465 > 17.115385% taken
+	657	forwbranch < 6465, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, downSafety, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;)V >
+	19	forwbranch < 634, 94624 > 0.6655609% taken
+	41	backbranch < 93289, 1335 > 98.58915% taken
+	49	forwbranch < 620, 715 > 46.441948% taken
+	77	forwbranch < 620, 1850 > 25.101215% taken
+M 30 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, codeMotion, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;LEDU/purdue/cs/bloat/tree/VarExpr;LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	33	forwbranch < 634, 94624 > 0.6655609% taken
+	58	forwbranch < 93289, 1335 > 98.58915% taken
+	84	forwbranch < 1335, 5800 > 18.71058% taken
+	106	forwbranch < 150, 5650 > 2.586207% taken
+	125	forwbranch < 0, 150 > 0.0% taken
+	203	forwbranch < 150, 0 > 100.0% taken
+	248	forwbranch < 0, 150 > 0.0% taken
+	279	forwbranch < 150, 0 > 100.0% taken
+	343	forwbranch < 94624, 1174 > 98.774506% taken
+	364	forwbranch < 1024, 150 > 87.22317% taken
+	372	forwbranch < 0, 150 > 0.0% taken
+	405	forwbranch < 604, 420 > 58.984375% taken
+	487	forwbranch < 634, 94624 > 0.6655609% taken
+	518	forwbranch < 94474, 150 > 99.84148% taken
+	540	forwbranch < 150, 150 > 50.0% taken
+M 48 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, setValueNumbers, (LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	3	forwbranch < 336, 433 > 43.693108% taken
+	37	forwbranch < 433, 66328 > 0.6485823% taken
+	62	forwbranch < 66062, 266 > 99.59896% taken
+	74	forwbranch < 138, 128 > 51.8797% taken
+	117	forwbranch < 266, 652 > 28.976034% taken
+	134	forwbranch < 652, 0 > 100.0% taken
+	152	forwbranch < 410, 242 > 62.883434% taken
+	161	backbranch < 121, 121 > 50.0% taken
+	191	forwbranch < 405, 5 > 98.78049% taken
+	222	forwbranch < 205, 205 > 50.0% taken
+	260	forwbranch < 66328, 764 > 98.86127% taken
+	280	forwbranch < 450, 314 > 58.900524% taken
+	317	forwbranch < 314, 0 > 100.0% taken
+	348	forwbranch < 314, 0 > 100.0% taken
+	373	forwbranch < 314, 0 > 100.0% taken
+	403	forwbranch < 450, 0 > 100.0% taken
+	412	backbranch < 0, 0 > Never Executed
+	442	forwbranch < 450, 0 > 100.0% taken
+	473	forwbranch < 280, 170 > 62.22222% taken
+	516	forwbranch < 336, 50868 > 0.65619874% taken
+	540	forwbranch < 50735, 133 > 99.73854% taken
+	572	forwbranch < 133, 326 > 28.976034% taken
+	592	forwbranch < 0, 326 > 0.0% taken
+	600	forwbranch < 121, 205 > 37.116566% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, enqueueParents, (LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	27	forwbranch < 634, 94624 > 0.6655609% taken
+	61	forwbranch < 94624, 720 > 99.24484% taken
+	88	forwbranch < 300, 420 > 41.666668% taken
+	96	forwbranch < 120, 300 > 28.571428% taken
+	111	forwbranch < 290, 430 > 40.27778% taken
+	122	forwbranch < 0, 430 > 0.0% taken
+	147	forwbranch < 350, 80 > 81.39535% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, beginTry, ()Ljava/util/Set; >
+	27	forwbranch < 40, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprWorklist;, addReal, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	3	forwbranch < 1275, 0 > 100.0% taken
+	59	forwbranch < 570, 705 > 44.705883% taken
+	100	forwbranch < 705, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, phiRelatedUnion, (LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/tree/Expr;)V >
+	16	forwbranch < 2550, 1160 > 68.733154% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, occurrencesAtBlock, (LEDU/purdue/cs/bloat/cfg/Block;)Ljava/util/List; >
+	4	forwbranch < 43619, 144995 > 23.126066% taken
+	11	forwbranch < 24370, 120625 > 16.807476% taken
+	59	forwbranch < 64729, 3260 > 95.20511% taken
+	83	forwbranch < 33885, 34104 > 49.838943% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, realsAtBlock, (LEDU/purdue/cs/bloat/cfg/Block;)Ljava/util/List; >
+	25	forwbranch < 343977, 60520 > 85.03821% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, addPhi, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	18	forwbranch < 0, 7800 > 0.0% taken
+	24	forwbranch < 7800, 0 > 100.0% taken
+M 108 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, search, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/trans/SSAPRE$Def;Ljava/util/List;)V >
+	3	forwbranch < 31916, 0 > 100.0% taken
+	40	forwbranch < 29322, 2594 > 91.87241% taken
+	53	forwbranch < 2594, 0 > 100.0% taken
+	65	forwbranch < 0, 2594 > 0.0% taken
+	72	forwbranch < 752, 1842 > 28.989977% taken
+	89	forwbranch < 31707, 209 > 99.34515% taken
+	97	forwbranch < 0, 209 > 0.0% taken
+	101	forwbranch < 0, 209 > 0.0% taken
+	127	forwbranch < 31707, 0 > 100.0% taken
+	135	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	154	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 31707, 16205 > 66.177574% taken
+	223	forwbranch < 389, 15816 > 2.4004936% taken
+	228	backbranch < 10430, 5386 > 65.94588% taken
+	241	forwbranch < 5386, 0 > 100.0% taken
+	283	forwbranch < 4154, 1232 > 77.125885% taken
+	291	forwbranch < 0, 1232 > 0.0% taken
+	318	forwbranch < 270, 962 > 21.915585% taken
+	338	forwbranch < 234, 36 > 86.666664% taken
+	346	forwbranch < 998, 4388 > 18.52952% taken
+	353	forwbranch < 25, 4363 > 0.56973565% taken
+	361	forwbranch < 4363, 0 > 100.0% taken
+	369	forwbranch < 4388, 998 > 81.47048% taken
+	375	forwbranch < 998, 0 > 100.0% taken
+	391	forwbranch < 38, 960 > 3.8076153% taken
+	395	forwbranch < 14, 946 > 1.4583334% taken
+	437	forwbranch < 386, 3 > 99.22879% taken
+	472	forwbranch < 376, 13 > 96.6581% taken
+	481	forwbranch < 13, 0 > 100.0% taken
+	494	forwbranch < 13, 376 > 3.3419023% taken
+	499	forwbranch < 279, 97 > 74.202126% taken
+	508	forwbranch < 97, 0 > 100.0% taken
+	521	forwbranch < 110, 279 > 28.277636% taken
+	529	forwbranch < 15, 264 > 5.376344% taken
+	543	forwbranch < 248, 16 > 93.93939% taken
+	552	forwbranch < 16, 0 > 100.0% taken
+	565	forwbranch < 126, 263 > 32.390747% taken
+	569	forwbranch < 225, 38 > 85.55133% taken
+	579	forwbranch < 38, 0 > 100.0% taken
+	588	forwbranch < 0, 0 > Never Executed
+	628	forwbranch < 263, 126 > 67.60925% taken
+	632	forwbranch < 0, 126 > 0.0% taken
+	640	forwbranch < 110, 16 > 87.30159% taken
+	681	forwbranch < 0, 263 > 0.0% taken
+	695	forwbranch < 263, 0 > 100.0% taken
+	711	forwbranch < 15, 248 > 5.703422% taken
+	760	forwbranch < 31707, 43212 > 42.32171% taken
+	784	forwbranch < 42526, 686 > 98.412476% taken
+	788	forwbranch < 21, 665 > 3.0612245% taken
+	796	forwbranch < 346, 319 > 52.030075% taken
+	818	forwbranch < 34798, 8414 > 80.52856% taken
+	830	forwbranch < 7661, 753 > 91.05063% taken
+	865	forwbranch < 31707, 31707 > 50.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, def, (LEDU/purdue/cs/bloat/tree/Expr;)LEDU/purdue/cs/bloat/trans/SSAPRE$Def; >
+	17	forwbranch < 1919, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, setLeaves, (Ljava/util/List;)V >
+	3	forwbranch < 2095, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, leaves, ()Ljava/util/List; >
+	4	forwbranch < 0, 2245 > 0.0% taken
+	31	forwbranch < 2245, 1350 > 62.447845% taken
+	48	forwbranch < 1180, 170 > 87.40741% taken
+	55	forwbranch < 0, 170 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, setOperandAt, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/trans/SSAPRE$Def;)V >
+	22	forwbranch < 25551, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, setHasRealUse, (LEDU/purdue/cs/bloat/cfg/Block;Z)V >
+	22	forwbranch < 2604, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, setDownSafe, (Z)V >
+	8	forwbranch < 10125, 0 > 100.0% taken
+M 72 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TBAA;, canAlias, (LEDU/purdue/cs/bloat/editor/EditorContext;LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	4	forwbranch < 883, 0 > 100.0% taken
+	13	forwbranch < 883, 0 > 100.0% taken
+	23	forwbranch < 883, 0 > 100.0% taken
+	37	forwbranch < 883, 0 > 100.0% taken
+	52	forwbranch < 883, 0 > 100.0% taken
+	67	forwbranch < 883, 0 > 100.0% taken
+	83	forwbranch < 803, 80 > 90.93998% taken
+	99	forwbranch < 0, 883 > 0.0% taken
+	104	forwbranch < 803, 80 > 90.93998% taken
+	113	forwbranch < 0, 803 > 0.0% taken
+	117	forwbranch < 803, 0 > 100.0% taken
+	134	forwbranch < 0, 803 > 0.0% taken
+	141	forwbranch < 0, 803 > 0.0% taken
+	303	forwbranch < 803, 0 > 100.0% taken
+	314	forwbranch < 0, 0 > Never Executed
+	325	forwbranch < 0, 0 > Never Executed
+	336	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 0 > Never Executed
+	403	forwbranch < 803, 0 > 100.0% taken
+	414	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	436	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 783, 20 > 97.50934% taken
+	517	forwbranch < 0, 20 > 0.0% taken
+	545	forwbranch < 0, 20 > 0.0% taken
+	553	forwbranch < 0, 20 > 0.0% taken
+	569	forwbranch < 20, 0 > 100.0% taken
+	585	forwbranch < 0, 0 > Never Executed
+	602	forwbranch < 0, 0 > Never Executed
+	623	forwbranch < 0, 0 > Never Executed
+	652	forwbranch < 0, 0 > Never Executed
+	670	forwbranch < 0, 0 > Never Executed
+	691	forwbranch < 0, 0 > Never Executed
+	726	forwbranch < 0, 0 > Never Executed
+	731	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, setDef, (LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/trans/SSAPRE$Def;)V >
+	3	forwbranch < 1174, 0 > 100.0% taken
+	41	forwbranch < 0, 1174 > 0.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, resetDownSafe, (LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;LEDU/purdue/cs/bloat/cfg/Block;)V >
+	5	forwbranch < 1500, 370 > 80.213905% taken
+	19	forwbranch < 510, 990 > 34.0% taken
+	33	forwbranch < 980, 10 > 98.9899% taken
+	45	forwbranch < 10, 0 > 100.0% taken
+	107	forwbranch < 10, 20 > 33.333332% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, computeCanBeAvail, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;)V >
+	19	forwbranch < 317, 47444 > 0.66372144% taken
+	41	forwbranch < 668, 46776 > 1.4079757% taken
+	52	forwbranch < 591, 77 > 88.47305% taken
+	63	forwbranch < 233, 358 > 39.424706% taken
+	91	forwbranch < 102, 391 > 20.689655% taken
+	117	forwbranch < 260, 131 > 66.49616% taken
+M 16 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, computeLater, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;)V >
+	19	forwbranch < 634, 94624 > 0.6655609% taken
+	41	forwbranch < 1335, 93289 > 1.4108472% taken
+	79	forwbranch < 634, 94624 > 0.6655609% taken
+	101	forwbranch < 1335, 93289 > 1.4108472% taken
+	112	forwbranch < 650, 685 > 48.68914% taken
+	140	forwbranch < 315, 2213 > 12.4604435% taken
+	166	forwbranch < 924, 1289 > 41.753277% taken
+	176	forwbranch < 954, 335 > 74.010864% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, resetCanBeAvail, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;)V >
+	24	forwbranch < 430, 69820 > 0.61209965% taken
+	48	forwbranch < 4440, 65380 > 6.3592095% taken
+	77	forwbranch < 4440, 17520 > 20.218578% taken
+	104	forwbranch < 16530, 990 > 94.34931% taken
+	114	forwbranch < 850, 140 > 85.85859% taken
+	133	forwbranch < 30, 820 > 3.5294118% taken
+	141	forwbranch < 652, 168 > 79.51219% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, setCanBeAvail, (Z)V >
+	8	forwbranch < 430, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, setLater, (Z)V >
+	8	forwbranch < 2005, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, resetLater, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;)V >
+	24	forwbranch < 450, 72540 > 0.6165228% taken
+	48	forwbranch < 3348, 69192 > 4.6153846% taken
+	77	forwbranch < 3121, 11831 > 20.873463% taken
+	104	forwbranch < 9801, 2030 > 82.84169% taken
+	112	forwbranch < 227, 1803 > 11.182266% taken
+M 32 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, finalizeVisit, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/trans/SSAPRE$Def;)V >
+	3	forwbranch < 66396, 0 > 100.0% taken
+	40	forwbranch < 65461, 935 > 98.59178% taken
+	48	forwbranch < 466, 469 > 49.839573% taken
+	86	forwbranch < 66396, 821 > 98.77858% taken
+	104	forwbranch < 821, 0 > 100.0% taken
+	125	forwbranch < 0, 821 > 0.0% taken
+	166	forwbranch < 527, 294 > 64.19001% taken
+	172	forwbranch < 294, 0 > 100.0% taken
+	201	forwbranch < 238, 56 > 80.95238% taken
+	267	forwbranch < 66396, 89574 > 42.569725% taken
+	292	forwbranch < 85513, 4061 > 95.46632% taken
+	300	forwbranch < 1660, 2401 > 40.876633% taken
+	309	forwbranch < 2296, 105 > 95.62682% taken
+	332	forwbranch < 0, 2296 > 0.0% taken
+	356	forwbranch < 2135, 161 > 92.98781% taken
+	397	forwbranch < 66396, 65952 > 50.16774% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, willBeAvail, ()Z >
+	4	forwbranch < 1880, 7875 > 19.272167% taken
+	11	forwbranch < 1155, 6720 > 14.666667% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, setAvailDef, (LEDU/purdue/cs/bloat/trans/SSAPRE$Def;LEDU/purdue/cs/bloat/trans/SSAPRE$Def;)V >
+	3	forwbranch < 1424, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, availDef, (LEDU/purdue/cs/bloat/trans/SSAPRE$Def;)LEDU/purdue/cs/bloat/trans/SSAPRE$Def; >
+	17	forwbranch < 4454, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, setReload, (LEDU/purdue/cs/bloat/tree/Expr;Z)V >
+	3	forwbranch < 420, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, setSave, (LEDU/purdue/cs/bloat/tree/Expr;Z)V >
+	3	forwbranch < 310, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, canInsert, (LEDU/purdue/cs/bloat/cfg/Block;)Z >
+	20	forwbranch < 3280, 150 > 95.62682% taken
+	31	forwbranch < 660, 2620 > 20.121952% taken
+	38	forwbranch < 0, 2620 > 0.0% taken
+	52	forwbranch < 2620, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Phi;, setSaveOperand, (LEDU/purdue/cs/bloat/cfg/Block;Z)V >
+	22	forwbranch < 150, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, save, (LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	15	forwbranch < 1024, 150 > 87.22317% taken
+	22	forwbranch < 0, 150 > 0.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, save, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;LEDU/purdue/cs/bloat/tree/VarExpr;LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	3	forwbranch < 150, 0 > 100.0% taken
+	52	forwbranch < 150, 0 > 100.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+	137	forwbranch < 150, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, reload, (LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	15	forwbranch < 604, 420 > 58.984375% taken
+	22	forwbranch < 0, 420 > 0.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, reload, (LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;LEDU/purdue/cs/bloat/tree/VarExpr;LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/ssa/SSAConstructionInfo;)V >
+	3	forwbranch < 420, 0 > 100.0% taken
+	52	forwbranch < 420, 0 > 100.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+	132	forwbranch < 420, 0 > 100.0% taken
+	179	forwbranch < 420, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE;, phiRelatedFind, (LEDU/purdue/cs/bloat/tree/Expr;)LEDU/purdue/cs/bloat/tree/Expr; >
+	9	forwbranch < 0, 22156 > 0.0% taken
+	23	forwbranch < 0, 22156 > 0.0% taken
+	27	forwbranch < 4906, 17250 > 22.142986% taken
+	43	forwbranch < 17250, 4906 > 77.85702% taken
+	56	backbranch < 0, 4906 > 0.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, <init>, (LEDU/purdue/cs/bloat/trans/SSAPRE;LEDU/purdue/cs/bloat/tree/Expr;LEDU/purdue/cs/bloat/trans/SSAPRE$ExprKey;)V >
+	82	forwbranch < 705, 100860 > 0.69413674% taken
+	178	forwbranch < 325, 380 > 46.09929% taken
+	277	forwbranch < 465, 240 > 65.95744% taken
+	292	forwbranch < 705, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprInfo;, addReal, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	4	forwbranch < 110, 1165 > 8.627451% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprWorklist;, addKill, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/trans/SSAPRE$Kill;)V >
+	3	forwbranch < 4220, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$1;, visitBlock, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	10	forwbranch < 3340, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$1;, visitPhiStmt, (LEDU/purdue/cs/bloat/tree/PhiStmt;)V >
+	11	forwbranch < 616, 29 > 95.503876% taken
+	54	forwbranch < 645, 4360 > 12.887113% taken
+	73	forwbranch < 1040, 3320 > 23.85321% taken
+	81	forwbranch < 0, 3320 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$1;, visitConstantExpr, (LEDU/purdue/cs/bloat/tree/ConstantExpr;)V >
+	11	forwbranch < 3540, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$1;, visitVarExpr, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	11	forwbranch < 18797, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$1;, visitCallExpr, (LEDU/purdue/cs/bloat/tree/CallExpr;)V >
+	11	forwbranch < 3970, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$1;, visitMemRefExpr, (LEDU/purdue/cs/bloat/tree/MemRefExpr;)V >
+	11	forwbranch < 920, 0 > 100.0% taken
+	35	forwbranch < 720, 200 > 78.26087% taken
+	65	forwbranch < 670, 250 > 72.82609% taken
+	99	forwbranch < 200, 720 > 21.73913% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$1;, visitStmt, (LEDU/purdue/cs/bloat/tree/Stmt;)V >
+	11	forwbranch < 17210, 340 > 98.062675% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$1;, visitExpr, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	11	forwbranch < 6492, 0 > 100.0% taken
+	33	forwbranch < 6017, 475 > 92.683304% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ExprPropagation;, propExpr, (LEDU/purdue/cs/bloat/cfg/Block;LEDU/purdue/cs/bloat/tree/LocalExpr;LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	3	forwbranch < 5, 0 > 100.0% taken
+	72	forwbranch < 5, 0 > 100.0% taken
+	93	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 5, 5 > 50.0% taken
+	218	forwbranch < 5, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ExprPropagation$1;, visitTree, (LEDU/purdue/cs/bloat/tree/Tree;)V >
+	22	forwbranch < 4020, 23880 > 14.408602% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ExprPropagation$1;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	12	forwbranch < 1355, 3905 > 25.760456% taken
+	33	forwbranch < 1355, 0 > 100.0% taken
+	61	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+M 20 < SystemAppCL, LEDU/purdue/cs/bloat/trans/ExprPropagation$1;, visitPhiStmt, (LEDU/purdue/cs/bloat/tree/PhiStmt;)V >
+	9	forwbranch < 1005, 0 > 100.0% taken
+	29	forwbranch < 1005, 0 > 100.0% taken
+	49	forwbranch < 1005, 0 > 100.0% taken
+	59	forwbranch < 5, 1665 > 0.2994012% taken
+	78	forwbranch < 250, 1415 > 15.015015% taken
+	86	forwbranch < 172, 1243 > 12.155477% taken
+	99	forwbranch < 645, 598 > 51.890587% taken
+	109	forwbranch < 0, 250 > 0.0% taken
+	119	forwbranch < 20, 230 > 8.0% taken
+	144	forwbranch < 0, 5 > 0.0% taken
+M 22 < SystemAppCL, LEDU/purdue/cs/bloat/diva/InductionVarAnalyzer;, isMu, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;LEDU/purdue/cs/bloat/cfg/FlowGraph;)LEDU/purdue/cs/bloat/cfg/Block; >
+	5	forwbranch < 330, 270 > 55.0% taken
+	19	forwbranch < 0, 330 > 0.0% taken
+	30	forwbranch < 210, 120 > 63.636364% taken
+	80	forwbranch < 97, 113 > 46.190475% taken
+	92	forwbranch < 0, 113 > 0.0% taken
+	101	forwbranch < 0, 113 > 0.0% taken
+	107	forwbranch < 113, 0 > 100.0% taken
+	178	forwbranch < 0, 97 > 0.0% taken
+	190	forwbranch < 0, 97 > 0.0% taken
+	199	forwbranch < 0, 97 > 0.0% taken
+	205	forwbranch < 97, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/diva/InductionVarAnalyzer$1;, visitComponent, (Ljava/util/List;)V >
+	3	forwbranch < 26920, 0 > 100.0% taken
+	27	forwbranch < 26920, 50450 > 34.793846% taken
+	43	forwbranch < 50450, 0 > 100.0% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/diva/InductionVarAnalyzer$2;, visitPhiJoinStmt, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;)V >
+	21	forwbranch < 390, 210 > 65.0% taken
+	51	forwbranch < 210, 0 > 100.0% taken
+	211	forwbranch < 210, 0 > 100.0% taken
+	296	forwbranch < 0, 210 > 0.0% taken
+	340	forwbranch < 0, 210 > 0.0% taken
+	374	forwbranch < 210, 0 > 100.0% taken
+	425	forwbranch < 390, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/diva/InductionVarAnalyzer$2;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	4	forwbranch < 0, 22615 > 0.0% taken
+	24	forwbranch < 20945, 1670 > 92.615524% taken
+	60	forwbranch < 14835, 7780 > 65.59805% taken
+	82	forwbranch < 22615, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/diva/InductionVarAnalyzer$2;, visitStaticFieldExpr, (LEDU/purdue/cs/bloat/tree/StaticFieldExpr;)V >
+	4	forwbranch < 1180, 0 > 100.0% taken
+	24	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 800, 380 > 67.79661% taken
+	82	forwbranch < 1180, 0 > 100.0% taken
+M 26 < SystemAppCL, LEDU/purdue/cs/bloat/diva/InductionVarAnalyzer$2;, visitIfCmpStmt, (LEDU/purdue/cs/bloat/tree/IfCmpStmt;)V >
+	11	forwbranch < 90, 170 > 34.615383% taken
+	39	forwbranch < 180, 80 > 69.23077% taken
+	45	forwbranch < 80, 0 > 100.0% taken
+	63	forwbranch < 0, 80 > 0.0% taken
+	79	forwbranch < 80, 0 > 100.0% taken
+	132	forwbranch < 160, 20 > 88.888885% taken
+	160	forwbranch < 180, 0 > 100.0% taken
+	166	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	200	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 180, 80 > 69.23077% taken
+	248	forwbranch < 0, 80 > 0.0% taken
+	255	forwbranch < 80, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/VerifyCFG;, verifyTargets, (LEDU/purdue/cs/bloat/cfg/Block;Ljava/util/Set;)V >
+	19	forwbranch < 0, 3200 > 0.0% taken
+	97	forwbranch < 3200, 4390 > 42.160736% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/VerifyCFG;, visitNode, (LEDU/purdue/cs/bloat/tree/Node;)V >
+	19	forwbranch < 0, 39932 > 0.0% taken
+	76	forwbranch < 0, 39932 > 0.0% taken
+	157	forwbranch < 39932, 34294 > 53.79786% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/VerifyCFG;, visitExpr, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	4	forwbranch < 29260, 0 > 100.0% taken
+	12	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/VerifyCFG;, visitFlowGraph, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	3	forwbranch < 40, 0 > 100.0% taken
+	82	forwbranch < 40, 12790 > 0.31176928% taken
+	150	forwbranch < 40, 0 > 100.0% taken
+M 18 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/VerifyCFG;, visitBlock, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	8	forwbranch < 0, 3340 > 0.0% taken
+	56	forwbranch < 3340, 0 > 100.0% taken
+	84	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	187	forwbranch < 0, 0 > Never Executed
+	196	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	298	forwbranch < 3340, 4530 > 42.439644% taken
+	419	forwbranch < 3340, 4530 > 42.439644% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/VerifyCFG;, visitSwitchStmt, (LEDU/purdue/cs/bloat/tree/SwitchStmt;)V >
+	27	forwbranch < 90, 300 > 23.076923% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/VerifyCFG;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	15	forwbranch < 3730, 0 > 100.0% taken
+	23	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 3730 > 0.0% taken
+	118	forwbranch < 0, 3730 > 0.0% taken
+	208	forwbranch < 3730, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/VerifyCFG;, visitVarExpr, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	4	forwbranch < 5322, 10210 > 34.264744% taken
+	11	forwbranch < 10210, 0 > 100.0% taken
+	21	forwbranch < 0, 0 > Never Executed
+M 44 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/Liveness;, computeIntersections, ()V >
+	14	forwbranch < 40, 0 > 100.0% taken
+	85	forwbranch < 40, 3340 > 1.183432% taken
+	158	forwbranch < 40, 3260 > 1.2121212% taken
+	217	forwbranch < 40, 3260 > 1.2121212% taken
+	282	forwbranch < 40, 1670 > 2.3391812% taken
+	340	forwbranch < 1670, 7780 > 17.671957% taken
+	367	forwbranch < 7390, 390 > 94.987144% taken
+	378	forwbranch < 250, 140 > 64.10256% taken
+	393	forwbranch < 7780, 0 > 100.0% taken
+	402	forwbranch < 7780, 0 > 100.0% taken
+	453	forwbranch < 4400, 3380 > 56.55527% taken
+	486	forwbranch < 0, 53538 > 0.0% taken
+	510	forwbranch < 50158, 3380 > 93.68673% taken
+	543	forwbranch < 0, 3380 > 0.0% taken
+	630	forwbranch < 0, 4400 > 0.0% taken
+	702	forwbranch < 40, 0 > 100.0% taken
+	750	forwbranch < 0, 0 > Never Executed
+	777	forwbranch < 0, 0 > Never Executed
+	819	forwbranch < 0, 0 > Never Executed
+	838	forwbranch < 0, 0 > Never Executed
+	844	forwbranch < 0, 0 > Never Executed
+	934	forwbranch < 40, 0 > 100.0% taken
+M 40 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/Liveness;, liveOut, (Ljava/util/BitSet;[Ljava/util/List;LEDU/purdue/cs/bloat/cfg/Block;ILEDU/purdue/cs/bloat/codegen/Liveness$IGNode;Ljava/util/Collection;)V >
+	65	forwbranch < 7780, 48550 > 13.811468% taken
+	108	forwbranch < 48550, 0 > 100.0% taken
+	172	forwbranch < 5440, 202245 > 2.6193514% taken
+	182	forwbranch < 43110, 159135 > 21.315731% taken
+	200	forwbranch < 159135, 0 > 100.0% taken
+	242	forwbranch < 151355, 7780 > 95.11107% taken
+	270	forwbranch < 151355, 79250 > 65.63387% taken
+	301	forwbranch < 79250, 0 > 100.0% taken
+	353	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	420	forwbranch < 0, 0 > Never Executed
+	445	forwbranch < 0, 0 > Never Executed
+	457	forwbranch < 0, 0 > Never Executed
+	526	forwbranch < 5440, 73810 > 6.864353% taken
+	532	forwbranch < 73810, 0 > 100.0% taken
+	600	forwbranch < 5440, 0 > 100.0% taken
+	622	forwbranch < 5440, 43110 > 11.204944% taken
+	647	forwbranch < 43110, 60480 > 41.615986% taken
+	676	forwbranch < 60480, 0 > 100.0% taken
+	719	forwbranch < 19710, 40770 > 32.589287% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/Liveness;, intersections, (LEDU/purdue/cs/bloat/tree/VarExpr;)Ljava/util/Iterator; >
+	1	forwbranch < 0, 1670 > 0.0% taken
+	33	forwbranch < 0, 1670 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/Liveness$2;, visitPhiJoinStmt, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;)V >
+	7	forwbranch < 600, 0 > 100.0% taken
+	45	forwbranch < 600, 4200 > 12.5% taken
+	156	forwbranch < 3600, 600 > 85.71429% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/Liveness$3;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	4	forwbranch < 0, 5470 > 0.0% taken
+	54	forwbranch < 645, 4825 > 11.791591% taken
+	60	forwbranch < 4825, 0 > 100.0% taken
+	160	forwbranch < 645, 0 > 100.0% taken
+	217	forwbranch < 0, 645 > 0.0% taken
+	232	forwbranch < 4400, 1070 > 80.43876% taken
+	253	forwbranch < 0, 1070 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator$IGNode;, coalesce, (LEDU/purdue/cs/bloat/codegen/RegisterAllocator$IGNode;)V >
+	8	forwbranch < 0, 813 > 0.0% taken
+	48	forwbranch < 813, 1011 > 44.57237% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator$IGNode;, computeWeight, ()V >
+	21	forwbranch < 404, 404 > 50.0% taken
+	67	forwbranch < 404, 1977 > 16.96766% taken
+	89	forwbranch < 1012, 965 > 51.18867% taken
+	131	forwbranch < 0, 15973 > 0.0% taken
+	159	forwbranch < 15008, 965 > 93.95856% taken
+	194	forwbranch < 1012, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator$IGNode;, blockWeight, (LEDU/purdue/cs/bloat/cfg/Block;)F >
+	16	forwbranch < 9450, 0 > 100.0% taken
+	29	forwbranch < 9450, 7180 > 56.825016% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator$1;, visitBlock, (LEDU/purdue/cs/bloat/cfg/Block;)V >
+	11	forwbranch < 40, 3300 > 1.1976048% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator$1;, visitPhiStmt, (LEDU/purdue/cs/bloat/tree/PhiStmt;)V >
+	12	forwbranch < 600, 0 > 100.0% taken
+	57	forwbranch < 600, 4200 > 12.5% taken
+	77	forwbranch < 820, 3380 > 19.52381% taken
+	85	forwbranch < 0, 3380 > 0.0% taken
+	97	forwbranch < 2340, 1040 > 69.23077% taken
+	119	forwbranch < 0, 1040 > 0.0% taken
+M 34 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator$1;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	12	forwbranch < 1010, 2720 > 27.077747% taken
+	38	forwbranch < 935, 75 > 92.57426% taken
+	48	forwbranch < 0, 75 > 0.0% taken
+	103	forwbranch < 620, 315 > 66.31016% taken
+	113	forwbranch < 165, 150 > 52.38095% taken
+	148	forwbranch < 15, 150 > 9.090909% taken
+	159	forwbranch < 10, 140 > 6.6666665% taken
+	190	forwbranch < 0, 140 > 0.0% taken
+	214	forwbranch < 10, 15 > 40.0% taken
+	225	forwbranch < 10, 5 > 66.666664% taken
+	256	forwbranch < 0, 5 > 0.0% taken
+	276	forwbranch < 145, 20 > 87.878784% taken
+	281	forwbranch < 10, 10 > 50.0% taken
+	309	forwbranch < 145, 0 > 100.0% taken
+	317	forwbranch < 20, 145 > 12.121212% taken
+	325	forwbranch < 0, 145 > 0.0% taken
+	340	forwbranch < 0, 145 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator$1;, visitInitStmt, (LEDU/purdue/cs/bloat/tree/InitStmt;)V >
+	15	forwbranch < 30, 60 > 33.333332% taken
+M 50 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, removeEmptyBlocks, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	24	forwbranch < 40, 3340 > 1.183432% taken
+	60	forwbranch < 1063, 6870 > 13.399723% taken
+	80	backbranch < 983, 5887 > 14.308588% taken
+	88	backbranch < 0, 5887 > 0.0% taken
+	96	backbranch < 0, 5887 > 0.0% taken
+	104	backbranch < 2277, 3610 > 38.678444% taken
+	160	forwbranch < 40, 60 > 40.0% taken
+	206	forwbranch < 60, 923 > 6.103764% taken
+	223	forwbranch < 923, 0 > 100.0% taken
+	267	forwbranch < 923, 0 > 100.0% taken
+	275	forwbranch < 0, 0 > Never Executed
+	283	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 923 > 0.0% taken
+	334	forwbranch < 923, 1434 > 39.15995% taken
+	355	forwbranch < 0, 1434 > 0.0% taken
+	422	forwbranch < 0, 0 > Never Executed
+	447	forwbranch < 0, 0 > Never Executed
+	468	forwbranch < 0, 0 > Never Executed
+	494	forwbranch < 0, 0 > Never Executed
+	559	forwbranch < 0, 0 > Never Executed
+	657	forwbranch < 0, 0 > Never Executed
+	682	forwbranch < 0, 0 > Never Executed
+	703	forwbranch < 0, 0 > Never Executed
+	729	forwbranch < 0, 0 > Never Executed
+	853	forwbranch < 40, 20 > 66.666664% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, replaceJoinPhis, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	16	forwbranch < 40, 3260 > 1.2121212% taken
+	34	forwbranch < 3260, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, genPostponed, (LEDU/purdue/cs/bloat/tree/Node;)V >
+	15	forwbranch < 42955, 0 > 100.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, genIfCmpStmt, (LEDU/purdue/cs/bloat/tree/IfCmpStmt;)V >
+	25	forwbranch < 260, 0 > 100.0% taken
+	61	switch     < 0, 0, 0 >
+	175	switch     < 10, 20, 0, 200, 10, 20, 0 >
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, genIfZeroStmt, (LEDU/purdue/cs/bloat/tree/IfZeroStmt;)V >
+	28	forwbranch < 680, 0 > 100.0% taken
+	32	switch     < 0, 0, 0 >
+	115	switch     < 400, 220, 0, 0, 20, 40, 0 >
+M 22 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitFlowGraph, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	76	forwbranch < 40, 2337 > 1.6827934% taken
+	85	forwbranch < 40, 2297 > 1.711596% taken
+	112	forwbranch < 2337, 0 > 100.0% taken
+	166	forwbranch < 2337, 0 > 100.0% taken
+	203	forwbranch < 0, 40 > 0.0% taken
+	244	forwbranch < 40, 0 > 100.0% taken
+	287	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 0, 0 > Never Executed
+	339	forwbranch < 0, 0 > Never Executed
+	344	backbranch < 0, 0 > Never Executed
+	355	backbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, createStore, (LEDU/purdue/cs/bloat/tree/VarExpr;LEDU/purdue/cs/bloat/tree/Expr;)LEDU/purdue/cs/bloat/tree/Stmt; >
+	12	forwbranch < 820, 87 > 90.407936% taken
+	19	forwbranch < 87, 0 > 100.0% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitExprStmt, (LEDU/purdue/cs/bloat/tree/ExprStmt;)V >
+	3	forwbranch < 6827, 0 > 100.0% taken
+	48	forwbranch < 4507, 2320 > 66.01728% taken
+	61	forwbranch < 1390, 930 > 59.91379% taken
+	74	forwbranch < 930, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitInitStmt, (LEDU/purdue/cs/bloat/tree/InitStmt;)V >
+	3	forwbranch < 30, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitGotoStmt, (LEDU/purdue/cs/bloat/tree/GotoStmt;)V >
+	3	forwbranch < 1247, 0 > 100.0% taken
+	46	forwbranch < 476, 771 > 38.17161% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitIfCmpStmt, (LEDU/purdue/cs/bloat/tree/IfCmpStmt;)V >
+	3	forwbranch < 260, 0 > 100.0% taken
+	46	forwbranch < 57, 203 > 21.923077% taken
+	62	forwbranch < 57, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitIfZeroStmt, (LEDU/purdue/cs/bloat/tree/IfZeroStmt;)V >
+	3	forwbranch < 680, 0 > 100.0% taken
+	46	forwbranch < 20, 660 > 2.9411764% taken
+	62	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitLabelStmt, (LEDU/purdue/cs/bloat/tree/LabelStmt;)V >
+	3	forwbranch < 6300, 0 > 100.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitReturnExprStmt, (LEDU/purdue/cs/bloat/tree/ReturnExprStmt;)V >
+	3	forwbranch < 10, 0 > 100.0% taken
+	53	forwbranch < 10, 0 > 100.0% taken
+	78	forwbranch < 0, 10 > 0.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	134	forwbranch < 0, 0 > Never Executed
+	162	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitReturnStmt, (LEDU/purdue/cs/bloat/tree/ReturnStmt;)V >
+	3	forwbranch < 50, 0 > 100.0% taken
+M 80 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	3	forwbranch < 4637, 0 > 100.0% taken
+	48	forwbranch < 4507, 130 > 97.196465% taken
+	60	forwbranch < 130, 4507 > 2.8035367% taken
+	67	forwbranch < 2720, 1787 > 60.350567% taken
+	74	forwbranch < 1625, 162 > 90.934525% taken
+	91	forwbranch < 132, 30 > 81.48148% taken
+	97	forwbranch < 30, 0 > 100.0% taken
+	117	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 2720, 1757 > 60.75497% taken
+	135	forwbranch < 590, 1167 > 33.579967% taken
+	154	forwbranch < 1022, 145 > 87.57498% taken
+	182	forwbranch < 15, 130 > 10.344828% taken
+	195	forwbranch < 0, 130 > 0.0% taken
+	203	forwbranch < 0, 130 > 0.0% taken
+	221	forwbranch < 0, 130 > 0.0% taken
+	242	forwbranch < 10, 5 > 66.666664% taken
+	255	forwbranch < 5, 0 > 100.0% taken
+	263	forwbranch < 0, 0 > Never Executed
+	273	forwbranch < 0, 0 > Never Executed
+	291	forwbranch < 0, 0 > Never Executed
+	306	forwbranch < 15, 130 > 10.344828% taken
+	316	forwbranch < 120, 10 > 92.30769% taken
+	344	forwbranch < 125, 10 > 92.59259% taken
+	352	forwbranch < 1037, 130 > 88.86033% taken
+	364	forwbranch < 130, 0 > 100.0% taken
+	370	forwbranch < 0, 0 > Never Executed
+	419	forwbranch < 0, 0 > Never Executed
+	480	forwbranch < 0, 0 > Never Executed
+	532	forwbranch < 0, 0 > Never Executed
+	574	forwbranch < 0, 130 > 0.0% taken
+	608	forwbranch < 130, 0 > 100.0% taken
+	657	forwbranch < 0, 0 > Never Executed
+	724	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	837	forwbranch < 4347, 130 > 97.09627% taken
+	844	forwbranch < 130, 0 > 100.0% taken
+	854	forwbranch < 0, 0 > Never Executed
+	905	forwbranch < 130, 0 > 100.0% taken
+	915	forwbranch < 0, 0 > Never Executed
+	969	forwbranch < 130, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitSwitchStmt, (LEDU/purdue/cs/bloat/tree/SwitchStmt;)V >
+	3	forwbranch < 90, 0 > 100.0% taken
+	55	forwbranch < 90, 300 > 23.076923% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitStackManipStmt, (LEDU/purdue/cs/bloat/tree/StackManipStmt;)V >
+	3	forwbranch < 1270, 0 > 100.0% taken
+	40	switch     < 0, 1270, 0, 0, 0, 0, 0, 0 >
+M 20 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	582	forwbranch < 0, 195 > 0.0% taken
+	604	forwbranch < 0, 0 > Never Executed
+	626	forwbranch < 0, 0 > Never Executed
+	648	forwbranch < 0, 0 > Never Executed
+	708	switch     < 0, 60, 10, 65, 30, 10, 0, 0, 0, 0, 20, 0 >
+M 34 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	14	forwbranch < 170, 220 > 43.589745% taken
+	24	forwbranch < 150, 70 > 68.181816% taken
+	53	forwbranch < 150, 0 > 100.0% taken
+	82	forwbranch < 40, 110 > 26.666666% taken
+	111	forwbranch < 40, 0 > 100.0% taken
+	140	forwbranch < 0, 40 > 0.0% taken
+	169	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	227	forwbranch < 0, 0 > Never Executed
+	297	forwbranch < 130, 40 > 76.47059% taken
+	326	forwbranch < 130, 0 > 100.0% taken
+	355	forwbranch < 110, 20 > 84.61539% taken
+	384	forwbranch < 110, 0 > 100.0% taken
+	413	forwbranch < 0, 110 > 0.0% taken
+	442	forwbranch < 0, 0 > Never Executed
+	471	forwbranch < 0, 0 > Never Executed
+	500	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitCallMethodExpr, (LEDU/purdue/cs/bloat/tree/CallMethodExpr;)V >
+	14	forwbranch < 1320, 2630 > 33.41772% taken
+	29	forwbranch < 110, 1210 > 8.333333% taken
+	44	forwbranch < 0, 110 > 0.0% taken
+	96	forwbranch < 3950, 3340 > 54.183815% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitCallStaticExpr, (LEDU/purdue/cs/bloat/tree/CallStaticExpr;)V >
+	34	forwbranch < 20, 50 > 28.571428% taken
+M 42 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitCastExpr, (LEDU/purdue/cs/bloat/tree/CastExpr;)V >
+	17	forwbranch < 110, 230 > 32.35294% taken
+	55	switch     < 0, 0, 0, 0, 0, 110, 0, 0 >
+	97	switch     < 110, 0, 0, 0, 0, 0, 0, 0 >
+	259	switch     < 0, 0, 0, 0, 0, 0, 0, 0 >
+	479	switch     < 0, 0, 0, 0, 0, 0, 0, 0 >
+	669	switch     < 0, 0, 0, 0, 0, 0, 0, 0 >
+M 72 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitLocalExpr, (LEDU/purdue/cs/bloat/tree/LocalExpr;)V >
+	18	forwbranch < 6084, 0 > 100.0% taken
+	33	forwbranch < 4327, 1757 > 71.12097% taken
+	39	forwbranch < 1757, 0 > 100.0% taken
+	50	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 1757, 0 > 100.0% taken
+	86	forwbranch < 1107, 650 > 63.005123% taken
+	112	forwbranch < 0, 1107 > 0.0% taken
+	141	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	265	forwbranch < 4327, 0 > 100.0% taken
+	276	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 0 > Never Executed
+	291	forwbranch < 0, 0 > Never Executed
+	364	forwbranch < 947, 3380 > 21.885834% taken
+	390	forwbranch < 0, 947 > 0.0% taken
+	419	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	477	forwbranch < 0, 0 > Never Executed
+	543	forwbranch < 6084, 0 > 100.0% taken
+	559	forwbranch < 0, 6084 > 0.0% taken
+	566	forwbranch < 1757, 4327 > 28.879026% taken
+	591	forwbranch < 4327, 0 > 100.0% taken
+	605	forwbranch < 6084, 0 > 100.0% taken
+	645	forwbranch < 0, 0 > Never Executed
+	649	forwbranch < 0, 0 > Never Executed
+	706	forwbranch < 0, 0 > Never Executed
+	710	forwbranch < 0, 0 > Never Executed
+	767	forwbranch < 0, 0 > Never Executed
+	771	forwbranch < 0, 0 > Never Executed
+	823	forwbranch < 0, 6084 > 0.0% taken
+	830	forwbranch < 4327, 1757 > 71.12097% taken
+	855	forwbranch < 1757, 0 > 100.0% taken
+	869	forwbranch < 6084, 0 > 100.0% taken
+	880	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitShiftExpr, (LEDU/purdue/cs/bloat/tree/ShiftExpr;)V >
+	17	forwbranch < 0, 50 > 0.0% taken
+	24	forwbranch < 20, 30 > 40.0% taken
+	54	forwbranch < 20, 0 > 100.0% taken
+	111	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+	148	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator;, visitStaticFieldExpr, (LEDU/purdue/cs/bloat/tree/StaticFieldExpr;)V >
+	14	forwbranch < 350, 30 > 92.10526% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/RegisterAllocator$2;, compare, (Ljava/lang/Object;Ljava/lang/Object;)I >
+	59	forwbranch < 3993, 0 > 100.0% taken
+	73	forwbranch < 3993, 0 > 100.0% taken
+	87	forwbranch < 2043, 1950 > 51.16454% taken
+	97	forwbranch < 184, 1859 > 9.006363% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator$5;, visitFlowGraph, (LEDU/purdue/cs/bloat/cfg/FlowGraph;)V >
+	16	forwbranch < 40, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator$7;, visitPhiJoinStmt, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;)V >
+	23	forwbranch < 600, 4200 > 12.5% taken
+	50	forwbranch < 0, 4200 > 0.0% taken
+	58	forwbranch < 820, 3380 > 19.52381% taken
+	87	forwbranch < 87, 3293 > 2.5739646% taken
+	139	forwbranch < 907, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/codegen/CodeGenerator$4;, visitTree, (LEDU/purdue/cs/bloat/tree/Tree;)V >
+	16	forwbranch < 3340, 18367 > 15.386742% taken
+	33	forwbranch < 17767, 600 > 96.73327% taken
+M 324 < SystemAppCL, LEDU/purdue/cs/bloat/trans/Peephole;, filter, (LEDU/purdue/cs/bloat/editor/Instruction;LEDU/purdue/cs/bloat/editor/Instruction;)LEDU/purdue/cs/bloat/trans/Peephole$Filter; >
+	4	switch     < 1097, 0, 0, 0, 630, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 70, 0, 110, 0, 930, 0, 1430, 0, 0, 0, 0, 0, 0, 65, 0, 0, 0, 30, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 0, 0, 0, 20, 0, 60, 0, 20, 0, 0, 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 400, 220, 20, 0, 0, 40, 10, 20, 10, 200, 0, 20, 0, 0, 731, 0, 0, 90, 0, 10, 0, 0, 0, 0, 9755 >
+	518	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	551	switch     < 0, 0, 0, 0, 0, 0, 930 >
+	615	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	670	switch     < 0, 0, 0, 0, 0 >
+	719	forwbranch < 0, 0 > Never Executed
+	729	forwbranch < 0, 0 > Never Executed
+	759	forwbranch < 995, 102 > 90.70191% taken
+	773	forwbranch < 102, 0 > 100.0% taken
+	790	forwbranch < 0, 0 > Never Executed
+	804	forwbranch < 0, 0 > Never Executed
+	821	forwbranch < 600, 30 > 95.2381% taken
+	835	forwbranch < 30, 0 > 100.0% taken
+	852	forwbranch < 0, 0 > Never Executed
+	866	forwbranch < 0, 0 > Never Executed
+	883	forwbranch < 0, 0 > Never Executed
+	897	forwbranch < 0, 0 > Never Executed
+	912	switch     < 0, 0, 0, 0, 0, 10 >
+	966	forwbranch < 65, 0 > 100.0% taken
+	992	forwbranch < 30, 0 > 100.0% taken
+	1018	forwbranch < 0, 0 > Never Executed
+	1044	forwbranch < 0, 0 > Never Executed
+	1070	forwbranch < 10, 0 > 100.0% taken
+	1082	forwbranch < 0, 0 > Never Executed
+	1092	forwbranch < 0, 0 > Never Executed
+	1126	forwbranch < 0, 20 > 0.0% taken
+	1138	forwbranch < 0, 20 > 0.0% taken
+	1148	forwbranch < 20, 0 > 100.0% taken
+	1182	forwbranch < 0, 10 > 0.0% taken
+	1194	forwbranch < 0, 10 > 0.0% taken
+	1204	forwbranch < 10, 0 > 100.0% taken
+	1238	forwbranch < 160, 40 > 80.0% taken
+	1250	forwbranch < 0, 40 > 0.0% taken
+	1260	forwbranch < 40, 0 > 100.0% taken
+	1294	forwbranch < 0, 0 > Never Executed
+	1306	forwbranch < 0, 0 > Never Executed
+	1316	forwbranch < 0, 0 > Never Executed
+	1350	forwbranch < 0, 20 > 0.0% taken
+	1362	forwbranch < 0, 20 > 0.0% taken
+	1372	forwbranch < 20, 0 > 100.0% taken
+	1406	forwbranch < 0, 0 > Never Executed
+	1413	forwbranch < 0, 0 > Never Executed
+	1444	forwbranch < 0, 0 > Never Executed
+	1451	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 400, 0 > 100.0% taken
+	1494	forwbranch < 0, 0 > Never Executed
+	1504	forwbranch < 0, 0 > Never Executed
+	1546	forwbranch < 220, 0 > 100.0% taken
+	1558	forwbranch < 0, 0 > Never Executed
+	1568	forwbranch < 0, 0 > Never Executed
+	1610	forwbranch < 20, 0 > 100.0% taken
+	1622	forwbranch < 0, 0 > Never Executed
+	1632	forwbranch < 0, 0 > Never Executed
+	1674	forwbranch < 0, 0 > Never Executed
+	1686	forwbranch < 0, 0 > Never Executed
+	1696	forwbranch < 0, 0 > Never Executed
+	1738	forwbranch < 0, 0 > Never Executed
+	1750	forwbranch < 0, 0 > Never Executed
+	1760	forwbranch < 0, 0 > Never Executed
+	1802	forwbranch < 40, 0 > 100.0% taken
+	1814	forwbranch < 0, 0 > Never Executed
+	1824	forwbranch < 0, 0 > Never Executed
+	1861	switch     < 1097, 0, 0, 0, 630, 14491 >
+	1900	switch     < 0, 0, 0, 0, 0, 1727 >
+	1947	forwbranch < 0, 0 > Never Executed
+	1979	forwbranch < 0, 0 > Never Executed
+	2004	switch     < 570, 0, 0, 0, 1120, 14528 >
+	2046	forwbranch < 530, 40 > 92.98245% taken
+	2060	forwbranch < 30, 10 > 75.0% taken
+	2087	forwbranch < 470, 90 > 83.92857% taken
+	2101	forwbranch < 90, 0 > 100.0% taken
+	2128	forwbranch < 0, 0 > Never Executed
+	2142	forwbranch < 0, 0 > Never Executed
+	2169	forwbranch < 0, 0 > Never Executed
+	2183	forwbranch < 0, 0 > Never Executed
+	2210	forwbranch < 1090, 30 > 97.32143% taken
+	2224	forwbranch < 10, 20 > 33.333332% taken
+	2251	forwbranch < 860, 240 > 78.181816% taken
+	2265	forwbranch < 230, 10 > 95.833336% taken
+	2292	forwbranch < 0, 0 > Never Executed
+	2306	forwbranch < 0, 0 > Never Executed
+	2333	forwbranch < 0, 0 > Never Executed
+	2347	forwbranch < 0, 0 > Never Executed
+	2374	forwbranch < 0, 0 > Never Executed
+	2388	forwbranch < 0, 0 > Never Executed
+	2415	forwbranch < 0, 0 > Never Executed
+	2429	forwbranch < 0, 0 > Never Executed
+M 50 < SystemAppCL, LEDU/purdue/cs/bloat/trans/Peephole;, removeUnreachable, (LEDU/purdue/cs/bloat/editor/MethodEditor;Ljava/util/List;)V >
+	24	forwbranch < 40, 26372 > 0.15144631% taken
+	40	forwbranch < 19995, 6377 > 75.81905% taken
+	91	forwbranch < 0, 40 > 0.0% taken
+	142	forwbranch < 40, 0 > 100.0% taken
+	189	forwbranch < 40, 1326 > 2.9282577% taken
+	217	forwbranch < 0, 1326 > 0.0% taken
+	279	forwbranch < 0, 37094 > 0.0% taken
+	299	forwbranch < 6799, 30295 > 18.32911% taken
+	314	forwbranch < 80, 30215 > 0.26406997% taken
+	322	forwbranch < 30215, 0 > 100.0% taken
+	333	forwbranch < 1235, 28980 > 4.0873737% taken
+	341	forwbranch < 28980, 0 > 100.0% taken
+	363	forwbranch < 519, 716 > 42.024292% taken
+	392	forwbranch < 27864, 1116 > 96.14907% taken
+	414	forwbranch < 886, 230 > 79.39068% taken
+	443	forwbranch < 27864, 0 > 100.0% taken
+	454	forwbranch < 27734, 130 > 99.53345% taken
+	483	forwbranch < 40, 90 > 30.76923% taken
+	519	forwbranch < 130, 520 > 20.0% taken
+	538	forwbranch < 270, 250 > 51.923077% taken
+	576	forwbranch < 0, 6799 > 0.0% taken
+	618	forwbranch < 40, 26372 > 0.15144631% taken
+	634	forwbranch < 19995, 6377 > 75.81905% taken
+	653	forwbranch < 19995, 0 > 100.0% taken
+	659	forwbranch < 0, 0 > Never Executed
+M 144 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, buildCode, ()V >
+	75	forwbranch < 60, 20 > 75.0% taken
+	133	forwbranch < 80, 0 > 100.0% taken
+	203	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 80, 50144 > 0.1592864% taken
+	285	forwbranch < 39990, 10154 > 79.75032% taken
+	343	forwbranch < 10154, 0 > 100.0% taken
+	358	forwbranch < 0, 39990 > 0.0% taken
+	379	forwbranch < 39990, 0 > 100.0% taken
+	492	forwbranch < 0, 0 > Never Executed
+	613	forwbranch < 80, 0 > 100.0% taken
+	644	forwbranch < 0, 0 > Never Executed
+	703	forwbranch < 0, 0 > Never Executed
+	720	forwbranch < 0, 0 > Never Executed
+	735	forwbranch < 0, 0 > Never Executed
+	790	forwbranch < 80, 0 > 100.0% taken
+	821	forwbranch < 0, 0 > Never Executed
+	882	forwbranch < 0, 0 > Never Executed
+	929	forwbranch < 0, 0 > Never Executed
+	962	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 80 > 0.0% taken
+	1124	forwbranch < 80, 0 > 100.0% taken
+	1180	forwbranch < 80, 2652 > 2.9282577% taken
+	1201	forwbranch < 0, 2652 > 0.0% taken
+	1275	forwbranch < 0, 2652 > 0.0% taken
+	1281	forwbranch < 2652, 0 > 100.0% taken
+	1339	forwbranch < 0, 2652 > 0.0% taken
+	1400	forwbranch < 2652, 0 > 100.0% taken
+	1438	forwbranch < 0, 71352 > 0.0% taken
+	1458	forwbranch < 10762, 60590 > 15.082969% taken
+	1473	forwbranch < 160, 60430 > 0.26406997% taken
+	1481	forwbranch < 60430, 0 > 100.0% taken
+	1492	forwbranch < 0, 160 > 0.0% taken
+	1498	forwbranch < 160, 0 > 100.0% taken
+	1547	forwbranch < 57960, 2470 > 95.91263% taken
+	1562	forwbranch < 0, 2470 > 0.0% taken
+	1568	forwbranch < 2470, 0 > 100.0% taken
+	1621	forwbranch < 0, 2470 > 0.0% taken
+	1633	forwbranch < 1038, 1432 > 42.024292% taken
+	1674	forwbranch < 2232, 55728 > 3.8509316% taken
+	1682	forwbranch < 55728, 0 > 100.0% taken
+	1697	forwbranch < 0, 2232 > 0.0% taken
+	1703	forwbranch < 2232, 0 > 100.0% taken
+	1756	forwbranch < 0, 2232 > 0.0% taken
+	1768	forwbranch < 1772, 460 > 79.39068% taken
+	1809	forwbranch < 55728, 0 > 100.0% taken
+	1824	forwbranch < 0, 0 > Never Executed
+	1830	forwbranch < 0, 0 > Never Executed
+	1887	forwbranch < 0, 0 > Never Executed
+	1933	forwbranch < 0, 0 > Never Executed
+	1972	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	2023	forwbranch < 0, 0 > Never Executed
+	2053	forwbranch < 0, 0 > Never Executed
+	2104	forwbranch < 0, 0 > Never Executed
+	2116	forwbranch < 0, 0 > Never Executed
+	2157	forwbranch < 55468, 260 > 99.53345% taken
+	2172	forwbranch < 0, 260 > 0.0% taken
+	2178	forwbranch < 260, 0 > 100.0% taken
+	2238	forwbranch < 0, 260 > 0.0% taken
+	2250	forwbranch < 80, 180 > 30.76923% taken
+	2298	forwbranch < 260, 1040 > 20.0% taken
+	2310	forwbranch < 0, 1040 > 0.0% taken
+	2322	forwbranch < 540, 500 > 51.923077% taken
+	2376	forwbranch < 0, 55468 > 0.0% taken
+	2382	forwbranch < 55468, 0 > 100.0% taken
+	2431	forwbranch < 0, 10762 > 0.0% taken
+	2456	forwbranch < 0, 10762 > 0.0% taken
+	2468	forwbranch < 3300, 7462 > 30.663445% taken
+	2494	forwbranch < 0, 10762 > 0.0% taken
+	2500	forwbranch < 10762, 0 > 100.0% taken
+	2559	forwbranch < 80, 50144 > 0.1592864% taken
+	2574	forwbranch < 49744, 400 > 99.2023% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, addLabel, (LEDU/purdue/cs/bloat/editor/Label;)V >
+	3	forwbranch < 0, 10154 > 0.0% taken
+	9	forwbranch < 10154, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray$HeightRecord;, <init>, (LEDU/purdue/cs/bloat/editor/CodeArray;LEDU/purdue/cs/bloat/editor/Label;I)V >
+	12	forwbranch < 0, 2652 > 0.0% taken
+	18	forwbranch < 2652, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, addByte, (I)V >
+	3	forwbranch < 79949, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, addOpcode, (I)V >
+	3	forwbranch < 0, 39990 > 0.0% taken
+	9	forwbranch < 39990, 0 > 100.0% taken
+	75	forwbranch < 80, 39910 > 0.20005001% taken
+	82	forwbranch < 39810, 100 > 99.749435% taken
+	91	forwbranch < 180, 320 > 36.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, addShort, (I)V >
+	3	forwbranch < 12620, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, addBranch, (LEDU/purdue/cs/bloat/editor/Label;)V >
+	3	forwbranch < 0, 3542 > 0.0% taken
+	9	forwbranch < 3542, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, addLongBranch, (LEDU/purdue/cs/bloat/editor/Label;)V >
+	3	forwbranch < 0, 780 > 0.0% taken
+	9	forwbranch < 780, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Switch;, hasContiguousValues, ()Z >
+	16	forwbranch < 100, 80 > 55.555557% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, addInt, (I)V >
+	3	forwbranch < 660, 0 > 100.0% taken
+M 44 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_ldc, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	6	forwbranch < 5090, 60 > 98.83495% taken
+	31	forwbranch < 460, 4630 > 9.037328% taken
+	43	switch     < 60, 1230, 720, 240, 100, 40, 140, 2100 >
+	146	forwbranch < 680, 1420 > 32.38095% taken
+	166	forwbranch < 180, 500 > 26.470589% taken
+	199	forwbranch < 0, 180 > 0.0% taken
+	246	forwbranch < 460, 0 > 100.0% taken
+	260	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	365	forwbranch < 460, 0 > 100.0% taken
+	379	forwbranch < 0, 0 > Never Executed
+	394	forwbranch < 0, 0 > Never Executed
+	446	forwbranch < 460, 0 > 100.0% taken
+	460	forwbranch < 0, 0 > Never Executed
+	475	forwbranch < 0, 0 > Never Executed
+	528	forwbranch < 0, 460 > 0.0% taken
+	546	forwbranch < 0, 460 > 0.0% taken
+M 13 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_iload, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	18	forwbranch < 1874, 0 > 100.0% taken
+	32	forwbranch < 1874, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	86	switch     < 160, 80, 100, 148, 1386 >
+	156	forwbranch < 0, 1386 > 0.0% taken
+M 13 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_aload, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	18	forwbranch < 6700, 0 > 100.0% taken
+	32	forwbranch < 6700, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	86	switch     < 360, 1960, 380, 700, 3300 >
+	156	forwbranch < 0, 3300 > 0.0% taken
+M 13 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_istore, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	18	forwbranch < 2214, 0 > 100.0% taken
+	32	forwbranch < 2214, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	86	switch     < 40, 120, 240, 228, 1586 >
+	156	forwbranch < 0, 1586 > 0.0% taken
+M 13 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_astore, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	18	forwbranch < 1190, 110 > 91.53846% taken
+	32	forwbranch < 1300, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	86	switch     < 0, 120, 40, 140, 1000 >
+	156	forwbranch < 0, 1000 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_iinc, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	23	forwbranch < 260, 0 > 100.0% taken
+	43	forwbranch < 0, 260 > 0.0% taken
+	51	forwbranch < 0, 260 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_ifeq, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 800, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_ifne, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 440, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_iflt, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 40, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_ifle, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 80, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_if_icmpeq, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_if_icmpne, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 40, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_if_icmplt, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_if_icmpge, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 400, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_if_icmple, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 40, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_goto, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	4	forwbranch < 1662, 0 > 100.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_switch, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	21	forwbranch < 180, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 100, 80 > 55.555557% taken
+	126	forwbranch < 80, 200 > 28.571428% taken
+	176	forwbranch < 100, 400 > 20.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/CodeArray;, visit_newarray, (LEDU/purdue/cs/bloat/editor/Instruction;)V >
+	12	forwbranch < 140, 20 > 87.5% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Switch;, uniq, ()V >
+	5	forwbranch < 260, 0 > 100.0% taken
+	56	forwbranch < 260, 630 > 29.213484% taken
+	71	forwbranch < 0, 630 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Switch;, quicksort, (II)V >
+	2	forwbranch < 890, 630 > 58.55263% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/editor/Switch;, partition, (II)I >
+	28	backbranch < 2010, 630 > 76.13636% taken
+	42	backbranch < 0, 630 > 0.0% taken
+	49	forwbranch < 630, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/StackExpr;, equalsExpr, (LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	4	forwbranch < 8788, 9929 > 46.95197% taken
+	27	forwbranch < 59, 9870 > 0.59421897% taken
+	41	forwbranch < 0, 9870 > 0.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/tree/StackManipStmt;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 116012, 499 > 99.57172% taken
+	16	forwbranch < 499, 998 > 33.333332% taken
+	44	forwbranch < 499, 499 > 50.0% taken
+	74	forwbranch < 116012, 116012 > 50.0% taken
+	101	forwbranch < 116012, 232024 > 33.333332% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/StackManipStmt;, clone, ()Ljava/lang/Object; >
+	17	forwbranch < 60, 120 > 33.333332% taken
+	58	forwbranch < 60, 60 > 50.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ArithExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 65736, 325 > 99.50803% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/InstanceOfExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 24590, 270 > 98.91392% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/CastExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 58533, 340 > 99.422485% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ArrayRefExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 24095, 390 > 98.40719% taken
+M 8 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ArrayRefExpr;, equalsExpr, (LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	1	forwbranch < 0, 883 > 0.0% taken
+	8	forwbranch < 80, 803 > 9.060022% taken
+	25	forwbranch < 763, 40 > 95.01868% taken
+	42	forwbranch < 40, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/NewArrayExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 13133, 80 > 99.39454% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ArrayLengthExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 8844, 80 > 99.10354% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/CallStaticExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 900, 20 > 97.82609% taken
+	16	forwbranch < 20, 50 > 28.571428% taken
+	46	forwbranch < 900, 2520 > 26.31579% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/CallStaticExpr;, clone, ()Ljava/lang/Object; >
+	17	forwbranch < 10, 40 > 20.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/ReplaceTarget;, visitTree, (LEDU/purdue/cs/bloat/tree/Tree;)V >
+	9	forwbranch < 0, 3340 > 0.0% taken
+	20	forwbranch < 3340, 0 > 100.0% taken
+	85	forwbranch < 3340, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/ReplaceTarget;, visitGotoStmt, (LEDU/purdue/cs/bloat/tree/GotoStmt;)V >
+	8	forwbranch < 0, 1110 > 0.0% taken
+	14	forwbranch < 1110, 0 > 100.0% taken
+	53	forwbranch < 1110, 0 > 100.0% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/ReplaceTarget;, visitSwitchStmt, (LEDU/purdue/cs/bloat/tree/SwitchStmt;)V >
+	8	forwbranch < 940, 115 > 89.099525% taken
+	14	forwbranch < 115, 0 > 100.0% taken
+	53	forwbranch < 115, 0 > 100.0% taken
+	91	forwbranch < 1055, 5225 > 16.799362% taken
+	101	forwbranch < 4235, 990 > 81.052635% taken
+	107	forwbranch < 990, 0 > 100.0% taken
+	145	forwbranch < 990, 0 > 100.0% taken
+M 12 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/ReplaceTarget;, visitIfStmt, (LEDU/purdue/cs/bloat/tree/IfStmt;)V >
+	8	forwbranch < 900, 1709 > 34.495975% taken
+	14	forwbranch < 1709, 0 > 100.0% taken
+	53	forwbranch < 1709, 0 > 100.0% taken
+	89	forwbranch < 1709, 900 > 65.50403% taken
+	95	forwbranch < 900, 0 > 100.0% taken
+	134	forwbranch < 900, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/cfg/FlowGraph$4;, visitPhiJoinStmt, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;)V >
+	10	forwbranch < 0, 2680 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitTree, (LEDU/purdue/cs/bloat/tree/Tree;)V >
+	7	forwbranch < 0, 40 > 0.0% taken
+	42	forwbranch < 0, 40 > 0.0% taken
+	60	forwbranch < 0, 40 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitExprStmt, (LEDU/purdue/cs/bloat/tree/ExprStmt;)V >
+	8	forwbranch < 0, 1001 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitPhiJoinStmt, (LEDU/purdue/cs/bloat/tree/PhiJoinStmt;)V >
+	8	forwbranch < 3640, 0 > 100.0% taken
+	57	forwbranch < 0, 65413 > 0.0% taken
+	79	forwbranch < 61773, 3640 > 94.435356% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitStoreExpr, (LEDU/purdue/cs/bloat/tree/StoreExpr;)V >
+	8	forwbranch < 315, 0 > 100.0% taken
+	44	forwbranch < 0, 315 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitSwitchStmt, (LEDU/purdue/cs/bloat/tree/SwitchStmt;)V >
+	8	forwbranch < 0, 290 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitArrayLengthExpr, (LEDU/purdue/cs/bloat/tree/ArrayLengthExpr;)V >
+	8	forwbranch < 0, 20 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	8	forwbranch < 20, 200 > 9.090909% taken
+	44	forwbranch < 0, 20 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	8	forwbranch < 140, 90 > 60.869564% taken
+	44	forwbranch < 0, 140 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitCallMethodExpr, (LEDU/purdue/cs/bloat/tree/CallMethodExpr;)V >
+	8	forwbranch < 220, 50 > 81.48148% taken
+	44	forwbranch < 0, 250 > 0.0% taken
+	57	forwbranch < 30, 220 > 12.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitCallStaticExpr, (LEDU/purdue/cs/bloat/tree/CallStaticExpr;)V >
+	8	forwbranch < 0, 70 > 0.0% taken
+	21	forwbranch < 50, 20 > 71.42857% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitNewArrayExpr, (LEDU/purdue/cs/bloat/tree/NewArrayExpr;)V >
+	8	forwbranch < 0, 50 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitIfZeroStmt, (LEDU/purdue/cs/bloat/tree/IfZeroStmt;)V >
+	8	forwbranch < 0, 1720 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ReplaceVisitor;, visitIfCmpStmt, (LEDU/purdue/cs/bloat/tree/IfCmpStmt;)V >
+	8	forwbranch < 140, 150 > 48.275864% taken
+	44	forwbranch < 0, 140 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/CheckExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 250, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FirstOrderChecker;, isLeaf, (LEDU/purdue/cs/bloat/tree/Expr;)Z >
+	4	forwbranch < 1974, 24 > 98.7988% taken
+	22	forwbranch < 839, 1135 > 42.502533% taken
+	29	forwbranch < 878, 257 > 77.35683% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FirstOrderChecker;, visitArithExpr, (LEDU/purdue/cs/bloat/tree/ArithExpr;)V >
+	8	forwbranch < 98, 165 > 37.262356% taken
+	19	forwbranch < 0, 165 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FirstOrderChecker;, visitArrayLengthExpr, (LEDU/purdue/cs/bloat/tree/ArrayLengthExpr;)V >
+	8	forwbranch < 0, 190 > 0.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FirstOrderChecker;, visitArrayRefExpr, (LEDU/purdue/cs/bloat/tree/ArrayRefExpr;)V >
+	3	forwbranch < 440, 0 > 100.0% taken
+	15	forwbranch < 180, 260 > 40.909092% taken
+	26	forwbranch < 20, 240 > 7.6923075% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FirstOrderChecker;, visitCastExpr, (LEDU/purdue/cs/bloat/tree/CastExpr;)V >
+	8	forwbranch < 300, 40 > 88.23529% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FirstOrderChecker;, visitInstanceOfExpr, (LEDU/purdue/cs/bloat/tree/InstanceOfExpr;)V >
+	8	forwbranch < 250, 20 > 92.59259% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FirstOrderChecker;, visitShiftExpr, (LEDU/purdue/cs/bloat/tree/ShiftExpr;)V >
+	8	forwbranch < 30, 20 > 60.0% taken
+	19	forwbranch < 0, 20 > 0.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FirstOrderChecker;, visitStaticFieldExpr, (LEDU/purdue/cs/bloat/tree/StaticFieldExpr;)V >
+	3	forwbranch < 530, 0 > 100.0% taken
+	28	forwbranch < 0, 530 > 0.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprKey;, listChildren, (LEDU/purdue/cs/bloat/tree/Expr;)Ljava/util/List; >
+	12	forwbranch < 9720, 0 > 100.0% taken
+M 30 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$ExprKey;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 5925 > 0.0% taken
+	29	forwbranch < 4895, 1030 > 82.616035% taken
+	45	forwbranch < 4860, 35 > 99.28499% taken
+	82	forwbranch < 4860, 0 > 100.0% taken
+	111	forwbranch < 570, 5803 > 8.943982% taken
+	121	forwbranch < 0, 5803 > 0.0% taken
+	158	forwbranch < 5803, 0 > 100.0% taken
+	168	forwbranch < 507, 5296 > 8.73686% taken
+	176	forwbranch < 381, 4915 > 7.194109% taken
+	203	forwbranch < 1483, 3432 > 30.17294% taken
+	213	forwbranch < 507, 381 > 57.094593% taken
+	221	forwbranch < 0, 381 > 0.0% taken
+	277	forwbranch < 30, 858 > 3.3783784% taken
+	292	forwbranch < 0, 570 > 0.0% taken
+	302	forwbranch < 570, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$FinalChecker;, visitStaticFieldExpr, (LEDU/purdue/cs/bloat/tree/StaticFieldExpr;)V >
+	23	forwbranch < 180, 30 > 85.71429% taken
+	60	forwbranch < 30, 180 > 14.285714% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$14;, compare, (Ljava/lang/Object;Ljava/lang/Object;)I >
+	2	forwbranch < 2870, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$13;, compare, (Ljava/lang/Object;Ljava/lang/Object;)I >
+	2	forwbranch < 50, 0 > 100.0% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$12;, <init>, (LEDU/purdue/cs/bloat/trans/SSAPRE$11;)V >
+	50	forwbranch < 21373, 12512 > 63.075108% taken
+	86	forwbranch < 33406, 479 > 98.586395% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$2;, visitVarExpr, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	6	forwbranch < 809, 0 > 100.0% taken
+	19	forwbranch < 439, 370 > 54.264523% taken
+	32	forwbranch < 60, 310 > 16.216217% taken
+M 4 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$12;, hasNext, ()Z >
+	4	forwbranch < 49104, 34184 > 58.95687% taken
+	11	forwbranch < 33885, 299 > 99.12532% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$12;, next, ()Ljava/lang/Object; >
+	6	forwbranch < 49104, 299 > 99.394775% taken
+	13	forwbranch < 299, 0 > 100.0% taken
+	33	forwbranch < 539, 48565 > 1.0976702% taken
+	55	forwbranch < 180, 359 > 33.395176% taken
+	66	forwbranch < 48924, 479 > 99.030426% taken
+	83	forwbranch < 479, 0 > 100.0% taken
+	126	forwbranch < 12512, 36412 > 25.57436% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$5;, visitExpr, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	7	forwbranch < 30, 2185 > 1.3544018% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$6;, visitExpr, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	7	forwbranch < 30, 170 > 15.0% taken
+M 10 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$6;, visitVarExpr, (LEDU/purdue/cs/bloat/tree/VarExpr;)V >
+	7	forwbranch < 550, 0 > 100.0% taken
+	20	forwbranch < 550, 0 > 100.0% taken
+	52	forwbranch < 305, 245 > 55.454544% taken
+	60	forwbranch < 10, 235 > 4.0816326% taken
+	73	forwbranch < 40, 265 > 13.114754% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tbaa/TBAA;, intersects, (LEDU/purdue/cs/bloat/editor/ClassHierarchy;LEDU/purdue/cs/bloat/editor/Type;LEDU/purdue/cs/bloat/editor/Type;)Z >
+	9	forwbranch < 683, 120 > 85.05604% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$Pair;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 0, 5646 > 0.0% taken
+	21	forwbranch < 1704, 3942 > 30.180658% taken
+	38	forwbranch < 132, 3810 > 3.3485541% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$4;, visitLeaf, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	9	forwbranch < 120, 0 > 100.0% taken
+	38	forwbranch < 0, 120 > 0.0% taken
+	58	forwbranch < 120, 0 > 100.0% taken
+	80	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 120 > 0.0% taken
+	103	forwbranch < 120, 0 > 100.0% taken
+	123	forwbranch < 120, 0 > 100.0% taken
+M 6 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$8;, visitLeaf, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	7	forwbranch < 60, 0 > 100.0% taken
+	31	forwbranch < 0, 60 > 0.0% taken
+	42	forwbranch < 60, 0 > 100.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$8;, visitExpr, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	7	forwbranch < 0, 120 > 0.0% taken
+M 14 < SystemAppCL, LEDU/purdue/cs/bloat/trans/SSAPRE$9;, visitLeaf, (LEDU/purdue/cs/bloat/tree/Expr;)V >
+	9	forwbranch < 0, 20 > 0.0% taken
+	29	forwbranch < 0, 20 > 0.0% taken
+	49	forwbranch < 0, 20 > 0.0% taken
+	71	forwbranch < 10, 10 > 50.0% taken
+	87	forwbranch < 10, 0 > 100.0% taken
+	96	forwbranch < 0, 20 > 0.0% taken
+	119	forwbranch < 10, 10 > 50.0% taken
+M 2 < SystemAppCL, LEDU/purdue/cs/bloat/tree/ShiftExpr;, visitForceChildren, (LEDU/purdue/cs/bloat/tree/TreeVisitor;)V >
+	4	forwbranch < 2803, 50 > 98.24746% taken
+M 6 < SystemAppCL, Ldacapo/FileDigest;, getText, (Ljava/io/File;ZLjava/io/File;)[B >
+	29	forwbranch < 20, 10 > 66.666664% taken
+	33	forwbranch < 0, 10 > 0.0% taken
+	88	forwbranch < 10, 2080 > 0.4784689% taken
+M 2 < SystemAppCL, Ldacapo/FileDigest;, replaceAllFixed, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	12	forwbranch < 30, 10 > 75.0% taken
+M 8 < BootstrapCL, Ljava/security/Security;, loadProviders, (Ljava/lang/String;Ljava/lang/String;)Z >
+	1	forwbranch < 0, 2 > 0.0% taken
+	5	forwbranch < 2, 0 > 100.0% taken
+	122	forwbranch < 0, 0 > Never Executed
+	189	backbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/security/Security;, <clinit>, ()V >
+	44	forwbranch < 0, 1 > 0.0% taken
+	48	forwbranch < 0, 1 > 0.0% taken
+	57	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Lgnu/java/security/Engine;, getInstance, (Ljava/lang/String;Ljava/lang/String;Ljava/security/Provider;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 20, 0 > 100.0% taken
+	23	forwbranch < 20, 0 > 100.0% taken
+	37	forwbranch < 20, 0 > 100.0% taken
+	59	forwbranch < 20, 0 > 100.0% taken
+	73	forwbranch < 20, 0 > 100.0% taken
+	87	forwbranch < 20, 0 > 100.0% taken
+	167	forwbranch < 3160, 20 > 99.37107% taken
+	218	forwbranch < 3140, 20 > 99.36709% taken
+	235	forwbranch < 0, 20 > 0.0% taken
+	247	forwbranch < 20, 0 > 100.0% taken
+	311	backbranch < 3180, 0 > 100.0% taken
+	316	forwbranch < 20, 0 > 100.0% taken
+	440	forwbranch < 20, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/java/security/Engine;, getCompatibleConstructor, (Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/reflect/Constructor; >
+	23	forwbranch < 20, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	71	backbranch < 0, 20 > 0.0% taken
+	84	backbranch < 20, 0 > 100.0% taken
+M 12 < BootstrapCL, Lgnu/java/security/hash/Sha160;, sha, (IIIII[BI)[I >
+	91	backbranch < 816, 51 > 94.117645% taken
+	164	backbranch < 3264, 51 > 98.46154% taken
+	247	backbranch < 1020, 51 > 95.2381% taken
+	326	backbranch < 1020, 51 > 95.2381% taken
+	414	backbranch < 1020, 51 > 95.2381% taken
+	493	backbranch < 1020, 51 > 95.2381% taken
+M 6 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, ([BII)V >
+	39	forwbranch < 0, 21 > 0.0% taken
+	99	backbranch < 0, 21 > 0.0% taken
+	108	forwbranch < 21, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, reset, ()V >
+	25	backbranch < 1344, 21 > 98.46154% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, (B)V >
+	36	forwbranch < 2053, 30 > 98.55977% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, padBuffer, ()[B >
+	13	forwbranch < 0, 21 > 0.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, selfTest, ()Z >
+	3	forwbranch < 19, 1 > 95.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/util/Util;, toString, ([BII)Ljava/lang/String; >
+	63	backbranch < 20, 1 > 95.2381% taken

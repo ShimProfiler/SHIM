@@ -1,0 +1,5996 @@
+M 80 < BootstrapCL, Lorg/jikesrvm/Options;, process, (Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+	49	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 0, 0 > Never Executed
+	152	forwbranch < 0, 0 > Never Executed
+	167	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	193	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	275	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	307	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 0, 0 > Never Executed
+	348	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	372	forwbranch < 0, 0 > Never Executed
+	389	forwbranch < 0, 0 > Never Executed
+	398	forwbranch < 0, 0 > Never Executed
+	413	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	466	forwbranch < 0, 0 > Never Executed
+	484	forwbranch < 0, 0 > Never Executed
+	502	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	535	forwbranch < 0, 0 > Never Executed
+	553	forwbranch < 0, 0 > Never Executed
+	571	forwbranch < 0, 0 > Never Executed
+	589	forwbranch < 0, 0 > Never Executed
+	607	forwbranch < 0, 0 > Never Executed
+	622	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, ()V >
+	9	forwbranch < 0, 2113 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, unlock, ()V >
+	11	forwbranch < 53084, 62276 > 46.01595% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshake, (Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;Lorg/jikesrvm/scheduler/Monitor;Lorg/vmmagic/unboxed/Word;)V >
+	5	forwbranch < 748, 260 > 74.20635% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockNoHandshake, ()V >
+	9	forwbranch < 53193, 60219 > 46.902443% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/RVMThread;, transferExecutionToNewStack, ([BLorg/jikesrvm/ArchitectureSpecific$Registers;)V >
+	61	forwbranch < 0, 0 > Never Executed
+M 20 < BootstrapCL, Ljava/lang/reflect/Array;, getLength, (Ljava/lang/Object;)I >
+	4	forwbranch < 162, 343 > 32.07921% taken
+	17	forwbranch < 162, 0 > 100.0% taken
+	30	forwbranch < 162, 0 > 100.0% taken
+	43	forwbranch < 121, 41 > 74.69136% taken
+	56	forwbranch < 121, 0 > 100.0% taken
+	69	forwbranch < 0, 121 > 0.0% taken
+	82	forwbranch < 0, 0 > Never Executed
+	95	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+M 4 < BootstrapCL, Ljava/lang/VMClassLoader;, <clinit>, ()V >
+	45	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 1, 0 > 100.0% taken
+M 54 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 2, 0 > 100.0% taken
+	21	forwbranch < 2, 0 > 100.0% taken
+	34	forwbranch < 2, 0 > 100.0% taken
+	50	forwbranch < 0, 2 > 0.0% taken
+	60	forwbranch < 0, 2 > 0.0% taken
+	70	forwbranch < 2, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 2, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 1, 1 > 50.0% taken
+	194	forwbranch < 0, 1 > 0.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1, 0 > 100.0% taken
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 1, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 1, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 1 > 0.0% taken
+	386	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Lorg/jikesrvm/jni/ia32/JNIHelpers;, packageAndInvoke, (Ljava/lang/Object;ILorg/vmmagic/unboxed/Address;Lorg/jikesrvm/classloader/TypeReference;ZZ)Ljava/lang/Object; >
+	22	forwbranch < 29885, 0 > 100.0% taken
+	85	forwbranch < 17105, 12780 > 57.236073% taken
+	93	forwbranch < 12780, 0 > 100.0% taken
+	130	forwbranch < 17105, 0 > 100.0% taken
+	172	forwbranch < 0, 29885 > 0.0% taken
+M 632 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 0, 0 > Never Executed
+	21	forwbranch < 0, 0 > Never Executed
+	34	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	70	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	240	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 0, 0 > Never Executed
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 0, 0 > Never Executed
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 0, 0 > Never Executed
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 0, 0 > Never Executed
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 0, 0 > Never Executed
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 0, 0 > Never Executed
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 0, 0 > Never Executed
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 0, 0 > Never Executed
+	884	forwbranch < 0, 0 > Never Executed
+	901	forwbranch < 0, 0 > Never Executed
+	920	forwbranch < 0, 0 > Never Executed
+	930	forwbranch < 0, 0 > Never Executed
+	947	forwbranch < 0, 0 > Never Executed
+	966	forwbranch < 0, 0 > Never Executed
+	976	forwbranch < 0, 0 > Never Executed
+	993	forwbranch < 0, 0 > Never Executed
+	1012	forwbranch < 0, 0 > Never Executed
+	1022	forwbranch < 0, 0 > Never Executed
+	1039	forwbranch < 0, 0 > Never Executed
+	1058	forwbranch < 0, 0 > Never Executed
+	1068	forwbranch < 0, 0 > Never Executed
+	1085	forwbranch < 0, 0 > Never Executed
+	1104	forwbranch < 0, 0 > Never Executed
+	1114	forwbranch < 0, 0 > Never Executed
+	1131	forwbranch < 0, 0 > Never Executed
+	1150	forwbranch < 0, 0 > Never Executed
+	1160	forwbranch < 0, 0 > Never Executed
+	1177	forwbranch < 0, 0 > Never Executed
+	1196	forwbranch < 0, 0 > Never Executed
+	1206	forwbranch < 0, 0 > Never Executed
+	1223	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1252	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1288	forwbranch < 0, 0 > Never Executed
+	1298	forwbranch < 0, 0 > Never Executed
+	1315	forwbranch < 0, 0 > Never Executed
+	1334	forwbranch < 0, 0 > Never Executed
+	1344	forwbranch < 0, 0 > Never Executed
+	1361	forwbranch < 0, 0 > Never Executed
+	1380	forwbranch < 0, 0 > Never Executed
+	1390	forwbranch < 0, 0 > Never Executed
+	1407	forwbranch < 0, 0 > Never Executed
+	1426	forwbranch < 0, 0 > Never Executed
+	1436	forwbranch < 0, 0 > Never Executed
+	1453	forwbranch < 0, 0 > Never Executed
+	1472	forwbranch < 0, 0 > Never Executed
+	1482	forwbranch < 0, 0 > Never Executed
+	1499	forwbranch < 0, 0 > Never Executed
+	1518	forwbranch < 0, 0 > Never Executed
+	1528	forwbranch < 0, 0 > Never Executed
+	1545	forwbranch < 0, 0 > Never Executed
+	1564	forwbranch < 0, 0 > Never Executed
+	1574	forwbranch < 0, 0 > Never Executed
+	1591	forwbranch < 0, 0 > Never Executed
+	1610	forwbranch < 0, 0 > Never Executed
+	1620	forwbranch < 0, 0 > Never Executed
+	1637	forwbranch < 0, 0 > Never Executed
+	1656	forwbranch < 0, 0 > Never Executed
+	1666	forwbranch < 0, 0 > Never Executed
+	1683	forwbranch < 0, 0 > Never Executed
+	1702	forwbranch < 0, 0 > Never Executed
+	1712	forwbranch < 0, 0 > Never Executed
+	1729	forwbranch < 0, 0 > Never Executed
+	1748	forwbranch < 0, 0 > Never Executed
+	1758	forwbranch < 0, 0 > Never Executed
+	1775	forwbranch < 0, 0 > Never Executed
+	1794	forwbranch < 0, 0 > Never Executed
+	1804	forwbranch < 0, 0 > Never Executed
+	1821	forwbranch < 0, 0 > Never Executed
+	1840	forwbranch < 0, 0 > Never Executed
+	1850	forwbranch < 0, 0 > Never Executed
+	1867	forwbranch < 0, 0 > Never Executed
+	1886	forwbranch < 0, 0 > Never Executed
+	1896	forwbranch < 0, 0 > Never Executed
+	1913	forwbranch < 0, 0 > Never Executed
+	1932	forwbranch < 0, 0 > Never Executed
+	1942	forwbranch < 0, 0 > Never Executed
+	1959	forwbranch < 0, 0 > Never Executed
+	1978	forwbranch < 0, 0 > Never Executed
+	1988	forwbranch < 0, 0 > Never Executed
+	2005	forwbranch < 0, 0 > Never Executed
+	2024	forwbranch < 0, 0 > Never Executed
+	2034	forwbranch < 0, 0 > Never Executed
+	2051	forwbranch < 0, 0 > Never Executed
+	2070	forwbranch < 0, 0 > Never Executed
+	2080	forwbranch < 0, 0 > Never Executed
+	2097	forwbranch < 0, 0 > Never Executed
+	2116	forwbranch < 0, 0 > Never Executed
+	2126	forwbranch < 0, 0 > Never Executed
+	2143	forwbranch < 0, 0 > Never Executed
+	2162	forwbranch < 0, 0 > Never Executed
+	2172	forwbranch < 0, 0 > Never Executed
+	2189	forwbranch < 0, 0 > Never Executed
+	2208	forwbranch < 0, 0 > Never Executed
+	2218	forwbranch < 0, 0 > Never Executed
+	2235	forwbranch < 0, 0 > Never Executed
+	2254	forwbranch < 0, 0 > Never Executed
+	2264	forwbranch < 0, 0 > Never Executed
+	2281	forwbranch < 0, 0 > Never Executed
+	2300	forwbranch < 0, 0 > Never Executed
+	2310	forwbranch < 0, 0 > Never Executed
+	2327	forwbranch < 0, 0 > Never Executed
+	2346	forwbranch < 0, 0 > Never Executed
+	2356	forwbranch < 0, 0 > Never Executed
+	2373	forwbranch < 0, 0 > Never Executed
+	2392	forwbranch < 0, 0 > Never Executed
+	2402	forwbranch < 0, 0 > Never Executed
+	2419	forwbranch < 0, 0 > Never Executed
+	2438	forwbranch < 0, 0 > Never Executed
+	2448	forwbranch < 0, 0 > Never Executed
+	2465	forwbranch < 0, 0 > Never Executed
+	2484	forwbranch < 0, 0 > Never Executed
+	2494	forwbranch < 0, 0 > Never Executed
+	2511	forwbranch < 0, 0 > Never Executed
+	2530	forwbranch < 0, 0 > Never Executed
+	2540	forwbranch < 0, 0 > Never Executed
+	2557	forwbranch < 0, 0 > Never Executed
+	2576	forwbranch < 0, 0 > Never Executed
+	2586	forwbranch < 0, 0 > Never Executed
+	2603	forwbranch < 0, 0 > Never Executed
+	2622	forwbranch < 0, 0 > Never Executed
+	2632	forwbranch < 0, 0 > Never Executed
+	2649	forwbranch < 0, 0 > Never Executed
+	2668	forwbranch < 0, 0 > Never Executed
+	2678	forwbranch < 0, 0 > Never Executed
+	2695	forwbranch < 0, 0 > Never Executed
+	2714	forwbranch < 0, 0 > Never Executed
+	2724	forwbranch < 0, 0 > Never Executed
+	2741	forwbranch < 0, 0 > Never Executed
+	2760	forwbranch < 0, 0 > Never Executed
+	2770	forwbranch < 0, 0 > Never Executed
+	2787	forwbranch < 0, 0 > Never Executed
+	2806	forwbranch < 0, 0 > Never Executed
+	2816	forwbranch < 0, 0 > Never Executed
+	2833	forwbranch < 0, 0 > Never Executed
+	2852	forwbranch < 0, 0 > Never Executed
+	2862	forwbranch < 0, 0 > Never Executed
+	2879	forwbranch < 0, 0 > Never Executed
+	2898	forwbranch < 0, 0 > Never Executed
+	2908	forwbranch < 0, 0 > Never Executed
+	2925	forwbranch < 0, 0 > Never Executed
+	2944	forwbranch < 0, 0 > Never Executed
+	2954	forwbranch < 0, 0 > Never Executed
+	2971	forwbranch < 0, 0 > Never Executed
+	2990	forwbranch < 0, 0 > Never Executed
+	3000	forwbranch < 0, 0 > Never Executed
+	3017	forwbranch < 0, 0 > Never Executed
+	3036	forwbranch < 0, 0 > Never Executed
+	3046	forwbranch < 0, 0 > Never Executed
+	3063	forwbranch < 0, 0 > Never Executed
+	3082	forwbranch < 0, 0 > Never Executed
+	3092	forwbranch < 0, 0 > Never Executed
+	3109	forwbranch < 0, 0 > Never Executed
+	3128	forwbranch < 0, 0 > Never Executed
+	3138	forwbranch < 0, 0 > Never Executed
+	3155	forwbranch < 0, 0 > Never Executed
+	3174	forwbranch < 0, 0 > Never Executed
+	3184	forwbranch < 0, 0 > Never Executed
+	3201	forwbranch < 0, 0 > Never Executed
+	3220	forwbranch < 0, 0 > Never Executed
+	3230	forwbranch < 0, 0 > Never Executed
+	3247	forwbranch < 0, 0 > Never Executed
+	3266	forwbranch < 0, 0 > Never Executed
+	3276	forwbranch < 0, 0 > Never Executed
+	3293	forwbranch < 0, 0 > Never Executed
+	3312	forwbranch < 0, 0 > Never Executed
+	3322	forwbranch < 0, 0 > Never Executed
+	3339	forwbranch < 0, 0 > Never Executed
+	3359	forwbranch < 0, 0 > Never Executed
+	3369	forwbranch < 0, 0 > Never Executed
+	3386	forwbranch < 0, 0 > Never Executed
+	3406	forwbranch < 0, 0 > Never Executed
+	3416	forwbranch < 0, 0 > Never Executed
+	3433	forwbranch < 0, 0 > Never Executed
+	3453	forwbranch < 0, 0 > Never Executed
+	3463	forwbranch < 0, 0 > Never Executed
+	3480	forwbranch < 0, 0 > Never Executed
+	3500	forwbranch < 0, 0 > Never Executed
+	3510	forwbranch < 0, 0 > Never Executed
+	3527	forwbranch < 0, 0 > Never Executed
+	3547	forwbranch < 0, 0 > Never Executed
+	3557	forwbranch < 0, 0 > Never Executed
+	3574	forwbranch < 0, 0 > Never Executed
+	3594	forwbranch < 0, 0 > Never Executed
+	3604	forwbranch < 0, 0 > Never Executed
+	3621	forwbranch < 0, 0 > Never Executed
+	3641	forwbranch < 0, 0 > Never Executed
+	3651	forwbranch < 0, 0 > Never Executed
+	3668	forwbranch < 0, 0 > Never Executed
+	3688	forwbranch < 0, 0 > Never Executed
+	3698	forwbranch < 0, 0 > Never Executed
+	3715	forwbranch < 0, 0 > Never Executed
+	3735	forwbranch < 0, 0 > Never Executed
+	3745	forwbranch < 0, 0 > Never Executed
+	3762	forwbranch < 0, 0 > Never Executed
+	3782	forwbranch < 0, 0 > Never Executed
+	3792	forwbranch < 0, 0 > Never Executed
+	3809	forwbranch < 0, 0 > Never Executed
+	3829	forwbranch < 0, 0 > Never Executed
+	3839	forwbranch < 0, 0 > Never Executed
+	3856	forwbranch < 0, 0 > Never Executed
+	3876	forwbranch < 0, 0 > Never Executed
+	3886	forwbranch < 0, 0 > Never Executed
+	3903	forwbranch < 0, 0 > Never Executed
+	3923	forwbranch < 0, 0 > Never Executed
+	3933	forwbranch < 0, 0 > Never Executed
+	3950	forwbranch < 0, 0 > Never Executed
+	3970	forwbranch < 0, 0 > Never Executed
+	3980	forwbranch < 0, 0 > Never Executed
+	3997	forwbranch < 0, 0 > Never Executed
+	4017	forwbranch < 0, 0 > Never Executed
+	4027	forwbranch < 0, 0 > Never Executed
+	4044	forwbranch < 0, 0 > Never Executed
+	4064	forwbranch < 0, 0 > Never Executed
+	4074	forwbranch < 0, 0 > Never Executed
+	4091	forwbranch < 0, 0 > Never Executed
+	4111	forwbranch < 0, 0 > Never Executed
+	4121	forwbranch < 0, 0 > Never Executed
+	4138	forwbranch < 0, 0 > Never Executed
+	4158	forwbranch < 0, 0 > Never Executed
+	4165	forwbranch < 0, 0 > Never Executed
+	4199	forwbranch < 0, 0 > Never Executed
+	4221	forwbranch < 0, 0 > Never Executed
+	4240	forwbranch < 0, 0 > Never Executed
+	4251	forwbranch < 0, 0 > Never Executed
+	4269	forwbranch < 0, 0 > Never Executed
+	4287	forwbranch < 0, 0 > Never Executed
+	4305	forwbranch < 0, 0 > Never Executed
+	4325	forwbranch < 0, 0 > Never Executed
+	4347	forwbranch < 0, 0 > Never Executed
+	4370	forwbranch < 0, 0 > Never Executed
+	4392	forwbranch < 0, 0 > Never Executed
+	4414	forwbranch < 0, 0 > Never Executed
+	4436	forwbranch < 0, 0 > Never Executed
+	4447	forwbranch < 0, 0 > Never Executed
+	4465	forwbranch < 0, 0 > Never Executed
+	4483	forwbranch < 0, 0 > Never Executed
+	4503	forwbranch < 0, 0 > Never Executed
+	4526	forwbranch < 0, 0 > Never Executed
+	4549	forwbranch < 0, 0 > Never Executed
+	4571	forwbranch < 0, 0 > Never Executed
+	4593	forwbranch < 0, 0 > Never Executed
+	4615	forwbranch < 0, 0 > Never Executed
+	4637	forwbranch < 0, 0 > Never Executed
+	4660	forwbranch < 0, 0 > Never Executed
+	4682	forwbranch < 0, 0 > Never Executed
+	4704	forwbranch < 0, 0 > Never Executed
+	4726	forwbranch < 0, 0 > Never Executed
+	4748	forwbranch < 0, 0 > Never Executed
+	4771	forwbranch < 0, 0 > Never Executed
+	4794	forwbranch < 0, 0 > Never Executed
+	4817	forwbranch < 0, 0 > Never Executed
+	4840	forwbranch < 0, 0 > Never Executed
+	4863	forwbranch < 0, 0 > Never Executed
+	4886	forwbranch < 0, 0 > Never Executed
+	4909	forwbranch < 0, 0 > Never Executed
+	4932	forwbranch < 0, 0 > Never Executed
+	4955	forwbranch < 0, 0 > Never Executed
+	4977	forwbranch < 0, 0 > Never Executed
+	5000	forwbranch < 0, 0 > Never Executed
+	5011	forwbranch < 0, 0 > Never Executed
+	5029	forwbranch < 0, 0 > Never Executed
+	5047	forwbranch < 0, 0 > Never Executed
+	5067	forwbranch < 0, 0 > Never Executed
+	5074	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, printOptions, ()V >
+	332	forwbranch < 0, 0 > Never Executed
+	345	forwbranch < 0, 0 > Never Executed
+	357	forwbranch < 0, 0 > Never Executed
+	370	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	407	forwbranch < 0, 0 > Never Executed
+	420	forwbranch < 0, 0 > Never Executed
+M 180 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, processAsOption, (Ljava/lang/String;Ljava/lang/String;)Z >
+	6	forwbranch < 4, 0 > 100.0% taken
+	21	forwbranch < 4, 0 > 100.0% taken
+	34	forwbranch < 4, 0 > 100.0% taken
+	50	forwbranch < 0, 4 > 0.0% taken
+	60	forwbranch < 0, 4 > 0.0% taken
+	70	forwbranch < 4, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	92	forwbranch < 4, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	110	forwbranch < 0, 0 > Never Executed
+	119	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 4, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 3, 1 > 75.0% taken
+	240	forwbranch < 0, 1 > 0.0% taken
+	257	forwbranch < 0, 0 > Never Executed
+	276	forwbranch < 3, 0 > 100.0% taken
+	286	forwbranch < 0, 0 > Never Executed
+	303	forwbranch < 0, 0 > Never Executed
+	322	forwbranch < 3, 0 > 100.0% taken
+	332	forwbranch < 0, 0 > Never Executed
+	349	forwbranch < 0, 0 > Never Executed
+	368	forwbranch < 3, 0 > 100.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	395	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 3, 0 > 100.0% taken
+	424	forwbranch < 0, 0 > Never Executed
+	441	forwbranch < 0, 0 > Never Executed
+	460	forwbranch < 3, 0 > 100.0% taken
+	470	forwbranch < 0, 0 > Never Executed
+	487	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 3, 0 > 100.0% taken
+	516	forwbranch < 0, 0 > Never Executed
+	533	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 3, 0 > 100.0% taken
+	562	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 3, 0 > 100.0% taken
+	608	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	644	forwbranch < 3, 0 > 100.0% taken
+	654	forwbranch < 0, 0 > Never Executed
+	671	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 3, 0 > 100.0% taken
+	700	forwbranch < 0, 0 > Never Executed
+	717	forwbranch < 0, 0 > Never Executed
+	736	forwbranch < 3, 0 > 100.0% taken
+	746	forwbranch < 0, 0 > Never Executed
+	763	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 3, 0 > 100.0% taken
+	792	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	828	forwbranch < 3, 0 > 100.0% taken
+	838	forwbranch < 0, 0 > Never Executed
+	855	forwbranch < 0, 0 > Never Executed
+	874	forwbranch < 3, 0 > 100.0% taken
+	895	forwbranch < 3, 0 > 100.0% taken
+	905	forwbranch < 0, 0 > Never Executed
+	922	forwbranch < 0, 0 > Never Executed
+	941	forwbranch < 3, 0 > 100.0% taken
+	951	forwbranch < 0, 0 > Never Executed
+	968	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 3, 0 > 100.0% taken
+	997	forwbranch < 0, 0 > Never Executed
+	1014	forwbranch < 0, 0 > Never Executed
+	1033	forwbranch < 3, 0 > 100.0% taken
+	1043	forwbranch < 0, 0 > Never Executed
+	1060	forwbranch < 0, 0 > Never Executed
+	1079	forwbranch < 3, 0 > 100.0% taken
+	1097	forwbranch < 2, 1 > 66.666664% taken
+	1115	forwbranch < 1, 1 > 50.0% taken
+	1133	forwbranch < 1, 0 > 100.0% taken
+	1151	forwbranch < 1, 0 > 100.0% taken
+	1169	forwbranch < 1, 0 > 100.0% taken
+	1187	forwbranch < 1, 0 > 100.0% taken
+	1208	forwbranch < 1, 0 > 100.0% taken
+	1229	forwbranch < 0, 1 > 0.0% taken
+	1250	forwbranch < 0, 0 > Never Executed
+	1271	forwbranch < 0, 0 > Never Executed
+	1293	forwbranch < 0, 0 > Never Executed
+	1314	forwbranch < 0, 0 > Never Executed
+	1336	forwbranch < 0, 0 > Never Executed
+	1358	forwbranch < 0, 0 > Never Executed
+	1376	forwbranch < 0, 0 > Never Executed
+	1397	forwbranch < 0, 0 > Never Executed
+	1418	forwbranch < 0, 0 > Never Executed
+	1439	forwbranch < 0, 0 > Never Executed
+	1460	forwbranch < 0, 0 > Never Executed
+M 16 < BootstrapCL, Lorg/jikesrvm/adaptive/util/AOSExternalOptions;, toString, ()Ljava/lang/String; >
+	696	forwbranch < 0, 0 > Never Executed
+	716	forwbranch < 0, 0 > Never Executed
+	735	forwbranch < 0, 0 > Never Executed
+	755	forwbranch < 0, 0 > Never Executed
+	774	forwbranch < 0, 0 > Never Executed
+	794	forwbranch < 0, 0 > Never Executed
+	813	forwbranch < 0, 0 > Never Executed
+	833	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lgnu/java/net/loader/Resource;, getCodeSource, ()Ljava/security/CodeSource; >
+	6	forwbranch < 0, 132 > 0.0% taken
+M 18 < BootstrapCL, Ljava/lang/reflect/Array;, newInstance, (Ljava/lang/Class;I)Ljava/lang/Object; >
+	4	forwbranch < 0, 3 > 0.0% taken
+	17	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 0, 0 > Never Executed
+	50	forwbranch < 0, 0 > Never Executed
+	61	forwbranch < 0, 0 > Never Executed
+	72	forwbranch < 0, 0 > Never Executed
+	83	forwbranch < 0, 0 > Never Executed
+	94	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, printOptions, ()V >
+	53	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/compilers/baseline/BaselineOptions;, toString, ()Ljava/lang/String; >
+	107	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, printOptions, ()V >
+	1159	forwbranch < 0, 0 > Never Executed
+	1173	forwbranch < 0, 0 > Never Executed
+	1187	forwbranch < 0, 0 > Never Executed
+	1201	forwbranch < 0, 0 > Never Executed
+	1214	forwbranch < 0, 0 > Never Executed
+	1228	forwbranch < 0, 0 > Never Executed
+	1242	forwbranch < 0, 0 > Never Executed
+	1255	forwbranch < 0, 0 > Never Executed
+	1269	forwbranch < 0, 0 > Never Executed
+	1283	forwbranch < 0, 0 > Never Executed
+	1296	forwbranch < 0, 0 > Never Executed
+	1324	forwbranch < 0, 0 > Never Executed
+M 24 < BootstrapCL, Lorg/jikesrvm/compilers/opt/OptOptions;, toString, ()Ljava/lang/String; >
+	2427	forwbranch < 0, 0 > Never Executed
+	2449	forwbranch < 0, 0 > Never Executed
+	2471	forwbranch < 0, 0 > Never Executed
+	2493	forwbranch < 0, 0 > Never Executed
+	2514	forwbranch < 0, 0 > Never Executed
+	2536	forwbranch < 0, 0 > Never Executed
+	2558	forwbranch < 0, 0 > Never Executed
+	2579	forwbranch < 0, 0 > Never Executed
+	2601	forwbranch < 0, 0 > Never Executed
+	2623	forwbranch < 0, 0 > Never Executed
+	2644	forwbranch < 0, 0 > Never Executed
+	2683	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/runtime/FileSystem;, sync, (I)Z >
+	13	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Lorg/jikesrvm/runtime/ReflectionBase;, invoke, (Lorg/jikesrvm/classloader/RVMMethod;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 53, 0 > 100.0% taken
+	19	forwbranch < 53, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, lockWithHandshakeNoRecImpl, ()V >
+	16	forwbranch < 0, 2113 > 0.0% taken
+M 2 < BootstrapCL, Lorg/jikesrvm/scheduler/Monitor;, relockWithHandshakeImpl, (I)V >
+	16	forwbranch < 2, 563 > 0.3539823% taken
+M 16 < BootstrapCL, Lgnu/classpath/SystemProperties;, <clinit>, ()V >
+	46	forwbranch < 1, 0 > 100.0% taken
+	68	forwbranch < 1, 0 > 100.0% taken
+	89	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 1 > 0.0% taken
+	200	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	250	forwbranch < 0, 1 > 0.0% taken
+	266	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/reflect/Modifier;, isPublic, (I)Z >
+	3	forwbranch < 0, 11 > 0.0% taken
+M 2 < BootstrapCL, Ljava/lang/Character;, <clinit>, ()V >
+	43	backbranch < 128, 1 > 99.22481% taken
+M 8 < BootstrapCL, Ljava/lang/ClassLoader$StaticData;, <clinit>, ()V >
+	13	forwbranch < 1, 0 > 100.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+	28	forwbranch < 0, 0 > Never Executed
+	37	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/net/URL;, <clinit>, ()V >
+	17	forwbranch < 0, 1 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/zip/InflaterHuffmanTree;, <clinit>, ()V >
+	23	backbranch < 144, 1 > 99.31035% taken
+	41	backbranch < 112, 1 > 99.11504% taken
+	59	backbranch < 24, 1 > 96.0% taken
+	77	backbranch < 8, 1 > 88.888885% taken
+	111	backbranch < 32, 1 > 96.969696% taken
+M 10 < BootstrapCL, Ljava/util/zip/DeflaterHuffman;, <clinit>, ()V >
+	155	backbranch < 144, 1 > 99.31035% taken
+	191	backbranch < 112, 1 > 99.11504% taken
+	227	backbranch < 24, 1 > 96.0% taken
+	262	backbranch < 6, 1 > 85.71429% taken
+	308	backbranch < 30, 1 > 96.77419% taken
+M 2 < BootstrapCL, Ljava/util/Locale;, <clinit>, ()V >
+	233	forwbranch < 1, 0 > 100.0% taken
+M 42 < BootstrapCL, Lgnu/java/security/hash/HashFactory;, getInstance, (Ljava/lang/String;)Lgnu/java/security/hash/IMessageDigest; >
+	1	forwbranch < 20, 0 > 100.0% taken
+	19	forwbranch < 20, 0 > 100.0% taken
+	39	forwbranch < 0, 20 > 0.0% taken
+	48	forwbranch < 20, 0 > 100.0% taken
+	68	forwbranch < 0, 20 > 0.0% taken
+	77	forwbranch < 20, 0 > 100.0% taken
+	97	forwbranch < 20, 0 > 100.0% taken
+	106	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	124	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	184	forwbranch < 0, 0 > Never Executed
+	204	forwbranch < 0, 0 > Never Executed
+	224	forwbranch < 0, 0 > Never Executed
+	244	forwbranch < 0, 0 > Never Executed
+	264	forwbranch < 0, 0 > Never Executed
+	284	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	316	forwbranch < 0, 20 > 0.0% taken
+	325	forwbranch < 20, 0 > 100.0% taken
+M 8 < BootstrapCL, Ljava/util/logging/StreamHandler;, <init>, (Ljava/io/OutputStream;Ljava/lang/String;Ljava/util/logging/Level;Ljava/util/logging/Formatter;Ljava/lang/Class;)V >
+	70	forwbranch < 1, 0 > 100.0% taken
+	144	forwbranch < 1, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 0, 1 > 0.0% taken
+M 6 < BootstrapCL, Ljava/util/logging/StreamHandler;, changeWriter, (Ljava/io/OutputStream;Ljava/lang/String;)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+	30	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/util/EventObject;, <init>, (Ljava/lang/Object;)V >
+	5	forwbranch < 1, 0 > 100.0% taken
+M 18 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, initialize, ()V >
+	43	forwbranch < 1, 1 > 50.0% taken
+	117	forwbranch < 1, 0 > 100.0% taken
+	173	backbranch < 1, 1 > 50.0% taken
+	185	forwbranch < 1, 0 > 100.0% taken
+	194	forwbranch < 0, 0 > Never Executed
+	207	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	340	backbranch < 0, 0 > Never Executed
+M 14 < BootstrapCL, Lgnu/java/net/IndexListParser;, <init>, (Ljava/util/jar/JarFile;Ljava/net/URL;Ljava/net/URL;)V >
+	21	forwbranch < 1, 1 > 50.0% taken
+	67	forwbranch < 1, 0 > 100.0% taken
+	105	forwbranch < 1, 0 > 100.0% taken
+	147	forwbranch < 518, 1 > 99.80732% taken
+	172	backbranch < 519, 0 > 100.0% taken
+	189	forwbranch < 1, 0 > 100.0% taken
+	203	backbranch < 1, 1 > 50.0% taken
+M 14 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getResource, (Ljava/lang/String;)Lgnu/java/net/loader/Resource; >
+	6	forwbranch < 273, 0 > 100.0% taken
+	19	forwbranch < 270, 3 > 98.9011% taken
+	33	forwbranch < 0, 3 > 0.0% taken
+	53	forwbranch < 0, 3 > 0.0% taken
+	62	forwbranch < 270, 0 > 100.0% taken
+	73	forwbranch < 270, 0 > 100.0% taken
+	88	forwbranch < 136, 134 > 50.37037% taken
+M 2 < BootstrapCL, Lgnu/java/net/loader/JarURLLoader;, getManifest, ()Ljava/util/jar/Manifest; >
+	4	forwbranch < 11, 0 > 100.0% taken
+M 74 < SystemAppCL, Ldacapo/TestHarness;, main, ([Ljava/lang/String;)V >
+	2	forwbranch < 1, 0 > 100.0% taken
+	14	forwbranch < 0, 3 > 0.0% taken
+	26	forwbranch < 1, 2 > 33.333332% taken
+	37	forwbranch < 2, 0 > 100.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 2, 0 > 100.0% taken
+	99	forwbranch < 2, 0 > 100.0% taken
+	116	forwbranch < 2, 0 > 100.0% taken
+	134	forwbranch < 1, 1 > 50.0% taken
+	142	forwbranch < 1, 0 > 100.0% taken
+	222	forwbranch < 1, 0 > 100.0% taken
+	281	forwbranch < 0, 1 > 0.0% taken
+	289	forwbranch < 1, 0 > 100.0% taken
+	328	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	401	forwbranch < 0, 0 > Never Executed
+	444	forwbranch < 0, 0 > Never Executed
+	452	forwbranch < 0, 0 > Never Executed
+	491	forwbranch < 0, 0 > Never Executed
+	509	forwbranch < 0, 0 > Never Executed
+	527	forwbranch < 0, 0 > Never Executed
+	545	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 0, 0 > Never Executed
+	581	forwbranch < 0, 0 > Never Executed
+	604	forwbranch < 0, 0 > Never Executed
+	612	forwbranch < 0, 0 > Never Executed
+	728	forwbranch < 1, 0 > 100.0% taken
+	747	forwbranch < 1, 0 > 100.0% taken
+	783	forwbranch < 1, 1 > 50.0% taken
+	819	forwbranch < 0, 1 > 0.0% taken
+	849	forwbranch < 1, 0 > 100.0% taken
+	898	forwbranch < 1, 0 > 100.0% taken
+	912	forwbranch < 1, 0 > 100.0% taken
+	923	forwbranch < 0, 1 > 0.0% taken
+	949	forwbranch < 0, 1 > 0.0% taken
+M 8 < SystemAppCL, Ldacapo/TestHarness;, rmdir, (Ljava/io/File;)V >
+	6	forwbranch < 0, 1 > 0.0% taken
+	14	forwbranch < 1, 214 > 0.4651163% taken
+	33	forwbranch < 214, 0 > 100.0% taken
+	44	forwbranch < 214, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TestHarness;, <init>, (Ljava/io/InputStream;)V >
+	16	forwbranch < 1, 0 > 100.0% taken
+M 40 < SystemAppCL, Ldacapo/TestHarness;, runBenchmark, (Ljava/io/File;Ljava/lang/String;Ldacapo/TestHarness;)V >
+	13	forwbranch < 0, 1 > 0.0% taken
+	37	forwbranch < 0, 1 > 0.0% taken
+	90	forwbranch < 1, 0 > 100.0% taken
+	108	forwbranch < 0, 0 > Never Executed
+	116	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 0 > Never Executed
+	148	forwbranch < 0, 0 > Never Executed
+	153	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 0 > Never Executed
+	311	forwbranch < 1, 9 > 10.0% taken
+	326	forwbranch < 0, 9 > 0.0% taken
+	331	forwbranch < 0, 9 > 0.0% taken
+	359	forwbranch < 0, 1 > 0.0% taken
+	364	forwbranch < 0, 1 > 0.0% taken
+	381	forwbranch < 1, 0 > 100.0% taken
+	423	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Ldacapo/Benchmark;, run, (Ldacapo/Callback;Ljava/lang/String;Z)Z >
+	16	forwbranch < 9, 1 > 90.0% taken
+	58	forwbranch < 9, 1 > 90.0% taken
+	80	forwbranch < 9, 1 > 90.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, cleanup, ()V >
+	3	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMaximumFractionDigits, (I)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormat;, setMinimumFractionDigits, (I)V >
+	1	forwbranch < 0, 1 > 0.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, <init>, (Ljava/util/Locale;)V >
+	52	forwbranch < 0, 2 > 0.0% taken
+M 24 < BootstrapCL, Ljava/text/DecimalFormat;, applyPatternWithSymbols, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V >
+	10	forwbranch < 1, 0 > 100.0% taken
+	71	forwbranch < 0, 1 > 0.0% taken
+	87	forwbranch < 0, 1 > 0.0% taken
+	116	forwbranch < 1, 0 > 100.0% taken
+	132	forwbranch < 1, 0 > 100.0% taken
+	149	forwbranch < 1, 0 > 100.0% taken
+	164	forwbranch < 1, 0 > 100.0% taken
+	175	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 1, 0 > 100.0% taken
+	218	forwbranch < 1, 0 > 100.0% taken
+	225	forwbranch < 0, 0 > Never Executed
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMaximumFractionDigits, (I)V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/NumberFormat;, setMinimumFractionDigits, (I)V >
+	13	forwbranch < 1, 0 > 100.0% taken
+M 48 < BootstrapCL, Ljava/text/DecimalFormat;, scanFix, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;IZ)I >
+	80	forwbranch < 1, 0 > 100.0% taken
+	115	forwbranch < 0, 1 > 0.0% taken
+	122	forwbranch < 1, 0 > 100.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 1 > 0.0% taken
+	177	forwbranch < 0, 1 > 0.0% taken
+	184	forwbranch < 1, 0 > 100.0% taken
+	191	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	213	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+	233	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	282	forwbranch < 0, 0 > Never Executed
+	317	forwbranch < 0, 0 > Never Executed
+	346	forwbranch < 0, 0 > Never Executed
+	376	forwbranch < 0, 0 > Never Executed
+	383	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 0, 0 > Never Executed
+	446	backbranch < 1, 0 > 100.0% taken
+	451	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Ljava/text/DecimalFormat;, scanNumberInteger, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	74	forwbranch < 1, 5 > 16.666666% taken
+	81	forwbranch < 5, 0 > 100.0% taken
+	91	forwbranch < 5, 0 > 100.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+	130	forwbranch < 2, 3 > 40.0% taken
+	135	forwbranch < 3, 0 > 100.0% taken
+	187	forwbranch < 1, 1 > 50.0% taken
+	213	forwbranch < 0, 1 > 0.0% taken
+	242	backbranch < 6, 0 > 100.0% taken
+	249	forwbranch < 0, 1 > 0.0% taken
+	267	forwbranch < 0, 1 > 0.0% taken
+	274	forwbranch < 0, 1 > 0.0% taken
+	281	forwbranch < 1, 0 > 100.0% taken
+M 20 < BootstrapCL, Ljava/text/DecimalFormat;, scanFractionalPortion, (Ljava/lang/String;Ljava/text/DecimalFormatSymbols;I)I >
+	47	forwbranch < 1, 0 > 100.0% taken
+	102	forwbranch < 0, 3 > 0.0% taken
+	109	forwbranch < 3, 0 > 100.0% taken
+	119	forwbranch < 0, 3 > 0.0% taken
+	126	forwbranch < 3, 0 > 100.0% taken
+	176	forwbranch < 0, 3 > 0.0% taken
+	189	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	246	backbranch < 3, 1 > 75.0% taken
+	252	forwbranch < 1, 0 > 100.0% taken
+M 12 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/lang/String;)Ljava/util/Currency; >
+	1	forwbranch < 2, 0 > 100.0% taken
+	20	forwbranch < 0, 2 > 0.0% taken
+	47	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 0, 0 > Never Executed
+	97	backbranch < 0, 0 > Never Executed
+M 10 < BootstrapCL, Ljava/util/Currency;, getInstance, (Ljava/util/Locale;)Ljava/util/Currency; >
+	6	forwbranch < 0, 2 > 0.0% taken
+	10	forwbranch < 2, 0 > 100.0% taken
+	28	forwbranch < 2, 0 > 100.0% taken
+	53	forwbranch < 1, 1 > 50.0% taken
+	71	forwbranch < 1, 0 > 100.0% taken
+M 6 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetChar, (Ljava/util/ResourceBundle;Ljava/lang/String;C)C >
+	4	forwbranch < 0, 20 > 0.0% taken
+	20	forwbranch < 4, 16 > 20.0% taken
+	29	forwbranch < 16, 0 > 100.0% taken
+M 2 < BootstrapCL, Ljava/text/DecimalFormatSymbols;, safeGetString, (Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 0, 4 > 0.0% taken
+M 10 < BootstrapCL, Ljava/util/Currency;, getSymbol, (Ljava/util/Locale;)Ljava/lang/String; >
+	86	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	118	backbranch < 0, 0 > Never Executed
+	128	backbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/util/Currency;, <init>, (Ljava/util/Locale;)V >
+	15	forwbranch < 1, 0 > 100.0% taken
+	98	forwbranch < 1, 0 > 100.0% taken
+	116	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Lprobe/ProbeMux;, init, ()V >
+	7	forwbranch < 1, 0 > 100.0% taken
+	56	forwbranch < 1, 1 > 50.0% taken
+	214	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Lprobe/ProbeMux;, begin, (Ljava/lang/String;Z)V >
+	19	forwbranch < 10, 10 > 50.0% taken
+M 4 < SystemAppCL, Lprobe/ProbeMux;, end, (Z)V >
+	8	forwbranch < 10, 10 > 50.0% taken
+	42	forwbranch < 10, 10 > 50.0% taken
+M 2 < SystemAppCL, Lprobe/ProbeMux;, cleanup, ()V >
+	7	forwbranch < 1, 1 > 50.0% taken
+M 2 < SystemAppCL, Ldacapo/Callback;, start, (Ljava/lang/String;Z)V >
+	48	forwbranch < 1, 9 > 10.0% taken
+M 6 < SystemAppCL, Ldacapo/Callback;, complete, (Ljava/lang/String;ZZ)V >
+	26	forwbranch < 0, 10 > 0.0% taken
+	33	forwbranch < 1, 9 > 10.0% taken
+	98	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lprobe/MMTkProbe;, begin, (Ljava/lang/String;IZ)V >
+	1	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Lprobe/MMTkProbe;, end, (Ljava/lang/String;IZ)V >
+	1	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config;, getSize, (Ljava/lang/String;)Ldacapo/parser/Config$Size; >
+	13	forwbranch < 222, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, <init>, (Ljava/io/InputStream;)V >
+	83	forwbranch < 1, 17 > 5.5555553% taken
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFile;, configFile, ()Ldacapo/parser/Config; >
+	10	forwbranch < 3, 1 > 75.0% taken
+	24	switch     < 1, 3, 0 >
+	97	forwbranch < 0, 4 > 0.0% taken
+	111	switch     < 1, 2, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasDigest, ()Z >
+	4	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasBytes, ()Z >
+	8	forwbranch < 20, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/Config$OutputFile;, hasLines, ()Z >
+	5	forwbranch < 20, 0 > 100.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/Config;, addOutputFile, (Ljava/lang/String;Ljava/lang/String;)V >
+	15	forwbranch < 3, 7 > 30.0% taken
+	24	forwbranch < 4, 3 > 57.142857% taken
+M 8 < SystemAppCL, Ldacapo/parser/ConfigFile;, config, ()Ldacapo/parser/Config; >
+	31	forwbranch < 0, 1 > 0.0% taken
+	45	switch     < 1, 0 >
+	91	forwbranch < 0, 1 > 0.0% taken
+	105	switch     < 0, 1 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_ntk, ()I >
+	12	forwbranch < 0, 213 > 0.0% taken
+M 5 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeSpec, (Ldacapo/parser/Config;)V >
+	28	forwbranch < 6, 0 > 100.0% taken
+	42	switch     < 0, 3, 3 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, description, (Ldacapo/parser/Config;)V >
+	17	forwbranch < 0, 9 > 0.0% taken
+	31	switch     < 8, 1 >
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFile;, jj_consume_token, (I)Ldacapo/parser/Token; >
+	9	forwbranch < 156, 212 > 42.391304% taken
+	58	forwbranch < 0, 368 > 0.0% taken
+M 17 < SystemAppCL, Ldacapo/parser/ConfigFile;, sizeClause, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	13	forwbranch < 3, 3 > 50.0% taken
+	27	switch     < 3, 3, 0 >
+	64	forwbranch < 0, 3 > 0.0% taken
+	78	switch     < 3, 0 >
+	114	forwbranch < 0, 142 > 0.0% taken
+	128	switch     < 139, 3 >
+	225	forwbranch < 10, 0 > 100.0% taken
+	239	switch     < 7, 3 >
+M 19 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputFile, (Ldacapo/parser/Config;Ljava/lang/String;)V >
+	5	forwbranch < 0, 10 > 0.0% taken
+	19	switch     < 3, 3, 4, 0 >
+	122	forwbranch < 0, 18 > 0.0% taken
+	136	switch     < 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 10 >
+M 21 < SystemAppCL, Ldacapo/parser/ConfigFile;, outputClause, (Ldacapo/parser/Config;Ljava/lang/String;Ljava/lang/String;)V >
+	5	forwbranch < 8, 0 > 100.0% taken
+	19	switch     < 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0 >
+	84	forwbranch < 0, 8 > 0.0% taken
+	98	switch     < 2, 6 >
+	135	forwbranch < 0, 2 > 0.0% taken
+	149	switch     < 0, 2 >
+M 7 < SystemAppCL, Ldacapo/parser/ConfigFile;, digestOption, (Ldacapo/parser/Config;Ljava/lang/String;Ljava/lang/String;)V >
+	5	forwbranch < 0, 2 > 0.0% taken
+	19	switch     < 0, 0, 0, 2, 0 >
+M 29 < SystemAppCL, Ldacapo/parser/ConfigFile;, descId, ()Ljava/lang/String; >
+	5	forwbranch < 0, 9 > 0.0% taken
+	19	switch     < 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0 >
+M 49 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, getNextToken, ()Ldacapo/parser/Token; >
+	52	switch     < 369, 0, 0, 0, 0 >
+	98	forwbranch < 368, 655 > 35.97263% taken
+	113	forwbranch < 0, 655 > 0.0% taken
+	179	forwbranch < 0, 0 > Never Executed
+	188	forwbranch < 0, 0 > Never Executed
+	221	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 0, 0 > Never Executed
+	263	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	287	forwbranch < 0, 368 > 0.0% taken
+	298	forwbranch < 318, 50 > 86.41304% taken
+	340	forwbranch < 0, 368 > 0.0% taken
+	362	forwbranch < 368, 0 > 100.0% taken
+	402	forwbranch < 0, 0 > Never Executed
+	428	forwbranch < 0, 0 > Never Executed
+	437	forwbranch < 0, 0 > Never Executed
+	479	backbranch < 0, 0 > Never Executed
+	510	forwbranch < 0, 0 > Never Executed
+	601	forwbranch < 0, 0 > Never Executed
+	625	forwbranch < 0, 0 > Never Executed
+	634	forwbranch < 0, 0 > Never Executed
+	651	forwbranch < 0, 0 > Never Executed
+	665	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, backup, (I)V >
+	21	forwbranch < 421, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, readChar, ()C >
+	4	forwbranch < 4607, 50 > 98.926346% taken
+	32	forwbranch < 50, 0 > 100.0% taken
+	65	forwbranch < 4603, 4 > 99.91318% taken
+M 16 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, FillBuff, ()V >
+	8	forwbranch < 3, 1 > 75.0% taken
+	19	forwbranch < 0, 1 > 0.0% taken
+	29	forwbranch < 0, 1 > 0.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+	89	forwbranch < 0, 0 > Never Executed
+	115	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 2, 1 > 66.666664% taken
+	211	forwbranch < 0, 2 > 0.0% taken
+M 12 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, UpdateLineColumn, (C)V >
+	14	forwbranch < 4508, 97 > 97.89359% taken
+	44	forwbranch < 4508, 0 > 100.0% taken
+	55	forwbranch < 0, 0 > Never Executed
+	82	switch     < 140, 98, 0, 0, 0, 4367 >
+M 2 < SystemAppCL, Ldacapo/parser/SimpleCharStream;, GetImage, ()Ljava/lang/String; >
+	8	forwbranch < 0, 168 > 0.0% taken
+M 47 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjStopStringLiteralDfa_0, (IJ)I >
+	1	switch     < 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	63	forwbranch < 4, 0 > 100.0% taken
+	75	forwbranch < 0, 4 > 0.0% taken
+	95	forwbranch < 1, 0 > 100.0% taken
+	107	forwbranch < 0, 1 > 0.0% taken
+	132	forwbranch < 0, 0 > Never Executed
+	155	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	206	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	280	forwbranch < 0, 0 > Never Executed
+	292	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+	344	forwbranch < 0, 0 > Never Executed
+	356	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+M 136 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveNfa_0, (II)I >
+	36	forwbranch < 3617, 0 > 100.0% taken
+	49	forwbranch < 2600, 1017 > 71.882774% taken
+	70	switch     < 0, 0, 0, 163, 0, 44, 0, 0, 194, 0, 616, 616, 0, 616, 0, 0, 0, 0, 0, 0 >
+	168	forwbranch < 155, 8 > 95.092026% taken
+	175	forwbranch < 0, 8 > 0.0% taken
+	197	forwbranch < 0, 155 > 0.0% taken
+	215	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 0 > Never Executed
+	269	forwbranch < 155, 8 > 95.092026% taken
+	299	forwbranch < 0, 0 > Never Executed
+	330	forwbranch < 0, 0 > Never Executed
+	337	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+	392	forwbranch < 0, 0 > Never Executed
+	415	forwbranch < 2, 42 > 4.5454545% taken
+	425	forwbranch < 0, 2 > 0.0% taken
+	446	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 186, 8 > 95.87629% taken
+	488	forwbranch < 0, 186 > 0.0% taken
+	522	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 155, 461 > 25.162338% taken
+	562	forwbranch < 0, 0 > Never Executed
+	580	forwbranch < 461, 155 > 74.83766% taken
+	587	forwbranch < 0, 155 > 0.0% taken
+	605	forwbranch < 0, 0 > Never Executed
+	626	forwbranch < 0, 0 > Never Executed
+	646	forwbranch < 0, 0 > Never Executed
+	678	forwbranch < 0, 0 > Never Executed
+	698	forwbranch < 0, 0 > Never Executed
+	708	forwbranch < 0, 0 > Never Executed
+	728	backbranch < 1232, 1017 > 54.779903% taken
+	741	forwbranch < 0, 2600 > 0.0% taken
+	765	switch     < 0, 0, 0, 0, 39, 0, 8, 134, 0, 2419, 2419, 0, 2427 >
+	836	forwbranch < 39, 0 > 100.0% taken
+	846	forwbranch < 0, 39 > 0.0% taken
+	865	forwbranch < 0, 0 > Never Executed
+	883	forwbranch < 8, 0 > 100.0% taken
+	893	forwbranch < 0, 8 > 0.0% taken
+	917	forwbranch < 134, 0 > 100.0% taken
+	927	forwbranch < 0, 134 > 0.0% taken
+	951	forwbranch < 0, 2419 > 0.0% taken
+	969	forwbranch < 2419, 0 > 100.0% taken
+	991	forwbranch < 0, 0 > Never Executed
+	1007	backbranch < 4846, 2600 > 65.081924% taken
+	1047	switch     < 0, 0, 0 >
+	1083	forwbranch < 0, 0 > Never Executed
+	1090	forwbranch < 0, 0 > Never Executed
+	1111	forwbranch < 0, 0 > Never Executed
+	1127	backbranch < 0, 0 > Never Executed
+	1134	forwbranch < 3085, 532 > 85.29168% taken
+	1175	forwbranch < 3412, 205 > 94.33232% taken
+M 18 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa1_0, (J)I >
+	28	switch     < 0, 0, 2, 7, 2, 12, 1, 2, 4, 6, 4, 0, 0, 2 >
+	151	forwbranch < 0, 0 > Never Executed
+	170	forwbranch < 0, 0 > Never Executed
+M 33 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa2_0, (JJ)I >
+	7	forwbranch < 38, 2 > 95.0% taken
+	46	switch     < 1, 0, 1, 6, 0, 1, 11, 0, 0, 0, 0, 1, 0, 2, 1, 2, 0, 2, 1, 4, 0, 0, 0, 2, 0, 3, 0 >
+	225	forwbranch < 0, 1 > 0.0% taken
+	307	forwbranch < 0, 0 > Never Executed
+M 38 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa3_0, (JJ)I >
+	7	forwbranch < 36, 0 > 100.0% taken
+	46	switch     < 0, 0, 2, 0, 17, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 3, 0, 1, 5, 2, 0, 0, 0, 0, 1, 0 >
+	185	forwbranch < 14, 3 > 82.35294% taken
+	213	forwbranch < 0, 1 > 0.0% taken
+	250	forwbranch < 3, 0 > 100.0% taken
+	287	forwbranch < 2, 3 > 40.0% taken
+	315	forwbranch < 0, 2 > 0.0% taken
+M 32 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa4_0, (JJ)I >
+	7	forwbranch < 27, 0 > 100.0% taken
+	46	switch     < 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 5, 9, 1, 6, 0 >
+	214	forwbranch < 9, 0 > 100.0% taken
+	233	forwbranch < 8, 1 > 88.888885% taken
+	252	forwbranch < 8, 0 > 100.0% taken
+	280	forwbranch < 0, 1 > 0.0% taken
+M 43 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa5_0, (JJ)I >
+	7	forwbranch < 25, 0 > 100.0% taken
+	46	switch     < 1, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0, 1, 0, 0, 4, 1, 15, 0, 0, 0, 0, 0, 0 >
+	155	forwbranch < 1, 0 > 100.0% taken
+	210	forwbranch < 3, 1 > 75.0% taken
+	229	forwbranch < 3, 0 > 100.0% taken
+	248	forwbranch < 0, 3 > 0.0% taken
+	267	forwbranch < 1, 0 > 100.0% taken
+	295	forwbranch < 7, 8 > 46.666668% taken
+	314	forwbranch < 4, 3 > 57.142857% taken
+	333	forwbranch < 1, 3 > 25.0% taken
+	361	forwbranch < 0, 0 > Never Executed
+M 30 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa6_0, (JJ)I >
+	7	forwbranch < 7, 0 > 100.0% taken
+	47	switch     < 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 2, 0 >
+	152	forwbranch < 0, 1 > 0.0% taken
+	181	forwbranch < 0, 1 > 0.0% taken
+	210	forwbranch < 1, 1 > 50.0% taken
+	230	forwbranch < 0, 1 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa7_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	48	switch     < 1, 1, 1, 0 >
+M 10 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa8_0, (JJ)I >
+	7	forwbranch < 3, 0 > 100.0% taken
+	49	switch     < 1, 1, 1, 0 >
+	100	forwbranch < 0, 1 > 0.0% taken
+	120	forwbranch < 0, 1 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa9_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+M 6 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa10_0, (JJ)I >
+	7	forwbranch < 1, 0 > 100.0% taken
+	49	switch     < 1, 0 >
+	75	forwbranch < 0, 1 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAdd, (I)V >
+	10	forwbranch < 0, 9296 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjCheckNAddStates, (II)V >
+	14	backbranch < 6070, 3035 > 66.666664% taken
+M 1 < SystemAppCL, Ldacapo/parser/Token;, newToken, (I)Ldacapo/parser/Token; >
+	1	switch     < 369 >
+M 2 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjFillToken, ()Ldacapo/parser/Token; >
+	27	forwbranch < 201, 168 > 54.471546% taken
+M 80 < SystemAppCL, Ldacapo/parser/ConfigFileTokenManager;, jjMoveStringLiteralDfa0_0, ()I >
+	4	switch     < 2, 2, 0, 0, 154, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1, 2, 11, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 3, 0, 0, 1, 11, 3, 1, 1, 155 >
+M 8 < SystemAppCL, Ldacapo/Benchmark;, preIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 10, 0 > 100.0% taken
+	28	forwbranch < 0, 0 > Never Executed
+	73	forwbranch < 10, 0 > 100.0% taken
+	81	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Benchmark;, startIteration, ()V >
+	3	forwbranch < 0, 10 > 0.0% taken
+	23	forwbranch < 1, 9 > 10.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, stopIteration, ()V >
+	3	forwbranch < 0, 10 > 0.0% taken
+M 44 < SystemAppCL, Ldacapo/Benchmark;, validate, (Ljava/lang/String;)Z >
+	3	forwbranch < 10, 0 > 100.0% taken
+	11	forwbranch < 10, 0 > 100.0% taken
+	76	forwbranch < 10, 20 > 33.333332% taken
+	100	forwbranch < 0, 20 > 0.0% taken
+	179	forwbranch < 20, 0 > 100.0% taken
+	226	forwbranch < 20, 0 > 100.0% taken
+	236	forwbranch < 0, 0 > Never Executed
+	246	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 20, 0 > 100.0% taken
+	316	forwbranch < 20, 0 > 100.0% taken
+	355	forwbranch < 20, 0 > 100.0% taken
+	438	forwbranch < 0, 0 > Never Executed
+	486	forwbranch < 0, 0 > Never Executed
+	543	forwbranch < 0, 0 > Never Executed
+	582	forwbranch < 20, 0 > 100.0% taken
+	669	forwbranch < 0, 0 > Never Executed
+	718	forwbranch < 0, 0 > Never Executed
+	775	forwbranch < 0, 0 > Never Executed
+	814	forwbranch < 20, 0 > 100.0% taken
+	833	forwbranch < 0, 0 > Never Executed
+	875	forwbranch < 0, 0 > Never Executed
+	910	forwbranch < 10, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, postIteration, (Ljava/lang/String;)V >
+	3	forwbranch < 0, 10 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, unpackZipFileResource, (Ljava/lang/String;Ljava/io/File;)V >
+	6	forwbranch < 1, 0 > 100.0% taken
+M 8 < SystemAppCL, Ldacapo/Benchmark;, postIterationCleanup, (Ljava/lang/String;)V >
+	20	forwbranch < 10, 20 > 33.333332% taken
+	39	forwbranch < 0, 20 > 0.0% taken
+	48	forwbranch < 20, 0 > 100.0% taken
+	63	forwbranch < 0, 20 > 0.0% taken
+M 4 < SystemAppCL, Ldacapo/FileDigest;, get, (Ljava/lang/String;ZZLjava/io/File;)[B >
+	1	forwbranch < 0, 20 > 0.0% taken
+	19	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Ldacapo/Digest;, toString, ([B)Ljava/lang/String; >
+	17	forwbranch < 20, 400 > 4.7619047% taken
+	36	forwbranch < 380, 20 > 95.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteFile, (Ljava/io/File;)V >
+	3	forwbranch < 20, 0 > 100.0% taken
+	38	forwbranch < 0, 20 > 0.0% taken
+	45	forwbranch < 0, 20 > 0.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, deleteTree, (Ljava/io/File;)V >
+	3	forwbranch < 87, 0 > 100.0% taken
+	38	forwbranch < 4, 83 > 4.597701% taken
+	59	forwbranch < 4, 76 > 5.0% taken
+M 2 < SystemAppCL, Ldacapo/Benchmark;, copyFile, (Ljava/io/File;Ljava/io/File;)V >
+	36	forwbranch < 1, 1 > 50.0% taken
+M 10 < SystemAppCL, Ldacapo/Benchmark;, unpackZipStream, (Ljava/io/BufferedInputStream;Ljava/io/File;)V >
+	15	forwbranch < 1, 77 > 1.2820513% taken
+	21	forwbranch < 77, 0 > 100.0% taken
+	70	forwbranch < 73, 4 > 94.80519% taken
+	78	forwbranch < 0, 4 > 0.0% taken
+	136	forwbranch < 73, 222 > 24.745762% taken
+M 4 < SystemAppCL, Ldacapo/Benchmark;, getURL, (Ljava/lang/String;)Ljava/net/URL; >
+	3	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 1, 0 > 100.0% taken
+M 6 < SystemAppCL, Ldacapo/Benchmark;, <init>, (Ldacapo/parser/Config;Ljava/io/File;)V >
+	22	forwbranch < 0, 1 > 0.0% taken
+	34	forwbranch < 0, 1 > 0.0% taken
+	81	forwbranch < 0, 1 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/Tool;, main, ([Ljava/lang/String;)V >
+	15	forwbranch < 1280, 0 > 100.0% taken
+	30	forwbranch < 1280, 3840 > 25.0% taken
+	41	forwbranch < 0, 3840 > 0.0% taken
+	52	forwbranch < 0, 3840 > 0.0% taken
+	63	forwbranch < 3840, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/antlr/AntlrHarness;, postIteration, (Ljava/lang/String;)V >
+	8	forwbranch < 0, 10 > 0.0% taken
+M 14 < SystemAppCL, Ldacapo/antlr/AntlrHarness;, iterate, (Ljava/lang/String;)V >
+	54	forwbranch < 0, 30 > 0.0% taken
+	66	forwbranch < 20, 10 > 66.666664% taken
+	96	forwbranch < 10, 20 > 33.333332% taken
+	132	forwbranch < 10, 10 > 50.0% taken
+	159	forwbranch < 0, 10 > 0.0% taken
+	190	forwbranch < 10, 20 > 33.333332% taken
+	200	forwbranch < 20, 1280 > 1.5384616% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, version, ()V >
+	54	forwbranch < 18, 0 > 100.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, flush, ()V >
+	8	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Ldacapo/TeeOutputStream;, write, (I)V >
+	9	forwbranch < 0, 113020 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/BitSet;, member, (I)Z >
+	11	forwbranch < 553185, 193 > 99.965126% taken
+	29	forwbranch < 319104, 234081 > 57.68486% taken
+M 4 < SystemAppCL, Lantlr/Tool;, doEverything, ([Ljava/lang/String;)I >
+	28	forwbranch < 1240, 40 > 96.875% taken
+	120	forwbranch < 1240, 0 > 100.0% taken
+M 10 < SystemAppCL, Lantlr/preprocessor/Tool;, preprocess, ()Z >
+	4	forwbranch < 1280, 0 > 100.0% taken
+	22	forwbranch < 0, 1280 > 0.0% taken
+	54	forwbranch < 1280, 1280 > 50.0% taken
+	124	forwbranch < 1240, 40 > 96.875% taken
+	169	forwbranch < 0, 1240 > 0.0% taken
+M 14 < SystemAppCL, Lantlr/Tool;, processArguments, ([Ljava/lang/String;)V >
+	5	forwbranch < 1280, 2520 > 33.68421% taken
+	16	forwbranch < 2520, 0 > 100.0% taken
+	45	forwbranch < 1240, 1280 > 49.20635% taken
+	58	forwbranch < 1280, 0 > 100.0% taken
+	96	forwbranch < 1240, 0 > 100.0% taken
+	125	forwbranch < 1240, 0 > 100.0% taken
+	155	forwbranch < 0, 1240 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/Tool;, getGrammarReader, ()Ljava/io/Reader; >
+	6	forwbranch < 0, 1240 > 0.0% taken
+M 30 < SystemAppCL, Lantlr/ANTLRParser;, grammar, ()V >
+	10	forwbranch < 1240, 280 > 81.57895% taken
+	20	forwbranch < 0, 280 > 0.0% taken
+	35	switch     < 0, 280, 0 >
+	114	backbranch < 0, 280 > 0.0% taken
+	136	switch     < 0, 0, 0, 0, 0, 0, 60, 60, 0, 340, 0, 0, 0, 780, 0 >
+	242	forwbranch < 1240, 1940 > 38.99371% taken
+	252	forwbranch < 0, 1940 > 0.0% taken
+	278	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lantlr/Tool;, checkForInvalidArguments, ([Ljava/lang/String;Lantlr/collections/impl/BitSet;)V >
+	5	forwbranch < 1240, 3720 > 25.0% taken
+	13	forwbranch < 3720, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/Tool;, getLanguage, (Lantlr/MakeGrammar;)Ljava/lang/String; >
+	4	forwbranch < 1240, 0 > 100.0% taken
+	14	forwbranch < 1240, 0 > 100.0% taken
+	24	forwbranch < 1240, 0 > 100.0% taken
+M 10 < SystemAppCL, Lantlr/PreservingFileWriter;, <init>, (Ljava/lang/String;)V >
+	44	forwbranch < 0, 5102 > 0.0% taken
+	51	forwbranch < 5102, 0 > 100.0% taken
+	90	forwbranch < 5102, 0 > 100.0% taken
+	132	forwbranch < 213, 4889 > 4.1748333% taken
+	142	forwbranch < 4889, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/BitSet;, add, (I)V >
+	11	forwbranch < 345582, 1992 > 99.42689% taken
+M 4 < SystemAppCL, Lantlr/StringUtils;, stripFrontBack, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	15	forwbranch < 20, 22880 > 0.08733624% taken
+	21	forwbranch < 22880, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/Tool;, fileMinusPath, (Ljava/lang/String;)Ljava/lang/String; >
+	14	forwbranch < 12180, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/Tool;, warning, ([Ljava/lang/String;Ljava/lang/String;II)V >
+	1	forwbranch < 0, 500 > 0.0% taken
+	6	forwbranch < 500, 0 > 100.0% taken
+	62	forwbranch < 500, 940 > 34.72222% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/BitSet;, andInPlace, (Lantlr/collections/impl/BitSet;)V >
+	19	forwbranch < 161604, 264177 > 37.954723% taken
+	51	forwbranch < 161604, 34365 > 82.464066% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/BitSet;, notInPlace, (II)V >
+	9	forwbranch < 120, 17240 > 0.69124424% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/BitSet;, orInPlace, (Lantlr/collections/impl/BitSet;)V >
+	10	forwbranch < 15183, 5318 > 74.0598% taken
+	41	forwbranch < 20501, 359846 > 5.390078% taken
+M 20 < SystemAppCL, Lantlr/collections/impl/BitSet;, equals, (Ljava/lang/Object;)Z >
+	1	forwbranch < 0, 19761 > 0.0% taken
+	8	forwbranch < 0, 19761 > 0.0% taken
+	40	forwbranch < 971, 61712 > 1.5490644% taken
+	58	backbranch < 42922, 18790 > 69.55212% taken
+	69	forwbranch < 961, 10 > 98.97013% taken
+	87	forwbranch < 0, 10 > 0.0% taken
+	99	backbranch < 0, 10 > 0.0% taken
+	113	forwbranch < 961, 0 > 100.0% taken
+	131	forwbranch < 0, 0 > Never Executed
+	143	backbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lantlr/collections/impl/BitSet;, degree, ()I >
+	11	forwbranch < 7180, 10403 > 40.834896% taken
+	24	forwbranch < 1965, 8438 > 18.888783% taken
+	33	forwbranch < 8438, 540032 > 1.5384616% taken
+	44	forwbranch < 473772, 66260 > 87.730354% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/Vector;, elementAt, (I)Ljava/lang/Object; >
+	6	forwbranch < 1590051, 0 > 100.0% taken
+	45	forwbranch < 1590051, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/BitSet;, toArray, ()[I >
+	20	forwbranch < 4687, 1865152 > 0.25066328% taken
+	28	forwbranch < 516898, 1348254 > 27.713451% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/BitSet;, clear, (I)V >
+	11	forwbranch < 3720, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/BitSet;, nil, ()Z >
+	9	forwbranch < 178013, 452409 > 28.237118% taken
+	20	forwbranch < 311107, 141302 > 68.766754% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/BitSet;, remove, (I)V >
+	11	forwbranch < 54740, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/collections/impl/BitSet;, subtractInPlace, (Lantlr/collections/impl/BitSet;)V >
+	1	forwbranch < 5740, 0 > 100.0% taken
+	13	forwbranch < 180, 12460 > 1.4240507% taken
+	22	forwbranch < 5560, 6900 > 44.62279% taken
+M 12 < SystemAppCL, Lantlr/collections/impl/BitSet;, toString, (Ljava/lang/String;Lantlr/collections/impl/Vector;)Ljava/lang/String; >
+	1	forwbranch < 720, 0 > 100.0% taken
+	26	forwbranch < 720, 51200 > 1.3867488% taken
+	35	forwbranch < 48260, 2940 > 94.25781% taken
+	42	forwbranch < 720, 2220 > 24.489796% taken
+	70	forwbranch < 2940, 0 > 100.0% taken
+	112	forwbranch < 2940, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/BitSet;, toStringOfHalfWords, ()Ljava/lang/String; >
+	16	forwbranch < 2740, 10380 > 20.884146% taken
+	20	forwbranch < 2740, 7640 > 26.396917% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/BitSet;, toStringOfWords, ()Ljava/lang/String; >
+	16	forwbranch < 6220, 21240 > 22.651129% taken
+	20	forwbranch < 6220, 15020 > 29.284369% taken
+M 12 < SystemAppCL, Lantlr/collections/impl/BitSet;, toStringWithRanges, (Ljava/lang/String;Lantlr/CharFormatter;)Ljava/lang/String; >
+	12	forwbranch < 120, 0 > 100.0% taken
+	26	forwbranch < 120, 120 > 50.0% taken
+	43	forwbranch < 120, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 120, 0 > 100.0% taken
+	108	forwbranch < 120, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/DefaultToolErrorHandler;, dumpSets, ([Ljava/lang/String;ILantlr/Grammar;ZI[Lantlr/Lookahead;)V >
+	18	forwbranch < 480, 840 > 36.363636% taken
+	41	forwbranch < 720, 120 > 85.71429% taken
+	71	forwbranch < 120, 0 > 100.0% taken
+	87	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lantlr/DefaultToolErrorHandler;, warnAltAmbiguity, (Lantlr/Grammar;Lantlr/AlternativeBlock;ZI[Lantlr/Lookahead;II)V >
+	15	forwbranch < 200, 220 > 47.61905% taken
+	25	forwbranch < 220, 0 > 100.0% taken
+	119	forwbranch < 380, 40 > 90.47619% taken
+M 2 < SystemAppCL, Lantlr/DefaultToolErrorHandler;, warnAltExitAmbiguity, (Lantlr/Grammar;Lantlr/BlockWithImpliedExitPath;ZI[Lantlr/Lookahead;I)V >
+	20	forwbranch < 20, 40 > 33.333332% taken
+M 27 < SystemAppCL, Lantlr/JavaCharFormatter;, escapeChar, (IZ)Ljava/lang/String; >
+	1	switch     < 1066, 1717, 1482, 13338, 403, 156, 149396 >
+	73	forwbranch < 52, 351 > 12.903226% taken
+	85	forwbranch < 12974, 364 > 97.27096% taken
+	99	forwbranch < 1053, 148343 > 0.70483816% taken
+	105	forwbranch < 147498, 845 > 99.430374% taken
+	110	forwbranch < 0, 1898 > 0.0% taken
+	116	forwbranch < 845, 1053 > 44.52055% taken
+	147	forwbranch < 0, 845 > 0.0% taken
+	154	forwbranch < 169, 676 > 20.0% taken
+	186	forwbranch < 0, 169 > 0.0% taken
+	193	forwbranch < 169, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/JavaCharFormatter;, escapeString, (Ljava/lang/String;)Ljava/lang/String; >
+	15	forwbranch < 490, 3230 > 13.172043% taken
+M 18 < SystemAppCL, Lantlr/preprocessor/Tool;, processArguments, ([Ljava/lang/String;)V >
+	19	forwbranch < 1280, 2560 > 33.333332% taken
+	30	forwbranch < 2560, 0 > 100.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	53	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 1280, 1280 > 50.0% taken
+	128	forwbranch < 1280, 0 > 100.0% taken
+	187	forwbranch < 1280, 0 > 100.0% taken
+	223	forwbranch < 0, 1280 > 0.0% taken
+	255	forwbranch < 1280, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/preprocessor/Hierarchy;, verifyThatHierarchyIsComplete, ()Z >
+	16	forwbranch < 1280, 5820 > 18.02817% taken
+	33	forwbranch < 1980, 3840 > 34.02062% taken
+	47	forwbranch < 1940, 40 > 97.9798% taken
+	102	forwbranch < 1240, 40 > 96.875% taken
+	121	forwbranch < 1240, 5660 > 17.971014% taken
+	138	forwbranch < 1940, 3720 > 34.27562% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/Hierarchy;, expandGrammarsInFile, (Ljava/lang/String;)V >
+	20	forwbranch < 1240, 1940 > 38.99371% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/GrammarFile;, nameForExpandedGrammarFile, (Ljava/lang/String;)Ljava/lang/String; >
+	4	forwbranch < 1240, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/Vector;, ensureCapacity, (I)V >
+	8	forwbranch < 26520, 895 > 96.73537% taken
+	28	forwbranch < 895, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/collections/impl/Vector;, removeElement, (Ljava/lang/Object;)Z >
+	7	forwbranch < 0, 1260 > 0.0% taken
+	17	forwbranch < 600, 660 > 47.61905% taken
+	31	forwbranch < 0, 600 > 0.0% taken
+	49	forwbranch < 600, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/collections/impl/Vector;, setElementAt, (Ljava/lang/Object;I)V >
+	6	forwbranch < 52380, 0 > 100.0% taken
+	56	forwbranch < 820, 51560 > 1.565483% taken
+M 22 < SystemAppCL, Lantlr/preprocessor/Grammar;, expandInPlace, ()V >
+	4	forwbranch < 1940, 0 > 100.0% taken
+	14	forwbranch < 1940, 0 > 100.0% taken
+	22	forwbranch < 580, 1360 > 29.896908% taken
+	37	forwbranch < 0, 1940 > 0.0% taken
+	85	forwbranch < 0, 0 > Never Executed
+	118	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 0 > Never Executed
+	164	forwbranch < 0, 0 > Never Executed
+	176	forwbranch < 0, 0 > Never Executed
+	183	forwbranch < 0, 0 > Never Executed
+	318	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/preprocessor/Grammar;, getSuperGrammar, ()Lantlr/preprocessor/Grammar; >
+	4	forwbranch < 5860, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/preprocessor/Hierarchy;, findRoot, (Lantlr/preprocessor/Grammar;)Lantlr/preprocessor/Grammar; >
+	4	forwbranch < 1940, 1940 > 50.0% taken
+	15	forwbranch < 1940, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/Preprocessor;, setTool, (Lantlr/Tool;)V >
+	4	forwbranch < 0, 1280 > 0.0% taken
+M 17 < SystemAppCL, Lantlr/preprocessor/Preprocessor;, grammarFile, (Lantlr/preprocessor/Hierarchy;Ljava/lang/String;)V >
+	11	forwbranch < 1280, 280 > 82.051285% taken
+	45	switch     < 0, 60, 400, 820, 0 >
+	125	forwbranch < 320, 2940 > 9.815951% taken
+	135	forwbranch < 1280, 1660 > 43.537415% taken
+	148	forwbranch < 0, 1980 > 0.0% taken
+	153	forwbranch < 740, 1240 > 37.373737% taken
+	168	backbranch < 0, 1980 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/VectorEnumerator;, hasMoreElements, ()Z >
+	18	forwbranch < 2395, 17572 > 11.994791% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/VectorEnumerator;, nextElement, ()Ljava/lang/Object; >
+	18	forwbranch < 0, 33688 > 0.0% taken
+M 34 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mRULE_BLOCK, (Z)V >
+	31	forwbranch < 33, 34998 > 0.09420228% taken
+	45	forwbranch < 0, 34998 > 0.0% taken
+	85	forwbranch < 0, 33 > 0.0% taken
+	126	switch     < 0, 0, 0, 0, 35031, 0, 0 >
+	245	forwbranch < 35031, 0 > 100.0% taken
+	265	forwbranch < 0, 0 > Never Executed
+	279	forwbranch < 0, 0 > Never Executed
+	319	forwbranch < 0, 0 > Never Executed
+	360	switch     < 0, 0, 0, 0, 0, 0, 0 >
+	481	forwbranch < 0, 35031 > 0.0% taken
+	485	forwbranch < 0, 35031 > 0.0% taken
+	490	forwbranch < 0, 35031 > 0.0% taken
+M 16 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mWS, (Z)V >
+	24	forwbranch < 2214, 175 > 92.67476% taken
+	43	forwbranch < 1695, 519 > 76.558266% taken
+	62	forwbranch < 798, 897 > 47.079647% taken
+	72	forwbranch < 897, 0 > 100.0% taken
+	86	forwbranch < 0, 897 > 0.0% taken
+	126	forwbranch < 301, 596 > 33.556297% taken
+	130	forwbranch < 0, 596 > 0.0% taken
+	135	forwbranch < 596, 0 > 100.0% taken
+M 44 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mSUBRULE_BLOCK, (Z)V >
+	31	forwbranch < 27580, 13680 > 66.8444% taken
+	45	forwbranch < 0, 13680 > 0.0% taken
+	67	forwbranch < 0, 27580 > 0.0% taken
+	114	forwbranch < 41260, 0 > 100.0% taken
+	128	forwbranch < 0, 0 > Never Executed
+	136	switch     < 0, 0, 0, 0, 0, 0 >
+	241	forwbranch < 0, 0 > Never Executed
+	255	forwbranch < 0, 0 > Never Executed
+	277	forwbranch < 0, 0 > Never Executed
+	321	switch     < 0, 0, 0, 0, 41260, 0 >
+	421	forwbranch < 40700, 560 > 98.64275% taken
+	431	forwbranch < 0, 560 > 0.0% taken
+	450	forwbranch < 30780, 9920 > 75.62653% taken
+	469	forwbranch < 25080, 5700 > 81.48148% taken
+	488	forwbranch < 14980, 10100 > 59.728867% taken
+	498	forwbranch < 41260, 0 > 100.0% taken
+	502	forwbranch < 0, 0 > Never Executed
+	507	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mCOMMENT, (Z)V >
+	21	forwbranch < 0, 26300 > 0.0% taken
+	31	forwbranch < 3760, 22540 > 14.296578% taken
+	49	forwbranch < 0, 3760 > 0.0% taken
+	59	forwbranch < 0, 3760 > 0.0% taken
+	98	forwbranch < 12420, 13880 > 47.224335% taken
+	102	forwbranch < 0, 13880 > 0.0% taken
+	107	forwbranch < 13880, 0 > 100.0% taken
+M 46 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mACTION, (Z)V >
+	27	forwbranch < 44457, 1204 > 97.363174% taken
+	40	forwbranch < 850, 43607 > 1.9119599% taken
+	50	forwbranch < 43357, 250 > 99.4267% taken
+	59	forwbranch < 0, 1100 > 0.0% taken
+	70	forwbranch < 0, 1100 > 0.0% taken
+	88	forwbranch < 43244, 113 > 99.73937% taken
+	97	forwbranch < 0, 113 > 0.0% taken
+	108	forwbranch < 0, 113 > 0.0% taken
+	126	forwbranch < 43219, 25 > 99.94219% taken
+	140	forwbranch < 0, 25 > 0.0% taken
+	158	forwbranch < 43049, 170 > 99.60665% taken
+	168	forwbranch < 22, 148 > 12.941176% taken
+	178	forwbranch < 4, 144 > 2.7027028% taken
+	196	forwbranch < 42741, 312 > 99.275314% taken
+	205	forwbranch < 0, 312 > 0.0% taken
+	216	forwbranch < 0, 312 > 0.0% taken
+	233	forwbranch < 0, 42741 > 0.0% taken
+	244	forwbranch < 0, 42741 > 0.0% taken
+	253	forwbranch < 0, 42741 > 0.0% taken
+	264	forwbranch < 0, 42741 > 0.0% taken
+	283	forwbranch < 1111, 93 > 92.27575% taken
+	287	forwbranch < 0, 93 > 0.0% taken
+	292	forwbranch < 0, 93 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mSTRING_LITERAL, (Z)V >
+	27	forwbranch < 2614, 18 > 99.31611% taken
+	49	forwbranch < 374, 2240 > 14.307574% taken
+	68	forwbranch < 374, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mCHAR_LITERAL, (Z)V >
+	27	forwbranch < 24660, 8320 > 74.77259% taken
+	49	forwbranch < 0, 24660 > 0.0% taken
+	93	forwbranch < 32980, 0 > 100.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mBANG, (Z)V >
+	21	forwbranch < 0, 620 > 0.0% taken
+	25	forwbranch < 0, 620 > 0.0% taken
+	30	forwbranch < 0, 620 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mSEMI, (Z)V >
+	21	forwbranch < 0, 1980 > 0.0% taken
+	25	forwbranch < 0, 1980 > 0.0% taken
+	30	forwbranch < 0, 1980 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mRCURLY, (Z)V >
+	21	forwbranch < 0, 5380 > 0.0% taken
+	25	forwbranch < 0, 5380 > 0.0% taken
+	30	forwbranch < 0, 5380 > 0.0% taken
+M 62 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mID_OR_KEYWORD, (Z)V >
+	45	forwbranch < 7998, 47288 > 14.466592% taken
+	54	forwbranch < 0, 47288 > 0.0% taken
+	65	forwbranch < 0, 47288 > 0.0% taken
+	78	forwbranch < 47055, 233 > 99.50727% taken
+	92	forwbranch < 32, 201 > 13.733906% taken
+	106	forwbranch < 0, 201 > 0.0% taken
+	128	forwbranch < 0, 32 > 0.0% taken
+	137	forwbranch < 0, 32 > 0.0% taken
+	148	forwbranch < 0, 32 > 0.0% taken
+	184	switch     < 0, 0, 0, 0, 0, 0, 233, 0 >
+	293	switch     < 0, 0, 0, 0, 0, 233 >
+	384	forwbranch < 7998, 47055 > 14.527819% taken
+	393	forwbranch < 0, 47055 > 0.0% taken
+	404	forwbranch < 0, 47055 > 0.0% taken
+	417	forwbranch < 46811, 244 > 99.48146% taken
+	425	switch     < 0, 0, 0, 244, 0, 244 >
+	517	forwbranch < 7998, 46811 > 14.592494% taken
+	530	forwbranch < 42360, 4451 > 90.491554% taken
+	538	switch     < 0, 146, 50, 4255, 0, 4451 >
+	617	forwbranch < 0, 55286 > 0.0% taken
+	621	forwbranch < 0, 55286 > 0.0% taken
+	626	forwbranch < 0, 55286 > 0.0% taken
+M 34 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mASSIGN_RHS, (Z)V >
+	45	forwbranch < 23540, 7560 > 75.691315% taken
+	58	forwbranch < 20080, 3460 > 85.30161% taken
+	67	forwbranch < 0, 3460 > 0.0% taken
+	78	forwbranch < 0, 3460 > 0.0% taken
+	96	forwbranch < 19280, 800 > 96.01594% taken
+	110	forwbranch < 0, 800 > 0.0% taken
+	128	forwbranch < 0, 19280 > 0.0% taken
+	138	forwbranch < 19280, 0 > 100.0% taken
+	147	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 0, 0 > Never Executed
+	175	forwbranch < 0, 19280 > 0.0% taken
+	186	forwbranch < 0, 19280 > 0.0% taken
+	195	forwbranch < 0, 19280 > 0.0% taken
+	206	forwbranch < 0, 19280 > 0.0% taken
+	225	forwbranch < 0, 7560 > 0.0% taken
+	229	forwbranch < 0, 7560 > 0.0% taken
+	234	forwbranch < 0, 7560 > 0.0% taken
+M 40 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mARG_ACTION, (Z)V >
+	27	forwbranch < 17020, 980 > 94.55556% taken
+	40	forwbranch < 17020, 0 > 100.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	60	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 17020 > 0.0% taken
+	88	forwbranch < 17020, 0 > 100.0% taken
+	97	forwbranch < 0, 0 > Never Executed
+	108	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 17020, 0 > 100.0% taken
+	140	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 17020, 0 > 100.0% taken
+	167	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 0 > Never Executed
+	195	forwbranch < 0, 17020 > 0.0% taken
+	206	forwbranch < 0, 17020 > 0.0% taken
+	215	forwbranch < 0, 17020 > 0.0% taken
+	226	forwbranch < 0, 17020 > 0.0% taken
+	245	forwbranch < 0, 980 > 0.0% taken
+	249	forwbranch < 0, 980 > 0.0% taken
+	254	forwbranch < 0, 980 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/ANTLRStringBuffer;, setLength, (I)V >
+	5	forwbranch < 4914, 263168 > 1.8330213% taken
+	21	forwbranch < 4914, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mALT, (Z)V >
+	25	forwbranch < 4633, 88039 > 4.9993525% taken
+	34	forwbranch < 0, 88039 > 0.0% taken
+	45	forwbranch < 0, 88039 > 0.0% taken
+	57	forwbranch < 4633, 0 > 100.0% taken
+	61	forwbranch < 0, 0 > Never Executed
+	66	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mNEWLINE, (Z)V >
+	21	forwbranch < 8688, 3999 > 68.479546% taken
+	31	forwbranch < 0, 3999 > 0.0% taken
+	60	forwbranch < 8688, 0 > 100.0% taken
+	83	forwbranch < 0, 8688 > 0.0% taken
+	125	forwbranch < 12687, 0 > 100.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	134	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mELEMENT, (Z)V >
+	19	switch     < 12604, 6207, 4330, 5781, 7511, 1751, 2688, 254685 >
+	143	forwbranch < 0, 254685 > 0.0% taken
+	182	forwbranch < 295557, 0 > 100.0% taken
+	186	forwbranch < 0, 0 > Never Executed
+	191	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mSL_COMMENT, (Z)V >
+	27	forwbranch < 1810, 108215 > 1.6450807% taken
+	37	forwbranch < 107192, 1023 > 99.05466% taken
+	49	forwbranch < 0, 107192 > 0.0% taken
+	60	forwbranch < 0, 107192 > 0.0% taken
+	69	forwbranch < 0, 107192 > 0.0% taken
+	80	forwbranch < 0, 107192 > 0.0% taken
+	98	forwbranch < 2833, 0 > 100.0% taken
+	102	forwbranch < 0, 0 > Never Executed
+	107	forwbranch < 0, 0 > Never Executed
+M 26 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mML_COMMENT, (Z)V >
+	27	forwbranch < 123474, 2293 > 98.17679% taken
+	37	forwbranch < 1736, 557 > 75.70868% taken
+	50	forwbranch < 2454, 122756 > 1.9599074% taken
+	60	forwbranch < 121919, 837 > 99.31816% taken
+	69	forwbranch < 0, 3291 > 0.0% taken
+	80	forwbranch < 0, 3291 > 0.0% taken
+	97	forwbranch < 0, 121919 > 0.0% taken
+	108	forwbranch < 0, 121919 > 0.0% taken
+	117	forwbranch < 0, 121919 > 0.0% taken
+	128	forwbranch < 0, 121919 > 0.0% taken
+	147	forwbranch < 557, 0 > 100.0% taken
+	151	forwbranch < 0, 0 > Never Executed
+	156	forwbranch < 0, 0 > Never Executed
+M 62 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mESC, (Z)V >
+	25	switch     < 360, 1360, 60, 60, 80, 720, 0, 0, 0, 0, 440, 0, 0, 200, 3000, 2160, 820, 440, 0, 0 >
+	293	forwbranch < 540, 380 > 58.695652% taken
+	303	forwbranch < 0, 380 > 0.0% taken
+	312	forwbranch < 0, 380 > 0.0% taken
+	323	forwbranch < 0, 380 > 0.0% taken
+	338	forwbranch < 0, 380 > 0.0% taken
+	348	forwbranch < 0, 380 > 0.0% taken
+	357	forwbranch < 0, 380 > 0.0% taken
+	368	forwbranch < 0, 380 > 0.0% taken
+	385	forwbranch < 0, 0 > Never Executed
+	396	forwbranch < 0, 0 > Never Executed
+	433	forwbranch < 0, 540 > 0.0% taken
+	444	forwbranch < 0, 540 > 0.0% taken
+	490	forwbranch < 0, 0 > Never Executed
+	500	forwbranch < 0, 0 > Never Executed
+	509	forwbranch < 0, 0 > Never Executed
+	520	forwbranch < 0, 0 > Never Executed
+	537	forwbranch < 0, 0 > Never Executed
+	548	forwbranch < 0, 0 > Never Executed
+	634	forwbranch < 9700, 0 > 100.0% taken
+	638	forwbranch < 0, 0 > Never Executed
+	643	forwbranch < 0, 0 > Never Executed
+M 141 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mID, (Z)V >
+	19	switch     < 71, 58, 407, 114, 73, 12, 22, 56, 181, 28, 0, 261, 63, 40, 332, 171, 10, 90, 215, 57, 6, 12, 93, 8, 0, 0, 0, 0, 0, 0, 0, 0, 180, 138, 562, 150, 434, 169, 7, 94, 232, 6, 82, 118, 128, 46, 636, 719, 0, 83, 299, 223, 50, 64, 6, 16, 0, 0, 0 >
+	325	switch     < 0, 20, 22, 18, 18, 18, 18, 0, 0, 0, 432, 207, 0, 257, 0, 0, 0, 818, 256, 485, 626, 1051, 120, 275, 241, 740, 24, 60, 717, 417, 642, 522, 448, 28, 741, 762, 1145, 262, 252, 27, 78, 76, 0, 38, 0, 0, 0, 1142, 0, 3653, 365, 1168, 1280, 5109, 377, 430, 517, 2675, 12, 180, 1705, 628, 2638, 2665, 2046, 20, 3968, 3090, 3958, 629, 116, 71, 945, 515, 66, 5888 >
+	718	forwbranch < 0, 6822 > 0.0% taken
+	722	forwbranch < 0, 6822 > 0.0% taken
+	727	forwbranch < 0, 6822 > 0.0% taken
+M 40 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mCURLY_BLOCK_SCARF, (Z)V >
+	27	forwbranch < 11006, 70 > 99.368004% taken
+	40	forwbranch < 121, 10885 > 1.0994003% taken
+	50	forwbranch < 10668, 217 > 98.00643% taken
+	59	forwbranch < 0, 338 > 0.0% taken
+	70	forwbranch < 0, 338 > 0.0% taken
+	88	forwbranch < 10414, 254 > 97.61905% taken
+	97	forwbranch < 0, 254 > 0.0% taken
+	108	forwbranch < 0, 254 > 0.0% taken
+	126	forwbranch < 10414, 0 > 100.0% taken
+	140	forwbranch < 0, 0 > Never Executed
+	158	forwbranch < 10390, 24 > 99.76954% taken
+	168	forwbranch < 0, 24 > 0.0% taken
+	178	forwbranch < 0, 24 > 0.0% taken
+	195	forwbranch < 0, 10390 > 0.0% taken
+	206	forwbranch < 0, 10390 > 0.0% taken
+	215	forwbranch < 0, 10390 > 0.0% taken
+	226	forwbranch < 0, 10390 > 0.0% taken
+	245	forwbranch < 70, 0 > 100.0% taken
+	249	forwbranch < 0, 0 > Never Executed
+	254	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mDIGIT, (Z)V >
+	23	forwbranch < 760, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+M 62 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mXDIGIT, (Z)V >
+	19	switch     < 1020, 20, 40, 40, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 400, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 120, 0 >
+	311	forwbranch < 1760, 0 > 100.0% taken
+	315	forwbranch < 0, 0 > Never Executed
+	320	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mk_tokenSet_1, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mk_tokenSet_2, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mk_tokenSet_3, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mk_tokenSet_5, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mk_tokenSet_6, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mk_tokenSet_7, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, mk_tokenSet_8, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 6 < SystemAppCL, Lantlr/ANTLRStringBuffer;, append, (C)V >
+	9	forwbranch < 246797, 266 > 99.892334% taken
+	23	forwbranch < 266, 266 > 50.0% taken
+	46	forwbranch < 266, 52200 > 0.506995% taken
+M 2 < SystemAppCL, Lantlr/ANTLRStringBuffer;, append, (Ljava/lang/String;)V >
+	7	forwbranch < 7610, 290003 > 2.5570118% taken
+M 2 < SystemAppCL, Lantlr/CharScanner;, LA, (I)C >
+	4	forwbranch < 0, 776014 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CharScanner;, append, (C)V >
+	4	forwbranch < 0, 798400 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/CharScanner;, consume, ()V >
+	7	forwbranch < 0, 454294 > 0.0% taken
+	20	forwbranch < 0, 454294 > 0.0% taken
+	49	forwbranch < 425308, 28986 > 93.61955% taken
+M 2 < SystemAppCL, Lantlr/CharScanner;, match, (C)V >
+	6	forwbranch < 141179, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CharScanner;, match, (Lantlr/collections/impl/BitSet;)V >
+	9	forwbranch < 85380, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/CharScanner;, match, (Ljava/lang/String;)V >
+	9	forwbranch < 25791, 54516 > 32.115505% taken
+	22	forwbranch < 54516, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CharScanner;, matchNot, (C)V >
+	6	forwbranch < 2409235, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/CharScanner;, matchRange, (CC)V >
+	6	forwbranch < 0, 43174 > 0.0% taken
+	15	forwbranch < 43174, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CharScanner;, testLiteralsTable, (I)I >
+	37	forwbranch < 303700, 24220 > 92.61405% taken
+M 2 < SystemAppCL, Lantlr/CharScanner;, testLiteralsTable, (Ljava/lang/String;I)I >
+	25	forwbranch < 59980, 7260 > 89.20286% taken
+M 124 < SystemAppCL, Lantlr/preprocessor/PreprocessorLexer;, nextToken, ()Lantlr/Token; >
+	15	switch     < 1622, 14703, 0, 0, 7029, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3284, 132, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2991, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9366, 439, 0, 1650, 0, 0, 0, 154, 122, 921, 242, 149, 25, 45, 126, 388, 60, 0, 548, 132, 81, 772, 361, 21, 189, 453, 121, 14, 25, 198, 17, 0, 0, 206, 0, 0, 0, 0, 0, 383, 304, 1197, 329, 925, 357, 13, 217, 500, 13, 179, 261, 275, 96, 1378, 1544, 0, 169, 651, 483, 107, 137, 12, 36, 0, 0, 315, 0, 1180, 281 >
+	685	forwbranch < 0, 281 > 0.0% taken
+	733	forwbranch < 28299, 29629 > 48.852024% taken
+	785	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/CharQueue;, append, (C)V >
+	9	forwbranch < 791241, 82 > 99.98963% taken
+M 6 < SystemAppCL, Lantlr/CharQueue;, <init>, (I)V >
+	5	forwbranch < 7012, 0 > 100.0% taken
+	18	forwbranch < 7012, 0 > 100.0% taken
+	32	forwbranch < 7012, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/InputBuffer;, syncConsume, ()V >
+	4	forwbranch < 5166173, 779704 > 86.88665% taken
+	11	forwbranch < 779704, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CharBuffer;, fill, (I)V >
+	17	forwbranch < 197931, 26266 > 88.28441% taken
+M 2 < SystemAppCL, Lantlr/CharQueue;, expand, ()V >
+	18	forwbranch < 1640, 3280 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/ANTLRHashString;, length, ()I >
+	4	forwbranch < 17501, 21979 > 44.328773% taken
+M 2 < SystemAppCL, Lantlr/ANTLRHashString;, charAt, (I)C >
+	4	forwbranch < 393756, 84523 > 82.32768% taken
+M 18 < SystemAppCL, Lantlr/ANTLRHashString;, equals, (Ljava/lang/Object;)Z >
+	4	forwbranch < 107325, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	20	forwbranch < 107325, 0 > 100.0% taken
+	57	forwbranch < 19366, 87959 > 18.044258% taken
+	69	forwbranch < 0, 19366 > 0.0% taken
+	78	forwbranch < 14471, 107929 > 11.822712% taken
+	93	forwbranch < 103034, 4895 > 95.46461% taken
+	113	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lantlr/ANTLRHashString;, hashCode, ()I >
+	14	forwbranch < 0, 4744 > 0.0% taken
+	21	forwbranch < 4744, 66576 > 6.6517105% taken
+	49	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lantlr/preprocessor/Preprocessor;, optionSpec, (Lantlr/preprocessor/Grammar;)Lantlr/collections/impl/IndexedVector; >
+	26	forwbranch < 5380, 7560 > 41.576508% taken
+	85	forwbranch < 4140, 3420 > 54.761906% taken
+	97	forwbranch < 3000, 420 > 87.7193% taken
+	118	forwbranch < 4140, 3000 > 57.983192% taken
+	130	forwbranch < 2420, 580 > 80.666664% taken
+M 52 < SystemAppCL, Lantlr/preprocessor/Preprocessor;, class_def, (Ljava/lang/String;Lantlr/preprocessor/Hierarchy;)Lantlr/preprocessor/Grammar; >
+	36	switch     < 320, 1660, 0 >
+	155	forwbranch < 1980, 0 > 100.0% taken
+	228	forwbranch < 1660, 320 > 83.83839% taken
+	245	switch     < 160, 0, 400, 0, 0, 0, 1400, 0, 0, 20, 0, 0, 0 >
+	339	forwbranch < 0, 1980 > 0.0% taken
+	353	switch     < 300, 0, 1360, 0, 0, 300, 0, 0, 0, 20, 0, 0, 0 >
+	466	switch     < 360, 0, 1600, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0 >
+	587	forwbranch < 1980, 42800 > 4.421617% taken
+	601	forwbranch < 0, 1980 > 0.0% taken
+M 75 < SystemAppCL, Lantlr/preprocessor/Preprocessor;, rule, (Lantlr/preprocessor/Grammar;)V >
+	34	switch     < 34391, 0, 0, 0, 0, 0, 0, 2227, 0, 0, 0 >
+	164	switch     < 221, 0, 0, 0, 0, 0, 2689, 0, 0, 0, 0, 0, 527, 340, 324, 32517, 0, 0 >
+	285	switch     < 221, 0, 0, 0, 0, 0, 2689, 0, 0, 0, 0, 0, 0, 493, 324, 32891, 0, 0 >
+	408	switch     < 289, 2689, 341, 33299, 0, 0 >
+	507	switch     < 630, 2689, 33299, 0, 0 >
+	582	switch     < 630, 2689, 33299, 0 >
+	651	switch     < 681, 35937, 0 >
+	782	forwbranch < 36125, 493 > 98.65367% taken
+	796	forwbranch < 36277, 341 > 99.06876% taken
+	811	forwbranch < 35937, 681 > 98.14026% taken
+	826	forwbranch < 36091, 527 > 98.560814% taken
+	842	forwbranch < 0, 36618 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/preprocessor/Preprocessor;, exceptionGroup, ()Ljava/lang/String; >
+	12	forwbranch < 42800, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/MismatchedTokenException;, <init>, ([Ljava/lang/String;Lantlr/Token;IZLjava/lang/String;)V >
+	42	forwbranch < 578, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/Parser;, match, (I)V >
+	6	forwbranch < 243287, 578 > 99.762985% taken
+M 6 < SystemAppCL, Lantlr/TokenQueue;, <init>, (I)V >
+	5	forwbranch < 2920, 0 > 100.0% taken
+	18	forwbranch < 2920, 0 > 100.0% taken
+	32	forwbranch < 2920, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/TokenBuffer;, syncConsume, ()V >
+	4	forwbranch < 660863, 76473 > 89.62847% taken
+	11	forwbranch < 74378, 2095 > 97.26047% taken
+M 2 < SystemAppCL, Lantlr/TokenQueue;, append, (Lantlr/Token;)V >
+	9	forwbranch < 155385, 340 > 99.78167% taken
+M 2 < SystemAppCL, Lantlr/TokenBuffer;, fill, (I)V >
+	17	forwbranch < 654983, 74676 > 89.76563% taken
+M 2 < SystemAppCL, Lantlr/TokenQueue;, expand, ()V >
+	19	forwbranch < 1455, 2910 > 33.333332% taken
+M 34 < SystemAppCL, Lantlr/ANTLRLexer;, escapeCharValue, (Ljava/lang/String;)I >
+	7	forwbranch < 10220, 0 > 100.0% taken
+	17	switch     < 0, 1500, 80, 80, 120, 1000, 0, 0, 0, 0, 520, 0, 240, 3080, 2060, 1020, 520, 0 >
+	194	forwbranch < 520, 0 > 100.0% taken
+	267	forwbranch < 760, 520 > 59.375% taken
+	278	forwbranch < 0, 520 > 0.0% taken
+	322	forwbranch < 760, 0 > 100.0% taken
+	333	forwbranch < 0, 0 > Never Executed
+	371	forwbranch < 0, 0 > Never Executed
+	382	forwbranch < 0, 0 > Never Executed
+M 16 < SystemAppCL, Lantlr/ANTLRLexer;, mWS, (Z)V >
+	19	switch     < 12073, 7046, 11455, 3413 >
+	90	forwbranch < 0, 3413 > 0.0% taken
+	100	forwbranch < 0, 3413 > 0.0% taken
+	129	forwbranch < 0, 0 > Never Executed
+	173	forwbranch < 331, 33656 > 0.9739018% taken
+	177	forwbranch < 0, 33656 > 0.0% taken
+	182	forwbranch < 33656, 0 > 100.0% taken
+M 16 < SystemAppCL, Lantlr/ANTLRLexer;, mCOMMENT, (Z)V >
+	24	forwbranch < 0, 26220 > 0.0% taken
+	34	forwbranch < 3760, 22460 > 14.3401985% taken
+	52	forwbranch < 0, 3760 > 0.0% taken
+	62	forwbranch < 0, 3760 > 0.0% taken
+	113	forwbranch < 840, 25380 > 3.2036614% taken
+	119	forwbranch < 2180, 24040 > 8.314264% taken
+	123	forwbranch < 0, 24040 > 0.0% taken
+	128	forwbranch < 23320, 720 > 97.00499% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mQUESTION, (Z)V >
+	21	forwbranch < 0, 10060 > 0.0% taken
+	25	forwbranch < 0, 10060 > 0.0% taken
+	30	forwbranch < 0, 10060 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mTREE_BEGIN, (Z)V >
+	21	forwbranch < 0, 7540 > 0.0% taken
+	25	forwbranch < 0, 7540 > 0.0% taken
+	30	forwbranch < 0, 7540 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mLPAREN, (Z)V >
+	21	forwbranch < 0, 18847 > 0.0% taken
+	25	forwbranch < 0, 18847 > 0.0% taken
+	30	forwbranch < 0, 18847 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mRPAREN, (Z)V >
+	21	forwbranch < 0, 40700 > 0.0% taken
+	25	forwbranch < 0, 40700 > 0.0% taken
+	30	forwbranch < 0, 40700 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mCOLON, (Z)V >
+	21	forwbranch < 0, 51560 > 0.0% taken
+	25	forwbranch < 0, 51560 > 0.0% taken
+	30	forwbranch < 0, 51560 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mSTAR, (Z)V >
+	21	forwbranch < 0, 9940 > 0.0% taken
+	25	forwbranch < 0, 9940 > 0.0% taken
+	30	forwbranch < 0, 9940 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mPLUS, (Z)V >
+	21	forwbranch < 0, 5760 > 0.0% taken
+	25	forwbranch < 0, 5760 > 0.0% taken
+	30	forwbranch < 0, 5760 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mSEMI, (Z)V >
+	21	forwbranch < 0, 6697 > 0.0% taken
+	25	forwbranch < 0, 6697 > 0.0% taken
+	30	forwbranch < 0, 6697 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mCARET, (Z)V >
+	21	forwbranch < 0, 8440 > 0.0% taken
+	25	forwbranch < 0, 8440 > 0.0% taken
+	30	forwbranch < 0, 8440 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mBANG, (Z)V >
+	21	forwbranch < 0, 11080 > 0.0% taken
+	25	forwbranch < 0, 11080 > 0.0% taken
+	30	forwbranch < 0, 11080 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mOR, (Z)V >
+	21	forwbranch < 0, 42220 > 0.0% taken
+	25	forwbranch < 0, 42220 > 0.0% taken
+	30	forwbranch < 0, 42220 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mNOT_OP, (Z)V >
+	21	forwbranch < 0, 146 > 0.0% taken
+	25	forwbranch < 0, 146 > 0.0% taken
+	30	forwbranch < 0, 146 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mRCURLY, (Z)V >
+	21	forwbranch < 0, 7640 > 0.0% taken
+	25	forwbranch < 0, 7640 > 0.0% taken
+	30	forwbranch < 0, 7640 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/ANTLRLexer;, mCHAR_LITERAL, (Z)V >
+	27	forwbranch < 11754, 3966 > 74.770996% taken
+	49	forwbranch < 0, 11754 > 0.0% taken
+	93	forwbranch < 197, 15523 > 1.2531806% taken
+	97	forwbranch < 0, 15523 > 0.0% taken
+	102	forwbranch < 0, 15523 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/ANTLRLexer;, mSTRING_LITERAL, (Z)V >
+	27	forwbranch < 134863, 862 > 99.36489% taken
+	49	forwbranch < 20588, 114275 > 15.265862% taken
+	68	forwbranch < 2928, 17660 > 14.221877% taken
+	72	forwbranch < 0, 17660 > 0.0% taken
+	77	forwbranch < 0, 17660 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/ANTLRLexer;, mINT, (Z)V >
+	24	forwbranch < 0, 2200 > 0.0% taken
+	34	forwbranch < 1080, 1120 > 49.090908% taken
+	51	forwbranch < 0, 1080 > 0.0% taken
+	89	forwbranch < 0, 1080 > 0.0% taken
+	93	forwbranch < 0, 1080 > 0.0% taken
+	98	forwbranch < 0, 1080 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mARG_ACTION, (Z)V >
+	35	forwbranch < 0, 2360 > 0.0% taken
+	39	forwbranch < 0, 2360 > 0.0% taken
+	44	forwbranch < 0, 2360 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/ANTLRLexer;, mACTION, (Z)V >
+	38	forwbranch < 14620, 320 > 97.8581% taken
+	53	forwbranch < 320, 14620 > 2.141901% taken
+	143	forwbranch < 0, 14940 > 0.0% taken
+	147	forwbranch < 14940, 0 > 100.0% taken
+	152	forwbranch < 0, 0 > Never Executed
+M 82 < SystemAppCL, Lantlr/ANTLRLexer;, mTOKEN_REF, (Z)V >
+	27	switch     < 0, 38, 40, 36, 28, 28, 28, 0, 0, 0, 310, 504, 0, 22, 0, 0, 0, 3612, 555, 1518, 1826, 3593, 448, 769, 477, 2464, 40, 321, 1938, 1581, 2849, 1997, 1518, 96, 3498, 2191, 4058, 907, 178, 31, 310, 446, 0, 0, 0, 0, 536, 1637, 0, 494, 14, 101, 10, 753, 14, 20, 22, 102, 0, 21, 96, 60, 108, 106, 58, 6, 680, 268, 88, 10, 88, 10, 191, 36, 8, 7430 >
+	392	forwbranch < 0, 8802 > 0.0% taken
+	396	forwbranch < 0, 8802 > 0.0% taken
+	401	forwbranch < 0, 8802 > 0.0% taken
+M 14 < SystemAppCL, Lantlr/ANTLRLexer;, mRULE_REF, (Z)V >
+	31	forwbranch < 59349, 4048 > 93.61484% taken
+	46	forwbranch < 0, 4048 > 0.0% taken
+	64	forwbranch < 59184, 165 > 99.721985% taken
+	79	forwbranch < 0, 165 > 0.0% taken
+	92	forwbranch < 0, 63397 > 0.0% taken
+	96	forwbranch < 0, 63397 > 0.0% taken
+	101	forwbranch < 0, 63397 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mIMPLIES, (Z)V >
+	21	forwbranch < 0, 660 > 0.0% taken
+	25	forwbranch < 0, 660 > 0.0% taken
+	30	forwbranch < 0, 660 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mRANGE, (Z)V >
+	21	forwbranch < 0, 4580 > 0.0% taken
+	25	forwbranch < 0, 4580 > 0.0% taken
+	30	forwbranch < 0, 4580 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mASSIGN, (Z)V >
+	21	forwbranch < 0, 12200 > 0.0% taken
+	25	forwbranch < 0, 12200 > 0.0% taken
+	30	forwbranch < 0, 12200 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRLexer;, mWILDCARD, (Z)V >
+	21	forwbranch < 0, 260 > 0.0% taken
+	25	forwbranch < 0, 260 > 0.0% taken
+	30	forwbranch < 0, 260 > 0.0% taken
+M 16 < SystemAppCL, Lantlr/ANTLRLexer;, mSL_COMMENT, (Z)V >
+	31	forwbranch < 867, 33778 > 2.5025256% taken
+	51	forwbranch < 599, 268 > 69.08881% taken
+	61	forwbranch < 0, 268 > 0.0% taken
+	86	forwbranch < 599, 0 > 100.0% taken
+	105	forwbranch < 0, 599 > 0.0% taken
+	147	forwbranch < 867, 0 > 100.0% taken
+	151	forwbranch < 0, 0 > Never Executed
+	156	forwbranch < 0, 0 > Never Executed
+M 44 < SystemAppCL, Lantlr/ANTLRLexer;, mML_COMMENT, (Z)V >
+	27	forwbranch < 630, 179 > 77.87392% taken
+	36	forwbranch < 0, 179 > 0.0% taken
+	47	forwbranch < 0, 179 > 0.0% taken
+	57	forwbranch < 0, 179 > 0.0% taken
+	78	forwbranch < 0, 630 > 0.0% taken
+	89	forwbranch < 0, 630 > 0.0% taken
+	98	forwbranch < 0, 630 > 0.0% taken
+	109	forwbranch < 0, 630 > 0.0% taken
+	147	forwbranch < 179804, 3088 > 98.31157% taken
+	157	forwbranch < 2279, 809 > 73.80181% taken
+	170	forwbranch < 180912, 1171 > 99.35689% taken
+	180	forwbranch < 0, 1171 > 0.0% taken
+	209	forwbranch < 180912, 0 > 100.0% taken
+	218	forwbranch < 0, 0 > Never Executed
+	229	forwbranch < 0, 0 > Never Executed
+	256	forwbranch < 3693, 177219 > 2.041324% taken
+	265	forwbranch < 0, 177219 > 0.0% taken
+	276	forwbranch < 0, 177219 > 0.0% taken
+	296	forwbranch < 0, 3693 > 0.0% taken
+	319	forwbranch < 0, 809 > 0.0% taken
+	323	forwbranch < 0, 809 > 0.0% taken
+	328	forwbranch < 0, 809 > 0.0% taken
+M 62 < SystemAppCL, Lantlr/ANTLRLexer;, mESC, (Z)V >
+	25	switch     < 360, 1360, 60, 60, 80, 720, 0, 0, 0, 0, 440, 0, 0, 200, 3000, 2160, 820, 440, 0, 0 >
+	293	forwbranch < 540, 380 > 58.695652% taken
+	303	forwbranch < 0, 380 > 0.0% taken
+	312	forwbranch < 0, 380 > 0.0% taken
+	323	forwbranch < 0, 380 > 0.0% taken
+	341	forwbranch < 0, 380 > 0.0% taken
+	351	forwbranch < 0, 380 > 0.0% taken
+	360	forwbranch < 0, 380 > 0.0% taken
+	371	forwbranch < 0, 380 > 0.0% taken
+	391	forwbranch < 0, 0 > Never Executed
+	402	forwbranch < 0, 0 > Never Executed
+	439	forwbranch < 0, 540 > 0.0% taken
+	450	forwbranch < 0, 540 > 0.0% taken
+	496	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	515	forwbranch < 0, 0 > Never Executed
+	526	forwbranch < 0, 0 > Never Executed
+	546	forwbranch < 0, 0 > Never Executed
+	557	forwbranch < 0, 0 > Never Executed
+	643	forwbranch < 9700, 0 > 100.0% taken
+	647	forwbranch < 0, 0 > Never Executed
+	652	forwbranch < 0, 0 > Never Executed
+M 62 < SystemAppCL, Lantlr/ANTLRLexer;, mXDIGIT, (Z)V >
+	19	switch     < 1020, 20, 40, 40, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 400, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 120, 0 >
+	311	forwbranch < 1760, 0 > 100.0% taken
+	315	forwbranch < 0, 0 > Never Executed
+	320	forwbranch < 0, 0 > Never Executed
+M 23 < SystemAppCL, Lantlr/ANTLRLexer;, mNESTED_ARG_ACTION, (Z)V >
+	25	switch     < 80, 40, 0, 40, 35000 >
+	112	forwbranch < 34960, 40 > 99.88571% taken
+	122	forwbranch < 0, 40 > 0.0% taken
+	151	forwbranch < 34960, 0 > 100.0% taken
+	160	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 2400, 32560 > 6.8649883% taken
+	217	forwbranch < 2400, 0 > 100.0% taken
+	221	forwbranch < 0, 0 > Never Executed
+	226	forwbranch < 0, 0 > Never Executed
+M 58 < SystemAppCL, Lantlr/ANTLRLexer;, mNESTED_ACTION, (Z)V >
+	27	forwbranch < 135209, 3611 > 97.39879% taken
+	40	forwbranch < 2303, 132906 > 1.703289% taken
+	50	forwbranch < 132263, 643 > 99.5162% taken
+	59	forwbranch < 0, 2946 > 0.0% taken
+	70	forwbranch < 0, 2946 > 0.0% taken
+	80	forwbranch < 2303, 643 > 78.1738% taken
+	90	forwbranch < 0, 643 > 0.0% taken
+	119	forwbranch < 2303, 0 > 100.0% taken
+	128	forwbranch < 0, 0 > Never Executed
+	139	forwbranch < 0, 0 > Never Executed
+	162	forwbranch < 0, 2303 > 0.0% taken
+	210	forwbranch < 131853, 410 > 99.69001% taken
+	219	forwbranch < 0, 410 > 0.0% taken
+	230	forwbranch < 0, 410 > 0.0% taken
+	248	forwbranch < 131765, 88 > 99.93326% taken
+	262	forwbranch < 0, 88 > 0.0% taken
+	280	forwbranch < 131278, 487 > 99.6304% taken
+	290	forwbranch < 64, 423 > 13.141684% taken
+	300	forwbranch < 13, 410 > 3.073286% taken
+	318	forwbranch < 130274, 1017 > 99.22539% taken
+	327	forwbranch < 0, 1017 > 0.0% taken
+	338	forwbranch < 0, 1017 > 0.0% taken
+	355	forwbranch < 0, 130274 > 0.0% taken
+	366	forwbranch < 0, 130274 > 0.0% taken
+	375	forwbranch < 0, 130274 > 0.0% taken
+	386	forwbranch < 0, 130274 > 0.0% taken
+	405	forwbranch < 3611, 0 > 100.0% taken
+	409	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 0, 0 > Never Executed
+M 82 < SystemAppCL, Lantlr/ANTLRLexer;, mINTERNAL_RULE_REF, (Z)I >
+	31	switch     < 0, 234, 262, 128, 66, 40, 40, 0, 0, 0, 2662, 1085, 0, 1659, 0, 0, 0, 1188, 705, 586, 1441, 2910, 431, 219, 276, 758, 0, 0, 794, 182, 262, 308, 364, 0, 85, 1500, 846, 117, 860, 533, 12, 0, 0, 560, 0, 0, 0, 6430, 0, 21412, 3016, 7871, 8541, 36394, 3453, 4002, 2644, 22994, 69, 1153, 12694, 6061, 21474, 18942, 17183, 140, 27248, 20606, 28168, 4512, 600, 766, 9202, 4581, 471, 31151 >
+	396	forwbranch < 37117, 0 > 100.0% taken
+	401	forwbranch < 0, 0 > Never Executed
+	406	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lantlr/ANTLRLexer;, mWS_LOOP, (Z)V >
+	19	switch     < 0, 180, 60, 7400, 0, 7640 >
+	88	forwbranch < 7640, 0 > 100.0% taken
+	92	forwbranch < 0, 0 > Never Executed
+	97	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/ANTLRLexer;, mk_tokenSet_0, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/ANTLRLexer;, mk_tokenSet_1, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/ANTLRLexer;, mk_tokenSet_2, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/ANTLRLexer;, mk_tokenSet_3, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/ANTLRLexer;, mk_tokenSet_4, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/ANTLRLexer;, tokenTypeForCharLiteral, (Ljava/lang/String;)I >
+	5	forwbranch < 33400, 9602 > 77.67081% taken
+M 137 < SystemAppCL, Lantlr/ANTLRLexer;, nextToken, ()Lantlr/Token; >
+	15	switch     < 104221, 58055, 0, 0, 28991, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 103879, 3536, 9284, 2479, 0, 0, 0, 10656, 10849, 13328, 3265, 1900, 0, 0, 1578, 7864, 0, 27, 177, 59, 85, 0, 6, 0, 0, 0, 16870, 18680, 0, 4173, 0, 3295, 0, 1532, 714, 3972, 1182, 941, 454, 250, 462, 2543, 266, 0, 3107, 657, 441, 2373, 1751, 73, 1870, 2616, 422, 156, 109, 1382, 46, 0, 0, 769, 0, 0, 2726, 0, 0, 1731, 1305, 3408, 1237, 5596, 1914, 379, 595, 3123, 40, 289, 1012, 1202, 674, 3025, 3476, 18, 473, 3438, 2903, 512, 672, 368, 128, 0, 0, 4832, 13761, 2530, 536, 411 >
+	832	forwbranch < 1989, 4173 > 32.27848% taken
+	842	forwbranch < 3964, 209 > 94.991615% taken
+	865	forwbranch < 4375, 1578 > 73.492355% taken
+	875	forwbranch < 86, 1492 > 5.449937% taken
+	898	forwbranch < 497, 3964 > 11.141% taken
+	921	forwbranch < 411, 86 > 82.696175% taken
+	944	forwbranch < 0, 411 > 0.0% taken
+	992	forwbranch < 190887, 302772 > 38.667786% taken
+	1038	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/LLkAnalyzer;, getAltLookahead, (Lantlr/AlternativeBlock;II)Lantlr/Lookahead; >
+	21	forwbranch < 282425, 15099 > 94.92512% taken
+M 4 < SystemAppCL, Lantlr/Lookahead;, intersection, (Lantlr/Lookahead;)Lantlr/Lookahead; >
+	23	forwbranch < 221844, 1365 > 99.388466% taken
+	30	forwbranch < 1034, 331 > 75.750916% taken
+M 4 < SystemAppCL, Lantlr/Lookahead;, nil, ()Z >
+	7	forwbranch < 114582, 165373 > 40.928722% taken
+	14	forwbranch < 46, 165327 > 0.027815906% taken
+M 8 < SystemAppCL, Lantlr/LLkAnalyzer;, altUsesWildcardDefault, (Lantlr/Alternative;)Z >
+	9	forwbranch < 1840, 0 > 100.0% taken
+	22	forwbranch < 0, 0 > Never Executed
+	31	forwbranch < 1680, 160 > 91.304344% taken
+	41	forwbranch < 0, 160 > 0.0% taken
+M 62 < SystemAppCL, Lantlr/LLkAnalyzer;, deterministic, (Lantlr/AlternativeBlock;)Z >
+	6	forwbranch < 2961, 0 > 100.0% taken
+	68	forwbranch < 2958, 3 > 99.89868% taken
+	75	forwbranch < 0, 3 > 0.0% taken
+	82	forwbranch < 3, 0 > 100.0% taken
+	112	forwbranch < 1900, 1061 > 64.16751% taken
+	175	forwbranch < 1900, 4819 > 28.278017% taken
+	217	forwbranch < 4819, 54335 > 8.146533% taken
+	233	forwbranch < 54335, 0 > 100.0% taken
+	304	forwbranch < 94729, 0 > 100.0% taken
+	371	forwbranch < 94729, 0 > 100.0% taken
+	417	forwbranch < 94729, 0 > 100.0% taken
+	474	forwbranch < 94729, 0 > 100.0% taken
+	524	forwbranch < 54178, 40551 > 57.192623% taken
+	535	forwbranch < 54178, 40551 > 57.192623% taken
+	546	backbranch < 40394, 157 > 99.61283% taken
+	567	forwbranch < 54178, 157 > 99.71105% taken
+	591	forwbranch < 120, 37 > 76.43312% taken
+	598	forwbranch < 37, 0 > 100.0% taken
+	640	forwbranch < 120, 0 > 100.0% taken
+	647	forwbranch < 0, 0 > Never Executed
+	690	forwbranch < 110, 10 > 91.666664% taken
+	704	forwbranch < 63, 47 > 57.272728% taken
+	715	forwbranch < 0, 47 > 0.0% taken
+	726	forwbranch < 0, 47 > 0.0% taken
+	736	forwbranch < 31, 32 > 49.20635% taken
+	746	forwbranch < 25, 6 > 80.645164% taken
+	753	forwbranch < 0, 6 > 0.0% taken
+	764	forwbranch < 6, 0 > 100.0% taken
+	775	forwbranch < 0, 0 > Never Executed
+	786	forwbranch < 0, 6 > 0.0% taken
+	797	forwbranch < 0, 6 > 0.0% taken
+M 42 < SystemAppCL, Lantlr/LLkAnalyzer;, deterministicImpliedPath, (Lantlr/BlockWithImpliedExitPath;)Z >
+	27	forwbranch < 8003, 0 > 100.0% taken
+	45	forwbranch < 8003, 10452 > 43.36494% taken
+	64	forwbranch < 10452, 0 > 100.0% taken
+	114	forwbranch < 11525, 0 > 100.0% taken
+	198	forwbranch < 11525, 0 > 100.0% taken
+	244	forwbranch < 11525, 0 > 100.0% taken
+	301	forwbranch < 11525, 0 > 100.0% taken
+	348	forwbranch < 9978, 1547 > 86.577% taken
+	359	forwbranch < 9978, 1547 > 86.577% taken
+	370	backbranch < 1073, 474 > 69.360054% taken
+	375	forwbranch < 9978, 474 > 95.46498% taken
+	410	forwbranch < 334, 140 > 70.464134% taken
+	420	forwbranch < 130, 204 > 38.922157% taken
+	431	forwbranch < 30, 100 > 23.076923% taken
+	438	forwbranch < 30, 70 > 30.0% taken
+	449	forwbranch < 0, 70 > 0.0% taken
+	456	forwbranch < 70, 0 > 100.0% taken
+	474	forwbranch < 30, 30 > 50.0% taken
+	485	forwbranch < 0, 30 > 0.0% taken
+	492	forwbranch < 30, 0 > 100.0% taken
+	517	forwbranch < 20, 10 > 66.666664% taken
+M 4 < SystemAppCL, Lantlr/LLkAnalyzer;, lookaheadEquivForApproxAndFullAnalysis, ([Lantlr/Lookahead;I)Z >
+	6	forwbranch < 40, 120 > 25.0% taken
+	21	forwbranch < 100, 20 > 83.333336% taken
+M 2 < SystemAppCL, Lantlr/Lookahead;, clone, ()Ljava/lang/Object; >
+	36	forwbranch < 14749, 2073 > 87.67685% taken
+M 10 < SystemAppCL, Lantlr/Lookahead;, combineWith, (Lantlr/Lookahead;)V >
+	4	forwbranch < 92, 271211 > 0.033910424% taken
+	19	forwbranch < 209491, 61812 > 77.21661% taken
+	31	forwbranch < 262503, 8800 > 96.75639% taken
+	38	forwbranch < 1657, 7143 > 18.829546% taken
+	59	forwbranch < 244468, 18035 > 93.1296% taken
+M 32 < SystemAppCL, Lantlr/LLkAnalyzer;, subruleCanBeInverted, (Lantlr/AlternativeBlock;Z)Z >
+	4	forwbranch < 0, 17060 > 0.0% taken
+	11	forwbranch < 0, 17060 > 0.0% taken
+	18	forwbranch < 17060, 0 > 100.0% taken
+	30	forwbranch < 17060, 0 > 100.0% taken
+	45	forwbranch < 17060, 57180 > 22.979527% taken
+	60	forwbranch < 0, 57180 > 0.0% taken
+	68	forwbranch < 0, 57180 > 0.0% taken
+	76	forwbranch < 57180, 0 > 100.0% taken
+	93	forwbranch < 57180, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 0 > Never Executed
+	125	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	140	forwbranch < 0, 57180 > 0.0% taken
+	149	forwbranch < 57180, 0 > 100.0% taken
+M 20 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/AlternativeBlock;)Lantlr/Lookahead; >
+	4	forwbranch < 82425, 0 > 100.0% taken
+	77	forwbranch < 82425, 187189 > 30.571484% taken
+	84	forwbranch < 187189, 0 > 100.0% taken
+	150	forwbranch < 187189, 0 > 100.0% taken
+	163	forwbranch < 0, 0 > Never Executed
+	220	forwbranch < 28719, 53706 > 34.842583% taken
+	227	forwbranch < 47633, 6073 > 88.69214% taken
+	239	forwbranch < 0, 6073 > 0.0% taken
+	246	forwbranch < 0, 6073 > 0.0% taken
+	285	forwbranch < 6073, 20675 > 22.704502% taken
+M 8 < SystemAppCL, Lantlr/LLkAnalyzer;, removeCompetingPredictionSets, (Lantlr/collections/impl/BitSet;Lantlr/AlternativeElement;)V >
+	22	forwbranch < 3840, 0 > 100.0% taken
+	33	forwbranch < 0, 0 > Never Executed
+	39	forwbranch < 3420, 420 > 89.0625% taken
+	55	forwbranch < 3420, 5740 > 37.336243% taken
+M 38 < SystemAppCL, Lantlr/LLkAnalyzer;, FOLLOW, (ILantlr/RuleEndElement;)Lantlr/Lookahead; >
+	12	forwbranch < 8200, 7806 > 51.23079% taken
+	37	forwbranch < 16006, 0 > 100.0% taken
+	86	forwbranch < 15677, 329 > 97.94452% taken
+	93	forwbranch < 329, 0 > 100.0% taken
+	138	forwbranch < 4747, 10930 > 30.280027% taken
+	145	forwbranch < 10930, 0 > 100.0% taken
+	219	forwbranch < 24, 10906 > 0.21957915% taken
+	273	forwbranch < 12, 12 > 50.0% taken
+	356	forwbranch < 4747, 10849 > 30.437292% taken
+	372	forwbranch < 10849, 0 > 100.0% taken
+	432	forwbranch < 10849, 0 > 100.0% taken
+	479	forwbranch < 10458, 391 > 96.39598% taken
+	492	forwbranch < 74, 317 > 18.92583% taken
+	512	forwbranch < 10849, 0 > 100.0% taken
+	575	forwbranch < 3174, 1573 > 66.86328% taken
+	583	forwbranch < 34, 1539 > 2.161475% taken
+	593	forwbranch < 1525, 14 > 99.09032% taken
+	615	forwbranch < 121, 1404 > 7.9344263% taken
+	639	forwbranch < 4747, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILjava/lang/String;)Lantlr/Lookahead; >
+	4	forwbranch < 2148, 0 > 100.0% taken
+	71	forwbranch < 2148, 0 > 100.0% taken
+	78	forwbranch < 0, 0 > Never Executed
+	126	forwbranch < 833, 1315 > 38.780262% taken
+	133	forwbranch < 1315, 0 > 100.0% taken
+	256	forwbranch < 833, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/RuleBlock;)Lantlr/Lookahead; >
+	4	forwbranch < 70840, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/LLkAnalyzer;, deterministic, (Lantlr/OneOrMoreBlock;)Z >
+	4	forwbranch < 5760, 0 > 100.0% taken
+	67	forwbranch < 380, 5380 > 6.5972223% taken
+	71	forwbranch < 120, 5260 > 2.2304833% taken
+M 6 < SystemAppCL, Lantlr/LLkAnalyzer;, deterministic, (Lantlr/ZeroOrMoreBlock;)Z >
+	4	forwbranch < 9940, 0 > 100.0% taken
+	67	forwbranch < 400, 9540 > 4.0241446% taken
+	71	forwbranch < 120, 9420 > 1.2578616% taken
+M 2 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/ActionElement;)Lantlr/Lookahead; >
+	4	forwbranch < 39180, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/BlockEndElement;)Lantlr/Lookahead; >
+	4	forwbranch < 54444, 0 > 100.0% taken
+	64	forwbranch < 54444, 0 > 100.0% taken
+	82	forwbranch < 9401, 45043 > 17.267284% taken
+	92	forwbranch < 35928, 9115 > 79.76378% taken
+	137	forwbranch < 53778, 666 > 98.776726% taken
+	158	forwbranch < 53778, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/CharLiteralElement;)Lantlr/Lookahead; >
+	4	forwbranch < 262520, 0 > 100.0% taken
+	48	forwbranch < 205020, 57500 > 78.09691% taken
+	66	forwbranch < 0, 205020 > 0.0% taken
+	73	forwbranch < 201300, 3720 > 98.18554% taken
+	97	forwbranch < 3720, 0 > 100.0% taken
+	138	forwbranch < 3720, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/CharRangeElement;)Lantlr/Lookahead; >
+	4	forwbranch < 2380, 0 > 100.0% taken
+	48	forwbranch < 1561, 819 > 65.588234% taken
+	84	forwbranch < 1561, 935961 > 0.16650276% taken
+M 8 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/GrammarAtom;)Lantlr/Lookahead; >
+	4	forwbranch < 103960, 0 > 100.0% taken
+	62	forwbranch < 103960, 0 > 100.0% taken
+	76	forwbranch < 77080, 26880 > 74.1439% taken
+	102	forwbranch < 76960, 120 > 99.844315% taken
+M 2 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/OneOrMoreBlock;)Lantlr/Lookahead; >
+	4	forwbranch < 6740, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/RuleEndElement;)Lantlr/Lookahead; >
+	4	forwbranch < 135536, 0 > 100.0% taken
+	62	forwbranch < 106435, 29101 > 78.52895% taken
+M 16 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/RuleRefElement;)Lantlr/Lookahead; >
+	4	forwbranch < 20505, 0 > 100.0% taken
+	62	forwbranch < 0, 20505 > 0.0% taken
+	69	forwbranch < 20505, 0 > 100.0% taken
+	165	forwbranch < 20505, 0 > 100.0% taken
+	208	forwbranch < 20505, 0 > 100.0% taken
+	273	forwbranch < 16359, 4146 > 79.78054% taken
+	280	forwbranch < 4146, 0 > 100.0% taken
+	353	forwbranch < 4146, 5154 > 44.580647% taken
+M 10 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/StringLiteralElement;)Lantlr/Lookahead; >
+	4	forwbranch < 16652, 0 > 100.0% taken
+	50	forwbranch < 6839, 9813 > 41.07014% taken
+	61	forwbranch < 9494, 319 > 96.74921% taken
+	97	forwbranch < 4120, 2719 > 60.242725% taken
+	123	forwbranch < 4120, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/TreeElement;)Lantlr/Lookahead; >
+	4	forwbranch < 10440, 0 > 100.0% taken
+	66	forwbranch < 10440, 0 > 100.0% taken
+	89	forwbranch < 10440, 0 > 100.0% taken
+	122	forwbranch < 10440, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/WildcardElement;)Lantlr/Lookahead; >
+	4	forwbranch < 1280, 0 > 100.0% taken
+	48	forwbranch < 780, 500 > 60.9375% taken
+	66	forwbranch < 0, 780 > 0.0% taken
+	123	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/LLkAnalyzer;, look, (ILantlr/ZeroOrMoreBlock;)Lantlr/Lookahead; >
+	4	forwbranch < 11360, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/LLkAnalyzer;, setGrammar, (Lantlr/Grammar;)V >
+	4	forwbranch < 1240, 700 > 63.917526% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, context, ()Lantlr/BlockContext; >
+	9	forwbranch < 28319, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/MakeGrammar;, labelElement, (Lantlr/AlternativeElement;Lantlr/Token;)V >
+	1	forwbranch < 189900, 6800 > 96.54296% taken
+	17	forwbranch < 6800, 8600 > 44.155846% taken
+	45	forwbranch < 0, 8600 > 0.0% taken
+	57	forwbranch < 8600, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/RuleRefElement;, <init>, (Lantlr/Grammar;Lantlr/Token;I)V >
+	31	forwbranch < 663, 119 > 84.78261% taken
+M 2 < SystemAppCL, Lantlr/Alternative;, addElement, (Lantlr/AlternativeElement;)V >
+	4	forwbranch < 96485, 80007 > 54.6682% taken
+M 2 < SystemAppCL, Lantlr/AlternativeBlock;, prepareForAnalysis, ()V >
+	10	forwbranch < 1685, 3073 > 35.41404% taken
+M 8 < SystemAppCL, Lantlr/DefineGrammarSymbols;, defineRuleName, (Lantlr/Token;Ljava/lang/String;ZLjava/lang/String;)V >
+	12	forwbranch < 4926, 4089 > 54.64226% taken
+	38	forwbranch < 2839, 1250 > 69.430176% taken
+	98	forwbranch < 4150, 4865 > 46.034386% taken
+	120	forwbranch < 4865, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, endAlt, ()V >
+	8	forwbranch < 21519, 23069 > 48.261864% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, createOptionalRuleRef, (Ljava/lang/String;Lantlr/Token;)Lantlr/AlternativeBlock; >
+	29	forwbranch < 460, 60 > 88.46154% taken
+M 2 < SystemAppCL, Lantlr/CharRangeElement;, <init>, (Lantlr/LexerGrammar;Lantlr/Token;Lantlr/Token;I)V >
+	75	forwbranch < 734, 474023 > 0.1546054% taken
+M 4 < SystemAppCL, Lantlr/DefineGrammarSymbols;, refRule, (Lantlr/Token;Lantlr/Token;Lantlr/Token;Lantlr/Token;I)V >
+	12	forwbranch < 10172, 1797 > 84.98621% taken
+	31	forwbranch < 7662, 4307 > 64.01537% taken
+M 2 < SystemAppCL, Lantlr/Alternative;, atStart, ()Z >
+	4	forwbranch < 0, 320 > 0.0% taken
+M 16 < SystemAppCL, Lantlr/StringLiteralElement;, <init>, (Lantlr/Grammar;Lantlr/Token;I)V >
+	11	forwbranch < 2893, 3210 > 47.402916% taken
+	34	forwbranch < 3210, 0 > 100.0% taken
+	126	forwbranch < 6103, 30096 > 16.859581% taken
+	144	forwbranch < 29840, 256 > 99.14939% taken
+	160	forwbranch < 0, 256 > 0.0% taken
+	179	switch     < 123, 118, 5, 10 >
+	234	forwbranch < 16885, 13211 > 56.1038% taken
+M 12 < SystemAppCL, Lantlr/MakeGrammar;, refRule, (Lantlr/Token;Lantlr/Token;Lantlr/Token;Lantlr/Token;I)V >
+	7	forwbranch < 23327, 4007 > 85.3406% taken
+	16	forwbranch < 4007, 0 > 100.0% taken
+	57	forwbranch < 4007, 0 > 100.0% taken
+	115	forwbranch < 26766, 568 > 97.922005% taken
+	131	forwbranch < 26654, 680 > 97.51225% taken
+	165	forwbranch < 23327, 4007 > 85.3406% taken
+M 2 < SystemAppCL, Lantlr/TokenRefElement;, <init>, (Lantlr/Grammar;Lantlr/Token;ZI)V >
+	33	forwbranch < 46980, 0 > 100.0% taken
+M 30 < SystemAppCL, Lantlr/RuleBlock;, setOption, (Lantlr/Token;Lantlr/Token;)V >
+	9	forwbranch < 3020, 240 > 92.63804% taken
+	21	forwbranch < 0, 240 > 0.0% taken
+	41	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 2740, 280 > 90.72848% taken
+	101	forwbranch < 280, 0 > 100.0% taken
+	143	forwbranch < 0, 280 > 0.0% taken
+	163	forwbranch < 0, 0 > Never Executed
+	213	forwbranch < 2640, 100 > 96.350365% taken
+	223	forwbranch < 100, 0 > 100.0% taken
+	276	forwbranch < 0, 2640 > 0.0% taken
+	286	forwbranch < 2640, 0 > 100.0% taken
+	337	forwbranch < 2640, 0 > 100.0% taken
+	389	forwbranch < 0, 0 > Never Executed
+	401	forwbranch < 0, 0 > Never Executed
+	421	forwbranch < 0, 0 > Never Executed
+M 18 < SystemAppCL, Lantlr/AlternativeBlock;, setOption, (Lantlr/Token;Lantlr/Token;)V >
+	9	forwbranch < 1040, 980 > 51.48515% taken
+	21	forwbranch < 980, 0 > 100.0% taken
+	41	forwbranch < 0, 980 > 0.0% taken
+	91	forwbranch < 380, 660 > 36.53846% taken
+	103	forwbranch < 660, 0 > 100.0% taken
+	123	forwbranch < 0, 660 > 0.0% taken
+	173	forwbranch < 0, 380 > 0.0% taken
+	185	forwbranch < 60, 320 > 15.789474% taken
+	210	forwbranch < 0, 60 > 0.0% taken
+M 34 < SystemAppCL, Lantlr/DefineGrammarSymbols;, endOptions, ()V >
+	7	forwbranch < 580, 1360 > 29.896908% taken
+	17	forwbranch < 300, 1060 > 22.058823% taken
+	43	forwbranch < 560, 500 > 52.83019% taken
+	139	forwbranch < 580, 300 > 65.90909% taken
+	149	forwbranch < 0, 300 > 0.0% taken
+	183	forwbranch < 300, 0 > 100.0% taken
+	250	forwbranch < 280, 20 > 93.333336% taken
+	419	forwbranch < 0, 280 > 0.0% taken
+	441	forwbranch < 0, 580 > 0.0% taken
+	451	forwbranch < 120, 460 > 20.689655% taken
+	468	forwbranch < 280, 180 > 60.869564% taken
+	550	forwbranch < 0, 280 > 0.0% taken
+	572	forwbranch < 0, 120 > 0.0% taken
+	582	forwbranch < 0, 120 > 0.0% taken
+	602	forwbranch < 120, 0 > 100.0% taken
+	656	forwbranch < 120, 0 > 100.0% taken
+	825	forwbranch < 0, 120 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/ImportVocabTokenManager;, <init>, (Lantlr/Grammar;Ljava/lang/String;Ljava/lang/String;Lantlr/Tool;)V >
+	35	forwbranch < 0, 400 > 0.0% taken
+	63	forwbranch < 400, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/DefineGrammarSymbols;, _refStringLiteral, (Lantlr/Token;Lantlr/Token;IZ)V >
+	7	forwbranch < 11040, 12840 > 46.231155% taken
+	30	forwbranch < 10420, 2420 > 81.15265% taken
+M 2 < SystemAppCL, Lantlr/DefineGrammarSymbols;, _refToken, (Lantlr/Token;Lantlr/Token;Lantlr/Token;Lantlr/Token;ZIZ)V >
+	20	forwbranch < 23560, 23420 > 50.149% taken
+M 4 < SystemAppCL, Lantlr/StringUtils;, stripFront, (Ljava/lang/String;C)Ljava/lang/String; >
+	4	forwbranch < 0, 1062 > 0.0% taken
+	13	forwbranch < 531, 531 > 50.0% taken
+M 4 < SystemAppCL, Lantlr/StringUtils;, stripBack, (Ljava/lang/String;C)Ljava/lang/String; >
+	4	forwbranch < 0, 1280 > 0.0% taken
+	18	forwbranch < 640, 640 > 50.0% taken
+M 38 < SystemAppCL, Lantlr/Grammar;, setOption, (Ljava/lang/String;Lantlr/Token;)Z >
+	21	forwbranch < 720, 760 > 48.648647% taken
+	38	forwbranch < 760, 0 > 100.0% taken
+	151	forwbranch < 580, 140 > 80.55556% taken
+	196	forwbranch < 400, 180 > 68.965515% taken
+	241	forwbranch < 300, 100 > 75.0% taken
+	250	forwbranch < 100, 0 > 100.0% taken
+	267	forwbranch < 0, 100 > 0.0% taken
+	307	forwbranch < 300, 0 > 100.0% taken
+	316	forwbranch < 0, 0 > Never Executed
+	333	forwbranch < 0, 0 > Never Executed
+	373	forwbranch < 300, 0 > 100.0% taken
+	382	forwbranch < 0, 0 > Never Executed
+	399	forwbranch < 0, 0 > Never Executed
+	439	forwbranch < 300, 0 > 100.0% taken
+	450	forwbranch < 300, 0 > 100.0% taken
+	461	forwbranch < 300, 0 > 100.0% taken
+	472	forwbranch < 300, 0 > 100.0% taken
+	483	forwbranch < 280, 20 > 93.333336% taken
+	494	forwbranch < 280, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/DefineGrammarSymbols;, findGrammar, (Ljava/lang/String;)Lantlr/Grammar; >
+	14	forwbranch < 1940, 860 > 69.28571% taken
+	35	forwbranch < 860, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/LexerGrammar;, processArguments, ([Ljava/lang/String;)V >
+	5	forwbranch < 940, 2820 > 25.0% taken
+	16	forwbranch < 2820, 0 > 100.0% taken
+	43	forwbranch < 2820, 0 > 100.0% taken
+	70	forwbranch < 2820, 0 > 100.0% taken
+M 24 < SystemAppCL, Lantlr/DefineGrammarSymbols;, defineToken, (Lantlr/Token;Lantlr/Token;)V >
+	6	forwbranch < 200, 2580 > 7.1942444% taken
+	15	forwbranch < 1580, 1200 > 56.834534% taken
+	26	forwbranch < 1580, 1200 > 56.834534% taken
+	50	forwbranch < 1200, 0 > 100.0% taken
+	54	forwbranch < 0, 0 > Never Executed
+	62	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 0, 0 > Never Executed
+	134	forwbranch < 200, 1000 > 16.666666% taken
+	154	forwbranch < 180, 820 > 18.0% taken
+	162	forwbranch < 820, 0 > 100.0% taken
+	321	forwbranch < 200, 180 > 52.63158% taken
+	355	forwbranch < 1580, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/DefineGrammarSymbols;, refHeaderAction, (Lantlr/Token;Lantlr/Token;)V >
+	1	forwbranch < 0, 280 > 0.0% taken
+	30	forwbranch < 280, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/DefineGrammarSymbols;, getHeaderAction, (Ljava/lang/String;)Ljava/lang/String; >
+	13	forwbranch < 360, 2640 > 12.0% taken
+M 54 < SystemAppCL, Lantlr/DefineGrammarSymbols;, setFileOption, (Lantlr/Token;Lantlr/Token;Ljava/lang/String;)V >
+	9	forwbranch < 80, 740 > 9.756098% taken
+	18	forwbranch < 100, 640 > 13.513514% taken
+	48	forwbranch < 100, 0 > 100.0% taken
+	57	forwbranch < 0, 0 > Never Executed
+	101	forwbranch < 0, 80 > 0.0% taken
+	110	forwbranch < 0, 80 > 0.0% taken
+	165	forwbranch < 0, 0 > Never Executed
+	177	forwbranch < 0, 0 > Never Executed
+	201	forwbranch < 0, 0 > Never Executed
+	249	forwbranch < 0, 0 > Never Executed
+	261	forwbranch < 0, 0 > Never Executed
+	273	forwbranch < 0, 0 > Never Executed
+	285	forwbranch < 0, 0 > Never Executed
+	338	forwbranch < 0, 0 > Never Executed
+	350	forwbranch < 0, 0 > Never Executed
+	362	forwbranch < 0, 0 > Never Executed
+	411	forwbranch < 0, 0 > Never Executed
+	423	forwbranch < 0, 0 > Never Executed
+	435	forwbranch < 0, 0 > Never Executed
+	481	forwbranch < 0, 0 > Never Executed
+	534	forwbranch < 0, 0 > Never Executed
+	560	forwbranch < 0, 0 > Never Executed
+	586	forwbranch < 0, 0 > Never Executed
+	598	forwbranch < 0, 0 > Never Executed
+	610	forwbranch < 0, 0 > Never Executed
+	660	forwbranch < 0, 0 > Never Executed
+	713	forwbranch < 0, 0 > Never Executed
+M 20 < SystemAppCL, Lantlr/DefineGrammarSymbols;, setGrammarOption, (Lantlr/Token;Lantlr/Token;)V >
+	9	forwbranch < 0, 3020 > 0.0% taken
+	21	forwbranch < 3020, 0 > 100.0% taken
+	60	forwbranch < 3020, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 2440, 580 > 80.7947% taken
+	118	forwbranch < 0, 580 > 0.0% taken
+	127	forwbranch < 0, 580 > 0.0% taken
+	180	forwbranch < 2020, 420 > 82.78689% taken
+	189	forwbranch < 0, 420 > 0.0% taken
+	198	forwbranch < 0, 420 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/DefineGrammarSymbols;, startLexer, (Ljava/lang/String;Lantlr/Token;Ljava/lang/String;Ljava/lang/String;)V >
+	4	forwbranch < 940, 0 > 100.0% taken
+	62	forwbranch < 940, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lantlr/DefineGrammarSymbols;, startParser, (Ljava/lang/String;Lantlr/Token;Ljava/lang/String;Ljava/lang/String;)V >
+	4	forwbranch < 760, 0 > 100.0% taken
+	62	forwbranch < 760, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lantlr/DefineGrammarSymbols;, startTreeWalker, (Ljava/lang/String;Lantlr/Token;Ljava/lang/String;Ljava/lang/String;)V >
+	4	forwbranch < 240, 0 > 100.0% taken
+	62	forwbranch < 240, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, beginExceptionSpec, (Lantlr/Token;)V >
+	1	forwbranch < 60, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, beginTree, (Lantlr/Token;)V >
+	7	forwbranch < 7540, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/MakeGrammar;, createNextTokenRule, (Lantlr/Grammar;Lantlr/collections/impl/Vector;Ljava/lang/String;)Lantlr/RuleBlock; >
+	49	forwbranch < 920, 19240 > 4.5634923% taken
+	68	forwbranch < 19240, 0 > 100.0% taken
+	123	forwbranch < 2480, 16760 > 12.889812% taken
+	151	forwbranch < 0, 16760 > 0.0% taken
+	160	forwbranch < 420, 16340 > 2.5059667% taken
+	179	forwbranch < 16340, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/MakeGrammar;, defineRuleName, (Lantlr/Token;Ljava/lang/String;ZLjava/lang/String;)V >
+	6	forwbranch < 23400, 19360 > 54.72404% taken
+	16	forwbranch < 19360, 0 > 100.0% taken
+	89	forwbranch < 23400, 0 > 100.0% taken
+	173	forwbranch < 23400, 19360 > 54.72404% taken
+M 6 < SystemAppCL, Lantlr/MakeGrammar;, endExceptionSpec, ()V >
+	8	forwbranch < 60, 0 > 100.0% taken
+	30	forwbranch < 60, 0 > 100.0% taken
+	63	forwbranch < 60, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, endGrammar, ()V >
+	4	forwbranch < 1940, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/MakeGrammar;, endSubRule, ()V >
+	36	forwbranch < 11847, 164 > 98.63458% taken
+	43	forwbranch < 0, 164 > 0.0% taken
+	50	forwbranch < 0, 164 > 0.0% taken
+	57	forwbranch < 0, 164 > 0.0% taken
+	75	forwbranch < 164, 0 > 100.0% taken
+	152	forwbranch < 11775, 236 > 98.03513% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, oneOrMoreSubRule, ()V >
+	10	forwbranch < 5760, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, optionalSubRule, ()V >
+	10	forwbranch < 10060, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/MakeGrammar;, refCharLiteral, (Lantlr/Token;Lantlr/Token;ZIZ)V >
+	7	forwbranch < 2755, 0 > 100.0% taken
+	76	forwbranch < 1791, 964 > 65.00907% taken
+	87	forwbranch < 0, 964 > 0.0% taken
+	105	forwbranch < 964, 0 > 100.0% taken
+	156	forwbranch < 1102, 1653 > 40.0% taken
+	161	forwbranch < 1632, 21 > 98.72958% taken
+M 18 < SystemAppCL, Lantlr/MakeGrammar;, refCharRange, (Lantlr/Token;Lantlr/Token;Lantlr/Token;IZ)V >
+	7	forwbranch < 4180, 0 > 100.0% taken
+	57	forwbranch < 4180, 0 > 100.0% taken
+	95	forwbranch < 3400, 780 > 81.339714% taken
+	103	forwbranch < 0, 780 > 0.0% taken
+	115	forwbranch < 780, 0 > 100.0% taken
+	147	forwbranch < 20, 760 > 2.5641026% taken
+	159	forwbranch < 760, 0 > 100.0% taken
+	241	forwbranch < 920, 3260 > 22.00957% taken
+	246	forwbranch < 3260, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, refExceptionHandler, (Lantlr/Token;Lantlr/Token;)V >
+	10	forwbranch < 60, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/MakeGrammar;, refReturnAction, (Lantlr/Token;)V >
+	7	forwbranch < 400, 0 > 100.0% taken
+	48	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, refSemPred, (Lantlr/Token;)V >
+	15	forwbranch < 0, 320 > 0.0% taken
+M 18 < SystemAppCL, Lantlr/MakeGrammar;, refStringLiteral, (Lantlr/Token;Lantlr/Token;IZ)V >
+	16	forwbranch < 4449, 571 > 88.625496% taken
+	21	forwbranch < 571, 0 > 100.0% taken
+	70	forwbranch < 2666, 2354 > 53.10757% taken
+	83	forwbranch < 537, 1817 > 22.812235% taken
+	100	forwbranch < 1817, 9403 > 16.194296% taken
+	119	forwbranch < 0, 9403 > 0.0% taken
+	129	forwbranch < 9403, 0 > 100.0% taken
+	189	forwbranch < 2036, 2984 > 40.55777% taken
+	194	forwbranch < 2961, 23 > 99.229225% taken
+M 14 < SystemAppCL, Lantlr/MakeGrammar;, refToken, (Lantlr/Token;Lantlr/Token;Lantlr/Token;Lantlr/Token;ZIZ)V >
+	7	forwbranch < 35189, 7005 > 83.39812% taken
+	13	forwbranch < 7005, 0 > 100.0% taken
+	42	forwbranch < 7005, 0 > 100.0% taken
+	91	forwbranch < 237, 6768 > 3.3832977% taken
+	96	forwbranch < 6573, 195 > 97.1188% taken
+	114	forwbranch < 35189, 0 > 100.0% taken
+	143	forwbranch < 35189, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, synPred, ()V >
+	10	forwbranch < 660, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/MakeGrammar;, zeroOrMoreSubRule, ()V >
+	10	forwbranch < 9940, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/LList;, deleteHead, ()Ljava/lang/Object; >
+	4	forwbranch < 99820, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/LList;, insertHead, (Ljava/lang/Object;)V >
+	39	forwbranch < 97880, 1940 > 98.0565% taken
+M 2 < SystemAppCL, Lantlr/collections/impl/LList;, top, ()Ljava/lang/Object; >
+	4	forwbranch < 1053380, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRParser;, fileOptionsSpec, ()V >
+	13	forwbranch < 0, 1600 > 0.0% taken
+	23	forwbranch < 780, 820 > 48.75% taken
+	49	forwbranch < 0, 820 > 0.0% taken
+M 54 < SystemAppCL, Lantlr/ANTLRParser;, classDef, ()V >
+	11	switch     < 320, 180, 0, 1440, 0 >
+	59	forwbranch < 0, 320 > 0.0% taken
+	100	switch     < 200, 0, 1740, 0 >
+	147	forwbranch < 0, 200 > 0.0% taken
+	188	forwbranch < 0, 1940 > 0.0% taken
+	198	forwbranch < 0, 1940 > 0.0% taken
+	208	forwbranch < 1940, 0 > 100.0% taken
+	218	forwbranch < 0, 0 > Never Executed
+	248	switch     < 0, 1940, 0 >
+	357	forwbranch < 1000, 940 > 51.54639% taken
+	378	forwbranch < 0, 1000 > 0.0% taken
+	388	forwbranch < 1000, 0 > 100.0% taken
+	398	forwbranch < 0, 0 > Never Executed
+	475	forwbranch < 760, 240 > 76.0% taken
+	493	forwbranch < 0, 760 > 0.0% taken
+	503	forwbranch < 760, 0 > 100.0% taken
+	513	forwbranch < 0, 0 > Never Executed
+	552	forwbranch < 0, 1940 > 0.0% taken
+	576	forwbranch < 0, 0 > Never Executed
+	584	forwbranch < 0, 0 > Never Executed
+	604	forwbranch < 0, 0 > Never Executed
+	693	forwbranch < 0, 0 > Never Executed
+	705	switch     < 0, 0, 0, 0 >
+M 7 < SystemAppCL, Lantlr/ANTLRParser;, id, ()Lantlr/Token; >
+	11	switch     < 25560, 44320, 0 >
+	55	forwbranch < 2940, 22620 > 11.502347% taken
+	82	forwbranch < 0, 44320 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/ANTLRParser;, optionValue, ()Lantlr/Token; >
+	14	switch     < 3400, 0, 1080, 1280, 3360, 0 >
+	91	forwbranch < 0, 3400 > 0.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+	146	forwbranch < 0, 1080 > 0.0% taken
+M 78 < SystemAppCL, Lantlr/ANTLRParser;, lexerSpec, (Ljava/lang/String;)V >
+	12	switch     < 0, 940, 0 >
+	65	forwbranch < 0, 0 > Never Executed
+	121	switch     < 940, 0, 0 >
+	201	forwbranch < 0, 940 > 0.0% taken
+	233	switch     < 60, 0, 0, 0, 0, 0, 0, 680, 0, 0, 0, 0, 0, 0, 0, 0, 0, 180, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0 >
+	390	forwbranch < 0, 940 > 0.0% taken
+	407	switch     < 140, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 160, 620, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0 >
+	560	switch     < 200, 0, 720, 0, 20, 0, 0, 0 >
+	647	forwbranch < 0, 200 > 0.0% taken
+M 73 < SystemAppCL, Lantlr/ANTLRParser;, treeParserSpec, (Ljava/lang/String;)V >
+	33	switch     < 240, 0, 0 >
+	96	forwbranch < 0, 240 > 0.0% taken
+	127	switch     < 60, 0, 0, 0, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0 >
+	282	forwbranch < 0, 240 > 0.0% taken
+	299	switch     < 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 160, 0, 0, 0, 0, 0, 0 >
+	452	switch     < 80, 0, 0, 160, 0, 0, 0, 0 >
+	539	forwbranch < 0, 80 > 0.0% taken
+M 78 < SystemAppCL, Lantlr/ANTLRParser;, parserSpec, (Ljava/lang/String;)V >
+	21	switch     < 760, 0, 0 >
+	65	switch     < 760, 0, 0 >
+	128	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 760 > 0.0% taken
+	210	switch     < 40, 0, 0, 0, 0, 0, 0, 640, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0 >
+	366	forwbranch < 0, 760 > 0.0% taken
+	383	switch     < 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140, 0, 0, 0, 0, 540, 0, 0, 0, 0, 0, 0 >
+	536	switch     < 80, 0, 0, 680, 0, 0, 0, 0 >
+	623	forwbranch < 0, 80 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRParser;, rules, ()V >
+	13	forwbranch < 201, 4295 > 4.4706407% taken
+	27	forwbranch < 0, 4295 > 0.0% taken
+	39	forwbranch < 0, 201 > 0.0% taken
+M 8 < SystemAppCL, Lantlr/ANTLRParser;, lexerOptionsSpec, ()V >
+	11	switch     < 400, 0, 1500, 680 >
+	74	backbranch < 0, 400 > 0.0% taken
+	113	forwbranch < 0, 1500 > 0.0% taken
+M 25 < SystemAppCL, Lantlr/ANTLRParser;, tokensSpec, ()V >
+	22	forwbranch < 200, 2880 > 6.4935064% taken
+	32	forwbranch < 300, 2580 > 10.416667% taken
+	40	switch     < 200, 2580, 0 >
+	75	forwbranch < 0, 2580 > 0.0% taken
+	97	switch     < 1000, 1580, 0, 0 >
+	180	forwbranch < 0, 2580 > 0.0% taken
+	199	switch     < 2580, 0, 0 >
+	271	forwbranch < 0, 200 > 0.0% taken
+	290	switch     < 200, 0, 0 >
+	373	forwbranch < 0, 300 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRParser;, treeParserOptionsSpec, ()V >
+	13	forwbranch < 0, 160 > 0.0% taken
+	23	forwbranch < 80, 80 > 50.0% taken
+	49	forwbranch < 0, 80 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRParser;, parserOptionsSpec, ()V >
+	13	forwbranch < 40, 2040 > 1.9230769% taken
+	23	forwbranch < 640, 1400 > 31.37255% taken
+	49	forwbranch < 0, 1440 > 0.0% taken
+M 112 < SystemAppCL, Lantlr/ANTLRParser;, rule, ()V >
+	38	switch     < 520, 16580, 23080, 2580, 0, 0, 0 >
+	115	forwbranch < 0, 520 > 0.0% taken
+	152	switch     < 16760, 0, 0, 0, 23400, 0, 0, 2600, 0, 0, 0 >
+	227	forwbranch < 0, 2600 > 0.0% taken
+	258	forwbranch < 0, 0 > Never Executed
+	290	forwbranch < 0, 0 > Never Executed
+	334	switch     < 220, 3160, 620, 400, 380, 37980, 0, 0 >
+	413	forwbranch < 0, 620 > 0.0% taken
+	449	forwbranch < 0, 42760 > 0.0% taken
+	474	switch     < 220, 3160, 580, 380, 38420, 0, 0 >
+	552	forwbranch < 0, 580 > 0.0% taken
+	594	switch     < 300, 3160, 400, 38900, 0, 0 >
+	670	forwbranch < 0, 400 > 0.0% taken
+	712	switch     < 700, 3160, 38900, 0, 0 >
+	788	switch     < 700, 3160, 38900, 0 >
+	856	switch     < 760, 42000, 0 >
+	904	forwbranch < 0, 760 > 0.0% taken
+	962	switch     < 1240, 0, 0, 0, 0, 0, 100, 520, 0, 600, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15660, 0, 0, 0, 22080, 0, 0, 2560, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1170	forwbranch < 0, 42760 > 0.0% taken
+M 8 < SystemAppCL, Lantlr/ANTLRParser;, qualifiedID, ()Lantlr/Token; >
+	24	forwbranch < 0, 4640 > 0.0% taken
+	43	forwbranch < 4640, 0 > 100.0% taken
+	64	backbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 4640 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/ANTLRParser;, charSet, ()Lantlr/collections/impl/BitSet; >
+	16	forwbranch < 400, 0 > 100.0% taken
+	37	backbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lantlr/ANTLRParser;, setBlockElement, ()Lantlr/collections/impl/BitSet; >
+	28	forwbranch < 0, 11 > 0.0% taken
+	51	switch     < 0, 0, 11, 0 >
+	109	forwbranch < 0, 11 > 0.0% taken
+	125	forwbranch < 11, 0 > 100.0% taken
+	159	forwbranch < 11, 133343 > 0.008248721% taken
+M 6 < SystemAppCL, Lantlr/ANTLRParser;, ruleOptionsSpec, ()V >
+	13	forwbranch < 0, 6420 > 0.0% taken
+	23	forwbranch < 3160, 3260 > 49.221184% taken
+	49	forwbranch < 0, 3260 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRParser;, block, ()V >
+	7	forwbranch < 0, 75920 > 0.0% taken
+	31	forwbranch < 75920, 42220 > 64.26274% taken
+	54	forwbranch < 0, 75920 > 0.0% taken
+M 59 < SystemAppCL, Lantlr/ANTLRParser;, alternative, ()V >
+	7	switch     < 3731, 82, 0, 0, 0, 0, 0, 0, 0, 0, 47, 0, 0, 4009, 0, 11, 0, 0, 4775, 0, 0, 1521, 5547, 24, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 285, 45, 1287, 0, 0, 0, 0, 0, 23, 0 >
+	213	forwbranch < 0, 14 > 0.0% taken
+	248	forwbranch < 0, 21401 > 0.0% taken
+	272	forwbranch < 21401, 35038 > 37.918816% taken
+	287	switch     < 7803, 7548, 6038, 12, 0 >
+	362	forwbranch < 0, 21401 > 0.0% taken
+M 46 < SystemAppCL, Lantlr/ANTLRParser;, element, ()V >
+	9	switch     < 1231, 10692, 0, 0, 0, 0, 0, 0, 0, 0, 37282, 0, 0, 3727, 0, 36923, 0, 0, 17657, 0, 0, 20019, 20326, 35530, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 53, 0, 53, 51, 246, 0, 0, 0, 0, 0, 0, 0 >
+M 6 < SystemAppCL, Lantlr/ANTLRParser;, exceptionSpecNoLabel, ()V >
+	13	forwbranch < 0, 60 > 0.0% taken
+	33	forwbranch < 60, 60 > 50.0% taken
+	50	forwbranch < 0, 60 > 0.0% taken
+M 313 < SystemAppCL, Lantlr/ANTLRParser;, elementNoOptionSpec, ()V >
+	38	switch     < 4622, 113, 2742, 68391 >
+	92	forwbranch < 0, 4622 > 0.0% taken
+	129	forwbranch < 0, 113 > 0.0% taken
+	160	forwbranch < 16836, 51555 > 24.617273% taken
+	170	forwbranch < 29938, 21617 > 58.070023% taken
+	180	forwbranch < 37861, 592 > 98.46046% taken
+	202	forwbranch < 0, 592 > 0.0% taken
+	212	forwbranch < 0, 592 > 0.0% taken
+	222	forwbranch < 557, 35 > 94.08784% taken
+	244	forwbranch < 0, 35 > 0.0% taken
+	263	forwbranch < 0, 557 > 0.0% taken
+	273	forwbranch < 0, 557 > 0.0% taken
+	287	forwbranch < 0, 557 > 0.0% taken
+	315	switch     < 0, 592, 0 >
+	357	switch     < 0, 224, 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 21, 226, 86, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	571	forwbranch < 0, 14 > 0.0% taken
+	605	switch     < 0, 224, 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 21, 226, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	813	forwbranch < 0, 0 > Never Executed
+	849	forwbranch < 0, 592 > 0.0% taken
+	890	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1104	forwbranch < 0, 0 > Never Executed
+	1141	forwbranch < 0, 0 > Never Executed
+	1198	forwbranch < 0, 67799 > 0.0% taken
+	1212	forwbranch < 0, 67799 > 0.0% taken
+	1222	forwbranch < 16836, 50963 > 24.832224% taken
+	1232	forwbranch < 29938, 21025 > 58.74458% taken
+	1242	forwbranch < 35468, 2393 > 93.67951% taken
+	1264	forwbranch < 0, 2393 > 0.0% taken
+	1287	forwbranch < 0, 65406 > 0.0% taken
+	1301	forwbranch < 0, 65406 > 0.0% taken
+	1329	switch     < 11836, 19455, 591, 35917 >
+	1382	switch     < 129, 332, 0, 0, 0, 0, 0, 0, 0, 0, 1810, 0, 0, 0, 0, 3816, 0, 0, 2389, 0, 0, 1951, 2181, 6154, 0, 0, 0, 0, 204, 467, 0, 0, 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1596	forwbranch < 0, 467 > 0.0% taken
+	1631	switch     < 129, 427, 0, 0, 0, 0, 0, 0, 0, 0, 1824, 0, 0, 0, 0, 3889, 0, 0, 2476, 0, 0, 2017, 2247, 6220, 0, 0, 0, 0, 204, 0, 0, 0, 0, 0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1837	forwbranch < 0, 204 > 0.0% taken
+	1873	forwbranch < 0, 19455 > 0.0% taken
+	1909	switch     < 383, 44, 164, 0 >
+	1997	forwbranch < 8122, 27795 > 22.613247% taken
+	2007	forwbranch < 9549, 18246 > 34.3551% taken
+	2017	forwbranch < 94, 18152 > 0.5151814% taken
+	2027	forwbranch < 34327, 1496 > 95.82391% taken
+	2050	forwbranch < 0, 34421 > 0.0% taken
+	2064	forwbranch < 0, 34421 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/ANTLRParser;, exceptionHandler, ()V >
+	41	forwbranch < 0, 60 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/ANTLRParser;, tree, ()V >
+	21	forwbranch < 0, 7540 > 0.0% taken
+	45	forwbranch < 0, 7540 > 0.0% taken
+	70	forwbranch < 7540, 15300 > 33.01226% taken
+	82	forwbranch < 0, 7540 > 0.0% taken
+	118	forwbranch < 0, 7540 > 0.0% taken
+	143	forwbranch < 0, 7540 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/ANTLRParser;, checkForMissingEndRule, (Lantlr/Token;)V >
+	5	forwbranch < 6800, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/ANTLRParser;, lastInRule, ()Z >
+	4	forwbranch < 41580, 66260 > 38.55712% taken
+	14	forwbranch < 22540, 43720 > 34.017506% taken
+	24	forwbranch < 0, 43720 > 0.0% taken
+	34	forwbranch < 34620, 9100 > 79.18573% taken
+M 55 < SystemAppCL, Lantlr/ANTLRParser;, notTerminal, (Lantlr/Token;)V >
+	12	switch     < 1060, 120, 0 >
+	57	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 0, 0, 1000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	265	forwbranch < 0, 0 > Never Executed
+	301	forwbranch < 0, 1060 > 0.0% taken
+	350	forwbranch < 0, 120 > 0.0% taken
+M 169 < SystemAppCL, Lantlr/ANTLRParser;, ebnf, (Lantlr/Token;Z)V >
+	27	forwbranch < 0, 33160 > 0.0% taken
+	49	forwbranch < 31160, 2000 > 93.968636% taken
+	61	switch     < 0, 2000, 0 >
+	108	forwbranch < 0, 0 > Never Executed
+	161	forwbranch < 31160, 0 > 100.0% taken
+	171	forwbranch < 0, 0 > Never Executed
+	194	forwbranch < 0, 0 > Never Executed
+	228	forwbranch < 0, 31160 > 0.0% taken
+	242	forwbranch < 0, 31160 > 0.0% taken
+	280	switch     < 40, 1240, 0, 0, 0, 0, 0, 0, 0, 0, 1160, 0, 0, 580, 0, 480, 0, 0, 120, 0, 0, 1560, 620, 940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10060, 9940, 5760, 660, 0, 0, 0 >
+	481	switch     < 40, 1240, 0, 0, 0, 0, 0, 0, 0, 0, 1160, 0, 0, 580, 0, 480, 0, 0, 120, 0, 0, 1560, 620, 940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10060, 9940, 5760, 0, 0, 0, 0 >
+	689	forwbranch < 0, 10060 > 0.0% taken
+	717	forwbranch < 0, 9940 > 0.0% taken
+	745	forwbranch < 0, 5760 > 0.0% taken
+	785	switch     < 300, 2700, 0, 0, 0, 0, 0, 0, 0, 0, 8180, 0, 0, 3500, 0, 2000, 0, 0, 4940, 0, 0, 4500, 1280, 5100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	993	forwbranch < 0, 0 > Never Executed
+	1041	forwbranch < 0, 660 > 0.0% taken
+	1080	forwbranch < 0, 33160 > 0.0% taken
+M 70 < SystemAppCL, Lantlr/ANTLRParser;, range, (Lantlr/Token;)V >
+	30	switch     < 0, 4180, 0, 0 >
+	99	switch     < 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 800, 0, 0, 0, 0, 1520, 0, 0, 0, 0, 0, 200, 0, 1620, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	305	forwbranch < 0, 0 > Never Executed
+	341	forwbranch < 0, 4180 > 0.0% taken
+	370	switch     < 0, 0, 0 >
+	416	forwbranch < 0, 0 > Never Executed
+	446	forwbranch < 0, 0 > Never Executed
+	484	switch     < 0, 0, 0 >
+	532	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	602	forwbranch < 0, 0 > Never Executed
+M 109 < SystemAppCL, Lantlr/ANTLRParser;, terminal, (Lantlr/Token;)V >
+	24	switch     < 16699, 15594, 39320, 179, 0 >
+	85	switch     < 0, 1286, 0, 0, 0, 0, 0, 0, 0, 0, 5689, 0, 0, 154, 0, 4883, 0, 0, 168, 0, 0, 1075, 55, 1926, 0, 0, 0, 0, 316, 0, 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	293	forwbranch < 0, 316 > 0.0% taken
+	329	forwbranch < 0, 15594 > 0.0% taken
+	376	switch     < 292, 3000, 0, 0, 0, 0, 0, 0, 0, 0, 4886, 0, 0, 140, 0, 5954, 0, 0, 3371, 0, 0, 5616, 10252, 5767, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 0 >
+	592	forwbranch < 0, 0 > Never Executed
+	629	forwbranch < 0, 39320 > 0.0% taken
+	682	forwbranch < 0, 16699 > 0.0% taken
+	732	forwbranch < 0, 179 > 0.0% taken
+M 50 < SystemAppCL, Lantlr/ANTLRParser;, ast_type_spec, ()I >
+	7	switch     < 380, 3760, 0, 0, 0, 0, 0, 0, 0, 0, 12560, 0, 0, 320, 0, 9660, 0, 0, 5740, 0, 0, 10060, 12060, 8080, 0, 0, 0, 0, 9340, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 0, 0, 0, 0, 8440, 0, 0 >
+	213	forwbranch < 0, 8440 > 0.0% taken
+	234	forwbranch < 0, 9340 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRParser;, subruleOptionsSpec, ()V >
+	13	forwbranch < 0, 4020 > 0.0% taken
+	23	forwbranch < 2000, 2020 > 49.751244% taken
+	49	forwbranch < 0, 2020 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/ANTLRParser;, rootNode, ()V >
+	9	forwbranch < 6160, 1380 > 81.69761% taken
+	19	forwbranch < 1320, 60 > 95.652176% taken
+	29	forwbranch < 6160, 60 > 99.03537% taken
+	50	forwbranch < 0, 60 > 0.0% taken
+	72	forwbranch < 0, 7480 > 0.0% taken
+	86	forwbranch < 0, 7480 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/Grammar;, getIntegerOption, (Ljava/lang/String;)I >
+	13	forwbranch < 0, 1400 > 0.0% taken
+	22	forwbranch < 1400, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/ParserGrammar;, getSuperClass, ()Ljava/lang/String; >
+	4	forwbranch < 1720, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/ParserGrammar;, processArguments, ([Ljava/lang/String;)V >
+	5	forwbranch < 760, 2280 > 25.0% taken
+	16	forwbranch < 2280, 0 > 100.0% taken
+	43	forwbranch < 2280, 0 > 100.0% taken
+	70	forwbranch < 2280, 0 > 100.0% taken
+M 16 < SystemAppCL, Lantlr/ParserGrammar;, setOption, (Ljava/lang/String;Lantlr/Token;)Z >
+	11	forwbranch < 700, 320 > 68.62745% taken
+	20	forwbranch < 20, 300 > 6.25% taken
+	37	forwbranch < 0, 20 > 0.0% taken
+	77	forwbranch < 700, 0 > 100.0% taken
+	86	forwbranch < 0, 0 > Never Executed
+	103	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 660, 40 > 94.28571% taken
+	161	forwbranch < 0, 660 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/LexerGrammar;, getSuperClass, ()Ljava/lang/String; >
+	4	forwbranch < 1620, 0 > 100.0% taken
+M 38 < SystemAppCL, Lantlr/LexerGrammar;, setOption, (Ljava/lang/String;Lantlr/Token;)Z >
+	11	forwbranch < 1000, 0 > 100.0% taken
+	43	forwbranch < 920, 80 > 92.0% taken
+	52	forwbranch < 60, 20 > 75.0% taken
+	69	forwbranch < 0, 60 > 0.0% taken
+	109	forwbranch < 920, 0 > 100.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+	135	forwbranch < 0, 0 > Never Executed
+	175	forwbranch < 780, 140 > 84.78261% taken
+	184	forwbranch < 120, 20 > 85.71429% taken
+	201	forwbranch < 0, 120 > 0.0% taken
+	241	forwbranch < 740, 40 > 94.871796% taken
+	250	forwbranch < 40, 0 > 100.0% taken
+	267	forwbranch < 0, 40 > 0.0% taken
+	307	forwbranch < 540, 200 > 72.97298% taken
+	316	forwbranch < 80, 120 > 40.0% taken
+	333	forwbranch < 80, 0 > 100.0% taken
+	350	forwbranch < 0, 80 > 0.0% taken
+	395	forwbranch < 540, 0 > 100.0% taken
+	427	forwbranch < 0, 540 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/AlternativeBlock;, removeTrackingOfRuleRefs, (Lantlr/Grammar;)V >
+	10	forwbranch < 660, 660 > 50.0% taken
+	27	forwbranch < 660, 1700 > 27.966103% taken
+	35	forwbranch < 1100, 600 > 64.70588% taken
+	61	forwbranch < 600, 0 > 100.0% taken
+	124	forwbranch < 1100, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/RuleBlock;, findExceptionSpec, (Ljava/lang/String;)Lantlr/ExceptionSpec; >
+	5	forwbranch < 88360, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/Alternative;, getAutoGen, ()Z >
+	4	forwbranch < 13740, 157020 > 8.046381% taken
+	11	forwbranch < 0, 157020 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CodeGenerator;, printTabs, ()V >
+	7	forwbranch < 314090, 732286 > 30.016935% taken
+M 6 < SystemAppCL, Lantlr/CodeGenerator;, extractIdOfAction, (Ljava/lang/String;II)Ljava/lang/String; >
+	16	forwbranch < 0, 740 > 0.0% taken
+	28	forwbranch < 320, 420 > 43.243244% taken
+	39	forwbranch < 0, 420 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CodeGenerator;, removeAssignmentFromDeclaration, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 840, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/CodeGenerator;, extractTypeOfAction, (Ljava/lang/String;II)Ljava/lang/String; >
+	16	forwbranch < 0, 700 > 0.0% taken
+	28	forwbranch < 280, 420 > 40.0% taken
+	39	forwbranch < 0, 420 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CodeGenerator;, println, (Ljava/lang/String;)V >
+	1	forwbranch < 0, 14700 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CodeGenerator;, print, (Ljava/lang/String;)V >
+	1	forwbranch < 113, 36230 > 0.31092644% taken
+M 25 < SystemAppCL, Lantlr/CodeGenerator;, _printAction, (Ljava/lang/String;)V >
+	1	forwbranch < 710, 0 > 100.0% taken
+	12	forwbranch < 0, 902 > 0.0% taken
+	23	forwbranch < 710, 192 > 78.71397% taken
+	41	forwbranch < 0, 855 > 0.0% taken
+	52	forwbranch < 710, 145 > 83.04094% taken
+	70	forwbranch < 710, 41085 > 1.6987678% taken
+	89	switch     < 389, 71, 40625 >
+	125	forwbranch < 0, 71 > 0.0% taken
+	136	forwbranch < 0, 71 > 0.0% taken
+	159	forwbranch < 40625, 460 > 98.88037% taken
+	176	forwbranch < 22, 642 > 3.313253% taken
+	188	forwbranch < 438, 204 > 68.2243% taken
+M 4 < SystemAppCL, Lantlr/CodeGenerator;, markBitsetForGen, (Lantlr/collections/impl/BitSet;)I >
+	10	forwbranch < 6342, 150080 > 4.054417% taken
+	30	forwbranch < 143219, 6861 > 95.42844% taken
+M 2 < SystemAppCL, Lantlr/CodeGenerator;, _print, (Ljava/lang/String;)V >
+	1	forwbranch < 0, 94589 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CodeGenerator;, _println, (Ljava/lang/String;)V >
+	1	forwbranch < 0, 379960 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/CodeGenerator;, elementsAreRange, ([I)Z >
+	2	forwbranch < 1875, 0 > 100.0% taken
+	21	forwbranch < 534, 1341 > 28.48% taken
+	33	forwbranch < 260, 274 > 48.68914% taken
+	51	forwbranch < 260, 1724584 > 0.015073827% taken
+	59	forwbranch < 1724584, 0 > 100.0% taken
+M 18 < SystemAppCL, Lantlr/CodeGenerator;, genTokenInterchange, (Lantlr/TokenManager;)V >
+	159	forwbranch < 456, 18044 > 2.464865% taken
+	177	forwbranch < 18044, 0 > 100.0% taken
+	208	forwbranch < 0, 18044 > 0.0% taken
+	218	forwbranch < 0, 18044 > 0.0% taken
+	228	forwbranch < 12550, 5494 > 69.55221% taken
+	246	forwbranch < 0, 5494 > 0.0% taken
+	254	forwbranch < 195, 5299 > 3.5493264% taken
+	334	forwbranch < 12550, 0 > 100.0% taken
+	372	forwbranch < 11542, 1008 > 91.968124% taken
+M 2 < SystemAppCL, Lantlr/CodeGenerator;, printAction, (Ljava/lang/String;)V >
+	1	forwbranch < 0, 13660 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/CodeGenerator;, setGrammar, (Lantlr/Grammar;)V >
+	18	forwbranch < 1144, 89 > 92.78183% taken
+	81	forwbranch < 1119, 114 > 90.75426% taken
+	144	forwbranch < 1233, 0 > 100.0% taken
+	166	forwbranch < 0, 0 > Never Executed
+	186	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lantlr/TreeWalkerGrammar;, processArguments, ([Ljava/lang/String;)V >
+	5	forwbranch < 240, 720 > 25.0% taken
+	16	forwbranch < 720, 0 > 100.0% taken
+	43	forwbranch < 720, 0 > 100.0% taken
+M 10 < SystemAppCL, Lantlr/TreeWalkerGrammar;, setOption, (Ljava/lang/String;Lantlr/Token;)Z >
+	6	forwbranch < 240, 0 > 100.0% taken
+	18	forwbranch < 0, 0 > Never Executed
+	38	forwbranch < 0, 0 > Never Executed
+	78	forwbranch < 0, 240 > 0.0% taken
+	96	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/TreeBlockContext;, addAlternativeElement, (Lantlr/AlternativeElement;)V >
+	12	forwbranch < 22840, 7540 > 75.18104% taken
+M 4 < SystemAppCL, Lantlr/CppCodeGenerator;, countLines, (Ljava/lang/String;)I >
+	9	forwbranch < 36740, 590212 > 5.860098% taken
+	19	forwbranch < 589937, 275 > 99.95341% taken
+M 4 < SystemAppCL, Lantlr/CppCodeGenerator;, genLineNo, (I)V >
+	1	forwbranch < 3640, 960 > 79.13043% taken
+	11	forwbranch < 0, 4600 > 0.0% taken
+M 18 < SystemAppCL, Lantlr/CppCodeGenerator;, processActionForSpecialSymbols, (Ljava/lang/String;ILantlr/RuleBlock;Lantlr/ActionTransInfo;)Ljava/lang/String; >
+	1	forwbranch < 0, 4980 > 0.0% taken
+	8	forwbranch < 4020, 960 > 80.72289% taken
+	17	forwbranch < 4020, 0 > 100.0% taken
+	29	forwbranch < 2460, 1560 > 61.19403% taken
+	39	forwbranch < 1360, 200 > 87.17949% taken
+	49	forwbranch < 560, 2100 > 21.052631% taken
+	59	forwbranch < 1560, 540 > 74.28571% taken
+	69	forwbranch < 0, 540 > 0.0% taken
+	79	forwbranch < 1460, 640 > 69.52381% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, _printAction, (Ljava/lang/String;)V >
+	1	forwbranch < 440, 3200 > 12.087913% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, genLineNo2, ()V >
+	4	forwbranch < 0, 4600 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, println, (Ljava/lang/String;)V >
+	1	forwbranch < 0, 127260 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, _println, (Ljava/lang/String;)V >
+	1	forwbranch < 0, 171740 > 0.0% taken
+M 68 < SystemAppCL, Lantlr/CppCodeGenerator;, setupGrammarParameters, (Lantlr/Grammar;)V >
+	4	forwbranch < 280, 360 > 43.75% taken
+	11	forwbranch < 280, 80 > 77.77778% taken
+	18	forwbranch < 0, 80 > 0.0% taken
+	28	forwbranch < 640, 0 > 100.0% taken
+	48	forwbranch < 640, 0 > 100.0% taken
+	72	forwbranch < 640, 0 > 100.0% taken
+	107	forwbranch < 640, 0 > 100.0% taken
+	119	forwbranch < 0, 0 > Never Executed
+	143	forwbranch < 640, 0 > 100.0% taken
+	155	forwbranch < 0, 0 > Never Executed
+	171	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	202	forwbranch < 0, 0 > Never Executed
+	237	forwbranch < 640, 0 > 100.0% taken
+	249	forwbranch < 0, 0 > Never Executed
+	265	forwbranch < 0, 0 > Never Executed
+	273	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 620, 20 > 96.875% taken
+	343	forwbranch < 0, 20 > 0.0% taken
+	387	forwbranch < 640, 0 > 100.0% taken
+	399	forwbranch < 0, 0 > Never Executed
+	412	forwbranch < 0, 0 > Never Executed
+	425	forwbranch < 0, 0 > Never Executed
+	471	forwbranch < 360, 280 > 56.25% taken
+	533	forwbranch < 280, 0 > 100.0% taken
+	545	forwbranch < 0, 0 > Never Executed
+	561	forwbranch < 0, 0 > Never Executed
+	761	forwbranch < 80, 280 > 22.222221% taken
+	896	forwbranch < 0, 80 > 0.0% taken
+	1075	forwbranch < 80, 0 > 100.0% taken
+	1087	forwbranch < 0, 0 > Never Executed
+	1103	forwbranch < 0, 0 > Never Executed
+	1253	forwbranch < 0, 80 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, exitIfError, ()V >
+	7	forwbranch < 25000, 0 > 100.0% taken
+M 18 < SystemAppCL, Lantlr/CppCodeGenerator;, genTokenTypes, (Lantlr/TokenManager;)V >
+	152	forwbranch < 800, 0 > 100.0% taken
+	262	forwbranch < 800, 24080 > 3.215434% taken
+	277	forwbranch < 0, 24080 > 0.0% taken
+	287	forwbranch < 19680, 4400 > 81.72758% taken
+	305	forwbranch < 4400, 0 > 100.0% taken
+	350	forwbranch < 2120, 2280 > 48.18182% taken
+	402	forwbranch < 0, 2120 > 0.0% taken
+	493	forwbranch < 0, 19680 > 0.0% taken
+	579	forwbranch < 800, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, genLineNo, (Lantlr/GrammarElement;)V >
+	1	forwbranch < 0, 3000 > 0.0% taken
+M 34 < SystemAppCL, Lantlr/CppCodeGenerator;, genBlockPreamble, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 8680, 11100 > 43.88271% taken
+	16	forwbranch < 0, 11100 > 0.0% taken
+	29	forwbranch < 11100, 1620 > 87.26415% taken
+	50	forwbranch < 760, 860 > 46.91358% taken
+	58	forwbranch < 860, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 760, 0 > 100.0% taken
+	93	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 160, 600 > 21.052631% taken
+	214	forwbranch < 660, 100 > 86.8421% taken
+	263	forwbranch < 740, 20 > 97.36842% taken
+	380	forwbranch < 340, 520 > 39.534885% taken
+	388	forwbranch < 0, 520 > 0.0% taken
+	399	forwbranch < 520, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, genBlockInitAction, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 19760, 20 > 99.89889% taken
+M 116 < SystemAppCL, Lantlr/CppCodeGenerator;, genCommonBlock, (Lantlr/AlternativeBlock;Z)Lantlr/CppBlockFinishingInfo; >
+	21	forwbranch < 10740, 0 > 100.0% taken
+	66	forwbranch < 8620, 2120 > 80.260704% taken
+	73	forwbranch < 0, 2120 > 0.0% taken
+	95	forwbranch < 160, 10580 > 1.4897579% taken
+	102	forwbranch < 0, 10580 > 0.0% taken
+	117	forwbranch < 10680, 60 > 99.44134% taken
+	137	forwbranch < 0, 60 > 0.0% taken
+	157	forwbranch < 60, 0 > 100.0% taken
+	164	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 60, 0 > 100.0% taken
+	229	forwbranch < 0, 0 > Never Executed
+	329	forwbranch < 60, 0 > 100.0% taken
+	349	forwbranch < 6660, 4020 > 62.35955% taken
+	364	forwbranch < 4020, 0 > 100.0% taken
+	407	forwbranch < 3800, 220 > 94.52737% taken
+	415	forwbranch < 220, 0 > 100.0% taken
+	456	forwbranch < 10460, 27500 > 27.55532% taken
+	472	forwbranch < 4700, 22800 > 17.09091% taken
+	490	forwbranch < 4620, 5840 > 44.16826% taken
+	510	forwbranch < 4980, 860 > 85.27397% taken
+	615	forwbranch < 5840, 19420 > 23.119556% taken
+	631	forwbranch < 18820, 600 > 96.9104% taken
+	654	forwbranch < 18820, 0 > 100.0% taken
+	662	forwbranch < 0, 0 > Never Executed
+	786	forwbranch < 6800, 3660 > 65.00956% taken
+	808	forwbranch < 10460, 21600 > 32.626328% taken
+	815	forwbranch < 21600, 0 > 100.0% taken
+	857	forwbranch < 21600, 64000 > 25.233644% taken
+	872	forwbranch < 64000, 0 > 100.0% taken
+	904	forwbranch < 25160, 38840 > 39.3125% taken
+	912	forwbranch < 2120, 36720 > 5.4582906% taken
+	919	forwbranch < 36720, 0 > 100.0% taken
+	944	forwbranch < 3540, 23740 > 12.97654% taken
+	958	forwbranch < 21480, 2260 > 90.4802% taken
+	973	forwbranch < 480, 28680 > 1.6460905% taken
+	987	forwbranch < 23260, 5420 > 81.101814% taken
+	1000	forwbranch < 5140, 18600 > 21.651222% taken
+	1007	forwbranch < 18600, 0 > 100.0% taken
+	1118	forwbranch < 8280, 400 > 95.39171% taken
+	1126	forwbranch < 400, 0 > 100.0% taken
+	1130	forwbranch < 0, 0 > Never Executed
+	1140	forwbranch < 0, 0 > Never Executed
+	1272	forwbranch < 8560, 120 > 98.61751% taken
+	1280	forwbranch < 0, 120 > 0.0% taken
+	1288	forwbranch < 0, 120 > 0.0% taken
+	1292	forwbranch < 100, 20 > 83.333336% taken
+	1325	forwbranch < 8540, 20 > 99.76636% taken
+	1365	forwbranch < 0, 20 > 0.0% taken
+	1375	forwbranch < 0, 20 > 0.0% taken
+	1385	forwbranch < 20, 0 > 100.0% taken
+	1495	forwbranch < 4780, 3780 > 55.84112% taken
+	1503	forwbranch < 3780, 0 > 100.0% taken
+	1579	forwbranch < 4680, 100 > 97.90795% taken
+	1603	forwbranch < 4380, 300 > 93.589745% taken
+	1756	forwbranch < 10460, 0 > 100.0% taken
+	1811	forwbranch < 4620, 5840 > 44.16826% taken
+	1858	forwbranch < 5660, 180 > 96.91781% taken
+	1888	forwbranch < 0, 4620 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/CppCodeGenerator;, genBlockFinish, (Lantlr/CppBlockFinishingInfo;Ljava/lang/String;)V >
+	4	forwbranch < 120, 10620 > 1.1173184% taken
+	11	forwbranch < 4680, 5940 > 44.067795% taken
+	18	forwbranch < 280, 5660 > 4.7138047% taken
+	25	forwbranch < 5660, 4680 > 54.738876% taken
+	79	forwbranch < 280, 10460 > 2.6070764% taken
+M 12 < SystemAppCL, Lantlr/CppCodeGenerator;, genMatch, (Lantlr/GrammarAtom;)V >
+	4	forwbranch < 18060, 5520 > 76.59033% taken
+	14	forwbranch < 2420, 3100 > 43.84058% taken
+	37	forwbranch < 12640, 5420 > 69.98892% taken
+	47	forwbranch < 0, 5420 > 0.0% taken
+	92	forwbranch < 0, 12640 > 0.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, textOrChar, (Ljava/lang/String;)Ljava/lang/String; >
+	6	forwbranch < 15700, 7060 > 68.98067% taken
+M 42 < SystemAppCL, Lantlr/CppCodeGenerator;, genBody, (Lantlr/LexerGrammar;)V >
+	172	forwbranch < 280, 0 > 100.0% taken
+	199	forwbranch < 280, 0 > 100.0% taken
+	232	forwbranch < 280, 0 > 100.0% taken
+	261	forwbranch < 280, 0 > 100.0% taken
+	302	forwbranch < 280, 0 > 100.0% taken
+	394	forwbranch < 280, 0 > 100.0% taken
+	553	forwbranch < 280, 0 > 100.0% taken
+	682	forwbranch < 280, 0 > 100.0% taken
+	817	forwbranch < 280, 0 > 100.0% taken
+	1014	forwbranch < 280, 0 > 100.0% taken
+	1072	forwbranch < 280, 0 > 100.0% taken
+	1160	forwbranch < 280, 6620 > 4.057971% taken
+	1182	forwbranch < 840, 5780 > 12.688822% taken
+	1209	forwbranch < 0, 840 > 0.0% taken
+	1292	forwbranch < 280, 0 > 100.0% taken
+	1363	forwbranch < 0, 0 > Never Executed
+	1383	forwbranch < 0, 0 > Never Executed
+	1475	forwbranch < 280, 5320 > 5.0% taken
+	1501	forwbranch < 280, 5040 > 5.263158% taken
+	1556	forwbranch < 280, 0 > 100.0% taken
+	1646	forwbranch < 280, 0 > 100.0% taken
+M 28 < SystemAppCL, Lantlr/CppCodeGenerator;, genInclude, (Lantlr/LexerGrammar;)V >
+	243	forwbranch < 280, 0 > 100.0% taken
+	302	forwbranch < 280, 0 > 100.0% taken
+	379	forwbranch < 280, 0 > 100.0% taken
+	406	forwbranch < 280, 0 > 100.0% taken
+	519	forwbranch < 280, 0 > 100.0% taken
+	537	forwbranch < 0, 0 > Never Executed
+	578	forwbranch < 0, 280 > 0.0% taken
+	762	forwbranch < 280, 0 > 100.0% taken
+	919	forwbranch < 280, 0 > 100.0% taken
+	991	forwbranch < 280, 5320 > 5.0% taken
+	1017	forwbranch < 280, 5040 > 5.263158% taken
+	1058	forwbranch < 280, 0 > 100.0% taken
+	1075	forwbranch < 280, 0 > 100.0% taken
+	1128	forwbranch < 280, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/CppCodeGenerator;, getLookaheadTestExpression, ([Lantlr/Lookahead;I)Ljava/lang/String; >
+	27	forwbranch < 8560, 16840 > 33.700787% taken
+	41	forwbranch < 8560, 8280 > 50.831352% taken
+	62	forwbranch < 15820, 1020 > 93.94299% taken
+M 28 < SystemAppCL, Lantlr/CppCodeGenerator;, genBody, (Lantlr/ParserGrammar;)V >
+	148	forwbranch < 280, 0 > 100.0% taken
+	181	forwbranch < 280, 0 > 100.0% taken
+	210	forwbranch < 280, 0 > 100.0% taken
+	254	forwbranch < 280, 0 > 100.0% taken
+	323	forwbranch < 0, 0 > Never Executed
+	342	forwbranch < 0, 0 > Never Executed
+	412	forwbranch < 280, 0 > 100.0% taken
+	1083	forwbranch < 280, 0 > 100.0% taken
+	1131	forwbranch < 280, 5100 > 5.204461% taken
+	1150	forwbranch < 0, 5100 > 0.0% taken
+	1171	forwbranch < 4760, 340 > 93.333336% taken
+	1224	forwbranch < 280, 0 > 100.0% taken
+	1384	forwbranch < 280, 0 > 100.0% taken
+	1434	forwbranch < 280, 0 > 100.0% taken
+M 32 < SystemAppCL, Lantlr/CppCodeGenerator;, genInclude, (Lantlr/ParserGrammar;)V >
+	237	forwbranch < 280, 0 > 100.0% taken
+	296	forwbranch < 280, 0 > 100.0% taken
+	380	forwbranch < 280, 0 > 100.0% taken
+	407	forwbranch < 240, 40 > 85.71429% taken
+	520	forwbranch < 280, 0 > 100.0% taken
+	538	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 280, 0 > 100.0% taken
+	596	forwbranch < 0, 280 > 0.0% taken
+	703	forwbranch < 280, 0 > 100.0% taken
+	997	forwbranch < 280, 0 > 100.0% taken
+	1275	forwbranch < 280, 5100 > 5.204461% taken
+	1295	forwbranch < 0, 5100 > 0.0% taken
+	1316	forwbranch < 4760, 340 > 93.333336% taken
+	1338	forwbranch < 280, 0 > 100.0% taken
+	1603	forwbranch < 280, 0 > 100.0% taken
+	1635	forwbranch < 280, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/CppCodeGenerator;, genErrorTryForElement, (Lantlr/AlternativeElement;)V >
+	4	forwbranch < 5860, 25460 > 18.710089% taken
+	20	forwbranch < 1320, 4540 > 22.525597% taken
+	44	forwbranch < 5860, 0 > 100.0% taken
+	72	forwbranch < 5860, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, _print, (Ljava/lang/String;)V >
+	1	forwbranch < 0, 262400 > 0.0% taken
+M 22 < SystemAppCL, Lantlr/CppCodeGenerator;, GenRuleInvocation, (Lantlr/RuleRefElement;)V >
+	34	forwbranch < 13360, 7100 > 65.29814% taken
+	41	forwbranch < 2560, 4540 > 36.05634% taken
+	68	forwbranch < 0, 7100 > 0.0% taken
+	75	forwbranch < 7100, 0 > 100.0% taken
+	99	forwbranch < 16400, 4060 > 80.1564% taken
+	106	forwbranch < 4060, 0 > 100.0% taken
+	134	forwbranch < 20080, 380 > 98.142715% taken
+	168	forwbranch < 0, 380 > 0.0% taken
+	175	forwbranch < 380, 0 > 100.0% taken
+	250	forwbranch < 380, 0 > 100.0% taken
+	316	forwbranch < 16400, 4060 > 80.1564% taken
+M 8 < SystemAppCL, Lantlr/CppCodeGenerator;, genErrorCatchForElement, (Lantlr/AlternativeElement;)V >
+	4	forwbranch < 5860, 25460 > 18.710089% taken
+	20	forwbranch < 1320, 4540 > 22.525597% taken
+	44	forwbranch < 5860, 0 > 100.0% taken
+	72	forwbranch < 5860, 0 > 100.0% taken
+M 67 < SystemAppCL, Lantlr/CppCodeGenerator;, genElementAST, (Lantlr/AlternativeElement;)V >
+	7	forwbranch < 14720, 3560 > 80.52516% taken
+	17	forwbranch < 0, 3560 > 0.0% taken
+	24	forwbranch < 140, 3420 > 3.9325843% taken
+	132	forwbranch < 8940, 5780 > 60.733696% taken
+	139	forwbranch < 80, 5700 > 1.384083% taken
+	146	forwbranch < 280, 5420 > 4.9122806% taken
+	153	forwbranch < 440, 4980 > 8.118081% taken
+	161	forwbranch < 1500, 3480 > 30.120481% taken
+	175	forwbranch < 1560, 4140 > 27.368422% taken
+	182	forwbranch < 1200, 2940 > 28.985508% taken
+	194	forwbranch < 680, 5020 > 11.929825% taken
+	198	forwbranch < 1440, 3580 > 28.685259% taken
+	211	forwbranch < 5200, 500 > 91.22807% taken
+	271	forwbranch < 1620, 4080 > 28.421053% taken
+	278	forwbranch < 0, 4080 > 0.0% taken
+	292	forwbranch < 4080, 0 > 100.0% taken
+	391	forwbranch < 5700, 0 > 100.0% taken
+	445	forwbranch < 2120, 3580 > 37.19298% taken
+	469	forwbranch < 5200, 500 > 91.22807% taken
+	476	forwbranch < 0, 500 > 0.0% taken
+	566	forwbranch < 500, 5200 > 8.77193% taken
+	570	forwbranch < 1620, 3580 > 31.153847% taken
+	583	forwbranch < 0, 3580 > 0.0% taken
+	676	forwbranch < 3580, 0 > 100.0% taken
+	718	forwbranch < 280, 5420 > 4.9122806% taken
+	725	switch     < 2080, 1820, 1520 >
+	756	forwbranch < 0, 2080 > 0.0% taken
+	763	forwbranch < 0, 2080 > 0.0% taken
+	773	forwbranch < 2080, 0 > 100.0% taken
+	858	forwbranch < 0, 1820 > 0.0% taken
+	865	forwbranch < 0, 1820 > 0.0% taken
+	875	forwbranch < 1820, 0 > 100.0% taken
+	958	forwbranch < 2120, 3580 > 37.19298% taken
+M 20 < SystemAppCL, Lantlr/CppCodeGenerator;, genBody, (Lantlr/TreeWalkerGrammar;)V >
+	169	forwbranch < 80, 0 > 100.0% taken
+	202	forwbranch < 80, 0 > 100.0% taken
+	231	forwbranch < 80, 0 > 100.0% taken
+	272	forwbranch < 80, 0 > 100.0% taken
+	397	forwbranch < 80, 0 > 100.0% taken
+	457	forwbranch < 80, 960 > 7.6923075% taken
+	476	forwbranch < 0, 960 > 0.0% taken
+	497	forwbranch < 880, 80 > 91.666664% taken
+	550	forwbranch < 80, 0 > 100.0% taken
+	723	forwbranch < 80, 0 > 100.0% taken
+M 28 < SystemAppCL, Lantlr/CppCodeGenerator;, genInclude, (Lantlr/TreeWalkerGrammar;)V >
+	223	forwbranch < 80, 0 > 100.0% taken
+	282	forwbranch < 80, 0 > 100.0% taken
+	366	forwbranch < 80, 0 > 100.0% taken
+	393	forwbranch < 60, 20 > 75.0% taken
+	506	forwbranch < 80, 0 > 100.0% taken
+	524	forwbranch < 0, 0 > Never Executed
+	565	forwbranch < 0, 80 > 0.0% taken
+	635	forwbranch < 80, 0 > 100.0% taken
+	691	forwbranch < 80, 0 > 100.0% taken
+	924	forwbranch < 80, 960 > 7.6923075% taken
+	944	forwbranch < 0, 960 > 0.0% taken
+	965	forwbranch < 880, 80 > 91.666664% taken
+	987	forwbranch < 80, 0 > 100.0% taken
+	1294	forwbranch < 80, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/CppCodeGenerator;, getValueString, (I)Ljava/lang/String; >
+	7	forwbranch < 53460, 47320 > 53.046238% taken
+	39	forwbranch < 53120, 340 > 99.36401% taken
+	73	forwbranch < 40480, 12640 > 76.20482% taken
+	91	forwbranch < 12580, 60 > 99.525314% taken
+	108	forwbranch < 12580, 0 > 100.0% taken
+	127	forwbranch < 40180, 300 > 99.258896% taken
+M 6 < SystemAppCL, Lantlr/CppCodeGenerator;, genErrorHandler, (Lantlr/ExceptionSpec;)V >
+	10	forwbranch < 20, 20 > 50.0% taken
+	78	forwbranch < 0, 20 > 0.0% taken
+	153	forwbranch < 0, 20 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, printHeaderAction, (Ljava/lang/String;)V >
+	16	forwbranch < 2900, 300 > 90.625% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, printAction, (Lantlr/Token;)V >
+	1	forwbranch < 0, 640 > 0.0% taken
+M 40 < SystemAppCL, Lantlr/CppCodeGenerator;, genNextToken, ()V >
+	15	forwbranch < 0, 280 > 0.0% taken
+	37	forwbranch < 0, 280 > 0.0% taken
+	50	forwbranch < 0, 280 > 0.0% taken
+	65	forwbranch < 280, 0 > 100.0% taken
+	242	forwbranch < 220, 60 > 78.57143% taken
+	432	forwbranch < 220, 60 > 78.57143% taken
+	444	forwbranch < 40, 20 > 66.666664% taken
+	459	forwbranch < 20, 0 > 100.0% taken
+	524	forwbranch < 20, 0 > 100.0% taken
+	578	forwbranch < 20, 0 > 100.0% taken
+	668	forwbranch < 280, 4440 > 5.9322033% taken
+	689	forwbranch < 4440, 0 > 100.0% taken
+	836	forwbranch < 220, 60 > 78.57143% taken
+	841	forwbranch < 20, 40 > 33.333332% taken
+	1071	forwbranch < 220, 60 > 78.57143% taken
+	1076	forwbranch < 40, 20 > 66.666664% taken
+	1139	forwbranch < 0, 280 > 0.0% taken
+	1228	forwbranch < 220, 60 > 78.57143% taken
+	1233	forwbranch < 20, 40 > 33.333332% taken
+	1433	forwbranch < 280, 0 > 100.0% taken
+M 78 < SystemAppCL, Lantlr/CppCodeGenerator;, genRule, (Lantlr/RuleSymbol;ZILjava/lang/String;)V >
+	4	forwbranch < 11100, 0 > 100.0% taken
+	45	forwbranch < 11100, 0 > 100.0% taken
+	117	forwbranch < 9440, 1660 > 85.045044% taken
+	125	forwbranch < 140, 1520 > 8.433735% taken
+	149	forwbranch < 10960, 140 > 98.73874% taken
+	165	forwbranch < 11080, 20 > 99.81982% taken
+	267	forwbranch < 5100, 6000 > 45.945946% taken
+	275	forwbranch < 6000, 0 > 100.0% taken
+	289	forwbranch < 10940, 160 > 98.558556% taken
+	368	forwbranch < 11100, 0 > 100.0% taken
+	378	forwbranch < 0, 0 > Never Executed
+	385	forwbranch < 0, 0 > Never Executed
+	516	forwbranch < 11080, 20 > 99.81982% taken
+	566	forwbranch < 6060, 5040 > 54.594593% taken
+	584	forwbranch < 6060, 5040 > 54.594593% taken
+	597	forwbranch < 5040, 0 > 100.0% taken
+	685	forwbranch < 11100, 0 > 100.0% taken
+	695	forwbranch < 0, 0 > Never Executed
+	738	forwbranch < 0, 0 > Never Executed
+	778	forwbranch < 10140, 960 > 91.35135% taken
+	828	forwbranch < 9440, 1660 > 85.045044% taken
+	972	forwbranch < 0, 11100 > 0.0% taken
+	980	forwbranch < 6260, 4840 > 56.396397% taken
+	1009	forwbranch < 1780, 9320 > 16.036036% taken
+	1029	forwbranch < 9320, 0 > 100.0% taken
+	1050	forwbranch < 9320, 0 > 100.0% taken
+	1134	forwbranch < 0, 11100 > 0.0% taken
+	1142	forwbranch < 6260, 4840 > 56.396397% taken
+	1163	forwbranch < 11100, 0 > 100.0% taken
+	1180	forwbranch < 6260, 4840 > 56.396397% taken
+	1233	forwbranch < 4560, 280 > 94.214874% taken
+	1267	forwbranch < 960, 3880 > 19.834711% taken
+	1410	forwbranch < 4560, 280 > 94.214874% taken
+	1486	forwbranch < 9440, 1660 > 85.045044% taken
+	1529	forwbranch < 10140, 960 > 91.35135% taken
+	1544	forwbranch < 11040, 60 > 99.45946% taken
+	1557	forwbranch < 60, 0 > 100.0% taken
+	1578	forwbranch < 6060, 5040 > 54.594593% taken
+	1664	forwbranch < 11080, 20 > 99.81982% taken
+M 12 < SystemAppCL, Lantlr/CppCodeGenerator;, genBitsets, (Lantlr/collections/impl/Vector;ILjava/lang/String;)V >
+	25	forwbranch < 320, 1370 > 18.934912% taken
+	124	forwbranch < 1370, 122260 > 1.1081452% taken
+	134	forwbranch < 88340, 33920 > 72.25585% taken
+	144	forwbranch < 19300, 14620 > 56.898586% taken
+	230	forwbranch < 31120, 2800 > 91.745285% taken
+	255	forwbranch < 70, 1300 > 5.109489% taken
+M 4 < SystemAppCL, Lantlr/CppCodeGenerator;, genInitFactory, (Lantlr/Grammar;)V >
+	65	forwbranch < 260, 100 > 72.22222% taken
+	82	forwbranch < 100, 0 > 100.0% taken
+M 12 < SystemAppCL, Lantlr/CppCodeGenerator;, genTokenStrings, (Ljava/lang/String;)V >
+	60	forwbranch < 360, 13720 > 2.5568182% taken
+	75	forwbranch < 13000, 720 > 94.75219% taken
+	116	forwbranch < 2300, 11420 > 16.76385% taken
+	127	forwbranch < 720, 10700 > 6.3047285% taken
+	148	forwbranch < 360, 10340 > 3.364486% taken
+	156	forwbranch < 9500, 840 > 91.876205% taken
+M 22 < SystemAppCL, Lantlr/CppCodeGenerator;, genAlt, (Lantlr/Alternative;Lantlr/AlternativeBlock;)V >
+	10	forwbranch < 31020, 6020 > 83.7473% taken
+	17	forwbranch < 620, 5400 > 10.299004% taken
+	39	forwbranch < 540, 36500 > 1.4578834% taken
+	46	forwbranch < 3120, 33380 > 8.547945% taken
+	78	forwbranch < 37020, 20 > 99.94601% taken
+	109	forwbranch < 37040, 52220 > 41.49675% taken
+	131	forwbranch < 31640, 5400 > 85.421165% taken
+	138	forwbranch < 2520, 2880 > 46.666668% taken
+	151	forwbranch < 2880, 0 > 100.0% taken
+	233	forwbranch < 2520, 0 > 100.0% taken
+	265	forwbranch < 37020, 20 > 99.94601% taken
+M 8 < SystemAppCL, Lantlr/CppCodeGenerator;, suitableForCaseExpression, (Lantlr/Alternative;)Z >
+	5	forwbranch < 6820, 79340 > 7.915506% taken
+	12	forwbranch < 0, 79340 > 0.0% taken
+	24	forwbranch < 240, 79100 > 0.3024956% taken
+	41	forwbranch < 760, 78340 > 0.9608091% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, lookaheadString, (I)Ljava/lang/String; >
+	7	forwbranch < 22460, 1200 > 94.92815% taken
+M 10 < SystemAppCL, Lantlr/CppCodeGenerator;, genCases, (Lantlr/collections/impl/BitSet;)V >
+	4	forwbranch < 727, 0 > 100.0% taken
+	58	forwbranch < 727, 3603 > 16.789839% taken
+	64	forwbranch < 0, 3603 > 0.0% taken
+	124	forwbranch < 0, 3603 > 0.0% taken
+	157	forwbranch < 727, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/CppCodeGenerator;, lookaheadIsEmpty, (Lantlr/Alternative;I)Z >
+	8	forwbranch < 7740, 940 > 89.17051% taken
+	25	forwbranch < 0, 8680 > 0.0% taken
+	31	forwbranch < 120, 8560 > 1.3824885% taken
+	51	forwbranch < 0, 8560 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/CppCodeGenerator;, getLookaheadTestExpression, (Lantlr/Alternative;I)Ljava/lang/String; >
+	8	forwbranch < 7740, 940 > 89.17051% taken
+	20	forwbranch < 8560, 120 > 98.61751% taken
+M 18 < SystemAppCL, Lantlr/CppCodeGenerator;, genSynPred, (Lantlr/SynPredBlock;Ljava/lang/String;)V >
+	4	forwbranch < 100, 0 > 100.0% taken
+	118	forwbranch < 100, 0 > 100.0% taken
+	242	forwbranch < 100, 0 > 100.0% taken
+	252	forwbranch < 0, 0 > Never Executed
+	262	forwbranch < 0, 0 > Never Executed
+	419	forwbranch < 100, 0 > 100.0% taken
+	503	forwbranch < 100, 0 > 100.0% taken
+	513	forwbranch < 0, 0 > Never Executed
+	523	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lantlr/CppCodeGenerator;, mapTreeVariable, (Lantlr/AlternativeElement;Ljava/lang/String;)V >
+	4	forwbranch < 9120, 0 > 100.0% taken
+	26	forwbranch < 500, 8620 > 5.482456% taken
+	33	forwbranch < 1580, 7040 > 18.329466% taken
+	51	forwbranch < 1580, 0 > 100.0% taken
+	63	forwbranch < 2080, 7040 > 22.807018% taken
+	74	forwbranch < 7020, 20 > 99.71591% taken
+M 6 < SystemAppCL, Lantlr/CppCodeGenerator;, genASTDeclaration, (Lantlr/AlternativeElement;Ljava/lang/String;Ljava/lang/String;)V >
+	8	forwbranch < 2820, 300 > 90.38461% taken
+	22	forwbranch < 360, 2460 > 12.765958% taken
+	32	forwbranch < 2460, 0 > 100.0% taken
+M 14 < SystemAppCL, Lantlr/CppCodeGenerator;, getASTCreateString, (Lantlr/GrammarAtom;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 640, 4080 > 13.559322% taken
+	8	forwbranch < 4080, 0 > 100.0% taken
+	108	forwbranch < 4080, 640 > 86.44068% taken
+	139	forwbranch < 4720, 0 > 100.0% taken
+	149	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 0 > Never Executed
+	169	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, genLineNo, (Lantlr/Token;)V >
+	1	forwbranch < 0, 300 > 0.0% taken
+M 16 < SystemAppCL, Lantlr/CppCodeGenerator;, genRuleHeader, (Lantlr/RuleSymbol;Z)V >
+	9	forwbranch < 11100, 0 > 100.0% taken
+	50	forwbranch < 11100, 0 > 100.0% taken
+	113	forwbranch < 9440, 1660 > 85.045044% taken
+	120	forwbranch < 140, 1520 > 8.433735% taken
+	170	forwbranch < 11080, 20 > 99.81982% taken
+	264	forwbranch < 5100, 6000 > 45.945946% taken
+	271	forwbranch < 6000, 0 > 100.0% taken
+	284	forwbranch < 10940, 160 > 98.558556% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, genBitsetsHeader, (Lantlr/collections/impl/Vector;I)V >
+	14	forwbranch < 480, 2055 > 18.934912% taken
+M 20 < SystemAppCL, Lantlr/CppCodeGenerator;, genMatchUsingAtomText, (Lantlr/GrammarAtom;)V >
+	11	forwbranch < 13545, 2325 > 85.34972% taken
+	18	forwbranch < 2325, 0 > 100.0% taken
+	70	forwbranch < 9480, 6390 > 59.73535% taken
+	77	forwbranch < 150, 6240 > 2.3474178% taken
+	85	forwbranch < 6240, 0 > 100.0% taken
+	99	forwbranch < 15645, 225 > 98.58223% taken
+	129	forwbranch < 15840, 30 > 99.81097% taken
+	186	forwbranch < 9480, 6390 > 59.73535% taken
+	193	forwbranch < 150, 6240 > 2.3474178% taken
+	201	forwbranch < 6240, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/CppCodeGenerator;, genMatchUsingAtomTokenType, (Lantlr/GrammarAtom;)V >
+	11	forwbranch < 1960, 460 > 80.99174% taken
+	18	forwbranch < 460, 0 > 100.0% taken
+	104	forwbranch < 2420, 0 > 100.0% taken
+M 22 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/WildcardElement;)V >
+	4	forwbranch < 20, 40 > 33.333332% taken
+	11	forwbranch < 0, 40 > 0.0% taken
+	64	forwbranch < 60, 0 > 100.0% taken
+	122	forwbranch < 0, 60 > 0.0% taken
+	132	forwbranch < 0, 60 > 0.0% taken
+	139	forwbranch < 0, 60 > 0.0% taken
+	147	forwbranch < 60, 0 > 100.0% taken
+	170	forwbranch < 0, 60 > 0.0% taken
+	177	forwbranch < 0, 60 > 0.0% taken
+	185	forwbranch < 60, 0 > 100.0% taken
+	237	forwbranch < 60, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 4300, 0 > 100.0% taken
+	62	forwbranch < 4300, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/CppCodeGenerator;, mangleLiteral, (Ljava/lang/String;)Ljava/lang/String; >
+	18	forwbranch < 1470, 7916 > 15.661624% taken
+	29	forwbranch < 7916, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 1470, 0 > 100.0% taken
+M 10 < SystemAppCL, Lantlr/CppCodeGenerator;, getLookaheadTestTerm, (ILantlr/collections/impl/BitSet;)Ljava/lang/String; >
+	17	forwbranch < 1482, 100 > 93.67889% taken
+	36	forwbranch < 1482, 0 > 100.0% taken
+	49	forwbranch < 1246, 236 > 84.07558% taken
+	111	forwbranch < 1246, 1324 > 48.48249% taken
+	127	forwbranch < 1246, 78 > 94.108765% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, getRangeExpression, (I[I)Ljava/lang/String; >
+	4	forwbranch < 1000, 0 > 100.0% taken
+M 13 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mACTION, (Z)V >
+	21	switch     < 854, 231, 12747 >
+	75	forwbranch < 896, 11851 > 7.0291047% taken
+	89	forwbranch < 0, 896 > 0.0% taken
+	127	forwbranch < 0, 896 > 0.0% taken
+	131	forwbranch < 0, 896 > 0.0% taken
+	136	forwbranch < 0, 896 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, ()V >
+	17	forwbranch < 400, 640 > 38.46154% taken
+	86	forwbranch < 400, 800 > 33.333332% taken
+	105	forwbranch < 0, 800 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/ActionElement;)V >
+	4	forwbranch < 2960, 0 > 100.0% taken
+	41	forwbranch < 2960, 0 > 100.0% taken
+	66	forwbranch < 1960, 1000 > 66.21622% taken
+	115	forwbranch < 2280, 680 > 77.02702% taken
+	174	forwbranch < 2280, 680 > 77.02702% taken
+	410	forwbranch < 1960, 1000 > 66.21622% taken
+M 8 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/CharLiteralElement;)V >
+	4	forwbranch < 5420, 0 > 100.0% taken
+	41	forwbranch < 5420, 0 > 100.0% taken
+	92	forwbranch < 60, 5360 > 1.1070111% taken
+	100	forwbranch < 120, 5240 > 2.238806% taken
+M 14 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/CharRangeElement;)V >
+	4	forwbranch < 820, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 820 > 0.0% taken
+	66	forwbranch < 0, 820 > 0.0% taken
+	74	forwbranch < 820, 0 > 100.0% taken
+	84	forwbranch < 820, 0 > 100.0% taken
+	145	forwbranch < 820, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/LexerGrammar;)V >
+	4	forwbranch < 280, 0 > 100.0% taken
+	30	forwbranch < 280, 0 > 100.0% taken
+M 22 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/OneOrMoreBlock;)V >
+	4	forwbranch < 1700, 0 > 100.0% taken
+	52	forwbranch < 1700, 0 > 100.0% taken
+	136	forwbranch < 1700, 0 > 100.0% taken
+	201	forwbranch < 1700, 0 > 100.0% taken
+	243	forwbranch < 1700, 0 > 100.0% taken
+	257	forwbranch < 0, 0 > Never Executed
+	272	forwbranch < 0, 0 > Never Executed
+	291	forwbranch < 1700, 0 > 100.0% taken
+	300	forwbranch < 0, 0 > Never Executed
+	308	forwbranch < 1700, 0 > 100.0% taken
+	315	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/ParserGrammar;)V >
+	4	forwbranch < 280, 0 > 100.0% taken
+	30	forwbranch < 280, 0 > 100.0% taken
+M 67 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/RuleRefElement;)V >
+	4	forwbranch < 20460, 0 > 100.0% taken
+	53	forwbranch < 0, 20460 > 0.0% taken
+	60	forwbranch < 20460, 0 > 100.0% taken
+	117	forwbranch < 20460, 0 > 100.0% taken
+	182	forwbranch < 16400, 4060 > 80.1564% taken
+	189	forwbranch < 4040, 20 > 99.50739% taken
+	196	forwbranch < 0, 20 > 0.0% taken
+	256	forwbranch < 13360, 7100 > 65.29814% taken
+	263	forwbranch < 340, 6760 > 4.7887325% taken
+	271	forwbranch < 6740, 20 > 99.70414% taken
+	288	forwbranch < 20380, 80 > 99.60899% taken
+	298	forwbranch < 80, 0 > 100.0% taken
+	386	forwbranch < 7100, 13280 > 34.838078% taken
+	393	forwbranch < 100, 13180 > 0.75301206% taken
+	403	forwbranch < 13180, 0 > 100.0% taken
+	467	forwbranch < 13360, 7100 > 65.29814% taken
+	474	forwbranch < 340, 6760 > 4.7887325% taken
+	482	forwbranch < 6740, 20 > 99.70414% taken
+	495	forwbranch < 100, 20360 > 0.48875856% taken
+	505	forwbranch < 17080, 3280 > 83.889984% taken
+	515	forwbranch < 60, 3220 > 1.8292683% taken
+	522	forwbranch < 580, 2640 > 18.012423% taken
+	529	forwbranch < 80, 2620 > 2.9629629% taken
+	537	forwbranch < 0, 2620 > 0.0% taken
+	547	forwbranch < 17160, 3200 > 84.282906% taken
+	573	forwbranch < 16660, 3700 > 81.82711% taken
+	580	forwbranch < 3100, 600 > 83.78378% taken
+	613	forwbranch < 17220, 3140 > 84.57761% taken
+	620	switch     < 3120, 0, 20 >
+	652	forwbranch < 3120, 0 > 100.0% taken
+	716	forwbranch < 13260, 7100 > 65.1277% taken
+	723	forwbranch < 2560, 4540 > 36.05634% taken
+	753	forwbranch < 17160, 3200 > 84.282906% taken
+M 12 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/StringLiteralElement;)V >
+	4	forwbranch < 5140, 0 > 100.0% taken
+	41	forwbranch < 5000, 140 > 97.27627% taken
+	48	forwbranch < 0, 140 > 0.0% taken
+	104	forwbranch < 80, 5060 > 1.5564202% taken
+	112	forwbranch < 540, 4520 > 10.671937% taken
+	140	forwbranch < 5060, 80 > 98.44358% taken
+M 10 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/TokenRefElement;)V >
+	4	forwbranch < 10860, 0 > 100.0% taken
+	44	forwbranch < 10860, 0 > 100.0% taken
+	65	forwbranch < 10200, 660 > 93.92265% taken
+	72	forwbranch < 20, 640 > 3.030303% taken
+	135	forwbranch < 9540, 1320 > 87.84531% taken
+M 16 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/TreeElement;)V >
+	45	forwbranch < 2140, 20 > 99.07407% taken
+	97	forwbranch < 2160, 0 > 100.0% taken
+	140	forwbranch < 2160, 0 > 100.0% taken
+	190	forwbranch < 2160, 0 > 100.0% taken
+	274	forwbranch < 2160, 0 > 100.0% taken
+	310	forwbranch < 2160, 2160 > 50.0% taken
+	327	forwbranch < 2160, 6400 > 25.233644% taken
+	358	forwbranch < 2160, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/TreeWalkerGrammar;)V >
+	12	forwbranch < 80, 0 > 100.0% taken
+M 20 < SystemAppCL, Lantlr/CppCodeGenerator;, gen, (Lantlr/ZeroOrMoreBlock;)V >
+	4	forwbranch < 132, 0 > 100.0% taken
+	54	forwbranch < 132, 0 > 100.0% taken
+	118	forwbranch < 132, 0 > 100.0% taken
+	160	forwbranch < 132, 0 > 100.0% taken
+	174	forwbranch < 0, 0 > Never Executed
+	189	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 132, 0 > 100.0% taken
+	217	forwbranch < 0, 0 > Never Executed
+	225	forwbranch < 132, 0 > 100.0% taken
+	232	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lantlr/CppCodeGenerator;, processStringForASTConstructor, (Ljava/lang/String;)Ljava/lang/String; >
+	4	forwbranch < 2180, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	40	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lantlr/CppCodeGenerator;, getASTCreateString, (Lantlr/collections/impl/Vector;)Ljava/lang/String; >
+	4	forwbranch < 580, 0 > 100.0% taken
+	79	forwbranch < 580, 1540 > 27.35849% taken
+M 32 < SystemAppCL, Lantlr/CppCodeGenerator;, mapTreeId, (Ljava/lang/String;Lantlr/ActionTransInfo;)Ljava/lang/String; >
+	4	forwbranch < 3380, 20 > 99.411766% taken
+	21	forwbranch < 3000, 380 > 88.75739% taken
+	31	forwbranch < 0, 380 > 0.0% taken
+	42	forwbranch < 80, 300 > 21.052631% taken
+	60	forwbranch < 300, 0 > 100.0% taken
+	95	forwbranch < 2240, 8300 > 21.252373% taken
+	125	forwbranch < 7160, 1140 > 86.26506% taken
+	129	forwbranch < 1140, 0 > 100.0% taken
+	181	forwbranch < 1860, 380 > 83.03571% taken
+	189	forwbranch < 380, 0 > 100.0% taken
+	250	forwbranch < 380, 0 > 100.0% taken
+	300	forwbranch < 100, 280 > 26.31579% taken
+	342	forwbranch < 860, 1000 > 46.23656% taken
+	346	forwbranch < 980, 20 > 98.0% taken
+	397	forwbranch < 0, 1000 > 0.0% taken
+	401	forwbranch < 20, 980 > 2.0% taken
+M 17 < SystemAppCL, Lantlr/CppCharFormatter;, escapeChar, (IZ)Ljava/lang/String; >
+	1	switch     < 1560, 2320, 1900, 5120, 420, 200, 136960 >
+	73	forwbranch < 0, 420 > 0.0% taken
+	85	forwbranch < 4600, 520 > 89.84375% taken
+	99	forwbranch < 600, 136360 > 0.43808413% taken
+	105	forwbranch < 136020, 340 > 99.75066% taken
+	112	forwbranch < 940, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CppCharFormatter;, escapeString, (Ljava/lang/String;)Ljava/lang/String; >
+	15	forwbranch < 13720, 94100 > 12.724912% taken
+M 24 < SystemAppCL, Lantlr/PreservingFileWriter;, close, ()V >
+	29	forwbranch < 496, 879 > 36.072727% taken
+	83	forwbranch < 110, 2868 > 3.6937542% taken
+	114	forwbranch < 2868, 0 > 100.0% taken
+	126	forwbranch < 2099, 769 > 73.18689% taken
+	139	forwbranch < 1989, 1573215 > 0.12626936% taken
+	151	forwbranch < 1573105, 110 > 99.993004% taken
+	185	forwbranch < 110, 769 > 12.51422% taken
+	244	forwbranch < 9349, 606 > 93.912605% taken
+	278	forwbranch < 769, 606 > 55.927273% taken
+	291	forwbranch < 769, 606 > 55.927273% taken
+	307	forwbranch < 0, 1375 > 0.0% taken
+	317	forwbranch < 0, 1375 > 0.0% taken
+M 2 < BootstrapCL, Ljava/io/BufferedWriter;, localFlush, ()V >
+	4	forwbranch < 0, 8056 > 0.0% taken
+M 6 < BootstrapCL, Ljava/io/BufferedWriter;, write, ([CII)V >
+	12	forwbranch < 34293, 0 > 100.0% taken
+	36	forwbranch < 34293, 0 > 100.0% taken
+	89	forwbranch < 30797, 3496 > 89.8055% taken
+M 177 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mAST_ITEM, (Z)V >
+	30	forwbranch < 0, 2440 > 0.0% taken
+	40	forwbranch < 1920, 520 > 78.68852% taken
+	88	forwbranch < 0, 1920 > 0.0% taken
+	102	forwbranch < 60, 1860 > 3.125% taken
+	134	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 40, 20, 0, 0, 40, 0, 40, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 40, 160, 60, 100, 200, 0, 0, 280, 0, 0, 220, 140, 0, 0, 100, 0, 20, 40, 100, 0, 60, 0, 0, 0, 0, 0 >
+	678	forwbranch < 0, 1860 > 0.0% taken
+	688	forwbranch < 180, 1680 > 9.67742% taken
+	719	forwbranch < 0, 180 > 0.0% taken
+	729	forwbranch < 0, 180 > 0.0% taken
+	739	forwbranch < 0, 180 > 0.0% taken
+	749	forwbranch < 0, 180 > 0.0% taken
+	759	forwbranch < 0, 180 > 0.0% taken
+	769	forwbranch < 0, 180 > 0.0% taken
+	779	forwbranch < 0, 180 > 0.0% taken
+	789	forwbranch < 0, 180 > 0.0% taken
+	799	forwbranch < 0, 180 > 0.0% taken
+	809	forwbranch < 0, 180 > 0.0% taken
+	819	forwbranch < 0, 180 > 0.0% taken
+	829	forwbranch < 0, 180 > 0.0% taken
+	879	forwbranch < 1020, 840 > 54.83871% taken
+	894	forwbranch < 1180, 680 > 63.44086% taken
+	912	forwbranch < 0, 60 > 0.0% taken
+	922	forwbranch < 0, 60 > 0.0% taken
+	970	forwbranch < 0, 0 > Never Executed
+	980	forwbranch < 0, 0 > Never Executed
+	993	forwbranch < 0, 0 > Never Executed
+	1045	forwbranch < 0, 0 > Never Executed
+	1095	forwbranch < 0, 0 > Never Executed
+	1110	forwbranch < 0, 0 > Never Executed
+	1147	forwbranch < 2440, 0 > 100.0% taken
+	1151	forwbranch < 0, 0 > Never Executed
+	1156	forwbranch < 0, 0 > Never Executed
+M 90 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mTEXT_ITEM, (Z)V >
+	39	forwbranch < 0, 660 > 0.0% taken
+	49	forwbranch < 660, 0 > 100.0% taken
+	63	switch     < 0, 0, 0, 0, 0, 0 >
+	224	forwbranch < 0, 660 > 0.0% taken
+	234	forwbranch < 40, 620 > 6.060606% taken
+	250	forwbranch < 0, 620 > 0.0% taken
+	260	forwbranch < 560, 60 > 90.32258% taken
+	274	switch     < 0, 0, 0, 0, 60, 0 >
+	441	forwbranch < 0, 560 > 0.0% taken
+	451	forwbranch < 560, 0 > 100.0% taken
+	465	switch     < 0, 0, 0, 0, 0, 0 >
+	628	forwbranch < 0, 560 > 0.0% taken
+	638	forwbranch < 0, 560 > 0.0% taken
+	652	switch     < 0, 0, 0, 0, 560, 0 >
+	841	forwbranch < 0, 40 > 0.0% taken
+	851	forwbranch < 0, 40 > 0.0% taken
+	888	forwbranch < 0, 0 > Never Executed
+	898	forwbranch < 0, 0 > Never Executed
+	918	forwbranch < 0, 0 > Never Executed
+	932	forwbranch < 0, 0 > Never Executed
+	940	switch     < 0, 0, 0, 0, 0, 0 >
+	1062	forwbranch < 0, 0 > Never Executed
+	1086	forwbranch < 0, 0 > Never Executed
+	1154	forwbranch < 0, 0 > Never Executed
+	1164	forwbranch < 0, 0 > Never Executed
+	1184	forwbranch < 0, 0 > Never Executed
+	1198	forwbranch < 0, 0 > Never Executed
+	1206	switch     < 0, 0, 0, 0, 0, 0 >
+	1326	forwbranch < 0, 0 > Never Executed
+	1350	forwbranch < 0, 0 > Never Executed
+	1437	forwbranch < 660, 0 > 100.0% taken
+	1441	forwbranch < 0, 0 > Never Executed
+	1446	forwbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mSTUFF, (Z)V >
+	18	switch     < 184, 44, 0, 6544 >
+	88	forwbranch < 6516, 28 > 99.57213% taken
+	98	forwbranch < 0, 28 > 0.0% taken
+	108	forwbranch < 0, 28 > 0.0% taken
+	126	forwbranch < 6516, 0 > 100.0% taken
+	136	forwbranch < 0, 0 > Never Executed
+	159	forwbranch < 6516, 0 > 100.0% taken
+	169	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 6516, 0 > 100.0% taken
+	226	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 6516, 0 > 100.0% taken
+	279	forwbranch < 0, 6516 > 0.0% taken
+	318	forwbranch < 6772, 0 > 100.0% taken
+	322	forwbranch < 0, 0 > Never Executed
+	327	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mSTRING, (Z)V >
+	27	forwbranch < 10180, 80 > 99.220276% taken
+	49	forwbranch < 880, 9300 > 8.644401% taken
+	68	forwbranch < 880, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mCOMMENT, (Z)V >
+	21	forwbranch < 0, 140 > 0.0% taken
+	31	forwbranch < 0, 140 > 0.0% taken
+	49	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 140, 0 > 100.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+M 252 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mTREE, (Z)V >
+	72	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 440, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	649	switch     < 0, 0, 0, 0, 0, 580, 0 >
+	769	forwbranch < 580, 960 > 37.66234% taken
+	801	switch     < 0, 220, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 380, 0, 0, 140, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 20, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 0, 20, 0, 20, 20, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1377	switch     < 0, 0, 0, 0, 580, 380, 0 >
+	1540	forwbranch < 60, 520 > 10.344828% taken
+	1544	forwbranch < 0, 520 > 0.0% taken
+	1549	forwbranch < 0, 520 > 0.0% taken
+M 20 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mWS, (Z)V >
+	24	forwbranch < 5060, 0 > 100.0% taken
+	34	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 3440, 1620 > 67.98419% taken
+	82	forwbranch < 1780, 1660 > 51.744186% taken
+	101	forwbranch < 1780, 0 > 100.0% taken
+	124	forwbranch < 1560, 220 > 87.64045% taken
+	143	forwbranch < 0, 1560 > 0.0% taken
+	181	forwbranch < 1560, 0 > 100.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 0, 0 > Never Executed
+M 150 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mID, (Z)V >
+	19	switch     < 0, 0, 0, 0, 0, 0, 0, 280, 60, 260, 0, 120, 100, 0, 0, 200, 0, 0, 40, 120, 0, 60, 80, 0, 40, 120, 340, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 280, 60, 280, 80, 160, 280, 20, 20, 440, 0, 0, 220, 260, 0, 0, 180, 0, 40, 180, 140, 0, 100, 0, 0, 0, 0, 0 >
+	368	forwbranch < 4580, 27800 > 14.144534% taken
+	376	switch     < 0, 0, 20, 40, 0, 0, 0, 0, 0, 0, 280, 0, 0, 0, 0, 0, 0, 980, 220, 580, 560, 1680, 280, 120, 40, 960, 20, 340, 740, 460, 960, 480, 760, 0, 880, 1440, 960, 420, 20, 0, 80, 100, 0, 0, 0, 0, 0, 800, 0, 940, 200, 620, 800, 1780, 180, 40, 20, 840, 0, 400, 1120, 220, 1180, 1040, 380, 0, 1320, 960, 1000, 320, 0, 0, 160, 60, 0, 0 >
+	769	forwbranch < 0, 4580 > 0.0% taken
+	773	forwbranch < 0, 4580 > 0.0% taken
+	778	forwbranch < 0, 4580 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mVAR_ASSIGN, (Z)V >
+	27	forwbranch < 0, 680 > 0.0% taken
+	34	forwbranch < 0, 680 > 0.0% taken
+	44	forwbranch < 0, 680 > 0.0% taken
+	56	forwbranch < 680, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 254 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mAST_CONSTRUCTOR, (Z)V >
+	49	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 80, 0, 120, 60, 0, 0, 60, 0, 0, 0, 100, 0, 20, 40, 0, 0, 40, 80, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	608	switch     < 0, 0, 0, 0, 640, 0, 0 >
+	727	switch     < 640, 0, 0 >
+	781	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 0, 520, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1340	switch     < 0, 0, 0, 0, 640, 0 >
+	1514	forwbranch < 0, 640 > 0.0% taken
+	1574	forwbranch < 580, 60 > 90.625% taken
+	1578	forwbranch < 0, 60 > 0.0% taken
+	1583	forwbranch < 0, 60 > 0.0% taken
+M 135 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mTEXT_ARG, (Z)V >
+	19	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 260, 40, 180, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0 >
+	538	forwbranch < 900, 1200 > 42.857143% taken
+	547	forwbranch < 0, 1200 > 0.0% taken
+	558	forwbranch < 0, 1200 > 0.0% taken
+	577	forwbranch < 1200, 0 > 100.0% taken
+	591	forwbranch < 0, 0 > Never Executed
+	613	forwbranch < 0, 1200 > 0.0% taken
+	647	forwbranch < 0, 900 > 0.0% taken
+	685	forwbranch < 280, 620 > 31.11111% taken
+	689	forwbranch < 0, 620 > 0.0% taken
+	694	forwbranch < 0, 620 > 0.0% taken
+M 26 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mSL_COMMENT, (Z)V >
+	27	forwbranch < 140, 5060 > 2.6923077% taken
+	37	forwbranch < 5060, 0 > 100.0% taken
+	49	forwbranch < 0, 5060 > 0.0% taken
+	60	forwbranch < 0, 5060 > 0.0% taken
+	69	forwbranch < 0, 5060 > 0.0% taken
+	80	forwbranch < 0, 5060 > 0.0% taken
+	99	forwbranch < 140, 0 > 100.0% taken
+	109	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 140 > 0.0% taken
+	147	forwbranch < 0, 0 > Never Executed
+	189	forwbranch < 140, 0 > 100.0% taken
+	193	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+M 59 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mESC, (Z)V >
+	25	switch     < 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	251	forwbranch < 0, 0 > Never Executed
+	261	forwbranch < 0, 0 > Never Executed
+	270	forwbranch < 0, 0 > Never Executed
+	281	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 0, 0 > Never Executed
+	306	forwbranch < 0, 0 > Never Executed
+	315	forwbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	343	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	391	forwbranch < 0, 0 > Never Executed
+	402	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	458	forwbranch < 0, 0 > Never Executed
+	467	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 0, 0 > Never Executed
+	495	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 80, 0 > 100.0% taken
+	567	forwbranch < 0, 0 > Never Executed
+	572	forwbranch < 0, 0 > Never Executed
+M 118 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mTREE_ELEMENT, (Z)V >
+	22	switch     < 0, 800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 80, 0, 120, 60, 0, 0, 120, 0, 0, 0, 100, 0, 20, 40, 0, 0, 40, 80, 0, 20, 0, 0, 0, 0, 140, 0, 0, 0, 0, 0, 0, 0, 40, 20, 20, 20, 0, 20, 100, 0, 0, 0, 100, 0, 0, 60, 0, 20, 100, 20, 0, 20, 0, 0, 0, 0, 0 >
+	432	forwbranch < 0, 800 > 0.0% taken
+	442	forwbranch < 740, 60 > 92.5% taken
+	484	forwbranch < 0, 740 > 0.0% taken
+	494	forwbranch < 300, 440 > 40.54054% taken
+	536	forwbranch < 0, 300 > 0.0% taken
+	550	forwbranch < 0, 300 > 0.0% taken
+	592	forwbranch < 300, 0 > 100.0% taken
+	612	forwbranch < 0, 0 > Never Executed
+	643	forwbranch < 0, 0 > Never Executed
+	653	forwbranch < 0, 0 > Never Executed
+	666	forwbranch < 0, 0 > Never Executed
+	770	forwbranch < 640, 1540 > 29.357798% taken
+	774	forwbranch < 0, 1540 > 0.0% taken
+	779	forwbranch < 0, 1540 > 0.0% taken
+M 22 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mAST_CTOR_ELEMENT, (Z)V >
+	21	forwbranch < 640, 640 > 50.0% taken
+	30	forwbranch < 0, 640 > 0.0% taken
+	41	forwbranch < 0, 640 > 0.0% taken
+	63	forwbranch < 0, 640 > 0.0% taken
+	72	forwbranch < 0, 640 > 0.0% taken
+	83	forwbranch < 0, 640 > 0.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	111	forwbranch < 0, 0 > Never Executed
+	148	forwbranch < 0, 1280 > 0.0% taken
+	152	forwbranch < 0, 1280 > 0.0% taken
+	157	forwbranch < 0, 1280 > 0.0% taken
+M 96 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mTEXT_ARG_ELEMENT, (Z)V >
+	19	switch     < 20, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 260, 40, 180, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 20, 0, 0, 0, 0, 0 >
+	463	forwbranch < 1200, 0 > 100.0% taken
+	467	forwbranch < 0, 0 > Never Executed
+	472	forwbranch < 0, 0 > Never Executed
+M 420 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mID_ELEMENT, (Z)Z >
+	42	forwbranch < 1540, 0 > 100.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 1540 > 0.0% taken
+	132	switch     < 0, 0, 0, 0, 0, 1540 >
+	189	switch     < 0, 0, 0 >
+	233	forwbranch < 0, 0 > Never Executed
+	299	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+	353	forwbranch < 0, 0 > Never Executed
+	362	forwbranch < 0, 0 > Never Executed
+	373	forwbranch < 0, 0 > Never Executed
+	409	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	892	forwbranch < 0, 0 > Never Executed
+	906	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1471	switch     < 0, 0, 0, 0, 0, 0 >
+	1593	forwbranch < 0, 0 > Never Executed
+	1607	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	2140	switch     < 0, 0, 0, 0, 0, 0 >
+	2258	forwbranch < 0, 0 > Never Executed
+	2335	forwbranch < 1540, 0 > 100.0% taken
+	2345	forwbranch < 0, 0 > Never Executed
+	2374	forwbranch < 0, 1540 > 0.0% taken
+	2399	forwbranch < 0, 1540 > 0.0% taken
+	2431	forwbranch < 1540, 0 > 100.0% taken
+	2445	forwbranch < 0, 0 > Never Executed
+	2452	forwbranch < 0, 0 > Never Executed
+	2462	forwbranch < 0, 0 > Never Executed
+	2470	switch     < 0, 0, 0, 0, 0, 0 >
+	2575	forwbranch < 0, 1540 > 0.0% taken
+	2635	forwbranch < 1240, 300 > 80.51948% taken
+	2640	forwbranch < 0, 300 > 0.0% taken
+	2645	forwbranch < 0, 300 > 0.0% taken
+M 67 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mTEXT_ARG_ID_ELEMENT, (Z)V >
+	39	forwbranch < 1180, 0 > 100.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 1180 > 0.0% taken
+	129	switch     < 300, 20, 0, 0, 860 >
+	189	forwbranch < 300, 0 > 100.0% taken
+	203	forwbranch < 0, 0 > Never Executed
+	243	forwbranch < 0, 300 > 0.0% taken
+	252	forwbranch < 0, 300 > 0.0% taken
+	263	forwbranch < 0, 300 > 0.0% taken
+	305	forwbranch < 300, 280 > 51.724136% taken
+	314	forwbranch < 0, 280 > 0.0% taken
+	325	forwbranch < 0, 280 > 0.0% taken
+	340	backbranch < 280, 0 > 100.0% taken
+	362	switch     < 0, 0, 0, 0, 300, 0 >
+	485	forwbranch < 0, 0 > Never Executed
+	505	forwbranch < 0, 0 > Never Executed
+	519	forwbranch < 0, 0 > Never Executed
+	559	forwbranch < 0, 0 > Never Executed
+	568	forwbranch < 0, 0 > Never Executed
+	579	forwbranch < 0, 0 > Never Executed
+	620	switch     < 0, 0, 0, 0, 0, 0 >
+	738	forwbranch < 0, 0 > Never Executed
+	813	forwbranch < 860, 0 > 100.0% taken
+	823	forwbranch < 0, 0 > Never Executed
+	851	forwbranch < 0, 860 > 0.0% taken
+	883	forwbranch < 1180, 0 > 100.0% taken
+	887	forwbranch < 0, 0 > Never Executed
+	892	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mk_tokenSet_0, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mk_tokenSet_1, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mk_tokenSet_2, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mk_tokenSet_7, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mk_tokenSet_8, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/actions/cpp/ActionLexer;, mk_tokenSet_14, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 4 < BootstrapCL, Ljava/io/StringReader;, read, ()I >
+	11	forwbranch < 72622, 0 > 100.0% taken
+	32	forwbranch < 1685, 70937 > 2.3202336% taken
+M 8 < SystemAppCL, Lantlr/DefaultFileLineFormatter;, getFormatString, (Ljava/lang/String;II)Ljava/lang/String; >
+	10	forwbranch < 0, 1460 > 0.0% taken
+	40	forwbranch < 0, 1460 > 0.0% taken
+	44	forwbranch < 1460, 0 > 100.0% taken
+	64	forwbranch < 960, 500 > 65.753426% taken
+M 2 < SystemAppCL, Lantlr/ANTLRTokdefParser;, setTool, (Lantlr/Tool;)V >
+	4	forwbranch < 0, 400 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/ANTLRTokdefParser;, file, (Lantlr/ImportVocabTokenManager;)V >
+	19	forwbranch < 7020, 660 > 91.40625% taken
+	28	forwbranch < 400, 260 > 60.60606% taken
+M 4 < SystemAppCL, Lantlr/ImportVocabTokenManager;, define, (Ljava/lang/String;I)V >
+	8	forwbranch < 3840, 3440 > 52.747253% taken
+	50	forwbranch < 0, 7280 > 0.0% taken
+M 13 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mWS, (Z)V >
+	19	switch     < 0, 7040, 360, 1120, 0 >
+	91	forwbranch < 0, 360 > 0.0% taken
+	148	forwbranch < 0, 8520 > 0.0% taken
+	152	forwbranch < 0, 8520 > 0.0% taken
+	157	forwbranch < 8520, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mLPAREN, (Z)V >
+	21	forwbranch < 0, 120 > 0.0% taken
+	25	forwbranch < 0, 120 > 0.0% taken
+	30	forwbranch < 0, 120 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mRPAREN, (Z)V >
+	21	forwbranch < 0, 120 > 0.0% taken
+	25	forwbranch < 0, 120 > 0.0% taken
+	30	forwbranch < 0, 120 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mASSIGN, (Z)V >
+	21	forwbranch < 0, 10460 > 0.0% taken
+	25	forwbranch < 0, 10460 > 0.0% taken
+	30	forwbranch < 0, 10460 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mSTRING, (Z)V >
+	26	forwbranch < 20560, 0 > 100.0% taken
+	48	forwbranch < 3560, 17000 > 17.315176% taken
+	67	forwbranch < 0, 3560 > 0.0% taken
+	71	forwbranch < 0, 3560 > 0.0% taken
+	76	forwbranch < 0, 3560 > 0.0% taken
+M 141 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mID, (Z)V >
+	18	switch     < 240, 60, 340, 100, 240, 220, 40, 20, 540, 780, 0, 180, 60, 100, 20, 320, 0, 120, 600, 3140, 40, 20, 240, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	316	switch     < 0, 40, 40, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6900, 0, 0, 0, 2400, 340, 1660, 1300, 2300, 280, 280, 120, 1100, 0, 3200, 1220, 820, 1760, 2300, 760, 40, 1840, 1080, 1580, 480, 660, 60, 300, 420, 0, 0, 0, 0, 0, 5160, 0, 1340, 440, 660, 620, 1900, 300, 280, 240, 1240, 0, 40, 860, 640, 1480, 1420, 520, 60, 1100, 900, 1080, 440, 280, 120, 120, 180, 120, 520 >
+	678	forwbranch < 0, 7420 > 0.0% taken
+	682	forwbranch < 0, 7420 > 0.0% taken
+	687	forwbranch < 0, 7420 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mINT, (Z)V >
+	24	forwbranch < 7280, 15540 > 31.90184% taken
+	34	forwbranch < 0, 15540 > 0.0% taken
+	48	forwbranch < 0, 7280 > 0.0% taken
+	86	forwbranch < 0, 7280 > 0.0% taken
+	90	forwbranch < 0, 7280 > 0.0% taken
+	95	forwbranch < 0, 7280 > 0.0% taken
+M 13 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mSL_COMMENT, (Z)V >
+	31	forwbranch < 560, 20340 > 2.679426% taken
+	49	switch     < 560, 0, 0 >
+	98	forwbranch < 0, 0 > Never Executed
+	142	forwbranch < 0, 560 > 0.0% taken
+	146	forwbranch < 0, 560 > 0.0% taken
+	151	forwbranch < 560, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mDIGIT, (Z)V >
+	23	forwbranch < 15540, 0 > 100.0% taken
+	27	forwbranch < 0, 0 > Never Executed
+	32	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mk_tokenSet_0, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mk_tokenSet_1, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mk_tokenSet_2, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, mk_tokenSet_3, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 129 < SystemAppCL, Lantlr/ANTLRTokdefLexer;, nextToken, ()Lantlr/Token; >
+	15	switch     < 0, 7040, 0, 0, 360, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1120, 0, 3560, 0, 0, 0, 0, 0, 120, 120, 0, 0, 0, 0, 0, 560, 0, 2660, 1340, 200, 600, 600, 480, 480, 480, 440, 0, 0, 0, 10460, 0, 0, 0, 240, 60, 340, 100, 240, 220, 40, 20, 540, 780, 0, 180, 60, 100, 20, 320, 0, 120, 600, 3140, 40, 20, 240, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 400 >
+	582	forwbranch < 400, 560 > 41.666668% taken
+	592	forwbranch < 0, 560 > 0.0% taken
+	615	forwbranch < 400, 0 > 100.0% taken
+	625	forwbranch < 0, 0 > Never Executed
+	648	forwbranch < 0, 400 > 0.0% taken
+	696	forwbranch < 29360, 9080 > 76.37877% taken
+	742	forwbranch < 0, 0 > Never Executed
+M 26 < SystemAppCL, Lantlr/ANTLRTokdefParser;, line, (Lantlr/ImportVocabTokenManager;)V >
+	31	forwbranch < 7020, 260 > 96.42857% taken
+	57	forwbranch < 0, 7020 > 0.0% taken
+	67	forwbranch < 120, 6900 > 1.7094017% taken
+	76	forwbranch < 3720, 3180 > 53.913044% taken
+	124	forwbranch < 0, 3840 > 0.0% taken
+	134	forwbranch < 3720, 120 > 96.875% taken
+	186	forwbranch < 0, 3720 > 0.0% taken
+	196	forwbranch < 0, 3720 > 0.0% taken
+	206	forwbranch < 0, 3720 > 0.0% taken
+	276	forwbranch < 3840, 3440 > 52.747253% taken
+	295	forwbranch < 260, 3180 > 7.5581393% taken
+	338	forwbranch < 0, 3840 > 0.0% taken
+	357	forwbranch < 3720, 120 > 96.875% taken
+M 32 < SystemAppCL, Lantlr/CSharpCodeGenerator;, setupGrammarParameters, (Lantlr/Grammar;)V >
+	4	forwbranch < 200, 320 > 38.46154% taken
+	11	forwbranch < 260, 60 > 81.25% taken
+	18	forwbranch < 0, 60 > 0.0% taken
+	28	forwbranch < 520, 0 > 100.0% taken
+	58	forwbranch < 520, 0 > 100.0% taken
+	70	forwbranch < 0, 0 > Never Executed
+	91	forwbranch < 320, 200 > 61.53846% taken
+	108	forwbranch < 180, 20 > 90.0% taken
+	120	forwbranch < 0, 20 > 0.0% taken
+	138	forwbranch < 0, 20 > 0.0% taken
+	214	forwbranch < 60, 260 > 18.75% taken
+	280	forwbranch < 0, 60 > 0.0% taken
+	304	forwbranch < 60, 0 > 100.0% taken
+	316	forwbranch < 0, 0 > Never Executed
+	334	forwbranch < 0, 0 > Never Executed
+	359	forwbranch < 0, 60 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/CSharpCodeGenerator;, exitIfError, ()V >
+	7	forwbranch < 14340, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genTokenTypes, (Lantlr/TokenManager;)V >
+	55	forwbranch < 680, 0 > 100.0% taken
+	163	forwbranch < 680, 0 > 100.0% taken
+M 18 < SystemAppCL, Lantlr/CSharpCodeGenerator;, processActionForSpecialSymbols, (Ljava/lang/String;ILantlr/RuleBlock;Lantlr/ActionTransInfo;)Ljava/lang/String; >
+	1	forwbranch < 0, 4160 > 0.0% taken
+	8	forwbranch < 3700, 460 > 88.94231% taken
+	17	forwbranch < 3700, 0 > 100.0% taken
+	29	forwbranch < 2120, 1580 > 57.2973% taken
+	39	forwbranch < 1320, 260 > 83.544304% taken
+	49	forwbranch < 480, 1900 > 20.168068% taken
+	59	forwbranch < 1540, 360 > 81.052635% taken
+	69	forwbranch < 0, 360 > 0.0% taken
+	79	forwbranch < 1300, 600 > 68.42105% taken
+M 34 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genBlockPreamble, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 9560, 12200 > 43.933823% taken
+	16	forwbranch < 0, 12200 > 0.0% taken
+	29	forwbranch < 12200, 1720 > 87.64368% taken
+	50	forwbranch < 760, 960 > 44.186047% taken
+	58	forwbranch < 960, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 760, 0 > 100.0% taken
+	93	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 0 > Never Executed
+	179	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 160, 600 > 21.052631% taken
+	214	forwbranch < 660, 100 > 86.8421% taken
+	258	forwbranch < 740, 20 > 97.36842% taken
+	375	forwbranch < 320, 640 > 33.333332% taken
+	383	forwbranch < 0, 640 > 0.0% taken
+	394	forwbranch < 640, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genBlockInitAction, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 21720, 40 > 99.81618% taken
+M 116 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genCommonBlock, (Lantlr/AlternativeBlock;Z)Lantlr/CSharpBlockFinishingInfo; >
+	21	forwbranch < 11660, 0 > 100.0% taken
+	66	forwbranch < 9380, 2280 > 80.44597% taken
+	73	forwbranch < 0, 2280 > 0.0% taken
+	95	forwbranch < 120, 11540 > 1.0291595% taken
+	102	forwbranch < 0, 11540 > 0.0% taken
+	117	forwbranch < 11520, 140 > 98.79932% taken
+	137	forwbranch < 0, 140 > 0.0% taken
+	144	forwbranch < 140, 0 > 100.0% taken
+	173	forwbranch < 140, 0 > 100.0% taken
+	180	forwbranch < 0, 0 > Never Executed
+	238	forwbranch < 140, 0 > 100.0% taken
+	245	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 140, 0 > 100.0% taken
+	334	forwbranch < 7380, 4140 > 64.0625% taken
+	349	forwbranch < 4140, 0 > 100.0% taken
+	392	forwbranch < 3900, 240 > 94.202896% taken
+	400	forwbranch < 240, 0 > 100.0% taken
+	441	forwbranch < 11280, 30800 > 26.806084% taken
+	457	forwbranch < 6580, 24220 > 21.363636% taken
+	475	forwbranch < 5300, 5980 > 46.985817% taken
+	495	forwbranch < 5060, 920 > 84.61539% taken
+	581	forwbranch < 5980, 21260 > 21.95301% taken
+	597	forwbranch < 19880, 1380 > 93.508934% taken
+	620	forwbranch < 19880, 0 > 100.0% taken
+	628	forwbranch < 0, 0 > Never Executed
+	752	forwbranch < 7040, 4240 > 62.411346% taken
+	774	forwbranch < 11280, 25240 > 30.887186% taken
+	781	forwbranch < 25240, 0 > 100.0% taken
+	823	forwbranch < 25240, 78940 > 24.227299% taken
+	838	forwbranch < 78940, 0 > 100.0% taken
+	870	forwbranch < 30760, 48180 > 38.966305% taken
+	878	forwbranch < 5880, 42300 > 12.204234% taken
+	885	forwbranch < 42300, 0 > 100.0% taken
+	910	forwbranch < 3820, 32820 > 10.425764% taken
+	924	forwbranch < 28980, 3840 > 88.29982% taken
+	939	forwbranch < 1480, 41980 > 3.4054303% taken
+	953	forwbranch < 31340, 10640 > 74.654594% taken
+	966	forwbranch < 7100, 25720 > 21.63315% taken
+	973	forwbranch < 25720, 0 > 100.0% taken
+	1085	forwbranch < 10180, 740 > 93.22344% taken
+	1093	forwbranch < 740, 0 > 100.0% taken
+	1097	forwbranch < 0, 0 > Never Executed
+	1170	forwbranch < 10600, 320 > 97.069595% taken
+	1178	forwbranch < 0, 320 > 0.0% taken
+	1186	forwbranch < 0, 320 > 0.0% taken
+	1190	forwbranch < 280, 40 > 87.5% taken
+	1223	forwbranch < 10520, 80 > 99.245285% taken
+	1263	forwbranch < 0, 80 > 0.0% taken
+	1273	forwbranch < 0, 80 > 0.0% taken
+	1283	forwbranch < 80, 0 > 100.0% taken
+	1393	forwbranch < 5500, 5100 > 51.88679% taken
+	1401	forwbranch < 5080, 20 > 99.60784% taken
+	1477	forwbranch < 5400, 100 > 98.181816% taken
+	1501	forwbranch < 5120, 280 > 94.81481% taken
+	1629	forwbranch < 11280, 20 > 99.823006% taken
+	1674	forwbranch < 5300, 5980 > 46.985817% taken
+	1722	forwbranch < 5740, 240 > 95.986626% taken
+	1752	forwbranch < 0, 5300 > 0.0% taken
+M 22 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genBlockFinish, (Lantlr/CSharpBlockFinishingInfo;Ljava/lang/String;)V >
+	4	forwbranch < 320, 11340 > 2.7444253% taken
+	11	forwbranch < 5220, 6120 > 46.031746% taken
+	18	forwbranch < 380, 5740 > 6.2091503% taken
+	25	forwbranch < 5740, 5220 > 52.37226% taken
+	84	forwbranch < 380, 11280 > 3.259005% taken
+	91	forwbranch < 320, 10960 > 2.8368795% taken
+	98	forwbranch < 5020, 5940 > 45.80292% taken
+	105	forwbranch < 200, 5740 > 3.3670034% taken
+	109	forwbranch < 0, 5740 > 0.0% taken
+	119	forwbranch < 5120, 620 > 89.19861% taken
+	129	forwbranch < 280, 340 > 45.16129% taken
+M 12 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genMatch, (Lantlr/GrammarAtom;)V >
+	4	forwbranch < 18540, 6620 > 73.68839% taken
+	14	forwbranch < 3020, 3600 > 45.619335% taken
+	37	forwbranch < 11760, 6780 > 63.43042% taken
+	47	forwbranch < 0, 6780 > 0.0% taken
+	92	forwbranch < 0, 11760 > 0.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lantlr/CSharpCodeGenerator;, OctalToUnicode, (Ljava/lang/String;)Ljava/lang/String; >
+	5	forwbranch < 2480, 120 > 95.38461% taken
+	15	forwbranch < 0, 120 > 0.0% taken
+	25	forwbranch < 0, 120 > 0.0% taken
+	35	forwbranch < 0, 120 > 0.0% taken
+	45	forwbranch < 40, 80 > 33.333332% taken
+	60	forwbranch < 0, 80 > 0.0% taken
+M 40 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genBody, (Lantlr/LexerGrammar;)V >
+	47	forwbranch < 260, 0 > 100.0% taken
+	261	forwbranch < 260, 0 > 100.0% taken
+	309	forwbranch < 260, 0 > 100.0% taken
+	341	forwbranch < 0, 260 > 0.0% taken
+	371	forwbranch < 0, 0 > Never Executed
+	476	forwbranch < 260, 0 > 100.0% taken
+	497	forwbranch < 0, 0 > Never Executed
+	739	forwbranch < 260, 0 > 100.0% taken
+	883	forwbranch < 260, 0 > 100.0% taken
+	975	forwbranch < 0, 260 > 0.0% taken
+	1016	forwbranch < 260, 9400 > 2.6915114% taken
+	1039	forwbranch < 1860, 7540 > 19.787233% taken
+	1066	forwbranch < 0, 1860 > 0.0% taken
+	1149	forwbranch < 260, 0 > 100.0% taken
+	1181	forwbranch < 0, 0 > Never Executed
+	1201	forwbranch < 0, 0 > Never Executed
+	1277	forwbranch < 260, 6300 > 3.9634147% taken
+	1303	forwbranch < 260, 6040 > 4.126984% taken
+	1339	forwbranch < 260, 0 > 100.0% taken
+	1403	forwbranch < 260, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/CSharpCodeGenerator;, getLookaheadTestExpression, ([Lantlr/Lookahead;I)Ljava/lang/String; >
+	27	forwbranch < 10600, 20880 > 33.672173% taken
+	41	forwbranch < 10600, 10280 > 50.766285% taken
+	62	forwbranch < 19000, 1880 > 90.99617% taken
+M 42 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genBody, (Lantlr/ParserGrammar;)V >
+	48	forwbranch < 200, 0 > 100.0% taken
+	231	forwbranch < 120, 80 > 60.0% taken
+	285	forwbranch < 200, 0 > 100.0% taken
+	333	forwbranch < 160, 40 > 80.0% taken
+	365	forwbranch < 0, 200 > 0.0% taken
+	395	forwbranch < 0, 0 > Never Executed
+	493	forwbranch < 200, 0 > 100.0% taken
+	514	forwbranch < 0, 0 > Never Executed
+	576	forwbranch < 200, 0 > 100.0% taken
+	618	forwbranch < 0, 0 > Never Executed
+	638	forwbranch < 0, 0 > Never Executed
+	775	forwbranch < 120, 80 > 60.0% taken
+	792	forwbranch < 200, 0 > 100.0% taken
+	1282	forwbranch < 200, 5200 > 3.7037036% taken
+	1302	forwbranch < 0, 5200 > 0.0% taken
+	1323	forwbranch < 4960, 240 > 95.38461% taken
+	1357	forwbranch < 180, 20 > 90.0% taken
+	1495	forwbranch < 120, 80 > 60.0% taken
+	1525	forwbranch < 60, 20 > 75.0% taken
+	1646	forwbranch < 200, 0 > 100.0% taken
+	1689	forwbranch < 200, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genErrorTryForElement, (Lantlr/AlternativeElement;)V >
+	4	forwbranch < 6900, 25380 > 21.375465% taken
+	20	forwbranch < 1420, 5480 > 20.57971% taken
+	44	forwbranch < 6900, 0 > 100.0% taken
+	72	forwbranch < 6900, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CSharpCodeGenerator;, declareSaveIndexVariableIfNeeded, ()V >
+	4	forwbranch < 60, 20 > 75.0% taken
+M 24 < SystemAppCL, Lantlr/CSharpCodeGenerator;, GenRuleInvocation, (Lantlr/RuleRefElement;)V >
+	34	forwbranch < 11985, 6953 > 63.285458% taken
+	41	forwbranch < 2295, 4658 > 33.007336% taken
+	68	forwbranch < 0, 6953 > 0.0% taken
+	75	forwbranch < 6953, 0 > 100.0% taken
+	99	forwbranch < 15385, 3553 > 81.23878% taken
+	106	forwbranch < 3553, 0 > 100.0% taken
+	134	forwbranch < 18581, 357 > 98.1149% taken
+	165	forwbranch < 0, 357 > 0.0% taken
+	172	forwbranch < 357, 0 > 100.0% taken
+	249	forwbranch < 357, 0 > 100.0% taken
+	312	forwbranch < 18581, 0 > 100.0% taken
+	373	forwbranch < 15385, 3553 > 81.23878% taken
+M 8 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genErrorCatchForElement, (Lantlr/AlternativeElement;)V >
+	4	forwbranch < 6900, 25380 > 21.375465% taken
+	20	forwbranch < 1420, 5480 > 20.57971% taken
+	44	forwbranch < 6900, 0 > 100.0% taken
+	72	forwbranch < 6900, 0 > 100.0% taken
+M 67 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genElementAST, (Lantlr/AlternativeElement;)V >
+	7	forwbranch < 15000, 3580 > 80.73197% taken
+	17	forwbranch < 0, 3580 > 0.0% taken
+	24	forwbranch < 100, 3480 > 2.793296% taken
+	132	forwbranch < 9660, 5340 > 64.4% taken
+	139	forwbranch < 80, 5260 > 1.4981273% taken
+	146	forwbranch < 260, 5000 > 4.942966% taken
+	153	forwbranch < 580, 4420 > 11.6% taken
+	161	forwbranch < 1580, 2840 > 35.746605% taken
+	175	forwbranch < 1660, 3600 > 31.558935% taken
+	182	forwbranch < 1160, 2440 > 32.22222% taken
+	194	forwbranch < 400, 4860 > 7.6045628% taken
+	198	forwbranch < 1680, 3180 > 34.5679% taken
+	211	forwbranch < 4640, 620 > 88.21293% taken
+	271	forwbranch < 1700, 3560 > 32.319393% taken
+	278	forwbranch < 0, 3560 > 0.0% taken
+	292	forwbranch < 3560, 0 > 100.0% taken
+	372	forwbranch < 5260, 0 > 100.0% taken
+	414	forwbranch < 2080, 3180 > 39.543728% taken
+	421	forwbranch < 4640, 620 > 88.21293% taken
+	428	forwbranch < 0, 620 > 0.0% taken
+	518	forwbranch < 620, 4640 > 11.787072% taken
+	522	forwbranch < 1700, 2940 > 36.63793% taken
+	535	forwbranch < 0, 2940 > 0.0% taken
+	628	forwbranch < 2940, 0 > 100.0% taken
+	670	forwbranch < 260, 5000 > 4.942966% taken
+	677	switch     < 1360, 2020, 1620 >
+	708	forwbranch < 80, 1280 > 5.882353% taken
+	715	forwbranch < 0, 1280 > 0.0% taken
+	725	forwbranch < 1280, 0 > 100.0% taken
+	798	forwbranch < 80, 1940 > 3.960396% taken
+	805	forwbranch < 0, 1940 > 0.0% taken
+	815	forwbranch < 1940, 0 > 100.0% taken
+	885	forwbranch < 2080, 3180 > 39.543728% taken
+M 24 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genBody, (Lantlr/TreeWalkerGrammar;)V >
+	48	forwbranch < 60, 0 > 100.0% taken
+	243	forwbranch < 60, 0 > 100.0% taken
+	298	forwbranch < 40, 20 > 66.666664% taken
+	330	forwbranch < 0, 60 > 0.0% taken
+	360	forwbranch < 0, 0 > Never Executed
+	458	forwbranch < 60, 0 > 100.0% taken
+	479	forwbranch < 0, 0 > Never Executed
+	687	forwbranch < 60, 960 > 5.882353% taken
+	707	forwbranch < 0, 960 > 0.0% taken
+	728	forwbranch < 880, 80 > 91.666664% taken
+	762	forwbranch < 60, 0 > 100.0% taken
+	938	forwbranch < 60, 0 > 100.0% taken
+M 10 < SystemAppCL, Lantlr/CSharpCodeGenerator;, getValueString, (I)Ljava/lang/String; >
+	7	forwbranch < 37340, 33221 > 52.91875% taken
+	39	forwbranch < 37111, 229 > 99.38672% taken
+	73	forwbranch < 27443, 9668 > 73.948425% taken
+	91	forwbranch < 0, 9668 > 0.0% taken
+	108	forwbranch < 0, 0 > Never Executed
+M 6 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genErrorHandler, (Lantlr/ExceptionSpec;)V >
+	10	forwbranch < 20, 20 > 50.0% taken
+	83	forwbranch < 0, 20 > 0.0% taken
+	152	forwbranch < 0, 20 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genBitSet, (Lantlr/collections/impl/BitSet;I)V >
+	58	forwbranch < 480, 2640 > 15.384615% taken
+	141	forwbranch < 480, 1640 > 22.64151% taken
+	151	forwbranch < 0, 1640 > 0.0% taken
+	167	forwbranch < 940, 700 > 57.317074% taken
+	232	forwbranch < 480, 308760 > 0.15521924% taken
+	246	forwbranch < 460, 308300 > 0.14898303% taken
+M 14 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genTokenDefinitions, (Lantlr/TokenManager;)V >
+	28	forwbranch < 480, 18344 > 2.5499363% taken
+	43	forwbranch < 0, 18344 > 0.0% taken
+	54	forwbranch < 14168, 4176 > 77.23506% taken
+	72	forwbranch < 4176, 0 > 100.0% taken
+	117	forwbranch < 1064, 3112 > 25.478928% taken
+	175	forwbranch < 0, 1064 > 0.0% taken
+	272	forwbranch < 0, 14168 > 0.0% taken
+M 40 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genNextToken, ()V >
+	15	forwbranch < 0, 260 > 0.0% taken
+	37	forwbranch < 0, 260 > 0.0% taken
+	50	forwbranch < 0, 260 > 0.0% taken
+	65	forwbranch < 260, 0 > 100.0% taken
+	348	forwbranch < 200, 60 > 76.92308% taken
+	453	forwbranch < 200, 60 > 76.92308% taken
+	465	forwbranch < 40, 20 > 66.666664% taken
+	480	forwbranch < 20, 0 > 100.0% taken
+	545	forwbranch < 20, 0 > 100.0% taken
+	599	forwbranch < 20, 0 > 100.0% taken
+	718	forwbranch < 260, 5380 > 4.609929% taken
+	739	forwbranch < 5380, 0 > 100.0% taken
+	861	forwbranch < 200, 60 > 76.92308% taken
+	866	forwbranch < 20, 40 > 33.333332% taken
+	1198	forwbranch < 200, 60 > 76.92308% taken
+	1203	forwbranch < 40, 20 > 66.666664% taken
+	1237	forwbranch < 20, 240 > 7.6923075% taken
+	1301	forwbranch < 200, 60 > 76.92308% taken
+	1306	forwbranch < 20, 40 > 33.333332% taken
+	1493	forwbranch < 260, 0 > 100.0% taken
+M 102 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genRule, (Lantlr/RuleSymbol;ZILantlr/TokenManager;)V >
+	9	forwbranch < 12200, 0 > 100.0% taken
+	50	forwbranch < 12200, 0 > 100.0% taken
+	122	forwbranch < 10520, 1680 > 86.22951% taken
+	130	forwbranch < 140, 1540 > 8.333333% taken
+	154	forwbranch < 12020, 180 > 98.52459% taken
+	197	forwbranch < 12180, 20 > 99.83607% taken
+	294	forwbranch < 5200, 7000 > 42.62295% taken
+	302	forwbranch < 7000, 0 > 100.0% taken
+	316	forwbranch < 12040, 160 > 98.68852% taken
+	404	forwbranch < 7000, 5200 > 57.37705% taken
+	424	forwbranch < 960, 6040 > 13.714286% taken
+	439	forwbranch < 12200, 0 > 100.0% taken
+	449	forwbranch < 0, 0 > Never Executed
+	542	forwbranch < 12180, 20 > 99.83607% taken
+	587	forwbranch < 12200, 0 > 100.0% taken
+	597	forwbranch < 0, 0 > Never Executed
+	604	forwbranch < 0, 0 > Never Executed
+	719	forwbranch < 6160, 6040 > 50.491802% taken
+	732	forwbranch < 6040, 0 > 100.0% taken
+	793	forwbranch < 12200, 0 > 100.0% taken
+	803	forwbranch < 0, 0 > Never Executed
+	846	forwbranch < 0, 0 > Never Executed
+	886	forwbranch < 0, 12200 > 0.0% taken
+	896	forwbranch < 12200, 0 > 100.0% taken
+	923	forwbranch < 11240, 960 > 92.13115% taken
+	985	forwbranch < 10520, 1680 > 86.22951% taken
+	1073	forwbranch < 0, 12200 > 0.0% taken
+	1081	forwbranch < 7340, 4860 > 60.163933% taken
+	1110	forwbranch < 1840, 10360 > 15.081967% taken
+	1130	forwbranch < 10360, 0 > 100.0% taken
+	1151	forwbranch < 10360, 0 > 100.0% taken
+	1235	forwbranch < 0, 12200 > 0.0% taken
+	1243	forwbranch < 7340, 4860 > 60.163933% taken
+	1264	forwbranch < 12200, 0 > 100.0% taken
+	1281	forwbranch < 7340, 4860 > 60.163933% taken
+	1340	forwbranch < 4380, 480 > 90.12346% taken
+	1379	forwbranch < 960, 3900 > 19.753086% taken
+	1509	forwbranch < 4380, 480 > 90.12346% taken
+	1596	forwbranch < 10520, 1680 > 86.22951% taken
+	1639	forwbranch < 11240, 960 > 92.13115% taken
+	1654	forwbranch < 12120, 80 > 99.34426% taken
+	1667	forwbranch < 80, 0 > 100.0% taken
+	1688	forwbranch < 6160, 6040 > 50.491802% taken
+	1756	forwbranch < 12180, 20 > 99.83607% taken
+	1813	forwbranch < 0, 12200 > 0.0% taken
+	1823	forwbranch < 12200, 0 > 100.0% taken
+	1873	forwbranch < 0, 0 > Never Executed
+	1883	forwbranch < 0, 0 > Never Executed
+	1926	forwbranch < 0, 0 > Never Executed
+	1966	forwbranch < 0, 0 > Never Executed
+	1976	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genBitsets, (Lantlr/collections/impl/Vector;I)V >
+	14	forwbranch < 520, 3120 > 14.285714% taken
+M 10 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genInitFactory, (Lantlr/Grammar;)V >
+	4	forwbranch < 180, 80 > 69.23077% taken
+	84	forwbranch < 80, 4040 > 1.9417475% taken
+	99	forwbranch < 160, 3880 > 3.960396% taken
+	117	forwbranch < 80, 3800 > 2.0618556% taken
+	125	forwbranch < 3800, 0 > 100.0% taken
+M 16 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genTokenStrings, ()V >
+	44	forwbranch < 260, 13040 > 1.9548873% taken
+	57	forwbranch < 12520, 520 > 96.01227% taken
+	97	forwbranch < 2820, 10220 > 21.625767% taken
+	107	forwbranch < 520, 9700 > 5.088063% taken
+	127	forwbranch < 260, 9440 > 2.6804123% taken
+	135	forwbranch < 8540, 900 > 90.4661% taken
+	163	forwbranch < 520, 2820 > 15.568862% taken
+	198	forwbranch < 260, 12780 > 1.993865% taken
+M 22 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genAlt, (Lantlr/Alternative;Lantlr/AlternativeBlock;)V >
+	10	forwbranch < 12292, 2198 > 84.83092% taken
+	17	forwbranch < 231, 1967 > 10.509554% taken
+	39	forwbranch < 147, 14343 > 1.0144928% taken
+	46	forwbranch < 1064, 13279 > 7.418253% taken
+	78	forwbranch < 14483, 7 > 99.95169% taken
+	114	forwbranch < 14490, 19964 > 42.056076% taken
+	136	forwbranch < 12523, 1967 > 86.42512% taken
+	143	forwbranch < 945, 1022 > 48.042706% taken
+	156	forwbranch < 938, 84 > 91.78082% taken
+	236	forwbranch < 945, 0 > 100.0% taken
+	268	forwbranch < 14483, 7 > 99.95169% taken
+M 8 < SystemAppCL, Lantlr/CSharpCodeGenerator;, suitableForCaseExpression, (Lantlr/Alternative;)Z >
+	5	forwbranch < 12760, 88220 > 12.636166% taken
+	12	forwbranch < 20, 88200 > 0.022670597% taken
+	24	forwbranch < 540, 87660 > 0.6122449% taken
+	41	forwbranch < 1260, 86400 > 1.4373716% taken
+M 2 < SystemAppCL, Lantlr/CSharpCodeGenerator;, lookaheadString, (I)Ljava/lang/String; >
+	7	forwbranch < 26900, 1240 > 95.59346% taken
+M 12 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genCases, (Lantlr/collections/impl/BitSet;)V >
+	4	forwbranch < 3976, 0 > 100.0% taken
+	50	forwbranch < 2516, 1460 > 63.27968% taken
+	72	forwbranch < 3976, 17980 > 18.108946% taken
+	78	forwbranch < 4676, 13304 > 26.006674% taken
+	138	forwbranch < 5940, 12040 > 33.03671% taken
+	171	forwbranch < 2712, 1264 > 68.20926% taken
+M 8 < SystemAppCL, Lantlr/CSharpCodeGenerator;, lookaheadIsEmpty, (Lantlr/Alternative;I)Z >
+	8	forwbranch < 9360, 1560 > 85.71429% taken
+	25	forwbranch < 0, 10920 > 0.0% taken
+	31	forwbranch < 320, 10600 > 2.930403% taken
+	51	forwbranch < 0, 10600 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/CSharpCodeGenerator;, getLookaheadTestExpression, (Lantlr/Alternative;I)Ljava/lang/String; >
+	8	forwbranch < 9360, 1560 > 85.71429% taken
+	20	forwbranch < 10600, 320 > 97.069595% taken
+M 18 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genSynPred, (Lantlr/SynPredBlock;Ljava/lang/String;)V >
+	4	forwbranch < 120, 0 > 100.0% taken
+	122	forwbranch < 120, 0 > 100.0% taken
+	239	forwbranch < 120, 0 > 100.0% taken
+	249	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 0, 0 > Never Executed
+	421	forwbranch < 120, 0 > 100.0% taken
+	504	forwbranch < 120, 0 > 100.0% taken
+	514	forwbranch < 0, 0 > Never Executed
+	524	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lantlr/CSharpCodeGenerator;, mapTreeVariable, (Lantlr/AlternativeElement;Ljava/lang/String;)V >
+	4	forwbranch < 8740, 0 > 100.0% taken
+	26	forwbranch < 620, 8120 > 7.0938215% taken
+	33	forwbranch < 2180, 5940 > 26.84729% taken
+	51	forwbranch < 2180, 0 > 100.0% taken
+	63	forwbranch < 2800, 5940 > 32.036613% taken
+	74	forwbranch < 5920, 20 > 99.6633% taken
+M 2 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genASTDeclaration, (Lantlr/AlternativeElement;Ljava/lang/String;Ljava/lang/String;)V >
+	8	forwbranch < 4180, 620 > 87.083336% taken
+M 14 < SystemAppCL, Lantlr/CSharpCodeGenerator;, getASTCreateString, (Lantlr/GrammarAtom;Ljava/lang/String;)Ljava/lang/String; >
+	27	forwbranch < 3560, 580 > 85.99034% taken
+	40	forwbranch < 3560, 0 > 100.0% taken
+	63	forwbranch < 0, 0 > Never Executed
+	75	forwbranch < 0, 0 > Never Executed
+	136	forwbranch < 0, 0 > Never Executed
+	144	forwbranch < 0, 0 > Never Executed
+	189	forwbranch < 3400, 160 > 95.505615% taken
+M 12 < SystemAppCL, Lantlr/CSharpCodeGenerator;, getASTCreateString, (Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 580, 0 > 100.0% taken
+	53	forwbranch < 0, 580 > 0.0% taken
+	90	forwbranch < 580, 0 > 100.0% taken
+	114	forwbranch < 0, 580 > 0.0% taken
+	123	forwbranch < 580, 0 > 100.0% taken
+	168	forwbranch < 580, 0 > 100.0% taken
+M 20 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genMatchUsingAtomText, (Lantlr/GrammarAtom;)V >
+	11	forwbranch < 19620, 2520 > 88.61789% taken
+	18	forwbranch < 2520, 0 > 100.0% taken
+	39	forwbranch < 11760, 10380 > 53.11653% taken
+	46	forwbranch < 40, 10340 > 0.38535646% taken
+	54	forwbranch < 10340, 0 > 100.0% taken
+	72	forwbranch < 21780, 360 > 98.373985% taken
+	101	forwbranch < 22080, 60 > 99.729% taken
+	135	forwbranch < 11760, 10380 > 53.11653% taken
+	142	forwbranch < 40, 10340 > 0.38535646% taken
+	150	forwbranch < 10340, 0 > 100.0% taken
+M 6 < SystemAppCL, Lantlr/CSharpCodeGenerator;, genMatchUsingAtomTokenType, (Lantlr/GrammarAtom;)V >
+	11	forwbranch < 1960, 1060 > 64.900665% taken
+	18	forwbranch < 1060, 0 > 100.0% taken
+	73	forwbranch < 3020, 0 > 100.0% taken
+M 22 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/WildcardElement;)V >
+	4	forwbranch < 20, 40 > 33.333332% taken
+	11	forwbranch < 0, 40 > 0.0% taken
+	64	forwbranch < 60, 0 > 100.0% taken
+	83	forwbranch < 0, 60 > 0.0% taken
+	93	forwbranch < 0, 60 > 0.0% taken
+	100	forwbranch < 0, 60 > 0.0% taken
+	108	forwbranch < 60, 0 > 100.0% taken
+	134	forwbranch < 0, 60 > 0.0% taken
+	141	forwbranch < 0, 60 > 0.0% taken
+	149	forwbranch < 60, 0 > 100.0% taken
+	204	forwbranch < 60, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 4940, 0 > 100.0% taken
+	72	forwbranch < 4940, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/CSharpCodeGenerator;, mangleLiteral, (Ljava/lang/String;)Ljava/lang/String; >
+	18	forwbranch < 2660, 14920 > 15.130831% taken
+	29	forwbranch < 14920, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	81	forwbranch < 2660, 0 > 100.0% taken
+M 10 < SystemAppCL, Lantlr/CSharpCodeGenerator;, getLookaheadTestTerm, (ILantlr/collections/impl/BitSet;)Ljava/lang/String; >
+	17	forwbranch < 17420, 1580 > 91.68421% taken
+	36	forwbranch < 17420, 0 > 100.0% taken
+	49	forwbranch < 14660, 2760 > 84.15614% taken
+	111	forwbranch < 14660, 15920 > 47.93983% taken
+	127	forwbranch < 14660, 1260 > 92.08543% taken
+M 2 < SystemAppCL, Lantlr/CSharpCodeGenerator;, getRangeExpression, (I[I)Ljava/lang/String; >
+	4	forwbranch < 1580, 0 > 100.0% taken
+M 13 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mACTION, (Z)V >
+	21	switch     < 2034, 540, 31518 >
+	75	forwbranch < 2160, 29358 > 6.8532267% taken
+	89	forwbranch < 0, 2160 > 0.0% taken
+	127	forwbranch < 0, 2160 > 0.0% taken
+	131	forwbranch < 0, 2160 > 0.0% taken
+	136	forwbranch < 0, 2160 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, ()V >
+	17	forwbranch < 340, 520 > 39.534885% taken
+	86	forwbranch < 340, 680 > 33.333332% taken
+	105	forwbranch < 0, 680 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/ActionElement;)V >
+	4	forwbranch < 3080, 0 > 100.0% taken
+	41	forwbranch < 3080, 0 > 100.0% taken
+	66	forwbranch < 1960, 1120 > 63.636364% taken
+	121	forwbranch < 2460, 620 > 79.87013% taken
+	171	forwbranch < 2460, 620 > 79.87013% taken
+	369	forwbranch < 1960, 1120 > 63.636364% taken
+M 8 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/CharLiteralElement;)V >
+	4	forwbranch < 6780, 0 > 100.0% taken
+	41	forwbranch < 6780, 0 > 100.0% taken
+	92	forwbranch < 0, 6780 > 0.0% taken
+	100	forwbranch < 40, 6740 > 0.5899705% taken
+M 14 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/CharRangeElement;)V >
+	4	forwbranch < 1300, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 1300 > 0.0% taken
+	66	forwbranch < 0, 1300 > 0.0% taken
+	74	forwbranch < 1300, 0 > 100.0% taken
+	84	forwbranch < 1300, 0 > 100.0% taken
+	143	forwbranch < 1300, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/LexerGrammar;)V >
+	4	forwbranch < 260, 0 > 100.0% taken
+	30	forwbranch < 260, 0 > 100.0% taken
+M 22 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/OneOrMoreBlock;)V >
+	4	forwbranch < 1700, 0 > 100.0% taken
+	52	forwbranch < 1700, 0 > 100.0% taken
+	136	forwbranch < 1700, 0 > 100.0% taken
+	207	forwbranch < 1700, 0 > 100.0% taken
+	249	forwbranch < 1700, 0 > 100.0% taken
+	263	forwbranch < 0, 0 > Never Executed
+	278	forwbranch < 0, 0 > Never Executed
+	297	forwbranch < 1700, 0 > 100.0% taken
+	306	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 1700, 0 > 100.0% taken
+	321	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/ParserGrammar;)V >
+	4	forwbranch < 200, 0 > 100.0% taken
+	30	forwbranch < 200, 0 > 100.0% taken
+M 67 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/RuleRefElement;)V >
+	4	forwbranch < 22280, 0 > 100.0% taken
+	53	forwbranch < 0, 22280 > 0.0% taken
+	60	forwbranch < 22280, 0 > 100.0% taken
+	117	forwbranch < 22280, 0 > 100.0% taken
+	182	forwbranch < 18100, 4180 > 81.23878% taken
+	189	forwbranch < 4160, 20 > 99.52153% taken
+	196	forwbranch < 0, 20 > 0.0% taken
+	244	forwbranch < 14100, 8180 > 63.285458% taken
+	251	forwbranch < 0, 8180 > 0.0% taken
+	259	forwbranch < 8180, 0 > 100.0% taken
+	280	forwbranch < 22200, 80 > 99.64093% taken
+	290	forwbranch < 80, 0 > 100.0% taken
+	378	forwbranch < 8180, 14020 > 36.846848% taken
+	385	forwbranch < 120, 13900 > 0.85592014% taken
+	395	forwbranch < 13900, 0 > 100.0% taken
+	459	forwbranch < 14100, 8180 > 63.285458% taken
+	466	forwbranch < 0, 8180 > 0.0% taken
+	474	forwbranch < 8180, 0 > 100.0% taken
+	491	forwbranch < 120, 22160 > 0.53859967% taken
+	501	forwbranch < 18120, 4040 > 81.76895% taken
+	511	forwbranch < 540, 3500 > 13.366337% taken
+	518	forwbranch < 600, 2900 > 17.142857% taken
+	525	forwbranch < 540, 2900 > 15.697675% taken
+	533	forwbranch < 0, 2900 > 0.0% taken
+	543	forwbranch < 18660, 3500 > 84.20577% taken
+	575	forwbranch < 18340, 3820 > 82.761734% taken
+	582	forwbranch < 3220, 600 > 84.29319% taken
+	627	forwbranch < 18880, 3280 > 85.198555% taken
+	634	switch     < 3240, 0, 40 >
+	664	forwbranch < 3000, 240 > 92.59259% taken
+	704	forwbranch < 13980, 8180 > 63.086643% taken
+	711	forwbranch < 2700, 5480 > 33.007336% taken
+	741	forwbranch < 18660, 3500 > 84.20577% taken
+M 12 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/StringLiteralElement;)V >
+	4	forwbranch < 6240, 0 > 100.0% taken
+	41	forwbranch < 6100, 140 > 97.75641% taken
+	48	forwbranch < 0, 140 > 0.0% taken
+	104	forwbranch < 80, 6160 > 1.2820513% taken
+	112	forwbranch < 520, 5640 > 8.441559% taken
+	140	forwbranch < 5560, 680 > 89.10256% taken
+M 10 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/TokenRefElement;)V >
+	4	forwbranch < 9500, 0 > 100.0% taken
+	44	forwbranch < 9500, 0 > 100.0% taken
+	65	forwbranch < 8778, 722 > 92.4% taken
+	72	forwbranch < 19, 703 > 2.631579% taken
+	135	forwbranch < 8778, 722 > 92.4% taken
+M 16 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/TreeElement;)V >
+	38	forwbranch < 2120, 20 > 99.06542% taken
+	90	forwbranch < 2140, 0 > 100.0% taken
+	133	forwbranch < 2140, 0 > 100.0% taken
+	183	forwbranch < 2140, 0 > 100.0% taken
+	236	forwbranch < 2140, 0 > 100.0% taken
+	272	forwbranch < 2140, 2140 > 50.0% taken
+	289	forwbranch < 2140, 6420 > 25.0% taken
+	320	forwbranch < 2140, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/TreeWalkerGrammar;)V >
+	12	forwbranch < 60, 0 > 100.0% taken
+M 20 < SystemAppCL, Lantlr/CSharpCodeGenerator;, gen, (Lantlr/ZeroOrMoreBlock;)V >
+	4	forwbranch < 2920, 0 > 100.0% taken
+	62	forwbranch < 2920, 0 > 100.0% taken
+	132	forwbranch < 2920, 0 > 100.0% taken
+	174	forwbranch < 2920, 0 > 100.0% taken
+	188	forwbranch < 0, 0 > Never Executed
+	203	forwbranch < 0, 0 > Never Executed
+	222	forwbranch < 2920, 0 > 100.0% taken
+	231	forwbranch < 0, 0 > Never Executed
+	239	forwbranch < 2920, 0 > 100.0% taken
+	246	forwbranch < 0, 0 > Never Executed
+M 8 < SystemAppCL, Lantlr/CSharpCodeGenerator;, processStringForASTConstructor, (Ljava/lang/String;)Ljava/lang/String; >
+	4	forwbranch < 2080, 0 > 100.0% taken
+	14	forwbranch < 0, 0 > Never Executed
+	24	forwbranch < 0, 0 > Never Executed
+	40	forwbranch < 0, 0 > Never Executed
+M 4 < SystemAppCL, Lantlr/CSharpCodeGenerator;, getASTCreateString, (Lantlr/collections/impl/Vector;)Ljava/lang/String; >
+	4	forwbranch < 560, 0 > 100.0% taken
+	73	forwbranch < 560, 1500 > 27.184465% taken
+M 32 < SystemAppCL, Lantlr/CSharpCodeGenerator;, mapTreeId, (Ljava/lang/String;Lantlr/ActionTransInfo;)Ljava/lang/String; >
+	4	forwbranch < 3200, 0 > 100.0% taken
+	21	forwbranch < 2900, 300 > 90.625% taken
+	31	forwbranch < 0, 300 > 0.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 1960, 8600 > 18.560606% taken
+	128	forwbranch < 7360, 1240 > 85.5814% taken
+	132	forwbranch < 1240, 0 > 100.0% taken
+	184	forwbranch < 1580, 380 > 80.61224% taken
+	192	forwbranch < 380, 0 > 100.0% taken
+	253	forwbranch < 380, 0 > 100.0% taken
+	303	forwbranch < 100, 280 > 26.31579% taken
+	345	forwbranch < 640, 940 > 40.50633% taken
+	349	forwbranch < 920, 20 > 97.87234% taken
+	400	forwbranch < 0, 940 > 0.0% taken
+	404	forwbranch < 20, 920 > 2.1276596% taken
+M 27 < SystemAppCL, Lantlr/CSharpCharFormatter;, escapeChar, (IZ)Ljava/lang/String; >
+	1	switch     < 1020, 1640, 1440, 320, 400, 240, 130960 >
+	73	forwbranch < 80, 320 > 20.0% taken
+	85	forwbranch < 0, 320 > 0.0% taken
+	99	forwbranch < 820, 130140 > 0.62614536% taken
+	105	forwbranch < 129400, 740 > 99.43138% taken
+	110	forwbranch < 0, 1560 > 0.0% taken
+	116	forwbranch < 740, 820 > 47.435898% taken
+	147	forwbranch < 0, 740 > 0.0% taken
+	154	forwbranch < 260, 480 > 35.135136% taken
+	186	forwbranch < 0, 260 > 0.0% taken
+	193	forwbranch < 260, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/CSharpCharFormatter;, escapeString, (Ljava/lang/String;)Ljava/lang/String; >
+	15	forwbranch < 13040, 83640 > 13.487795% taken
+M 175 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mAST_ITEM, (Z)V >
+	30	forwbranch < 0, 2260 > 0.0% taken
+	40	forwbranch < 1760, 500 > 77.87611% taken
+	88	forwbranch < 0, 1760 > 0.0% taken
+	102	forwbranch < 20, 1740 > 1.1363636% taken
+	134	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 40, 20, 0, 0, 40, 0, 40, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 20, 180, 60, 40, 200, 0, 0, 120, 0, 0, 360, 160, 0, 0, 80, 0, 0, 40, 80, 0, 60, 0, 0, 0, 0, 0 >
+	678	forwbranch < 0, 1740 > 0.0% taken
+	688	forwbranch < 0, 1740 > 0.0% taken
+	719	forwbranch < 0, 0 > Never Executed
+	729	forwbranch < 0, 0 > Never Executed
+	739	forwbranch < 0, 0 > Never Executed
+	749	forwbranch < 0, 0 > Never Executed
+	759	forwbranch < 0, 0 > Never Executed
+	769	forwbranch < 0, 0 > Never Executed
+	779	forwbranch < 0, 0 > Never Executed
+	789	forwbranch < 0, 0 > Never Executed
+	799	forwbranch < 0, 0 > Never Executed
+	809	forwbranch < 0, 0 > Never Executed
+	819	forwbranch < 0, 0 > Never Executed
+	869	forwbranch < 1140, 600 > 65.51724% taken
+	884	forwbranch < 1120, 620 > 64.36781% taken
+	902	forwbranch < 0, 20 > 0.0% taken
+	912	forwbranch < 0, 20 > 0.0% taken
+	960	forwbranch < 0, 0 > Never Executed
+	970	forwbranch < 0, 0 > Never Executed
+	983	forwbranch < 0, 0 > Never Executed
+	1035	forwbranch < 0, 0 > Never Executed
+	1085	forwbranch < 0, 0 > Never Executed
+	1100	forwbranch < 0, 0 > Never Executed
+	1137	forwbranch < 2260, 0 > 100.0% taken
+	1141	forwbranch < 0, 0 > Never Executed
+	1146	forwbranch < 0, 0 > Never Executed
+M 102 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mTEXT_ITEM, (Z)V >
+	39	forwbranch < 0, 600 > 0.0% taken
+	49	forwbranch < 600, 0 > 100.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+	121	switch     < 0, 0, 0, 0, 0, 0 >
+	242	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	334	forwbranch < 0, 600 > 0.0% taken
+	344	forwbranch < 600, 0 > 100.0% taken
+	354	forwbranch < 0, 0 > Never Executed
+	374	forwbranch < 0, 0 > Never Executed
+	388	forwbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	408	forwbranch < 0, 0 > Never Executed
+	416	switch     < 0, 0, 0, 0, 0, 0 >
+	538	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	630	forwbranch < 0, 600 > 0.0% taken
+	640	forwbranch < 600, 0 > 100.0% taken
+	654	switch     < 0, 0, 0, 0, 0, 0 >
+	821	forwbranch < 0, 600 > 0.0% taken
+	831	forwbranch < 20, 580 > 3.3333333% taken
+	847	forwbranch < 0, 580 > 0.0% taken
+	857	forwbranch < 560, 20 > 96.55173% taken
+	871	switch     < 0, 0, 0, 0, 20, 0 >
+	1037	forwbranch < 0, 560 > 0.0% taken
+	1047	forwbranch < 560, 0 > 100.0% taken
+	1061	switch     < 0, 0, 0, 0, 0, 0 >
+	1224	forwbranch < 0, 560 > 0.0% taken
+	1234	forwbranch < 0, 560 > 0.0% taken
+	1248	switch     < 0, 0, 0, 0, 560, 0 >
+	1437	forwbranch < 0, 20 > 0.0% taken
+	1447	forwbranch < 0, 20 > 0.0% taken
+	1503	forwbranch < 600, 0 > 100.0% taken
+	1507	forwbranch < 0, 0 > Never Executed
+	1512	forwbranch < 0, 0 > Never Executed
+M 32 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mSTUFF, (Z)V >
+	18	switch     < 480, 100, 0, 32040 >
+	88	forwbranch < 31960, 80 > 99.75031% taken
+	98	forwbranch < 20, 60 > 25.0% taken
+	108	forwbranch < 0, 60 > 0.0% taken
+	126	forwbranch < 31740, 220 > 99.31164% taken
+	136	forwbranch < 0, 220 > 0.0% taken
+	159	forwbranch < 31740, 0 > 100.0% taken
+	169	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 31740, 0 > 100.0% taken
+	226	forwbranch < 0, 0 > Never Executed
+	252	forwbranch < 31740, 0 > 100.0% taken
+	279	forwbranch < 0, 31740 > 0.0% taken
+	318	forwbranch < 32620, 0 > 100.0% taken
+	322	forwbranch < 0, 0 > Never Executed
+	327	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mSTRING, (Z)V >
+	27	forwbranch < 6440, 80 > 98.773% taken
+	49	forwbranch < 700, 5740 > 10.869565% taken
+	68	forwbranch < 700, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mCOMMENT, (Z)V >
+	21	forwbranch < 0, 80 > 0.0% taken
+	31	forwbranch < 20, 60 > 25.0% taken
+	49	forwbranch < 0, 20 > 0.0% taken
+	59	forwbranch < 0, 20 > 0.0% taken
+	96	forwbranch < 80, 0 > 100.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+M 252 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mTREE, (Z)V >
+	72	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 480, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	649	switch     < 0, 0, 0, 0, 0, 560, 0 >
+	769	forwbranch < 560, 940 > 37.333332% taken
+	801	switch     < 0, 0, 0, 0, 240, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 380, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 20, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 0, 20, 0, 20, 20, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1377	switch     < 0, 0, 0, 0, 560, 380, 0 >
+	1540	forwbranch < 60, 500 > 10.714286% taken
+	1544	forwbranch < 0, 500 > 0.0% taken
+	1549	forwbranch < 0, 500 > 0.0% taken
+M 20 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mWS, (Z)V >
+	24	forwbranch < 4400, 240 > 94.82758% taken
+	34	forwbranch < 0, 240 > 0.0% taken
+	63	forwbranch < 3080, 1320 > 70.0% taken
+	82	forwbranch < 1280, 1800 > 41.55844% taken
+	101	forwbranch < 1280, 0 > 100.0% taken
+	124	forwbranch < 1280, 0 > 100.0% taken
+	143	forwbranch < 0, 1280 > 0.0% taken
+	181	forwbranch < 1280, 0 > 100.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 0, 0 > Never Executed
+M 143 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mID, (Z)V >
+	19	switch     < 20, 40, 260, 0, 100, 100, 0, 0, 200, 0, 0, 40, 80, 0, 60, 80, 0, 40, 380, 360, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 40, 320, 80, 80, 280, 0, 20, 260, 0, 0, 360, 280, 0, 0, 160, 0, 20, 140, 100, 0, 100, 0, 0, 0, 0, 0 >
+	331	forwbranch < 4040, 20220 > 16.652927% taken
+	339	switch     < 0, 20, 40, 40, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 480, 180, 320, 520, 940, 240, 120, 20, 920, 20, 320, 480, 180, 460, 380, 480, 0, 540, 700, 760, 180, 20, 0, 60, 120, 0, 0, 0, 0, 0, 300, 0, 880, 220, 500, 560, 1580, 200, 20, 0, 860, 0, 320, 700, 240, 780, 960, 500, 0, 900, 1040, 740, 160, 0, 0, 120, 80, 0, 0 >
+	720	forwbranch < 0, 4040 > 0.0% taken
+	724	forwbranch < 0, 4040 > 0.0% taken
+	729	forwbranch < 0, 4040 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mVAR_ASSIGN, (Z)V >
+	27	forwbranch < 0, 620 > 0.0% taken
+	34	forwbranch < 0, 620 > 0.0% taken
+	44	forwbranch < 0, 620 > 0.0% taken
+	56	forwbranch < 620, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 390 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mAST_CONSTRUCTOR, (Z)V >
+	52	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 100, 60, 0, 0, 60, 0, 0, 0, 60, 0, 20, 40, 0, 0, 40, 100, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	612	switch     < 0, 0, 0, 0, 580, 0, 0 >
+	733	forwbranch < 0, 580 > 0.0% taken
+	747	forwbranch < 0, 580 > 0.0% taken
+	756	forwbranch < 0, 580 > 0.0% taken
+	767	forwbranch < 0, 580 > 0.0% taken
+	799	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 0, 520, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1356	switch     < 0, 0, 0, 0, 0, 580, 0 >
+	1477	forwbranch < 0, 0 > Never Executed
+	1487	forwbranch < 0, 0 > Never Executed
+	1523	switch     < 0, 580, 0 >
+	1577	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	2136	switch     < 0, 0, 0, 0, 0, 0 >
+	2310	forwbranch < 0, 580 > 0.0% taken
+	2345	forwbranch < 580, 0 > 100.0% taken
+	2405	forwbranch < 560, 20 > 96.55173% taken
+	2409	forwbranch < 0, 20 > 0.0% taken
+	2414	forwbranch < 0, 20 > 0.0% taken
+M 135 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mTEXT_ARG, (Z)V >
+	19	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 180, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	538	forwbranch < 580, 620 > 48.333332% taken
+	547	forwbranch < 0, 620 > 0.0% taken
+	558	forwbranch < 0, 620 > 0.0% taken
+	577	forwbranch < 620, 0 > 100.0% taken
+	591	forwbranch < 0, 0 > Never Executed
+	613	forwbranch < 0, 620 > 0.0% taken
+	647	forwbranch < 0, 580 > 0.0% taken
+	685	forwbranch < 0, 580 > 0.0% taken
+	689	forwbranch < 0, 580 > 0.0% taken
+	694	forwbranch < 0, 580 > 0.0% taken
+M 26 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mSL_COMMENT, (Z)V >
+	27	forwbranch < 60, 2760 > 2.1276596% taken
+	37	forwbranch < 2760, 0 > 100.0% taken
+	49	forwbranch < 0, 2760 > 0.0% taken
+	60	forwbranch < 0, 2760 > 0.0% taken
+	69	forwbranch < 0, 2760 > 0.0% taken
+	80	forwbranch < 0, 2760 > 0.0% taken
+	99	forwbranch < 60, 0 > 100.0% taken
+	109	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 60 > 0.0% taken
+	147	forwbranch < 0, 0 > Never Executed
+	189	forwbranch < 60, 0 > 100.0% taken
+	193	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+M 50 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mML_COMMENT, (Z)V >
+	27	forwbranch < 1120, 40 > 96.55173% taken
+	37	forwbranch < 20, 20 > 50.0% taken
+	50	forwbranch < 1140, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 1140, 0 > 100.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	172	forwbranch < 1140, 0 > 100.0% taken
+	181	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	201	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 1140 > 0.0% taken
+	245	forwbranch < 0, 1140 > 0.0% taken
+	254	forwbranch < 0, 1140 > 0.0% taken
+	265	forwbranch < 0, 1140 > 0.0% taken
+	274	forwbranch < 0, 1140 > 0.0% taken
+	285	forwbranch < 0, 1140 > 0.0% taken
+	304	forwbranch < 20, 0 > 100.0% taken
+	308	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+M 59 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mESC, (Z)V >
+	25	switch     < 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	251	forwbranch < 0, 0 > Never Executed
+	261	forwbranch < 0, 0 > Never Executed
+	270	forwbranch < 0, 0 > Never Executed
+	281	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 0, 0 > Never Executed
+	306	forwbranch < 0, 0 > Never Executed
+	315	forwbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	343	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	391	forwbranch < 0, 0 > Never Executed
+	402	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	458	forwbranch < 0, 0 > Never Executed
+	467	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 0, 0 > Never Executed
+	495	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 80, 0 > 100.0% taken
+	567	forwbranch < 0, 0 > Never Executed
+	572	forwbranch < 0, 0 > Never Executed
+M 118 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mTREE_ELEMENT, (Z)V >
+	22	switch     < 0, 820, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 0, 100, 60, 0, 0, 120, 0, 0, 0, 60, 0, 20, 40, 0, 0, 40, 100, 0, 20, 0, 0, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 40, 20, 20, 20, 0, 20, 100, 0, 0, 0, 100, 0, 0, 60, 0, 20, 100, 20, 0, 20, 0, 0, 0, 0, 0 >
+	432	forwbranch < 0, 820 > 0.0% taken
+	442	forwbranch < 760, 60 > 92.68293% taken
+	484	forwbranch < 0, 760 > 0.0% taken
+	494	forwbranch < 280, 480 > 36.842106% taken
+	536	forwbranch < 0, 280 > 0.0% taken
+	550	forwbranch < 0, 280 > 0.0% taken
+	592	forwbranch < 280, 0 > 100.0% taken
+	612	forwbranch < 0, 0 > Never Executed
+	643	forwbranch < 0, 0 > Never Executed
+	653	forwbranch < 0, 0 > Never Executed
+	666	forwbranch < 0, 0 > Never Executed
+	770	forwbranch < 580, 1500 > 27.884615% taken
+	774	forwbranch < 0, 1500 > 0.0% taken
+	779	forwbranch < 0, 1500 > 0.0% taken
+M 26 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mAST_CTOR_ELEMENT, (Z)V >
+	21	forwbranch < 580, 580 > 50.0% taken
+	30	forwbranch < 0, 580 > 0.0% taken
+	41	forwbranch < 0, 580 > 0.0% taken
+	50	forwbranch < 0, 580 > 0.0% taken
+	61	forwbranch < 0, 580 > 0.0% taken
+	83	forwbranch < 0, 580 > 0.0% taken
+	92	forwbranch < 0, 580 > 0.0% taken
+	103	forwbranch < 0, 580 > 0.0% taken
+	121	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 1160 > 0.0% taken
+	172	forwbranch < 0, 1160 > 0.0% taken
+	177	forwbranch < 0, 1160 > 0.0% taken
+M 96 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mTEXT_ARG_ELEMENT, (Z)V >
+	19	switch     < 20, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 180, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0 >
+	463	forwbranch < 620, 0 > 100.0% taken
+	467	forwbranch < 0, 0 > Never Executed
+	472	forwbranch < 0, 0 > Never Executed
+M 419 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mID_ELEMENT, (Z)Z >
+	42	forwbranch < 1460, 0 > 100.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 1460 > 0.0% taken
+	132	switch     < 0, 0, 0, 1460 >
+	185	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 0, 0 > Never Executed
+	208	forwbranch < 0, 0 > Never Executed
+	219	forwbranch < 0, 0 > Never Executed
+	259	forwbranch < 0, 0 > Never Executed
+	268	forwbranch < 0, 0 > Never Executed
+	279	forwbranch < 0, 0 > Never Executed
+	315	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	796	forwbranch < 0, 0 > Never Executed
+	810	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1375	switch     < 0, 0, 0, 0, 0, 0 >
+	1497	forwbranch < 0, 0 > Never Executed
+	1511	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	2044	switch     < 0, 0, 0, 0, 0, 0 >
+	2162	forwbranch < 0, 0 > Never Executed
+	2224	forwbranch < 1460, 0 > 100.0% taken
+	2234	forwbranch < 0, 0 > Never Executed
+	2248	forwbranch < 0, 0 > Never Executed
+	2277	forwbranch < 0, 1460 > 0.0% taken
+	2302	forwbranch < 0, 1460 > 0.0% taken
+	2334	forwbranch < 1460, 0 > 100.0% taken
+	2348	forwbranch < 0, 0 > Never Executed
+	2355	forwbranch < 0, 0 > Never Executed
+	2365	forwbranch < 0, 0 > Never Executed
+	2373	switch     < 0, 0, 0, 0, 0, 0 >
+	2479	forwbranch < 0, 1460 > 0.0% taken
+	2539	forwbranch < 1180, 280 > 80.821915% taken
+	2544	forwbranch < 0, 280 > 0.0% taken
+	2549	forwbranch < 0, 280 > 0.0% taken
+M 187 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mTEXT_ARG_ID_ELEMENT, (Z)V >
+	39	forwbranch < 840, 0 > 100.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 840 > 0.0% taken
+	129	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 580, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	617	forwbranch < 0, 0 > Never Executed
+	631	forwbranch < 0, 0 > Never Executed
+	640	forwbranch < 0, 0 > Never Executed
+	651	forwbranch < 0, 0 > Never Executed
+	691	forwbranch < 0, 0 > Never Executed
+	700	forwbranch < 0, 0 > Never Executed
+	711	forwbranch < 0, 0 > Never Executed
+	753	forwbranch < 0, 0 > Never Executed
+	762	forwbranch < 0, 0 > Never Executed
+	773	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	793	forwbranch < 0, 0 > Never Executed
+	808	backbranch < 0, 0 > Never Executed
+	830	switch     < 0, 0, 0, 0, 0, 0 >
+	953	forwbranch < 0, 0 > Never Executed
+	973	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 0, 0 > Never Executed
+	996	forwbranch < 0, 0 > Never Executed
+	1007	forwbranch < 0, 0 > Never Executed
+	1047	forwbranch < 0, 0 > Never Executed
+	1056	forwbranch < 0, 0 > Never Executed
+	1067	forwbranch < 0, 0 > Never Executed
+	1076	forwbranch < 0, 0 > Never Executed
+	1087	forwbranch < 0, 0 > Never Executed
+	1128	switch     < 0, 0, 0, 0, 0, 0 >
+	1246	forwbranch < 0, 0 > Never Executed
+	1343	forwbranch < 840, 0 > 100.0% taken
+	1347	forwbranch < 0, 0 > Never Executed
+	1352	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mk_tokenSet_0, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mk_tokenSet_1, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mk_tokenSet_2, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mk_tokenSet_7, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/actions/csharp/ActionLexer;, mk_tokenSet_8, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 20 < SystemAppCL, Lantlr/JavaCodeGenerator;, setupGrammarParameters, (Lantlr/Grammar;)V >
+	4	forwbranch < 500, 280 > 64.10256% taken
+	21	forwbranch < 260, 20 > 92.85714% taken
+	33	forwbranch < 0, 20 > 0.0% taken
+	49	forwbranch < 0, 20 > 0.0% taken
+	117	forwbranch < 100, 400 > 20.0% taken
+	182	forwbranch < 0, 100 > 0.0% taken
+	206	forwbranch < 100, 0 > 100.0% taken
+	218	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 0 > Never Executed
+	254	forwbranch < 0, 100 > 0.0% taken
+M 2 < SystemAppCL, Lantlr/JavaCodeGenerator;, exitIfError, ()V >
+	7	forwbranch < 22660, 0 > 100.0% taken
+M 14 < SystemAppCL, Lantlr/JavaCodeGenerator;, genTokenTypes, (Lantlr/TokenManager;)V >
+	129	forwbranch < 1020, 53860 > 1.8586006% taken
+	144	forwbranch < 0, 53860 > 0.0% taken
+	154	forwbranch < 30780, 23080 > 57.148163% taken
+	172	forwbranch < 23080, 0 > 100.0% taken
+	217	forwbranch < 6880, 16200 > 29.809359% taken
+	274	forwbranch < 1300, 5580 > 18.89535% taken
+	370	forwbranch < 0, 30780 > 0.0% taken
+M 18 < SystemAppCL, Lantlr/JavaCodeGenerator;, processActionForSpecialSymbols, (Ljava/lang/String;ILantlr/RuleBlock;Lantlr/ActionTransInfo;)Ljava/lang/String; >
+	1	forwbranch < 0, 9040 > 0.0% taken
+	8	forwbranch < 8440, 600 > 93.36283% taken
+	17	forwbranch < 8440, 0 > 100.0% taken
+	29	forwbranch < 5140, 3300 > 60.900475% taken
+	39	forwbranch < 2500, 800 > 75.757576% taken
+	49	forwbranch < 2140, 3800 > 36.026936% taken
+	59	forwbranch < 2820, 980 > 74.210526% taken
+	69	forwbranch < 0, 980 > 0.0% taken
+	79	forwbranch < 2920, 880 > 76.8421% taken
+M 34 < SystemAppCL, Lantlr/JavaCodeGenerator;, genBlockPreamble, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 9531, 12072 > 44.118874% taken
+	16	forwbranch < 0, 12072 > 0.0% taken
+	29	forwbranch < 12072, 2096 > 85.2061% taken
+	50	forwbranch < 941, 1155 > 44.89504% taken
+	58	forwbranch < 1155, 0 > 100.0% taken
+	66	forwbranch < 0, 0 > Never Executed
+	74	forwbranch < 0, 0 > Never Executed
+	82	forwbranch < 941, 0 > 100.0% taken
+	93	forwbranch < 0, 0 > Never Executed
+	117	forwbranch < 0, 0 > Never Executed
+	178	forwbranch < 0, 0 > Never Executed
+	197	forwbranch < 400, 541 > 42.50797% taken
+	213	forwbranch < 628, 313 > 66.73751% taken
+	257	forwbranch < 880, 61 > 93.51753% taken
+	372	forwbranch < 516, 639 > 44.675323% taken
+	380	forwbranch < 0, 639 > 0.0% taken
+	391	forwbranch < 639, 0 > 100.0% taken
+M 2 < SystemAppCL, Lantlr/JavaCodeGenerator;, genBlockInitAction, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 34180, 700 > 97.99312% taken
+M 114 < SystemAppCL, Lantlr/JavaCodeGenerator;, genCommonBlock, (Lantlr/AlternativeBlock;Z)Lantlr/JavaBlockFinishingInfo; >
+	21	forwbranch < 19260, 0 > 100.0% taken
+	66	forwbranch < 13980, 5280 > 72.58567% taken
+	73	forwbranch < 0, 5280 > 0.0% taken
+	95	forwbranch < 420, 18840 > 2.1806853% taken
+	102	forwbranch < 0, 18840 > 0.0% taken
+	117	forwbranch < 19000, 260 > 98.650055% taken
+	137	forwbranch < 0, 260 > 0.0% taken
+	144	forwbranch < 260, 0 > 100.0% taken
+	173	forwbranch < 260, 0 > 100.0% taken
+	180	forwbranch < 0, 0 > Never Executed
+	237	forwbranch < 260, 0 > 100.0% taken
+	298	forwbranch < 260, 0 > 100.0% taken
+	319	forwbranch < 12660, 6340 > 66.63158% taken
+	334	forwbranch < 6340, 0 > 100.0% taken
+	377	forwbranch < 5600, 740 > 88.32808% taken
+	385	forwbranch < 740, 0 > 100.0% taken
+	426	forwbranch < 18260, 49580 > 26.916273% taken
+	442	forwbranch < 9840, 39740 > 19.846712% taken
+	460	forwbranch < 8020, 10240 > 43.92114% taken
+	480	forwbranch < 8980, 1260 > 87.69531% taken
+	533	forwbranch < 10240, 35680 > 22.299652% taken
+	549	forwbranch < 33560, 2120 > 94.0583% taken
+	572	forwbranch < 33560, 0 > 100.0% taken
+	580	forwbranch < 0, 0 > Never Executed
+	704	forwbranch < 11620, 6640 > 63.636364% taken
+	726	forwbranch < 18260, 40800 > 30.917711% taken
+	733	forwbranch < 40800, 0 > 100.0% taken
+	775	forwbranch < 40800, 121380 > 25.157232% taken
+	790	forwbranch < 121380, 0 > 100.0% taken
+	822	forwbranch < 43940, 77440 > 36.200363% taken
+	830	forwbranch < 8660, 68780 > 11.182851% taken
+	837	forwbranch < 68780, 0 > 100.0% taken
+	862	forwbranch < 6220, 46380 > 11.825095% taken
+	876	forwbranch < 40320, 6060 > 86.93402% taken
+	891	forwbranch < 3180, 58920 > 5.120773% taken
+	905	forwbranch < 43200, 15720 > 73.319756% taken
+	918	forwbranch < 9800, 36580 > 21.129797% taken
+	925	forwbranch < 36580, 0 > 100.0% taken
+	1037	forwbranch < 14960, 1060 > 93.38327% taken
+	1045	forwbranch < 1060, 0 > 100.0% taken
+	1049	forwbranch < 0, 0 > Never Executed
+	1120	forwbranch < 15420, 600 > 96.254684% taken
+	1128	forwbranch < 0, 600 > 0.0% taken
+	1136	forwbranch < 0, 600 > 0.0% taken
+	1140	forwbranch < 520, 80 > 86.666664% taken
+	1173	forwbranch < 15200, 220 > 98.57328% taken
+	1213	forwbranch < 60, 160 > 27.272728% taken
+	1223	forwbranch < 20, 140 > 12.5% taken
+	1233	forwbranch < 200, 0 > 100.0% taken
+	1343	forwbranch < 8400, 7020 > 54.47471% taken
+	1351	forwbranch < 6960, 60 > 99.1453% taken
+	1426	forwbranch < 8040, 360 > 95.71429% taken
+	1450	forwbranch < 7620, 420 > 94.77612% taken
+	1549	forwbranch < 18260, 60 > 99.672485% taken
+	1594	forwbranch < 8020, 10240 > 43.92114% taken
+	1641	forwbranch < 9780, 460 > 95.50781% taken
+	1671	forwbranch < 0, 8020 > 0.0% taken
+M 10 < SystemAppCL, Lantlr/JavaCodeGenerator;, genBlockFinish, (Lantlr/JavaBlockFinishingInfo;Ljava/lang/String;)V >
+	4	forwbranch < 600, 18660 > 3.115265% taken
+	11	forwbranch < 7880, 10780 > 42.229366% taken
+	18	forwbranch < 1000, 9780 > 9.276438% taken
+	25	forwbranch < 9780, 7880 > 55.379387% taken
+	79	forwbranch < 1000, 18260 > 5.192108% taken
+M 12 < SystemAppCL, Lantlr/JavaCodeGenerator;, genMatch, (Lantlr/GrammarAtom;)V >
+	4	forwbranch < 32540, 11740 > 73.4869% taken
+	14	forwbranch < 7400, 4340 > 63.032368% taken
+	37	forwbranch < 22560, 9980 > 69.330055% taken
+	47	forwbranch < 0, 9980 > 0.0% taken
+	92	forwbranch < 0, 22560 > 0.0% taken
+	107	forwbranch < 0, 0 > Never Executed
+M 40 < SystemAppCL, Lantlr/JavaCodeGenerator;, genNextToken, ()V >
+	15	forwbranch < 20, 500 > 3.8461537% taken
+	37	forwbranch < 0, 500 > 0.0% taken
+	49	forwbranch < 120, 380 > 24.0% taken
+	64	forwbranch < 380, 20 > 95.0% taken
+	229	forwbranch < 300, 80 > 78.947365% taken
+	322	forwbranch < 300, 80 > 78.947365% taken
+	334	forwbranch < 40, 40 > 50.0% taken
+	349	forwbranch < 40, 0 > 100.0% taken
+	414	forwbranch < 40, 0 > 100.0% taken
+	467	forwbranch < 40, 0 > 100.0% taken
+	574	forwbranch < 380, 6940 > 5.191257% taken
+	595	forwbranch < 6940, 0 > 100.0% taken
+	717	forwbranch < 300, 80 > 78.947365% taken
+	722	forwbranch < 40, 40 > 50.0% taken
+	940	forwbranch < 300, 80 > 78.947365% taken
+	945	forwbranch < 40, 40 > 50.0% taken
+	979	forwbranch < 40, 340 > 10.526316% taken
+	1043	forwbranch < 300, 80 > 78.947365% taken
+	1048	forwbranch < 40, 40 > 50.0% taken
+	1184	forwbranch < 380, 0 > 100.0% taken
+M 100 < SystemAppCL, Lantlr/JavaCodeGenerator;, genRule, (Lantlr/RuleSymbol;ZI)V >
+	9	forwbranch < 19460, 0 > 100.0% taken
+	50	forwbranch < 19460, 0 > 100.0% taken
+	122	forwbranch < 15660, 3800 > 80.47276% taken
+	130	forwbranch < 160, 3640 > 4.2105265% taken
+	154	forwbranch < 19260, 200 > 98.97225% taken
+	197	forwbranch < 19100, 360 > 98.150055% taken
+	293	forwbranch < 9480, 9980 > 48.715313% taken
+	301	forwbranch < 9920, 60 > 99.398796% taken
+	315	forwbranch < 19200, 260 > 98.663925% taken
+	402	forwbranch < 9980, 9480 > 51.284687% taken
+	422	forwbranch < 1700, 8280 > 17.03407% taken
+	437	forwbranch < 19460, 0 > 100.0% taken
+	447	forwbranch < 0, 0 > Never Executed
+	532	forwbranch < 19100, 360 > 98.150055% taken
+	577	forwbranch < 19460, 0 > 100.0% taken
+	587	forwbranch < 0, 0 > Never Executed
+	666	forwbranch < 11180, 8280 > 57.451183% taken
+	679	forwbranch < 8280, 0 > 100.0% taken
+	742	forwbranch < 19460, 0 > 100.0% taken
+	752	forwbranch < 0, 0 > Never Executed
+	795	forwbranch < 0, 0 > Never Executed
+	835	forwbranch < 0, 19460 > 0.0% taken
+	845	forwbranch < 19460, 0 > 100.0% taken
+	872	forwbranch < 17760, 1700 > 91.26413% taken
+	934	forwbranch < 15660, 3800 > 80.47276% taken
+	1019	forwbranch < 0, 19460 > 0.0% taken
+	1027	forwbranch < 13700, 5760 > 70.400826% taken
+	1056	forwbranch < 3460, 16000 > 17.780062% taken
+	1076	forwbranch < 16000, 0 > 100.0% taken
+	1097	forwbranch < 16000, 0 > 100.0% taken
+	1181	forwbranch < 0, 19460 > 0.0% taken
+	1189	forwbranch < 13700, 5760 > 70.400826% taken
+	1210	forwbranch < 19460, 0 > 100.0% taken
+	1227	forwbranch < 13700, 5760 > 70.400826% taken
+	1280	forwbranch < 5220, 540 > 90.625% taken
+	1314	forwbranch < 1700, 4060 > 29.51389% taken
+	1406	forwbranch < 5220, 540 > 90.625% taken
+	1462	forwbranch < 15660, 3800 > 80.47276% taken
+	1505	forwbranch < 17760, 1700 > 91.26413% taken
+	1520	forwbranch < 19320, 140 > 99.28058% taken
+	1533	forwbranch < 140, 0 > 100.0% taken
+	1554	forwbranch < 11180, 8280 > 57.451183% taken
+	1596	forwbranch < 19100, 360 > 98.150055% taken
+	1653	forwbranch < 0, 19460 > 0.0% taken
+	1663	forwbranch < 19460, 0 > 100.0% taken
+	1700	forwbranch < 0, 0 > Never Executed
+	1710	forwbranch < 0, 0 > Never Executed
+	1753	forwbranch < 0, 0 > Never Executed
+	1793	forwbranch < 0, 0 > Never Executed
+	1803	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/JavaCodeGenerator;, genBitsets, (Lantlr/collections/impl/Vector;I)V >
+	13	forwbranch < 780, 5400 > 12.621359% taken
+M 6 < SystemAppCL, Lantlr/JavaCodeGenerator;, getLookaheadTestExpression, ([Lantlr/Lookahead;I)Ljava/lang/String; >
+	27	forwbranch < 15480, 30320 > 33.799126% taken
+	41	forwbranch < 15480, 14840 > 51.05541% taken
+	62	forwbranch < 27800, 2520 > 91.68865% taken
+M 14 < SystemAppCL, Lantlr/JavaCodeGenerator;, genTokenStrings, ()V >
+	43	forwbranch < 380, 25180 > 1.4866979% taken
+	56	forwbranch < 24420, 760 > 96.981735% taken
+	95	forwbranch < 9980, 15200 > 39.634632% taken
+	105	forwbranch < 760, 14440 > 5.0% taken
+	125	forwbranch < 380, 14060 > 2.631579% taken
+	133	forwbranch < 13160, 900 > 93.59886% taken
+	170	forwbranch < 380, 24800 > 1.5091343% taken
+M 12 < SystemAppCL, Lantlr/JavaCodeGenerator;, genTokenASTNodeMap, ()V >
+	49	forwbranch < 35, 2765 > 1.25% taken
+	65	forwbranch < 70, 2695 > 2.5316455% taken
+	86	forwbranch < 35, 2660 > 1.2987013% taken
+	94	forwbranch < 2660, 0 > 100.0% taken
+	101	forwbranch < 0, 0 > Never Executed
+	165	forwbranch < 0, 35 > 0.0% taken
+M 8 < SystemAppCL, Lantlr/JavaCodeGenerator;, genErrorTryForElement, (Lantlr/AlternativeElement;)V >
+	4	forwbranch < 10040, 49280 > 16.925152% taken
+	20	forwbranch < 2580, 7460 > 25.69721% taken
+	44	forwbranch < 10040, 0 > 100.0% taken
+	72	forwbranch < 10040, 0 > 100.0% taken
+M 24 < SystemAppCL, Lantlr/JavaCodeGenerator;, GenRuleInvocation, (Lantlr/RuleRefElement;)V >
+	34	forwbranch < 27980, 11400 > 71.05129% taken
+	41	forwbranch < 3940, 7460 > 34.561405% taken
+	68	forwbranch < 0, 11400 > 0.0% taken
+	75	forwbranch < 11400, 0 > 100.0% taken
+	99	forwbranch < 33280, 6100 > 84.5099% taken
+	106	forwbranch < 6040, 60 > 99.016396% taken
+	134	forwbranch < 38860, 520 > 98.679535% taken
+	165	forwbranch < 0, 520 > 0.0% taken
+	172	forwbranch < 520, 0 > 100.0% taken
+	249	forwbranch < 520, 0 > 100.0% taken
+	313	forwbranch < 38860, 0 > 100.0% taken
+	374	forwbranch < 33280, 6100 > 84.5099% taken
+M 8 < SystemAppCL, Lantlr/JavaCodeGenerator;, genErrorCatchForElement, (Lantlr/AlternativeElement;)V >
+	4	forwbranch < 10040, 49280 > 16.925152% taken
+	20	forwbranch < 2580, 7460 > 25.69721% taken
+	44	forwbranch < 10040, 0 > 100.0% taken
+	72	forwbranch < 10040, 0 > 100.0% taken
+M 55 < SystemAppCL, Lantlr/JavaCodeGenerator;, genElementAST, (Lantlr/AlternativeElement;)V >
+	7	forwbranch < 10203, 1793 > 85.05335% taken
+	17	forwbranch < 0, 1793 > 0.0% taken
+	24	forwbranch < 179, 1614 > 9.983269% taken
+	131	forwbranch < 4673, 5530 > 45.800255% taken
+	138	forwbranch < 91, 5439 > 1.6455696% taken
+	145	forwbranch < 104, 5335 > 1.9121162% taken
+	152	forwbranch < 343, 4992 > 6.4292407% taken
+	160	forwbranch < 1861, 3131 > 37.279648% taken
+	174	forwbranch < 1917, 3522 > 35.24545% taken
+	181	forwbranch < 1608, 1914 > 45.655876% taken
+	193	forwbranch < 224, 5215 > 4.118404% taken
+	197	forwbranch < 1855, 3360 > 35.57047% taken
+	210	forwbranch < 5076, 363 > 93.32598% taken
+	270	forwbranch < 1910, 3529 > 35.11675% taken
+	277	forwbranch < 0, 3529 > 0.0% taken
+	291	forwbranch < 3529, 0 > 100.0% taken
+	371	forwbranch < 5439, 0 > 100.0% taken
+	412	forwbranch < 2079, 3360 > 38.223938% taken
+	419	forwbranch < 5076, 363 > 93.32598% taken
+	426	forwbranch < 0, 363 > 0.0% taken
+	516	forwbranch < 363, 5076 > 6.674021% taken
+	520	forwbranch < 1910, 3166 > 37.62805% taken
+	533	forwbranch < 0, 3166 > 0.0% taken
+	626	forwbranch < 3166, 0 > 100.0% taken
+	668	forwbranch < 104, 5335 > 1.9121162% taken
+	675	switch     < 1832, 1607, 1896 >
+	767	forwbranch < 2079, 3360 > 38.223938% taken
+M 10 < SystemAppCL, Lantlr/JavaCodeGenerator;, getValueString, (I)Ljava/lang/String; >
+	7	forwbranch < 25180, 20635 > 54.960167% taken
+	39	forwbranch < 25070, 110 > 99.56315% taken
+	72	forwbranch < 14625, 10445 > 58.33666% taken
+	90	forwbranch < 9445, 1000 > 90.42604% taken
+	107	forwbranch < 8590, 855 > 90.94759% taken
+M 6 < SystemAppCL, Lantlr/JavaCodeGenerator;, genErrorHandler, (Lantlr/ExceptionSpec;)V >
+	10	forwbranch < 20, 20 > 50.0% taken
+	78	forwbranch < 0, 20 > 0.0% taken
+	142	forwbranch < 0, 20 > 0.0% taken
+M 14 < SystemAppCL, Lantlr/JavaCodeGenerator;, genBitSet, (Lantlr/collections/impl/BitSet;I)V >
+	42	forwbranch < 1268, 2502 > 33.633953% taken
+	124	forwbranch < 1268, 133842 > 0.93849456% taken
+	134	forwbranch < 4226, 129616 > 3.1574543% taken
+	150	forwbranch < 0, 4226 > 0.0% taken
+	166	forwbranch < 484, 3742 > 11.45291% taken
+	231	forwbranch < 0, 84928 > 0.0% taken
+	245	forwbranch < 484, 84444 > 0.5698945% taken
+M 24 < SystemAppCL, Lantlr/JavaCodeGenerator;, genAlt, (Lantlr/Alternative;Lantlr/AlternativeBlock;)V >
+	10	forwbranch < 17385, 5527 > 75.877266% taken
+	17	forwbranch < 557, 4970 > 10.0778% taken
+	39	forwbranch < 375, 22537 > 1.6366969% taken
+	46	forwbranch < 1636, 20901 > 7.259174% taken
+	78	forwbranch < 22905, 7 > 99.96945% taken
+	109	forwbranch < 22912, 34883 > 39.643566% taken
+	131	forwbranch < 17942, 4970 > 78.30831% taken
+	138	forwbranch < 2420, 2550 > 48.692154% taken
+	154	forwbranch < 121, 2429 > 4.745098% taken
+	204	forwbranch < 121, 2429 > 4.745098% taken
+	214	forwbranch < 2420, 0 > 100.0% taken
+	246	forwbranch < 22905, 7 > 99.96945% taken
+M 8 < SystemAppCL, Lantlr/JavaCodeGenerator;, suitableForCaseExpression, (Lantlr/Alternative;)Z >
+	5	forwbranch < 18720, 145040 > 11.431363% taken
+	12	forwbranch < 80, 144960 > 0.0551572% taken
+	24	forwbranch < 1140, 143820 > 0.78642386% taken
+	41	forwbranch < 1740, 142080 > 1.2098457% taken
+M 2 < SystemAppCL, Lantlr/JavaCodeGenerator;, lookaheadString, (I)Ljava/lang/String; >
+	7	forwbranch < 41560, 1800 > 95.84871% taken
+M 12 < SystemAppCL, Lantlr/JavaCodeGenerator;, genCases, (Lantlr/collections/impl/BitSet;)V >
+	4	forwbranch < 4745, 0 > 100.0% taken
+	50	forwbranch < 3221, 1524 > 67.88198% taken
+	72	forwbranch < 4745, 21091 > 18.365847% taken
+	78	forwbranch < 5456, 15635 > 25.868855% taken
+	136	forwbranch < 6797, 14294 > 32.227016% taken
+	168	forwbranch < 3404, 1341 > 71.73867% taken
+M 8 < SystemAppCL, Lantlr/JavaCodeGenerator;, lookaheadIsEmpty, (Lantlr/Alternative;I)Z >
+	8	forwbranch < 13040, 2980 > 81.398254% taken
+	25	forwbranch < 0, 16020 > 0.0% taken
+	31	forwbranch < 600, 15420 > 3.7453184% taken
+	51	forwbranch < 0, 15420 > 0.0% taken
+M 4 < SystemAppCL, Lantlr/JavaCodeGenerator;, getLookaheadTestExpression, (Lantlr/Alternative;I)Ljava/lang/String; >
+	8	forwbranch < 13040, 2980 > 81.398254% taken
+	20	forwbranch < 15420, 600 > 96.254684% taken
+M 18 < SystemAppCL, Lantlr/JavaCodeGenerator;, genSynPred, (Lantlr/SynPredBlock;Ljava/lang/String;)V >
+	4	forwbranch < 420, 0 > 100.0% taken
+	118	forwbranch < 420, 0 > 100.0% taken
+	237	forwbranch < 420, 0 > 100.0% taken
+	247	forwbranch < 0, 0 > Never Executed
+	257	forwbranch < 0, 0 > Never Executed
+	414	forwbranch < 420, 0 > 100.0% taken
+	498	forwbranch < 420, 0 > 100.0% taken
+	508	forwbranch < 0, 0 > Never Executed
+	518	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lantlr/JavaCodeGenerator;, mapTreeVariable, (Lantlr/AlternativeElement;Ljava/lang/String;)V >
+	4	forwbranch < 15211, 0 > 100.0% taken
+	26	forwbranch < 779, 14432 > 5.121294% taken
+	33	forwbranch < 4769, 9663 > 33.044624% taken
+	51	forwbranch < 4769, 0 > 100.0% taken
+	63	forwbranch < 5548, 9663 > 36.473606% taken
+	74	forwbranch < 9498, 165 > 98.29246% taken
+M 2 < SystemAppCL, Lantlr/JavaCodeGenerator;, genASTDeclaration, (Lantlr/AlternativeElement;Ljava/lang/String;Ljava/lang/String;)V >
+	8	forwbranch < 11020, 1040 > 91.37645% taken
+M 4 < SystemAppCL, Lantlr/JavaCodeGenerator;, getASTCreateString, (Lantlr/GrammarAtom;Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 1160, 10100 > 10.301954% taken
+	8	forwbranch < 10100, 0 > 100.0% taken
+M 18 < SystemAppCL, Lantlr/JavaCodeGenerator;, getASTCreateString, (Ljava/lang/String;)Ljava/lang/String; >
+	1	forwbranch < 11260, 0 > 100.0% taken
+	16	forwbranch < 11260, 71300 > 13.638566% taken
+	26	forwbranch < 70160, 1140 > 98.40112% taken
+	40	forwbranch < 0, 11260 > 0.0% taken
+	62	forwbranch < 10120, 1140 > 89.87566% taken
+	91	forwbranch < 10100, 1160 > 89.698044% taken
+	106	forwbranch < 1140, 20 > 98.27586% taken
+	116	forwbranch < 1160, 0 > 100.0% taken
+	188	forwbranch < 160, 11100 > 1.4209591% taken
+M 18 < SystemAppCL, Lantlr/JavaCodeGenerator;, genMatchUsingAtomText, (Lantlr/GrammarAtom;)V >
+	10	forwbranch < 32820, 4060 > 88.991325% taken
+	24	forwbranch < 22560, 14320 > 61.171368% taken
+	31	forwbranch < 680, 13640 > 4.7486033% taken
+	39	forwbranch < 13640, 0 > 100.0% taken
+	53	forwbranch < 36360, 520 > 98.59002% taken
+	83	forwbranch < 36800, 80 > 99.78308% taken
+	117	forwbranch < 22560, 14320 > 61.171368% taken
+	124	forwbranch < 680, 13640 > 4.7486033% taken
+	132	forwbranch < 13640, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/JavaCodeGenerator;, genMatchUsingAtomTokenType, (Lantlr/GrammarAtom;)V >
+	10	forwbranch < 6080, 1320 > 82.16216% taken
+	58	forwbranch < 7400, 0 > 100.0% taken
+M 22 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/WildcardElement;)V >
+	4	forwbranch < 100, 40 > 71.42857% taken
+	11	forwbranch < 0, 40 > 0.0% taken
+	64	forwbranch < 140, 0 > 100.0% taken
+	84	forwbranch < 0, 140 > 0.0% taken
+	94	forwbranch < 0, 140 > 0.0% taken
+	101	forwbranch < 0, 140 > 0.0% taken
+	109	forwbranch < 140, 0 > 100.0% taken
+	132	forwbranch < 0, 140 > 0.0% taken
+	139	forwbranch < 0, 140 > 0.0% taken
+	147	forwbranch < 140, 0 > 100.0% taken
+	199	forwbranch < 140, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/AlternativeBlock;)V >
+	4	forwbranch < 3052, 0 > 100.0% taken
+	62	forwbranch < 3052, 0 > 100.0% taken
+M 8 < SystemAppCL, Lantlr/JavaCodeGenerator;, mangleLiteral, (Ljava/lang/String;)Ljava/lang/String; >
+	18	forwbranch < 17973, 96759 > 15.665202% taken
+	29	forwbranch < 94455, 2304 > 97.61883% taken
+	39	forwbranch < 180, 2124 > 7.8125% taken
+	81	forwbranch < 17973, 0 > 100.0% taken
+M 10 < SystemAppCL, Lantlr/JavaCodeGenerator;, getLookaheadTestTerm, (ILantlr/collections/impl/BitSet;)Ljava/lang/String; >
+	17	forwbranch < 15042, 1579 > 90.49997% taken
+	36	forwbranch < 15042, 0 > 100.0% taken
+	49	forwbranch < 11466, 3576 > 76.22656% taken
+	111	forwbranch < 11466, 12577 > 47.689556% taken
+	127	forwbranch < 11466, 1111 > 91.16641% taken
+M 2 < SystemAppCL, Lantlr/JavaCodeGenerator;, getRangeExpression, (I[I)Ljava/lang/String; >
+	4	forwbranch < 2660, 0 > 100.0% taken
+M 13 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mACTION, (Z)V >
+	21	switch     < 4160, 900, 153100 >
+	75	forwbranch < 5520, 147580 > 3.6054866% taken
+	89	forwbranch < 0, 5520 > 0.0% taken
+	127	forwbranch < 0, 5520 > 0.0% taken
+	131	forwbranch < 0, 5520 > 0.0% taken
+	136	forwbranch < 0, 5520 > 0.0% taken
+M 6 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, ()V >
+	17	forwbranch < 500, 780 > 39.0625% taken
+	86	forwbranch < 500, 1020 > 32.894737% taken
+	105	forwbranch < 0, 1020 > 0.0% taken
+M 12 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/ActionElement;)V >
+	4	forwbranch < 6800, 0 > 100.0% taken
+	41	forwbranch < 6800, 0 > 100.0% taken
+	66	forwbranch < 4120, 2680 > 60.588234% taken
+	115	forwbranch < 5600, 1200 > 82.35294% taken
+	165	forwbranch < 5600, 1200 > 82.35294% taken
+	313	forwbranch < 4120, 2680 > 60.588234% taken
+M 8 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/CharLiteralElement;)V >
+	4	forwbranch < 9980, 0 > 100.0% taken
+	41	forwbranch < 9980, 0 > 100.0% taken
+	92	forwbranch < 140, 9840 > 1.4028056% taken
+	100	forwbranch < 300, 9540 > 3.0487804% taken
+M 14 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/CharRangeElement;)V >
+	4	forwbranch < 2060, 0 > 100.0% taken
+	11	forwbranch < 0, 0 > Never Executed
+	59	forwbranch < 0, 2060 > 0.0% taken
+	66	forwbranch < 0, 2060 > 0.0% taken
+	74	forwbranch < 2060, 0 > 100.0% taken
+	84	forwbranch < 2060, 0 > 100.0% taken
+	137	forwbranch < 2060, 0 > 100.0% taken
+M 38 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/LexerGrammar;)V >
+	4	forwbranch < 400, 0 > 100.0% taken
+	30	forwbranch < 400, 0 > 100.0% taken
+	274	forwbranch < 400, 0 > 100.0% taken
+	321	forwbranch < 380, 20 > 95.0% taken
+	357	forwbranch < 400, 0 > 100.0% taken
+	376	forwbranch < 0, 0 > Never Executed
+	507	forwbranch < 400, 0 > 100.0% taken
+	526	forwbranch < 0, 0 > Never Executed
+	775	forwbranch < 400, 0 > 100.0% taken
+	866	forwbranch < 400, 0 > 100.0% taken
+	976	forwbranch < 400, 17800 > 2.1978023% taken
+	999	forwbranch < 5840, 11960 > 32.80899% taken
+	1026	forwbranch < 0, 5840 > 0.0% taken
+	1107	forwbranch < 400, 0 > 100.0% taken
+	1138	forwbranch < 0, 0 > Never Executed
+	1158	forwbranch < 0, 0 > Never Executed
+	1231	forwbranch < 400, 8660 > 4.415011% taken
+	1256	forwbranch < 380, 8280 > 4.387991% taken
+	1285	forwbranch < 400, 0 > 100.0% taken
+M 22 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/OneOrMoreBlock;)V >
+	4	forwbranch < 2360, 0 > 100.0% taken
+	52	forwbranch < 2360, 0 > 100.0% taken
+	136	forwbranch < 2360, 0 > 100.0% taken
+	224	forwbranch < 2360, 0 > 100.0% taken
+	266	forwbranch < 2360, 0 > 100.0% taken
+	280	forwbranch < 0, 0 > Never Executed
+	295	forwbranch < 0, 0 > Never Executed
+	314	forwbranch < 2360, 0 > 100.0% taken
+	323	forwbranch < 0, 0 > Never Executed
+	331	forwbranch < 2360, 0 > 100.0% taken
+	338	forwbranch < 0, 0 > Never Executed
+M 44 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/ParserGrammar;)V >
+	4	forwbranch < 280, 0 > 100.0% taken
+	30	forwbranch < 280, 0 > 100.0% taken
+	196	forwbranch < 160, 120 > 57.142857% taken
+	256	forwbranch < 280, 0 > 100.0% taken
+	303	forwbranch < 240, 40 > 85.71429% taken
+	339	forwbranch < 280, 0 > 100.0% taken
+	358	forwbranch < 0, 0 > Never Executed
+	485	forwbranch < 280, 0 > 100.0% taken
+	504	forwbranch < 0, 0 > Never Executed
+	544	forwbranch < 280, 0 > 100.0% taken
+	575	forwbranch < 0, 0 > Never Executed
+	595	forwbranch < 0, 0 > Never Executed
+	738	forwbranch < 280, 0 > 100.0% taken
+	767	forwbranch < 160, 120 > 57.142857% taken
+	935	forwbranch < 280, 0 > 100.0% taken
+	964	forwbranch < 160, 120 > 57.142857% taken
+	1159	forwbranch < 160, 120 > 57.142857% taken
+	1210	forwbranch < 280, 9480 > 2.8688524% taken
+	1230	forwbranch < 0, 9480 > 0.0% taken
+	1251	forwbranch < 9100, 380 > 95.99156% taken
+	1285	forwbranch < 160, 120 > 57.142857% taken
+	1319	forwbranch < 280, 0 > 100.0% taken
+M 65 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/RuleRefElement;)V >
+	4	forwbranch < 39380, 0 > 100.0% taken
+	54	forwbranch < 0, 39380 > 0.0% taken
+	61	forwbranch < 39380, 0 > 100.0% taken
+	120	forwbranch < 39380, 0 > 100.0% taken
+	187	forwbranch < 33280, 6100 > 84.5099% taken
+	194	forwbranch < 6000, 100 > 98.36066% taken
+	201	forwbranch < 0, 100 > 0.0% taken
+	250	forwbranch < 27980, 11400 > 71.05129% taken
+	257	forwbranch < 680, 10720 > 5.9649124% taken
+	265	forwbranch < 10700, 20 > 99.81343% taken
+	282	forwbranch < 37860, 1520 > 96.140175% taken
+	292	forwbranch < 1520, 0 > 100.0% taken
+	383	forwbranch < 11400, 26460 > 30.110935% taken
+	390	forwbranch < 320, 26140 > 1.2093726% taken
+	400	forwbranch < 26120, 20 > 99.92349% taken
+	466	forwbranch < 27980, 11400 > 71.05129% taken
+	473	forwbranch < 680, 10720 > 5.9649124% taken
+	481	forwbranch < 10700, 20 > 99.81343% taken
+	494	forwbranch < 380, 39000 > 0.9649568% taken
+	504	forwbranch < 27120, 11880 > 69.53846% taken
+	514	forwbranch < 1340, 10540 > 11.279461% taken
+	521	forwbranch < 880, 9660 > 8.349146% taken
+	528	forwbranch < 1340, 9660 > 12.181818% taken
+	536	forwbranch < 480, 9180 > 4.968944% taken
+	546	forwbranch < 28940, 10060 > 74.20513% taken
+	556	forwbranch < 27980, 11020 > 71.74359% taken
+	563	forwbranch < 10120, 900 > 91.83303% taken
+	610	forwbranch < 28540, 10460 > 73.17949% taken
+	617	switch     < 9940, 0, 520 >
+	674	forwbranch < 27660, 11340 > 70.92308% taken
+	681	forwbranch < 3880, 7460 > 34.215168% taken
+	712	forwbranch < 28940, 10060 > 74.20513% taken
+M 12 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/StringLiteralElement;)V >
+	4	forwbranch < 11120, 0 > 100.0% taken
+	42	forwbranch < 10820, 300 > 97.302155% taken
+	49	forwbranch < 0, 300 > 0.0% taken
+	105	forwbranch < 300, 10820 > 2.6978416% taken
+	113	forwbranch < 3100, 7720 > 28.650646% taken
+	141	forwbranch < 10420, 700 > 93.70503% taken
+M 10 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/TokenRefElement;)V >
+	4	forwbranch < 19940, 0 > 100.0% taken
+	45	forwbranch < 19940, 0 > 100.0% taken
+	67	forwbranch < 18400, 1540 > 92.27683% taken
+	74	forwbranch < 20, 1520 > 1.2987013% taken
+	137	forwbranch < 18500, 1440 > 92.778336% taken
+M 16 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/TreeElement;)V >
+	40	forwbranch < 3220, 20 > 99.38271% taken
+	94	forwbranch < 3240, 0 > 100.0% taken
+	138	forwbranch < 3240, 0 > 100.0% taken
+	189	forwbranch < 3240, 0 > 100.0% taken
+	246	forwbranch < 3240, 0 > 100.0% taken
+	284	forwbranch < 3240, 3240 > 50.0% taken
+	301	forwbranch < 3240, 10020 > 24.43439% taken
+	332	forwbranch < 3240, 0 > 100.0% taken
+M 20 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/TreeWalkerGrammar;)V >
+	12	forwbranch < 100, 0 > 100.0% taken
+	189	forwbranch < 100, 0 > 100.0% taken
+	242	forwbranch < 80, 20 > 80.0% taken
+	278	forwbranch < 100, 0 > 100.0% taken
+	297	forwbranch < 0, 0 > Never Executed
+	424	forwbranch < 100, 0 > 100.0% taken
+	443	forwbranch < 0, 0 > Never Executed
+	609	forwbranch < 100, 1700 > 5.5555553% taken
+	629	forwbranch < 0, 1700 > 0.0% taken
+	650	forwbranch < 1500, 200 > 88.23529% taken
+M 20 < SystemAppCL, Lantlr/JavaCodeGenerator;, gen, (Lantlr/ZeroOrMoreBlock;)V >
+	4	forwbranch < 1085, 0 > 100.0% taken
+	53	forwbranch < 1085, 0 > 100.0% taken
+	140	forwbranch < 1085, 0 > 100.0% taken
+	182	forwbranch < 1070, 15 > 98.61751% taken
+	196	forwbranch < 15, 0 > 100.0% taken
+	211	forwbranch < 0, 0 > Never Executed
+	230	forwbranch < 1070, 15 > 98.61751% taken
+	239	forwbranch < 0, 15 > 0.0% taken
+	247	forwbranch < 1070, 15 > 98.61751% taken
+	254	forwbranch < 15, 0 > 100.0% taken
+M 4 < SystemAppCL, Lantlr/JavaCodeGenerator;, getASTCreateString, (Lantlr/collections/impl/Vector;)Ljava/lang/String; >
+	4	forwbranch < 1140, 0 > 100.0% taken
+	72	forwbranch < 1140, 2660 > 30.0% taken
+M 32 < SystemAppCL, Lantlr/JavaCodeGenerator;, mapTreeId, (Ljava/lang/String;Lantlr/ActionTransInfo;)Ljava/lang/String; >
+	4	forwbranch < 5680, 0 > 100.0% taken
+	21	forwbranch < 5380, 300 > 94.71831% taken
+	31	forwbranch < 0, 300 > 0.0% taken
+	45	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 0, 0 > Never Executed
+	98	forwbranch < 3760, 11540 > 24.575163% taken
+	128	forwbranch < 9620, 1920 > 83.36222% taken
+	132	forwbranch < 1920, 0 > 100.0% taken
+	184	forwbranch < 3320, 440 > 88.297874% taken
+	192	forwbranch < 440, 0 > 100.0% taken
+	253	forwbranch < 440, 0 > 100.0% taken
+	303	forwbranch < 160, 280 > 36.363636% taken
+	345	forwbranch < 1220, 2100 > 36.746986% taken
+	349	forwbranch < 2080, 20 > 99.04762% taken
+	400	forwbranch < 0, 2100 > 0.0% taken
+	404	forwbranch < 20, 2080 > 0.95238096% taken
+M 34 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mAST_ITEM, (Z)V >
+	30	forwbranch < 0, 4160 > 0.0% taken
+	40	forwbranch < 3080, 1080 > 74.03846% taken
+	88	forwbranch < 0, 3080 > 0.0% taken
+	102	forwbranch < 20, 3060 > 0.64935064% taken
+	164	forwbranch < 0, 3060 > 0.0% taken
+	196	forwbranch < 1880, 1180 > 61.43791% taken
+	211	forwbranch < 1860, 1200 > 60.784313% taken
+	229	forwbranch < 0, 20 > 0.0% taken
+	239	forwbranch < 0, 20 > 0.0% taken
+	287	forwbranch < 0, 0 > Never Executed
+	297	forwbranch < 0, 0 > Never Executed
+	355	forwbranch < 0, 0 > Never Executed
+	378	forwbranch < 0, 0 > Never Executed
+	393	forwbranch < 0, 0 > Never Executed
+	430	forwbranch < 4160, 0 > 100.0% taken
+	434	forwbranch < 0, 0 > Never Executed
+	439	forwbranch < 0, 0 > Never Executed
+M 102 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mTEXT_ITEM, (Z)V >
+	39	forwbranch < 0, 900 > 0.0% taken
+	49	forwbranch < 900, 0 > 100.0% taken
+	59	forwbranch < 0, 0 > Never Executed
+	79	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 0 > Never Executed
+	102	forwbranch < 0, 0 > Never Executed
+	113	forwbranch < 0, 0 > Never Executed
+	121	switch     < 0, 0, 0, 0, 0, 0 >
+	242	forwbranch < 0, 0 > Never Executed
+	266	forwbranch < 0, 0 > Never Executed
+	334	forwbranch < 0, 900 > 0.0% taken
+	344	forwbranch < 900, 0 > 100.0% taken
+	354	forwbranch < 0, 0 > Never Executed
+	374	forwbranch < 0, 0 > Never Executed
+	388	forwbranch < 0, 0 > Never Executed
+	397	forwbranch < 0, 0 > Never Executed
+	408	forwbranch < 0, 0 > Never Executed
+	416	switch     < 0, 0, 0, 0, 0, 0 >
+	538	forwbranch < 0, 0 > Never Executed
+	562	forwbranch < 0, 0 > Never Executed
+	630	forwbranch < 0, 900 > 0.0% taken
+	640	forwbranch < 900, 0 > 100.0% taken
+	654	switch     < 0, 0, 0, 0, 0, 0 >
+	821	forwbranch < 0, 900 > 0.0% taken
+	831	forwbranch < 120, 780 > 13.333333% taken
+	847	forwbranch < 0, 780 > 0.0% taken
+	857	forwbranch < 720, 60 > 92.30769% taken
+	871	switch     < 0, 0, 0, 0, 60, 0 >
+	1037	forwbranch < 0, 720 > 0.0% taken
+	1047	forwbranch < 720, 0 > 100.0% taken
+	1061	switch     < 0, 0, 0, 0, 0, 0 >
+	1224	forwbranch < 0, 720 > 0.0% taken
+	1234	forwbranch < 0, 720 > 0.0% taken
+	1248	switch     < 0, 0, 0, 0, 720, 0 >
+	1437	forwbranch < 0, 120 > 0.0% taken
+	1447	forwbranch < 0, 120 > 0.0% taken
+	1503	forwbranch < 900, 0 > 100.0% taken
+	1507	forwbranch < 0, 0 > Never Executed
+	1512	forwbranch < 0, 0 > Never Executed
+M 28 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mSTUFF, (Z)V >
+	18	switch     < 2198, 236, 0, 100780 >
+	88	forwbranch < 100472, 308 > 99.69438% taken
+	98	forwbranch < 14, 294 > 4.5454545% taken
+	108	forwbranch < 0, 294 > 0.0% taken
+	126	forwbranch < 100430, 42 > 99.9582% taken
+	136	forwbranch < 0, 42 > 0.0% taken
+	159	forwbranch < 100430, 0 > 100.0% taken
+	173	forwbranch < 0, 0 > Never Executed
+	199	forwbranch < 100430, 0 > 100.0% taken
+	226	forwbranch < 0, 100430 > 0.0% taken
+	265	forwbranch < 103214, 0 > 100.0% taken
+	269	forwbranch < 0, 0 > Never Executed
+	274	forwbranch < 0, 0 > Never Executed
+M 10 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mSTRING, (Z)V >
+	27	forwbranch < 14260, 100 > 99.30362% taken
+	49	forwbranch < 1500, 12760 > 10.518934% taken
+	68	forwbranch < 1500, 0 > 100.0% taken
+	72	forwbranch < 0, 0 > Never Executed
+	77	forwbranch < 0, 0 > Never Executed
+M 14 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mCOMMENT, (Z)V >
+	21	forwbranch < 0, 440 > 0.0% taken
+	31	forwbranch < 20, 420 > 4.5454545% taken
+	49	forwbranch < 0, 20 > 0.0% taken
+	59	forwbranch < 0, 20 > 0.0% taken
+	96	forwbranch < 440, 0 > 100.0% taken
+	100	forwbranch < 0, 0 > Never Executed
+	105	forwbranch < 0, 0 > Never Executed
+M 252 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mTREE, (Z)V >
+	72	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 880, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	642	switch     < 0, 0, 0, 0, 0, 1140, 0 >
+	761	forwbranch < 1140, 1520 > 42.857143% taken
+	793	switch     < 0, 260, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 540, 0, 0, 500, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 20, 0, 0, 0, 0, 60, 0, 0, 0, 0, 0, 0, 20, 0, 20, 20, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1362	switch     < 0, 0, 0, 0, 1140, 380, 0 >
+	1524	forwbranch < 60, 1080 > 5.263158% taken
+	1528	forwbranch < 0, 1080 > 0.0% taken
+	1533	forwbranch < 0, 1080 > 0.0% taken
+M 143 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mID, (Z)V >
+	19	switch     < 100, 60, 320, 0, 180, 260, 0, 0, 260, 0, 0, 40, 80, 0, 60, 200, 0, 40, 580, 520, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60, 100, 560, 200, 280, 560, 20, 20, 380, 0, 0, 440, 300, 80, 0, 460, 60, 20, 240, 160, 0, 200, 40, 0, 0, 0, 0 >
+	331	forwbranch < 6920, 39560 > 14.8881235% taken
+	339	switch     < 0, 80, 120, 100, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 680, 740, 520, 920, 1240, 480, 240, 40, 1400, 20, 600, 780, 260, 880, 900, 740, 0, 1160, 880, 1180, 300, 140, 0, 120, 260, 0, 0, 0, 0, 0, 860, 0, 1680, 500, 940, 820, 2940, 460, 140, 40, 2360, 0, 760, 1300, 540, 2000, 2460, 740, 0, 2060, 1680, 1520, 460, 0, 0, 300, 200, 0, 0 >
+	720	forwbranch < 0, 6920 > 0.0% taken
+	724	forwbranch < 0, 6920 > 0.0% taken
+	729	forwbranch < 0, 6920 > 0.0% taken
+M 20 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mWS, (Z)V >
+	24	forwbranch < 6580, 0 > 100.0% taken
+	34	forwbranch < 0, 0 > Never Executed
+	63	forwbranch < 4400, 2180 > 66.8693% taken
+	82	forwbranch < 2420, 1980 > 55.0% taken
+	101	forwbranch < 2420, 0 > 100.0% taken
+	124	forwbranch < 2160, 260 > 89.256195% taken
+	143	forwbranch < 0, 2160 > 0.0% taken
+	181	forwbranch < 2160, 0 > 100.0% taken
+	185	forwbranch < 0, 0 > Never Executed
+	190	forwbranch < 0, 0 > Never Executed
+M 12 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mVAR_ASSIGN, (Z)V >
+	27	forwbranch < 0, 1200 > 0.0% taken
+	34	forwbranch < 0, 1200 > 0.0% taken
+	44	forwbranch < 0, 1200 > 0.0% taken
+	56	forwbranch < 1200, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	65	forwbranch < 0, 0 > Never Executed
+M 390 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mAST_CONSTRUCTOR, (Z)V >
+	52	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 20, 140, 0, 180, 200, 0, 0, 100, 0, 0, 0, 60, 0, 20, 160, 0, 0, 60, 100, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	612	switch     < 0, 0, 0, 0, 1140, 20, 0 >
+	733	forwbranch < 20, 1140 > 1.7241379% taken
+	747	forwbranch < 0, 1140 > 0.0% taken
+	756	forwbranch < 0, 1140 > 0.0% taken
+	767	forwbranch < 0, 1140 > 0.0% taken
+	799	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 180, 0, 960, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1356	switch     < 0, 0, 0, 0, 0, 1140, 0 >
+	1477	forwbranch < 0, 20 > 0.0% taken
+	1487	forwbranch < 0, 20 > 0.0% taken
+	1523	switch     < 0, 1160, 0 >
+	1577	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	2136	switch     < 0, 0, 0, 0, 0, 0 >
+	2303	forwbranch < 20, 1140 > 1.7241379% taken
+	2338	forwbranch < 1160, 0 > 100.0% taken
+	2398	forwbranch < 1140, 20 > 98.27586% taken
+	2402	forwbranch < 0, 20 > 0.0% taken
+	2407	forwbranch < 0, 20 > 0.0% taken
+M 135 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mTEXT_ARG, (Z)V >
+	19	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 180, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 420, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0 >
+	538	forwbranch < 780, 820 > 48.75% taken
+	547	forwbranch < 0, 820 > 0.0% taken
+	558	forwbranch < 0, 820 > 0.0% taken
+	577	forwbranch < 820, 0 > 100.0% taken
+	591	forwbranch < 0, 0 > Never Executed
+	613	forwbranch < 0, 820 > 0.0% taken
+	647	forwbranch < 0, 780 > 0.0% taken
+	685	forwbranch < 0, 780 > 0.0% taken
+	689	forwbranch < 0, 780 > 0.0% taken
+	694	forwbranch < 0, 780 > 0.0% taken
+M 26 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mSL_COMMENT, (Z)V >
+	27	forwbranch < 420, 16680 > 2.4561403% taken
+	37	forwbranch < 16680, 0 > 100.0% taken
+	49	forwbranch < 0, 16680 > 0.0% taken
+	60	forwbranch < 0, 16680 > 0.0% taken
+	69	forwbranch < 0, 16680 > 0.0% taken
+	80	forwbranch < 0, 16680 > 0.0% taken
+	99	forwbranch < 420, 0 > 100.0% taken
+	109	forwbranch < 0, 0 > Never Executed
+	128	forwbranch < 0, 420 > 0.0% taken
+	147	forwbranch < 0, 0 > Never Executed
+	189	forwbranch < 420, 0 > 100.0% taken
+	193	forwbranch < 0, 0 > Never Executed
+	198	forwbranch < 0, 0 > Never Executed
+M 50 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mML_COMMENT, (Z)V >
+	27	forwbranch < 1120, 40 > 96.55173% taken
+	37	forwbranch < 20, 20 > 50.0% taken
+	50	forwbranch < 1140, 0 > 100.0% taken
+	60	forwbranch < 0, 0 > Never Executed
+	69	forwbranch < 0, 0 > Never Executed
+	80	forwbranch < 0, 0 > Never Executed
+	109	forwbranch < 1140, 0 > 100.0% taken
+	118	forwbranch < 0, 0 > Never Executed
+	129	forwbranch < 0, 0 > Never Executed
+	138	forwbranch < 0, 0 > Never Executed
+	149	forwbranch < 0, 0 > Never Executed
+	172	forwbranch < 1140, 0 > 100.0% taken
+	181	forwbranch < 0, 0 > Never Executed
+	192	forwbranch < 0, 0 > Never Executed
+	201	forwbranch < 0, 0 > Never Executed
+	212	forwbranch < 0, 0 > Never Executed
+	234	forwbranch < 0, 1140 > 0.0% taken
+	245	forwbranch < 0, 1140 > 0.0% taken
+	254	forwbranch < 0, 1140 > 0.0% taken
+	265	forwbranch < 0, 1140 > 0.0% taken
+	274	forwbranch < 0, 1140 > 0.0% taken
+	285	forwbranch < 0, 1140 > 0.0% taken
+	304	forwbranch < 20, 0 > 100.0% taken
+	308	forwbranch < 0, 0 > Never Executed
+	313	forwbranch < 0, 0 > Never Executed
+M 59 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mESC, (Z)V >
+	25	switch     < 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0 >
+	251	forwbranch < 0, 0 > Never Executed
+	261	forwbranch < 0, 0 > Never Executed
+	270	forwbranch < 0, 0 > Never Executed
+	281	forwbranch < 0, 0 > Never Executed
+	296	forwbranch < 0, 0 > Never Executed
+	306	forwbranch < 0, 0 > Never Executed
+	315	forwbranch < 0, 0 > Never Executed
+	326	forwbranch < 0, 0 > Never Executed
+	343	forwbranch < 0, 0 > Never Executed
+	354	forwbranch < 0, 0 > Never Executed
+	391	forwbranch < 0, 0 > Never Executed
+	402	forwbranch < 0, 0 > Never Executed
+	448	forwbranch < 0, 0 > Never Executed
+	458	forwbranch < 0, 0 > Never Executed
+	467	forwbranch < 0, 0 > Never Executed
+	478	forwbranch < 0, 0 > Never Executed
+	495	forwbranch < 0, 0 > Never Executed
+	506	forwbranch < 0, 0 > Never Executed
+	563	forwbranch < 100, 0 > 100.0% taken
+	567	forwbranch < 0, 0 > Never Executed
+	572	forwbranch < 0, 0 > Never Executed
+M 114 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mTREE_ELEMENT, (Z)V >
+	22	switch     < 0, 1780, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80, 20, 140, 0, 180, 200, 0, 0, 160, 0, 0, 0, 60, 0, 20, 160, 0, 0, 60, 100, 0, 40, 0, 0, 0, 0, 260, 0, 0, 0, 0, 0, 20, 0, 40, 20, 20, 20, 0, 20, 100, 0, 0, 0, 100, 0, 0, 60, 0, 20, 100, 20, 0, 20, 0, 0, 0, 0, 0 >
+	432	forwbranch < 0, 1780 > 0.0% taken
+	442	forwbranch < 1720, 60 > 96.62921% taken
+	484	forwbranch < 0, 1720 > 0.0% taken
+	494	forwbranch < 840, 880 > 48.837208% taken
+	536	forwbranch < 0, 840 > 0.0% taken
+	550	forwbranch < 0, 840 > 0.0% taken
+	592	forwbranch < 840, 0 > 100.0% taken
+	638	forwbranch < 0, 0 > Never Executed
+	648	forwbranch < 0, 0 > Never Executed
+	731	forwbranch < 1160, 2660 > 30.366491% taken
+	735	forwbranch < 0, 2660 > 0.0% taken
+	740	forwbranch < 0, 2660 > 0.0% taken
+M 26 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mAST_CTOR_ELEMENT, (Z)V >
+	21	forwbranch < 1160, 1140 > 50.434784% taken
+	30	forwbranch < 0, 1140 > 0.0% taken
+	41	forwbranch < 0, 1140 > 0.0% taken
+	50	forwbranch < 0, 1140 > 0.0% taken
+	61	forwbranch < 0, 1140 > 0.0% taken
+	83	forwbranch < 0, 1160 > 0.0% taken
+	92	forwbranch < 0, 1160 > 0.0% taken
+	103	forwbranch < 0, 1160 > 0.0% taken
+	121	forwbranch < 0, 0 > Never Executed
+	131	forwbranch < 0, 0 > Never Executed
+	168	forwbranch < 0, 2300 > 0.0% taken
+	172	forwbranch < 0, 2300 > 0.0% taken
+	177	forwbranch < 0, 2300 > 0.0% taken
+M 96 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mTEXT_ARG_ELEMENT, (Z)V >
+	19	switch     < 20, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 180, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 420, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 20, 0, 0, 0, 0, 0 >
+	463	forwbranch < 820, 0 > 100.0% taken
+	467	forwbranch < 0, 0 > Never Executed
+	472	forwbranch < 0, 0 > Never Executed
+M 421 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mID_ELEMENT, (Z)Z >
+	42	forwbranch < 2620, 0 > 100.0% taken
+	56	forwbranch < 0, 0 > Never Executed
+	96	forwbranch < 0, 2620 > 0.0% taken
+	132	switch     < 0, 0, 0, 0, 0, 1140, 0, 0, 1460, 0, 0, 0, 0, 0, 20, 0 >
+	281	forwbranch < 0, 0 > Never Executed
+	295	forwbranch < 0, 0 > Never Executed
+	304	forwbranch < 0, 0 > Never Executed
+	315	forwbranch < 0, 0 > Never Executed
+	355	forwbranch < 0, 0 > Never Executed
+	364	forwbranch < 0, 0 > Never Executed
+	375	forwbranch < 0, 0 > Never Executed
+	411	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	892	forwbranch < 0, 0 > Never Executed
+	906	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	1471	switch     < 0, 0, 0, 0, 0, 0 >
+	1593	forwbranch < 0, 0 > Never Executed
+	1607	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	2140	switch     < 0, 0, 0, 0, 0, 0 >
+	2258	forwbranch < 0, 0 > Never Executed
+	2362	forwbranch < 2620, 0 > 100.0% taken
+	2376	forwbranch < 0, 0 > Never Executed
+	2383	forwbranch < 0, 0 > Never Executed
+	2393	forwbranch < 0, 0 > Never Executed
+	2401	switch     < 0, 0, 0, 0, 0, 0 >
+	2507	forwbranch < 0, 2620 > 0.0% taken
+	2564	forwbranch < 1780, 840 > 67.938934% taken
+	2569	forwbranch < 0, 840 > 0.0% taken
+	2574	forwbranch < 0, 840 > 0.0% taken
+M 187 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mTEXT_ARG_ID_ELEMENT, (Z)V >
+	39	forwbranch < 1240, 0 > 100.0% taken
+	53	forwbranch < 0, 0 > Never Executed
+	93	forwbranch < 0, 1240 > 0.0% taken
+	129	switch     < 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 740, 0, 0, 0, 0, 460, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 >
+	617	forwbranch < 40, 0 > 100.0% taken
+	631	forwbranch < 0, 0 > Never Executed
+	640	forwbranch < 0, 0 > Never Executed
+	651	forwbranch < 0, 0 > Never Executed
+	691	forwbranch < 0, 40 > 0.0% taken
+	700	forwbranch < 0, 40 > 0.0% taken
+	711	forwbranch < 0, 40 > 0.0% taken
+	753	forwbranch < 40, 0 > 100.0% taken
+	762	forwbranch < 0, 0 > Never Executed
+	773	forwbranch < 0, 0 > Never Executed
+	782	forwbranch < 0, 0 > Never Executed
+	793	forwbranch < 0, 0 > Never Executed
+	808	backbranch < 0, 0 > Never Executed
+	830	switch     < 0, 0, 0, 0, 40, 0 >
+	953	forwbranch < 0, 0 > Never Executed
+	973	forwbranch < 0, 0 > Never Executed
+	987	forwbranch < 0, 0 > Never Executed
+	996	forwbranch < 0, 0 > Never Executed
+	1007	forwbranch < 0, 0 > Never Executed
+	1047	forwbranch < 0, 0 > Never Executed
+	1056	forwbranch < 0, 0 > Never Executed
+	1067	forwbranch < 0, 0 > Never Executed
+	1076	forwbranch < 0, 0 > Never Executed
+	1087	forwbranch < 0, 0 > Never Executed
+	1128	switch     < 0, 0, 0, 0, 0, 0 >
+	1246	forwbranch < 0, 0 > Never Executed
+	1329	forwbranch < 1240, 0 > 100.0% taken
+	1333	forwbranch < 0, 0 > Never Executed
+	1338	forwbranch < 0, 0 > Never Executed
+M 2 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mk_tokenSet_0, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mk_tokenSet_1, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mk_tokenSet_2, ()[J >
+	15	forwbranch < 1, 3 > 25.0% taken
+M 2 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mk_tokenSet_7, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 2 < SystemAppCL, Lantlr/actions/java/ActionLexer;, mk_tokenSet_8, ()[J >
+	21	forwbranch < 1, 2 > 33.333332% taken
+M 6 < SystemAppCL, Ldacapo/FileDigest;, getText, (Ljava/io/File;ZLjava/io/File;)[B >
+	29	forwbranch < 20, 4060 > 0.49019608% taken
+	33	forwbranch < 0, 4060 > 0.0% taken
+	88	forwbranch < 4060, 242860 > 1.6442573% taken
+M 2 < SystemAppCL, Ldacapo/FileDigest;, replaceAllFixed, (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; >
+	12	forwbranch < 12180, 1500 > 89.03509% taken
+M 8 < BootstrapCL, Ljava/security/Security;, loadProviders, (Ljava/lang/String;Ljava/lang/String;)Z >
+	1	forwbranch < 0, 2 > 0.0% taken
+	5	forwbranch < 2, 0 > 100.0% taken
+	122	forwbranch < 0, 0 > Never Executed
+	189	backbranch < 0, 0 > Never Executed
+M 6 < BootstrapCL, Ljava/security/Security;, <clinit>, ()V >
+	44	forwbranch < 0, 1 > 0.0% taken
+	48	forwbranch < 0, 1 > 0.0% taken
+	57	forwbranch < 0, 1 > 0.0% taken
+M 26 < BootstrapCL, Lgnu/java/security/Engine;, getInstance, (Ljava/lang/String;Ljava/lang/String;Ljava/security/Provider;[Ljava/lang/Object;)Ljava/lang/Object; >
+	1	forwbranch < 20, 0 > 100.0% taken
+	23	forwbranch < 20, 0 > 100.0% taken
+	37	forwbranch < 20, 0 > 100.0% taken
+	59	forwbranch < 20, 0 > 100.0% taken
+	73	forwbranch < 20, 0 > 100.0% taken
+	87	forwbranch < 20, 0 > 100.0% taken
+	167	forwbranch < 3160, 20 > 99.37107% taken
+	218	forwbranch < 3140, 20 > 99.36709% taken
+	235	forwbranch < 0, 20 > 0.0% taken
+	247	forwbranch < 20, 0 > 100.0% taken
+	311	backbranch < 3180, 0 > 100.0% taken
+	316	forwbranch < 20, 0 > 100.0% taken
+	440	forwbranch < 20, 0 > 100.0% taken
+M 10 < BootstrapCL, Lgnu/java/security/Engine;, getCompatibleConstructor, (Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/reflect/Constructor; >
+	23	forwbranch < 20, 0 > 100.0% taken
+	39	forwbranch < 0, 0 > Never Executed
+	57	forwbranch < 0, 0 > Never Executed
+	71	backbranch < 0, 20 > 0.0% taken
+	84	backbranch < 20, 0 > 100.0% taken
+M 12 < BootstrapCL, Lgnu/java/security/hash/Sha160;, sha, (IIIII[BI)[I >
+	91	backbranch < 36592, 2287 > 94.117645% taken
+	164	backbranch < 146368, 2287 > 98.46154% taken
+	247	backbranch < 45740, 2287 > 95.2381% taken
+	326	backbranch < 45740, 2287 > 95.2381% taken
+	414	backbranch < 45740, 2287 > 95.2381% taken
+	493	backbranch < 45740, 2287 > 95.2381% taken
+M 6 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, ([BII)V >
+	39	forwbranch < 0, 21 > 0.0% taken
+	99	backbranch < 0, 21 > 0.0% taken
+	108	forwbranch < 21, 0 > 100.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, reset, ()V >
+	25	backbranch < 1344, 21 > 98.46154% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/BaseHash;, update, (B)V >
+	36	forwbranch < 239073, 3790 > 98.43945% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, padBuffer, ()[B >
+	13	forwbranch < 0, 21 > 0.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/hash/Sha160;, selfTest, ()Z >
+	3	forwbranch < 19, 1 > 95.0% taken
+M 2 < BootstrapCL, Lgnu/java/security/util/Util;, toString, ([BII)Ljava/lang/String; >
+	63	backbranch < 20, 1 > 95.2381% taken
