@@ -442,7 +442,7 @@ Java_moma_MomaThread_shimOverheadSoftSampling(JNIEnv * env, jobject obj, jint ra
   print_freq(myjshim);
 }
 
-#define DUMP_IPC_TIMELINE
+//#define DUMP_IPC_TIMELINE
 
 JNIEXPORT void JNICALL
 Java_moma_MomaThread_shimOverheadIPCHistogram(JNIEnv * env, jobject obj, jint rate)
